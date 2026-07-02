@@ -1,0 +1,9 @@
+source_id,topic,claim_or_metric,claim_type,source_tier,publisher_or_issuer,analyst_or_author,document_title,publication_date,data_period,currency_unit,source_path_or_url,access_date,confidence,valuation_method,target_price_or_range,rating,valuation_multiple_or_key_assumption,absolute_value,percentage_value,percentage_denominator,calculation_formula,notes_or_formula
+S1,Disclosure,"生益科技2025年年度报告在上交所公告列表中披露",Fact,Primary,上海证券交易所,,生益科技2025年年度报告,2026-04-25,FY2025,n/a,https://query.sse.com.cn/security/stock/queryCompanyBulletin.do,2026-07-02,High,,,,,,,,"PDF正文当前环境未能稳定下载解析"
+S2,Disclosure,"生益科技2026年第一季度报告在上交所公告列表中披露",Fact,Primary,上海证券交易所,,生益科技2026年第一季度报告,2026-04-29,2026Q1,n/a,https://query.sse.com.cn/security/stock/queryCompanyBulletin.do,2026-07-02,High,,,,,,,,"PDF正文当前环境未能稳定下载解析"
+S3,Disclosure,"生益科技关于投资建设高性能覆铜板项目的公告在上交所公告列表中披露",Fact,Primary,上海证券交易所,,生益科技关于投资建设高性能覆铜板项目的公告,2026-04-25,2026,n/a,https://query.sse.com.cn/security/stock/queryCompanyBulletin.do,2026-07-02,High,,,,,,,,"项目投资额、产能、周期待PDF正文核验"
+S4,Business,"公司官网产品体系覆盖FR-4、CEM、高TG、无卤、高频高速、HDI、封装载板、挠性材料等电子材料方向",Fact,Primary,生益科技,,公司官网产品中心,not verified,current,n/a,https://www.syst.com.cn/,2026-07-02,Medium,,,,,,,,"官网页面可见产品分类；需与年报主营业务表核对"
+S5,Company IR,"公司官网公告列表包含2025年年度报告、2026年第一季度报告等公告下载入口",Fact,Primary,生益科技,,公司公告列表,multiple,current,n/a,https://www.syst.com.cn/cn/gsgg/list_45.aspx,2026-07-02,Medium,,,,,,,,"下载接口当前未能通过网页工具打开PDF正文"
+S6,Institution valuation,"未取得可核验机构目标价、评级、估值倍数或盈利预测",Limitation,Secondary/Unavailable,Multiple,,n/a,2026-07-02,current,n/a,n/a,2026-07-02,High,,,,,,,,"需要券商研报原文或Wind/Choice/Bloomberg/FactSet导出"
+S7,Valuation framework,"估值应区分普通CCL周期材料与高频高速/高性能CCL成长材料",Judgment,Derived,Codex,,Derived analysis,2026-07-02,6-12 months,n/a,n/a,2026-07-02,Medium,SOTP / scenario framework,,,,,,,"基于业务逻辑；非目标价"
+S8,Risk framework,"高性能覆铜板项目若扩产先于订单和现金流兑现，会导致FCF和ROIC承压",Judgment,Derived,Codex,,Derived analysis,2026-07-02,6-12 months,n/a,n/a,2026-07-02,Medium,,,,,,,,"需补项目投资额、capex/收入、OCF/净利润"
