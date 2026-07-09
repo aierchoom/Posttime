@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Posttime">
+  <rect width="96" height="96" rx="18" fill="#0f172a"/>
+  <path d="M24 23h34c9 0 15 6 15 14s-6 14-15 14H40v22H24V23Zm16 14v1h16c1 0 2 0 2-1s-1-1-2-1H40Z" fill="#f8fafc"/>
+  <path d="M46 58h27v15H46V58Z" fill="#38a58d"/>
+</svg>
