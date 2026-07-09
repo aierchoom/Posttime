@@ -1,4 +1,5 @@
 :root {
+  --vp-layout-max-width: 1660px;
   --vp-c-brand-1: #146c5c;
   --vp-c-brand-2: #1c7f6b;
   --vp-c-brand-3: #38a58d;
@@ -20,13 +21,43 @@
   --archive-soft: #101418;
 }
 
-.VPDoc.has-aside .content-container {
-  max-width: 860px;
-}
-
 .archive-shell {
   color: var(--archive-ink);
   padding: 24px 0 56px;
+}
+
+@media (min-width: 1280px) {
+  .VPDoc.has-aside .container {
+    max-width: 1480px;
+  }
+
+  .VPDoc.has-aside .content {
+    flex: 1 1 auto;
+    max-width: none;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .VPDoc.has-aside .content-container {
+    max-width: 1020px !important;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .VPDoc.has-aside .aside {
+    width: 280px;
+    padding-left: 28px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .VPDoc.has-aside .container {
+    max-width: 1660px;
+  }
+
+  .VPDoc.has-aside .content-container {
+    max-width: 1120px !important;
+  }
 }
 
 .archive-masthead {
