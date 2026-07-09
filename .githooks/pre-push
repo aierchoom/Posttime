@@ -1,0 +1,15 @@
+#!/usr/bin/env sh
+set -eu
+
+echo "Running VitePress build before push..."
+
+if command -v npm >/dev/null 2>&1; then
+  npm run docs:build
+elif command -v npm.cmd >/dev/null 2>&1; then
+  npm.cmd run docs:build
+else
+  echo "npm was not found; cannot run docs:build." >&2
+  exit 1
+fi
+
+echo "VitePress build passed."
