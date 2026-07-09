@@ -10,11 +10,11 @@
 
 ## 投资结论
 
-**核心判断：** AI 板块已从“模型发布驱动的主题行情”进入“AI 工厂资本开支、算力硬件瓶颈、云平台收入、应用 ROI 共同验证”的阶段；未来 6-12 个月一阶受益仍集中在上游瓶颈链条：GPU/ASIC、HBM、先进封装、光通信/网络、PCB/高端材料、电力和液冷。应用层仍要优先看真实收入确认、续费、推理毛利率和 ROI。
+**核心判断：** AI 板块已从“模型发布驱动的主题行情”进入“AI 工厂资本开支、算力硬件瓶颈、云平台收入、应用 ROI 共同验证”的阶段；未来 6-12 个月一阶受益仍集中在上游瓶颈链条：GPU/ASIC、HBM、先进封装、光通信/网络、PCB/高端材料、电力和液冷。进一步下沉看，EDA/IP、SerDes/retimer、ABF/载板、探针卡/测试设备、连接器/高速铜缆、热界面材料、特气/湿化学品、变压器/开关柜/母线槽、模块化机房和数据中心运维服务是容易被漏掉的二阶龙头池；应用层仍要优先看真实收入确认、续费、推理毛利率和 ROI。
 
 **市场可能误判的地方：** 第一，AI 不是一个单一行业，上游硬件、中游云模型和下游应用的盈利节奏完全不同；第二，不能把“有 AI 概念”直接等同于业绩弹性，真正受益需要订单、认证、扩产、量产或收入确认；第三，当前部分硬件链条股价和估值已高度前置，若 hyperscaler capex 降速，硬件会先回撤，应用层则可能在后周期补涨。
 
-**最受益的产业链环节和公司：** 一阶看已收入确认或规格升级明确的上游硬件：NVIDIA/AMD、Broadcom/Marvell、TSMC、SK Hynix/Micron/Samsung、Coherent/Lumentum/Innolight/Eoptolink、Vertiv/Schneider/Eaton、台光电/建滔积层板、生益科技、胜宏科技、沪电股份、深南电路、大族激光。二阶看云平台与模型商业化：Microsoft、Google、Amazon、Meta、Oracle、OpenAI、Anthropic、国内阿里、腾讯、百度、字节、华为生态。三阶看应用和端侧：Adobe、Salesforce、ServiceNow、Palantir、金山办公、科大讯飞、用友网络、AI PC/手机、智能驾驶和机器人链条。
+**最受益的产业链环节和公司：** 一阶看已收入确认或规格升级明确的上游硬件：NVIDIA/AMD、Broadcom/Marvell、TSMC、SK Hynix/Micron/Samsung、Coherent/Lumentum/Innolight/Eoptolink、Vertiv/Schneider/Eaton、台光电/建滔积层板、生益科技、胜宏科技、沪电股份、深南电路、大族激光。二阶旁支龙头池看 Cadence/Synopsys/Siemens EDA、Arm、Astera Labs、Amphenol/TE Connectivity/Molex、Ibiden/Unimicron/Shinko、FormFactor/Advantest/Teradyne、Entegris/Merck KGaA/Linde/Air Liquide、Legrand、Belden、nVent、Modine、Johnson Controls、Quanta、Wiwynn、Supermicro 等“卖铲子”环节。三阶看云平台、模型商业化、应用和端侧：Microsoft、Google、Amazon、Meta、Oracle、OpenAI、Anthropic、国内阿里、腾讯、百度、字节、华为生态、Adobe、Salesforce、ServiceNow、Palantir、金山办公、科大讯飞、用友网络、AI PC/手机、智能驾驶和机器人链条。
 
 **关键百分比变化：** NVIDIA FY2027 Q1 数据中心收入 752 亿美元，同比 +92%，其中数据中心网络收入 148 亿美元，同比 +199%；Broadcom FY2026 Q2 AI 半导体收入 108 亿美元，同比 +143%，并指引 Q3 AI 半导体收入 160 亿美元、同比超过 +200%；Microsoft FY2026 Q3 披露 AI business 年化收入 run rate 超过 370 亿美元，同比 +123%，Azure 和其他云服务收入 +40%；TSMC 2026Q1 实际收入 359 亿美元，并指引 2026Q2 收入 390-402 亿美元、毛利率 65.5%-67.5%；Micron HBM3E 页面披露 36GB 12-high HBM3E 已具 production-capable 状态、带宽超过 1.2TB/s、功耗较竞争方案低约 30%；IEA 预计全球数据中心用电到 2030 年约 945TWh、较当前翻倍以上，AI-optimized data centres 用电预计增长超过 4 倍。
 
@@ -29,6 +29,7 @@
 | 投资观点 | 中性偏积极观察，但分层很重要 | 上游硬件和基础设施收入兑现最强，应用层仍需 ROI 和利润验证 |
 | 适合阶段 | 跟踪观察 / 财报验证 / 订单验证 | 2026 年从训练算力扩张转向训练+推理+agentic AI+物理 AI 的全链条验证 |
 | 重点观察环节 | AI 芯片/ASIC、HBM、CoWoS/先进封装、光通信/交换芯片/CPO、PCB/CCL/玻纤/铜箔、电力/液冷、云 AI 收入 | 已有一手财报、产品规格或本地报告确认增长 |
+| 旁支龙头池 | EDA/IP、retimer/PCIe/CXL、探针卡/测试设备、ABF/载板、连接器/高速铜缆、特气/化学品、模块化机房、母线槽/开关柜/变压器、数据中心运维服务 | 多为产品页、财报或产业链映射证据；没有订单/收入占比时只列观察 |
 | 观察价格/估值区间 | 不给统一板块价格。硬件链条适合在 FY2 PE 回落至 25-40x 且 EPS 未下修时观察；应用层适合看 AI ARR 与毛利率，而非只看用户数 | 跨市场、跨币种、跨商业模式，缺少统一估值分母 |
 | 提高关注触发条件 | 云厂商 capex 未下修 + 订单/认证/产能利用率验证 + 毛利率稳定 + 估值未进一步透支 + 现金流未恶化 | NVIDIA、Broadcom、TSMC、Microsoft、PCB/材料链中报 |
 | 分层观察对象 | 一阶：硬件瓶颈与数据中心基础设施；二阶：云和模型平台；三阶：应用、端侧、机器人和数据服务 | 按收入确认和议价权排序 |
@@ -49,7 +50,7 @@
 | 上游核心瓶颈 | HBM容量/带宽、CoWoS封装、rack-scale互联、电力和液冷决定AI工厂交付能力 | Micron HBM3E >1.2TB/s；GB200 NVL72 576TB/s GPU memory bandwidth、130TB/s NVLink bandwidth | HBM出货、先进封装产能、液冷交付 |
 | 核心成长驱动力 | Hyperscaler capex 和 AI 收入双轮驱动 | Microsoft AI run-rate >370 亿美元，+123% | 云收入、AI ARR、RPO |
 | 量产节奏 | GPU/HBM/光模块/PCB 已收入确认，CPO/玻璃基板/HBM4/机器人仍在验证或早期商业化 | TSMC Q2 指引 390-402 亿美元 | TSMC、NVIDIA、Broadcom |
-| 前沿方向与遗漏风险 | ASIC、CPO、液冷、HBM4、端侧 AI、机器人、AI 安全是下一轮扫描重点 | 部分仍无 A 股收入分母 | 客户认证和收入确认 |
+| 前沿方向与遗漏风险 | ASIC、CPO、液冷、HBM4、端侧 AI、机器人、AI 安全，以及 EDA/IP、连接器、测试、特气、母线槽和模块化机房等旁支卖铲子环节是下一轮扫描重点 | 部分仍无 A 股收入分母 | 客户认证和收入确认 |
 | 投资风险 | capex 放缓、电力并网和散热约束是最大反方情景 | IEA 预计全球数据中心用电到2030年约945TWh、较当前翻倍以上 | 电力、并网、PUE、CFO |
 | 受益公司 | 海外龙头收入确认更强，A/H 股更适合分层跟踪 | 建滔积层板 2025 主业占比 99.14%，AI 玻纤/铜箔受益明确 | 本地 01888、PCB、玻璃基板报告 |
 
@@ -86,6 +87,10 @@
 | Agentic AI / 企业软件 | 从助手到流程自动化 | Microsoft AI run-rate、NVIDIA agentic AI 工具 | 收入确认早期 | Microsoft、ServiceNow、Palantir、Salesforce、金山办公、科大讯飞 | 是 | ROI 和毛利率待验证 |
 | 机器人 / 物理 AI | 模型从数字世界进入制造和驾驶 | NVIDIA Edge/physical AI 路线 | 验证 / 商业化早期 | NVIDIA、Tesla、优必选、汇川、绿的谐波、鸣志电器 | 待跟踪 | 量产与盈利仍早 |
 | AI 安全 / 数据治理 | 企业落地需要合规、权限和数据质量 | 云平台和软件公司产品线 | 商业化 | CrowdStrike、Palo Alto、Snowflake、Databricks、启明星辰等 | 待跟踪 | A 股收入分母不清晰 |
+| EDA/IP 与设计服务 | Custom ASIC、chiplet 和国产替代拉长芯片设计链条 | 龙头产品平台、客户设计复杂度、授权/订阅收入 | 收入确认 | Cadence、Synopsys、Siemens EDA、Arm、Alchip、世芯、创意电子、华大九天、概伦电子 | 是 | 国内工具收入体量和高端客户验证需核实 |
+| 连接器/高速铜缆/retimer | 机柜内 scale-up 网络从电互连走到光互联前，铜缆、连接器和信号完整性芯片先受益 | 产品页、客户导入、PCIe/CXL/以太网代际升级 | 商业化 | Amphenol、TE Connectivity、Molex、Astera Labs、Credo、Parade、谱瑞-KY | 是 | 单一客户和代际切换风险高 |
+| 测试测量/探针卡 | HBM、chiplet、先进封装提高测试时长和良率管理难度 | 测试设备/探针卡订单、封测 capex | 商业化 | Advantest、Teradyne、FormFactor、MPI、长川科技、华峰测控 | 是 | 若扩产降速或良率快速改善，设备弹性回落 |
+| 特气/化学品/热管理材料 | 先进制程、HBM、CoWoS 和液冷都消耗专用材料 | 公司材料组合、客户认证、产能扩张 | 商业化 | Entegris、Merck KGaA、Linde、Air Liquide、富士胶片、雅克科技、安集科技、联瑞新材 | 待跟踪 | 多数公司 AI 收入分母不透明 |
 
 ### 1.4 遗漏风险表
 
@@ -96,6 +101,7 @@
 | 电力和并网项目 | 地方项目分散 | 低估电力约束和设备弹性 | 电网公告、数据中心 PPA、变压器订单 | 云厂商新建园区获批 |
 | 数据、标注与合成数据 | 非上市公司多 | 漏掉应用前置环节 | 合同、客户案例、融资 | ARR 或大客户合同披露 |
 | AI 应用真实 ROI | 厂商披露偏营销 | 过早定价应用层利润 | 客户续费率、席位数、毛利率 | SaaS 财报披露 AI ARR |
+| 旁支硬件龙头 | 只看 GPU/光模块/PCB 主链 | 漏掉连接器、母线槽、测试、特气、EDA/IP 的利润弹性 | 公司产品页、10-K/年报、客户认证、订单或分部收入 | 新平台量产、云厂商机柜标准变化、封测 capex 上修 |
 
 ## 2. 需求驱动与下游影响
 
@@ -117,8 +123,11 @@
 | 晶圆代工与设备 | 3nm/2nm、先进制程、EUV、EDA、先进封装设备 | TSMC、Samsung、ASML、Applied、Lam、Tokyo Electron、中微公司、北方华创、华大九天 | 制程、良率、资本开支、生态 | 高，周期和管制并存 | S4 |
 | HBM/存储 | HBM3E/HBM4、DDR5、NAND、存储控制 | SK Hynix、Micron、Samsung、澜起科技、聚辰股份 | 堆叠、良率、TSV、封装协同 | 高，供给紧张时利润弹性大 | S1、S4 |
 | 先进封装 | CoWoS、SoIC、2.5D/3D、玻璃基板、载板 | TSMC、ASE、Amkor、Ibiden、Unimicron、深南电路、兴森科技 | 良率、翘曲、客户认证、产能 | 高，但扩产周期长 | S4、S8 |
-| 网络与光通信 | 交换 ASIC、800G/1.6T 模块、DSP、硅光、CPO | Broadcom、NVIDIA、Coherent、Lumentum、中际旭创、新易盛、天孚通信、光迅科技 | 高速信号、良率、封装和客户认证 | 高，网络成为 AI cluster 瓶颈 | S1、S5 |
+| 网络与光通信 | 交换 ASIC、800G/1.6T 模块、DSP、硅光、CPO、retimer、AEC/ACC、高速连接器 | Broadcom、NVIDIA、Coherent、Lumentum、Astera Labs、Credo、Amphenol、TE Connectivity、中际旭创、新易盛、天孚通信、光迅科技 | 高速信号、良率、封装和客户认证 | 高，网络成为 AI cluster 瓶颈 | S1、S5、S14、S15 |
 | PCB 和材料 | 高多层 PCB、HDI、CCL、铜箔、Low-Dk 玻纤、硅微粉 | 胜宏科技、沪电股份、深南电路、生益科技、建滔积层板、台光电、联瑞新材、大族激光 | 材料低损耗、高层数、良率、设备 | 高，但估值前置 | S7、S9 |
+| EDA/IP与设计服务 | EDA软件、IP授权、验证、ASIC设计服务 | Cadence、Synopsys、Siemens EDA、Arm、Alchip、世芯-KY、创意电子、华大九天、概伦电子 | 工具链、IP生态、客户导入和出口管制 | 中高，受 custom ASIC 和国产替代拉动 | S12、S13 |
+| 测试测量与封测耗材 | ATE、探针卡、插座、老化测试、检测量测 | Advantest、Teradyne、FormFactor、MPI、长川科技、华峰测控、精测电子 | 测试程序、探针寿命、高频高速可靠性 | 中高，随 HBM/chiplet 测试复杂度上升 | 待补 |
+| 电力细分与模块化机房 | 变压器、开关柜、母线槽、PDU、备用电源、预制模块、服务运维 | Schneider、Vertiv、Eaton、Legrand、ABB、Siemens、nVent、Modine、Johnson Controls、英维克、科华数据、申菱环境 | 并网、交付、认证、运维服务网络 | 高，受数据中心功率密度和交付周期驱动 | S6、S11、S16 |
 | 云平台和模型 | IaaS/PaaS、模型训练、推理 API、MaaS | Microsoft、Google、AWS、Meta、Oracle、OpenAI、Anthropic、阿里、腾讯、百度、字节 | 资本、数据、模型、分发和生态 | 中高，收入确认开始但成本高 | S3 |
 | 应用和终端 | Copilot、企业 agent、AI 搜索、办公、设计、代码、机器人、汽车 | Microsoft、Adobe、ServiceNow、Palantir、Salesforce、金山办公、科大讯飞、Tesla、优必选 | 场景、数据、工作流、付费和毛利率 | 分化大，需看 ARR 和续费 | S3、S1 |
 
@@ -134,6 +143,10 @@
 | 光通信 / 交换芯片 / CPO | 大规模集群训练和推理会被通信瓶颈限制，800G/1.6T和CPO影响能耗与带宽 | 网络收入、交换ASIC代际、800G/1.6T订单、CPO样机和量产 | NVIDIA、Broadcom、Coherent、Lumentum | 中际旭创、新易盛、天孚通信、光迅科技 | 高：NVIDIA网络收入+199%，Broadcom AI半导体高增 | 客户库存、ASP下滑、CPO量产延期 |
 | PCB / CCL / 玻纤 / 铜箔 | 高速高频信号和高层数板要求低损耗材料，AI服务器和交换机提升材料ASP | 服务器/数据存储PCB增速、高端CCL毛利率、Low-Dk玻纤、铜箔涨价传导 | 台光电、建滔积层板、Isola、Panasonic | 生益科技、建滔积层板、沪电股份、胜宏科技、深南电路 | 中高：本地PCB/建滔报告已归档 | 材料涨价无法传导、估值前置 |
 | 电力 / 液冷 / 数据中心基础设施 | 单柜功率密度上升后，供电、并网、UPS、配电和液冷从配套变成前置约束 | 数据中心用电、PUE、液冷渗透率、订单/交期、并网审批 | Vertiv、Schneider、Eaton、Siemens、ABB | 英维克、科华数据、申菱环境、数据港、润泽科技 | 中高：IEA已给2030用电量化，项目级订单仍待补 | 项目延期、并网慢、客户自建压价 |
+| EDA / IP / ASIC设计服务 | Custom ASIC、chiplet和国产替代把设计复杂度转化为工具/IP/服务需求 | 订阅收入、IP授权、design win、客户 tape-out 数量 | Cadence、Synopsys、Siemens EDA、Arm、Alchip | 华大九天、概伦电子、广立微、芯原股份 | 中：产品/平台明确，AI收入分母需补 | 出口管制、客户自研、国内替代周期长 |
+| 连接器 / 高速铜缆 / Retimer | 机柜内高速互联从电连接到光连接过渡，连接器和信号完整性芯片价值量上升 | PCIe/CXL代际、AEC/ACC订单、高速连接器ASP、客户认证 | Amphenol、TE Connectivity、Molex、Astera Labs、Credo | 沃尔核材、兆龙互连、鼎通科技、立讯精密等需逐项验证 | 中：产品映射强，收入归因需补 | 规格切换、客户集中、铜到光替代 |
+| 测试测量 / 探针卡 / 老化 | HBM和先进封装增加测试时间、良率筛查和可靠性验证 | ATE订单、探针卡出货、封测capex、测试时长 | Advantest、Teradyne、FormFactor、MPI | 长川科技、华峰测控、精测电子、伟测科技 | 中：逻辑强，AI专属订单缺口大 | 扩产节奏放慢、国产验证周期长 |
+| 特气 / 化学品 / 热管理材料 | 先进制程、HBM、CoWoS、液冷和高端PCB都消耗专用材料 | 客户认证、材料单耗、价格、产能利用率 | Entegris、Merck KGaA、Linde、Air Liquide、Fujifilm | 雅克科技、安集科技、联瑞新材、飞凯材料 | 中：多为间接受益 | AI收入分母不透明、周期品价格波动 |
 
 ### 3.2 上游板块的二阶弹性
 
@@ -144,6 +157,28 @@
 | 光模块链 | EML/硅光、DSP、光芯片、连接器、散热 | 800G到1.6T升级会抬高光电芯片和器件价值量 | 1.6T订单、DSP供应、CPO试点 | CPO若推迟，传统可插拔库存风险上升 |
 | PCB材料链 | Low-Dk玻纤、低轮廓铜箔、高速树脂、硅微粉 | 材料涨价和高端占比提升能抬毛利率，但传导有滞后 | 高端CCL毛利率、铜箔/玻纤价格、客户结构 | 价格上涨若不能传导到下游，会压制PCB厂利润 |
 | 电力液冷链 | CDU、冷板、泵阀、UPS、配电柜、变压器 | 单MW设备价值量上升，且并网周期可能推高供应商议价 | 液冷订单、交付周期、PUE、并网批复 | 地方项目分散，缺少大客户订单时只做主题跟踪 |
+| EDA/IP链 | AI辅助EDA、IP授权、验证、ASIC设计服务 | custom ASIC客户数量增加时，工具/IP和设计服务可能先受益 | RPO、订阅续费、design win、tape-out | 出口管制和国产替代带来结构性分化，不能简单外推 |
+| 连接器/铜缆链 | 高速背板连接器、AEC/ACC、retimer、PAM4 DSP | 1.6T/CPO完全放量前，机柜内电互联仍有迭代窗口 | PCIe/CXL代际、AEC/ACC订单、客户认证 | CPO或光I/O加速替代时，传统铜连接弹性下降 |
+| 测试耗材链 | ATE、探针卡、socket、老化设备、量测检测 | HBM/chiplet提高测试复杂度，封测capex会传导到设备耗材 | 测试时长、探针卡ASP、封测厂capex | 订单通常滞后且周期性强 |
+| 特气化学品链 | 高纯气体、光刻胶配套、湿电子化学品、CMP、底部填充/热界面材料 | 单片晶圆和封装材料复杂度提升，但AI收入归因最难 | 客户认证、产能利用率、材料价格 | 只能作为旁支观察，不能替代主链订单 |
+
+### 3.3 旁支末节龙头观察池
+
+**判断：** 旁支公司的共同特点是“离 GPU 较远、离交付瓶颈很近”。它们不一定拥有最高的 AI 叙事弹性，但常常拥有更稳定的卖铲子属性；研究时要用订单、客户认证、分部收入或库存周期过滤，不能只靠“服务数据中心”四个字纳入主线。
+
+| 旁支环节 | 海外龙头 | A/H/台股映射 | 为什么重要 | 优先验证指标 | 当前处理 |
+|---|---|---|---|---|---|
+| EDA/IP | Cadence、Synopsys、Siemens EDA、Arm | 华大九天、概伦电子、广立微、芯原股份 | AI ASIC、chiplet、HBM控制器和高速接口都需要设计工具/IP | RPO、订阅续费、design win、客户 tape-out | 纳入二阶 |
+| ASIC设计服务 | Alchip、世芯-KY、创意电子、Global Unichip | 芯原股份、灿芯股份 | 云厂商自研芯片增加设计服务外包需求 | NRE收入、量产分成、客户集中度 | 纳入二阶 |
+| Retimer/CXL/PCIe | Astera Labs、Rambus、Credo、Parade | 澜起科技、谱瑞-KY | GPU、CPU、存储和NIC之间的高速互联需要信号完整性芯片 | PCIe/CXL代际、客户导入、库存 | 纳入二阶 |
+| 连接器/高速铜缆 | Amphenol、TE Connectivity、Molex、Samtec | 立讯精密、沃尔核材、兆龙互连、鼎通科技 | rack-scale互联带来背板连接器、AEC/ACC、线缆和散热件价值量 | 800G/1.6T订单、AEC/ACC认证、海外大客户占比 | 纳入二阶 |
+| 探针卡/ATE/socket | Advantest、Teradyne、FormFactor、MPI | 长川科技、华峰测控、精测电子、伟测科技 | HBM、chiplet和高速IO提高测试复杂度和测试时长 | 封测capex、探针卡ASP、设备验收周期 | 纳入二阶 |
+| ABF/载板/封装材料 | Ibiden、Unimicron、Shinko、Ajinomoto、Namics | 深南电路、兴森科技、珠海越亚 | GPU/ASIC封装面积扩大，ABF和底部填充材料成为交付条件 | ABF产能、客户认证、价格和良率 | 纳入二阶 |
+| 特气/化学品/CMP | Entegris、Merck KGaA、Linde、Air Liquide、Fujifilm | 雅克科技、安集科技、江化微、鼎龙股份 | 先进制程和先进封装材料复杂度提升 | 客户认证、产能利用率、价格 | 待跟踪 |
+| 热界面材料/冷板/CDU | Vertiv、CoolIT、Boyd、nVent、Modine | 英维克、申菱环境、飞荣达、银轮股份 | 高功率密度机柜需要冷板、CDU、歧管和泄漏监测 | 液冷订单、良率、交付周期、PUE | 纳入二阶 |
+| 重电/配电 | Schneider、Eaton、ABB、Siemens、Legrand | 特变电工、金盘科技、伊戈尔、明阳电气、良信股份 | 数据中心并网、变压器、开关柜、母线槽从后台变为前置约束 | 订单、交期、毛利率、并网批复 | 纳入二阶 |
+| 模块化机房/运维服务 | Vertiv、Schneider、Legrand、Johnson Controls | 数据港、润泽科技、奥飞数据、科华数据 | AI园区交付需要预制模块、运维和服务网络 | 机柜上架率、MW交付、PUE、客户合同 | 待跟踪 |
+| 服务器ODM和整机 | Quanta、Wiwynn、Foxconn、Supermicro、Dell、HPE | 工业富联、浪潮信息、中科曙光 | 将GPU/ASIC变成可交付系统，库存和毛利率最敏感 | 服务器收入、存货、毛利率、客户集中 | 纳入二阶但警惕低毛利 |
 
 ## 4. 核心难点与卡点
 
@@ -177,6 +212,9 @@
 | HBM容量和带宽升级 | 已确认规格 | Micron HBM3E产品页 | HBM、先进封装、AI GPU/ASIC | 36GB 12-high、>1.2TB/s带宽、功耗约低30% | HBM收入占比、客户份额、价格周期 |
 | PCB/材料高景气 | 已有本地报告确认 | PCB、建滔积层板报告 | PCB、CCL、玻纤、铜箔 | 服务器及数据存储 PCB 2025E +46.3%；建滔 AI 玻纤利润 +70% | 2026H1 持续性 |
 | 玻璃基板 | 已确认方向，商业化待验证 | 玻璃基板报告 | 先进封装 | Intel 称 10x 互连密度潜力 | 客户量产和收入确认 |
+| EDA/IP与设计服务 | 方向已确认，收入需逐家公司验证 | Cadence/Synopsys等产品平台、本地国产EDA公司公告待补 | Custom ASIC、chiplet、国产替代 | 暂不引用统一量化指标 | RPO、订阅续费、客户tape-out |
+| 连接器/retimer/AEC | 方向已确认，订单需补 | Astera/Amphenol等产品页 | 机柜内互联、scale-up网络 | 暂不引用统一量化指标 | 800G/1.6T客户认证、库存周期 |
+| 测试/探针卡/特气 | 产业逻辑强，AI收入分母不清 | 封测和材料公司公告待补 | HBM、CoWoS、先进制程 | 暂不引用统一量化指标 | 封测capex、客户认证、材料价格 |
 
 ## 6. 核心成长驱动力
 
@@ -188,6 +226,7 @@
 | 高端材料瓶颈 | 高速高频要求提升 | CCL、铜箔、玻纤、硅微粉 | 高端材料 ASP x 高端占比 | 高端材料毛利率维持高位 | ASP、毛利率、产能 | 供给过剩 |
 | 电力和液冷 | 功率密度提高 | UPS、变压器、液冷、IDC | MW 建设 x 单 MW 设备价值 | 电力设备交期延长利好订单 | 订单、交期、PUE | 并网延迟 |
 | AI 应用商业化 | 模型嵌入工作流 | SaaS、办公、设计、代码、客服 | 付费席位 x ARPU x 毛利率 | ARR 高增且毛利稳定 | AI ARR、续费率 | 客户不续费 |
+| 旁支卖铲子 | 设计复杂度、互联复杂度、测试复杂度和供电散热复杂度共同上升 | EDA/IP、retimer、连接器、测试设备、特气化学品、重电和模块化机房 | design win或capex x 认证率 x 订单兑现率 | 只能按子环节跟踪，不给统一百分比 | RPO、订单、认证、库存、毛利率 | 没有AI收入分母或客户认证 |
 
 ## 7. 受益公司映射
 
@@ -204,6 +243,13 @@
 | 大族激光 | 002008 | PCB/封装设备 | 激光钻孔、设备、半导体设备 | PCB 设备 2025 +72.68% | 中高 | 设备订单兑现 | 合同负债转收入 | 验收周期 |
 | Vertiv / Schneider / Eaton | VRT / SU.PA / ETN | 电力和液冷 | UPS、液冷、配电 | 未统一取得 | 高 | 数据中心电力 | 大客户数据中心订单 | 交付和估值 |
 | 英维克 / 科华数据 / 申菱环境 | 002837 / 002335 / 301018 | 液冷、电源、温控 | 数据中心温控、UPS、液冷 | 待核实 | 中高 | 国产数据中心 | 大客户订单 | 毛利率和客户认证 |
+| Cadence / Synopsys / Siemens EDA / Arm | CDNS / SNPS / 未上市 / ARM | EDA/IP | AI辅助EDA、验证、IP授权、CPU/GPU/NPU接口IP | 待拆分AI相关收入 | 中高 | ASIC设计复杂度 | RPO、订阅续费、design win | 出口管制、估值高 |
+| Astera Labs / Credo / Rambus | ALAB / CRDO / RMBS | Retimer、CXL/PCIe、SerDes/IP | 机柜内高速互联和内存语义网络 | 待补 | 中高 | rack-scale互联 | 新平台客户导入、库存 | 代际切换、客户集中 |
+| Amphenol / TE Connectivity / Molex | APH / TEL / Koch旗下 | 连接器、高速铜缆 | 背板连接器、AEC/ACC、高速线缆 | 待补 | 中 | 机柜内互联 | 800G/1.6T订单 | 铜到光替代 |
+| Advantest / Teradyne / FormFactor | 6857.T / TER / FORM | 测试设备、探针卡 | HBM、GPU/ASIC和chiplet测试 | 待补 | 中高 | 封测capex | 设备订单、探针卡ASP | 订单周期波动 |
+| Ibiden / Unimicron / Shinko | 4062.T / 3037.TW / 6967.T | ABF载板和封装基板 | 高端GPU/ASIC封装载板 | 待补 | 中高 | 先进封装扩产 | 客户认证、ABF价格 | 供需反转 |
+| Entegris / Merck KGaA / Linde / Air Liquide | ENTG / MRK.DE / LIN / AI.PA | 特气、化学品、材料 | 先进制程、HBM、CoWoS材料 | 待补 | 中 | 材料单耗提高 | 客户认证、产能利用率 | 周期价格下行 |
+| Quanta / Wiwynn / Supermicro / 工业富联 | 2382.TW / 6669.TW / SMCI / 601138 | 服务器ODM和整机 | AI服务器、机柜集成、系统交付 | 待补 | 中 | AI服务器出货 | 存货、毛利率、客户集中 | 低毛利和库存 |
 | Microsoft | MSFT | 云平台和 AI 应用 | Azure、Copilot、OpenAI 投资 | AI run-rate >370 亿美元 | 高 | 应用收入验证 | AI ARR、Azure 增速 | capex 回收压力 |
 | 金山办公 / 科大讯飞 / 用友网络 | 688111 / 002230 / 600588 | 国内 AI 应用 | 办公、教育、企业软件、模型 | 待核实 | 分化大 | 应用商业化 | ARR、付费率、毛利 | ROI 不达预期 |
 
@@ -255,6 +301,7 @@
 | AI 应用 ARR | 高增且毛利稳定 | AI ARR 增速 50%+ | 推理成本和续费 | S3 |
 | 电力/液冷订单 | 大客户项目推进 | 在手订单和交付改善；2030用电路径不低于IEA高景气假设 | 并网、项目延期、PUE和水耗 | S6、S11 |
 | HBM/HBM4进展 | HBM3E持续放量、HBM4进入客户验证 | 带宽、容量、功耗和良率持续改善 | 价格回落、客户切换、扩产过快 | S10 |
+| 旁支卖铲子订单 | 设计、连接、测试、材料、供配电同步受益 | 至少取得订单/认证/分部收入之一 | 只看概念、无收入分母、库存上升 | S12-S16 |
 
 ## 11. 更新记录
 
@@ -262,16 +309,18 @@
 |---|---|---|---|---|---|---|---|
 | 2026-07-09 | 初始生成 | 建立 AI 板块上下游图谱，整合海外龙头一手财报和本地 PCB/玻璃基板/建滔积层板报告 | 全文 | 初始结论为中性偏积极观察，强调分层和估值风险 | S1-S9；ledger 已创建 | 已同步 | 未取得统一机构估值、国内多家公司订单收入占比、OpenAI/Anthropic 私有财务 |
 | 2026-07-09 | 方向更新 / 事实更新 | 补强 AI 上游关键板块调查，新增 Micron HBM3E、IEA 数据中心用电量化和 NVIDIA GB200 系统规格；细分 GPU/ASIC、HBM、先进封装、光通信、PCB材料、电力液冷六条上游瓶颈链 | 投资结论、关键信息栏、一页摘要、3.1/3.2上游深挖、核心难点、时间线、风险、证伪条件、附录来源 | 维持中性偏积极观察，但把“上游硬件瓶颈”从并列环节上调为核心跟踪框架；A/H股映射仍按订单和收入分母折价 | 新增 S10-S11；复用 S1-S9 | 已同步 | SK Hynix/Samsung HBM最新一手财务、TSMC CoWoS细分产能、国内电力液冷项目级订单仍待补 |
+| 2026-07-09 | 方向更新 | 按“旁支末节龙头”补充 EDA/IP、ASIC设计服务、retimer/CXL/PCIe、连接器/高速铜缆、测试/探针卡、ABF/载板、特气/化学品、热管理、重电/配电、模块化机房和服务器ODM观察池 | 投资结论、关键信息栏、前沿方向扫描、遗漏风险表、产业链图谱、3.1-3.3、热点线索、成长驱动力、受益公司映射、跟踪清单、附录 | 维持中性偏积极观察；把研究重点从“六条主链”扩展为“主链+旁支卖铲子”，但旁支公司未取得订单/收入占比时只列二阶观察 | 新增 S12-S16；复用 S1-S11 | 已同步 | 旁支公司的AI收入分母、客户认证、订单金额、库存周期和统一估值仍待逐家公司补证 |
 
 ## 12. 质量收敛记录
 
 | 检查项 | 结论 | 处理 |
 |---|---|---|
 | 结构校验 | PASS，0 warning | 已运行 `check_report.py --require-update-log` |
-| 证据收敛 | 核心结论由 NVIDIA、Microsoft、TSMC、Broadcom、Micron、IEA 和本地既有报告支撑 | A/H 股映射中缺少收入分母的公司已标注待核实 |
-| 逻辑一致性 | 投资结论、关键信息栏、估值、风险和证伪条件一致 | 上游瓶颈上调为核心框架，但仍保留估值和订单验证约束 |
-| README 同步 | 已准备同步 | 更新产业链总 README 和对象 README |
-| 未收敛缺口 | 私有模型公司财务、SK Hynix/Samsung HBM最新一手财务、TSMC CoWoS细分产能、国内订单、统一估值和数据中心项目级电力数据 | 降级为待跟踪，不作为核心定价依据 |
+| 证据收敛 | 核心结论由 NVIDIA、Microsoft、TSMC、Broadcom、Micron、IEA 和本地既有报告支撑；旁支观察池主要由产品/平台页和产业链逻辑支撑 | A/H 股映射中缺少收入分母的公司已标注待核实，旁支公司未写成高确定性主线 |
+| 证据来源口径 | 本轮新抓取 NVIDIA、Microsoft、TSMC、Broadcom、Micron、IEA、Cadence、Synopsys、Astera Labs、Amphenol、Vertiv 等公开来源；本地已有 PCB、玻璃基板、建滔积层板研究并整合入 ledger | 公开来源与本地归档分层列入附录 B 和 evidence ledger |
+| 逻辑一致性 | 投资结论、关键信息栏、估值、风险和证伪条件一致 | 上游瓶颈上调为核心框架，并把旁支卖铲子作为二阶观察池，仍保留估值和订单验证约束 |
+| README 同步 | 已同步 | 已更新产业链总 README 和对象 README |
+| 未收敛缺口 | 私有模型公司财务、SK Hynix/Samsung HBM最新一手财务、TSMC CoWoS细分产能、国内订单、统一估值、数据中心项目级电力数据，以及旁支龙头的AI收入分母/订单/客户认证 | 降级为待跟踪，不作为核心定价依据 |
 
 ## 附录 A：关键事实、判断与假设
 
@@ -285,6 +334,7 @@
 | 事实 | IEA 预计全球数据中心用电到 2030 年约 945TWh、较当前翻倍以上，AI-optimized data centres 用电预计增长超过 4 倍 | IEA Energy and AI 新闻稿 | 当前用电 / 2030E | 高 |
 | 判断 | AI 一阶受益仍在算力基础设施和硬件瓶颈，应用层需看 ARR 和 ROI | 产业链对比 | 不适用 | 中高 |
 | 判断 | AI 上游最重要的研究顺序应从“概念映射”切换到 GPU/ASIC、HBM、先进封装、网络、PCB材料、电力液冷六条瓶颈链的订单和良率验证 | 新增上游深挖 | 不适用 | 中高 |
+| 判断 | 旁支卖铲子应作为二阶观察池：EDA/IP、连接器、retimer、测试、特气、重电和模块化机房需要用订单、认证和收入分母筛选 | 新增3.3观察池 | 不适用 | 中 |
 | 判断 | A/H 股主题映射必须用订单、认证、收入确认和毛利率过滤 | 本地 PCB/建滔/玻璃基板报告 | 不适用 | 中 |
 | 假设 | 云厂商 capex 未来 6-12 个月不出现连续下修 | 财报趋势 | capex 指引 | 中 |
 | 假设 | AI 应用收入需要证明高毛利，才能承接硬件估值消化后的主线 | Microsoft AI run-rate 和应用层商业模式 | ARR/收入 | 中 |
@@ -304,3 +354,8 @@
 | S9 | 建滔积层板（01888.HK）研究报告 | 本地研究归档 | 2026-07-09 | 2026-07-09 | `公司档案/建滔积层板（01888.HK）/2026-07-09/建滔积层板（01888.HK）.md` | Internal / derived |
 | S10 | HBM3E | Micron | 2026 | 2026-07-09 | `https://www.micron.com/products/memory/hbm/hbm3e` | Tier 1B |
 | S11 | AI is set to drive surging electricity demand from data centres | International Energy Agency | 2025-04-10 | 2026-07-09 | `https://www.iea.org/news/ai-is-set-to-drive-surging-electricity-demand-from-data-centres-while-offering-the-potential-to-transform-how-the-energy-sector-works` | Tier 1C |
+| S12 | Cadence.AI Platform | Cadence | 2026 | 2026-07-09 | `https://www.cadence.com/en_US/home/tools/cadence-ai-platform.html` | Tier 1B |
+| S13 | Synopsys.ai | Synopsys | 2026 | 2026-07-09 | `https://www.synopsys.com/ai.html` | Tier 1B |
+| S14 | Scorpio Fabric Switches / AI infrastructure connectivity | Astera Labs | 2026 | 2026-07-09 | `https://www.asteralabs.com/products/scorpio/` | Tier 1B |
+| S15 | Data Center / high-speed connectivity solutions | Amphenol Communications Solutions | 2026 | 2026-07-09 | `https://www.amphenol-cs.com/markets/data-center.html` | Tier 1B |
+| S16 | AI data center power and cooling solutions | Vertiv | 2026 | 2026-07-09 | `https://www.vertiv.com/en-us/solutions/ai/` | Tier 1B |
