@@ -155,7 +155,7 @@ const allReports = categories.flatMap((category) =>
 allReports.sort((a, b) => dateRank(b.date).localeCompare(dateRank(a.date)) || b.updatedAt.localeCompare(a.updatedAt))
 
 const archive = {
-  generatedAt: new Date().toISOString(),
+  generatedAt: allReports[0]?.updatedAt ?? '',
   totals: {
     reports: allReports.length,
     objects: categories.reduce((sum, category) => sum + category.objects.length, 0),

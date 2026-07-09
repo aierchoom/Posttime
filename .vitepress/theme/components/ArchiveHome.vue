@@ -6,7 +6,7 @@ import archive from '../archive-data.json'
 const latestReports = computed(() => archive.latestReports.slice(0, 6))
 
 function categoryLink(category: { dir: string }) {
-  return withBase(`/${category.dir}/`)
+  return withBase(`/${category.dir}/README`)
 }
 
 function reportLink(report: { link: string }) {

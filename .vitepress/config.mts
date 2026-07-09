@@ -32,7 +32,7 @@ type ArchiveData = {
 
 function markdownLink(filePath: string) {
   if (!filePath) return ''
-  return `/${filePath.replace(/README\.md$/i, '').replace(/\.md$/i, '')}`
+  return `/${filePath.replace(/\.md$/i, '')}`
 }
 
 function categorySidebar(category: ArchiveCategory) {
@@ -86,8 +86,8 @@ export default defineConfig({
     logo: { light: '/logo.svg', dark: '/logo.svg', alt: 'Posttime' },
     nav: [
       { text: '档案总览', link: '/' },
-      { text: '公司档案', link: '/公司档案/' },
-      { text: '产业链研究', link: '/产业链研究/' },
+      { text: '公司档案', link: '/公司档案/README' },
+      { text: '产业链研究', link: '/产业链研究/README' },
       { text: '事件研究', link: '/事件研究/Meta出租AI算力（2026-07-02）/Meta出租AI算力（2026-07-02）' }
     ],
     sidebar,
