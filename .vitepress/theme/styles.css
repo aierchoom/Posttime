@@ -1,5 +1,6 @@
 :root {
   --vp-layout-max-width: 1660px;
+  --vp-aside-width: 340px;
   --vp-c-brand-1: #146c5c;
   --vp-c-brand-2: #1c7f6b;
   --vp-c-brand-3: #38a58d;
@@ -45,8 +46,27 @@
   }
 
   .VPDoc.has-aside .aside {
-    width: 280px;
-    padding-left: 28px;
+    width: 320px;
+    max-width: 320px;
+    padding-left: 32px;
+  }
+
+  .VPDoc.has-aside .aside-container,
+  .VPDoc.has-aside .aside-curtain {
+    width: 288px;
+  }
+
+  .VPDocAside,
+  .VPDocAsideOutline,
+  .VPDocAsideOutline .content {
+    width: 100%;
+  }
+
+  .VPDocAsideOutline .outline-link {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+    line-height: 1.55;
   }
 }
 
@@ -57,6 +77,16 @@
 
   .VPDoc.has-aside .content-container {
     max-width: 1120px !important;
+  }
+
+  .VPDoc.has-aside .aside {
+    width: 360px;
+    max-width: 360px;
+  }
+
+  .VPDoc.has-aside .aside-container,
+  .VPDoc.has-aside .aside-curtain {
+    width: 328px;
   }
 }
 
