@@ -63,20 +63,6 @@
       "accent": "company"
     },
     {
-      "title": "大族激光（002008）研究报告",
-      "object": "大族激光（002008）",
-      "date": "2026-07-04",
-      "summary": "**报告类型：** 基本面与技术面研报",
-      "path": "公司档案/大族激光（002008）/2026-07-04/大族激光（002008）.md",
-      "link": "/公司档案/大族激光（002008）/2026-07-04/大族激光（002008）",
-      "evidencePath": "公司档案/大族激光（002008）/2026-07-04/大族激光（002008）_evidence-ledger.csv",
-      "evidenceRows": 14,
-      "updatedAt": "2026-07-06T13:14:22.768Z",
-      "categoryKey": "companies",
-      "categoryTitle": "公司档案",
-      "accent": "company"
-    },
-    {
       "title": "创新药方向专题调研",
       "object": "创新药方向",
       "date": "2026-07-04",
@@ -85,10 +71,24 @@
       "link": "/产业链研究/创新药方向/2026-07-04/创新药方向",
       "evidencePath": "产业链研究/创新药方向/2026-07-04/创新药方向_evidence-ledger.csv",
       "evidenceRows": 17,
-      "updatedAt": "2026-07-06T12:25:13.721Z",
+      "updatedAt": "2026-07-09T14:09:58.702Z",
       "categoryKey": "sectors",
       "categoryTitle": "产业链研究",
       "accent": "sector"
+    },
+    {
+      "title": "大族激光（002008）研究报告",
+      "object": "大族激光（002008）",
+      "date": "2026-07-04",
+      "summary": "**报告类型：** 基本面与技术面研报",
+      "path": "公司档案/大族激光（002008）/2026-07-04/大族激光（002008）.md",
+      "link": "/公司档案/大族激光（002008）/2026-07-04/大族激光（002008）",
+      "evidencePath": "公司档案/大族激光（002008）/2026-07-04/大族激光（002008）_evidence-ledger.csv",
+      "evidenceRows": 14,
+      "updatedAt": "2026-07-09T14:09:56.731Z",
+      "categoryKey": "companies",
+      "categoryTitle": "公司档案",
+      "accent": "company"
     },
     {
       "title": "华正新材（603186）研究报告",
@@ -221,7 +221,7 @@
             "link": "/公司档案/大族激光（002008）/2026-07-04/大族激光（002008）",
             "evidencePath": "公司档案/大族激光（002008）/2026-07-04/大族激光（002008）_evidence-ledger.csv",
             "evidenceRows": 14,
-            "updatedAt": "2026-07-06T13:14:22.768Z"
+            "updatedAt": "2026-07-09T14:09:56.731Z"
           },
           "reports": [
             {
@@ -233,7 +233,7 @@
               "link": "/公司档案/大族激光（002008）/2026-07-04/大族激光（002008）",
               "evidencePath": "公司档案/大族激光（002008）/2026-07-04/大族激光（002008）_evidence-ledger.csv",
               "evidenceRows": 14,
-              "updatedAt": "2026-07-06T13:14:22.768Z"
+              "updatedAt": "2026-07-09T14:09:56.731Z"
             }
           ],
           "readmePath": "公司档案/大族激光（002008）/README.md"
@@ -305,7 +305,7 @@
             "link": "/公司档案/生益科技（600183）/2026-07-03/生益科技（600183）",
             "evidencePath": "公司档案/生益科技（600183）/2026-07-03/生益科技（600183）_evidence-ledger.csv",
             "evidenceRows": 13,
-            "updatedAt": "2026-07-06T13:03:16.720Z"
+            "updatedAt": "2026-07-09T14:09:57.687Z"
           },
           "reports": [
             {
@@ -317,7 +317,7 @@
               "link": "/公司档案/生益科技（600183）/2026-07-03/生益科技（600183）",
               "evidencePath": "公司档案/生益科技（600183）/2026-07-03/生益科技（600183）_evidence-ledger.csv",
               "evidenceRows": 13,
-              "updatedAt": "2026-07-06T13:03:16.720Z"
+              "updatedAt": "2026-07-09T14:09:57.687Z"
             }
           ],
           "readmePath": "公司档案/生益科技（600183）/README.md"
@@ -366,7 +366,7 @@
           "link": "/公司档案/大族激光（002008）/2026-07-04/大族激光（002008）",
           "evidencePath": "公司档案/大族激光（002008）/2026-07-04/大族激光（002008）_evidence-ledger.csv",
           "evidenceRows": 14,
-          "updatedAt": "2026-07-06T13:14:22.768Z"
+          "updatedAt": "2026-07-09T14:09:56.731Z"
         },
         {
           "title": "华正新材（603186）研究报告",
@@ -399,7 +399,7 @@
           "link": "/公司档案/生益科技（600183）/2026-07-03/生益科技（600183）",
           "evidencePath": "公司档案/生益科技（600183）/2026-07-03/生益科技（600183）_evidence-ledger.csv",
           "evidenceRows": 13,
-          "updatedAt": "2026-07-06T13:03:16.720Z"
+          "updatedAt": "2026-07-09T14:09:57.687Z"
         }
       ],
       "count": 7
@@ -488,7 +488,7 @@
             "link": "/产业链研究/创新药方向/2026-07-04/创新药方向",
             "evidencePath": "产业链研究/创新药方向/2026-07-04/创新药方向_evidence-ledger.csv",
             "evidenceRows": 17,
-            "updatedAt": "2026-07-06T12:25:13.721Z"
+            "updatedAt": "2026-07-09T14:09:58.702Z"
           },
           "reports": [
             {
@@ -500,7 +500,7 @@
               "link": "/产业链研究/创新药方向/2026-07-04/创新药方向",
               "evidencePath": "产业链研究/创新药方向/2026-07-04/创新药方向_evidence-ledger.csv",
               "evidenceRows": 17,
-              "updatedAt": "2026-07-06T12:25:13.721Z"
+              "updatedAt": "2026-07-09T14:09:58.702Z"
             }
           ],
           "readmePath": "产业链研究/创新药方向/README.md"
@@ -566,7 +566,7 @@
           "link": "/产业链研究/创新药方向/2026-07-04/创新药方向",
           "evidencePath": "产业链研究/创新药方向/2026-07-04/创新药方向_evidence-ledger.csv",
           "evidenceRows": 17,
-          "updatedAt": "2026-07-06T12:25:13.721Z"
+          "updatedAt": "2026-07-09T14:09:58.702Z"
         },
         {
           "title": "PCB板块及上下游专题调研",
