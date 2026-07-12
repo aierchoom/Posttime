@@ -1,21 +1,49 @@
 {
-  "generatedAt": "2026-07-09T11:10:24.143Z",
+  "generatedAt": "2026-07-12T13:43:49.658Z",
   "totals": {
-    "reports": 13,
-    "objects": 12,
-    "evidenceRows": 147
+    "reports": 18,
+    "objects": 17,
+    "evidenceRows": 239
   },
   "latestReports": [
     {
-      "title": "AI板块上下游专题调研",
-      "object": "AI板块上下游",
-      "date": "2026-07-09",
-      "summary": "**报告类型：** 产业链调研 / 上下游图谱",
-      "path": "产业链研究/AI板块上下游/2026-07-09/AI板块上下游.md",
-      "link": "/产业链研究/AI板块上下游/2026-07-09/AI板块上下游",
-      "evidencePath": "产业链研究/AI板块上下游/2026-07-09/AI板块上下游_evidence-ledger.csv",
-      "evidenceRows": 11,
-      "updatedAt": "2026-07-09T11:10:24.143Z",
+      "title": "上海电力（600021）研究报告",
+      "object": "上海电力（600021）",
+      "date": "2026-07-12",
+      "summary": "**报告类型：** 初始覆盖",
+      "path": "公司档案/上海电力（600021）/2026-07-12/上海电力（600021）.md",
+      "link": "/公司档案/上海电力（600021）/2026-07-12/上海电力（600021）",
+      "evidencePath": "公司档案/上海电力（600021）/2026-07-12/上海电力（600021）_evidence-ledger.csv",
+      "evidenceRows": 18,
+      "updatedAt": "2026-07-12T13:43:49.658Z",
+      "categoryKey": "companies",
+      "categoryTitle": "公司档案",
+      "accent": "company"
+    },
+    {
+      "title": "虚拟电厂与传统电力产业专题调研",
+      "object": "虚拟电厂与传统电力产业",
+      "date": "2026-07-12",
+      "summary": "**报告类型：** 产业链调研",
+      "path": "产业链研究/虚拟电厂与传统电力产业/2026-07-12/虚拟电厂与传统电力产业.md",
+      "link": "/产业链研究/虚拟电厂与传统电力产业/2026-07-12/虚拟电厂与传统电力产业",
+      "evidencePath": "产业链研究/虚拟电厂与传统电力产业/2026-07-12/虚拟电厂与传统电力产业_evidence-ledger.csv",
+      "evidenceRows": 18,
+      "updatedAt": "2026-07-12T13:21:00.234Z",
+      "categoryKey": "sectors",
+      "categoryTitle": "产业链研究",
+      "accent": "sector"
+    },
+    {
+      "title": "AI LLM发展方向与成果专题调研",
+      "object": "AI LLM发展方向与成果",
+      "date": "2026-07-12",
+      "summary": "**报告类型：** 技术路线调研（含前沿方向扫描）",
+      "path": "产业链研究/AI LLM发展方向与成果/2026-07-12/AI LLM发展方向与成果.md",
+      "link": "/产业链研究/AI LLM发展方向与成果/2026-07-12/AI LLM发展方向与成果",
+      "evidencePath": "产业链研究/AI LLM发展方向与成果/2026-07-12/AI LLM发展方向与成果_evidence-ledger.csv",
+      "evidenceRows": 28,
+      "updatedAt": "2026-07-12T03:53:10.346Z",
       "categoryKey": "sectors",
       "categoryTitle": "产业链研究",
       "accent": "sector"
@@ -28,8 +56,50 @@
       "path": "公司档案/建滔积层板（01888.HK）/2026-07-09/建滔积层板（01888.HK）.md",
       "link": "/公司档案/建滔积层板（01888.HK）/2026-07-09/建滔积层板（01888.HK）",
       "evidencePath": "公司档案/建滔积层板（01888.HK）/2026-07-09/建滔积层板（01888.HK）_evidence-ledger.csv",
-      "evidenceRows": 9,
-      "updatedAt": "2026-07-09T09:12:05.685Z",
+      "evidenceRows": 17,
+      "updatedAt": "2026-07-10T15:22:20.756Z",
+      "categoryKey": "companies",
+      "categoryTitle": "公司档案",
+      "accent": "company"
+    },
+    {
+      "title": "AI板块上下游专题调研",
+      "object": "AI板块上下游",
+      "date": "2026-07-09",
+      "summary": "**报告类型：** 产业链调研 / 上下游图谱",
+      "path": "产业链研究/AI板块上下游/2026-07-09/AI板块上下游.md",
+      "link": "/产业链研究/AI板块上下游/2026-07-09/AI板块上下游",
+      "evidencePath": "产业链研究/AI板块上下游/2026-07-09/AI板块上下游_evidence-ledger.csv",
+      "evidenceRows": 16,
+      "updatedAt": "2026-07-09T15:25:42.420Z",
+      "categoryKey": "sectors",
+      "categoryTitle": "产业链研究",
+      "accent": "sector"
+    },
+    {
+      "title": "高现金流老登股稳固底仓专题调研",
+      "object": "高现金流老登股稳固底仓",
+      "date": "2026-07-09",
+      "summary": "**报告类型：** 行业调研",
+      "path": "产业链研究/高现金流老登股稳固底仓/2026-07-09/高现金流老登股稳固底仓.md",
+      "link": "/产业链研究/高现金流老登股稳固底仓/2026-07-09/高现金流老登股稳固底仓",
+      "evidencePath": "产业链研究/高现金流老登股稳固底仓/2026-07-09/高现金流老登股稳固底仓_evidence-ledger.csv",
+      "evidenceRows": 11,
+      "updatedAt": "2026-07-09T14:59:21.686Z",
+      "categoryKey": "sectors",
+      "categoryTitle": "产业链研究",
+      "accent": "sector"
+    },
+    {
+      "title": "中国神华（601088）研究报告",
+      "object": "中国神华（601088）",
+      "date": "2026-07-09",
+      "summary": "**报告类型：** 现金流老登股分析",
+      "path": "公司档案/中国神华（601088）/2026-07-09/中国神华（601088）.md",
+      "link": "/公司档案/中国神华（601088）/2026-07-09/中国神华（601088）",
+      "evidencePath": "公司档案/中国神华（601088）/2026-07-09/中国神华（601088）_evidence-ledger.csv",
+      "evidenceRows": 4,
+      "updatedAt": "2026-07-09T14:36:21.304Z",
       "categoryKey": "companies",
       "categoryTitle": "公司档案",
       "accent": "company"
@@ -47,76 +117,6 @@
       "categoryKey": "companies",
       "categoryTitle": "公司档案",
       "accent": "company"
-    },
-    {
-      "title": "牧原股份（002714）研究报告",
-      "object": "牧原股份（002714）",
-      "date": "2026-07-06",
-      "summary": "**报告类型：** 初始覆盖",
-      "path": "公司档案/牧原股份（002714）/2026-07-06/牧原股份（002714）.md",
-      "link": "/公司档案/牧原股份（002714）/2026-07-06/牧原股份（002714）",
-      "evidencePath": "公司档案/牧原股份（002714）/2026-07-06/牧原股份（002714）_evidence-ledger.csv",
-      "evidenceRows": 11,
-      "updatedAt": "2026-07-06T14:27:52.958Z",
-      "categoryKey": "companies",
-      "categoryTitle": "公司档案",
-      "accent": "company"
-    },
-    {
-      "title": "创新药方向专题调研",
-      "object": "创新药方向",
-      "date": "2026-07-04",
-      "summary": "**报告类型：** 产业链调研 / 技术路线调研",
-      "path": "产业链研究/创新药方向/2026-07-04/创新药方向.md",
-      "link": "/产业链研究/创新药方向/2026-07-04/创新药方向",
-      "evidencePath": "产业链研究/创新药方向/2026-07-04/创新药方向_evidence-ledger.csv",
-      "evidenceRows": 17,
-      "updatedAt": "2026-07-09T14:09:58.702Z",
-      "categoryKey": "sectors",
-      "categoryTitle": "产业链研究",
-      "accent": "sector"
-    },
-    {
-      "title": "大族激光（002008）研究报告",
-      "object": "大族激光（002008）",
-      "date": "2026-07-04",
-      "summary": "**报告类型：** 基本面与技术面研报",
-      "path": "公司档案/大族激光（002008）/2026-07-04/大族激光（002008）.md",
-      "link": "/公司档案/大族激光（002008）/2026-07-04/大族激光（002008）",
-      "evidencePath": "公司档案/大族激光（002008）/2026-07-04/大族激光（002008）_evidence-ledger.csv",
-      "evidenceRows": 14,
-      "updatedAt": "2026-07-09T14:09:56.731Z",
-      "categoryKey": "companies",
-      "categoryTitle": "公司档案",
-      "accent": "company"
-    },
-    {
-      "title": "华正新材（603186）研究报告",
-      "object": "华正新材（603186）",
-      "date": "2026-07-04",
-      "summary": "**报告类型：** 初始覆盖 / 基本面与估值观察",
-      "path": "公司档案/华正新材（603186）/2026-07-04/华正新材（603186）.md",
-      "link": "/公司档案/华正新材（603186）/2026-07-04/华正新材（603186）",
-      "evidencePath": "公司档案/华正新材（603186）/2026-07-04/华正新材（603186）_evidence-ledger.csv",
-      "evidenceRows": 7,
-      "updatedAt": "2026-07-04T15:38:01.829Z",
-      "categoryKey": "companies",
-      "categoryTitle": "公司档案",
-      "accent": "company"
-    },
-    {
-      "title": "PCB板块及上下游专题调研",
-      "object": "PCB板块及上下游",
-      "date": "2026-07-04",
-      "summary": "**报告类型：** 产业链调研 / 板块上下游分析",
-      "path": "产业链研究/PCB板块及上下游/2026-07-04/PCB板块及上下游.md",
-      "link": "/产业链研究/PCB板块及上下游/2026-07-04/PCB板块及上下游",
-      "evidencePath": "产业链研究/PCB板块及上下游/2026-07-04/PCB板块及上下游_evidence-ledger.csv",
-      "evidenceRows": 9,
-      "updatedAt": "2026-07-04T12:09:44.790Z",
-      "categoryKey": "sectors",
-      "categoryTitle": "产业链研究",
-      "accent": "sector"
     }
   ],
   "categories": [
@@ -127,6 +127,34 @@
       "accent": "company",
       "objects": [
         {
+          "name": "上海电力（600021）",
+          "latest": {
+            "title": "上海电力（600021）研究报告",
+            "object": "上海电力（600021）",
+            "date": "2026-07-12",
+            "summary": "**报告类型：** 初始覆盖",
+            "path": "公司档案/上海电力（600021）/2026-07-12/上海电力（600021）.md",
+            "link": "/公司档案/上海电力（600021）/2026-07-12/上海电力（600021）",
+            "evidencePath": "公司档案/上海电力（600021）/2026-07-12/上海电力（600021）_evidence-ledger.csv",
+            "evidenceRows": 18,
+            "updatedAt": "2026-07-12T13:43:49.658Z"
+          },
+          "reports": [
+            {
+              "title": "上海电力（600021）研究报告",
+              "object": "上海电力（600021）",
+              "date": "2026-07-12",
+              "summary": "**报告类型：** 初始覆盖",
+              "path": "公司档案/上海电力（600021）/2026-07-12/上海电力（600021）.md",
+              "link": "/公司档案/上海电力（600021）/2026-07-12/上海电力（600021）",
+              "evidencePath": "公司档案/上海电力（600021）/2026-07-12/上海电力（600021）_evidence-ledger.csv",
+              "evidenceRows": 18,
+              "updatedAt": "2026-07-12T13:43:49.658Z"
+            }
+          ],
+          "readmePath": "公司档案/上海电力（600021）/README.md"
+        },
+        {
           "name": "建滔积层板（01888.HK）",
           "latest": {
             "title": "建滔积层板（01888.HK）研究报告",
@@ -136,8 +164,8 @@
             "path": "公司档案/建滔积层板（01888.HK）/2026-07-09/建滔积层板（01888.HK）.md",
             "link": "/公司档案/建滔积层板（01888.HK）/2026-07-09/建滔积层板（01888.HK）",
             "evidencePath": "公司档案/建滔积层板（01888.HK）/2026-07-09/建滔积层板（01888.HK）_evidence-ledger.csv",
-            "evidenceRows": 9,
-            "updatedAt": "2026-07-09T09:12:05.685Z"
+            "evidenceRows": 17,
+            "updatedAt": "2026-07-10T15:22:20.756Z"
           },
           "reports": [
             {
@@ -148,8 +176,8 @@
               "path": "公司档案/建滔积层板（01888.HK）/2026-07-09/建滔积层板（01888.HK）.md",
               "link": "/公司档案/建滔积层板（01888.HK）/2026-07-09/建滔积层板（01888.HK）",
               "evidencePath": "公司档案/建滔积层板（01888.HK）/2026-07-09/建滔积层板（01888.HK）_evidence-ledger.csv",
-              "evidenceRows": 9,
-              "updatedAt": "2026-07-09T09:12:05.685Z"
+              "evidenceRows": 17,
+              "updatedAt": "2026-07-10T15:22:20.756Z"
             }
           ],
           "readmePath": "公司档案/建滔积层板（01888.HK）/README.md"
@@ -181,6 +209,34 @@
             }
           ],
           "readmePath": "公司档案/完美世界（002624）/README.md"
+        },
+        {
+          "name": "中国神华（601088）",
+          "latest": {
+            "title": "中国神华（601088）研究报告",
+            "object": "中国神华（601088）",
+            "date": "2026-07-09",
+            "summary": "**报告类型：** 现金流老登股分析",
+            "path": "公司档案/中国神华（601088）/2026-07-09/中国神华（601088）.md",
+            "link": "/公司档案/中国神华（601088）/2026-07-09/中国神华（601088）",
+            "evidencePath": "公司档案/中国神华（601088）/2026-07-09/中国神华（601088）_evidence-ledger.csv",
+            "evidenceRows": 4,
+            "updatedAt": "2026-07-09T14:36:21.304Z"
+          },
+          "reports": [
+            {
+              "title": "中国神华（601088）研究报告",
+              "object": "中国神华（601088）",
+              "date": "2026-07-09",
+              "summary": "**报告类型：** 现金流老登股分析",
+              "path": "公司档案/中国神华（601088）/2026-07-09/中国神华（601088）.md",
+              "link": "/公司档案/中国神华（601088）/2026-07-09/中国神华（601088）",
+              "evidencePath": "公司档案/中国神华（601088）/2026-07-09/中国神华（601088）_evidence-ledger.csv",
+              "evidenceRows": 4,
+              "updatedAt": "2026-07-09T14:36:21.304Z"
+            }
+          ],
+          "readmePath": "公司档案/中国神华（601088）/README.md"
         },
         {
           "name": "牧原股份（002714）",
@@ -325,6 +381,17 @@
       ],
       "reports": [
         {
+          "title": "上海电力（600021）研究报告",
+          "object": "上海电力（600021）",
+          "date": "2026-07-12",
+          "summary": "**报告类型：** 初始覆盖",
+          "path": "公司档案/上海电力（600021）/2026-07-12/上海电力（600021）.md",
+          "link": "/公司档案/上海电力（600021）/2026-07-12/上海电力（600021）",
+          "evidencePath": "公司档案/上海电力（600021）/2026-07-12/上海电力（600021）_evidence-ledger.csv",
+          "evidenceRows": 18,
+          "updatedAt": "2026-07-12T13:43:49.658Z"
+        },
+        {
           "title": "建滔积层板（01888.HK）研究报告",
           "object": "建滔积层板（01888.HK）",
           "date": "2026-07-09",
@@ -332,8 +399,8 @@
           "path": "公司档案/建滔积层板（01888.HK）/2026-07-09/建滔积层板（01888.HK）.md",
           "link": "/公司档案/建滔积层板（01888.HK）/2026-07-09/建滔积层板（01888.HK）",
           "evidencePath": "公司档案/建滔积层板（01888.HK）/2026-07-09/建滔积层板（01888.HK）_evidence-ledger.csv",
-          "evidenceRows": 9,
-          "updatedAt": "2026-07-09T09:12:05.685Z"
+          "evidenceRows": 17,
+          "updatedAt": "2026-07-10T15:22:20.756Z"
         },
         {
           "title": "完美世界（002624）研究报告",
@@ -345,6 +412,17 @@
           "evidencePath": "公司档案/完美世界（002624）/2026-07-09/完美世界（002624）_evidence-ledger.csv",
           "evidenceRows": 9,
           "updatedAt": "2026-07-09T07:07:10.685Z"
+        },
+        {
+          "title": "中国神华（601088）研究报告",
+          "object": "中国神华（601088）",
+          "date": "2026-07-09",
+          "summary": "**报告类型：** 现金流老登股分析",
+          "path": "公司档案/中国神华（601088）/2026-07-09/中国神华（601088）.md",
+          "link": "/公司档案/中国神华（601088）/2026-07-09/中国神华（601088）",
+          "evidencePath": "公司档案/中国神华（601088）/2026-07-09/中国神华（601088）_evidence-ledger.csv",
+          "evidenceRows": 4,
+          "updatedAt": "2026-07-09T14:36:21.304Z"
         },
         {
           "title": "牧原股份（002714）研究报告",
@@ -402,7 +480,7 @@
           "updatedAt": "2026-07-09T14:09:57.687Z"
         }
       ],
-      "count": 7
+      "count": 9
     },
     {
       "key": "sectors",
@@ -410,6 +488,90 @@
       "dir": "产业链研究",
       "accent": "sector",
       "objects": [
+        {
+          "name": "虚拟电厂与传统电力产业",
+          "latest": {
+            "title": "虚拟电厂与传统电力产业专题调研",
+            "object": "虚拟电厂与传统电力产业",
+            "date": "2026-07-12",
+            "summary": "**报告类型：** 产业链调研",
+            "path": "产业链研究/虚拟电厂与传统电力产业/2026-07-12/虚拟电厂与传统电力产业.md",
+            "link": "/产业链研究/虚拟电厂与传统电力产业/2026-07-12/虚拟电厂与传统电力产业",
+            "evidencePath": "产业链研究/虚拟电厂与传统电力产业/2026-07-12/虚拟电厂与传统电力产业_evidence-ledger.csv",
+            "evidenceRows": 18,
+            "updatedAt": "2026-07-12T13:21:00.234Z"
+          },
+          "reports": [
+            {
+              "title": "虚拟电厂与传统电力产业专题调研",
+              "object": "虚拟电厂与传统电力产业",
+              "date": "2026-07-12",
+              "summary": "**报告类型：** 产业链调研",
+              "path": "产业链研究/虚拟电厂与传统电力产业/2026-07-12/虚拟电厂与传统电力产业.md",
+              "link": "/产业链研究/虚拟电厂与传统电力产业/2026-07-12/虚拟电厂与传统电力产业",
+              "evidencePath": "产业链研究/虚拟电厂与传统电力产业/2026-07-12/虚拟电厂与传统电力产业_evidence-ledger.csv",
+              "evidenceRows": 18,
+              "updatedAt": "2026-07-12T13:21:00.234Z"
+            }
+          ],
+          "readmePath": "产业链研究/虚拟电厂与传统电力产业/README.md"
+        },
+        {
+          "name": "AI LLM发展方向与成果",
+          "latest": {
+            "title": "AI LLM发展方向与成果专题调研",
+            "object": "AI LLM发展方向与成果",
+            "date": "2026-07-12",
+            "summary": "**报告类型：** 技术路线调研（含前沿方向扫描）",
+            "path": "产业链研究/AI LLM发展方向与成果/2026-07-12/AI LLM发展方向与成果.md",
+            "link": "/产业链研究/AI LLM发展方向与成果/2026-07-12/AI LLM发展方向与成果",
+            "evidencePath": "产业链研究/AI LLM发展方向与成果/2026-07-12/AI LLM发展方向与成果_evidence-ledger.csv",
+            "evidenceRows": 28,
+            "updatedAt": "2026-07-12T03:53:10.346Z"
+          },
+          "reports": [
+            {
+              "title": "AI LLM发展方向与成果专题调研",
+              "object": "AI LLM发展方向与成果",
+              "date": "2026-07-12",
+              "summary": "**报告类型：** 技术路线调研（含前沿方向扫描）",
+              "path": "产业链研究/AI LLM发展方向与成果/2026-07-12/AI LLM发展方向与成果.md",
+              "link": "/产业链研究/AI LLM发展方向与成果/2026-07-12/AI LLM发展方向与成果",
+              "evidencePath": "产业链研究/AI LLM发展方向与成果/2026-07-12/AI LLM发展方向与成果_evidence-ledger.csv",
+              "evidenceRows": 28,
+              "updatedAt": "2026-07-12T03:53:10.346Z"
+            }
+          ],
+          "readmePath": "产业链研究/AI LLM发展方向与成果/README.md"
+        },
+        {
+          "name": "高现金流老登股稳固底仓",
+          "latest": {
+            "title": "高现金流老登股稳固底仓专题调研",
+            "object": "高现金流老登股稳固底仓",
+            "date": "2026-07-09",
+            "summary": "**报告类型：** 行业调研",
+            "path": "产业链研究/高现金流老登股稳固底仓/2026-07-09/高现金流老登股稳固底仓.md",
+            "link": "/产业链研究/高现金流老登股稳固底仓/2026-07-09/高现金流老登股稳固底仓",
+            "evidencePath": "产业链研究/高现金流老登股稳固底仓/2026-07-09/高现金流老登股稳固底仓_evidence-ledger.csv",
+            "evidenceRows": 11,
+            "updatedAt": "2026-07-09T14:59:21.686Z"
+          },
+          "reports": [
+            {
+              "title": "高现金流老登股稳固底仓专题调研",
+              "object": "高现金流老登股稳固底仓",
+              "date": "2026-07-09",
+              "summary": "**报告类型：** 行业调研",
+              "path": "产业链研究/高现金流老登股稳固底仓/2026-07-09/高现金流老登股稳固底仓.md",
+              "link": "/产业链研究/高现金流老登股稳固底仓/2026-07-09/高现金流老登股稳固底仓",
+              "evidencePath": "产业链研究/高现金流老登股稳固底仓/2026-07-09/高现金流老登股稳固底仓_evidence-ledger.csv",
+              "evidenceRows": 11,
+              "updatedAt": "2026-07-09T14:59:21.686Z"
+            }
+          ],
+          "readmePath": "产业链研究/高现金流老登股稳固底仓/README.md"
+        },
         {
           "name": "AI板块上下游",
           "latest": {
@@ -420,8 +582,8 @@
             "path": "产业链研究/AI板块上下游/2026-07-09/AI板块上下游.md",
             "link": "/产业链研究/AI板块上下游/2026-07-09/AI板块上下游",
             "evidencePath": "产业链研究/AI板块上下游/2026-07-09/AI板块上下游_evidence-ledger.csv",
-            "evidenceRows": 11,
-            "updatedAt": "2026-07-09T11:10:24.143Z"
+            "evidenceRows": 16,
+            "updatedAt": "2026-07-09T15:25:42.420Z"
           },
           "reports": [
             {
@@ -432,8 +594,8 @@
               "path": "产业链研究/AI板块上下游/2026-07-09/AI板块上下游.md",
               "link": "/产业链研究/AI板块上下游/2026-07-09/AI板块上下游",
               "evidencePath": "产业链研究/AI板块上下游/2026-07-09/AI板块上下游_evidence-ledger.csv",
-              "evidenceRows": 11,
-              "updatedAt": "2026-07-09T11:10:24.143Z"
+              "evidenceRows": 16,
+              "updatedAt": "2026-07-09T15:25:42.420Z"
             }
           ],
           "readmePath": "产业链研究/AI板块上下游/README.md"
@@ -536,6 +698,39 @@
       ],
       "reports": [
         {
+          "title": "虚拟电厂与传统电力产业专题调研",
+          "object": "虚拟电厂与传统电力产业",
+          "date": "2026-07-12",
+          "summary": "**报告类型：** 产业链调研",
+          "path": "产业链研究/虚拟电厂与传统电力产业/2026-07-12/虚拟电厂与传统电力产业.md",
+          "link": "/产业链研究/虚拟电厂与传统电力产业/2026-07-12/虚拟电厂与传统电力产业",
+          "evidencePath": "产业链研究/虚拟电厂与传统电力产业/2026-07-12/虚拟电厂与传统电力产业_evidence-ledger.csv",
+          "evidenceRows": 18,
+          "updatedAt": "2026-07-12T13:21:00.234Z"
+        },
+        {
+          "title": "AI LLM发展方向与成果专题调研",
+          "object": "AI LLM发展方向与成果",
+          "date": "2026-07-12",
+          "summary": "**报告类型：** 技术路线调研（含前沿方向扫描）",
+          "path": "产业链研究/AI LLM发展方向与成果/2026-07-12/AI LLM发展方向与成果.md",
+          "link": "/产业链研究/AI LLM发展方向与成果/2026-07-12/AI LLM发展方向与成果",
+          "evidencePath": "产业链研究/AI LLM发展方向与成果/2026-07-12/AI LLM发展方向与成果_evidence-ledger.csv",
+          "evidenceRows": 28,
+          "updatedAt": "2026-07-12T03:53:10.346Z"
+        },
+        {
+          "title": "高现金流老登股稳固底仓专题调研",
+          "object": "高现金流老登股稳固底仓",
+          "date": "2026-07-09",
+          "summary": "**报告类型：** 行业调研",
+          "path": "产业链研究/高现金流老登股稳固底仓/2026-07-09/高现金流老登股稳固底仓.md",
+          "link": "/产业链研究/高现金流老登股稳固底仓/2026-07-09/高现金流老登股稳固底仓",
+          "evidencePath": "产业链研究/高现金流老登股稳固底仓/2026-07-09/高现金流老登股稳固底仓_evidence-ledger.csv",
+          "evidenceRows": 11,
+          "updatedAt": "2026-07-09T14:59:21.686Z"
+        },
+        {
           "title": "AI板块上下游专题调研",
           "object": "AI板块上下游",
           "date": "2026-07-09",
@@ -543,8 +738,8 @@
           "path": "产业链研究/AI板块上下游/2026-07-09/AI板块上下游.md",
           "link": "/产业链研究/AI板块上下游/2026-07-09/AI板块上下游",
           "evidencePath": "产业链研究/AI板块上下游/2026-07-09/AI板块上下游_evidence-ledger.csv",
-          "evidenceRows": 11,
-          "updatedAt": "2026-07-09T11:10:24.143Z"
+          "evidenceRows": 16,
+          "updatedAt": "2026-07-09T15:25:42.420Z"
         },
         {
           "title": "玻璃基板专题调研",
@@ -591,7 +786,7 @@
           "updatedAt": "2026-07-03T12:16:36.725Z"
         }
       ],
-      "count": 5
+      "count": 8
     },
     {
       "key": "events",
