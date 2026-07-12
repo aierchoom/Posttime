@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-12T13:43:49.658Z",
+  "generatedAt": "2026-07-12T14:58:19.608Z",
   "totals": {
     "reports": 18,
     "objects": 17,
-    "evidenceRows": 239
+    "evidenceRows": 248
   },
   "latestReports": [
     {
@@ -14,8 +14,8 @@
       "path": "公司档案/上海电力（600021）/2026-07-12/上海电力（600021）.md",
       "link": "/公司档案/上海电力（600021）/2026-07-12/上海电力（600021）",
       "evidencePath": "公司档案/上海电力（600021）/2026-07-12/上海电力（600021）_evidence-ledger.csv",
-      "evidenceRows": 18,
-      "updatedAt": "2026-07-12T13:43:49.658Z",
+      "evidenceRows": 27,
+      "updatedAt": "2026-07-12T14:58:19.608Z",
       "categoryKey": "companies",
       "categoryTitle": "公司档案",
       "accent": "company"
@@ -136,8 +136,8 @@
             "path": "公司档案/上海电力（600021）/2026-07-12/上海电力（600021）.md",
             "link": "/公司档案/上海电力（600021）/2026-07-12/上海电力（600021）",
             "evidencePath": "公司档案/上海电力（600021）/2026-07-12/上海电力（600021）_evidence-ledger.csv",
-            "evidenceRows": 18,
-            "updatedAt": "2026-07-12T13:43:49.658Z"
+            "evidenceRows": 27,
+            "updatedAt": "2026-07-12T14:58:19.608Z"
           },
           "reports": [
             {
@@ -148,8 +148,8 @@
               "path": "公司档案/上海电力（600021）/2026-07-12/上海电力（600021）.md",
               "link": "/公司档案/上海电力（600021）/2026-07-12/上海电力（600021）",
               "evidencePath": "公司档案/上海电力（600021）/2026-07-12/上海电力（600021）_evidence-ledger.csv",
-              "evidenceRows": 18,
-              "updatedAt": "2026-07-12T13:43:49.658Z"
+              "evidenceRows": 27,
+              "updatedAt": "2026-07-12T14:58:19.608Z"
             }
           ],
           "readmePath": "公司档案/上海电力（600021）/README.md"
@@ -388,8 +388,8 @@
           "path": "公司档案/上海电力（600021）/2026-07-12/上海电力（600021）.md",
           "link": "/公司档案/上海电力（600021）/2026-07-12/上海电力（600021）",
           "evidencePath": "公司档案/上海电力（600021）/2026-07-12/上海电力（600021）_evidence-ledger.csv",
-          "evidenceRows": 18,
-          "updatedAt": "2026-07-12T13:43:49.658Z"
+          "evidenceRows": 27,
+          "updatedAt": "2026-07-12T14:58:19.608Z"
         },
         {
           "title": "建滔积层板（01888.HK）研究报告",
