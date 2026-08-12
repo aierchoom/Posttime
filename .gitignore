@@ -6,3 +6,5 @@ node_modules/
 .vitepress/cache/
 .vitepress/dist/
 .vitepress/*.log
+__pycache__/
+*.py[cod]
