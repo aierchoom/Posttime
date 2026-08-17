@@ -1,0 +1,13 @@
+{
+  "source": "Eastmoney quote API",
+  "access_date": "2026-08-17",
+  "currency": "CNY",
+  "pe_definition": "provider TTM PE",
+  "companies": [
+    {"name": "京东方A", "ticker": "000725", "price": 6.08, "market_cap_billion": 225.230, "ttm_pe": 32.98, "pb": 1.68},
+    {"name": "TCL科技", "ticker": "000100", "price": 5.19, "market_cap_billion": 107.956, "ttm_pe": 17.34, "pb": 1.78},
+    {"name": "维信诺", "ticker": "002387", "price": 7.11, "market_cap_billion": 9.931, "ttm_pe": null, "pb": 3.81},
+    {"name": "深天马A", "ticker": "000050", "price": 6.69, "market_cap_billion": 16.295, "ttm_pe": null, "pb": 0.60}
+  ],
+  "note": "PE is null where the provider reports a negative or unavailable earnings multiple."
+}

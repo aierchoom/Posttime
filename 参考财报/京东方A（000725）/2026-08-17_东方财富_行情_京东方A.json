@@ -1,0 +1,16 @@
+{
+  "source": "Eastmoney quote API",
+  "access_date": "2026-08-17",
+  "secid": "0.000725",
+  "price_cny": 6.08,
+  "high_cny": 6.08,
+  "low_cny": 5.77,
+  "open_cny": 5.85,
+  "previous_close_cny": 5.81,
+  "market_cap_cny": 225229514629.12,
+  "float_market_cap_cny": 215032175431.36,
+  "provider_ttm_pe": 32.98,
+  "provider_pb": 1.68,
+  "raw_timestamp": 1786952040,
+  "endpoint": "https://push2.eastmoney.com/api/qt/stock/get?secid=0.000725"
+}
