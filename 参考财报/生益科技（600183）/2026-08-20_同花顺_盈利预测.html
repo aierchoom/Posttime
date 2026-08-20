@@ -1,0 +1,3804 @@
+<!DOCTYPE HTML>
+<html>
+<head id="head">
+		    <title>生益科技(600183) 盈利预测_F10_同花顺金融服务网</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7;IE=9"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=gbk"/>
+	<meta name="keywords" content="生益科技最新动态,生益科技公司概况,生益科技财务分析,生益科技股东研究,生益科技股本结构,生益科技公司大事,生益科技分红融资"/>
+	<meta name="description" content="暂无"/>
+	<!-- 券商url参数添加，落地只落broker-pcf10.html -->
+	
+	<script type="text/javascript" src="//s.thsi.cn/js/chameleon/chameleon.min.1787243.js"></script> <script>
+    function getUrlParams(key, url) {
+        var href = url ? url : window.location.href;
+        if (href.indexOf("?") < 0 && href.indexOf("#") < 0) {
+            return false;
+        }
+        var hrefStr = href.replace(/#/g, "&");
+        hrefStr = hrefStr.replace(/\?/g, "&");
+        var paramsObj= {};
+        hrefStr.split("&").forEach(function(i) {
+            if (i.indexOf("=") > -1) {
+                paramsObj[i.split("=")[0]] = i.split("=")[1];
+            }
+        });
+        if (key) {
+            return paramsObj[key] || false;
+        } else {
+            return paramsObj;
+        }
+    }
+
+    function addParam(url, obj) {
+        var str = "",res;
+        for (var key in obj) {
+            str += (key + "=" + obj[key]);
+        }
+        if (url.indexOf("?") > -1) {
+            res = url.split('?').join('?' + str + '&');
+        } else if (url.indexOf("#") > -1) {
+            res = url.replace(/#/g, "?" + str + "#");
+        } else {
+            res = url + "?" + str;
+        }
+        return res;
+    }
+
+    var historyUrl = document.referrer;
+    if (historyUrl) {
+        var broker = getUrlParams('broker', historyUrl);
+        if (broker && window.history) {
+            var url = window.location.href;
+            url = addParam(url, broker ? {broker: broker} : {});
+            window.history.pushState('', '', url);
+        }
+    }
+</script>
+	<!-- f10工具箱，工具函数修改，落地只落utils.html -->
+	
+	<script type="text/javascript" src="//s.thsi.cn/js/chameleon/chameleon.min.1787243.js"></script> <script type="text/javascript" charset="utf-8" src="//s.thsi.cn/cb?cd/website-thsc-f10-utils/1.4.8/f10-polyfill.js" crossorigin></script>
+<script type="text/javascript" charset="utf-8" src="//s.thsi.cn/cd/kernel-thslc-component-materials-container/F10/static/css-vars-ponyfill.js" ></script>
+<script type="text/javascript" charset="utf-8" src="//s.thsi.cn/cb?cd/website-thsc-f10-utils/1.6.0/thsc-f10-utils.js" crossorigin></script>
+<script>
+    function isIEInClient(){
+        return !!(window.external && 'getUserPath' in window.external && 'createObject' in window.external);
+    }
+
+    function isInTongYiClient(){
+      return !!(window.external && 'createObject' in window.external);
+    }
+
+    function isInYuanHangClient(){
+        return !!(window.HevoCef && 'IsHevoCef' in window.HevoCef);
+    }
+    
+    function isInIEEnv(){
+        var ua = window.navigator.userAgent.toLowerCase();
+        return ua.indexOf('msie') > -1 || ua.indexOf('trident/') > -1;
+    }
+
+    function isChromeOlderThan50(){
+        var userAgent = navigator.userAgent.toLowerCase();
+        var match = userAgent.match(/chrome\/(\d+)./);
+        if (match && parseInt(match[1]) <= 49) {
+           return true;
+        }
+        return false;
+    }
+
+</script>
+<style>
+.kamis-loading {
+	min-height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #437EB7;
+	background-color: rgba(255,255,255,0.8);
+	gap: 4px;
+	font-size: 14px;
+}
+.dark .kamis-loading, .black .kamis-loading {
+	background-color: #171D25;
+	color: #FEB302;
+}
+.kamis-loading svg {
+	width: 20px;
+	height: 20px;
+}
+.arco-icon-spin {
+  animation: spin 1s linear infinite;
+}
+.kamis-nodata {
+  min-height: 300px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  color: #333;
+  padding: 10px 14px;
+}
+.dark .kamis-nodata, .black .kamis-nodata {
+  color: #999;
+  background-color: #0b1016;
+  border-color:#1e2b38;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+</style>
+		<script type="text/javascript" src="//s.thsi.cn/js/chameleon/chameleon.min.1787243.js"></script> <script src="//s.thsi.cn/js/m/common/bridge.js" type="text/javascript"  crossorigin></script>
+	<script type="text/javascript"  crossorigin  src="//s.thsi.cn/js/jquery-1.8.3.min.js"></script>
+	<script charset="utf-8" src="//s.thsi.cn/cb?webprivate/lib/axios.min.js;hxapp/m/base/js/vue.2.7.16.min.js" crossorigin="anonymous"></script>
+	<!-- kamis 渲染器 -->
+	<script charset="utf-8" src="//s.thsi.cn/hxapp/m/pkgs/amis-2c/sdk/v1-3/2c-sdk-register.1.3.6.js"></script>
+	<!-- 新版埋点cdn -->
+	<script crossorigin src="//s.thsi.cn/cb?cd/weblog/0.0.1-alpha.27/weblog.js"></script>
+		<script>
+		var xhrProto = XMLHttpRequest.prototype;
+		var origOpen = xhrProto.open;
+		xhrProto.open = function (method, url) {
+			if (location.host.indexOf('0033.cn') > -1 && arguments[1] !== undefined && arguments[1].indexOf('10jqka.com.cn') > -1) {
+				arguments[1] = arguments[1].replace('10jqka.com.cn', '0033.cn');
+			}
+			return origOpen.apply(this, arguments);
+		};
+	</script>
+	<script>
+		var originCreateElement =  document.createElement;
+		document.createElement = function(tagName){
+			const element = originCreateElement.apply(document,arguments);
+			if(tagName.toLowerCase() === 'script'){
+				element.setAttribute('charset','utf-8');
+			}
+			return element;
+		}
+	</script>
+	<script id="monitor-script" api_key="ths_f10" src="//s.thsi.cn/cb?cd/website-thsc-f10-utils/1.6.40/monitor.js" crossorigin></script>
+	<script type="text/javascript"  crossorigin src="//s.thsi.cn/cb?js/common/cefapi/1.5.5/cefApi.min.js;js/basic/stock/newPcJs/common.js"></script>
+	<script>
+		try{
+			feMonitor.setConfig(
+				{
+				slientDev:false,//开发环境(localhost)是否发送报错请求，默认不发送为true
+				sampleRate:0.1, //采样率,可设置0-1之间，越小采集的频率越低
+				isCollectPerformance:true, //是否采集性能
+				title:'pc-F10'
+				}
+			);
+		}catch(e){
+
+		}
+	</script>
+	<style>
+        .wencaibs{color:#008BFF!important;cursor:pointer;}
+        .wd-tb .ptxt { word-break: break-word;}
+        .comment-chart-head{color: #89a;}
+        .comment-chart-head span{float: right;}
+        .comment-chart-head span i{vertical-align: middle; display: inline-block; width: 20px; height: 20px;margin: 0 2px 0 6px; border-radius: 20px; overflow: hidden;}
+        .comment-chart-head .imp-news{background: #da2e1f;}
+        .comment-chart-head .yidong-news{background: #e3bf1a;}
+
+        #ckg_table1 tr td{text-align:center}
+        #ckg_table2 tr td{text-align:center}
+        #ckg_table3 tr td{text-align:center}
+        #ckg_table4 tr td{text-align:center}
+        #ckg_table5 tr td{text-align:center}
+		li{list-style-type:none;
+			list-style-position:outside;}
+		#jpjl-input:focus { outline: none; }
+		.black.inClient .clientJump {
+			cursor: pointer;
+			color: #0199fa;
+			text-decoration: underline;
+		}
+		.white.inClient .clientJump {
+			color: #07519a;
+			text-decoration: underline;
+			cursor: pointer;
+		}
+		.managelist .name a {    color: #0199fa;
+			margin: 0 3px 2px;
+			text-decoration: underline;
+			border-bottom: none !important;
+		}
+	</style>
+	<!--统计页面加载时间-->
+	<script type="text/javascript">
+		var loadTimer= new Date().getTime();
+	</script>
+    <style>
+        #search_cyter{
+            display: block !important;
+        }
+		#profile .tickLabels .tickLabel{
+			padding-right:12px;
+			box-sizing:border-box;
+		}
+	  .a_cursor {
+		pointer: cursor;
+	}
+    </style>
+</head>
+<script type="text/javascript">
+
+//cookie设置
+function setReviewJumpState(state) {
+	document.cookie = 'reviewJump='
+					+ state
+					+ ';path=/;domain='
+					+ window.location.host;
+}
+//取得对应名字cookie
+function getCookie(name) {
+	var cookieValue = "";
+	var search = name + "=";
+	if (document.cookie.length > 0) {
+	    offset = document.cookie.indexOf(search);
+	    if (offset != -1)    {
+	        offset += search.length;
+	        end = document.cookie.indexOf(";", offset);
+	        if (end == -1) end = document.cookie.length;
+	        cookieValue = unescape(document.cookie.substring(offset, end))
+	    }
+	}
+	return cookieValue;
+}
+//栏目提前跳转
+var reviewJumpState = getCookie('reviewJump');
+if (!!reviewJumpState && reviewJumpState != 'nojump') {
+	setReviewJumpState('nojump');
+	window.location.href = unescape(reviewJumpState);
+} else {
+	setReviewJumpState('nojump');
+}
+//动态添加link-同步-会阻塞
+function addCssByLink(url){
+    document.write('<link rel="stylesheet" type="text/css"');
+    document.write(' href="' + url + '">');
+}
+function isMac() {
+        return /macintosh|mac os x/i.test(navigator.userAgent);
+};
+ var hash = window.location.hash.substring(1);
+hashArray = hash.split('=');
+if (hashArray[0] == 'stockpage') {
+    var STOCK_SKIN = 'white';
+} else {
+    var STOCK_SKIN = getCookie('skin_color');
+}
+//肤色与客户端同步
+function syncClientSkin(){
+	try {//取得客户端肤色
+		if (isMac()) {
+			return 'white';
+		}
+		return 'black';
+	} catch(e) {}
+}
+if (!STOCK_SKIN) {
+	STOCK_SKIN = syncClientSkin();
+}
+document.documentElement.setAttribute("class",STOCK_SKIN);
+if (STOCK_SKIN == 'white') {
+	// addCssByLink('/f10/css/company-compare.css');
+	addCssByLink('//s.thsi.cn/css/basic/stock/company-compare-202006082100.css');
+ 
+    addCssByLink('//s.thsi.cn/cb?css/basic/stock/white/20200604153837/style_v4-2.css;css/basic/stock/white/20200604153837/chart_v2.min.20180110.css;css/basic/stock/white/20200604153837/dupont.css;css/basic/stock/white/20200604153837/black_v2-4.20190711.css;css/basic/stock/white/custom.min.css;css/basic/stock/white/20200604153837/operations.css;css/basic/stock/white/20200604153837/writecsskzd.min.css');
+	addCssByLink('//s.thsi.cn/cb?css/basic/stock/20200604153837/survey-w.css;css/basic/stock/20200604153837/wxgcl_mod.css;css/basic/stock/provider-w_v2.css;css/basic/stock/20200604153837/searchbar-w_v2.css;css/basic/stock/20200604153837/wccept.css;css/basic/stock/wtgfx.css');
+	addCssByLink('//s.thsi.cn/css/basic/stock/fschool/20200604153837/f_school_w.css');
+	addCssByLink('//s.thsi.cn/css/basic/stock/white/wsplpager.css');
+	addCssByLink('//s.thsi.cn/css/basic/stock/wchartsdom.css');
+	addCssByLink('//s.thsi.cn/cb?css/basic/stock/white/20200604153837/industrydata.css;css/basic/stock/white/20200604153837/main_v1-2.css;css/basic/stock/white/20200604153837/xgcl.css;css/basic/stock/white/20200604153837/courier.css;css/basic/stock/white/20200604153837/recommend.css;css/basic/stock/white/20200604153837/housedata.css;css/basic/stock/white/202005071600/20200604153837/longhu.css;css/basic/stock/white/20200604153837/operate_white.css');
+	addCssByLink('//s.thsi.cn/css/basic/stock/white/remind_white.css');
+	addCssByLink('//s.thsi.cn/css/basic/stock/index_v1.css');
+	addCssByLink('//s.thsi.cn/js/home/v5/thirdpart/scrollbar/jquery.mCustomScrollbar.css');
+	addCssByLink('//s.thsi.cn/css/basic/stock/20200604153837/instition_white_v2.css');
+	if (!!window.ActiveXObject&&!window.XMLHttpRequest) {
+		addCssByLink('//s.thsi.cn/css/basic/stock/white/20200604153837/expression.css');
+	}
+					addCssByLink("//s.thsi.cn/css/basic/common/white/title.css")
+} else {
+	// addCssByLink('/f10/css/company-compare.css');
+	addCssByLink('//s.thsi.cn/css/basic/stock/company-compare-202006082100.css');
+ 	addCssByLink('//s.thsi.cn/cb?css/basic/stock/black/20200604153837/style_v3-5.min.20200426.css;css/basic/stock/black/20200604153837/chart_v2.min.20190410.css;css/basic/stock/black/20200604153837/black_v2-4.20190711.css;css/basic/stock/black/custom.min.css;css/basic/stock/black/20200604153837/operations.css;css/basic/stock/black/20200604153837/csskzd.min.20150608.css;/css/basic/stock/20200604153837/survey.20150929.css;/css/basic/stock/provider_v2.css;/css/basic/stock/20200604153837/searchbar_v2.css;/css/basic/stock/20200604153837/ccept.css');
+	addCssByLink('//s.thsi.cn/css/basic/stock/fschool/20200604153837/f_school.css');
+	addCssByLink('//s.thsi.cn/css/basic/stock/black/splpager.20170504.css');
+	addCssByLink('//s.thsi.cn/cb?css/basic/stock/chartsdom.css;css/basic/stock/20200604153837/xgcl_mod.css;/css/basic/stock/tgfx.css');
+	addCssByLink('//s.thsi.cn/cb?css/basic/stock/black/20200604153837/industrydata.css;css/basic/stock/black/20200604153837/main_v1-2.css;css/basic/stock/black/20200604153837/xgcl.css;css/basic/stock/black/20200604153837/courier.css;css/basic/stock/black/20200604153837/funcRecommend.css;css/basic/stock/black/20200604153837/dupont.css;css/basic/stock/black/202005071600/20200604153837/longhu.css;css/basic/stock/black/20200604153837/operate.css');
+	addCssByLink('//s.thsi.cn/css/basic/stock/black/remind_black.css');
+	addCssByLink('//s.thsi.cn/js/home/v5/thirdpart/scrollbar/jquery.mCustomScrollbar.css');
+
+	addCssByLink('//s.thsi.cn/css/basic/stock/index_v1.css');
+	addCssByLink('//s.thsi.cn/css/basic/stock/20200604153837/instition_black_v2.css');
+	if (!!window.ActiveXObject&&!window.XMLHttpRequest) {
+		addCssByLink('//s.thsi.cn/css/basic/stock/black/20200604153837/expression.min.20140801.css');
+	}
+					addCssByLink("//s.thsi.cn/css/basic/common/black/title.css")
+}
+/*calendar*/
+function  minDate(){
+ 	var data = $('#inte_json').text();
+	var datajson =new Object();
+	if (data) {
+		data = eval('('+data+')');
+	}
+	for (var x in data) {
+		datajson = data[x];
+	}
+	var minDate = datajson.year+'-'+datajson.month+'-'+datajson.day;
+	return minDate;
+ }
+ Date.prototype.Format = function(fmt)
+{ //author: meizz
+  var o = {
+    "M+" : this.getMonth()+1,                 //月份
+    "d+" : this.getDate(),                    //日
+    "h+" : this.getHours(),                   //小时
+    "m+" : this.getMinutes(),                 //分
+    "s+" : this.getSeconds(),                 //秒
+    "q+" : Math.floor((this.getMonth()+3)/3), //季度
+    "S"  : this.getMilliseconds()             //毫
+  };
+  if(/(y+)/.test(fmt))
+    fmt=fmt.replace(RegExp.$1, (this.getFullYear()+"").substr(4 - RegExp.$1.length));
+  for(var k in o)
+    if(new RegExp("("+ k +")").test(fmt))
+  fmt = fmt.replace(RegExp.$1, (RegExp.$1.length==1) ? (o[k]) : (("00"+ o[k]).substr((""+ o[k]).length)));
+  return fmt;
+}
+ function  displayDate(){
+ 	var data = $('#inte_json').text();
+ 	var date =new Array();
+	var datajson =new Object();
+	var i=0;
+	if (data) {
+		data = eval('('+data+')');
+	}
+	for (var x in data) {
+		datajson[x] = data[x];
+		dates = datajson[x].year+'-'+datajson[x].month+'-'+datajson[x].day;
+		if (x==0|| date[i-1] != dates) {
+			date[i] = dates;
+			i++;
+		}
+	}
+	var count =date.length;
+	var date2 = new Date();
+	var month =date2.getMonth()+1;
+	var day =date2.getDate();
+	if ((date2.getMonth()+1)>9) {
+	} else {
+	 	var month ="0"+month;
+	}
+	if (date2.getDate()>9) {
+	} else {
+	 	var day ="0"+day;
+	}
+	year = date2.getFullYear();
+	date2 = year+'-'+month+'-'+day;
+	var result = "['";
+	for (i=0;i<count;i++) {
+		if (date2 == date[i]) {
+			dateArr = date2.split('-');
+			newdate = new Date(new Date(dateArr[0], dateArr[1]-1,  dateArr[2])-24*60*60*1000);
+			date2 = newdate.Format("yyyy-MM-dd");
+		} else {
+			result +=date2+"',";
+			dateArr = date2.split('-');
+			newdate = new Date(new Date(dateArr[0], dateArr[1]-1,  dateArr[2])-24*60*60*1000);
+			date2 = newdate.Format("yyyy-MM-dd");
+			i--;
+		}
+	}
+	result = result.substr(0,result.length-1)+']';
+	return result;
+ }
+    function showDatePicker1(color) {
+        WdatePicker({
+            selfCssUrl:'//s.thsi.cn/css/basic/stock/'+STOCK_SKIN+'/mydatepicker.css',
+            eCont:'WdateDiv1',
+            vel:'elDate1',
+            minDate:minDate(),
+            maxDate:'%y-%M-%d',
+            onpicked:function(dp){
+                $('#elDate1').text(dp.cal.getNewDateStr());
+                var invalider = $(".J_calendar").find("iframe").contents().find(".WinvalidDay");
+            },
+            Mchanged:function(dp){
+                var invalider = $(".J_calendar").find("iframe").contents().find(".WinvalidDay");
+            }
+        });
+    }
+    function showDatePicker2(color) {
+
+        WdatePicker({
+            selfCssUrl:'//s.thsi.cn/css/basic/stock/'+STOCK_SKIN+'/mydatepicker.css',
+            eCont:'WdateDiv2',
+            vel:'elDate2',
+            maxDate:'%y-%M-%d',
+            onpicked:function(dp){
+                $('#elDate2').text(dp.cal.getNewDateStr());
+                var invalider = $(".J_calendar").find("iframe").contents().find(".WinvalidDay");
+            },
+            Mchanged:function(dp){
+                var invalider = $(".J_calendar").find("iframe").contents().find(".WinvalidDay");
+            }
+        });
+    }
+  function isIE() {
+	// 判断IE浏览器及其版本
+	if(document.documentMode) {
+		return document.documentMode;
+	}
+	var userAgent = navigator.userAgent.toLowerCase();
+	if (userAgent.indexOf('edge') > -1) {
+		return 'edge';
+	}
+	return false;
+  }
+	 // 初始化财务
+	 var initFinance = window.localStorage.getItem('initFinance');
+	 if (!initFinance) {
+		 window.localStorage.setItem('initFinance', 'init');
+		 window.localStorage.setItem('memoryPage', 'old');
+	  }
+	  // 跳转地址
+    function jumpToUrl(url, name, anchor, conceptName) {
+	  if (!url || !name) {
+			return;
+		}
+		// 新老地址切换
+		var oldPage = {
+			'financen': true
+		}
+		var pageLocation = window.localStorage.getItem('memoryPage');
+      //在IE环境中
+      if (isInIEEnv() || (pageLocation && pageLocation == 'old' && oldPage[name])) {
+        location.href = url;
+	    return;
+     }
+     var code = $('#stockCode').val();
+	 var codeName = $('#stockName').val();
+	 var marketid = $('#marketId').val();
+	 var pageAnchor = anchor ? '&anchor=' + anchor : '';
+	 var host = window.location.host;
+	 var targetUrl = '//' + host + '/astockpc/astockmain/index.html#/' + name + '?code=' + code + '&marketid=' + marketid + '&code_name=' + codeName + pageAnchor;
+	 if (conceptName) {
+		 targetUrl += "&cname=" + conceptName;
+	 }
+     location.href = targetUrl;
+    }
+	// 跳转新地址
+	function jumpToNew() {
+       var code = $('#stockCode').val();
+	   var codeName = $('#stockName').val();
+	   var marketid = $('#marketId').val();
+	   var url = window.location.href;
+	   var module = url.match(/\/(\w+).html?/);
+	   var moduleName = '';
+	   var host = window.location.host;
+	   if (module && module[1]) {
+		   moduleName = module[1];
+		   if (module[1] == 'finance') {
+			   moduleName = 'financen';
+		   }
+	   }
+	   window.TA.log('F10hs_cwfx.tyxbb.click');
+	   window.localStorage.setItem('memoryPage', 'new');
+	   setTimeout(function (){
+		  location.href = '//' + host + '/astockpc/astockmain/index.html#/' + moduleName + '?code=' + code + '&marketid=' + marketid + '&code_name=' + codeName;
+	   }, 10)
+	}
+</script>
+    <script type="text/javascript" charset="utf-8" src="//s.thsi.cn/js/basic/stockph_v2/qdc_ad-fd3034.js"></script>
+	<link href="//s.thsi.cn/css/basic/stockph/qdc_ad-6e8683.css" rel="stylesheet" type="text/css">
+ 
+<body>
+<div class="votepopbox votesuccess" style="display: none">
+		<div class="vpopicon"></div>
+		<p class="vpoptxt fz18">谢谢您的宝贵意见</p>
+		<p class="vpoptxt">您的支持是我们最大的动力</p>
+	</div>
+	<div class="votepopbox voteinfo" style="display: none">
+		<div class="vpopicon"></div>
+		<p class="vpoptxt fz18">谢谢您的支持</p>
+		<p class="vpoptxt"></p>
+	</div>
+    <div class="wrapper">
+<!-- F10 Header Start -->
+		<div class="header">
+		    <div class="hd">
+		        <div class="logo fl" id="logo_self"><a title="同花顺F10">同花顺F10</a></div>
+
+															<div onclick="sendTalog('f10_click_quot')" style="width:260px; margin-left:60px; font-size:14px;cursor:pointer;margin-right:10px;display:none;text-align:center" class="fl tip " id="quotedata">
+							<div  class="fl">最新价： <span style="width:40px" class="upcolor" id="zxj">--</span></div>
+							<div  class="fr">涨跌幅： <span style="width:40px;" class="upcolor" id="zdf">--</span></div>
+						</div>
+											        <span class="fr skin-change"><a href="###">换肤</a></span>
+		        <div class="search fr" id="search_cyter">
+		            <div id="updownchange" type="once" class="codeChange fl" style="display: none;">
+		                <a href="javascript:void(0)" class="per">上一个股</a>
+		                <a href="javascript:void(0)" class="next">下一个股</a>
+		            </div>
+		            <div class="fl searchbar">
+			            <div class="text fl">
+			                <input type="text" id="jpjl-input" value="输入股票名称或代码" /><!--文本框获得焦点给.searchbar添加hover类-->
+			             </div>
+		                <input type="button" value="搜索" class="btn" id="submit"/>
+		            </div>
+		        </div>
+		    </div>
+		    <div class="bd clear">
+		        <div class="code fl">
+					<div><h1 style="margin:3px 0px 0px 0px">
+												生益科技</h1></div>
+					<div>
+						<a href="interactive.html" tid="wdm" posid="r1c1" class="iwen" onclick="TA.log({'id':'F10_review','nj':1})">i问董秘</a>
+						<style>
+							.qiyehao {
+								display:none;
+								float:left;
+								cursor:pointer;
+								margin: 4px 0 0 17px;
+								width:50px;
+								text-align:center;
+								font-size:12px;
+								padding: 2px  0 4px 0;
+								line-height:12px;
+							    border-radius:6px;
+								color: white;
+                                background-color:#437eb7;
+							}
+							.black  .qiyehao {
+								background-color: #b60006;
+							}
+						</style>
+						<div class="qiyehao">企业号</div>
+						<h1 style="margin:3px 0px 0px 0px">
+						600183						</h1>
+						<script>
+							 $(document).ready(function(){
+								//获取市场代码
+                                var market = $('#marketId').val();
+								//获取股票代码
+								var code = $('#stockCode').val();
+								//判断是否是B股
+								var isBStock = function () {
+									var flag = market == '18' || market == '34' || market == '105';
+									return flag;
+								}
+								
+								//在B股和Ie浏览器中不展示企业号入口
+								if(isBStock() || isInIEEnv()){
+									return ;
+								}
+								isThsClient(function(){
+                                   //隐藏董秘问答入口
+								   $('.iwen').hide();
+                                   //展示企业号入口
+								   $('.qiyehao').show();
+								   $(document).on ('click','.qiyehao',function(){
+                                      var url = 'https://board.10jqka.com.cn/fe/board/qyh.html#/qyh/homepage?thscode=' + code  + '&marketid=' + market + '&from=f10';
+									    window.API.use({
+										  method: "Util.openURL2",
+										  data:{
+											url: url,
+											mode: 1,
+											useCef: true,
+										  }
+									    })
+								    })
+								})
+							 })
+						</script>
+					</div>
+		        </div>
+		        <div class="nav">
+		            <ul>
+		                <li><a href="./"              target="_self" tid="zxdt" posid="r1c3" >最新动态</a></li>
+		                <li><a href="javascript:void(0)" onclick="jumpToUrl('./company.html', 'company', '');return false;"   target="_self" tid="gszl" posid="r1c4" > 公司资料</a></li>
+		                <li><a href="./holder.html"   target="_self" tid="gdyj" posid="r1c5" >股东研究</a></li>
+						<li><a href="javascript:void(0)" onclick="jumpToUrl('./operate.html', 'operate', '');return false;" target="_self" tid="jyfx" posid="r1c6" > 经营分析</a></li>
+		                <li><a href="./equity.html"   target="_self" tid="gbjg" posid="r1c7" >股本结构</a></li>
+		                <li><a href="./capital.html"  target="_self" tid="zbyz" posid="r1c8" > 资本运作</a></li>
+		                <li><a href="./worth.html"    target="_self" tid="ylyc" posid="r1c9"  class="cur" >盈利预测</a></li>
+		                <li><a href="./news.html"     target="_self" tid="xwgg" posid="r2c3" >新闻公告</a></li>
+						<li><a  href="javascript:void(0)"  onclick="jumpToUrl('./concept.html', 'concept', '');return false;"target="_self" tid="gntc" posid="r2c4" >概念题材</a></li>
+		                <li><a  href="javascript:void(0)"  onclick="jumpToUrl('./position.html', 'position', '');return false;"target="_self" tid="zlcc" posid="r2c5" >主力持仓</a></li>
+		                <li><a href="javascript:void(0)"  onclick="jumpToUrl('./finance.html', 'financen', '');return false;" target="_self" tid="cwgk" posid="r2c6" > 财务分析</a></li>
+						<li><a href="javascript:void(0)"  onclick="jumpToUrl('./bonus.html', 'bonus', '');return false;" target="_self" tid="fhrz" posid="r2c7" >分红融资</a></li>
+						<li><a href="./event.html"    target="_self" tid="gsds" posid="r2c8" >公司大事</a></li>
+		                <li><a href="./field.html"    target="_self" tid="hydb" posid="r2c9" >行业对比</a></li>
+		            </ul>
+		        </div>
+		        <div class="subnav">
+					<ul>
+					   						<li>
+							<a style="position:relative;height:25px;" class="skipto" type="" nav="forecast"  name="worth.html#forecast" href="###">业绩预测							</a>
+						</li>
+												<li>
+							<a style="position:relative;height:25px;" class="skipto" type="" nav="forecastdetail"  name="worth.html#forecastdetail" href="###">业绩预测详表							</a>
+						</li>
+												<li>
+							<a style="position:relative;height:25px;" class="skipto" type="" nav="stockreport"  name="worth.html#stockreport" href="###">研报评级							</a>
+						</li>
+								            </ul>
+		        </div>
+		    </div>
+		</div>
+<!-- F10 Header End -->
+<!-- F10 Content Start -->
+		<style>
+		.iwc_searchbar{display: none;}
+	</style>
+		<div class="iwc_searchbar clearfix" style="">
+    <div class="tips-box" style="display: none;">
+        <div class="t-hd"></div>
+        <div class="t-bd">
+            <div class="info">
+                <p>F10 功能找不到？在搜索框里直接输入您想要的功能！比如输入“龙虎榜”，赶快试一下哦！</p>
+                <div class="btn">
+                    <a href="###" class="a-left close">跳过</a>
+                    <a href="###" class="a-right next">下一步</a>
+                </div>
+            </div>
+            <div class="info" style="display: none;">
+                <p>选股选不好？可以直接输入你想要的问句啦，比如输入“近一周涨幅超过30%的股票”赶紧行动吧！</p>
+                <div class="btn">
+                    <a href="###" class="a-left prev">上一步</a>
+                    <a href="###" class="a-right close">完成</a>
+                </div>
+            </div>
+        </div>
+        <div class="t-ft"></div>
+   	 </div>
+     <div class="searchfx">
+        <input id="search_input" x-webkit-speech="" x-webkit-grammar="builtin:search" lang="zh_CN" class="fillbox" autocomplete="off" type="text" value="输入问句，你想知道的都在这里">
+        <input class="action_btn" id="search_submit" type="button" value="搜索">
+        <span  class="tips-icon"></span>
+     </div>
+	</div>
+	<div class="content page_event_content" >	
+
+<!-- 业绩预测 -->
+<div class="m_box z100" id="forecast" stat="worth_forecast">
+	<div class="hd">
+		<h2>业绩预测</h2>
+	</div>
+	<div class="bd">
+			<p class="tip clearfix">
+		截至2026-08-20，6个月以内共有 <strong>14</strong> 家机构对生益科技的2026年度业绩作出预测；<br />
+		预测2026年每股收益 <strong>2.50</strong> 元，较去年同比增长 <strong>79.86%</strong>，
+		预测2026年净利润 <strong>60.65</strong> 亿元，较去年同比增长 <strong>81.92%</strong>
+		</p>
+			<div class="pt10">
+			<div class="cwzb_wrap">
+				<div class="chart_nav clearfix">
+					<ul class="nav_tab">
+						<li class="current"><a href="javascript:void(0)">&nbsp;&nbsp;&nbsp;&nbsp;业绩预测&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+					</ul>
+					<div class="legend_nav yjyc_legend_nav">
+						<a class="icons_col_blue icons_sprite" href="javascript:void(0)">净利润</a>
+						<a class="icons_col_yellow icons_sprite" href="javascript:void(0)">预测净利润</a>
+						<a class="icons_line_blue icons_sprite" href="javascript:void(0)">每股收益</a>
+						<a class="icons_line_yellow icons_sprite" href="javascript:void(0)">预测每股收益</a>
+					</div>
+				</div>
+				<div id="yjycData" class="none">[["2019","0.66","14.49","SJ"],["2020","0.74","16.81","SJ"],["2021","1.23","28.30","SJ"],["2022","0.66","15.31","SJ"],["2023","0.50","11.64","SJ"],["2024","0.74","17.39","SJ"],["2025","1.39","33.34","SJ"],["2026","2.50","60.65","YC"],["2027","3.68","89.39","YC"]]</div>
+				<div id="yjycChart" style="width:100%;height:220px;"></div>
+			</div>
+		</div>
+		<div class='clearfix'>
+	    		<div class="fl yjyc">
+			<table class="m_table m_hl">
+				<caption class="hltip m_cap">
+								<span class="fr tip">单位：元</span>汇总--预测年报每股收益
+								</caption>
+					<colgroup span="2" class="tc"></colgroup>
+					<colgroup span="4" class="tr"></colgroup>
+				<thead>
+					<tr>
+						<th>年度</th>
+						<th>预测机构数</th>
+						<th>最小值</th>
+						<th>均值</th>
+						<th>最大值</th>
+						<th>行业平均数</th>
+					</tr>
+				</thead>
+				<tbody>
+									<tr>
+						<th>2026</th>
+						<td class="tc">14</td>
+						<td>1.47</td>
+						<td>2.50</td>
+						<td>3.29</td>
+						<td>2.80</td>
+					</tr>
+									<tr>
+						<th>2027</th>
+						<td class="tc">14</td>
+						<td>1.98</td>
+						<td>3.68</td>
+						<td>5.04</td>
+						<td>4.00</td>
+					</tr>
+									<tr>
+						<th>2028</th>
+						<td class="tc">12</td>
+						<td>3.86</td>
+						<td>5.18</td>
+						<td>7.60</td>
+						<td>5.49</td>
+					</tr>
+								</tbody>
+			</table>
+		</div>
+				<div class="fr yjyc">
+			<table class="m_table m_hl">
+				<caption class="hltip m_cap">
+								<span class="fr tip">单位：亿元</span>汇总--预测年报净利润
+								</caption>
+					<colgroup span="2" class="tc"></colgroup>
+					<colgroup span="4" class="tr"></colgroup>
+				<thead>
+					<tr>
+						<th>年度</th>
+						<th>预测机构数</th>
+						<th>最小值</th>
+						<th>均值</th>
+						<th>最大值</th>
+						<th>行业平均数</th>
+					</tr>
+				</thead>
+				<tbody>
+									<tr>
+						<th>2026</th>
+						<td class="tc">14</td>
+						<td>35.71</td>
+						<td>60.65</td>
+						<td>79.99</td>
+						<td>35.85</td>
+					</tr>
+									<tr>
+						<th>2027</th>
+						<td class="tc">14</td>
+						<td>48.10</td>
+						<td>89.39</td>
+						<td>122.35</td>
+						<td>52.10</td>
+					</tr>
+									<tr>
+						<th>2028</th>
+						<td class="tc">12</td>
+						<td>93.81</td>
+						<td>125.91</td>
+						<td>184.68</td>
+						<td>72.29</td>
+					</tr>
+								</tbody>
+			</table>
+		</div>
+			</div>
+			<p class="clearfix">预测数据根据各机构发布的研究报告摘录所得，与本终端立场无关。</p>
+	</div>
+	<div class="ft"></div>
+</div>
+
+<!-- 业绩预测详表 -->
+<div class="m_box z100" id="forecastdetail" stat="worth_forecastdetail">
+	<div class="hd">
+		<h2>业绩预测详表</h2>
+	</div>
+	<div class="bd">
+	<div class='ybhctl hover_ta' taname="f10_stock_mktl_ybhc">
+			<p class="tip clearfix"> </p>
+		</div>
+		<table class="m_table m_hl posi_table">
+			<caption class="m_cap adjust"><span class="high">调高</span><span class="low">调低</span></caption>
+				<colgroup span="2" class="tc" />
+				<colgroup span="6" class="tr hl" />
+				<colgroup span="1" class="tc" />
+			<thead>
+				<tr>
+					<th rowspan="2">机构名称</th>
+					<th rowspan="2">研究员</th>
+					<th colspan="3">预测年报每股收益（元）</th>
+					<th colspan="3">预测年报净利润（元）</th>
+					<th rowspan="2">报告日期</th>
+				</tr>
+				<tr>
+					<th>2026预测</th>
+					<th>2027预测</th>
+					<th>2028预测</th>
+					<th>2026预测</th>
+					<th>2027预测</th>
+					<th>2028预测</th>
+				</tr>
+			</thead>
+			<tbody>
+							<tr>
+					<th class="tl">招银证券</th>
+					<td class="tl">Kevin Zhang</td>
+					<td><s class="up"></s>2.97</td>
+					<td><s class="up"></s>4.75</td>
+					<td><s class=""></s>6.55</td>
+					<td><s class="up"></s>72.23亿</td>
+					<td><s class="up"></s>115.39亿</td>
+					<td><s class="up"></s>159.20亿</td>
+					<td>2026-08-17</td>
+				</tr>
+							<tr>
+					<th class="tl">招商证券</th>
+					<td class="tl">鄢凡</td>
+					<td><s class=""></s>3.29</td>
+					<td><s class=""></s>5.02</td>
+					<td><s class=""></s>7.60</td>
+					<td><s class=""></s>79.99亿</td>
+					<td><s class=""></s>121.93亿</td>
+					<td><s class=""></s>184.68亿</td>
+					<td>2026-08-16</td>
+				</tr>
+							<tr>
+					<th class="tl">中泰证券</th>
+					<td class="tl">王芳</td>
+					<td><s class="up"></s>2.94</td>
+					<td><s class="up"></s>5.04</td>
+					<td><s class="up"></s>7.00</td>
+					<td><s class="up"></s>71.44亿</td>
+					<td><s class="up"></s>122.35亿</td>
+					<td><s class="up"></s>169.98亿</td>
+					<td>2026-08-16</td>
+				</tr>
+							<tr>
+					<th class="tl">广发证券</th>
+					<td class="tl">王亮</td>
+					<td><s class="up"></s>2.52</td>
+					<td><s class="up"></s>3.51</td>
+					<td><s class="up"></s>4.54</td>
+					<td><s class="up"></s>61.23亿</td>
+					<td><s class="up"></s>85.18亿</td>
+					<td><s class="up"></s>110.19亿</td>
+					<td>2026-07-15</td>
+				</tr>
+							<tr>
+					<th class="tl">野村东方国际证券</th>
+					<td class="tl">戴洁</td>
+					<td><s class="up"></s>3.00</td>
+					<td><s class=""></s>4.51</td>
+					<td><s class="up"></s>6.10</td>
+					<td><s class="up"></s>72.96亿</td>
+					<td><s class="down"></s>109.55亿</td>
+					<td><s class="down"></s>148.24亿</td>
+					<td>2026-07-15</td>
+				</tr>
+							<tr>
+					<th class="tl">太平洋</th>
+					<td class="tl">张世杰</td>
+					<td><s class="up"></s>2.29</td>
+					<td><s class="up"></s>3.23</td>
+					<td><s class=""></s>4.19</td>
+					<td><s class="up"></s>55.70亿</td>
+					<td><s class="up"></s>78.56亿</td>
+					<td><s class="up"></s>101.69亿</td>
+					<td>2026-05-24</td>
+				</tr>
+							<tr>
+					<th class="tl">西南证券</th>
+					<td class="tl">胡杨</td>
+					<td><s class="up"></s>2.30</td>
+					<td><s class="up"></s>3.36</td>
+					<td><s class=""></s>4.75</td>
+					<td><s class="up"></s>55.89亿</td>
+					<td><s class="up"></s>81.60亿</td>
+					<td><s class="up"></s>115.33亿</td>
+					<td>2026-05-08</td>
+				</tr>
+							<tr>
+					<th class="tl">平安证券</th>
+					<td class="tl">杨钟</td>
+					<td><s class="up"></s>2.19</td>
+					<td><s class="up"></s>3.03</td>
+					<td><s class=""></s>3.86</td>
+					<td><s class="up"></s>53.16亿</td>
+					<td><s class="up"></s>73.50亿</td>
+					<td><s class="up"></s>93.81亿</td>
+					<td>2026-05-06</td>
+				</tr>
+							<tr>
+					<th class="tl">华安证券</th>
+					<td class="tl">李美贤</td>
+					<td><s class="up"></s>2.30</td>
+					<td><s class="up"></s>3.17</td>
+					<td><s class=""></s>4.10</td>
+					<td><s class="up"></s>55.81亿</td>
+					<td><s class="up"></s>77.06亿</td>
+					<td><s class="up"></s>99.64亿</td>
+					<td>2026-04-30</td>
+				</tr>
+						</tbody>
+		</table>
+		<table class="m_table m_hl ggintro ggintro_1 organData">
+			<caption class="m_cap adjust"><span class="table_cap">详细指标预测</span></caption>
+			<thead>
+				<tr>
+					<th>预测指标</th>
+											<th>2023（实际值）</th>											<th>2024（实际值）</th>											<th>2025（实际值）</th>											<th>预测2026（平均）</th>											<th>预测2027（平均）</th>											<th>预测2028（平均）</th>									</tr>
+			</thead>
+			<tbody>
+												<tr>
+					<th class="tl">营业收入(元)</th>
+					<td>
+													165.86亿											</td>
+					<td>
+													203.88亿						</td>
+					<td>
+													284.31亿						</td>
+															<td>
+						<div class="pr" style="z-index:199">
+							<span>									419.43亿								  </span>
+														<a class="m_more fr" targ="box_1" href="javascript:void(0)"></a>
+							<div class="tipbox box_1" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>招银证券</td>
+												<td>Kevin Zhang</td>
+												<td class="tr">
+																									459.30亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中泰证券</td>
+												<td>王芳</td>
+												<td class="tr">
+																									446.20亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招商证券</td>
+												<td>鄢凡</td>
+												<td class="tr">
+																									454.90亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>广发证券</td>
+												<td>王亮</td>
+												<td class="tr">
+																									392.52亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>野村东方国际证券</td>
+												<td>戴洁</td>
+												<td class="tr">
+																									464.81亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>太平洋</td>
+												<td>张世杰</td>
+												<td class="tr">
+																									391.48亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>西南证券</td>
+												<td>胡杨</td>
+												<td class="tr">
+																									390.45亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>平安证券</td>
+												<td>杨钟</td>
+												<td class="tr">
+																									383.62亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华安证券</td>
+												<td>李美贤</td>
+												<td class="tr">
+																									391.56亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:198">
+							<span>									576.56亿								  </span>
+														<a class="m_more fr" targ="box_2" href="javascript:void(0)"></a>
+							<div class="tipbox box_2" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>野村东方国际证券</td>
+												<td>戴洁</td>
+												<td class="tr">
+																									668.58亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招银证券</td>
+												<td>Kevin Zhang</td>
+												<td class="tr">
+																									695.45亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中泰证券</td>
+												<td>王芳</td>
+												<td class="tr">
+																									623.74亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招商证券</td>
+												<td>鄢凡</td>
+												<td class="tr">
+																									682.35亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>广发证券</td>
+												<td>王亮</td>
+												<td class="tr">
+																									510.55亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>太平洋</td>
+												<td>张世杰</td>
+												<td class="tr">
+																									514.85亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>西南证券</td>
+												<td>胡杨</td>
+												<td class="tr">
+																									496.95亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>平安证券</td>
+												<td>杨钟</td>
+												<td class="tr">
+																									492.49亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华安证券</td>
+												<td>李美贤</td>
+												<td class="tr">
+																									504.04亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:197">
+							<span>									740.20亿								  </span>
+														<a class="m_more fr" targ="box_3" href="javascript:void(0)"></a>
+							<div class="tipbox box_3" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>招银证券</td>
+												<td>Kevin Zhang</td>
+												<td class="tr">
+																									906.40亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中泰证券</td>
+												<td>王芳</td>
+												<td class="tr">
+																									784.86亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招商证券</td>
+												<td>鄢凡</td>
+												<td class="tr">
+																									955.29亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>广发证券</td>
+												<td>王亮</td>
+												<td class="tr">
+																									643.07亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>野村东方国际证券</td>
+												<td>戴洁</td>
+												<td class="tr">
+																									888.43亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>太平洋</td>
+												<td>张世杰</td>
+												<td class="tr">
+																									629.84亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>西南证券</td>
+												<td>胡杨</td>
+												<td class="tr">
+																									622.64亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>平安证券</td>
+												<td>杨钟</td>
+												<td class="tr">
+																									604.29亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华安证券</td>
+												<td>李美贤</td>
+												<td class="tr">
+																									627.02亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+									</tr>
+								<tr>
+					<th class="tl">营业收入增长率</th>
+					<td>
+													-7.93%											</td>
+					<td>
+													22.92%						</td>
+					<td>
+													39.45%						</td>
+															<td>
+						<div class="pr" style="z-index:196">
+							<span>									47.52%								  </span>
+														<a class="m_more fr" targ="box_4" href="javascript:void(0)"></a>
+							<div class="tipbox box_4" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>招银证券</td>
+												<td>Kevin Zhang</td>
+												<td class="tr">
+																									61.55%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中泰证券</td>
+												<td>王芳</td>
+												<td class="tr">
+																									56.94%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招商证券</td>
+												<td>鄢凡</td>
+												<td class="tr">
+																									60.00%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>广发证券</td>
+												<td>王亮</td>
+												<td class="tr">
+																									38.06%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>野村东方国际证券</td>
+												<td>戴洁</td>
+												<td class="tr">
+																									63.49%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>太平洋</td>
+												<td>张世杰</td>
+												<td class="tr">
+																									37.69%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>西南证券</td>
+												<td>胡杨</td>
+												<td class="tr">
+																									37.33%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>平安证券</td>
+												<td>杨钟</td>
+												<td class="tr">
+																									34.93%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华安证券</td>
+												<td>李美贤</td>
+												<td class="tr">
+																									37.72%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:195">
+							<span>									36.78%								  </span>
+														<a class="m_more fr" targ="box_5" href="javascript:void(0)"></a>
+							<div class="tipbox box_5" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>野村东方国际证券</td>
+												<td>戴洁</td>
+												<td class="tr">
+																									43.84%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招银证券</td>
+												<td>Kevin Zhang</td>
+												<td class="tr">
+																									51.42%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中泰证券</td>
+												<td>王芳</td>
+												<td class="tr">
+																									39.79%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招商证券</td>
+												<td>鄢凡</td>
+												<td class="tr">
+																									50.00%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>广发证券</td>
+												<td>王亮</td>
+												<td class="tr">
+																									30.07%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>太平洋</td>
+												<td>张世杰</td>
+												<td class="tr">
+																									31.51%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>西南证券</td>
+												<td>胡杨</td>
+												<td class="tr">
+																									27.28%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>平安证券</td>
+												<td>杨钟</td>
+												<td class="tr">
+																									28.38%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华安证券</td>
+												<td>李美贤</td>
+												<td class="tr">
+																									28.73%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:194">
+							<span>									27.75%								  </span>
+														<a class="m_more fr" targ="box_6" href="javascript:void(0)"></a>
+							<div class="tipbox box_6" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>招银证券</td>
+												<td>Kevin Zhang</td>
+												<td class="tr">
+																									30.33%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中泰证券</td>
+												<td>王芳</td>
+												<td class="tr">
+																									25.83%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招商证券</td>
+												<td>鄢凡</td>
+												<td class="tr">
+																									40.00%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>广发证券</td>
+												<td>王亮</td>
+												<td class="tr">
+																									25.96%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>野村东方国际证券</td>
+												<td>戴洁</td>
+												<td class="tr">
+																									32.88%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>太平洋</td>
+												<td>张世杰</td>
+												<td class="tr">
+																									22.33%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>西南证券</td>
+												<td>胡杨</td>
+												<td class="tr">
+																									25.29%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>平安证券</td>
+												<td>杨钟</td>
+												<td class="tr">
+																									22.70%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华安证券</td>
+												<td>李美贤</td>
+												<td class="tr">
+																									24.40%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+									</tr>
+								<tr>
+					<th class="tl">利润总额(元)</th>
+					<td>
+													12.71亿											</td>
+					<td>
+													20.68亿						</td>
+					<td>
+													44.16亿						</td>
+															<td>
+						<div class="pr" style="z-index:193">
+							<span>									80.81亿								  </span>
+														<a class="m_more fr" targ="box_7" href="javascript:void(0)"></a>
+							<div class="tipbox box_7" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>招银证券</td>
+												<td>Kevin Zhang</td>
+												<td class="tr">
+																									94.42亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中泰证券</td>
+												<td>王芳</td>
+												<td class="tr">
+																									84.45亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招商证券</td>
+												<td>鄢凡</td>
+												<td class="tr">
+																									106.24亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>广发证券</td>
+												<td>王亮</td>
+												<td class="tr">
+																									73.14亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>野村东方国际证券</td>
+												<td>戴洁</td>
+												<td class="tr">
+																									93.83亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>太平洋</td>
+												<td>张世杰</td>
+												<td class="tr">
+																									68.79亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>西南证券</td>
+												<td>胡杨</td>
+												<td class="tr">
+																									70.76亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>平安证券</td>
+												<td>杨钟</td>
+												<td class="tr">
+																									70.41亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华安证券</td>
+												<td>李美贤</td>
+												<td class="tr">
+																									65.25亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:192">
+							<span>									121.14亿								  </span>
+														<a class="m_more fr" targ="box_8" href="javascript:void(0)"></a>
+							<div class="tipbox box_8" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>野村东方国际证券</td>
+												<td>戴洁</td>
+												<td class="tr">
+																									140.31亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招银证券</td>
+												<td>Kevin Zhang</td>
+												<td class="tr">
+																									150.84亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中泰证券</td>
+												<td>王芳</td>
+												<td class="tr">
+																									144.63亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招商证券</td>
+												<td>鄢凡</td>
+												<td class="tr">
+																									162.04亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>广发证券</td>
+												<td>王亮</td>
+												<td class="tr">
+																									101.75亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>太平洋</td>
+												<td>张世杰</td>
+												<td class="tr">
+																									98.64亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>西南证券</td>
+												<td>胡杨</td>
+												<td class="tr">
+																									104.60亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>平安证券</td>
+												<td>杨钟</td>
+												<td class="tr">
+																									97.37亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华安证券</td>
+												<td>李美贤</td>
+												<td class="tr">
+																									90.08亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:191">
+							<span>									165.75亿								  </span>
+														<a class="m_more fr" targ="box_9" href="javascript:void(0)"></a>
+							<div class="tipbox box_9" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>招银证券</td>
+												<td>Kevin Zhang</td>
+												<td class="tr">
+																									208.10亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中泰证券</td>
+												<td>王芳</td>
+												<td class="tr">
+																									200.93亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招商证券</td>
+												<td>鄢凡</td>
+												<td class="tr">
+																									245.55亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>广发证券</td>
+												<td>王亮</td>
+												<td class="tr">
+																									131.62亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>野村东方国际证券</td>
+												<td>戴洁</td>
+												<td class="tr">
+																									188.84亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>太平洋</td>
+												<td>张世杰</td>
+												<td class="tr">
+																									128.09亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>西南证券</td>
+												<td>胡杨</td>
+												<td class="tr">
+																									147.91亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>平安证券</td>
+												<td>杨钟</td>
+												<td class="tr">
+																									124.27亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华安证券</td>
+												<td>李美贤</td>
+												<td class="tr">
+																									116.48亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+									</tr>
+								<tr>
+					<th class="tl">净利润(元)</th>
+					<td>
+													11.64亿											</td>
+					<td>
+													17.39亿						</td>
+					<td>
+													33.34亿						</td>
+															<td>
+						<div class="pr" style="z-index:190">
+							<span>									60.65亿								  </span>
+														<a class="m_more fr" targ="box_10" href="javascript:void(0)"></a>
+							<div class="tipbox box_10" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>招银证券</td>
+												<td>Kevin Zhang</td>
+												<td class="tr">
+																									72.23亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中泰证券</td>
+												<td>王芳</td>
+												<td class="tr">
+																									71.44亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招商证券</td>
+												<td>鄢凡</td>
+												<td class="tr">
+																									79.99亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>广发证券</td>
+												<td>王亮</td>
+												<td class="tr">
+																									61.23亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>野村东方国际证券</td>
+												<td>戴洁</td>
+												<td class="tr">
+																									72.96亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>太平洋</td>
+												<td>张世杰</td>
+												<td class="tr">
+																									55.70亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>西南证券</td>
+												<td>胡杨</td>
+												<td class="tr">
+																									55.89亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>平安证券</td>
+												<td>杨钟</td>
+												<td class="tr">
+																									53.16亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华安证券</td>
+												<td>李美贤</td>
+												<td class="tr">
+																									55.81亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:189">
+							<span>									89.39亿								  </span>
+														<a class="m_more fr" targ="box_11" href="javascript:void(0)"></a>
+							<div class="tipbox box_11" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>野村东方国际证券</td>
+												<td>戴洁</td>
+												<td class="tr">
+																									109.55亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招银证券</td>
+												<td>Kevin Zhang</td>
+												<td class="tr">
+																									115.39亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中泰证券</td>
+												<td>王芳</td>
+												<td class="tr">
+																									122.35亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招商证券</td>
+												<td>鄢凡</td>
+												<td class="tr">
+																									121.93亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>广发证券</td>
+												<td>王亮</td>
+												<td class="tr">
+																									85.18亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>太平洋</td>
+												<td>张世杰</td>
+												<td class="tr">
+																									78.56亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>西南证券</td>
+												<td>胡杨</td>
+												<td class="tr">
+																									81.60亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>平安证券</td>
+												<td>杨钟</td>
+												<td class="tr">
+																									73.50亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华安证券</td>
+												<td>李美贤</td>
+												<td class="tr">
+																									77.06亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:188">
+							<span>									125.91亿								  </span>
+														<a class="m_more fr" targ="box_12" href="javascript:void(0)"></a>
+							<div class="tipbox box_12" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>招银证券</td>
+												<td>Kevin Zhang</td>
+												<td class="tr">
+																									159.20亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中泰证券</td>
+												<td>王芳</td>
+												<td class="tr">
+																									169.98亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招商证券</td>
+												<td>鄢凡</td>
+												<td class="tr">
+																									184.68亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>广发证券</td>
+												<td>王亮</td>
+												<td class="tr">
+																									110.19亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>野村东方国际证券</td>
+												<td>戴洁</td>
+												<td class="tr">
+																									148.24亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>太平洋</td>
+												<td>张世杰</td>
+												<td class="tr">
+																									101.69亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>西南证券</td>
+												<td>胡杨</td>
+												<td class="tr">
+																									115.33亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>平安证券</td>
+												<td>杨钟</td>
+												<td class="tr">
+																									93.81亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华安证券</td>
+												<td>李美贤</td>
+												<td class="tr">
+																									99.64亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+									</tr>
+								<tr>
+					<th class="tl">净利润增长率</th>
+					<td>
+													-23.96%											</td>
+					<td>
+													49.37%						</td>
+					<td>
+													91.75%						</td>
+															<td>
+						<div class="pr" style="z-index:187">
+							<span>									92.77%								  </span>
+														<a class="m_more fr" targ="box_13" href="javascript:void(0)"></a>
+							<div class="tipbox box_13" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>招银证券</td>
+												<td>Kevin Zhang</td>
+												<td class="tr">
+																									116.65%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中泰证券</td>
+												<td>王芳</td>
+												<td class="tr">
+																									114.28%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招商证券</td>
+												<td>鄢凡</td>
+												<td class="tr">
+																									139.93%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>广发证券</td>
+												<td>王亮</td>
+												<td class="tr">
+																									83.66%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>野村东方国际证券</td>
+												<td>戴洁</td>
+												<td class="tr">
+																									118.84%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>太平洋</td>
+												<td>张世杰</td>
+												<td class="tr">
+																									67.07%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>西南证券</td>
+												<td>胡杨</td>
+												<td class="tr">
+																									67.62%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>平安证券</td>
+												<td>杨钟</td>
+												<td class="tr">
+																									59.45%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华安证券</td>
+												<td>李美贤</td>
+												<td class="tr">
+																									67.40%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:186">
+							<span>									48.46%								  </span>
+														<a class="m_more fr" targ="box_14" href="javascript:void(0)"></a>
+							<div class="tipbox box_14" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>野村东方国际证券</td>
+												<td>戴洁</td>
+												<td class="tr">
+																									50.15%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招银证券</td>
+												<td>Kevin Zhang</td>
+												<td class="tr">
+																									59.75%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中泰证券</td>
+												<td>王芳</td>
+												<td class="tr">
+																									71.26%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招商证券</td>
+												<td>鄢凡</td>
+												<td class="tr">
+																									52.43%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>广发证券</td>
+												<td>王亮</td>
+												<td class="tr">
+																									39.11%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>太平洋</td>
+												<td>张世杰</td>
+												<td class="tr">
+																									41.04%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>西南证券</td>
+												<td>胡杨</td>
+												<td class="tr">
+																									46.02%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>平安证券</td>
+												<td>杨钟</td>
+												<td class="tr">
+																									38.26%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华安证券</td>
+												<td>李美贤</td>
+												<td class="tr">
+																									38.08%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:185">
+							<span>									35.64%								  </span>
+														<a class="m_more fr" targ="box_15" href="javascript:void(0)"></a>
+							<div class="tipbox box_15" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>招银证券</td>
+												<td>Kevin Zhang</td>
+												<td class="tr">
+																									37.97%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中泰证券</td>
+												<td>王芳</td>
+												<td class="tr">
+																									38.93%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招商证券</td>
+												<td>鄢凡</td>
+												<td class="tr">
+																									51.46%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>广发证券</td>
+												<td>王亮</td>
+												<td class="tr">
+																									29.36%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>野村东方国际证券</td>
+												<td>戴洁</td>
+												<td class="tr">
+																									35.32%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>太平洋</td>
+												<td>张世杰</td>
+												<td class="tr">
+																									29.44%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>西南证券</td>
+												<td>胡杨</td>
+												<td class="tr">
+																									41.33%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>平安证券</td>
+												<td>杨钟</td>
+												<td class="tr">
+																									27.63%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华安证券</td>
+												<td>李美贤</td>
+												<td class="tr">
+																									29.30%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+									</tr>
+								<tr>
+					<th class="tl">每股现金流(元)</th>
+					<td>
+													1.17											</td>
+					<td>
+						0.60</td>
+					<td>
+						2.17</td>
+															<td>
+						<div class="pr" style="z-index:184">
+							<span>1.50</span>
+														<a class="m_more fr" targ="box_16" href="javascript:void(0)"></a>
+							<div class="tipbox box_16" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>中泰证券</td>
+												<td>王芳</td>
+												<td class="tr">
+												1.21</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招商证券</td>
+												<td>鄢凡</td>
+												<td class="tr">
+												1.75</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>广发证券</td>
+												<td>王亮</td>
+												<td class="tr">
+												2.94</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>西南证券</td>
+												<td>胡杨</td>
+												<td class="tr">
+												1.24</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>平安证券</td>
+												<td>杨钟</td>
+												<td class="tr">
+												1.01</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华安证券</td>
+												<td>李美贤</td>
+												<td class="tr">
+												0.87</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:183">
+							<span>3.10</span>
+														<a class="m_more fr" targ="box_17" href="javascript:void(0)"></a>
+							<div class="tipbox box_17" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>中泰证券</td>
+												<td>王芳</td>
+												<td class="tr">
+												3.57</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招商证券</td>
+												<td>鄢凡</td>
+												<td class="tr">
+												3.09</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>广发证券</td>
+												<td>王亮</td>
+												<td class="tr">
+												3.10</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>西南证券</td>
+												<td>胡杨</td>
+												<td class="tr">
+												3.28</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>平安证券</td>
+												<td>杨钟</td>
+												<td class="tr">
+												2.83</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华安证券</td>
+												<td>李美贤</td>
+												<td class="tr">
+												2.74</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:182">
+							<span>4.48</span>
+														<a class="m_more fr" targ="box_18" href="javascript:void(0)"></a>
+							<div class="tipbox box_18" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>中泰证券</td>
+												<td>王芳</td>
+												<td class="tr">
+												5.85</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招商证券</td>
+												<td>鄢凡</td>
+												<td class="tr">
+												5.46</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>广发证券</td>
+												<td>王亮</td>
+												<td class="tr">
+												4.15</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>西南证券</td>
+												<td>胡杨</td>
+												<td class="tr">
+												4.18</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>平安证券</td>
+												<td>杨钟</td>
+												<td class="tr">
+												3.88</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华安证券</td>
+												<td>李美贤</td>
+												<td class="tr">
+												3.35</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+									</tr>
+								<tr>
+					<th class="tl">每股净资产(元)</th>
+					<td>
+													5.94											</td>
+					<td>
+						6.14</td>
+					<td>
+						6.88</td>
+															<td>
+						<div class="pr" style="z-index:181">
+							<span>8.63</span>
+														<a class="m_more fr" targ="box_19" href="javascript:void(0)"></a>
+							<div class="tipbox box_19" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>中泰证券</td>
+												<td>王芳</td>
+												<td class="tr">
+												9.31</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招商证券</td>
+												<td>鄢凡</td>
+												<td class="tr">
+												8.98</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>广发证券</td>
+												<td>王亮</td>
+												<td class="tr">
+												7.89</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>野村东方国际证券</td>
+												<td>戴洁</td>
+												<td class="tr">
+												9.49</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>西南证券</td>
+												<td>胡杨</td>
+												<td class="tr">
+												7.11</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>平安证券</td>
+												<td>杨钟</td>
+												<td class="tr">
+												8.44</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华安证券</td>
+												<td>李美贤</td>
+												<td class="tr">
+												9.20</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:180">
+							<span>11.13</span>
+														<a class="m_more fr" targ="box_20" href="javascript:void(0)"></a>
+							<div class="tipbox box_20" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>野村东方国际证券</td>
+												<td>戴洁</td>
+												<td class="tr">
+												11.27</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中泰证券</td>
+												<td>王芳</td>
+												<td class="tr">
+												13.86</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招商证券</td>
+												<td>鄢凡</td>
+												<td class="tr">
+												13.01</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>广发证券</td>
+												<td>王亮</td>
+												<td class="tr">
+												9.29</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>西南证券</td>
+												<td>胡杨</td>
+												<td class="tr">
+												7.50</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>平安证券</td>
+												<td>杨钟</td>
+												<td class="tr">
+												10.58</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华安证券</td>
+												<td>李美贤</td>
+												<td class="tr">
+												12.37</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:179">
+							<span>14.70</span>
+														<a class="m_more fr" targ="box_21" href="javascript:void(0)"></a>
+							<div class="tipbox box_21" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>中泰证券</td>
+												<td>王芳</td>
+												<td class="tr">
+												20.35</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招商证券</td>
+												<td>鄢凡</td>
+												<td class="tr">
+												19.11</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>广发证券</td>
+												<td>王亮</td>
+												<td class="tr">
+												11.11</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>野村东方国际证券</td>
+												<td>戴洁</td>
+												<td class="tr">
+												13.26</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>西南证券</td>
+												<td>胡杨</td>
+												<td class="tr">
+												9.26</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>平安证券</td>
+												<td>杨钟</td>
+												<td class="tr">
+												13.32</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华安证券</td>
+												<td>李美贤</td>
+												<td class="tr">
+												16.47</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+									</tr>
+								<tr>
+					<th class="tl">净资产收益率</th>
+					<td>
+													8.57%											</td>
+					<td>
+													12.17%						</td>
+					<td>
+													21.25%						</td>
+															<td>
+						<div class="pr" style="z-index:178">
+							<span>									32.32%								  </span>
+														<a class="m_more fr" targ="box_22" href="javascript:void(0)"></a>
+							<div class="tipbox box_22" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>招银证券</td>
+												<td>Kevin Zhang</td>
+												<td class="tr">
+																									38.10%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中泰证券</td>
+												<td>王芳</td>
+												<td class="tr">
+																									28.30%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招商证券</td>
+												<td>鄢凡</td>
+												<td class="tr">
+																									41.50%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>广发证券</td>
+												<td>王亮</td>
+												<td class="tr">
+																									31.90%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>野村东方国际证券</td>
+												<td>戴洁</td>
+												<td class="tr">
+																									36.70%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>太平洋</td>
+												<td>张世杰</td>
+												<td class="tr">
+																									32.07%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>西南证券</td>
+												<td>胡杨</td>
+												<td class="tr">
+																									31.38%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>平安证券</td>
+												<td>杨钟</td>
+												<td class="tr">
+																									25.90%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华安证券</td>
+												<td>李美贤</td>
+												<td class="tr">
+																									25.00%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:177">
+							<span>									38.56%								  </span>
+														<a class="m_more fr" targ="box_23" href="javascript:void(0)"></a>
+							<div class="tipbox box_23" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>野村东方国际证券</td>
+												<td>戴洁</td>
+												<td class="tr">
+																									43.50%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招银证券</td>
+												<td>Kevin Zhang</td>
+												<td class="tr">
+																									48.30%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中泰证券</td>
+												<td>王芳</td>
+												<td class="tr">
+																									33.00%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招商证券</td>
+												<td>鄢凡</td>
+												<td class="tr">
+																									45.70%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>广发证券</td>
+												<td>王亮</td>
+												<td class="tr">
+																									37.70%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>太平洋</td>
+												<td>张世杰</td>
+												<td class="tr">
+																									42.79%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>西南证券</td>
+												<td>胡杨</td>
+												<td class="tr">
+																									41.84%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>平安证券</td>
+												<td>杨钟</td>
+												<td class="tr">
+																									28.60%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华安证券</td>
+												<td>李美贤</td>
+												<td class="tr">
+																									25.60%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:176">
+							<span>									41.69%								  </span>
+														<a class="m_more fr" targ="box_24" href="javascript:void(0)"></a>
+							<div class="tipbox box_24" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>招银证券</td>
+												<td>Kevin Zhang</td>
+												<td class="tr">
+																									53.50%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中泰证券</td>
+												<td>王芳</td>
+												<td class="tr">
+																									31.50%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招商证券</td>
+												<td>鄢凡</td>
+												<td class="tr">
+																									47.30%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>广发证券</td>
+												<td>王亮</td>
+												<td class="tr">
+																									40.80%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>野村东方国际证券</td>
+												<td>戴洁</td>
+												<td class="tr">
+																									49.80%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>太平洋</td>
+												<td>张世杰</td>
+												<td class="tr">
+																									51.79%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>西南证券</td>
+												<td>胡杨</td>
+												<td class="tr">
+																									46.61%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>平安证券</td>
+												<td>杨钟</td>
+												<td class="tr">
+																									29.00%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华安证券</td>
+												<td>李美贤</td>
+												<td class="tr">
+																									24.90%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+									</tr>
+								<tr>
+					<th class="tl">市盈率(动态)</th>
+					<td>
+													250.94											</td>
+					<td>
+						169.55</td>
+					<td>
+						90.27</td>
+															<td>
+						<div class="pr" style="z-index:175">
+							<span>48.43</span>
+														<a class="m_more fr" targ="box_25" href="javascript:void(0)"></a>
+							<div class="tipbox box_25" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>招银证券</td>
+												<td>Kevin Zhang</td>
+												<td class="tr">
+												42.25</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中泰证券</td>
+												<td>王芳</td>
+												<td class="tr">
+												42.68</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招商证券</td>
+												<td>鄢凡</td>
+												<td class="tr">
+												38.14</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>广发证券</td>
+												<td>王亮</td>
+												<td class="tr">
+												49.79</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>野村东方国际证券</td>
+												<td>戴洁</td>
+												<td class="tr">
+												41.82</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>太平洋</td>
+												<td>张世杰</td>
+												<td class="tr">
+												54.79</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>西南证券</td>
+												<td>胡杨</td>
+												<td class="tr">
+												54.55</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>平安证券</td>
+												<td>杨钟</td>
+												<td class="tr">
+												57.29</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华安证券</td>
+												<td>李美贤</td>
+												<td class="tr">
+												54.55</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:174">
+							<span>33.00</span>
+														<a class="m_more fr" targ="box_26" href="javascript:void(0)"></a>
+							<div class="tipbox box_26" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>野村东方国际证券</td>
+												<td>戴洁</td>
+												<td class="tr">
+												27.82</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招银证券</td>
+												<td>Kevin Zhang</td>
+												<td class="tr">
+												26.41</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中泰证券</td>
+												<td>王芳</td>
+												<td class="tr">
+												24.89</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招商证券</td>
+												<td>鄢凡</td>
+												<td class="tr">
+												24.99</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>广发证券</td>
+												<td>王亮</td>
+												<td class="tr">
+												35.75</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>太平洋</td>
+												<td>张世杰</td>
+												<td class="tr">
+												38.85</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>西南证券</td>
+												<td>胡杨</td>
+												<td class="tr">
+												37.34</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>平安证券</td>
+												<td>杨钟</td>
+												<td class="tr">
+												41.41</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华安证券</td>
+												<td>李美贤</td>
+												<td class="tr">
+												39.58</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:173">
+							<span>24.59</span>
+														<a class="m_more fr" targ="box_27" href="javascript:void(0)"></a>
+							<div class="tipbox box_27" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>招银证券</td>
+												<td>Kevin Zhang</td>
+												<td class="tr">
+												19.16</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中泰证券</td>
+												<td>王芳</td>
+												<td class="tr">
+												17.92</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>招商证券</td>
+												<td>鄢凡</td>
+												<td class="tr">
+												16.51</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>广发证券</td>
+												<td>王亮</td>
+												<td class="tr">
+												27.64</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>野村东方国际证券</td>
+												<td>戴洁</td>
+												<td class="tr">
+												20.57</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>太平洋</td>
+												<td>张世杰</td>
+												<td class="tr">
+												29.95</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>西南证券</td>
+												<td>胡杨</td>
+												<td class="tr">
+												26.41</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>平安证券</td>
+												<td>杨钟</td>
+												<td class="tr">
+												32.51</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华安证券</td>
+												<td>李美贤</td>
+												<td class="tr">
+												30.60</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+									</tr>
+							</tbody>
+		</table>
+        <p class="clearfix">预测数据根据各机构发布的研究报告摘录所得，与本终端立场无关。</p>
+	</div>
+	<div class="ft"></div>
+</div>
+
+<!-- 研报评级 -->
+<div class="m_box" id="stockreport" stat="worth_stockreport">
+	<div class="hd">
+		<h2>研报评级</h2>
+		<a class="rankpart popper" href="javascript:void(0)" targ="box_rhpj">投资评级是如何划分的</a><!-- 点击时.rp_tipbox显示-->
+	</div>
+	<div class="bd m_dlbox">
+		<div class="field_date1 profit-forecast-time">
+			<div class="m_select">
+				<div class="text" id="profit-forecast-timeselect"><s></s><span id="profit-forecast-time-cur">6个月内</span></div>
+				<ul style="display: none" class="list" id="profit-forecast-timeselect-list">
+					<li><a tag="1" class="tableTab" href="javascript:void(0);" onclick="TA.log({'id':'F10new_ylycpjsj','nj':1})">1个月内</a></li>
+					<li><a tag="2" class="tableTab" href="javascript:void(0);" onclick="TA.log({'id':'F10new_ylycpjsj','nj':1})">2个月内</a></li>
+					<li><a tag="3" class="tableTab" href="javascript:void(0);" onclick="TA.log({'id':'F10new_ylycpjsj','nj':1})">3个月内</a></li>
+					<li><a tag="6" class="tableTab" href="javascript:void(0);" onclick="TA.log({'id':'F10new_ylycpjsj','nj':1})">6个月内</a></li>
+				</ul>
+			</div>
+			时间范围
+		</div>
+		
+		<a href="./news.html#report" title="更多" class="profit-forecast-more-fr" onclick="TA.log({'id':'F10new_ylycgdyb','nj':1})">更多&gt;&gt;</a>
+		<div class="profit-forecast-tab m_tab">
+			<ul class="fl" id="profit-forecast-tab-ul">
+				<li class="cur" id="profit-forecast-tab-li-0"><a href="javascript:void(0);" id="profit-forecast-tab-0" class="operateTab" onclick="TA.log({'id':'F10new_ylycpjfl','nj':1})">买入(<span id="profit-forecast-tab-count-0">4</span>)</a></li>
+				<li class="" id="profit-forecast-tab-li-1"><a href="javascript:void(0);" id="profit-forecast-tab-1" class="operateTab" onclick="TA.log({'id':'F10new_ylycpjfl','nj':1})">增持(<span id="profit-forecast-tab-count-1">3</span>)</a></li>
+				<li class="" id="profit-forecast-tab-li-2"><a href="javascript:void(0);" id="profit-forecast-tab-2" class="operateTab" onclick="TA.log({'id':'F10new_ylycpjfl','nj':1})">中性(<span id="profit-forecast-tab-count-2">0</span>)</a></li>
+				<li class="" id="profit-forecast-tab-li-3"><a href="javascript:void(0);" id="profit-forecast-tab-3" class="operateTab" onclick="TA.log({'id':'F10new_ylycpjfl','nj':1})">减持(<span id="profit-forecast-tab-count-3">0</span>)</a></li>
+				<li class="" id="profit-forecast-tab-li-4"><a href="javascript:void(0);" id="profit-forecast-tab-4" class="operateTab" onclick="TA.log({'id':'F10new_ylycpjfl','nj':1})">卖出(<span id="profit-forecast-tab-count-4">0</span>)</a></li>
+			</ul>
+		</div>
+								<div class="profit-forecast-box" id="profit-forecast-box-0" style="display:block">
+																	<dl class="hover">
+				<dt>
+					<span class="subtitle">买&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;入</span>
+					<span class="title">太平洋：产品结构优化，业绩爆发式增长</span>
+					<span class="date">2026-05-24</span>
+				</dt>
+				<dd>摘要：盈利预测与投资建议：预计2026-2028年营业总收入分别为391.48、514.85、629.84亿元，同比增速分别为37.69%、31.52%、22.33%；归母净利润分别为55.70、78.56、101.69亿元，同比增速分别为67.08%、41.04%、29.44%，对应26-28年PE分别为47X、33X、26X，维持“买入”评级。					<a class="profit-forecast-more check_all" title="查看个股研报全文" href="javascript:void(0)">查看全文&gt;&gt;</a>
+					<div class="the_all hidden">
+						<span class="close"><a href="javascript:void(0);">×</a></span>
+						<div class="cont_wraper">
+							<h1 class="cont_title">产品结构优化，业绩爆发式增长</h1>
+							<h2 class="sub_cont_title">发布时间：2026-05-24 来源：太平洋</h2>
+							<div class="sub_cont">
+								　　事件：公司发布26年一季报，公司26年一季度营业总收入81.41亿元，同比增长45.09%；归属于母公司所有者的净利润11.58亿元，同比增长105.47%；扣非后归母净利润10.83亿元，同比增长93.51%。<br>　　高端CCL+PCB放量，产品结构优化，业绩爆发式增长。公司26Q1归母净利润翻倍增长，利润端增速大幅超越收入端增速，毛利率提升，公司26Q1毛利率28.10%，同比增长3.50pct，环比增长2.32pct。公司盈利能力大幅增强，主要由于产品结构优化，分业务来看，覆铜板方面，AI服务器驱动高端产品需求爆发，公司积极调整产品销售结构，推动扩产产能释放，下游大客户进展显著，高频高速覆铜板占比提升，PCB方面，公司精准锚定中高端市场，订单持续转化，高附加值产品提升，在中高端市场竞争优势显著，带动营业收入及利润的大幅增长。<br>　　高性能覆铜板扩产，构筑中长期增量空间。公司总投资约52亿元建设"松山湖第二工厂"，以生产高性能覆铜板为主，产品定位为汽车领域用、5G通讯领域和AI服务器用高频、高速产品，以及封装领域用封装基板材料产品及高密度产品。公司设计年产能4800万平方米及10000万米商品粘结片，项目分两期建设，两期生产能力达到100％时的年销售收入估算总额为92.95亿元，扣除总成本费用和销售税金及附加后的利润总额约为13.90亿元。<br>　　盈利预测与投资建议：预计2026-2028年营业总收入分别为391.48、514.85、629.84亿元，同比增速分别为37.69%、31.52%、22.33%；归母净利润分别为55.70、78.56、101.69亿元，同比增速分别为67.08%、41.04%、29.44%，对应26-28年PE分别为47X、33X、26X，维持“买入”评级。<br>　　风险提示：下游需求不及预期风险；行业竞争加剧风险。							</div>								
+						</div>
+					</div>
+				</dd>
+			</dl>
+															<dl class="hover">
+				<dt>
+					<span class="subtitle">买&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;入</span>
+					<span class="title">西南证券：2026年一季报点评：全面拥抱AI浪潮，业绩弹性持续释放</span>
+					<span class="date">2026-05-08</span>
+				</dt>
+				<dd>摘要：盈利预测与投资建议：我们预计2026-2028年EPS分别为2.30元、3.36元、4.75元，对应动态PE分别为36倍、24倍、17倍。公司全面拥抱AI浪潮，业绩弹性持续释放，给予公司2026年45倍PE估值，对应目标价103.50元，首次覆盖，予以“买入”评级。					<a class="profit-forecast-more check_all" title="查看个股研报全文" href="javascript:void(0)">查看全文&gt;&gt;</a>
+					<div class="the_all hidden">
+						<span class="close"><a href="javascript:void(0);">×</a></span>
+						<div class="cont_wraper">
+							<h1 class="cont_title">2026年一季报点评：全面拥抱AI浪潮，业绩弹性持续释放</h1>
+							<h2 class="sub_cont_title">发布时间：2026-05-08 来源：西南证券</h2>
+							<div class="sub_cont">
+								　　业绩总结：2026年第一季度，公司实现营业收入81.41亿元，同比增长45.09%；实现归母净利润11.58亿元，同比增长105.47%；实现扣非归母净利润10.83亿元，同比增长93.51%；实现经营活动现金流净额5.72亿元，同比增长110.76%，业绩延续高增态势。<br>　　全面拥抱AI浪潮机遇，高附加值产品快速放量，盈利能力显著提升。公司2026年第一季度毛利率达28.10%，较上年同期24.60%提升3.50pp；归母净利率达14.23%，较上年同期10.04%提升4.19pp。盈利能力提升主要得益于：1）覆铜板受益于AI服务器需求增长，公司积极调整产品销售结构并推动产能释放，高附加值产品占比显著提升，带动毛利率快速提升。2）子公司生益电子深耕PCB领域，过去几年持续推动AI端的产品布局及客户积累，当前爆发的AI需求已转化为实质性的订单，带动PCB业务实现爆发式增长。<br>　　覆铜板与PCB业务双轮驱动，高端化趋势明确。公司两大主营业务板块在报告期内均表现良好。1）覆铜板业务：受益于下游高端需求增长、产品结构优化及价格策略调整，覆铜板销量、售价及盈利能力均实现同比提升；公司全球刚性覆铜板销售总额保持第二，龙头地位稳固。2）PCB业务：公司PCB业务主要由控股子公司生益电子经营，生益电子26Q1延续高增长，预计主要系AI服务器、800G交换机等高端业务高速放量。此外，生益电子26Q1存货为19.05亿，环比继续增加3.79亿，预计主要系海外AI服务器客户需求旺盛提前备货所致；公司持续优化产品结构，提升高附加值产品占比，高端化趋势明确。<br>　　高端产品持续突破，盈利能力不断强化。公司业绩增长的核心驱动力来自产品结构优化和高端市场突破。1）覆铜板和PCB：受益于AI服务器、数据中心和高速网络设备需求增长，高速低损耗CCL需求旺盛，公司向高端封装基材方向持续开发应用，未来高端CCL和PCB有望持续高增。2）价格传导能力：2025年玻璃布、铜箔等主要原材料价格上涨，公司精细策划并有效落地多轮价格调整方案，向下游传导部分成本压力，保障盈利水平。<br>　　盈利预测与投资建议：我们预计2026-2028年EPS分别为2.30元、3.36元、4.75元，对应动态PE分别为36倍、24倍、17倍。公司全面拥抱AI浪潮，业绩弹性持续释放，给予公司2026年45倍PE估值，对应目标价103.50元，首次覆盖，予以“买入”评级。<br>　　风险提示：市场竞争加剧、AI需求不及预期、客户导入不及预期等风险。							</div>								
+						</div>
+					</div>
+				</dd>
+			</dl>
+															<dl class="hover">
+				<dt>
+					<span class="subtitle">买&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;入</span>
+					<span class="title">国元证券：2025年年报及26Q1季报点评：AI需求驱动产品升级，高端材料与PCB共振成长</span>
+					<span class="date">2026-05-05</span>
+				</dt>
+				<dd>摘要：我们预测公司26-27年营收390.55/514.43亿元,归属母公司净利润为55.45/78.87亿元，对应PE分别为34/24倍，维持“买入”评级。					<a class="profit-forecast-more check_all" title="查看个股研报全文" href="javascript:void(0)">查看全文&gt;&gt;</a>
+					<div class="the_all hidden">
+						<span class="close"><a href="javascript:void(0);">×</a></span>
+						<div class="cont_wraper">
+							<h1 class="cont_title">2025年年报及26Q1季报点评：AI需求驱动产品升级，高端材料与PCB共振成长</h1>
+							<h2 class="sub_cont_title">发布时间：2026-05-05 来源：国元证券</h2>
+							<div class="sub_cont">
+								　　报告要点：<br>　　公司25年营收284.31亿元（YoY+39.45%），归母净利33.34亿元（YoY+91.75%），毛利率和净利率分别为26.47%和13.69%。26Q1，公司营收81.41亿元（YoY+45.09%，QoQ+4.14%），归母净利11.58亿元（YoY+105.47%，QoQ+30.01%），毛利率和净利率分别为28.10%和16.36%。营收增长以及产品毛利率提升带动公司扣非净利润实现高增长。<br>　　AI算力基础设施需求带动高端CCL、粘结片和PCB产品结构升级，产品涨价，以及江西二厂、生益电子等产能释放是公司营收和利润增长的主要原因。<br>　　CCL方面，我们预计公司26年业务收入超过210亿元，同比增加超过30%。需求主要来自AI服务器、高速网络、汽车电子等对高速、高频、低损耗等高端材料需求持续提升。公司产品销售单价有望进一步提升，有利于传导因上游原材料价格上涨而形成的压力；此外，江西二厂等新增产能逐步释放，保障订单交付。<br>　　PCB方面，我们预计公司26年业务收入超过140亿，同比增长超过50%。在AI服务器、高速交换机、光模块等需求拉动下，中高端PCB订单有望延续高景气。公司明确PCB业务锚定中高端市场，通过加大研发投入和扩产巩固竞争优势。随着高端产品占比持续提升，公司盈利能力有望持续走强。<br>　　AI基建需求带动公司业务向高端材料和高端PCB方向发展，盈利中枢有望持续上移。<br>　　我们预测公司26-27年营收390.55/514.43亿元,归属母公司净利润为55.45/78.87亿元，对应PE分别为34/24倍，维持“买入”评级。<br>　　风险提示<br>　　上行风险：AI服务器需求超预期；产能释放超预期；产品结构加速优化<br>　　下行风险：原材料价格大幅波动；产能释放不及预期；其他系统性风险							</div>								
+						</div>
+					</div>
+				</dd>
+			</dl>
+															<dl class="hover">
+				<dt>
+					<span class="subtitle">买&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;入</span>
+					<span class="title">华安证券：业绩稳步提升，AI赋能助力公司持续发展</span>
+					<span class="date">2026-04-30</span>
+				</dt>
+				<dd>摘要：我们预计公司2026-2028年的营业收入分别为391.56亿元、504.04亿元和627.02亿元，对比此前预期的2026年和2027年的营业收入331.60亿元和393.75亿元有所提升；归母净利润2026-2028年分别为55.81亿元、77.06亿元和99.64亿元，对比此前预期的2026年和2027年的净利润的39.72亿元和50.05亿元有所提升。每股EPS2026-2028年为2.30元、3.17元和4.10元。对应PE分别为33.3X/24.12X/18.65X。维持“买入”评级。					<a class="profit-forecast-more check_all" title="查看个股研报全文" href="javascript:void(0)">查看全文&gt;&gt;</a>
+					<div class="the_all hidden">
+						<span class="close"><a href="javascript:void(0);">×</a></span>
+						<div class="cont_wraper">
+							<h1 class="cont_title">业绩稳步提升，AI赋能助力公司持续发展</h1>
+							<h2 class="sub_cont_title">发布时间：2026-04-30 来源：华安证券</h2>
+							<div class="sub_cont">
+								　　生益发布2025年年报和2026年一季报<br>　　2025年业绩方面，2025年实现营业收入284.31亿元，同比增长39.45%；归属于上市公司股东的净利润33.34亿元，同比增长91.75%；基本每股收益1.39元。<br>　　2026年一季报业绩方面，从营收和利润方面看，公司实现营业总收入81.41亿元，同比增长45.09%，净利润11.58亿元，同比增长105.47%，基本每股收益为0.48元。<br>　　营业收入变动原因为：1）覆铜板板块，面对原材料价格上涨、高端产品市场需求增长等影响，公司积极调整产品销售结构，推动扩产产能释放，带动覆铜板销量等同比上升，覆铜板产品营业收入及毛利增加，推动盈利水平提升。2）线路板板块，公司深入贯彻“市场引领，双轮驱动”方针，精准锚定中高端市场，通过加大研发投入与推进扩产提产，筑牢质量管理根基，从而巩固市场竞争优势，净利润较上年同期实现大幅增长。<br>　　净利润变动原因为：1）覆铜板板块，面对原材料价格上涨、高端产品市场需求增长等影响，公司积极调整产品销售结构，推动扩产产能释放，带动覆铜板销量等同比上升，覆铜板产品营业收入及毛利增加，推动盈利水平提升。2）线路板板块，公司深入贯彻“市场引领，双轮驱动”方针，精准锚定中高端市场，通过加大研发投入与推进扩产提产，筑牢质量管理根基，从而巩固市场竞争优势，报告期内净利润较上年同期实现大幅增长。<br>　　研发持续投入，AI赋能助力公司持续成长<br>　　公司研发投入在AI相关领域核心主要包括汽车电子用高Tg高耐热覆铜板基材技术研究、AlPCB用无卤高耐热、新一代高端光通信核心组件产品研发、新一代智能算力核心加速组件产品开发和新一代高速大尺寸芯片网络产品技术开发。<br>　　其中新一代智能算力核心加速组件产品开发主要是研究开发AI用高阶HDI加速卡产品，提升公司在AI服务器领域的市场竞争力，并实现产业化；新一代高速大尺寸芯片网络产品技术开发主要是研究开发高速网络交换产品，提升公司在高端交换机领域的市场竞争力，并实现产业化。<br>　　投资建议<br>　　我们预计公司2026-2028年的营业收入分别为391.56亿元、504.04亿元和627.02亿元，对比此前预期的2026年和2027年的营业收入331.60亿元和393.75亿元有所提升；归母净利润2026-2028年分别为55.81亿元、77.06亿元和99.64亿元，对比此前预期的2026年和2027年的净利润的39.72亿元和50.05亿元有所提升。每股EPS2026-2028年为2.30元、3.17元和4.10元。对应PE分别为33.3X/24.12X/18.65X。维持“买入”评级。<br>　　风险提示<br>　　技术迭代不及预期、AI和超算需求不及预期、相关产品代工产能受限、原材料成本大幅提升风险。							</div>								
+						</div>
+					</div>
+				</dd>
+			</dl>
+														</div>
+								<div class="profit-forecast-box" id="profit-forecast-box-1" style="display:none">
+																	<dl class="hover">
+				<dt>
+					<span class="subtitle">增&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;持</span>
+					<span class="title">申万宏源：26H1业绩预告超预期，AICCL产品结构升级与涨价周期持续</span>
+					<span class="date">2026-07-17</span>
+				</dt>
+				<dd>摘要：上调盈利预测，维持“增持”评级。生益科技凭借卓越的管理层执行力、长期深耕的技术创新，已崛起成为高端电子电路基材领军，充分受益算力基建趋势下AI CCL产品结构升级与成本驱动型盈利扩张。由于二季度业绩超预期，且26H2-2027年电子布等核心原材料供给紧张导致的涨价与盈利扩张周期有望持续，我们上调2026-2028年归母净利润预测至67/110/125亿元（前次58亿/97亿/112亿元）。考虑到行业新增产能释放集中在26H2及以后，以27年为定价基准，参考可比公司，给予公司27年PE 35X，维持“增持”评级。					<a class="profit-forecast-more check_all" title="查看个股研报全文" href="javascript:void(0)">查看全文&gt;&gt;</a>
+					<div class="the_all hidden">
+						<span class="close"><a href="javascript:void(0);">×</a></span>
+						<div class="cont_wraper">
+							<h1 class="cont_title">26H1业绩预告超预期，AICCL产品结构升级与涨价周期持续</h1>
+							<h2 class="sub_cont_title">发布时间：2026-07-17 来源：申万宏源</h2>
+							<div class="sub_cont">
+								　　生益科技发布超预期的2026年半年度业绩预告。26H1：归母净利润区间31-33亿元，同比+117%-131%；扣非归母净利润27-29亿元，同比+97%-112%。26Q2：归母净利润区间19-21亿元，同比+125%-148%；扣非归母净利润16-18亿元，同比+100%-124%。<br>　　管理层将业绩的强劲增长归因于：1）CCL板块：面对原材料价格上涨、高端产品市场需求持续高速增长等影响，公司积极调整优化产品销售结构，并推动扩产产能及时释放，从而带动覆铜板销量上升，覆铜板产品营业收入及毛利增加，推动盈利水平提升。2）PCB板块：下属子公司生益电子受益于AI算力及高速通信等下游领域的高景气需求，持续聚焦高端市场的结构性增长机会，优化产品结构，有序推进增资扩产项目建设，尤其是智能算力中心高多层高密互连电路板项目按计划高效落地并快速释放效益<br>　　生益科技的长期增长驱动因素：1）处于新一轮扩产周期。江西二期、常熟及泰国项目陆续投产中，全部投产后预计新增覆铜板年产能约2850万平方米（约2280万张）。松山湖高性能覆铜板项目，投资总额约52亿元，预计年产能4,800万平方米（约3840万张）及10,000万米商品粘结片，分两期建设，预计2026年下半年启动。2）AICCL产品结构升级，路线图覆盖M9/M10/PTFE/CoWoP。在DesignCon2026上，生益科技系统性展出适配224G/448G速率的材料路线及方案，包括PTFE正交背板材料、CoWoP封装载板专用材料等。2026年5月19日，由生益科技主导制定的IEC国际标准《PTFE无增强材料含填料覆铜箔层压板》正式颁布。3）正在扩张的顶尖客户结构。公司已为英伟达供应GB300交换板M8等级CCL，亚马逊、谷歌、Meta等ASIC项目有望取得实质性份额突破。在下一代平台中，生益科技是中国大陆唯一通过英伟达M9认证的厂商。<br>　　上调盈利预测，维持“增持”评级。生益科技凭借卓越的管理层执行力、长期深耕的技术创新，已崛起成为高端电子电路基材领军，充分受益算力基建趋势下AICCL产品结构升级与成本驱动型盈利扩张。由于二季度业绩超预期，且26H2-2027年电子布等核心原材料供给紧张导致的涨价与盈利扩张周期有望持续，我们上调2026-2028年归母净利润预测至67/110/125亿元（前次58亿/97亿/112亿元）。考虑到行业新增产能释放集中在26H2及以后，以27年为定价基准，参考可比公司，给予公司27年PE35X，维持“增持”评级。<br>　　风险提示：算力景气度不及预期；公司产品研发、客户导入进展不及预期；CCL紧缺缓解。							</div>								
+						</div>
+					</div>
+				</dd>
+			</dl>
+															<dl class="hover">
+				<dt>
+					<span class="subtitle">增&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;持</span>
+					<span class="title">申万宏源：崛起的电子电路基材领军</span>
+					<span class="date">2026-06-29</span>
+				</dt>
+				<dd>摘要：投资分析意见：生益科技已经成为高端电子电路基材领军，充分受益算力基建趋势下覆铜板高速化与成本驱动型涨价。预计生益科技2026-2028年实现营业收入417/609/673亿元，同比+47%/+46%/+11%；归母净利润58亿/97亿/112亿元，同比+74%/+67%/+16%；净利率13.9%/15.9%/16.6%。截至2026年6月26日收盘，26E PE为75x，可比公司平均PE为88x，首次覆盖，给予“增持”评级。					<a class="profit-forecast-more check_all" title="查看个股研报全文" href="javascript:void(0)">查看全文&gt;&gt;</a>
+					<div class="the_all hidden">
+						<span class="close"><a href="javascript:void(0);">×</a></span>
+						<div class="cont_wraper">
+							<h1 class="cont_title">崛起的电子电路基材领军</h1>
+							<h2 class="sub_cont_title">发布时间：2026-06-29 来源：申万宏源</h2>
+							<div class="sub_cont">
+								　　生益科技：崛起的电子电路基材领军。根据Prismark，2013年至2024年，公司刚性覆铜板销售总额保持全球第二，2024年全球市场占有率达到13.7%，覆铜板销量超1.4亿平方米。产业引领者匹配新战略。生益科技在2025年报中对公司发展战略进行了全新表述：强调规模领先和技术领先战略，重点发展高速材料，加大力度开拓行业海外重点客户，扩充高等级材料研发人才，以及运营上AI提效。<br>　　AI基建需求拉动，高速CCL长期市场规模超150亿美元。AI投资加速推动服务器、交换机等基础设施的建设和升级换代，从而大幅提升对用于高速运算、高密度互联的高端PCB产品的需求。PCB作为承载核心计算组件的关键载体，需满足高频高速、低信号损耗、高散热性能等严苛要求，进而单位面积PCB/CCL的附加价值提升。根据Prismark预测，主要应用于AI服务器、交换机与路由器的高速数字CCL市场规模有望从2025年62亿美元增长至2030年158亿美元，2025-2030年CAGR达20.7%。<br>　　成本端传导顺畅，涨价动能或持续，带来盈利扩张。原材料转产高端压缩低端供给，电子布+铜箔+树脂三大主材具有充分涨价动能。CCL厂商预计有效转嫁。铜价在供需紧平衡下或维持高位。AI特种布抢占产能，供给约束下普通布涨价动能或持续。地缘冲突升级，上游石化供给受冲击，树脂成本存在上行空间。<br>　　技术引领，跻身高端供应链核心。公司已为英伟达供应GB300交换板M8等级CCL，亚马逊、谷歌、Meta等ASIC项目有望取得实质性份额突破。在下一代平台中，生益科技是中国大陆唯一通过英伟达M9认证的厂商。在DesignCon2026上，生益科技系统性展出适配224G/448G速率的材料路线及方案，包括PTFE正交背板材料、CoWoP封装载板专用材料等。5月19日，由生益科技主导制定的IEC国际标准《PTFE无增强材料含填料覆铜箔层压板》正式颁布。该材料以聚四氟乙烯（PTFE）为主体树脂，不含增强材料，但添加功能性填料，具备低且稳定的Dk与低Df，能够满足高频、高速信号传输对材料性能的严苛要求。<br>　　投资分析意见：生益科技已经成为高端电子电路基材领军，充分受益算力基建趋势下覆铜板高速化与成本驱动型涨价。预计生益科技2026-2028年实现营业收入417/609/673亿元，同比+47%/+46%/+11%；归母净利润58亿/97亿/112亿元，同比+74%/+67%/+16%；净利率13.9%/15.9%/16.6%。截至2026年6月26日收盘，26EPE为75x，可比公司平均PE为88x，首次覆盖，给予“增持”评级。<br>　　风险提示：算力景气度不及预期；公司产品研发、客户导入进展不及预期；CCL紧缺缓解。							</div>								
+						</div>
+					</div>
+				</dd>
+			</dl>
+															<dl class="hover">
+				<dt>
+					<span class="subtitle">增&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;持</span>
+					<span class="title">平安证券：受益AI业绩实现高增，扩充高端产能夯实发展基础</span>
+					<span class="date">2026-05-06</span>
+				</dt>
+				<dd>摘要：投资建议：结合公司业绩报告以及对行业发展趋势的判断，我们上调公司2026-2027年业绩预测，并新增2028年业绩预测，预计公司2026-2028年归母净利润分别为53.16亿元（原值为52.9亿元）、73.5亿元（原值为66.23亿元）和93.81亿元，对应2026年4月30日收盘价PE分别为35倍、25.3倍和19.8倍。当前AI高景气持续驱动高端PCB/CCL需求增长，公司作为全球CCL重要供应商之一，有望持续受益，维持公司“推荐”评级。					<a class="profit-forecast-more check_all" title="查看个股研报全文" href="javascript:void(0)">查看全文&gt;&gt;</a>
+					<div class="the_all hidden">
+						<span class="close"><a href="javascript:void(0);">×</a></span>
+						<div class="cont_wraper">
+							<h1 class="cont_title">受益AI业绩实现高增，扩充高端产能夯实发展基础</h1>
+							<h2 class="sub_cont_title">发布时间：2026-05-06 来源：平安证券</h2>
+							<div class="sub_cont">
+								　　事项：<br>　　近日，生益科技发布2025年年报及2026年一季报，2025年公司实现营收284.31亿元，同比+39.45%，实现归母净利润33.34亿元，同比+91.75%，26Q1公司实现营收81.41亿元，同比+45.09%，实现归母净利润11.58亿元，同比+105.47%。2025年公司拟每10股派现金红利8.00元（含税）。<br>　　平安观点：<br>　　紧抓AI发展新机遇，经营业绩迎来高速增长。得益于AI算力、高速通信等新兴领域的高景气，PCB市场迎来结构性需求增长，公司紧抓AI发展机遇，公司业绩实现高速增长，2025年公司实现营收284.31亿元，同比+39.45%，实现归母净利润33.34亿元，同比+91.75%，销售毛利率和销售净利率分别达26.47%和13.69%。26Q1，公司延续良好发展势头，26Q1单季度实现营收81.41亿元，同比+45.09%，实现归母净利润11.58亿元，同比+105.47%，单季销售毛利率和销售净利率分别增长至28.1%和16.36%。<br>　　产品矩阵覆盖全面，持续推进高端项目自主可控。生益科技作为全球覆铜板行业领军企业，与全球先进终端客户保持长期紧密合作，并前瞻性布局前沿产品和技术，相关产品广泛应用于高算力、AI服务器、5G天线、通讯骨干网络、新一代通讯基站、大型计算机、路由器、高端服务器以及芯片封装等领域，获得终端客户高度认可。当前公司已开发出不同介电损耗全系列高速产品，并实现多品种规模出货，与此同时，公司封装用产品已在卡类封装、LED、存储芯片类等领域实现规模出货，另外，公司正积极推进更高端的以FC-CSP、FC-BGA封装为代表的AP、CPU、GPU、AI类产品的开发和应用，持续突破海外技术和专利限制。2025年，公司共申请国内专利47件，境外专利4件，2025年共授权专利38件，其中国内专利26件，境外专利12件，截止2025年底，公司共有435件授权有效专利。<br>　　发布高端扩产项目，长期发展动能持续夯实。2026年4月，公司发布《关于投资建设高性能覆铜板项目的公告》，公司拟投资52亿元用于高性能覆铜板项目，该项目以高速、汽车、封装类基材为建设目标，预计年产能将达4800万平米及10000万米商品粘结片，该项目分两期建设，项目一期投资约30亿元，预计2028年投产，二期投资约22亿元，两期生产能力达到100%时预计年销售将达92.95亿元，扣除总成本费用和销售税金及附加后的利润总额约为13.9亿元。随着公司的高端产能持续扩展，将为公司未来长期发展奠定坚实的产能基础。<br>　　投资建议：结合公司业绩报告以及对行业发展趋势的判断，我们上调公司2026-2027年业绩预测，并新增2028年业绩预测，预计公司2026-2028年归母净利润分别为53.16亿元（原值为52.9亿元）、73.5亿元（原值为66.23亿元）和93.81亿元，对应2026年4月30日收盘价PE分别为35倍、25.3倍和19.8倍。当前AI高景气持续驱动高端PCB/CCL需求增长，公司作为全球CCL重要供应商之一，有望持续受益，维持公司“推荐”评级。<br>　　风险提示：（1）原材料价格波动风险。公司主要原材料涉及铜、树脂、玻璃布等，受大宗商品价格的影响，原材料价格波动以及供需失衡对公司的生产成本与生产经营带来较大的不确定性风险。（2）市场竞争风险。当前行业产能持续扩产，若下游需求恢复不及预期，将导致产能过剩，行业竞争加剧。（3）产品质量控制风险。覆铜板如果发生质量问题，则包含所有接插在其上的元器件在内的整块集成电路板会全部报废，所以客户对覆铜板的产品质量要求较高，如果公司不能有效控制产品质量，相应的赔偿风险将会对公司净利润产生一定影响。							</div>								
+						</div>
+					</div>
+				</dd>
+			</dl>
+														</div>
+								<div class="profit-forecast-box" id="profit-forecast-box-2" style="display:none">
+								<dl class="hover profit-forecast-box-none">
+					最近<span>6个月内</span>，未有<span></span>评级的研究报告，
+					<a href="./news.html#report" class="profit-forecast-more-1" onclick="TA.log({'id':'F10new_ylycgdyb','nj':1})">更多研究报告详情点击&gt;&gt;</a>
+			</dl>
+					</div>
+								<div class="profit-forecast-box" id="profit-forecast-box-3" style="display:none">
+								<dl class="hover profit-forecast-box-none">
+					最近<span>6个月内</span>，未有<span>减持</span>评级的研究报告，
+					<a href="./news.html#report" class="profit-forecast-more-1" onclick="TA.log({'id':'F10new_ylycgdyb','nj':1})">更多研究报告详情点击&gt;&gt;</a>
+			</dl>
+					</div>
+								<div class="profit-forecast-box" id="profit-forecast-box-4" style="display:none">
+								<dl class="hover profit-forecast-box-none">
+					最近<span>6个月内</span>，未有<span>卖出</span>评级的研究报告，
+					<a href="./news.html#report" class="profit-forecast-more-1" onclick="TA.log({'id':'F10new_ylycgdyb','nj':1})">更多研究报告详情点击&gt;&gt;</a>
+			</dl>
+					</div>
+						<p class="clearfix">评级根据各机构发布的研究报告摘录所得，不代表本终端的立场。</p>
+	</div>
+	<div class="ft"></div>
+	<div style="z-index:201" class="rp_tipbox box_rhpj" style="display:none">
+		<table class="m_table">
+			<thead>
+				<tr>
+					<th width="25%">评级</th>
+					<th>说明</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>公司评级</th>
+					<td>报告发布日后的12个月内，公司的涨跌幅度相对同期沪深300指数的涨跌幅为基准</td>
+				</tr>
+				<tr>
+					<th>买 入/推 荐</th>
+					<td>相对大盘涨幅大于10%</td>
+				</tr>
+				<tr>
+					<th>增 持/谨慎推荐</th>
+					<td>相对大盘涨幅在5%～10%之间</td>
+				</tr>
+				<tr>
+					<th>中 性/持 有</th>
+					<td>相对大盘涨幅在-5%～5%之间</td>
+				</tr>
+				<tr>
+					<th>减 持/卖 出</th>
+					<td>相对大盘涨幅小于-5%</td>
+				</tr>
+			</tbody>
+		</table>
+		<div>注：以上为一般划分准则，具体评级请参考对应研究报告。</div>
+		<s class="arrow"></s>
+	</div>
+</div>
+
+</div>
+		<!-- F10 Content End -->
+<!-- F10 Footer Start -->
+		<div class="footer">
+		<div class="links">
+		    <a href="http://stockpage.10jqka.com.cn" target="_blank" onclick="clickTalogStat('jptostock');">同花顺个股</a> |
+		    <a href="http://moni.10jqka.com.cn/" target="_blank">模拟炒股</a> |
+		    <a href="https://xtz.10jqka.com.cn/pc/home?from=pcf10" target="_blank">股民学校</a> |
+		    <a href="http://mobile.10jqka.com.cn/?req=pcf10" target="_blank">手机炒股</a>|
+		    <a target="_blank" href="https://news.10jqka.com.cn/homepage/intro/contact-us">联系我们</a>
+		</div>
+		<p>免责声明:本信息由同花顺金融研究中心提供，仅供参考，同花顺金融研究中心力求但不保证数据的完全准确，如有错漏请以中国证监会指定上市公司信息披露媒体为准，同花顺金融研究中心不对因该资料全部或部分内容而引致的盈亏承担任何责任。用户个人对服务的使用承担风险。同花顺对此不作任何类型的担保。同花顺不担保服务一定能满足用户的要求，也不担保服务不会受中断，对服务的及时性，安全性，出错发生都不作担保。同花顺对在同花顺上得到的任何信息服务或交易进程不作担保。同花顺提供的包括同花顺理财的所有文章，数据，不构成任何的投资建议，用户查看或依据这些内容所进行的任何行为造成的风险和结果都自行负责，与同花顺无关。 </p>
+		</div>
+<!-- F10 Footer End -->
+    </div>
+    <div class="r-go-top" id="r-go-top"></div>
+</body>
+<input id="stockCode" type="hidden" value="600183">
+<input id="F001" type="hidden" value="A">
+<input id="F002" type="hidden" value="上海证券交易所">
+<input id="F004" type="hidden" value="1">
+<input id="stockName" type="hidden" value="生益科技">
+<input id="marketId" type="hidden" value="17">
+<input id="cateName"  type="hidden" value="盈利预测">
+<input id="catecode"  type="hidden" value="worth">
+<input id="fcatecode"  type="hidden" value="worth">
+<input id="sid" type="hidden" value="F10new_jzfx">
+<input id="fid" type="hidden" value="F10,F10master,F10main,F10new">
+<input id="qid" type="hidden" value="14585137">
+<div style="display:none" id="wordraddom">
+</div>
+<!-- title 容器 -->
+	<div class="titleBox" id="altlayer" style="display:none; width: 260px;">
+		<div class="tipbox_bd p0_5"><span style="line-height:24px;" class="tip f14">
+		<span id="altlayer_content"></span>
+		</div>
+	</div>
+<script type="text/javascript"  crossorigin src="//s.thsi.cn/cb?js/common/cefapi/1.5.5/cefApi.min.js;js/basic/stock/newPcJs/common.js"></script>
+<script>
+try {
+    external.createObject('Util');
+    //document.getElementById("updownchange").style.display = "block";
+} catch (e) {}
+</script>
+<script type="text/javascript"  crossorigin src="//s.thsi.cn/cb?js/jquery-1.8.3.min.js;js/basic/common/inheritance.js;js/basic/stock/popWin.js;js/basic/common/Model_v2.js;js/basic/stock/20200604153837/index.js;js/basic/stock/20200604153837/po_v2.js;js/basic/stock/scrollBind.js"></script>
+<script type="text/javascript" crossorigin charset="utf-8" src="//s.thsi.cn/js/basic/stockph_v2/stock/common_v3-2-475b46.js"></script>
+<!--[if IE ]><script type="text/javascript"  crossorigin src="//s.thsi.cn/js/excanvas.min.js"></script><![endif]-->
+<!--[if IE 6]>
+<script type="text/javascript"  crossorigin src="//s.thsi.cn/js/basic/DD_belatedPNG_0.0.8a-min.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.company_logo,.btn-gnjx-left, .btn-gnjx-right, .concept_hot_icons,.iwc_searchbar,.iwc_searchbar .tips-icon,#autocomplete_search_input dd .icona,#autocomplete_search_input dd .iconb');</script>
+<![endif]-->
+<script type="text/javascript" crossorigin src="//s.thsi.cn/js/basic/jquery.pos-fixed.js"></script>
+<script type="text/javascript" crossorigin src="//s.thsi.cn/cb?js/ta.min.js;js/pa.min.js;js/basic/stock/StatLoad.js;js/basic/stock/20200605135220/xgcl_mod.js"></script>
+<script type="text/javascript" crossorigin src="//s.thsi.cn/js/basic/stock/tongji.min.js"></script>
+<!-- 统计 -->
+<script type="text/javascript"  crossorigin src="//s.thsi.cn/cb?js/home/ths_core.min.js;js/home/ths_quote.min.js;js/home/tongji.min.js" charset="utf-8"></script>
+<script type="text/javascript"  crossorigin src="//s.thsi.cn/js/basic/stock/commonLog_v3.js" charset="utf-8"></script>
+<!--F10运营位脚本-->
+<script type="text/javascript" crossorigin charset="utf-8" src="//s.thsi.cn/js/basic/stockph_v2/stock/append-960857.js"></script>
+<script type="text/javascript" crossorigin charset="utf-8" src="//s.thsi.cn/js/basic/stockph_v2/stock/f10widget_v3-5ec039.js"></script>
+<script type="text/javascript"  crossorigin src="//s.thsi.cn/cb?/js/navigation/jquery.bgiframe.min.js;/js/navigation/jquery.ui.position.min.js"></script>
+<script type="text/javascript"  crossorigin src="//s.thsi.cn/cb?js/basic/stock/json2.js"></script>
+<script type="text/javascript" charset="utf-8" src="//s.thsi.cn/js/basic/stockph_v2/stock/search_v3-fec53c.js"></script>
+<script type="text/javascript"  crossorigin src="//s.thsi.cn/cb?js/basic/stock/jquery.flot.min.js;js/basic/stock/jquery.flot.tooltip.min.js;js/basic/stock/20200604153837/worth.20151209.js"></script>
+<script>
+//---------------自定义title弹窗 start----------
+var tempalt='';//临时存储title
+document.body.onmousemove = function(event) {
+	if(altlayer.style.display==''){
+		$("#altlayer").css({
+			left: event.pageX,
+			top: event.pageY+10
+		});
+	}
+};
+document.body.onmouseover = function(event) {
+	if (event.srcElement.className !== 'titleIcon') {
+		return false;
+	}
+	if(event.srcElement.title && (event.srcElement.title!='' || (event.srcElement.title=='' && tempalt!=''))){
+		$("#altlayer").css({
+			left: event.pageX,
+			top: event.pageY+20,
+			display: ''
+		});
+		$("#altlayer_content").html(event.srcElement.title)
+		tempalt = event.srcElement.title;
+		event.srcElement.title='';
+	}
+};
+document.body.onmouseout = function(event) {
+	if (tempalt != '') {
+		event.srcElement.title = tempalt;	
+	}
+	tempalt = '';
+	$("#altlayer").hide();
+};
+//---------------自定义title弹窗 end----------
+//F10客户端结点设置
+function setClientCacheData() {
+    try { //判断是否在客户端，存入结点
+        external.createObject('Util');
+        window.API.use({
+            method: 'Util.getHxVer',
+            success: function(data) {
+                var hexinVer = getVersionStr(data);
+                var pathname = window.location.pathname
+                pathname = pathname.replace(/\/\d{2,3}\//, '/%4/');
+                pathname = pathname.replace(/\/[\d|A]\d{5}\//, '/%6/');
+                //dalert(hexinVer);//上线注意，测试版版本86080  正式版 86090 请注意
+                if (hexinVer >= 86080) {
+                    window.API.use({
+                        method: 'Info.cacheInfoData',
+                        data: ['f10_client_node', 'http://basic.10jqka.com.cn' + pathname],
+                        success: function() {
+                        }
+                    })
+                } else {
+                    window.API.use({
+                        method: 'Info.cacheInfoData',
+                        data: ['', 'http://basic.10jqka.com.cn/' + pathname],
+                        success: function() {
+                        }
+                    })
+                }
+            }
+        })
+        document.getElementById("updownchange").style.display = "block";
+    } catch (e) {
+        //远航版隐藏header
+        $("#quotedata").empty()
+        $("#updownchange").empty()
+    }
+	try {
+		callNativeHandler('getMacVer', {}, function(data){
+			if (data.plaform == 'mac' && data.version>='1.3.0' ) {
+				var pathname = window.location.pathname
+                pathname = pathname.replace(/\/\d{2,3}\//, '/%4/');
+                pathname = pathname.replace(/\/[\d|A]\d{5}\//, '/%6/');
+				callNativeHandler('cache_info_Data', {
+					'f10_client_node': 'http://basic.10jqka.com.cn' + pathname
+				}, function(data){
+				});
+			}
+		});
+	} catch (e) {
+    }
+}
+setClientCacheData();
+</script>
+<script type="text/javascript"  crossorigin src="//s.thsi.cn/js/basic/stock/20200604153837/stockpage_v3.20190506.js"></script>
+<script type="text/javascript" charset="utf-8" crossorigin id="ths-parser-script" app_key="f10_astockpc_config" src="//s.thsi.cn/cd/website-thsc-f10-utils/1.4.39/parser.js"></script>
+<script type="text/javascript">
+var sid = 'F10new_jzfx';
+var fid = 'F10,F10master,F10main,F10new';
+var stockcode = '600183';
+if (window.location.href.indexOf('interactive')<0
+		&&window.location.href.indexOf('dupont')<0) {
+    $(".subnav .skipto").each(function(){
+    	sonnav = $(this).attr('nav');
+    	if ($("#"+sonnav).length>0 || $("[idchange='"+sonnav+"']").length>0) {
+    	} else {
+    		$(this).hide();
+    	}
+    })
+}
+if (stockcode.substr(0,2) == '43' || stockcode.substr(0,2) == '83') {
+	var third_sid = sid+'_thirdboard';
+	var third_fid = fid+'_thirdboard';
+    PA.setStartTime(loadTimer);
+	PA.init({'id':third_sid, 'fid':third_fid, 'stockcode':stockcode});
+}
+$(document).ready(function(){
+var hash = window.location.hash.substring(1);
+var hashArray = hash.split('-');
+if(hashArray[0]  == 'position'){
+	$("#sortNav li").eq(hashArray[1]).find("a").click();
+}
+});
+try {
+    external.createObject('Util');
+    window.API.use({
+        method: 'Passport.get',
+        data: ['m_qs'],
+        success: function(data) {
+            var qsid = data
+            if (qsid == '114') {
+                $("#f10_top_ad").hide();
+                $("#r-go-top").hide();
+            }
+        }
+    })
+} catch (e) {}
+if (!isIE6()) {
+    $(".m_box").statload();
+}
+try {
+    external.createObject('Util');
+    window.API.use({
+        method: 'Passport.get',
+        data: 'm_qs',
+        success: function(data) {
+            var qsid = data
+            if (qsid < 800) {
+                fid += ',f10new_qs';
+            } else {
+                fid += ',f10new_fqs';
+            }
+            PA.setStartTime(loadTimer);
+            setTimeout(function(){
+                PA.init({
+                    'id': sid,
+                    'fid': fid,
+                    'stockcode': stockcode,
+                    'qsid': qsid
+                });
+            },100)
+        }
+    })
+} catch (e) {
+    PA.setStartTime(loadTimer);
+    PA.init({
+        'id': sid,
+        'fid': fid,
+        'stockcode': stockcode
+    });
+}
+try {
+    external.createObject('Util');
+    var externalSessionId = window.API.createSessionId('external');
+    window.API.use({
+        method: 'external.registerEvent',
+        data: 'onshow',
+        sessionId: externalSessionId,
+        persistent: true,
+        callbackName: 'onshow',
+        success: function(data) {
+            if (!data) {
+                 PA.setStartTime(loadTimer);
+                 PA.init({
+                    'id': sid,
+                    'fid': fid,
+                    'stockcode': stockcode,
+                    'hide': 1,
+                    'nj': 1,
+                    _sid: "__ths_onshow"
+                });
+            }
+        }
+    })
+} catch (e) {}
+</script>
+<div style="display:none"><script type="text/javascript">
+// 在客户端内，html做个区分，解决端内的一些特性
+if ((window.external && 'createObject' in window.external) || (window.HevoCef && "IsHevoCef" in window.HevoCef)) {
+	$('html').addClass("inClient");
+}
+(function(){
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F78c58f01938e4d85eaf619eae71b4ed1' type='text/javascript'%3E%3C/script%3E"));
+});
+</script>
+
+<script type="text/javascript" charset="utf-8" crossorigin src="//s.thsi.cn/js/basic/stockph_v2/stock/f10hq_v4-5-576b58.js"></script>
+<script type="text/javascript" charset="utf-8" crossorigin src="//s.thsi.cn/js/basic/stockph_v2/stock/onlyBAuthorize-4a6ce9.js"></script>
+</div>
+<!--F10头部广告-->
+
+<!--<div id="f10_top_ad" class="f10_ad_top none"><script type="text/javascript">CNZZ_SLOT_RENDER('297563');</script></div>-->
+</html>
+	
