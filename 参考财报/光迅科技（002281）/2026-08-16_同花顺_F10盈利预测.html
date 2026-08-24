@@ -1,0 +1,2508 @@
+<!DOCTYPE HTML>
+<html>
+<head id="head">
+		    <title>光迅科技(002281) 盈利预测_F10_同花顺金融服务网</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7;IE=9"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=gbk"/>
+	<meta name="keywords" content="光迅科技最新动态,光迅科技公司概况,光迅科技财务分析,光迅科技股东研究,光迅科技股本结构,光迅科技公司大事,光迅科技分红融资"/>
+	<meta name="description" content="暂无"/>
+	<!-- 券商url参数添加，落地只落broker-pcf10.html -->
+	
+	<script type="text/javascript" src="//s.thsi.cn/js/chameleon/chameleon.min.1786811.js"></script> <script>
+    function getUrlParams(key, url) {
+        var href = url ? url : window.location.href;
+        if (href.indexOf("?") < 0 && href.indexOf("#") < 0) {
+            return false;
+        }
+        var hrefStr = href.replace(/#/g, "&");
+        hrefStr = hrefStr.replace(/\?/g, "&");
+        var paramsObj= {};
+        hrefStr.split("&").forEach(function(i) {
+            if (i.indexOf("=") > -1) {
+                paramsObj[i.split("=")[0]] = i.split("=")[1];
+            }
+        });
+        if (key) {
+            return paramsObj[key] || false;
+        } else {
+            return paramsObj;
+        }
+    }
+
+    function addParam(url, obj) {
+        var str = "",res;
+        for (var key in obj) {
+            str += (key + "=" + obj[key]);
+        }
+        if (url.indexOf("?") > -1) {
+            res = url.split('?').join('?' + str + '&');
+        } else if (url.indexOf("#") > -1) {
+            res = url.replace(/#/g, "?" + str + "#");
+        } else {
+            res = url + "?" + str;
+        }
+        return res;
+    }
+
+    var historyUrl = document.referrer;
+    if (historyUrl) {
+        var broker = getUrlParams('broker', historyUrl);
+        if (broker && window.history) {
+            var url = window.location.href;
+            url = addParam(url, broker ? {broker: broker} : {});
+            window.history.pushState('', '', url);
+        }
+    }
+</script>
+	<!-- f10工具箱，工具函数修改，落地只落utils.html -->
+	
+	<script type="text/javascript" src="//s.thsi.cn/js/chameleon/chameleon.min.1786811.js"></script> <script type="text/javascript" charset="utf-8" src="//s.thsi.cn/cb?cd/website-thsc-f10-utils/1.4.8/f10-polyfill.js" crossorigin></script>
+<script type="text/javascript" charset="utf-8" src="//s.thsi.cn/cd/kernel-thslc-component-materials-container/F10/static/css-vars-ponyfill.js" ></script>
+<script type="text/javascript" charset="utf-8" src="//s.thsi.cn/cb?cd/website-thsc-f10-utils/1.6.0/thsc-f10-utils.js" crossorigin></script>
+<script>
+    function isIEInClient(){
+        return !!(window.external && 'getUserPath' in window.external && 'createObject' in window.external);
+    }
+
+    function isInTongYiClient(){
+      return !!(window.external && 'createObject' in window.external);
+    }
+
+    function isInYuanHangClient(){
+        return !!(window.HevoCef && 'IsHevoCef' in window.HevoCef);
+    }
+    
+    function isInIEEnv(){
+        var ua = window.navigator.userAgent.toLowerCase();
+        return ua.indexOf('msie') > -1 || ua.indexOf('trident/') > -1;
+    }
+
+    function isChromeOlderThan50(){
+        var userAgent = navigator.userAgent.toLowerCase();
+        var match = userAgent.match(/chrome\/(\d+)./);
+        if (match && parseInt(match[1]) <= 49) {
+           return true;
+        }
+        return false;
+    }
+
+</script>
+<style>
+.kamis-loading {
+	min-height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #437EB7;
+	background-color: rgba(255,255,255,0.8);
+	gap: 4px;
+	font-size: 14px;
+}
+.dark .kamis-loading, .black .kamis-loading {
+	background-color: #171D25;
+	color: #FEB302;
+}
+.kamis-loading svg {
+	width: 20px;
+	height: 20px;
+}
+.arco-icon-spin {
+  animation: spin 1s linear infinite;
+}
+.kamis-nodata {
+  min-height: 300px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  color: #333;
+  padding: 10px 14px;
+}
+.dark .kamis-nodata, .black .kamis-nodata {
+  color: #999;
+  background-color: #0b1016;
+  border-color:#1e2b38;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+</style>
+		<script type="text/javascript" src="//s.thsi.cn/js/chameleon/chameleon.min.1786811.js"></script> <script src="//s.thsi.cn/js/m/common/bridge.js" type="text/javascript"  crossorigin></script>
+	<script type="text/javascript"  crossorigin  src="//s.thsi.cn/js/jquery-1.8.3.min.js"></script>
+	<script charset="utf-8" src="//s.thsi.cn/cb?webprivate/lib/axios.min.js;hxapp/m/base/js/vue.2.7.16.min.js" crossorigin="anonymous"></script>
+	<!-- kamis 渲染器 -->
+	<script charset="utf-8" src="//s.thsi.cn/hxapp/m/pkgs/amis-2c/sdk/v1-3/2c-sdk-register.1.3.6.js"></script>
+	<!-- 新版埋点cdn -->
+	<script crossorigin src="//s.thsi.cn/cb?cd/weblog/0.0.1-alpha.27/weblog.js"></script>
+		<script>
+		var xhrProto = XMLHttpRequest.prototype;
+		var origOpen = xhrProto.open;
+		xhrProto.open = function (method, url) {
+			if (location.host.indexOf('0033.cn') > -1 && arguments[1] !== undefined && arguments[1].indexOf('10jqka.com.cn') > -1) {
+				arguments[1] = arguments[1].replace('10jqka.com.cn', '0033.cn');
+			}
+			return origOpen.apply(this, arguments);
+		};
+	</script>
+	<script>
+		var originCreateElement =  document.createElement;
+		document.createElement = function(tagName){
+			const element = originCreateElement.apply(document,arguments);
+			if(tagName.toLowerCase() === 'script'){
+				element.setAttribute('charset','utf-8');
+			}
+			return element;
+		}
+	</script>
+	<script id="monitor-script" api_key="ths_f10" src="//s.thsi.cn/cb?cd/website-thsc-f10-utils/1.6.40/monitor.js" crossorigin></script>
+	<script type="text/javascript"  crossorigin src="//s.thsi.cn/cb?js/common/cefapi/1.5.5/cefApi.min.js;js/basic/stock/newPcJs/common.js"></script>
+	<script>
+		try{
+			feMonitor.setConfig(
+				{
+				slientDev:false,//开发环境(localhost)是否发送报错请求，默认不发送为true
+				sampleRate:0.1, //采样率,可设置0-1之间，越小采集的频率越低
+				isCollectPerformance:true, //是否采集性能
+				title:'pc-F10'
+				}
+			);
+		}catch(e){
+
+		}
+	</script>
+	<style>
+        .wencaibs{color:#008BFF!important;cursor:pointer;}
+        .wd-tb .ptxt { word-break: break-word;}
+        .comment-chart-head{color: #89a;}
+        .comment-chart-head span{float: right;}
+        .comment-chart-head span i{vertical-align: middle; display: inline-block; width: 20px; height: 20px;margin: 0 2px 0 6px; border-radius: 20px; overflow: hidden;}
+        .comment-chart-head .imp-news{background: #da2e1f;}
+        .comment-chart-head .yidong-news{background: #e3bf1a;}
+
+        #ckg_table1 tr td{text-align:center}
+        #ckg_table2 tr td{text-align:center}
+        #ckg_table3 tr td{text-align:center}
+        #ckg_table4 tr td{text-align:center}
+        #ckg_table5 tr td{text-align:center}
+		li{list-style-type:none;
+			list-style-position:outside;}
+		#jpjl-input:focus { outline: none; }
+		.black.inClient .clientJump {
+			cursor: pointer;
+			color: #0199fa;
+			text-decoration: underline;
+		}
+		.white.inClient .clientJump {
+			color: #07519a;
+			text-decoration: underline;
+			cursor: pointer;
+		}
+		.managelist .name a {    color: #0199fa;
+			margin: 0 3px 2px;
+			text-decoration: underline;
+			border-bottom: none !important;
+		}
+	</style>
+	<!--统计页面加载时间-->
+	<script type="text/javascript">
+		var loadTimer= new Date().getTime();
+	</script>
+    <style>
+        #search_cyter{
+            display: block !important;
+        }
+		#profile .tickLabels .tickLabel{
+			padding-right:12px;
+			box-sizing:border-box;
+		}
+	  .a_cursor {
+		pointer: cursor;
+	}
+    </style>
+</head>
+<script type="text/javascript">
+
+//cookie设置
+function setReviewJumpState(state) {
+	document.cookie = 'reviewJump='
+					+ state
+					+ ';path=/;domain='
+					+ window.location.host;
+}
+//取得对应名字cookie
+function getCookie(name) {
+	var cookieValue = "";
+	var search = name + "=";
+	if (document.cookie.length > 0) {
+	    offset = document.cookie.indexOf(search);
+	    if (offset != -1)    {
+	        offset += search.length;
+	        end = document.cookie.indexOf(";", offset);
+	        if (end == -1) end = document.cookie.length;
+	        cookieValue = unescape(document.cookie.substring(offset, end))
+	    }
+	}
+	return cookieValue;
+}
+//栏目提前跳转
+var reviewJumpState = getCookie('reviewJump');
+if (!!reviewJumpState && reviewJumpState != 'nojump') {
+	setReviewJumpState('nojump');
+	window.location.href = unescape(reviewJumpState);
+} else {
+	setReviewJumpState('nojump');
+}
+//动态添加link-同步-会阻塞
+function addCssByLink(url){
+    document.write('<link rel="stylesheet" type="text/css"');
+    document.write(' href="' + url + '">');
+}
+function isMac() {
+        return /macintosh|mac os x/i.test(navigator.userAgent);
+};
+ var hash = window.location.hash.substring(1);
+hashArray = hash.split('=');
+if (hashArray[0] == 'stockpage') {
+    var STOCK_SKIN = 'white';
+} else {
+    var STOCK_SKIN = getCookie('skin_color');
+}
+//肤色与客户端同步
+function syncClientSkin(){
+	try {//取得客户端肤色
+		if (isMac()) {
+			return 'white';
+		}
+		return 'black';
+	} catch(e) {}
+}
+if (!STOCK_SKIN) {
+	STOCK_SKIN = syncClientSkin();
+}
+document.documentElement.setAttribute("class",STOCK_SKIN);
+if (STOCK_SKIN == 'white') {
+	// addCssByLink('/f10/css/company-compare.css');
+	addCssByLink('//s.thsi.cn/css/basic/stock/company-compare-202006082100.css');
+ 
+    addCssByLink('//s.thsi.cn/cb?css/basic/stock/white/20200604153837/style_v4-2.css;css/basic/stock/white/20200604153837/chart_v2.min.20180110.css;css/basic/stock/white/20200604153837/dupont.css;css/basic/stock/white/20200604153837/black_v2-4.20190711.css;css/basic/stock/white/custom.min.css;css/basic/stock/white/20200604153837/operations.css;css/basic/stock/white/20200604153837/writecsskzd.min.css');
+	addCssByLink('//s.thsi.cn/cb?css/basic/stock/20200604153837/survey-w.css;css/basic/stock/20200604153837/wxgcl_mod.css;css/basic/stock/provider-w_v2.css;css/basic/stock/20200604153837/searchbar-w_v2.css;css/basic/stock/20200604153837/wccept.css;css/basic/stock/wtgfx.css');
+	addCssByLink('//s.thsi.cn/css/basic/stock/fschool/20200604153837/f_school_w.css');
+	addCssByLink('//s.thsi.cn/css/basic/stock/white/wsplpager.css');
+	addCssByLink('//s.thsi.cn/css/basic/stock/wchartsdom.css');
+	addCssByLink('//s.thsi.cn/cb?css/basic/stock/white/20200604153837/industrydata.css;css/basic/stock/white/20200604153837/main_v1-2.css;css/basic/stock/white/20200604153837/xgcl.css;css/basic/stock/white/20200604153837/courier.css;css/basic/stock/white/20200604153837/recommend.css;css/basic/stock/white/20200604153837/housedata.css;css/basic/stock/white/202005071600/20200604153837/longhu.css;css/basic/stock/white/20200604153837/operate_white.css');
+	addCssByLink('//s.thsi.cn/css/basic/stock/white/remind_white.css');
+	addCssByLink('//s.thsi.cn/css/basic/stock/index_v1.css');
+	addCssByLink('//s.thsi.cn/js/home/v5/thirdpart/scrollbar/jquery.mCustomScrollbar.css');
+	addCssByLink('//s.thsi.cn/css/basic/stock/20200604153837/instition_white_v2.css');
+	if (!!window.ActiveXObject&&!window.XMLHttpRequest) {
+		addCssByLink('//s.thsi.cn/css/basic/stock/white/20200604153837/expression.css');
+	}
+					addCssByLink("//s.thsi.cn/css/basic/common/white/title.css")
+} else {
+	// addCssByLink('/f10/css/company-compare.css');
+	addCssByLink('//s.thsi.cn/css/basic/stock/company-compare-202006082100.css');
+ 	addCssByLink('//s.thsi.cn/cb?css/basic/stock/black/20200604153837/style_v3-5.min.20200426.css;css/basic/stock/black/20200604153837/chart_v2.min.20190410.css;css/basic/stock/black/20200604153837/black_v2-4.20190711.css;css/basic/stock/black/custom.min.css;css/basic/stock/black/20200604153837/operations.css;css/basic/stock/black/20200604153837/csskzd.min.20150608.css;/css/basic/stock/20200604153837/survey.20150929.css;/css/basic/stock/provider_v2.css;/css/basic/stock/20200604153837/searchbar_v2.css;/css/basic/stock/20200604153837/ccept.css');
+	addCssByLink('//s.thsi.cn/css/basic/stock/fschool/20200604153837/f_school.css');
+	addCssByLink('//s.thsi.cn/css/basic/stock/black/splpager.20170504.css');
+	addCssByLink('//s.thsi.cn/cb?css/basic/stock/chartsdom.css;css/basic/stock/20200604153837/xgcl_mod.css;/css/basic/stock/tgfx.css');
+	addCssByLink('//s.thsi.cn/cb?css/basic/stock/black/20200604153837/industrydata.css;css/basic/stock/black/20200604153837/main_v1-2.css;css/basic/stock/black/20200604153837/xgcl.css;css/basic/stock/black/20200604153837/courier.css;css/basic/stock/black/20200604153837/funcRecommend.css;css/basic/stock/black/20200604153837/dupont.css;css/basic/stock/black/202005071600/20200604153837/longhu.css;css/basic/stock/black/20200604153837/operate.css');
+	addCssByLink('//s.thsi.cn/css/basic/stock/black/remind_black.css');
+	addCssByLink('//s.thsi.cn/js/home/v5/thirdpart/scrollbar/jquery.mCustomScrollbar.css');
+
+	addCssByLink('//s.thsi.cn/css/basic/stock/index_v1.css');
+	addCssByLink('//s.thsi.cn/css/basic/stock/20200604153837/instition_black_v2.css');
+	if (!!window.ActiveXObject&&!window.XMLHttpRequest) {
+		addCssByLink('//s.thsi.cn/css/basic/stock/black/20200604153837/expression.min.20140801.css');
+	}
+					addCssByLink("//s.thsi.cn/css/basic/common/black/title.css")
+}
+/*calendar*/
+function  minDate(){
+ 	var data = $('#inte_json').text();
+	var datajson =new Object();
+	if (data) {
+		data = eval('('+data+')');
+	}
+	for (var x in data) {
+		datajson = data[x];
+	}
+	var minDate = datajson.year+'-'+datajson.month+'-'+datajson.day;
+	return minDate;
+ }
+ Date.prototype.Format = function(fmt)
+{ //author: meizz
+  var o = {
+    "M+" : this.getMonth()+1,                 //月份
+    "d+" : this.getDate(),                    //日
+    "h+" : this.getHours(),                   //小时
+    "m+" : this.getMinutes(),                 //分
+    "s+" : this.getSeconds(),                 //秒
+    "q+" : Math.floor((this.getMonth()+3)/3), //季度
+    "S"  : this.getMilliseconds()             //毫
+  };
+  if(/(y+)/.test(fmt))
+    fmt=fmt.replace(RegExp.$1, (this.getFullYear()+"").substr(4 - RegExp.$1.length));
+  for(var k in o)
+    if(new RegExp("("+ k +")").test(fmt))
+  fmt = fmt.replace(RegExp.$1, (RegExp.$1.length==1) ? (o[k]) : (("00"+ o[k]).substr((""+ o[k]).length)));
+  return fmt;
+}
+ function  displayDate(){
+ 	var data = $('#inte_json').text();
+ 	var date =new Array();
+	var datajson =new Object();
+	var i=0;
+	if (data) {
+		data = eval('('+data+')');
+	}
+	for (var x in data) {
+		datajson[x] = data[x];
+		dates = datajson[x].year+'-'+datajson[x].month+'-'+datajson[x].day;
+		if (x==0|| date[i-1] != dates) {
+			date[i] = dates;
+			i++;
+		}
+	}
+	var count =date.length;
+	var date2 = new Date();
+	var month =date2.getMonth()+1;
+	var day =date2.getDate();
+	if ((date2.getMonth()+1)>9) {
+	} else {
+	 	var month ="0"+month;
+	}
+	if (date2.getDate()>9) {
+	} else {
+	 	var day ="0"+day;
+	}
+	year = date2.getFullYear();
+	date2 = year+'-'+month+'-'+day;
+	var result = "['";
+	for (i=0;i<count;i++) {
+		if (date2 == date[i]) {
+			dateArr = date2.split('-');
+			newdate = new Date(new Date(dateArr[0], dateArr[1]-1,  dateArr[2])-24*60*60*1000);
+			date2 = newdate.Format("yyyy-MM-dd");
+		} else {
+			result +=date2+"',";
+			dateArr = date2.split('-');
+			newdate = new Date(new Date(dateArr[0], dateArr[1]-1,  dateArr[2])-24*60*60*1000);
+			date2 = newdate.Format("yyyy-MM-dd");
+			i--;
+		}
+	}
+	result = result.substr(0,result.length-1)+']';
+	return result;
+ }
+    function showDatePicker1(color) {
+        WdatePicker({
+            selfCssUrl:'//s.thsi.cn/css/basic/stock/'+STOCK_SKIN+'/mydatepicker.css',
+            eCont:'WdateDiv1',
+            vel:'elDate1',
+            minDate:minDate(),
+            maxDate:'%y-%M-%d',
+            onpicked:function(dp){
+                $('#elDate1').text(dp.cal.getNewDateStr());
+                var invalider = $(".J_calendar").find("iframe").contents().find(".WinvalidDay");
+            },
+            Mchanged:function(dp){
+                var invalider = $(".J_calendar").find("iframe").contents().find(".WinvalidDay");
+            }
+        });
+    }
+    function showDatePicker2(color) {
+
+        WdatePicker({
+            selfCssUrl:'//s.thsi.cn/css/basic/stock/'+STOCK_SKIN+'/mydatepicker.css',
+            eCont:'WdateDiv2',
+            vel:'elDate2',
+            maxDate:'%y-%M-%d',
+            onpicked:function(dp){
+                $('#elDate2').text(dp.cal.getNewDateStr());
+                var invalider = $(".J_calendar").find("iframe").contents().find(".WinvalidDay");
+            },
+            Mchanged:function(dp){
+                var invalider = $(".J_calendar").find("iframe").contents().find(".WinvalidDay");
+            }
+        });
+    }
+  function isIE() {
+	// 判断IE浏览器及其版本
+	if(document.documentMode) {
+		return document.documentMode;
+	}
+	var userAgent = navigator.userAgent.toLowerCase();
+	if (userAgent.indexOf('edge') > -1) {
+		return 'edge';
+	}
+	return false;
+  }
+	 // 初始化财务
+	 var initFinance = window.localStorage.getItem('initFinance');
+	 if (!initFinance) {
+		 window.localStorage.setItem('initFinance', 'init');
+		 window.localStorage.setItem('memoryPage', 'old');
+	  }
+	  // 跳转地址
+    function jumpToUrl(url, name, anchor, conceptName) {
+	  if (!url || !name) {
+			return;
+		}
+		// 新老地址切换
+		var oldPage = {
+			'financen': true
+		}
+		var pageLocation = window.localStorage.getItem('memoryPage');
+      //在IE环境中
+      if (isInIEEnv() || (pageLocation && pageLocation == 'old' && oldPage[name])) {
+        location.href = url;
+	    return;
+     }
+     var code = $('#stockCode').val();
+	 var codeName = $('#stockName').val();
+	 var marketid = $('#marketId').val();
+	 var pageAnchor = anchor ? '&anchor=' + anchor : '';
+	 var host = window.location.host;
+	 var targetUrl = '//' + host + '/astockpc/astockmain/index.html#/' + name + '?code=' + code + '&marketid=' + marketid + '&code_name=' + codeName + pageAnchor;
+	 if (conceptName) {
+		 targetUrl += "&cname=" + conceptName;
+	 }
+     location.href = targetUrl;
+    }
+	// 跳转新地址
+	function jumpToNew() {
+       var code = $('#stockCode').val();
+	   var codeName = $('#stockName').val();
+	   var marketid = $('#marketId').val();
+	   var url = window.location.href;
+	   var module = url.match(/\/(\w+).html?/);
+	   var moduleName = '';
+	   var host = window.location.host;
+	   if (module && module[1]) {
+		   moduleName = module[1];
+		   if (module[1] == 'finance') {
+			   moduleName = 'financen';
+		   }
+	   }
+	   window.TA.log('F10hs_cwfx.tyxbb.click');
+	   window.localStorage.setItem('memoryPage', 'new');
+	   setTimeout(function (){
+		  location.href = '//' + host + '/astockpc/astockmain/index.html#/' + moduleName + '?code=' + code + '&marketid=' + marketid + '&code_name=' + codeName;
+	   }, 10)
+	}
+</script>
+    <script type="text/javascript" charset="utf-8" src="//s.thsi.cn/js/basic/stockph_v2/qdc_ad-fd3034.js"></script>
+	<link href="//s.thsi.cn/css/basic/stockph/qdc_ad-6e8683.css" rel="stylesheet" type="text/css">
+ 
+<body>
+<div class="votepopbox votesuccess" style="display: none">
+		<div class="vpopicon"></div>
+		<p class="vpoptxt fz18">谢谢您的宝贵意见</p>
+		<p class="vpoptxt">您的支持是我们最大的动力</p>
+	</div>
+	<div class="votepopbox voteinfo" style="display: none">
+		<div class="vpopicon"></div>
+		<p class="vpoptxt fz18">谢谢您的支持</p>
+		<p class="vpoptxt"></p>
+	</div>
+    <div class="wrapper">
+<!-- F10 Header Start -->
+		<div class="header">
+		    <div class="hd">
+		        <div class="logo fl" id="logo_self"><a title="同花顺F10">同花顺F10</a></div>
+
+															<div onclick="sendTalog('f10_click_quot')" style="width:260px; margin-left:60px; font-size:14px;cursor:pointer;margin-right:10px;display:none;text-align:center" class="fl tip " id="quotedata">
+							<div  class="fl">最新价： <span style="width:40px" class="upcolor" id="zxj">--</span></div>
+							<div  class="fr">涨跌幅： <span style="width:40px;" class="upcolor" id="zdf">--</span></div>
+						</div>
+											        <span class="fr skin-change"><a href="###">换肤</a></span>
+		        <div class="search fr" id="search_cyter">
+		            <div id="updownchange" type="once" class="codeChange fl" style="display: none;">
+		                <a href="javascript:void(0)" class="per">上一个股</a>
+		                <a href="javascript:void(0)" class="next">下一个股</a>
+		            </div>
+		            <div class="fl searchbar">
+			            <div class="text fl">
+			                <input type="text" id="jpjl-input" value="输入股票名称或代码" /><!--文本框获得焦点给.searchbar添加hover类-->
+			             </div>
+		                <input type="button" value="搜索" class="btn" id="submit"/>
+		            </div>
+		        </div>
+		    </div>
+		    <div class="bd clear">
+		        <div class="code fl">
+					<div><h1 style="margin:3px 0px 0px 0px">
+												光迅科技</h1></div>
+					<div>
+						<a href="interactive.html" tid="wdm" posid="r1c1" class="iwen" onclick="TA.log({'id':'F10_review','nj':1})">i问董秘</a>
+						<style>
+							.qiyehao {
+								display:none;
+								float:left;
+								cursor:pointer;
+								margin: 4px 0 0 17px;
+								width:50px;
+								text-align:center;
+								font-size:12px;
+								padding: 2px  0 4px 0;
+								line-height:12px;
+							    border-radius:6px;
+								color: white;
+                                background-color:#437eb7;
+							}
+							.black  .qiyehao {
+								background-color: #b60006;
+							}
+						</style>
+						<div class="qiyehao">企业号</div>
+						<h1 style="margin:3px 0px 0px 0px">
+						002281						</h1>
+						<script>
+							 $(document).ready(function(){
+								//获取市场代码
+                                var market = $('#marketId').val();
+								//获取股票代码
+								var code = $('#stockCode').val();
+								//判断是否是B股
+								var isBStock = function () {
+									var flag = market == '18' || market == '34' || market == '105';
+									return flag;
+								}
+								
+								//在B股和Ie浏览器中不展示企业号入口
+								if(isBStock() || isInIEEnv()){
+									return ;
+								}
+								isThsClient(function(){
+                                   //隐藏董秘问答入口
+								   $('.iwen').hide();
+                                   //展示企业号入口
+								   $('.qiyehao').show();
+								   $(document).on ('click','.qiyehao',function(){
+                                      var url = 'https://board.10jqka.com.cn/fe/board/qyh.html#/qyh/homepage?thscode=' + code  + '&marketid=' + market + '&from=f10';
+									    window.API.use({
+										  method: "Util.openURL2",
+										  data:{
+											url: url,
+											mode: 1,
+											useCef: true,
+										  }
+									    })
+								    })
+								})
+							 })
+						</script>
+					</div>
+		        </div>
+		        <div class="nav">
+		            <ul>
+		                <li><a href="./"              target="_self" tid="zxdt" posid="r1c3" >最新动态</a></li>
+		                <li><a href="javascript:void(0)" onclick="jumpToUrl('./company.html', 'company', '');return false;"   target="_self" tid="gszl" posid="r1c4" > 公司资料</a></li>
+		                <li><a href="./holder.html"   target="_self" tid="gdyj" posid="r1c5" >股东研究</a></li>
+						<li><a href="javascript:void(0)" onclick="jumpToUrl('./operate.html', 'operate', '');return false;" target="_self" tid="jyfx" posid="r1c6" > 经营分析</a></li>
+		                <li><a href="./equity.html"   target="_self" tid="gbjg" posid="r1c7" >股本结构</a></li>
+		                <li><a href="./capital.html"  target="_self" tid="zbyz" posid="r1c8" > 资本运作</a></li>
+		                <li><a href="./worth.html"    target="_self" tid="ylyc" posid="r1c9"  class="cur" >盈利预测</a></li>
+		                <li><a href="./news.html"     target="_self" tid="xwgg" posid="r2c3" >新闻公告</a></li>
+						<li><a  href="javascript:void(0)"  onclick="jumpToUrl('./concept.html', 'concept', '');return false;"target="_self" tid="gntc" posid="r2c4" >概念题材</a></li>
+		                <li><a  href="javascript:void(0)"  onclick="jumpToUrl('./position.html', 'position', '');return false;"target="_self" tid="zlcc" posid="r2c5" >主力持仓</a></li>
+		                <li><a href="javascript:void(0)"  onclick="jumpToUrl('./finance.html', 'financen', '');return false;" target="_self" tid="cwgk" posid="r2c6" > 财务分析</a></li>
+						<li><a href="javascript:void(0)"  onclick="jumpToUrl('./bonus.html', 'bonus', '');return false;" target="_self" tid="fhrz" posid="r2c7" >分红融资</a></li>
+						<li><a href="./event.html"    target="_self" tid="gsds" posid="r2c8" >公司大事</a></li>
+		                <li><a href="./field.html"    target="_self" tid="hydb" posid="r2c9" >行业对比</a></li>
+		            </ul>
+		        </div>
+		        <div class="subnav">
+					<ul>
+					   						<li>
+							<a style="position:relative;height:25px;" class="skipto" type="" nav="forecast"  name="worth.html#forecast" href="###">业绩预测							</a>
+						</li>
+												<li>
+							<a style="position:relative;height:25px;" class="skipto" type="" nav="forecastdetail"  name="worth.html#forecastdetail" href="###">业绩预测详表							</a>
+						</li>
+												<li>
+							<a style="position:relative;height:25px;" class="skipto" type="" nav="stockreport"  name="worth.html#stockreport" href="###">研报评级							</a>
+						</li>
+								            </ul>
+		        </div>
+		    </div>
+		</div>
+<!-- F10 Header End -->
+<!-- F10 Content Start -->
+		<style>
+		.iwc_searchbar{display: none;}
+	</style>
+		<div class="iwc_searchbar clearfix" style="">
+    <div class="tips-box" style="display: none;">
+        <div class="t-hd"></div>
+        <div class="t-bd">
+            <div class="info">
+                <p>F10 功能找不到？在搜索框里直接输入您想要的功能！比如输入“龙虎榜”，赶快试一下哦！</p>
+                <div class="btn">
+                    <a href="###" class="a-left close">跳过</a>
+                    <a href="###" class="a-right next">下一步</a>
+                </div>
+            </div>
+            <div class="info" style="display: none;">
+                <p>选股选不好？可以直接输入你想要的问句啦，比如输入“近一周涨幅超过30%的股票”赶紧行动吧！</p>
+                <div class="btn">
+                    <a href="###" class="a-left prev">上一步</a>
+                    <a href="###" class="a-right close">完成</a>
+                </div>
+            </div>
+        </div>
+        <div class="t-ft"></div>
+   	 </div>
+     <div class="searchfx">
+        <input id="search_input" x-webkit-speech="" x-webkit-grammar="builtin:search" lang="zh_CN" class="fillbox" autocomplete="off" type="text" value="输入问句，你想知道的都在这里">
+        <input class="action_btn" id="search_submit" type="button" value="搜索">
+        <span  class="tips-icon"></span>
+     </div>
+	</div>
+	<div class="content page_event_content" >	
+
+<!-- 业绩预测 -->
+<div class="m_box z100" id="forecast" stat="worth_forecast">
+	<div class="hd">
+		<h2>业绩预测</h2>
+	</div>
+	<div class="bd">
+			<p class="tip clearfix">
+		截至2026-08-14，6个月以内共有 <strong>6</strong> 家机构对光迅科技的2026年度业绩作出预测；<br />
+		预测2026年每股收益 <strong>2.00</strong> 元，较去年同比增长 <strong>65.29%</strong>，
+		预测2026年净利润 <strong>16.30</strong> 亿元，较去年同比增长 <strong>72.19%</strong>
+		</p>
+			<div class="pt10">
+			<div class="cwzb_wrap">
+				<div class="chart_nav clearfix">
+					<ul class="nav_tab">
+						<li class="current"><a href="javascript:void(0)">&nbsp;&nbsp;&nbsp;&nbsp;业绩预测&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+					</ul>
+					<div class="legend_nav yjyc_legend_nav">
+						<a class="icons_col_blue icons_sprite" href="javascript:void(0)">净利润</a>
+						<a class="icons_col_yellow icons_sprite" href="javascript:void(0)">预测净利润</a>
+						<a class="icons_line_blue icons_sprite" href="javascript:void(0)">每股收益</a>
+						<a class="icons_line_yellow icons_sprite" href="javascript:void(0)">预测每股收益</a>
+					</div>
+				</div>
+				<div id="yjycData" class="none">[["2019","0.55","3.58","SJ"],["2020","0.73","4.87","SJ"],["2021","0.85","5.67","SJ"],["2022","0.90","6.08","SJ"],["2023","0.83","6.19","SJ"],["2024","0.85","6.61","SJ"],["2025","1.21","9.46","SJ"],["2026","2.00","16.30","YC"],["2027","3.37","27.47","YC"]]</div>
+				<div id="yjycChart" style="width:100%;height:220px;"></div>
+			</div>
+		</div>
+		<div class='clearfix'>
+	    		<div class="fl yjyc">
+			<table class="m_table m_hl">
+				<caption class="hltip m_cap">
+								<span class="fr tip">单位：元</span>汇总--预测年报每股收益
+								</caption>
+					<colgroup span="2" class="tc"></colgroup>
+					<colgroup span="4" class="tr"></colgroup>
+				<thead>
+					<tr>
+						<th>年度</th>
+						<th>预测机构数</th>
+						<th>最小值</th>
+						<th>均值</th>
+						<th>最大值</th>
+						<th>行业平均数</th>
+					</tr>
+				</thead>
+				<tbody>
+									<tr>
+						<th>2026</th>
+						<td class="tc">6</td>
+						<td>1.82</td>
+						<td>2.00</td>
+						<td>2.26</td>
+						<td>2.82</td>
+					</tr>
+									<tr>
+						<th>2027</th>
+						<td class="tc">6</td>
+						<td>2.47</td>
+						<td>3.37</td>
+						<td>6.28</td>
+						<td>4.01</td>
+					</tr>
+									<tr>
+						<th>2028</th>
+						<td class="tc">5</td>
+						<td>3.34</td>
+						<td>4.69</td>
+						<td>8.11</td>
+						<td>5.51</td>
+					</tr>
+								</tbody>
+			</table>
+		</div>
+				<div class="fr yjyc">
+			<table class="m_table m_hl">
+				<caption class="hltip m_cap">
+								<span class="fr tip">单位：亿元</span>汇总--预测年报净利润
+								</caption>
+					<colgroup span="2" class="tc"></colgroup>
+					<colgroup span="4" class="tr"></colgroup>
+				<thead>
+					<tr>
+						<th>年度</th>
+						<th>预测机构数</th>
+						<th>最小值</th>
+						<th>均值</th>
+						<th>最大值</th>
+						<th>行业平均数</th>
+					</tr>
+				</thead>
+				<tbody>
+									<tr>
+						<th>2026</th>
+						<td class="tc">6</td>
+						<td>14.71</td>
+						<td>16.30</td>
+						<td>18.70</td>
+						<td>35.24</td>
+					</tr>
+									<tr>
+						<th>2027</th>
+						<td class="tc">6</td>
+						<td>19.89</td>
+						<td>27.47</td>
+						<td>51.96</td>
+						<td>50.95</td>
+					</tr>
+									<tr>
+						<th>2028</th>
+						<td class="tc">5</td>
+						<td>26.97</td>
+						<td>38.43</td>
+						<td>67.10</td>
+						<td>70.63</td>
+					</tr>
+								</tbody>
+			</table>
+		</div>
+			</div>
+			<p class="clearfix">预测数据根据各机构发布的研究报告摘录所得，与本终端立场无关。</p>
+	</div>
+	<div class="ft"></div>
+</div>
+
+<!-- 业绩预测详表 -->
+<div class="m_box z100" id="forecastdetail" stat="worth_forecastdetail">
+	<div class="hd">
+		<h2>业绩预测详表</h2>
+	</div>
+	<div class="bd">
+	<div class='ybhctl hover_ta' taname="f10_stock_mktl_ybhc">
+			<p class="tip clearfix"> </p>
+		</div>
+		<table class="m_table m_hl posi_table">
+			<caption class="m_cap adjust"><span class="high">调高</span><span class="low">调低</span></caption>
+				<colgroup span="2" class="tc" />
+				<colgroup span="6" class="tr hl" />
+				<colgroup span="1" class="tc" />
+			<thead>
+				<tr>
+					<th rowspan="2">机构名称</th>
+					<th rowspan="2">研究员</th>
+					<th colspan="3">预测年报每股收益（元）</th>
+					<th colspan="3">预测年报净利润（元）</th>
+					<th rowspan="2">报告日期</th>
+				</tr>
+				<tr>
+					<th>2026预测</th>
+					<th>2027预测</th>
+					<th>2028预测</th>
+					<th>2026预测</th>
+					<th>2027预测</th>
+					<th>2028预测</th>
+				</tr>
+			</thead>
+			<tbody>
+							<tr>
+					<th class="tl">太平洋</th>
+					<td class="tl">宋辰超</td>
+					<td><s class=""></s>2.07</td>
+					<td><s class=""></s>3.50</td>
+					<td><s class=""></s>5.10</td>
+					<td><s class=""></s>17.15亿</td>
+					<td><s class=""></s>28.94亿</td>
+					<td><s class=""></s>42.24亿</td>
+					<td>2026-07-27</td>
+				</tr>
+							<tr>
+					<th class="tl">中国银河</th>
+					<td class="tl">赵良毕</td>
+					<td><s class="up"></s>1.99</td>
+					<td><s class="up"></s>2.77</td>
+					<td><s class=""></s>3.57</td>
+					<td><s class="up"></s>16.02亿</td>
+					<td><s class="up"></s>22.34亿</td>
+					<td><s class="up"></s>28.83亿</td>
+					<td>2026-04-24</td>
+				</tr>
+							<tr>
+					<th class="tl">华鑫证券</th>
+					<td class="tl">庄宇</td>
+					<td><s class=""></s>1.90</td>
+					<td><s class=""></s>2.48</td>
+					<td><s class=""></s>-</td>
+					<td><s class=""></s>15.36亿</td>
+					<td><s class=""></s>19.99亿</td>
+					<td><s class=""></s>-</td>
+					<td>2026-03-30</td>
+				</tr>
+						</tbody>
+		</table>
+		<table class="m_table m_hl ggintro ggintro_1 organData">
+			<caption class="m_cap adjust"><span class="table_cap">详细指标预测</span></caption>
+			<thead>
+				<tr>
+					<th>预测指标</th>
+											<th>2023（实际值）</th>											<th>2024（实际值）</th>											<th>2025（实际值）</th>											<th>预测2026（平均）</th>											<th>预测2027（平均）</th>											<th>预测2028（平均）</th>									</tr>
+			</thead>
+			<tbody>
+												<tr>
+					<th class="tl">营业收入(元)</th>
+					<td>
+													60.61亿											</td>
+					<td>
+													82.72亿						</td>
+					<td>
+													119.29亿						</td>
+															<td>
+						<div class="pr" style="z-index:199">
+							<span>									165.25亿								  </span>
+														<a class="m_more fr" targ="box_1" href="javascript:void(0)"></a>
+							<div class="tipbox box_1" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>太平洋</td>
+												<td>宋辰超</td>
+												<td class="tr">
+																									171.89亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中国银河</td>
+												<td>赵良毕</td>
+												<td class="tr">
+																									167.00亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华鑫证券</td>
+												<td>庄宇</td>
+												<td class="tr">
+																									156.87亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:198">
+							<span>									225.28亿								  </span>
+														<a class="m_more fr" targ="box_2" href="javascript:void(0)"></a>
+							<div class="tipbox box_2" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>太平洋</td>
+												<td>宋辰超</td>
+												<td class="tr">
+																									264.25亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中国银河</td>
+												<td>赵良毕</td>
+												<td class="tr">
+																									215.43亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华鑫证券</td>
+												<td>庄宇</td>
+												<td class="tr">
+																									196.15亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:197">
+							<span>									302.54亿								  </span>
+														<a class="m_more fr" targ="box_3" href="javascript:void(0)"></a>
+							<div class="tipbox box_3" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>太平洋</td>
+												<td>宋辰超</td>
+												<td class="tr">
+																									346.56亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中国银河</td>
+												<td>赵良毕</td>
+												<td class="tr">
+																									258.52亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+									</tr>
+								<tr>
+					<th class="tl">营业收入增长率</th>
+					<td>
+													-12.31%											</td>
+					<td>
+													36.49%						</td>
+					<td>
+													44.20%						</td>
+															<td>
+						<div class="pr" style="z-index:196">
+							<span>									38.54%								  </span>
+														<a class="m_more fr" targ="box_4" href="javascript:void(0)"></a>
+							<div class="tipbox box_4" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>太平洋</td>
+												<td>宋辰超</td>
+												<td class="tr">
+																									44.10%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中国银河</td>
+												<td>赵良毕</td>
+												<td class="tr">
+																									40.00%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华鑫证券</td>
+												<td>庄宇</td>
+												<td class="tr">
+																									31.51%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:195">
+							<span>									35.92%								  </span>
+														<a class="m_more fr" targ="box_5" href="javascript:void(0)"></a>
+							<div class="tipbox box_5" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>太平洋</td>
+												<td>宋辰超</td>
+												<td class="tr">
+																									53.73%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中国银河</td>
+												<td>赵良毕</td>
+												<td class="tr">
+																									29.00%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华鑫证券</td>
+												<td>庄宇</td>
+												<td class="tr">
+																									25.04%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:194">
+							<span>									25.57%								  </span>
+														<a class="m_more fr" targ="box_6" href="javascript:void(0)"></a>
+							<div class="tipbox box_6" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>太平洋</td>
+												<td>宋辰超</td>
+												<td class="tr">
+																									31.15%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中国银河</td>
+												<td>赵良毕</td>
+												<td class="tr">
+																									20.00%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+									</tr>
+								<tr>
+					<th class="tl">利润总额(元)</th>
+					<td>
+													6.77亿											</td>
+					<td>
+													7.21亿						</td>
+					<td>
+													10.26亿						</td>
+															<td>
+						<div class="pr" style="z-index:193">
+							<span>									18.06亿								  </span>
+														<a class="m_more fr" targ="box_7" href="javascript:void(0)"></a>
+							<div class="tipbox box_7" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>太平洋</td>
+												<td>宋辰超</td>
+												<td class="tr">
+																									19.05亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中国银河</td>
+												<td>赵良毕</td>
+												<td class="tr">
+																									18.06亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华鑫证券</td>
+												<td>庄宇</td>
+												<td class="tr">
+																									17.07亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:192">
+							<span>									26.47亿								  </span>
+														<a class="m_more fr" targ="box_8" href="javascript:void(0)"></a>
+							<div class="tipbox box_8" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>太平洋</td>
+												<td>宋辰超</td>
+												<td class="tr">
+																									32.09亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中国银河</td>
+												<td>赵良毕</td>
+												<td class="tr">
+																									25.12亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华鑫证券</td>
+												<td>庄宇</td>
+												<td class="tr">
+																									22.21亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:191">
+							<span>									39.63亿								  </span>
+														<a class="m_more fr" targ="box_9" href="javascript:void(0)"></a>
+							<div class="tipbox box_9" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>太平洋</td>
+												<td>宋辰超</td>
+												<td class="tr">
+																									46.86亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中国银河</td>
+												<td>赵良毕</td>
+												<td class="tr">
+																									32.40亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+									</tr>
+								<tr>
+					<th class="tl">净利润(元)</th>
+					<td>
+													6.19亿											</td>
+					<td>
+													6.61亿						</td>
+					<td>
+													9.46亿						</td>
+															<td>
+						<div class="pr" style="z-index:190">
+							<span>									16.30亿								  </span>
+														<a class="m_more fr" targ="box_10" href="javascript:void(0)"></a>
+							<div class="tipbox box_10" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>太平洋</td>
+												<td>宋辰超</td>
+												<td class="tr">
+																									17.15亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中国银河</td>
+												<td>赵良毕</td>
+												<td class="tr">
+																									16.02亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华鑫证券</td>
+												<td>庄宇</td>
+												<td class="tr">
+																									15.36亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:189">
+							<span>									27.47亿								  </span>
+														<a class="m_more fr" targ="box_11" href="javascript:void(0)"></a>
+							<div class="tipbox box_11" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>太平洋</td>
+												<td>宋辰超</td>
+												<td class="tr">
+																									28.94亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中国银河</td>
+												<td>赵良毕</td>
+												<td class="tr">
+																									22.34亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华鑫证券</td>
+												<td>庄宇</td>
+												<td class="tr">
+																									19.99亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:188">
+							<span>									38.43亿								  </span>
+														<a class="m_more fr" targ="box_12" href="javascript:void(0)"></a>
+							<div class="tipbox box_12" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>太平洋</td>
+												<td>宋辰超</td>
+												<td class="tr">
+																									42.24亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中国银河</td>
+												<td>赵良毕</td>
+												<td class="tr">
+																									28.83亿								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+									</tr>
+								<tr>
+					<th class="tl">净利润增长率</th>
+					<td>
+													1.80%											</td>
+					<td>
+													6.82%						</td>
+					<td>
+													43.10%						</td>
+															<td>
+						<div class="pr" style="z-index:187">
+							<span>									70.94%								  </span>
+														<a class="m_more fr" targ="box_13" href="javascript:void(0)"></a>
+							<div class="tipbox box_13" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>太平洋</td>
+												<td>宋辰超</td>
+												<td class="tr">
+																									81.23%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中国银河</td>
+												<td>赵良毕</td>
+												<td class="tr">
+																									69.29%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华鑫证券</td>
+												<td>庄宇</td>
+												<td class="tr">
+																									62.31%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:186">
+							<span>									46.11%								  </span>
+														<a class="m_more fr" targ="box_14" href="javascript:void(0)"></a>
+							<div class="tipbox box_14" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>太平洋</td>
+												<td>宋辰超</td>
+												<td class="tr">
+																									68.75%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中国银河</td>
+												<td>赵良毕</td>
+												<td class="tr">
+																									39.45%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华鑫证券</td>
+												<td>庄宇</td>
+												<td class="tr">
+																									30.14%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:185">
+							<span>									37.51%								  </span>
+														<a class="m_more fr" targ="box_15" href="javascript:void(0)"></a>
+							<div class="tipbox box_15" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>太平洋</td>
+												<td>宋辰超</td>
+												<td class="tr">
+																									45.96%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中国银河</td>
+												<td>赵良毕</td>
+												<td class="tr">
+																									29.05%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+									</tr>
+								<tr>
+					<th class="tl">每股现金流(元)</th>
+					<td>
+													1.32											</td>
+					<td>
+						-0.81</td>
+					<td>
+						2.02</td>
+															<td>
+						<div class="pr" style="z-index:184">
+							<span>2.03</span>
+														<a class="m_more fr" targ="box_16" href="javascript:void(0)"></a>
+							<div class="tipbox box_16" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>中国银河</td>
+												<td>赵良毕</td>
+												<td class="tr">
+												2.03</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:183">
+							<span>2.42</span>
+														<a class="m_more fr" targ="box_17" href="javascript:void(0)"></a>
+							<div class="tipbox box_17" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>中国银河</td>
+												<td>赵良毕</td>
+												<td class="tr">
+												2.42</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:182">
+							<span>2.71</span>
+														<a class="m_more fr" targ="box_18" href="javascript:void(0)"></a>
+							<div class="tipbox box_18" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>中国银河</td>
+												<td>赵良毕</td>
+												<td class="tr">
+												2.71</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+									</tr>
+								<tr>
+					<th class="tl">每股净资产(元)</th>
+					<td>
+													10.63											</td>
+					<td>
+						11.48</td>
+					<td>
+						12.50</td>
+															<td>
+						<div class="pr" style="z-index:181">
+							<span>14.24</span>
+														<a class="m_more fr" targ="box_19" href="javascript:void(0)"></a>
+							<div class="tipbox box_19" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>中国银河</td>
+												<td>赵良毕</td>
+												<td class="tr">
+												14.24</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:180">
+							<span>16.66</span>
+														<a class="m_more fr" targ="box_20" href="javascript:void(0)"></a>
+							<div class="tipbox box_20" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>中国银河</td>
+												<td>赵良毕</td>
+												<td class="tr">
+												16.66</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:179">
+							<span>19.88</span>
+														<a class="m_more fr" targ="box_21" href="javascript:void(0)"></a>
+							<div class="tipbox box_21" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>中国银河</td>
+												<td>赵良毕</td>
+												<td class="tr">
+												19.88</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+									</tr>
+								<tr>
+					<th class="tl">净资产收益率</th>
+					<td>
+													8.00%											</td>
+					<td>
+													7.55%						</td>
+					<td>
+													9.88%						</td>
+															<td>
+						<div class="pr" style="z-index:178">
+							<span>									13.93%								  </span>
+														<a class="m_more fr" targ="box_22" href="javascript:void(0)"></a>
+							<div class="tipbox box_22" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>太平洋</td>
+												<td>宋辰超</td>
+												<td class="tr">
+																									14.59%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中国银河</td>
+												<td>赵良毕</td>
+												<td class="tr">
+																									13.90%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华鑫证券</td>
+												<td>庄宇</td>
+												<td class="tr">
+																									13.30%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:177">
+							<span>									17.12%								  </span>
+														<a class="m_more fr" targ="box_23" href="javascript:void(0)"></a>
+							<div class="tipbox box_23" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>太平洋</td>
+												<td>宋辰超</td>
+												<td class="tr">
+																									19.76%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中国银河</td>
+												<td>赵良毕</td>
+												<td class="tr">
+																									16.60%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华鑫证券</td>
+												<td>庄宇</td>
+												<td class="tr">
+																									15.00%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:176">
+							<span>									20.19%								  </span>
+														<a class="m_more fr" targ="box_24" href="javascript:void(0)"></a>
+							<div class="tipbox box_24" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>太平洋</td>
+												<td>宋辰超</td>
+												<td class="tr">
+																									22.38%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中国银河</td>
+												<td>赵良毕</td>
+												<td class="tr">
+																									18.00%								  				</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+									</tr>
+								<tr>
+					<th class="tl">市盈率(动态)</th>
+					<td>
+													222.71											</td>
+					<td>
+						217.47</td>
+					<td>
+						152.77</td>
+															<td>
+						<div class="pr" style="z-index:175">
+							<span>93.16</span>
+														<a class="m_more fr" targ="box_25" href="javascript:void(0)"></a>
+							<div class="tipbox box_25" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>太平洋</td>
+												<td>宋辰超</td>
+												<td class="tr">
+												89.30</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中国银河</td>
+												<td>赵良毕</td>
+												<td class="tr">
+												92.89</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华鑫证券</td>
+												<td>庄宇</td>
+												<td class="tr">
+												97.29</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:174">
+							<span>64.69</span>
+														<a class="m_more fr" targ="box_26" href="javascript:void(0)"></a>
+							<div class="tipbox box_26" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>太平洋</td>
+												<td>宋辰超</td>
+												<td class="tr">
+												52.81</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中国银河</td>
+												<td>赵良毕</td>
+												<td class="tr">
+												66.73</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>华鑫证券</td>
+												<td>庄宇</td>
+												<td class="tr">
+												74.54</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+															<td>
+						<div class="pr" style="z-index:173">
+							<span>44.02</span>
+														<a class="m_more fr" targ="box_27" href="javascript:void(0)"></a>
+							<div class="tipbox box_27" style="display:none;">
+								<div class="tipbox_hd">
+									<h4>预测机构一览</h4>
+								</div>
+								<div class="tipbox_bd p0_5">
+									<table class="m_table" style="width:350px">
+										<thead>
+										<tr>
+											<th class="tc">研究机构</th>
+											<th class="tc">研究员</th>
+											<th class="tc">预测值</th>
+											<th class="tc">评级</th>
+										</tr>
+										</thead>
+										<tbody>
+										    											<tr>
+												<td>太平洋</td>
+												<td>宋辰超</td>
+												<td class="tr">
+												36.25</td>
+												<td class="tr">-</td>
+											</tr>
+																						<tr>
+												<td>中国银河</td>
+												<td>赵良毕</td>
+												<td class="tr">
+												51.78</td>
+												<td class="tr">-</td>
+											</tr>
+																					</tbody>
+									</table>
+								</div>
+								<div class="arrow"></div>
+							</div>
+													</div>
+					</td>
+									</tr>
+							</tbody>
+		</table>
+        <p class="clearfix">预测数据根据各机构发布的研究报告摘录所得，与本终端立场无关。</p>
+	</div>
+	<div class="ft"></div>
+</div>
+
+<!-- 研报评级 -->
+<div class="m_box" id="stockreport" stat="worth_stockreport">
+	<div class="hd">
+		<h2>研报评级</h2>
+		<a class="rankpart popper" href="javascript:void(0)" targ="box_rhpj">投资评级是如何划分的</a><!-- 点击时.rp_tipbox显示-->
+	</div>
+	<div class="bd m_dlbox">
+		<div class="field_date1 profit-forecast-time">
+			<div class="m_select">
+				<div class="text" id="profit-forecast-timeselect"><s></s><span id="profit-forecast-time-cur">6个月内</span></div>
+				<ul style="display: none" class="list" id="profit-forecast-timeselect-list">
+					<li><a tag="1" class="tableTab" href="javascript:void(0);" onclick="TA.log({'id':'F10new_ylycpjsj','nj':1})">1个月内</a></li>
+					<li><a tag="2" class="tableTab" href="javascript:void(0);" onclick="TA.log({'id':'F10new_ylycpjsj','nj':1})">2个月内</a></li>
+					<li><a tag="3" class="tableTab" href="javascript:void(0);" onclick="TA.log({'id':'F10new_ylycpjsj','nj':1})">3个月内</a></li>
+					<li><a tag="6" class="tableTab" href="javascript:void(0);" onclick="TA.log({'id':'F10new_ylycpjsj','nj':1})">6个月内</a></li>
+				</ul>
+			</div>
+			时间范围
+		</div>
+		
+		<a href="./news.html#report" title="更多" class="profit-forecast-more-fr" onclick="TA.log({'id':'F10new_ylycgdyb','nj':1})">更多&gt;&gt;</a>
+		<div class="profit-forecast-tab m_tab">
+			<ul class="fl" id="profit-forecast-tab-ul">
+				<li class="cur" id="profit-forecast-tab-li-0"><a href="javascript:void(0);" id="profit-forecast-tab-0" class="operateTab" onclick="TA.log({'id':'F10new_ylycpjfl','nj':1})">买入(<span id="profit-forecast-tab-count-0">3</span>)</a></li>
+				<li class="" id="profit-forecast-tab-li-1"><a href="javascript:void(0);" id="profit-forecast-tab-1" class="operateTab" onclick="TA.log({'id':'F10new_ylycpjfl','nj':1})">增持(<span id="profit-forecast-tab-count-1">0</span>)</a></li>
+				<li class="" id="profit-forecast-tab-li-2"><a href="javascript:void(0);" id="profit-forecast-tab-2" class="operateTab" onclick="TA.log({'id':'F10new_ylycpjfl','nj':1})">中性(<span id="profit-forecast-tab-count-2">0</span>)</a></li>
+				<li class="" id="profit-forecast-tab-li-3"><a href="javascript:void(0);" id="profit-forecast-tab-3" class="operateTab" onclick="TA.log({'id':'F10new_ylycpjfl','nj':1})">减持(<span id="profit-forecast-tab-count-3">0</span>)</a></li>
+				<li class="" id="profit-forecast-tab-li-4"><a href="javascript:void(0);" id="profit-forecast-tab-4" class="operateTab" onclick="TA.log({'id':'F10new_ylycpjfl','nj':1})">卖出(<span id="profit-forecast-tab-count-4">0</span>)</a></li>
+			</ul>
+		</div>
+								<div class="profit-forecast-box" id="profit-forecast-box-0" style="display:block">
+																	<dl class="hover">
+				<dt>
+					<span class="subtitle">买&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;入</span>
+					<span class="title">太平洋：受益国产算力投入加速，AI算力业绩高增</span>
+					<span class="date">2026-07-29</span>
+				</dt>
+				<dd>摘要：投资建议：公司是国内领先的光模块厂商，随着海外订单及国内互联网厂商资本支出加速。我们预计，2026-2028年公司归母净利润分别为17.15/28.94/42.24亿元，对应EPS分别为2.07/3.50/5.10元，当前股价对应PE分别为93.09/55.16/37.80倍。给予“买入”评级。					<a class="profit-forecast-more check_all" title="查看个股研报全文" href="javascript:void(0)">查看全文&gt;&gt;</a>
+					<div class="the_all hidden">
+						<span class="close"><a href="javascript:void(0);">×</a></span>
+						<div class="cont_wraper">
+							<h1 class="cont_title">受益国产算力投入加速，AI算力业绩高增</h1>
+							<h2 class="sub_cont_title">发布时间：2026-07-29 来源：太平洋</h2>
+							<div class="sub_cont">
+								<br>  <br>    <br>  <br>  <br><br><br>股票名称：光迅科技(002281)评级：买入报告作者：宋辰超报告日期：2026-07-29摘要：事件：公司发布2026年半年度业绩预告。2026年上半年预计实现归母净利润5.59亿元至6.15亿元，同比增长50.00%至65.15%。<br>　　 <br>　　 2025年公司营业收入119.29亿元（+44.20%），归母净利润9.46亿元（+43.10%）；2026年Q1实现营业收入27.73亿元（+24.79%），归母净利润2.40亿元（+59.76%），毛利率26.83%，同比提升1.22pct。分业务看，数据与接入业务2025年实现收入84.63亿元（+65.89%），营收占比70.94%，毛利率21.85%，同比提升4.02pct，成为收入增长和盈利改善的主要来源；传输业务实现收入34.12亿元（+9.97%），营收占比28.60%，毛利率26.52%，构成稳定的收入与利润基础。2025年经营活动现金流量净额转正至16.28亿元；2026年Q1末存货较年初增长30.14%至74.78亿元，在建工程增长37.47%至1.09亿元，公司围绕市场需求加强库存储备并推进产业园投入，为高速产品交付和产能扩张做好了准备。<br>　　 <br>　　 算力建设提速，高速模块升级。全球主要云厂商持续加大算力投入，AI集群扩张推动数据中心网络从400G、800G向1.6T及更高速率演进。公司数据通信产品覆盖100G至1.6T，能够面向云计算数据中心、AI智算中心、企业网及存储网提供高速连接。当前800G光模块已批量出货、出货占比逐步提升，1.6T光模块已具备批量交付能力。公司于OFC 2026全球首发3.2T硅光单模NPO模块，并在国内头部CSP厂商完成系统验证，产品布局进一步向更高速率延伸。公司同时根据客户需求推进核心物料提前备货和产能规划，目前订单较为充足。800G产品占比提升、1.6T交付爬坡与3.2T产品验证转化，直接决定数通业务的收入弹性和产品结构改善幅度。<br>　　 <br>　　 架构演进加速，垂直能力强化。高带宽、低功耗和高密度互连需求推动硅光、NPO、CPO与OCS等路线并行演进，下一阶段竞争重心将从单一模块交付延伸至芯片、器件、连接方案与系统验证。公司已经形成半导体材料生长、半导体工艺与平面光波导、光学设计与封装等六大核心工艺平台，具备从芯片到器件、模块的全链条垂直整合能力，并在硅光与磷化铟两条技术路线上保持储备。产品端，公司积极推进CPO相关光器件及连接方案研发，并已布局OCS，同时加大高端光芯片投入、逐步提升自供水平。CPO客户导入、OCS销售进展及高端光芯片自供比例提升，将共同影响新架构产品的交付节奏和毛利率改善空间。<br>　　 投资建议：公司是国内领先的光模块厂商，随着海外订单及国内互联网厂商资本支出加速。我们预计，2026-2028年公司归母净利润分别为17.15/28.94/42.24亿元，对应EPS分别为2.07/3.50/5.10元，当前股价对应PE分别为93.09/55.16/37.80倍。给予“买入”评级。<br>　　 风险提示：订单落地节奏不及预期、光模块物料紧缺、行业竞争加剧。<br>　　<br>　　<br>  <br><br>							</div>								
+						</div>
+					</div>
+				</dd>
+			</dl>
+															<dl class="hover">
+				<dt>
+					<span class="subtitle">买&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;入</span>
+					<span class="title">中国银河：2025年报和2026年一季报业绩点评：高速光模块逐步放量，盈利能力持续增长</span>
+					<span class="date">2026-04-24</span>
+				</dt>
+				<dd>摘要：投资建议：公司是目前国内少数对光芯片具备战略研发能力的厂商，年产能非目常可观，在供应链紧张的背景下，自有光芯片产能成为核心优势，保障了交付紧能力并能获取更多市场份额。我们预计公司2026-2028年整体营业收入分别为167.00亿元、215.43亿元和258.52亿元，同比增速分别为40.00%，29.00%和20.00%，归母净利润分别为16.02亿元、22.34亿元和28.83亿元，同比增速分别为69.24%，39.47%和29.07%，EPS分别为1.99元、2.77元和3.57元，对应市盈率分别为66.32倍、47.56倍和36.84倍。考虑公司海外市场拓展迎来拐点，有望打开长期增长天花板，维持对公司的“推荐”评级。					<a class="profit-forecast-more check_all" title="查看个股研报全文" href="javascript:void(0)">查看全文&gt;&gt;</a>
+					<div class="the_all hidden">
+						<span class="close"><a href="javascript:void(0);">×</a></span>
+						<div class="cont_wraper">
+							<h1 class="cont_title">2025年报和2026年一季报业绩点评：高速光模块逐步放量，盈利能力持续增长</h1>
+							<h2 class="sub_cont_title">发布时间：2026-04-24 来源：中国银河</h2>
+							<div class="sub_cont">
+								　　事件：公司发布2025年度报告和2016年一季度报告。2025年公司实现营业收入119.29亿元（同比+44.20%）；归母净利润9.46亿元（同比+43.10%）；扣非归母净利润9.15亿元（同比+45.37%）。2026Q1公司实现营业收入27.73亿元（同比+24.79%），归母净利润2.40亿元（同比+59.76%），扣非净利润2.28亿元（同比+61.23%）<br>　　AI算力需求旺盛，高速光模块与DCI业务驱动增长：公司业绩的高速增长主要由数通类产品贡献，特别是应用于AI服务器和数据中心互联（DCI）的400G/800G等高速光模块产品放量。2025年，公司数据与接入业务板块实现收入84.63亿元，同比大幅增长65.89%，收入占比从61.67%提升至70.94%。产品结构持续优化，带动该业务毛利率同比提升4.02pcts至21.85%。公司在国内头部云厂商客户中稳居主要供应商地位，中标份额保持领先。在手订单饱满，期末合同负债（预收款）达10.95亿元，较年初大幅增长154%，显示下游AI算力需求旺盛，订单能见度高；同时存货较年初增长30.1%至74.78亿元，为后续交付提供有力支撑。<br>　　自研光芯片保障核心竞争力，前瞻布局打开长期成长天花板：根据咨询机构Omdia的最新报告，全球光器件市场未来六年将呈现强劲的上升趋势。预计到2030年，全球光器件市场总规模将达到909亿美元，年复合增长率为13%。公司拥有多种类型激光器芯片（FP、DFB、EML、VCSEL等）、探测器芯片（PD、APD）以及SiP芯片平台，为直接调制和相干调制方案提供坚实支撑。公司在25G及以下速率光芯片自给率较高，并积极研发100G以上高速产品。公司持续高强度投入研发，2025年研发投入总额达11.36亿元，同比增长48.21%，占营收比例为9.52%，为高速光芯片和前沿技术的持续突破提供了坚实保障。全球化战略成效显著，2025年公司国外市场收入达31.84亿元，同比增长36.17%。公司正持续提升海外制造与交付能力，积极拓展海外头部客户，未来海外市场的突破有望为公司带来更大的业绩弹性与估值空间。公司前瞻性布局CPO、OCS等下一代光互联技术，并拟定增募资35亿元用于高速光模块产能扩充和前沿技术研发，有望在下一轮技术变革中继续保持行业领先地位，打开长期成长空间。<br>　　投资建议：公司是目前国内少数对光芯片具备战略研发能力的厂商，年产能非常可观，在供应链紧张的背景下，自有光芯片产能成为核心优势，保障了交付能力并能获取更多市场份额。我们预计公司2026-2028年整体营业收入分别为167.00亿元、215.43亿元和258.52亿元，同比增速分别为40.00%、29.00%和20.00%。归母净利润分别为16.02亿元、22.34亿元和28.83亿元，同比增速分别为69.24%、39.47%和29.07%，EPS分别为1.99元、2.77元和3.57元，对应市盈率分别为66.32倍、47.56倍和36.84倍。考虑公司海外市场拓展迎来拐点，有望打开长期增长天花板，维持对公司的“推荐”评级。							</div>								
+						</div>
+					</div>
+				</dd>
+			</dl>
+															<dl class="hover">
+				<dt>
+					<span class="subtitle">买&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;入</span>
+					<span class="title">华鑫证券：公司事件点评报告：打造AI全栈光互连解决方案，持续加码核心能力建设</span>
+					<span class="date">2026-03-30</span>
+				</dt>
+				<dd>摘要：预测公司2025-2027年收入分别为117.57、156.87、196.15亿元，EPS分别为1.35、1.90、2.48元，当前股价对应PE分别为63、44、34倍，受益于光通信产业迅猛发展，公司持续加码核心能力建设，重点布局下一代前沿高速光互联技术和产品，首次覆盖，给予“买入”投资评级。					<a class="profit-forecast-more check_all" title="查看个股研报全文" href="javascript:void(0)">查看全文&gt;&gt;</a>
+					<div class="the_all hidden">
+						<span class="close"><a href="javascript:void(0);">×</a></span>
+						<div class="cont_wraper">
+							<h1 class="cont_title">公司事件点评报告：打造AI全栈光互连解决方案，持续加码核心能力建设</h1>
+							<h2 class="sub_cont_title">发布时间：2026-03-30 来源：华鑫证券</h2>
+							<div class="sub_cont">
+								　　销售规模显著扩大，持续加码核心能力建设<br>　　2025年公司前三季度实现营业收入85.32亿元，同比增长58.65%，实现归母净利润7.19亿元，同比增长54.95%，实现扣非后归母净利润6.78亿元，同比增长49.29%。主要源于前三季度销售规模扩大，利润增长与营收扩张形成正向联动。同时，公司加大市场开拓力度，持续加码核心能力建设，前三季度销售费用达1.98亿元，同比增长45.19%，研发费用投入6.72亿元，同比增长31.83%，为业务增长储备动能。<br>　　AI全栈光互连解决方案，前瞻布局NPO、OCS<br>　　在美国洛杉矶举办的OFC全球光通信大会上，公司现场展示包含3.2TNPO、320×320OCS全光交换、800GZRLite光模块的全栈光互连解决方案，全面覆盖集群内部互联、跨集群互联、算力调度等关键场景。其中，3.2TNPO“单模”和“多模”方案，通过近封装光学技术缩短电信号路径，在提升带宽密度的同时显著降低功耗；800GZRlite专为城域数据中心20-40km距离应用打造，解决了高带宽、高能效与低成本难以兼顾的行业难题；320×320OCS全光交换系统通过光路级交换实现算力资源动态调度，有效减少“光-电-光”转换带来的时延与能耗。公司运用在高速模块设计、精密光学设计与加工、自动化光耦合、先进器件封装等关键领域的深厚积累深耕AI算力集群应用，在关键网络节点持续推进创新突破。<br>　　募资不超35亿元，投入算力中心光连接及高速光传输项目<br>　　在数据中心算力升级、人工智能技术爆发及电信网络深度覆盖的三重驱动下，光通信产业迅猛发展，市场空间广阔。公司拟定增募集资金不超35亿元，用于算力中心光连接及高速光传输产品生产建设项目、高速光互联及新兴光电子技术研发项目、补充流动资金。公司拟重点开发下一代可插拔光模块、基于光电共封装技术的光引擎等国际前沿技术和产品，精准聚焦于技术壁垒高、需求旺盛的高速高端产品，进一步扩充相关产品产能，加快优化公司产品结构，加速公司产品向高端演进，从而提升公司核心竞争力。<br>　　盈利预测<br>　　预测公司2025-2027年收入分别为117.57、156.87、196.15亿元，EPS分别为1.35、1.90、2.48元，当前股价对应PE分别为63、44、34倍，受益于光通信产业迅猛发展，公司持续加码核心能力建设，重点布局下一代前沿高速光互联技术和产品，首次覆盖，给予“买入”投资评级。<br>　　风险提示<br>　　宏观经济的风险，产品研发不及预期的风险，行业竞争加剧的风险，下游需求不及预期的风险。							</div>								
+						</div>
+					</div>
+				</dd>
+			</dl>
+														</div>
+								<div class="profit-forecast-box" id="profit-forecast-box-1" style="display:none">
+								<dl class="hover profit-forecast-box-none">
+					最近<span>6个月内</span>，未有<span>增持</span>评级的研究报告，
+					<a href="./news.html#report" class="profit-forecast-more-1" onclick="TA.log({'id':'F10new_ylycgdyb','nj':1})">更多研究报告详情点击&gt;&gt;</a>
+			</dl>
+					</div>
+								<div class="profit-forecast-box" id="profit-forecast-box-2" style="display:none">
+								<dl class="hover profit-forecast-box-none">
+					最近<span>6个月内</span>，未有<span></span>评级的研究报告，
+					<a href="./news.html#report" class="profit-forecast-more-1" onclick="TA.log({'id':'F10new_ylycgdyb','nj':1})">更多研究报告详情点击&gt;&gt;</a>
+			</dl>
+					</div>
+								<div class="profit-forecast-box" id="profit-forecast-box-3" style="display:none">
+								<dl class="hover profit-forecast-box-none">
+					最近<span>6个月内</span>，未有<span>减持</span>评级的研究报告，
+					<a href="./news.html#report" class="profit-forecast-more-1" onclick="TA.log({'id':'F10new_ylycgdyb','nj':1})">更多研究报告详情点击&gt;&gt;</a>
+			</dl>
+					</div>
+								<div class="profit-forecast-box" id="profit-forecast-box-4" style="display:none">
+								<dl class="hover profit-forecast-box-none">
+					最近<span>6个月内</span>，未有<span>卖出</span>评级的研究报告，
+					<a href="./news.html#report" class="profit-forecast-more-1" onclick="TA.log({'id':'F10new_ylycgdyb','nj':1})">更多研究报告详情点击&gt;&gt;</a>
+			</dl>
+					</div>
+						<p class="clearfix">评级根据各机构发布的研究报告摘录所得，不代表本终端的立场。</p>
+	</div>
+	<div class="ft"></div>
+	<div style="z-index:201" class="rp_tipbox box_rhpj" style="display:none">
+		<table class="m_table">
+			<thead>
+				<tr>
+					<th width="25%">评级</th>
+					<th>说明</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>公司评级</th>
+					<td>报告发布日后的12个月内，公司的涨跌幅度相对同期沪深300指数的涨跌幅为基准</td>
+				</tr>
+				<tr>
+					<th>买 入/推 荐</th>
+					<td>相对大盘涨幅大于10%</td>
+				</tr>
+				<tr>
+					<th>增 持/谨慎推荐</th>
+					<td>相对大盘涨幅在5%～10%之间</td>
+				</tr>
+				<tr>
+					<th>中 性/持 有</th>
+					<td>相对大盘涨幅在-5%～5%之间</td>
+				</tr>
+				<tr>
+					<th>减 持/卖 出</th>
+					<td>相对大盘涨幅小于-5%</td>
+				</tr>
+			</tbody>
+		</table>
+		<div>注：以上为一般划分准则，具体评级请参考对应研究报告。</div>
+		<s class="arrow"></s>
+	</div>
+</div>
+
+</div>
+		<!-- F10 Content End -->
+<!-- F10 Footer Start -->
+		<div class="footer">
+		<div class="links">
+		    <a href="http://stockpage.10jqka.com.cn" target="_blank" onclick="clickTalogStat('jptostock');">同花顺个股</a> |
+		    <a href="http://moni.10jqka.com.cn/" target="_blank">模拟炒股</a> |
+		    <a href="https://xtz.10jqka.com.cn/pc/home?from=pcf10" target="_blank">股民学校</a> |
+		    <a href="http://mobile.10jqka.com.cn/?req=pcf10" target="_blank">手机炒股</a>|
+		    <a target="_blank" href="https://news.10jqka.com.cn/homepage/intro/contact-us">联系我们</a>
+		</div>
+		<p>免责声明:本信息由同花顺金融研究中心提供，仅供参考，同花顺金融研究中心力求但不保证数据的完全准确，如有错漏请以中国证监会指定上市公司信息披露媒体为准，同花顺金融研究中心不对因该资料全部或部分内容而引致的盈亏承担任何责任。用户个人对服务的使用承担风险。同花顺对此不作任何类型的担保。同花顺不担保服务一定能满足用户的要求，也不担保服务不会受中断，对服务的及时性，安全性，出错发生都不作担保。同花顺对在同花顺上得到的任何信息服务或交易进程不作担保。同花顺提供的包括同花顺理财的所有文章，数据，不构成任何的投资建议，用户查看或依据这些内容所进行的任何行为造成的风险和结果都自行负责，与同花顺无关。 </p>
+		</div>
+<!-- F10 Footer End -->
+    </div>
+    <div class="r-go-top" id="r-go-top"></div>
+</body>
+<input id="stockCode" type="hidden" value="002281">
+<input id="F001" type="hidden" value="A">
+<input id="F002" type="hidden" value="深圳证券交易所">
+<input id="F004" type="hidden" value="1">
+<input id="stockName" type="hidden" value="光迅科技">
+<input id="marketId" type="hidden" value="33">
+<input id="cateName"  type="hidden" value="盈利预测">
+<input id="catecode"  type="hidden" value="worth">
+<input id="fcatecode"  type="hidden" value="worth">
+<input id="sid" type="hidden" value="F10new_jzfx">
+<input id="fid" type="hidden" value="F10,F10master,F10main,F10new">
+<input id="qid" type="hidden" value="14585137">
+<div style="display:none" id="wordraddom">
+</div>
+<!-- title 容器 -->
+	<div class="titleBox" id="altlayer" style="display:none; width: 260px;">
+		<div class="tipbox_bd p0_5"><span style="line-height:24px;" class="tip f14">
+		<span id="altlayer_content"></span>
+		</div>
+	</div>
+<script type="text/javascript"  crossorigin src="//s.thsi.cn/cb?js/common/cefapi/1.5.5/cefApi.min.js;js/basic/stock/newPcJs/common.js"></script>
+<script>
+try {
+    external.createObject('Util');
+    //document.getElementById("updownchange").style.display = "block";
+} catch (e) {}
+</script>
+<script type="text/javascript"  crossorigin src="//s.thsi.cn/cb?js/jquery-1.8.3.min.js;js/basic/common/inheritance.js;js/basic/stock/popWin.js;js/basic/common/Model_v2.js;js/basic/stock/20200604153837/index.js;js/basic/stock/20200604153837/po_v2.js;js/basic/stock/scrollBind.js"></script>
+<script type="text/javascript" crossorigin charset="utf-8" src="//s.thsi.cn/js/basic/stockph_v2/stock/common_v3-2-475b46.js"></script>
+<!--[if IE ]><script type="text/javascript"  crossorigin src="//s.thsi.cn/js/excanvas.min.js"></script><![endif]-->
+<!--[if IE 6]>
+<script type="text/javascript"  crossorigin src="//s.thsi.cn/js/basic/DD_belatedPNG_0.0.8a-min.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.company_logo,.btn-gnjx-left, .btn-gnjx-right, .concept_hot_icons,.iwc_searchbar,.iwc_searchbar .tips-icon,#autocomplete_search_input dd .icona,#autocomplete_search_input dd .iconb');</script>
+<![endif]-->
+<script type="text/javascript" crossorigin src="//s.thsi.cn/js/basic/jquery.pos-fixed.js"></script>
+<script type="text/javascript" crossorigin src="//s.thsi.cn/cb?js/ta.min.js;js/pa.min.js;js/basic/stock/StatLoad.js;js/basic/stock/20200605135220/xgcl_mod.js"></script>
+<script type="text/javascript" crossorigin src="//s.thsi.cn/js/basic/stock/tongji.min.js"></script>
+<!-- 统计 -->
+<script type="text/javascript"  crossorigin src="//s.thsi.cn/cb?js/home/ths_core.min.js;js/home/ths_quote.min.js;js/home/tongji.min.js" charset="utf-8"></script>
+<script type="text/javascript"  crossorigin src="//s.thsi.cn/js/basic/stock/commonLog_v3.js" charset="utf-8"></script>
+<!--F10运营位脚本-->
+<script type="text/javascript" crossorigin charset="utf-8" src="//s.thsi.cn/js/basic/stockph_v2/stock/append-960857.js"></script>
+<script type="text/javascript" crossorigin charset="utf-8" src="//s.thsi.cn/js/basic/stockph_v2/stock/f10widget_v3-5ec039.js"></script>
+<script type="text/javascript"  crossorigin src="//s.thsi.cn/cb?/js/navigation/jquery.bgiframe.min.js;/js/navigation/jquery.ui.position.min.js"></script>
+<script type="text/javascript"  crossorigin src="//s.thsi.cn/cb?js/basic/stock/json2.js"></script>
+<script type="text/javascript" charset="utf-8" src="//s.thsi.cn/js/basic/stockph_v2/stock/search_v3-fec53c.js"></script>
+<script type="text/javascript"  crossorigin src="//s.thsi.cn/cb?js/basic/stock/jquery.flot.min.js;js/basic/stock/jquery.flot.tooltip.min.js;js/basic/stock/20200604153837/worth.20151209.js"></script>
+<script>
+//---------------自定义title弹窗 start----------
+var tempalt='';//临时存储title
+document.body.onmousemove = function(event) {
+	if(altlayer.style.display==''){
+		$("#altlayer").css({
+			left: event.pageX,
+			top: event.pageY+10
+		});
+	}
+};
+document.body.onmouseover = function(event) {
+	if (event.srcElement.className !== 'titleIcon') {
+		return false;
+	}
+	if(event.srcElement.title && (event.srcElement.title!='' || (event.srcElement.title=='' && tempalt!=''))){
+		$("#altlayer").css({
+			left: event.pageX,
+			top: event.pageY+20,
+			display: ''
+		});
+		$("#altlayer_content").html(event.srcElement.title)
+		tempalt = event.srcElement.title;
+		event.srcElement.title='';
+	}
+};
+document.body.onmouseout = function(event) {
+	if (tempalt != '') {
+		event.srcElement.title = tempalt;	
+	}
+	tempalt = '';
+	$("#altlayer").hide();
+};
+//---------------自定义title弹窗 end----------
+//F10客户端结点设置
+function setClientCacheData() {
+    try { //判断是否在客户端，存入结点
+        external.createObject('Util');
+        window.API.use({
+            method: 'Util.getHxVer',
+            success: function(data) {
+                var hexinVer = getVersionStr(data);
+                var pathname = window.location.pathname
+                pathname = pathname.replace(/\/\d{2,3}\//, '/%4/');
+                pathname = pathname.replace(/\/[\d|A]\d{5}\//, '/%6/');
+                //dalert(hexinVer);//上线注意，测试版版本86080  正式版 86090 请注意
+                if (hexinVer >= 86080) {
+                    window.API.use({
+                        method: 'Info.cacheInfoData',
+                        data: ['f10_client_node', 'http://basic.10jqka.com.cn' + pathname],
+                        success: function() {
+                        }
+                    })
+                } else {
+                    window.API.use({
+                        method: 'Info.cacheInfoData',
+                        data: ['', 'http://basic.10jqka.com.cn/' + pathname],
+                        success: function() {
+                        }
+                    })
+                }
+            }
+        })
+        document.getElementById("updownchange").style.display = "block";
+    } catch (e) {
+        //远航版隐藏header
+        $("#quotedata").empty()
+        $("#updownchange").empty()
+    }
+	try {
+		callNativeHandler('getMacVer', {}, function(data){
+			if (data.plaform == 'mac' && data.version>='1.3.0' ) {
+				var pathname = window.location.pathname
+                pathname = pathname.replace(/\/\d{2,3}\//, '/%4/');
+                pathname = pathname.replace(/\/[\d|A]\d{5}\//, '/%6/');
+				callNativeHandler('cache_info_Data', {
+					'f10_client_node': 'http://basic.10jqka.com.cn' + pathname
+				}, function(data){
+				});
+			}
+		});
+	} catch (e) {
+    }
+}
+setClientCacheData();
+</script>
+<script type="text/javascript"  crossorigin src="//s.thsi.cn/js/basic/stock/20200604153837/stockpage_v3.20190506.js"></script>
+<script type="text/javascript" charset="utf-8" crossorigin id="ths-parser-script" app_key="f10_astockpc_config" src="//s.thsi.cn/cd/website-thsc-f10-utils/1.4.39/parser.js"></script>
+<script type="text/javascript">
+var sid = 'F10new_jzfx';
+var fid = 'F10,F10master,F10main,F10new';
+var stockcode = '002281';
+if (window.location.href.indexOf('interactive')<0
+		&&window.location.href.indexOf('dupont')<0) {
+    $(".subnav .skipto").each(function(){
+    	sonnav = $(this).attr('nav');
+    	if ($("#"+sonnav).length>0 || $("[idchange='"+sonnav+"']").length>0) {
+    	} else {
+    		$(this).hide();
+    	}
+    })
+}
+if (stockcode.substr(0,2) == '43' || stockcode.substr(0,2) == '83') {
+	var third_sid = sid+'_thirdboard';
+	var third_fid = fid+'_thirdboard';
+    PA.setStartTime(loadTimer);
+	PA.init({'id':third_sid, 'fid':third_fid, 'stockcode':stockcode});
+}
+$(document).ready(function(){
+var hash = window.location.hash.substring(1);
+var hashArray = hash.split('-');
+if(hashArray[0]  == 'position'){
+	$("#sortNav li").eq(hashArray[1]).find("a").click();
+}
+});
+try {
+    external.createObject('Util');
+    window.API.use({
+        method: 'Passport.get',
+        data: ['m_qs'],
+        success: function(data) {
+            var qsid = data
+            if (qsid == '114') {
+                $("#f10_top_ad").hide();
+                $("#r-go-top").hide();
+            }
+        }
+    })
+} catch (e) {}
+if (!isIE6()) {
+    $(".m_box").statload();
+}
+try {
+    external.createObject('Util');
+    window.API.use({
+        method: 'Passport.get',
+        data: 'm_qs',
+        success: function(data) {
+            var qsid = data
+            if (qsid < 800) {
+                fid += ',f10new_qs';
+            } else {
+                fid += ',f10new_fqs';
+            }
+            PA.setStartTime(loadTimer);
+            setTimeout(function(){
+                PA.init({
+                    'id': sid,
+                    'fid': fid,
+                    'stockcode': stockcode,
+                    'qsid': qsid
+                });
+            },100)
+        }
+    })
+} catch (e) {
+    PA.setStartTime(loadTimer);
+    PA.init({
+        'id': sid,
+        'fid': fid,
+        'stockcode': stockcode
+    });
+}
+try {
+    external.createObject('Util');
+    var externalSessionId = window.API.createSessionId('external');
+    window.API.use({
+        method: 'external.registerEvent',
+        data: 'onshow',
+        sessionId: externalSessionId,
+        persistent: true,
+        callbackName: 'onshow',
+        success: function(data) {
+            if (!data) {
+                 PA.setStartTime(loadTimer);
+                 PA.init({
+                    'id': sid,
+                    'fid': fid,
+                    'stockcode': stockcode,
+                    'hide': 1,
+                    'nj': 1,
+                    _sid: "__ths_onshow"
+                });
+            }
+        }
+    })
+} catch (e) {}
+</script>
+<div style="display:none"><script type="text/javascript">
+// 在客户端内，html做个区分，解决端内的一些特性
+if ((window.external && 'createObject' in window.external) || (window.HevoCef && "IsHevoCef" in window.HevoCef)) {
+	$('html').addClass("inClient");
+}
+(function(){
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F78c58f01938e4d85eaf619eae71b4ed1' type='text/javascript'%3E%3C/script%3E"));
+});
+</script>
+
+<script type="text/javascript" charset="utf-8" crossorigin src="//s.thsi.cn/js/basic/stockph_v2/stock/f10hq_v4-5-576b58.js"></script>
+<script type="text/javascript" charset="utf-8" crossorigin src="//s.thsi.cn/js/basic/stockph_v2/stock/onlyBAuthorize-4a6ce9.js"></script>
+</div>
+<!--F10头部广告-->
+
+<!--<div id="f10_top_ad" class="f10_ad_top none"><script type="text/javascript">CNZZ_SLOT_RENDER('297563');</script></div>-->
+</html>
+	

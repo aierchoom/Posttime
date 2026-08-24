@@ -1,5 +1,10 @@
 # 本地工具/技能目录，不纳入版本控制
 .skill-edit-posttime/
+.posttime-skill-backup-*/
+.posttime-skill-deploy/
+.posttime-skill-smoke/
+.posttime-skill-update/
+tmp/
 .obsidian/
 node_modules/
 .npm-cache/
