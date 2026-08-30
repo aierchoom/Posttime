@@ -1,11 +1,39 @@
 {
-  "generatedAt": "2026-08-24T00:49:43.933Z",
+  "generatedAt": "2026-08-30T15:48:26.690Z",
   "totals": {
-    "reports": 29,
-    "objects": 27,
-    "evidenceRows": 660
+    "reports": 30,
+    "objects": 28,
+    "evidenceRows": 742
   },
   "latestReports": [
+    {
+      "title": "哔哩哔哩-W（09626.HK）研究报告",
+      "object": "哔哩哔哩-W（09626.HK）",
+      "date": "2026-08-27",
+      "summary": "**报告类型：** 初始覆盖（2026Q2/H1财报后深度更新）",
+      "path": "公司档案/哔哩哔哩-W（09626.HK）/2026-08-27/哔哩哔哩-W（09626.HK）.md",
+      "link": "/公司档案/哔哩哔哩-W（09626.HK）/2026-08-27/哔哩哔哩-W（09626.HK）",
+      "evidencePath": "公司档案/哔哩哔哩-W（09626.HK）/2026-08-27/哔哩哔哩-W（09626.HK）_evidence-ledger.csv",
+      "evidenceRows": 50,
+      "updatedAt": "2026-08-30T15:48:26.690Z",
+      "categoryKey": "companies",
+      "categoryTitle": "公司档案",
+      "accent": "company"
+    },
+    {
+      "title": "特变电工（600089）研究报告",
+      "object": "特变电工（600089）",
+      "date": "2026-08-24",
+      "summary": "**报告类型：** 初始覆盖 / 2026年中报深挖 / 说明会与AI电力权威核证",
+      "path": "公司档案/特变电工（600089）/2026-08-24/特变电工（600089）.md",
+      "link": "/公司档案/特变电工（600089）/2026-08-24/特变电工（600089）",
+      "evidencePath": "公司档案/特变电工（600089）/2026-08-24/特变电工（600089）_evidence-ledger.csv",
+      "evidenceRows": 71,
+      "updatedAt": "2026-08-26T12:19:08.724Z",
+      "categoryKey": "companies",
+      "categoryTitle": "公司档案",
+      "accent": "company"
+    },
     {
       "title": "美的集团（000333）研究报告",
       "object": "美的集团（000333）",
@@ -30,20 +58,6 @@
       "evidencePath": "公司档案/美的集团（000333）/2026-08-24/美的集团（000333）_evidence-ledger.csv",
       "evidenceRows": 37,
       "updatedAt": "2026-08-24T00:46:41.604Z",
-      "categoryKey": "companies",
-      "categoryTitle": "公司档案",
-      "accent": "company"
-    },
-    {
-      "title": "特变电工（600089）研究报告",
-      "object": "特变电工（600089）",
-      "date": "2026-08-24",
-      "summary": "**报告类型：** 初始覆盖",
-      "path": "公司档案/特变电工（600089）/2026-08-24/特变电工（600089）.md",
-      "link": "/公司档案/特变电工（600089）/2026-08-24/特变电工（600089）",
-      "evidencePath": "公司档案/特变电工（600089）/2026-08-24/特变电工（600089）_evidence-ledger.csv",
-      "evidenceRows": 39,
-      "updatedAt": "2026-08-23T19:14:49.909Z",
       "categoryKey": "companies",
       "categoryTitle": "公司档案",
       "accent": "company"
@@ -103,20 +117,6 @@
       "categoryKey": "sectors",
       "categoryTitle": "产业链研究",
       "accent": "sector"
-    },
-    {
-      "title": "全天候与永久投资组合策略回测专题调研",
-      "object": "全天候与永久投资组合策略回测",
-      "date": "2026-08-12",
-      "summary": "**报告类型：** 资产配置 / 策略回测研究",
-      "path": "产业链研究/全天候与永久投资组合策略回测/2026-08-12/全天候与永久投资组合策略回测.md",
-      "link": "/产业链研究/全天候与永久投资组合策略回测/2026-08-12/全天候与永久投资组合策略回测",
-      "evidencePath": "产业链研究/全天候与永久投资组合策略回测/2026-08-12/全天候与永久投资组合策略回测_evidence-ledger.csv",
-      "evidenceRows": 34,
-      "updatedAt": "2026-08-12T17:08:11.814Z",
-      "categoryKey": "sectors",
-      "categoryTitle": "产业链研究",
-      "accent": "sector"
     }
   ],
   "categories": [
@@ -126,6 +126,34 @@
       "dir": "公司档案",
       "accent": "company",
       "objects": [
+        {
+          "name": "哔哩哔哩-W（09626.HK）",
+          "latest": {
+            "title": "哔哩哔哩-W（09626.HK）研究报告",
+            "object": "哔哩哔哩-W（09626.HK）",
+            "date": "2026-08-27",
+            "summary": "**报告类型：** 初始覆盖（2026Q2/H1财报后深度更新）",
+            "path": "公司档案/哔哩哔哩-W（09626.HK）/2026-08-27/哔哩哔哩-W（09626.HK）.md",
+            "link": "/公司档案/哔哩哔哩-W（09626.HK）/2026-08-27/哔哩哔哩-W（09626.HK）",
+            "evidencePath": "公司档案/哔哩哔哩-W（09626.HK）/2026-08-27/哔哩哔哩-W（09626.HK）_evidence-ledger.csv",
+            "evidenceRows": 50,
+            "updatedAt": "2026-08-30T15:48:26.690Z"
+          },
+          "reports": [
+            {
+              "title": "哔哩哔哩-W（09626.HK）研究报告",
+              "object": "哔哩哔哩-W（09626.HK）",
+              "date": "2026-08-27",
+              "summary": "**报告类型：** 初始覆盖（2026Q2/H1财报后深度更新）",
+              "path": "公司档案/哔哩哔哩-W（09626.HK）/2026-08-27/哔哩哔哩-W（09626.HK）.md",
+              "link": "/公司档案/哔哩哔哩-W（09626.HK）/2026-08-27/哔哩哔哩-W（09626.HK）",
+              "evidencePath": "公司档案/哔哩哔哩-W（09626.HK）/2026-08-27/哔哩哔哩-W（09626.HK）_evidence-ledger.csv",
+              "evidenceRows": 50,
+              "updatedAt": "2026-08-30T15:48:26.690Z"
+            }
+          ],
+          "readmePath": "公司档案/哔哩哔哩-W（09626.HK）/README.md"
+        },
         {
           "name": "美的集团（000333）",
           "latest": {
@@ -171,24 +199,24 @@
             "title": "特变电工（600089）研究报告",
             "object": "特变电工（600089）",
             "date": "2026-08-24",
-            "summary": "**报告类型：** 初始覆盖",
+            "summary": "**报告类型：** 初始覆盖 / 2026年中报深挖 / 说明会与AI电力权威核证",
             "path": "公司档案/特变电工（600089）/2026-08-24/特变电工（600089）.md",
             "link": "/公司档案/特变电工（600089）/2026-08-24/特变电工（600089）",
             "evidencePath": "公司档案/特变电工（600089）/2026-08-24/特变电工（600089）_evidence-ledger.csv",
-            "evidenceRows": 39,
-            "updatedAt": "2026-08-23T19:14:49.909Z"
+            "evidenceRows": 71,
+            "updatedAt": "2026-08-26T12:19:08.724Z"
           },
           "reports": [
             {
               "title": "特变电工（600089）研究报告",
               "object": "特变电工（600089）",
               "date": "2026-08-24",
-              "summary": "**报告类型：** 初始覆盖",
+              "summary": "**报告类型：** 初始覆盖 / 2026年中报深挖 / 说明会与AI电力权威核证",
               "path": "公司档案/特变电工（600089）/2026-08-24/特变电工（600089）.md",
               "link": "/公司档案/特变电工（600089）/2026-08-24/特变电工（600089）",
               "evidencePath": "公司档案/特变电工（600089）/2026-08-24/特变电工（600089）_evidence-ledger.csv",
-              "evidenceRows": 39,
-              "updatedAt": "2026-08-23T19:14:49.909Z"
+              "evidenceRows": 71,
+              "updatedAt": "2026-08-26T12:19:08.724Z"
             }
           ],
           "readmePath": "公司档案/特变电工（600089）/README.md"
@@ -588,6 +616,17 @@
       ],
       "reports": [
         {
+          "title": "哔哩哔哩-W（09626.HK）研究报告",
+          "object": "哔哩哔哩-W（09626.HK）",
+          "date": "2026-08-27",
+          "summary": "**报告类型：** 初始覆盖（2026Q2/H1财报后深度更新）",
+          "path": "公司档案/哔哩哔哩-W（09626.HK）/2026-08-27/哔哩哔哩-W（09626.HK）.md",
+          "link": "/公司档案/哔哩哔哩-W（09626.HK）/2026-08-27/哔哩哔哩-W（09626.HK）",
+          "evidencePath": "公司档案/哔哩哔哩-W（09626.HK）/2026-08-27/哔哩哔哩-W（09626.HK）_evidence-ledger.csv",
+          "evidenceRows": 50,
+          "updatedAt": "2026-08-30T15:48:26.690Z"
+        },
+        {
           "title": "美的集团（000333）研究报告",
           "object": "美的集团（000333）",
           "date": "2026-08-24",
@@ -613,12 +652,12 @@
           "title": "特变电工（600089）研究报告",
           "object": "特变电工（600089）",
           "date": "2026-08-24",
-          "summary": "**报告类型：** 初始覆盖",
+          "summary": "**报告类型：** 初始覆盖 / 2026年中报深挖 / 说明会与AI电力权威核证",
           "path": "公司档案/特变电工（600089）/2026-08-24/特变电工（600089）.md",
           "link": "/公司档案/特变电工（600089）/2026-08-24/特变电工（600089）",
           "evidencePath": "公司档案/特变电工（600089）/2026-08-24/特变电工（600089）_evidence-ledger.csv",
-          "evidenceRows": 39,
-          "updatedAt": "2026-08-23T19:14:49.909Z"
+          "evidenceRows": 71,
+          "updatedAt": "2026-08-26T12:19:08.724Z"
         },
         {
           "title": "京东方A（000725）研究报告",
@@ -775,7 +814,7 @@
           "updatedAt": "2026-08-20T16:49:24.284Z"
         }
       ],
-      "count": 17
+      "count": 18
     },
     {
       "key": "sectors",
