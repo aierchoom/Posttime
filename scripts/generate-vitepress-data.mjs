@@ -38,6 +38,9 @@ function firstHeading(markdown, fallback) {
 }
 
 function firstSummary(markdown) {
+  const preferred = markdown.match(/^\*\*(?:核心判断|核心结论|核心观点)：\*\*\s*(.+)$/m)
+  if (preferred) return preferred[1].replace(/\[[^\]]+\]/g, '').trim().slice(0, 160)
+
   const lines = markdown
     .replace(/```[\s\S]*?```/g, '')
     .split(/\r?\n/)
@@ -47,12 +50,14 @@ function firstSummary(markdown) {
   const candidate = lines.find((line) => {
     if (line.startsWith('#')) return false
     if (line.startsWith('|')) return false
+    if (line.startsWith('>')) return false
+    if (/^-\s+\*\*(?:报告类型|档案名称|信息截止日期|市场与货币|研究期限|投资期限|数据可靠性|报告日期版本)：/.test(line)) return false
     if (/^[-*_]{3,}$/.test(line)) return false
     return /[\u4e00-\u9fffA-Za-z0-9]/.test(line)
   })
 
   if (!candidate) return '已归档研报，保留版本、证据台账与后续复盘入口。'
-  return candidate.replace(/^[-*]\s+/, '').slice(0, 160)
+  return candidate.replace(/^[-*]\s+/, '').replace(/\[[^\]]+\]/g, '').slice(0, 160)
 }
 
 function countLedgerRows(filePath) {
@@ -87,6 +92,13 @@ function collectSection(section) {
     .filter((file) => /\.md$/i.test(file))
     .filter((file) => !/README\.md$/i.test(file))
     .filter((file) => !/_evidence-ledger\.md$/i.test(file))
+    .filter((file) => {
+      const rel = path.relative(sectionRoot, file)
+      const parts = rel.split(path.sep)
+      const objectName = parts[0] || ''
+      const base = path.basename(file, '.md')
+      return base === objectName || base.startsWith(`${objectName} `)
+    })
 
   const reports = files.map((file) => {
     const rel = path.relative(root, file)
