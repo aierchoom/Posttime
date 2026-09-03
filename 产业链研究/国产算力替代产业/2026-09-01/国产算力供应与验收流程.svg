@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1040" viewBox="0 0 1600 1040">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7fbff"/>
+      <stop offset="1" stop-color="#f5f3ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#475569"/>
+    </marker>
+    <style>
+      .title{font:700 34px 'Microsoft YaHei','Noto Sans SC',sans-serif;fill:#0f172a}
+      .sub{font:400 16px 'Microsoft YaHei','Noto Sans SC',sans-serif;fill:#475569}
+      .stage{font:700 20px 'Microsoft YaHei','Noto Sans SC',sans-serif;fill:#0f172a}
+      .body{font:400 15px 'Microsoft YaHei','Noto Sans SC',sans-serif;fill:#334155}
+      .small{font:400 13px 'Microsoft YaHei','Noto Sans SC',sans-serif;fill:#64748b}
+      .white{fill:#fff}
+      .gate{font:600 15px 'Microsoft YaHei','Noto Sans SC',sans-serif;fill:#1e293b}
+      .metric{font:700 16px 'Microsoft YaHei','Noto Sans SC',sans-serif;fill:#991b1b}
+      .arrow{stroke:#475569;stroke-width:3;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1600" height="1040" fill="url(#bg)"/>
+  <text x="60" y="55" class="title">国产算力：从需求定义到收入与现金的供应/验收流程</text>
+  <text x="60" y="86" class="sub">物料流、软件流和验收流必须同时闭环；“有卡/有集群”只是中间节点，不等于有效算力或经营现金流。</text>
+
+  <!-- Top supply flow -->
+  <g filter="url(#shadow)">
+    <rect x="45" y="125" width="220" height="150" rx="18" fill="#dbeafe" stroke="#60a5fa" stroke-width="2"/>
+    <rect x="295" y="125" width="220" height="150" rx="18" fill="#dbeafe" stroke="#60a5fa" stroke-width="2"/>
+    <rect x="545" y="125" width="220" height="150" rx="18" fill="#ffedd5" stroke="#fb923c" stroke-width="2"/>
+    <rect x="795" y="125" width="220" height="150" rx="18" fill="#fee2e2" stroke="#f87171" stroke-width="2"/>
+    <rect x="1045" y="125" width="220" height="150" rx="18" fill="#dcfce7" stroke="#4ade80" stroke-width="2"/>
+    <rect x="1295" y="125" width="260" height="150" rx="18" fill="#ede9fe" stroke="#a78bfa" stroke-width="2"/>
+  </g>
+  <text x="65" y="160" class="stage">1 需求与产品定义</text>
+  <text x="65" y="190" class="body"><tspan x="65">模型/精度/上下文</tspan><tspan x="65" dy="23">安全与国产化要求</tspan><tspan x="65" dy="23">训练、推理或AI4S</tspan></text>
+  <text x="315" y="160" class="stage">2 芯片与软件协同设计</text>
+  <text x="315" y="190" class="body"><tspan x="315">微架构、指令集、EDA/IP</tspan><tspan x="315" dy="23">编译器/算子/通信库</tspan><tspan x="315" dy="23">华为/寒武纪/海光/龙芯</tspan></text>
+  <text x="565" y="160" class="stage">3 流片与晶圆制造</text>
+  <text x="565" y="190" class="body"><tspan x="565">Foundry → 晶圆测试</tspan><tspan x="565" dy="23">良率、工艺、交期</tspan><tspan x="565" dy="23">当前供应商多未披露</tspan></text>
+  <text x="815" y="160" class="stage">4 HBM与先进封装</text>
+  <text x="815" y="190" class="body"><tspan x="815">HBM/基板/CoWoS类工艺</tspan><tspan x="815" dy="23">封装、测试、烧机</tspan><tspan x="815" dy="23">国产最大未核实短板</tspan></text>
+  <text x="1065" y="160" class="stage">5 板卡、UBB与服务器</text>
+  <text x="1065" y="190" class="body"><tspan x="1065">CPU/加速卡/PCB/电源</tspan><tspan x="1065" dy="23">存储、网卡、散热</tspan><tspan x="1065" dy="23">曙光/浪潮/生态伙伴</tspan></text>
+  <text x="1315" y="160" class="stage">6 超节点与集群建设</text>
+  <text x="1315" y="190" class="body"><tspan x="1315">UnifiedBus/HSL/scaleFabric</tspan><tspan x="1315" dy="23">交换、存储、液冷、容错</tspan><tspan x="1315" dy="23">从百卡→千卡→万卡</tspan></text>
+
+  <path d="M265 200 H291" class="arrow"/>
+  <path d="M515 200 H541" class="arrow"/>
+  <path d="M765 200 H791" class="arrow"/>
+  <path d="M1015 200 H1041" class="arrow"/>
+  <path d="M1265 200 H1291" class="arrow"/>
+
+  <!-- Bottom return flow -->
+  <g filter="url(#shadow)">
+    <rect x="1285" y="340" width="270" height="135" rx="18" fill="#ede9fe" stroke="#a78bfa" stroke-width="2"/>
+    <rect x="975" y="340" width="270" height="135" rx="18" fill="#fef3c7" stroke="#fbbf24" stroke-width="2"/>
+    <rect x="665" y="340" width="270" height="135" rx="18" fill="#fef3c7" stroke="#fbbf24" stroke-width="2"/>
+    <rect x="355" y="340" width="270" height="135" rx="18" fill="#dcfce7" stroke="#4ade80" stroke-width="2"/>
+    <rect x="45" y="340" width="270" height="135" rx="18" fill="#e0f2fe" stroke="#38bdf8" stroke-width="2"/>
+  </g>
+  <text x="1305" y="375" class="stage">7 软件与模型迁移</text>
+  <text x="1305" y="405" class="body"><tspan x="1305">PyTorch/vLLM/Triton适配</tspan><tspan x="1305" dy="23">低精度、算子、并行策略</tspan><tspan x="1305" dy="23">CANN/DTK/BANG/openEuler</tspan></text>
+  <text x="995" y="375" class="stage">8 POC与规模验收</text>
+  <text x="995" y="405" class="body"><tspan x="995">精度、吞吐、时延、MFU</tspan><tspan x="995" dy="23">故障率、恢复时间、能耗</tspan><tspan x="995" dy="23">迁移人日与同任务TCO</tspan></text>
+  <text x="685" y="375" class="stage">9 交付与收入确认</text>
+  <text x="685" y="405" class="body"><tspan x="685">芯片/整机发货</tspan><tspan x="685" dy="23">系统安装、客户验收</tspan><tspan x="685" dy="23">确认时点因合同而异</tspan></text>
+  <text x="375" y="375" class="stage">10 运营与算力服务</text>
+  <text x="375" y="405" class="body"><tspan x="375">调度、SLA、卡时/token计费</tspan><tspan x="375" dy="23">利用率、复购、服务毛利</tspan><tspan x="375" dy="23">运营商/云/行业客户</tspan></text>
+  <text x="65" y="375" class="stage">11 回款与再投资</text>
+  <text x="65" y="405" class="body"><tspan x="65">应收回款 → 经营现金流</tspan><tspan x="65" dy="23">再投研发/备货/产能</tspan><tspan x="65" dy="23">决定景气质量</tspan></text>
+
+  <path d="M1425 275 V336" class="arrow"/>
+  <path d="M1285 408 H1249" class="arrow"/>
+  <path d="M975 408 H939" class="arrow"/>
+  <path d="M665 408 H629" class="arrow"/>
+  <path d="M355 408 H319" class="arrow"/>
+
+  <!-- Verification gates -->
+  <text x="55" y="545" class="stage">客户验收闸门：只有依次穿透，峰值卡数才转化为有效算力</text>
+  <g filter="url(#shadow)">
+    <rect x="55" y="575" width="250" height="70" rx="35" fill="#ffffff" stroke="#94a3b8"/>
+    <rect x="365" y="575" width="250" height="70" rx="35" fill="#ffffff" stroke="#94a3b8"/>
+    <rect x="675" y="575" width="250" height="70" rx="35" fill="#ffffff" stroke="#94a3b8"/>
+    <rect x="985" y="575" width="250" height="70" rx="35" fill="#ffffff" stroke="#94a3b8"/>
+    <rect x="1295" y="575" width="250" height="70" rx="35" fill="#ffffff" stroke="#94a3b8"/>
+  </g>
+  <text x="180" y="606" text-anchor="middle" class="gate"><tspan x="180">模型精度一致</tspan><tspan x="180" dy="20">算子/框架可运行</tspan></text>
+  <text x="490" y="606" text-anchor="middle" class="gate"><tspan x="490">单机吞吐/时延</tspan><tspan x="490" dy="20">显存/带宽/功耗</tspan></text>
+  <text x="800" y="606" text-anchor="middle" class="gate"><tspan x="800">32/64卡 POC</tspan><tspan x="800" dy="20">并行效率/网络</tspan></text>
+  <text x="1110" y="606" text-anchor="middle" class="gate"><tspan x="1110">千卡/万卡长稳</tspan><tspan x="1110" dy="20">30/90天、故障恢复</tspan></text>
+  <text x="1420" y="606" text-anchor="middle" class="gate"><tspan x="1420">付费利用与复购</tspan><tspan x="1420" dy="20">单位任务TCO</tspan></text>
+  <path d="M305 610 H361" class="arrow"/>
+  <path d="M615 610 H671" class="arrow"/>
+  <path d="M925 610 H981" class="arrow"/>
+  <path d="M1235 610 H1291" class="arrow"/>
+
+  <!-- Cash conversion -->
+  <text x="55" y="715" class="stage">资金流：国产供应链当前最容易被忽视的“第二战场”</text>
+  <rect x="55" y="745" width="1490" height="150" rx="20" fill="#fff7ed" stroke="#fb923c" stroke-width="2"/>
+  <text x="95" y="790" class="gate">客户订单/预测</text>
+  <text x="330" y="790" class="gate">预付款/锁产能</text>
+  <text x="575" y="790" class="gate">在制品与库存</text>
+  <text x="810" y="790" class="gate">交付与验收</text>
+  <text x="1045" y="790" class="gate">应收账款</text>
+  <text x="1280" y="790" class="gate">经营现金流</text>
+  <path d="M215 785 H310" class="arrow"/>
+  <path d="M470 785 H555" class="arrow"/>
+  <path d="M710 785 H790" class="arrow"/>
+  <path d="M930 785 H1025" class="arrow"/>
+  <path d="M1160 785 H1260" class="arrow"/>
+  <text x="95" y="845" class="metric">2026H1 CFO / 归母净利：</text>
+  <text x="325" y="845" class="body">寒武纪 13.5%</text>
+  <text x="515" y="845" class="body">海光 -23.8%</text>
+  <text x="690" y="845" class="body">浪潮信息 -253.8%</text>
+  <text x="950" y="845" class="small">→ 收入已兑现，但备货、验收和回款仍决定利润质量</text>
+
+  <!-- Legend -->
+  <rect x="55" y="930" width="1490" height="72" rx="16" fill="#ffffff" stroke="#cbd5e1"/>
+  <circle cx="85" cy="960" r="10" fill="#60a5fa"/><text x="105" y="966" class="small">设计/软件</text>
+  <circle cx="245" cy="960" r="10" fill="#fb923c"/><text x="265" y="966" class="small">制造/供给</text>
+  <circle cx="405" cy="960" r="10" fill="#f87171"/><text x="425" y="966" class="small">当前核心卡点</text>
+  <circle cx="595" cy="960" r="10" fill="#4ade80"/><text x="615" y="966" class="small">系统与交付</text>
+  <circle cx="755" cy="960" r="10" fill="#a78bfa"/><text x="775" y="966" class="small">集群/运营</text>
+  <text x="955" y="966" class="small">注：流程为行业通用抽象；具体供应商、收入确认和验收条款以公司合同/公告为准。来源：S7-S11、S22-S23。</text>
+</svg>

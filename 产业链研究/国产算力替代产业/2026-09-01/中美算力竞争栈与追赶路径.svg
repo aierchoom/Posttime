@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1080" viewBox="0 0 1600 1080">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="0.52" stop-color="#eef6ff"/>
+      <stop offset="1" stop-color="#fff7ed"/>
+    </linearGradient>
+    <filter id="s2" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0f172a" flood-opacity="0.12"/></filter>
+    <style>
+      .t{font:700 34px 'Microsoft YaHei','Noto Sans SC',sans-serif;fill:#0f172a}
+      .st{font:400 16px 'Microsoft YaHei','Noto Sans SC',sans-serif;fill:#475569}
+      .h{font:700 23px 'Microsoft YaHei','Noto Sans SC',sans-serif;fill:#0f172a}
+      .rh{font:700 18px 'Microsoft YaHei','Noto Sans SC',sans-serif;fill:#0f172a}
+      .b{font:400 14px 'Microsoft YaHei','Noto Sans SC',sans-serif;fill:#334155}
+      .g{font:700 15px 'Microsoft YaHei','Noto Sans SC',sans-serif;fill:#991b1b}
+      .p{font:700 16px 'Microsoft YaHei','Noto Sans SC',sans-serif;fill:#1e3a8a}
+      .sm{font:400 12px 'Microsoft YaHei','Noto Sans SC',sans-serif;fill:#64748b}
+    </style>
+  </defs>
+  <rect width="1600" height="1080" fill="url(#bg2)"/>
+  <text x="55" y="55" class="t">中美算力竞争栈：差距不止在芯片，追赶也不能只堆卡</text>
+  <text x="55" y="86" class="st">截至2026-09-03｜左：美国公司组织的全球供应与软件生态；右：中国本土产品与市场闭环；中间：真实差距与证据状态</text>
+
+  <g filter="url(#s2)">
+    <rect x="55" y="115" width="590" height="70" rx="18" fill="#dbeafe" stroke="#60a5fa" stroke-width="2"/>
+    <rect x="680" y="115" width="240" height="70" rx="18" fill="#fee2e2" stroke="#f87171" stroke-width="2"/>
+    <rect x="955" y="115" width="590" height="70" rx="18" fill="#dcfce7" stroke="#4ade80" stroke-width="2"/>
+  </g>
+  <text x="350" y="158" text-anchor="middle" class="h">美国主导的全球算力栈</text>
+  <text x="800" y="158" text-anchor="middle" class="h">差距判断</text>
+  <text x="1250" y="158" text-anchor="middle" class="h">中国国产算力栈</text>
+
+  <!-- Row backgrounds -->
+  <g filter="url(#s2)">
+    <rect x="55" y="205" width="1490" height="100" rx="14" fill="#ffffff" stroke="#cbd5e1"/>
+    <rect x="55" y="320" width="1490" height="100" rx="14" fill="#ffffff" stroke="#cbd5e1"/>
+    <rect x="55" y="435" width="1490" height="100" rx="14" fill="#ffffff" stroke="#cbd5e1"/>
+    <rect x="55" y="550" width="1490" height="100" rx="14" fill="#ffffff" stroke="#cbd5e1"/>
+    <rect x="55" y="665" width="1490" height="100" rx="14" fill="#ffffff" stroke="#cbd5e1"/>
+    <rect x="55" y="780" width="1490" height="100" rx="14" fill="#ffffff" stroke="#cbd5e1"/>
+  </g>
+
+  <text x="75" y="235" class="rh">芯片/系统</text>
+  <text x="205" y="232" class="b"><tspan x="205">NVIDIA B200/Rubin、AMD MI350</tspan><tspan x="205" dy="21">Google TPU7x、AWS Trainium3并行竞争</tspan><tspan x="205" dy="21">单芯片HBM/带宽/精度规格透明</tspan></text>
+  <text x="800" y="250" text-anchor="middle" class="g"><tspan x="800">单卡有效性能</tspan><tspan x="800" dy="22">明显差距</tspan></text>
+  <text x="980" y="232" class="b"><tspan x="980">昇腾、寒武纪、海光、摩尔线程、沐曦</tspan><tspan x="980" dy="21">收入与量产已突破；主力单卡规格仍不完整</tspan><tspan x="980" dy="21">突破口：推理/行业部署/国产模型协同</tspan></text>
+
+  <text x="75" y="350" class="rh">制造/HBM</text>
+  <text x="205" y="347" class="b"><tspan x="205">TSMC/Samsung晶圆，SK hynix/Micron/Samsung HBM</tspan><tspan x="205" dy="21">HBM3e→HBM4、CoWoS、全球先进封装</tspan><tspan x="205" dy="21">美国公司优势来自全球供应调用权</tspan></text>
+  <text x="800" y="365" text-anchor="middle" class="g"><tspan x="800">当前最大短板</tspan><tspan x="800" dy="22">证据与量产均缺</tspan></text>
+  <text x="980" y="347" class="b"><tspan x="980">长鑫已量产DDR5/LPDDR5X，但招股书未列HBM</tspan><tspan x="980" dy="21">沐曦C600称全国产工艺并量产</tspan><tspan x="980" dy="21">晶圆/HBM/封装/EDA供应商仍未完整披露</tspan></text>
+
+  <text x="75" y="465" class="rh">Scale-up互联</text>
+  <text x="205" y="462" class="b"><tspan x="205">NVLink/NVSwitch成熟，NVLink Fusion开放第三方XPU</tspan><tspan x="205" dy="21">UALink开放标准支持最高1024端点</tspan><tspan x="205" dy="21">机架、电力、液冷和网络协同设计</tspan></text>
+  <text x="800" y="480" text-anchor="middle" class="p"><tspan x="800">国产架构突破</tspan><tspan x="800" dy="22">效率尚待证明</tspan></text>
+  <text x="980" y="462" class="b"><tspan x="980">Atlas 950：1024卡真机、统一内存编址</tspan><tspan x="980" dy="21">HSL、MetaXLink、scaleFabric多路线并行</tspan><tspan x="980" dy="21">风险：协议碎片化与缺MFU/长稳数据</tspan></text>
+
+  <text x="75" y="580" class="rh">软件/开发体验</text>
+  <text x="205" y="577" class="b"><tspan x="205">CUDA-X 400+库与企业SLA</tspan><tspan x="205" dy="21">ROCm、XLA/JAX、Neuron/PyTorch/vLLM</tspan><tspan x="205" dy="21">从编译器到运维形成多条成熟栈</tspan></text>
+  <text x="800" y="595" text-anchor="middle" class="g"><tspan x="800">仍是第一软壁垒</tspan><tspan x="800" dy="22">“能跑”≠“好用”</tspan></text>
+  <text x="980" y="577" class="b"><tspan x="980">CANN/DTK/BANG/MUSA/MXMACA/openEuler</tspan><tspan x="980" dy="21">模型适配、文档与开源快速增长</tspan><tspan x="980" dy="21">缺迁移人日、算子覆盖和第三方性能口径</tspan></text>
+
+  <text x="75" y="695" class="rh">验证/运营</text>
+  <text x="205" y="692" class="b"><tspan x="205">MLPerf公开全系统基准</tspan><tspan x="205" dy="21">全球CSP长稳运行、故障数据和企业支持</tspan><tspan x="205" dy="21">tokens/s、tokens/W、成本/token成为核心KPI</tspan></text>
+  <text x="800" y="710" text-anchor="middle" class="g"><tspan x="800">披露差距明显</tspan><tspan x="800" dy="22">不可直接按卡数比</tspan></text>
+  <text x="980" y="692" class="b"><tspan x="980">万卡/十万卡建设与行业部署已出现</tspan><tspan x="980" dy="21">缺MFU、可用率、30/90天、付费利用率</tspan><tspan x="980" dy="21">需要统一第三方基准与同任务TCO</tspan></text>
+
+  <text x="75" y="810" class="rh">商业规模/现金</text>
+  <text x="205" y="807" class="b"><tspan x="205">NVIDIA FY2026数据中心收入1937亿美元</tspan><tspan x="205" dy="21">集团毛利率71.1%，研发184.97亿美元</tspan><tspan x="205" dy="21">客户、供应、软件与资本形成飞轮</tspan></text>
+  <text x="800" y="825" text-anchor="middle" class="g"><tspan x="800">样本年化收入</tspan><tspan x="800" dy="22">约37倍差距*</tspan></text>
+  <text x="980" y="807" class="b"><tspan x="980">海光+寒武纪+摩尔线程+沐曦H1收入181.55亿元</tspan><tspan x="980" dy="21">加权毛利率55.54%，研发强度25.61%</tspan><tspan x="980" dy="21">合计CFO -35.82亿元：供应占款尚未闭环</tspan></text>
+
+  <!-- Roadmap -->
+  <text x="55" y="930" class="h">追赶路径</text>
+  <g filter="url(#s2)">
+    <rect x="185" y="905" width="410" height="105" rx="18" fill="#dbeafe" stroke="#60a5fa"/>
+    <rect x="625" y="905" width="410" height="105" rx="18" fill="#ede9fe" stroke="#a78bfa"/>
+    <rect x="1065" y="905" width="480" height="105" rx="18" fill="#ffedd5" stroke="#fb923c"/>
+  </g>
+  <text x="205" y="938" class="p">0-12个月：先赢工作负载</text>
+  <text x="205" y="967" class="b"><tspan x="205">推理/Agent、金融电信能源私有化</tspan><tspan x="205" dy="21">验证复购、token成本、CFO</tspan></text>
+  <text x="645" y="938" class="p">1-3年：把规模变成效率</text>
+  <text x="645" y="967" class="b"><tspan x="645">超节点、开放互联、异构调度、Day-0</tspan><tspan x="645" dy="21">验证MFU、长稳、迁移人日、SLA</tspan></text>
+  <text x="1085" y="938" class="p">3年以上：补齐硬科技与全球生态</text>
+  <text x="1085" y="967" class="b"><tspan x="1085">HBM、先进工艺/封装、统一基准与海外客户</tspan><tspan x="1085" dy="21">验证良率、产能、单卡效率和现金回报</tspan></text>
+  <text x="55" y="1050" class="sm">* 37倍为NVIDIA FY2026数据中心收入 ÷ 四家科创板AI芯片样本2026H1收入按6.9906汇率粗略年化；排除华为及未上市企业，不等于中美总市场份额。来源：S7-S8、S19-S34。</text>
+</svg>
