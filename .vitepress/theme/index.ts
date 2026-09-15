@@ -2,6 +2,7 @@ import DefaultTheme from 'vitepress/theme'
 import { h } from 'vue'
 import ArchiveHome from './components/ArchiveHome.vue'
 import GiscusComments from './components/GiscusComments.vue'
+import BoeValuationCalculator from './components/BoeValuationCalculator.vue'
 import './styles.css'
 
 export default {
@@ -13,5 +14,6 @@ export default {
   },
   enhanceApp({ app }) {
     app.component('ArchiveHome', ArchiveHome)
+    app.component('BoeValuationCalculator', BoeValuationCalculator)
   }
 }

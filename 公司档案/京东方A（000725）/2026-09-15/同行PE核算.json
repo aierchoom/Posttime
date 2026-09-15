@@ -1,0 +1,140 @@
+{
+  "price_date": "2026-09-15收盘",
+  "earnings_period": "TTM截至2026-06-30（最近公开四个季度）",
+  "units": "价格元/股；市值和归母利润亿元人民币；PE倍",
+  "formula": "TTM=FY2025+H1_2026-H1_2025; PE=market_cap/TTM; aggregate_PE=sum(cap)/sum(profit)",
+  "rows": [
+    {
+      "name": "京东方A",
+      "code": "000725",
+      "quote_time": "2026-09-15 15:00:02",
+      "price": 5.27,
+      "market_cap": 1952.24,
+      "fy2025_parent": 58.56966754,
+      "h1_2026_parent": 52.47660077,
+      "h1_2025_parent": 32.46885779,
+      "ttm_parent": 78.57741052,
+      "pe_ttm": 24.84479937784542,
+      "provider_pe": "24.92"
+    },
+    {
+      "name": "TCL科技",
+      "code": "000100",
+      "quote_time": "2026-09-15 15:00:01",
+      "price": 4.73,
+      "market_cap": 1038.07,
+      "fy2025_parent": 45.16783411,
+      "h1_2026_parent": 38.08272967,
+      "h1_2025_parent": 18.83499452,
+      "ttm_parent": 64.41556926,
+      "pe_ttm": 16.115203388330656,
+      "provider_pe": "15.27"
+    },
+    {
+      "name": "彩虹股份",
+      "code": "600707",
+      "quote_time": "2026-09-15 15:00:03",
+      "price": 8.95,
+      "market_cap": 321.16,
+      "fy2025_parent": 3.7423808174,
+      "h1_2026_parent": 0.9996641334,
+      "h1_2025_parent": 4.516315542,
+      "ttm_parent": 0.22572940880000056,
+      "pe_ttm": 1422.7654327688967,
+      "provider_pe": "1420.63"
+    },
+    {
+      "name": "深天马A",
+      "code": "000050",
+      "quote_time": "2026-09-15 15:00:01",
+      "price": 6.43,
+      "market_cap": 156.62,
+      "fy2025_parent": 1.6737592683000002,
+      "h1_2026_parent": -7.2784630236000005,
+      "h1_2025_parent": 2.0589891599000003,
+      "ttm_parent": -7.6636929151999995,
+      "pe_ttm": null,
+      "provider_pe": "亏损"
+    },
+    {
+      "name": "维信诺",
+      "code": "002387",
+      "quote_time": "2026-09-15 15:00:07",
+      "price": 6.82,
+      "market_cap": 95.26,
+      "fy2025_parent": -23.8895199363,
+      "h1_2026_parent": -15.1853964001,
+      "h1_2025_parent": -10.6201836912,
+      "ttm_parent": -28.454732645200004,
+      "pe_ttm": null,
+      "provider_pe": "亏损"
+    },
+    {
+      "name": "龙腾光电",
+      "code": "688055",
+      "quote_time": "2026-09-15 15:00:04",
+      "price": 3.59,
+      "market_cap": 119.67,
+      "fy2025_parent": -2.0821696919,
+      "h1_2026_parent": -1.8801493166999999,
+      "h1_2025_parent": -1.2115060637000001,
+      "ttm_parent": -2.7508129449000003,
+      "pe_ttm": null,
+      "provider_pe": "亏损"
+    }
+  ],
+  "peers_excluding_boe": {
+    "universe_count": 5,
+    "profitable_count": 2,
+    "excluded_losses": [
+      "深天马A",
+      "维信诺",
+      "龙腾光电"
+    ],
+    "mean_pe": 719.4403180786137,
+    "median_pe": 719.4403180786137,
+    "profitable_cap": 1359.23,
+    "profitable_profit": 64.6412986688,
+    "aggregate_profitable_pe": 21.027269377186116,
+    "market_cap_weighted_arithmetic_pe": 348.47969480469334,
+    "all_cap": 1730.78,
+    "all_profit": 25.772060163499994,
+    "aggregate_including_losses_pe": 67.1572233271145
+  },
+  "panel_sample_including_boe": {
+    "universe_count": 6,
+    "profitable_count": 3,
+    "excluded_losses": [
+      "深天马A",
+      "维信诺",
+      "龙腾光电"
+    ],
+    "mean_pe": 487.90847851169093,
+    "median_pe": 24.84479937784542,
+    "profitable_cap": 3311.47,
+    "profitable_profit": 143.2187091888,
+    "aggregate_profitable_pe": 23.121769626024275,
+    "market_cap_weighted_arithmetic_pe": 157.68437180671674,
+    "all_cap": 3683.02,
+    "all_profit": 104.3494706835,
+    "aggregate_including_losses_pe": 35.29505205801076
+  },
+  "caveat": "自选六家上市公司样本，不是全行业；集团PE不可代替显示分部PE。上市公司亏损不以负PE或0加入个股PE均值。BOE市值为A股等价市值。",
+  "base_walkthrough": {
+    "revenue": 2313.379544618854,
+    "gross": 384.86546655767904,
+    "opex": 254.47174990807397,
+    "pretax": 142.39371664960507,
+    "parent": 101.79528748720381,
+    "eps": 0.27479318105415806,
+    "price_by_pe": {
+      "16": 4.396690896866529,
+      "18": 4.946277258974845,
+      "20": 5.495863621083162,
+      "21": 5.770656802137319,
+      "22": 6.045449983191477,
+      "24": 6.5950363452997935
+    },
+    "boe_market_forward_pe_2027": 19.178098006210814
+  }
+}

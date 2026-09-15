@@ -1,0 +1,112 @@
+[
+  {
+    "file": "同行PE/2026-04-15_彩虹2025年报.pdf",
+    "url": "https://dataclouds.cninfo.com.cn/shgonggao/hsomarket/2026/20260415/1c1e02ed162d4ec0abd1b2a9ce8673dd.PDF",
+    "status": "error",
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+  },
+  {
+    "file": "同行PE/2026-08-27_彩虹2026中报摘要.html",
+    "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12548500&stockid=600707",
+    "access_date": "2026-09-15",
+    "bytes": 36936,
+    "sha256": "74fb2823eae3b3f30f793070661463ba1131cea495f6571585ef76a5b8bf39db",
+    "status": "ok"
+  },
+  {
+    "file": "同行PE/2026-03-28_TCL2025年报.pdf",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045623.PDF",
+    "access_date": "2026-09-15",
+    "bytes": 2753810,
+    "sha256": "d2c9f29a64cc6dc272e6e31bab22fc536f9398b3b77ec145e936a0d657817df1",
+    "status": "ok"
+  },
+  {
+    "file": "同行PE/2026-03-14_天马2025年报.pdf",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-03-14/1225009341.PDF",
+    "access_date": "2026-09-15",
+    "bytes": 7295530,
+    "sha256": "73da451fcbf607a4210113cd12678849c03f5d99cf5b77256ddfdb775ffb8c6e",
+    "status": "ok"
+  },
+  {
+    "file": "同行PE/2026-04-29_维信诺2025年报摘要.html",
+    "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12253785&stockid=002387",
+    "access_date": "2026-09-15",
+    "bytes": 40465,
+    "sha256": "172463af454ce2dbbef5fd4404af8904b00fe833897996547fe2802de5956e08",
+    "status": "ok"
+  },
+  {
+    "file": "同行PE/2026-08-28_维信诺2026中报.pdf",
+    "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-28/467859c6-155c-4a66-874d-46836770a5d9.PDF",
+    "access_date": "2026-09-15",
+    "bytes": 1184761,
+    "sha256": "aefa534de62f90fef7267a7079080aab393ed6773fcc47295445c59979fb5061",
+    "status": "ok"
+  },
+  {
+    "file": "同行PE/2026-04-23_龙腾2025年报.html",
+    "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12148830&stockid=688055",
+    "access_date": "2026-09-15",
+    "bytes": 693763,
+    "sha256": "bde78b84ea824954cb89c793e0489dfb1072739a1d9878c6d5d8f93121b9adb8",
+    "status": "ok"
+  },
+  {
+    "file": "同行PE/2026-08-26_龙腾2026中报.html",
+    "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12535828&stockid=688055",
+    "access_date": "2026-09-15",
+    "bytes": 549374,
+    "sha256": "49e5ebf13907f7bcb36d1286e236b2c49a7fbe183e635920fefdc6f28df2cb23",
+    "status": "ok"
+  },
+  {
+    "file": "同行PE/2026-09-15_京东方行情.html",
+    "url": "https://stock.aigupiao.com/code/sz000725",
+    "access_date": "2026-09-15",
+    "bytes": 43449,
+    "sha256": "7a7ee3322025471c75bfd3a0808cbf0b977f5a1782eb8498dfa9d67a706eb3d5",
+    "status": "ok"
+  },
+  {
+    "file": "同行PE/2026-09-15_TCL行情.html",
+    "url": "https://stock.aigupiao.com/code/sz000100",
+    "access_date": "2026-09-15",
+    "bytes": 42379,
+    "sha256": "9a6e7f09527e3c1631cb437d18b7929ef1ba589f2fe8cc31de430416be0f0ff8",
+    "status": "ok"
+  },
+  {
+    "file": "同行PE/2026-09-15_彩虹行情.html",
+    "url": "https://stock.aigupiao.com/code/sh600707",
+    "access_date": "2026-09-15",
+    "bytes": 46462,
+    "sha256": "d9a07e5ee71605a8541a56d43d206deb1a02b5a090297ed9676c1b1c0d268508",
+    "status": "ok"
+  },
+  {
+    "file": "同行PE/2026-09-15_天马行情.html",
+    "url": "https://stock.aigupiao.com/code/sz000050",
+    "access_date": "2026-09-15",
+    "bytes": 46826,
+    "sha256": "294420577d0ca76d28262c9585d23c55e2838a794cb459a18b8f3c4f62f03130",
+    "status": "ok"
+  },
+  {
+    "file": "同行PE/2026-09-15_维信诺行情.html",
+    "url": "https://stock.aigupiao.com/code/sz002387",
+    "access_date": "2026-09-15",
+    "bytes": 43478,
+    "sha256": "1c415d752f110dae62d03744b044f4461b10c3ea390be0490177c34db829c499",
+    "status": "ok"
+  },
+  {
+    "file": "同行PE/2026-09-15_龙腾行情.html",
+    "url": "https://stock.aigupiao.com/code/sh688055",
+    "access_date": "2026-09-15",
+    "bytes": 48082,
+    "sha256": "80f827ad86d864045dc1db027667c85cf9cb475be147a505c861e247ec77a2d8",
+    "status": "ok"
+  }
+]

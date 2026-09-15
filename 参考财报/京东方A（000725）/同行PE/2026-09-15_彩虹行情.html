@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<!-- 爱股圈股票参数 -->
+	<script src="https://cdn1.aigupiao.com/sr/pc/js/stock/agq_stock_header.js?v=20260915154951202"></script>
+	
+	    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit" />
+    <meta name="force-rendering" content="webkit" />
+    <title>彩虹股份 sh600707 的股票股价,行情,直播,新闻,财报,数据 - 爱股票</title>
+            <meta name="keywords" content="彩虹股份 sh600707,股票股价,股价行情,财报报告,数据报告,爱股票" /> 
+    <meta name="description" content="爱股票提供彩虹股份 sh600707,股票的行情走势、五档盘口、逐笔交易等实时行情数据，及彩虹股份 sh600707的用户讨论、新闻资讯、行业研报、公司公告、F10资料等与彩虹股份 sh600707有关的信息和服务。" />
+    <meta name="author" content="爱股票" />
+    <meta name="from" content="爱股票" />
+    <meta name="copyright" content="爱股票网版权所有" />
+    
+	<!-- Core CSS file -->
+	<!-- <link rel="stylesheet" href="/Public/static/api/js/pswp/photoswipe.css?v=20260915154951202" /> -->
+
+	<!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+         In the folder of skin CSS file there are also:
+         - .png and .svg icons scripte,
+         - preloader.gif (for browsers that do not support CSS animations)
+     -->
+	<!-- <link rel="stylesheet" href="/Public/static/api/js/pswp/default-skin/default-skin.css?v=20260915154951202" /> -->
+	<link rel="stylesheet" href="https://cdn1.aigupiao.com/pc/css/stock_market/stock_market.css?v=20260915154951202">
+	<link rel="stylesheet" href="https://cdn1.aigupiao.com/sr/sass/pc/stocktalk/stocktalk.css?v=20260915154951202">
+	<link rel="stylesheet" href="https://cdn1.aigupiao.com/sr/sass/pc/stock_market/stock_market.css?v=20260915154951202">
+
+<!-- {/-- html_footer.html --/} -->
+<script src="https://www.aigupiao.com/common/js?v=20260915154951202"></script>
+
+<script>
+  var page_tougu_data_list = [], has_page_tougu_data_list = false;
+  function initTouGuDataFn(type) {
+    try {
+      let tougu_data_list = typeof JF_TOUGU_DATA != "undefined"? JF_TOUGU_DATA: [];
+      for(let i=0,ilen=tougu_data_list.length;i<ilen;i++) {
+        page_tougu_data_list.push(tougu_data_list[i].id);
+      }
+    } catch(e) {
+
+    }
+
+    if(page_tougu_data_list && page_tougu_data_list.length > 0) {
+      has_page_tougu_data_list = true;
+    } else if(type != 'init') {
+      has_page_tougu_data_list = false;
+    }
+  }
+
+  initTouGuDataFn('init');
+
+  function initMedalH(arr=[]) {
+    let if_value = JSON.parse(JSON.stringify(arr));
+    try {
+        let page_medal_info = JSON.parse(MEDAL);
+        let page_medal_tougu_info = JSON.parse(MEDAL_TOUGU);
+        if(page_medal_info && page_medal_info.is_hide_serve_vip && page_medal_info.is_hide_serve_vip == "yes") {
+          if(!has_page_tougu_data_list) {
+            initTouGuDataFn('getData')
+          }
+          if (typeof if_value === "object" && if_value !== null) {
+              if (Array.isArray(if_value)) { // 数组
+                  for(let i_hpb=0,i_hpb_len=if_value.length;i_hpb<i_hpb_len;i_hpb++) {
+                    let has_include_user = page_tougu_data_list.indexOf(if_value[i_hpb].user_id + '') > -1;
+                      if(if_value[i_hpb].kind == 'serve_vip') {
+                        if(has_include_user) {
+                          if_value[i_hpb].title = ''; 
+                          // page_medal_tougu_info
+                        } else {
+                          if_value[i_hpb].title = page_medal_info.title;
+                          if_value[i_hpb].image = page_medal_info.image;
+                          if_value[i_hpb].remarks = page_medal_info.remarks;
+                        }
+                      } else if(has_include_user) {
+                        if_value[i_hpb].title = ''; 
+                        if_value[i_hpb].image = page_medal_tougu_info.image;
+                        if_value[i_hpb].remarks = page_medal_tougu_info.remarks;
+                      }
+                  }
+              } else {    // 对象
+                let has_include_user = page_tougu_data_list.indexOf(if_value.user_id + '') > -1;
+                  if(if_value && if_value.kind == 'serve_vip') {
+                    if(has_include_user) {
+                      if_value.title = ''; 
+                    } else {
+                      if_value.title = page_medal_info.title;
+                      if_value.image = page_medal_info.image;
+                      if_value.remarks = page_medal_info.remarks;
+                    }
+                  } else if(has_include_user) {
+                    if_value.title = ''; 
+                    if_value.image = page_medal_tougu_info.image;
+                    if_value.remarks = page_medal_tougu_info.remarks;
+                  }
+              }
+          } else {
+              
+          }
+        }
+    } catch(e) {
+
+    }
+
+    return if_value
+  }
+</script>
+<!-- script src="https://cdn1.aigupiao.com/sr/lib/sentry/index.js?v=20260915154951202"></script -->
+<script src="https://cdn1.aigupiao.com/sr/??lib/jquery/jquery.1.11.1.min.js,lib/vue/2.6.14/vue.js"></script>
+<script src="https://cdn1.aigupiao.com/sr/lib/layer/3.5.1/layer.js?v=20260915154951202"></script>  
+<script src="https://cdn1.aigupiao.com/sr/??common/js/polyfill/polyfill.js,common/js/common/agpcommon.js,components/pc/pcVueCom/agpComponents.js,components/pc/pcVueCom/vuebuild_agp_ai.js?v=20260915154951202"></script>
+<link rel="stylesheet" href="https://cdn1.aigupiao.com/sr/common/css/reset/1.0.css?v=20260915154951202" />    
+
+<script src="https://cdn.aigupiao.com/static/util/qrcode.min.js?v=20260915154951202" type="text/javascript"></script>
+
+<link rel="stylesheet" href="https://cdn1.aigupiao.com/sr/??sass/pc/components/header/comHeader.css,sass/pc/plug/face.css,sass/pc/plug/writepost.css,pc/css/draft/save_drafts_manually.css,sass/pc/letter/letter.css,sass/pc/message/liverMsg.css?v=20260915154951202" />    
+<script src="https://cdn1.aigupiao.com/sr/??pc/js/loginPop/loginDialog.js,common/js/face/face21.js,common/js/cos_js_sdk/cos-js-sdk-v5.js,common/js/upimg/agpUpImg.js,lib/jquery.plug/caret/jquery.caret.js,common/js/topic/quickinput.js,common/js/components/upfilepop/upfilepop.js,common/js/components/writepost/writepost.js,pc/js/writeinfo/writeinfo.js,pc/js/draft/save_draft_manually.js?v=20260915154951202"></script>
+
+<link rel="stylesheet" href="https://cdn1.aigupiao.com/sr/lib/photoswipe/photoswipe.css?v=20260915154951202" />    
+<link rel="stylesheet" href="https://cdn1.aigupiao.com/sr/lib/photoswipe/default-skin/default-skin.css?v=20260915154951202" />    
+<script src="https://cdn1.aigupiao.com/sr/??lib/photoswipe/photoswipe.js,lib/photoswipe/photoswipe-ui-default.js,common/js/imgView/initPhotoSwipe_all.js?v=20260915154951202"></script>
+<script src="https://cdn1.aigupiao.com/sr/??/pc/js/tips/user_tips.js?v=20260915154951202"></script>
+<script>
+  /*let _h_host = location.hostname;
+  let _h_cur = 'production';
+  if(_h_host.indexOf('dev') > -1) {
+    _h_cur = 'dev'
+  } else if(_h_host.indexOf('beta') > -1) {
+    _h_cur = 'beta'
+  }
+  Sentry.init({
+      dsn: "https://60d7f560cc6e45e9ac21a3d54bf85ec9@sentry.aigupiao.com/28",
+      release: '1.0.0', // 代码版本,通过版本号可以知道产生的bug是由哪个版本发布产生的
+      environment: _h_cur,
+  }); */
+
+  
+  // Sentry.captureException('error test 2023年6月13日13:51:35')
+</script>
+<script type="text/javascript">  
+
+
+	var _Libs={"md":"0ccb55b9ee3a977d8c6253d16d7a4519"}, userInfo= {"followed_num":0,"follow_num":0},  _Url ={"www":"www.aigupiao.com","apis":"apis.aigupiao.com","app":"app.aigupiao.com","mobile":"mobile.aigupiao.com","quote":"quote.aigupiao.com","lgstatus":"https:\/\/www.aigupiao.com\/Home\/Login\/status?is_new_template=1"};
+	// console.log(userInfo,"userInfo header")
+	
+	var  stock_data= {"quote":{"code":"sh600707","symbol":"600707","exchange":"SH","name":"\u5f69\u8679\u80a1\u4efd","last":"8.95","hst_close":"8.69","chg":"0.260","chg_pct":"2.99","open":"8.61","high":"8.95","low":"8.570","buy":"8.95","sell":"8.96","volume":1187082,"amount":104871.3472,"bidprice1":"8.950","bidprice2":"8.940","bidprice3":"8.930","bidprice4":"8.920","bidprice5":"8.910","bidvolume1":11011,"bidvolume2":5163,"bidvolume3":1419,"bidvolume4":714,"bidvolume5":3334,"askprice1":"8.960","askprice2":"8.970","askprice3":"8.980","askprice4":"8.990","askprice5":"9.000","askvolume1":6032,"askvolume2":1440,"askvolume3":3977,"askvolume4":3921,"askvolume5":10448,"askvolume":"603200","bidvolume":"1101100","currentvolume":"603200","mkt_time":"2026-09-15 15:00:03","rec_time":"2026-09-15 15:09:50","code_upper":"SH600707","hsl":3.3087828016813,"jtsyl":86.057692307692,"dtsyl":159.82142857143,"sjl":1.4840239433584,"zf":4.3728423475259,"zwbl":21641,"zwsl":25818,"wx":-4177,"wb":-8.8012811057966,"ztj":"9.56","dtj":"7.82","zsz":3211608.72064,"ltsz":3210964.4352,"zsz_f":321.160872064,"ltsz_f":321.09644352,"state":"up","volume_f":118.7082,"zt_num":"--","dt_num":"--","pp_num":"--","sz_num":"--","xd_num":"--","amplitude":"4.37","s2nFund":"--","volume_ratio":"--","ttmsyl":1420.63},"exchange":"SH","name":"\u5f69\u8679\u80a1\u4efd","code":"sh600707","finance":{"code":"sh600707","symbol":"600707","bgq":"","jlr":"0.0000","mgsy":"0.1040","dtmgsy":"0.0560","ttmmgsy":"0.0063","mgjzc":"6.0309","jzcsyl":"0.0000","ltg":358766.976,"zgb":358838.9632,"rzrq":"yes","rec_time":"2026-09-13 09:42:25","unitnav":"0.000000","growrate":"0.0000","create_date":"","iopv":"0.0000","jjcnfe":"0.00","jjgm":"0.00","ltg_f":35.8766976,"zgb_f":35.88389632},"introduce":"\u5f69\u8679\u663e\u793a\u5668\u4ef6\u80a1\u4efd\u6709\u9650\u516c\u53f8(\u7b80\u79f0\u5f69\u8679\u80a1\u4efd)\u6210\u7acb\u4e8e1992\u5e747\u6708,1996\u5e745\u6708\u5728\u4e0a\u6d77\u8bc1\u5238\u4ea4\u6613\u6240\u4e0a\u5e02(\u80a1\u7968\u4ee3\u7801:600707)\u3002\u5f69\u8679\u80a1\u4efd\u4e3b\u8425\u4e1a\u52a1\u4e3a\u5e73\u677f\u663e\u793a\u5668\u4ef6\u53ca\u5176\u5173\u952e\u6750\u6599\u7684\u7814\u53d1\u3001\u751f\u4ea7\u548c\u9500\u552e,\u662f\u6db2\u6676\u9762\u677f\u3001\u6db2\u6676\u57fa\u677f\u73bb\u7483\u4ea7\u4e1a\u96c6\u7814\u53d1\u3001\u8bbe\u8ba1\u3001\u5236\u9020\u4e8e\u4e00\u4f53\u5177\u6709\u56fd\u9645\u7ade\u4e89\u5b9e\u529b\u7684\u9886\u519b\u4f01\u4e1a\u4e4b\u4e00\u3002\u516c\u53f8\u62e5\u6709\u7684\u201c\u5e73\u677f\u663e\u793a\u73bb\u7483\u5de5\u827a\u6280\u672f\u56fd\u5bb6\u5de5\u7a0b\u7814\u7a76\u4e2d\u5fc3\u201d\u662f\u6211\u56fd\u672c\u9886\u57df\u552f\u4e00\u7684\u56fd\u5bb6\u7ea7\u521b\u65b0\u5e73\u53f0\u5355\u4f4d\u3002\u201c\u5341\u4e09\u4e94\u201d\u671f\u95f4\u516c\u53f8\u5706\u6ee1\u5b8c\u6210\u4e86\u56fd\u5bb6\u91cd\u70b9\u7814\u53d1\u8ba1\u5212\u6ea2\u6d41\u6cd5\u7535\u5b50\u73bb\u7483\u57fa\u677f\u5236\u5907\u6280\u672f\u9879\u76ee,\u9ad8\u5206\u8fa8\u7387\u663e\u793a\u7528\u73bb\u7483\u57fa\u677f\u751f\u4ea7\u7ebf\u9879\u76ee\u83b7\u56fd\u5bb6\u53d1\u6539\u59d4\u3001\u5de5\u4fe1\u90e8\u7535\u5b50\u4fe1\u606f\u4ea7\u4e1a\u6280\u672f\u6539\u9020\u4e13\u9879\u652f\u6301\u3002\u516c\u53f8\u6db2\u6676\u9762\u677f\u4ea7\u54c1\u6db5\u76d632\"-100\"\u8d85\u9ad8\u5206\u8fa8\u7387(4K\u30018K)\u3001\u66f2\u9762\u3001\u7a84\u8fb9\u6846(\u65e0\u8fb9\u6846)\u7b49\u591a\u79cd\u7c7b\u6db2\u6676\u7535\u89c6\u9762\u677f,\u62e5\u6709\u5148\u8fdb\u7684Cu\u3001COA\u3001BOA\u3001PSVA\u7b49\u5173\u952e\u65b0\u5de5\u827a\u548c\u6df7\u5207\u751f\u4ea7\u6280\u672f\u3002\u54b8\u96338.6\u4ee3\u6db2\u6676\u9762\u677f\u751f\u4ea7\u7ebf\u88ab\u8a89\u4e3a\u201c\u4e1d\u8def\u7b2c\u4e00\u677f\u201d\u3002\u516c\u53f8\u6db2\u6676\u57fa\u677f\u73bb\u7483\u4ea7\u4e1a\u5df2\u5efa\u6210\u54b8\u9633\u3001\u5408\u80a5\u3001\u5f20\u5bb6\u6e2f\u3001\u6210\u90fd\u56db\u4e2a\u751f\u4ea7\u57fa\u5730,\u5f62\u6210\u4e86\u4eceG5\u3001G6\u3001G7.5\u3001\u5230G8.5+,\u4ece0.4mm\u52300.7mm\u539a\u5ea6\u7684\u6db2\u6676\u663e\u793a\u7528\u57fa\u677f\u73bb\u7483\u7cfb\u5217\u5316\u4ea7\u54c1,\u662f\u56fd\u5185\u552f\u4e00\u4e00\u5bb6\u638c\u63e1\u9ad8\u4e16\u4ee3\u57fa\u677f\u73bb\u7483\u5236\u9020\u6210\u5957\u88c5\u5907\u3001\u5de5\u827a\u3001\u6599\u65b9\u3001\u6750\u6599\u548c\u68c0\u6d4b\u6280\u672f\u7684\u4f01\u4e1a,\u5df2\u6210\u4e3a\u5e73\u677f\u663e\u793a\u4ea7\u4e1a\u201c\u4ece\u6c99\u5b50\u5230\u6574\u673a\u201d\u5168\u4ea7\u4e1a\u94fe\u4e2d\u7684\u5173\u952e\u6027\u4e00\u73af\u30022020\u5e741\u6708,\u56fd\u5185\u9996\u7247\u62e5\u6709\u81ea\u4e3b\u77e5\u8bc6\u4ea7\u6743\u7684\u6ea2\u6d41\u6cd50.5tG8.5+\u57fa\u677f\u73bb\u7483\u4ea7\u54c1\u5728\u5f69\u8679\u5408\u80a5\u751f\u4ea7\u57fa\u5730\u987a\u5229\u4e0b\u7ebf,\u6210\u529f\u6253\u7834\u4e86\u884c\u4e1a\u6280\u672f\u5784\u65ad\u548c\u4ea7\u4e1a\u201c\u5361\u8116\u5b50\u201d\u73af\u8282\u3002G8.5+\u57fa\u677f\u73bb\u7483\u4ea7\u54c1\u8363\u83b7\u7b2c\u56db\u5c4a\u4e2d\u56fd\u65b0\u578b\u663e\u793a\u4ea7\u4e1a\u94fe\u201c\u521b\u65b0\u7a81\u7834\u5956\u201d,\u5e76\u901a\u8fc7\u4e86\u53d1\u6539\u59d4\u3001\u5de5\u4fe1\u90e8\u3001\u79d1\u6280\u90e8\u9879\u76ee\u9a8c\u6536,\u7ed9\u4e88\u4e86\u201c\u56fd\u5185\u9886\u5148,\u56fd\u9645\u5148\u8fdb\u201d\u7684\u9ad8\u5ea6\u8bc4\u4ef7\u3002\u76ee\u524d,\u8be5\u4ea7\u54c1\u5df2\u5728\u9762\u677f\u5382\u5b9e\u73b0\u6279\u91cf\u89c4\u6a21\u7a33\u5b9a\u4f9b\u8d27,\u6807\u5fd7\u7740\u5f69\u8679\u5411\u9ad8\u4e16\u4ee3\u57fa\u677f\u73bb\u7483\u4ea7\u4e1a\u5316\u8fc8\u51fa\u4e86\u575a\u5b9e\u4e00\u6b65,\u516c\u53f8\u5c06\u5168\u529b\u52a0\u901f\u63a8\u8fdb\u65b0\u57fa\u5730\u4ea7\u4e1a\u5efa\u8bbe,\u5f69\u8679\u9ad8\u4e16\u4ee3\u57fa\u677f\u73bb\u7483\u4ea7\u4e1a\u89c4\u6a21\u5316\u5168\u56fd\u5e03\u5c40\u3001\u5feb\u901f\u6269\u5c55\u7684\u6574\u4f53\u5de5\u4f5c\u90e8\u7f72\u5df2\u6709\u5e8f\u5c55\u5f00\u3002\u5c55\u671b\u672a\u6765,\u5f69\u8679\u80a1\u4efd\u5c06\u4ee5\u63a8\u52a8\u4e2d\u56fd\u65b0\u578b\u663e\u793a\u4ea7\u4e1a\u94fe\u81ea\u4e3b\u53ef\u63a7\u3001\u5b89\u5168\u5065\u5eb7\u4e3a\u5df1\u4efb,\u4e0d\u5fd8\u521d\u5fc3,\u7262\u8bb0\u4f7f\u547d,\u575a\u6301\u79d1\u6280\u521b\u65b0\u662f\u5f15\u9886\u53d1\u5c55\u7684\u7b2c\u4e00\u52a8\u529b,\u8fdb\u4e00\u6b65\u6df1\u5165\u8d2f\u5f7b\u9ad8\u8d28\u91cf\u53d1\u5c55\u6218\u7565,\u594b\u529b\u5f00\u521b\u4f01\u4e1a\u53d1\u5c55\u65b0\u613f\u666f,\u52aa\u529b\u6210\u4e3a\u56fd\u5bb6\u548c\u5730\u65b9\u7ecf\u6d4e\u65b0\u4e00\u8f6e\u4ea7\u4e1a\u5347\u7ea7\u7684\u79d1\u6280\u793a\u8303\u57fa\u5730\u3001\u4ea7\u4e1a\u521b\u65b0\u9ad8\u5730\u3002","bidprice1":"8.95","bidprice2":"8.94","bidprice3":"8.93","bidprice4":"8.92","bidprice5":"8.91","bidvolume1":11011,"bidvolume2":5163,"bidvolume3":1419,"bidvolume4":714,"bidvolume5":3334,"askprice1":"8.96","askprice2":"8.97","askprice3":"8.98","askprice4":"8.99","askprice5":"9","askvolume1":6032,"askvolume2":1440,"askvolume3":3977,"askvolume4":3921,"askvolume5":10448,"askvolume":"603200","bidvolume":"1101100","currentvolume":"603200","mkt_time":"2026-09-15 15:00:03","rec_time":"2026-09-15 15:10:00","code_upper":"SH600707","tradding_time":"no","workday_nine_half":false,"stock_type":"","hot_stock_ranking":"","self_stock_user_num":"28423"};
+	console.log('stock_data',stock_data,stock_data.introduce)
+
+	var news_before=''; //新闻before值
+	var stockName='彩虹股份';
+	var stock_code='sh600707';//股票代码带sh,sz
+	var o_symbol = '600707';//股票代码不带sh,sz
+	var o_act = 'stock';
+	var l_id = userInfo.l_id;
+	var USER_AVATAR = userInfo.avatar;
+	var yestoday_close = Number(8.69); //昨日收盘;
+
+
+	
+
+</script>
+</head>
+
+<body>
+
+<div id="comHeader" style="min-height: 80px;"></div>
+<script>
+  (function(){
+    if(window.AGQCONFIG){
+      $('#comHeader').remove();
+    }
+    else{
+      var agpComHeadNavVCfn = Vue.extend(AGPVC["agp-header-nav"]);
+      window.agpComHeadNavVCDomHpb = new agpComHeadNavVCfn({
+        el: "#comHeader",
+      });
+    }
+
+  })()
+  </script>
+<section class="main_wrap">
+	<p class="logo_img"><img alt="官网logo" class="logo" title="官网logo" src="https://cdn.aigupiao.com/logo121x75.jpg" style="width:1px;height:1px;visibility:hidden;"></p>
+	<div class="main_box clearfix">
+		<nav class="breadcrumbs">
+			<a href="https://www.aigupiao.com" target="_blank">首页</a>
+			<span></span>
+			<a href="https://stock.aigupiao.com/stock_rank?type=up&page=1" target="_blank">行情中心</a>
+			<span></span>
+			<a href="javascript:;" class="current_nav">彩虹股份</a>
+		</nav>
+		<div class="main_left">
+			<div class="my_hot_box">
+				<div class="my_hot_trigger">
+					<p class="my_optional active">我的自选</p>
+					<p class="hot_stock">热门股票</p>
+				</div>
+				<ul class="my_hot_content my_stock1">
+					<div id="my_stock1">
+						<div class="no_checked_box">
+							<div class="no_checked_img"></div>
+															<!-- 未登录 -->
+								<p class="no_checked_text agq_none">登录查看自选股</p>
+								<a href="javascript:;" class="js-loginBtn go_add_stock agq_none">去登录</a>						</div>
+					</div>
+
+				</ul>
+				<ul class="my_hot_content my_stock2" style="display: none">
+					<div id="my_stock2"></div>
+				</ul>
+			</div>
+
+						<!--如果是个股页面 6-->
+
+				<div class="related_notion_box">
+					<div class="left_common_title related_notion">所属板块</div>
+					<ul class="related_notion_content">
+					</ul>
+				</div>
+				<div class="industry_contrast_box">
+					<div class="left_common_title industry_contrast"><span>行业对比：</span><span id="industry_contrast_name">--</span></div>
+					<ul class="my_hot_content industry_contrast_content">
+
+					</ul>
+				</div>
+				<div class="discussion_user_box">
+					<div class="left_common_title discussion_user">讨论过该股的用户</div>
+					<ul class="discussion_user_content clearfix">
+					</ul>
+					<p class="transform" id="transform">换一换</p>
+				</div>
+
+		</div>
+		<div class="main_M">
+			<div class="stock_header_wrap stock_market_only">  
+				<div class="stock_data_public clearfix">
+					<h1>彩虹股份<i class="is_rzrq"></i></h1>
+											<span>SH600707</span>
+					<a class="hot_rank" href="/pcv/quote/list/type/hot" target="_blank" style="display: none;" ></a>
+
+					
+					<a href="javascript:add_stock();" class="add_stock"><i></i><em>自选</em></a>
+			        
+					<a href="" class="refrsh_icon">
+						刷新
+					</a>
+
+					<div class="simu">
+						<p><i></i><i></i></p>
+						<h3>模拟</h3>
+					</div> 
+
+				</div>
+				<div class="stock_concise_data clearfix">
+					<div class="concise_data_left clearfix">
+						<div class="concise_data_synopsis" style="color:#fe484a;"  >
+							<h4  >8.95</h4>
+							<i class="rise"></i>							
+							<span  >+0.26</span>
+
+							<span style="margin-right:0;">+2.99%</span>
+						</div>
+
+
+						  
+
+
+						<b>
+							<p id="self_num" style="text-align: right;margin-bottom:7px;">
+								<i id="self_stock_user_num">--</i>人已自选
+							</p>
+							<p>
+								<i id="is_trading"></i>
+								<em id="mkt_time">
+									2026-09-15 15:00:03								</em>
+							</p>
+              <script>
+                window.page_self_stock_user_num = `28423` || 0;
+              </script>
+
+						</b>
+					</div>
+
+				</div>
+
+									<ul class="stock_detailed_data clearfix">
+						<li><span>今&nbsp;&nbsp;&nbsp;开：</span><b style="color:#0AC890;">8.61</b></li>
+						<li><span>最&nbsp;&nbsp;&nbsp;高：</span><b style="color:#FE484A">8.95</b></li>
+						<li><span>换手率：</span><b>3.31%</b></li>
+						<li><span>市净率：</span><b>1.48</b></li>
+
+						<li><span>昨&nbsp;&nbsp;&nbsp;收：</span><b>8.69</b></li>
+						<li><span>最&nbsp;&nbsp;&nbsp;低：</span><b style="color:#0AC890">8.57</b></li>
+						<li><span>振&nbsp;&nbsp;&nbsp;幅：</span><b>4.37%</b></li>
+						<li><span>市盈率(TTM)：</span><b>1420.63</b></li>
+
+						<li><span>涨&nbsp;&nbsp;&nbsp;停：</span><b style="color:#FE484A;">9.56</b></li>
+						<li class="cheng_jiao_e"><span>成交额：</span><b>10.49亿</b></li>						<li><span>总市值：</span><b>321.16亿</b></li>
+						<li><span>市盈率(动)：</span><b>159.82</b></li>
+
+
+						<li><span>跌&nbsp;&nbsp;&nbsp;停：</span><b style="color:#0AC890;">7.82</b></li>
+						<li class="cheng_jiao_liang"><span>成交量：</span><b id="chart_volumn">118.71万手</b></li>
+
+						<li><span>流通值：</span><b>321.10亿</b></li>
+						<li><span>市盈率(静)：</span><b>86.06</b></li>
+
+					</ul>
+          <script>
+            let else_volume = "1187082"
+            let else_amount = "104871.3472"
+            if(else_volume * 1 > 0) {
+              $(".cheng_jiao_liang b").html(unitConversionFn(else_volume)+'手')
+            }
+            if(else_amount * 1 > 0) {
+              $(".cheng_jiao_e b").html(unitConversionFn(else_amount * 10000))
+            }
+            // 单位转换
+            function unitConversionFn(value) {
+                let _str = '', _value = value * 1;
+
+                if (_value>99999999) {
+                    _str =  (_value/100000000).toFixed(2) + '亿'
+                }else if(_value>9999){
+                    _str = (_value/10000).toFixed(2) + '万';
+                } else {
+                    _str = _value;
+                }
+
+                return _str;
+            }
+          </script>
+			</div>
+			<div id="VueClassRollModDown"></div>
+			<div class="market_map_wrap" >
+				<span id="chartCode" type="text" style="display:none;">sh600707</span><span id="chartNumber" style="display:none;">600707</span>
+	      <span id="chartName" style="display:none;">彩虹股份</span>
+				<div class="qs_header stock_map_nav qs_header_more"> 
+					<a href="javascript:;" class="active chartTab chartTab_time"><b>分时</b></a>
+					<!-- <a href="javascript:;" class="chartTab" style="display:none;"><b>五日</b></a> -->
+					<a href="javascript:;" class="chartTab chartTab_day" data-type="daily"><b>日k</b></a>
+					<a href="javascript:;" class="chartTab chartTab_week" data-type="weekly"><b>周k</b></a>
+					<a href="javascript:;" class="chartTab chartTab_month" data-type="monthly"><b>月k</b></a>  
+					<!-- 新增k -->
+					<a href="javascript:;" class="chartTab chartTab_none" data-type="yearly"><b>年K</b></a>
+					<a href="javascript:;" class="chartTab chartTab_none" data-type="5"><b>5分</b></a>
+					<a href="javascript:;" class="chartTab chartTab_none" data-type="15"><b>15分</b></a>     
+					<a href="javascript:;" class="chartTab chartTab_none" data-type="30"><b>30分</b></a>  
+					<a href="javascript:;" class="chartTab chartTab_none" data-type="60"><b>60分</b></a>    
+				</div> 
+				<div class="market_map_box clearfix" >
+					<div class="map_detail" style="background-color: #fff;position: relative;">
+						 <div id="chartBox" style="padding-top:10px;">
+	                       	<div class="chartLoading" style="display:none;width:100%;height:100%;position: absolute;top: 0;left: 0;"><img style="display:block;position:relative;width:30px;height:30px;top:50%;left:50%;margin:-15px 0 0 -15px;" src="https://cdn.aigupiao.com/static/pc/img/loading.gif" alt=""></div>
+	                        <div id="chart1" style="width:640px;height: 271px;"></div>
+	                        <div id="chart2" style="width:640px;height: 160px;"></div>
+	                        <div id="chart3" style="width:640px;height: 271px;display:none;"></div>
+	                        <div id="chart4" style="width:640px;height: 120px;display:none;"></div> 
+	                       </div>
+					</div>
+				</div>
+			</div>
+			<!-- 发布评论input start -->
+
+			<div class="fabu_discuss_wrap">
+					<div class="info_fabu v2_right_login">
+						<a href="javascript:;" class="info_fabuBg" id="login_btn" style="display:none;"></a>
+						<div class="yh_srText faceOut _home_quote_stock_market_1">
+                                                            <div class="avatar_box">
+                                    <img src="https://cdn.aigupiao.com/static/pc/img/no_login.png" alt="">
+                                </div>							<textarea name="textarea" class="faceOut_ipt yh_srTextArea emotion js-agpTopicInput" id="v2_publishIpt" data-placeholder="在这里发表对彩虹股份(600707.SH)的评论" placeholder="在这里发表对彩虹股份(600707.SH)的评论" cols="58" rows="1" ></textarea>
+						</div>
+
+						<div id="fabuBtn" class="fabu_bottom clearfix">
+							<div class="expression faceWarp pub_downAble" id="face">
+								<div class="agpWriteToolsWarp" style="min-width: 222px; padding: 0; margin: -5px 0 0 -5px;">
+									<div>
+										<span data-tarid="v2_publishIpt" class="spanBtn js-faceBtnV2 openFacePopBtn">表情</span>
+										<span class="spanBtn js-open-AgpUpFilePop-imgVideo-stock211011 open-AgpUpFilePop-btn">图片<i></i></span>
+										<span data-tarid="v2_publishIpt" class="spanBtn js-addTopicBtn openTopicPopBtn" style="display:none;">话题</span>
+										<span data-tarid="v2_publishIpt" class="open-AgpStockTalk-btn open-AgpStockTalk-btn-class">
+											个股讨论
+										</span>
+										<div id="agq_fabu" style="display:none;"></div> 
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="sync_dynamic"><span>同步到:</span>
+              <label><input type="checkbox" id="sync_dynamic"><span>我的主页</span></label>
+            </div>
+						<div class="sync_live"><span>同步到:</span>
+              <label><input type="checkbox" id="sync_input"><span>我的主页</span></label>
+            </div>
+
+						   
+ 
+
+						<div class="publish_cancel_box"style="display: none;">
+							<a href="javascript:;" class="discuss_cancel">取消</a>
+							<div class="publication_able" id="pbBtn">
+								<span class="publication_text">发&nbsp;布</span>
+							</div>
+						</div>
+					</div>
+			</div>
+
+			<div class="stock_info_list">
+				<div class="stock_info_nav ">
+					<a href="javascript:;" class="discuss_tab active" id="stock_disLi"><b>讨论</b></a>
+					<a href="javascript:is_stock('news');" id="stock_disLi2"><b>新闻</b></a>
+										<a href="javascript:is_stock('report');"><b>研报</b></a>
+					<a href="javascript:is_stock('notice');"><b>公告</b></a>
+					<a href="javascript:is_stock('investInteraction');"><b>互动</b></a>
+					<a id="ziliao" href="javascript:is_stock('comment');"><b>资料</b></a>				</div>
+
+				<div class="column_sel">
+					<span class="" data-kind="hot_content">热帖</span>
+					<span class="column_sel_active" data-kind="">最新</span>               
+				</div>
+
+				<!--新闻、公告、研报、f10 456-->
+				<ul class="company_info_detail" style="display: none">
+	   			</ul>
+	
+	   			<div class="load_more_wrap" style="display: none">
+	   				
+	   			</div>
+			</div>
+			<div class="stock_discuss_list">
+			<!--讨论-->
+				<input type="hidden" id="lastMsgRecTime" value="0">
+	   			<ul class="live_detail_list init-photo-gallery" style="display:block;"></ul>
+				<div class="discuss_loading" style="display:none;height: 500px;padding-top: 100px;">
+					<img src="https://cdn.aigupiao.com/static/pc/img/loading.gif" alt="">
+				</div>
+				<div class="load_more_discuss" >
+					<a href="javascript:;" class="load_more_stock stockDis_loadmore">加载更多</a>
+				</div>
+				<div class="no_more_info" style="display: none">暂无更多内容</div> 
+
+			</div>
+		</div>
+		<div id="com_loading" style="display:none;">
+			<img src="https://cdn.aigupiao.com/static/pc/img/loading.gif" alt="">
+		</div>
+		<div class="main_right">
+			<!-- 广告位221221 -->
+			<div id="banner2212"></div>
+			<script>
+				//广告位
+				//agpComStr.banner();
+			</script>
+			
+
+
+				<div class="stock_deal" style="display:block;">
+					<div class="stock_market_trade">
+						<div class="trade_nav stock_deal_trigger clearfix">
+							<a href="javascript:;" class="concise_btn deal active">买卖五档</a>
+							<a href="javascript:;" class="particulars">成交明细</a>
+						</div>
+						<div class="trade_wrap">
+							<ul class="trade_five">
+								<li>
+								<span>卖5</span>
+								<b style="color:#FE484A;">
+									--</b>
+								<em>--</em>
+								</li>
+								<li>
+									<span>卖4</span>
+									<b style="color:#FE484A;">
+										--
+									</b>
+									<em>--</em>
+								</li>
+								<li>
+									<span>卖3</span>
+									<b style="color:#FE484A;">
+										--
+									</b>
+									<em>--</em>
+								</li>
+								<li>
+									<span>卖2</span>
+									<b style="color:#FE484A;">
+										--
+									</b>
+									<em>--</em>
+								</li>
+								<li style="margin-bottom:10px;">
+									<span>卖1</span>
+									<b style="color:#FE484A;">
+										--
+									</b>
+									<em>--</em>
+								</li>
+								<li>
+									<span>买1</span>
+									<b style="color:#FE484A;">
+										--
+									</b>
+									<em>--</em>
+								</li>
+								<li>
+									<span>买2</span>
+									<b style="color:#FE484A;">
+										--
+									</b>
+									<em>--</em>
+								</li>
+								<li>
+									<span>买3</span>
+									<b style="color:#FE484A;">
+										--
+									</b>
+									<em>--</em>
+								</li>
+								<li>
+									<span>买4</span>
+									<b style="color:#FE484A;">
+										--
+									</b>
+									<em>--</em>
+								</li>
+								<li>
+									<span>买5</span>
+									<b style="color:#FE484A;">
+										--
+									</b>
+									<em>--</em>
+								</li>
+								</ul>
+								<ul class="trade_detail">
+									<li><span>时间</span><b>成交价</b><em>成交量</em></li>
+
+									<li>
+											<span>15:00</span>
+											<b style="color:#FE484A;">8.95</b>
+											<em style="color:#0AC890;">31091<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:57</span>
+											<b style="color:#FE484A;">8.95</b>
+											<em style="color:#FE484A;">2639<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:56</span>
+											<b style="color:#FE484A;">8.95</b>
+											<em style="color:#FE484A;">1082<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:56</span>
+											<b style="color:#FE484A;">8.93</b>
+											<em style="color:#FE484A;">4447<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:56</span>
+											<b style="color:#FE484A;">8.91</b>
+											<em style="color:#FE484A;">14050<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:56</span>
+											<b style="color:#FE484A;">8.91</b>
+											<em style="color:#FE484A;">2259<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:56</span>
+											<b style="color:#FE484A;">8.90</b>
+											<em style="color:#0AC890;">6194<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:55</span>
+											<b style="color:#FE484A;">8.90</b>
+											<em style="color:#FE484A;">2035<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:55</span>
+											<b style="color:#FE484A;">8.90</b>
+											<em style="color:#FE484A;">1411<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:55</span>
+											<b style="color:#FE484A;">8.90</b>
+											<em style="color:#FE484A;">11134<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:55</span>
+											<b style="color:#FE484A;">8.88</b>
+											<em style="color:#0AC890;">1206<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:55</span>
+											<b style="color:#FE484A;">8.88</b>
+											<em style="color:#0AC890;">6029<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:55</span>
+											<b style="color:#FE484A;">8.89</b>
+											<em style="color:#FE484A;">2123<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:54</span>
+											<b style="color:#FE484A;">8.89</b>
+											<em style="color:#0AC890;">1848<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:54</span>
+											<b style="color:#FE484A;">8.90</b>
+											<em style="color:#FE484A;">1409<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:54</span>
+											<b style="color:#FE484A;">8.89</b>
+											<em style="color:#FE484A;">1788<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:54</span>
+											<b style="color:#FE484A;">8.89</b>
+											<em style="color:#FE484A;">4518<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:54</span>
+											<b style="color:#FE484A;">8.89</b>
+											<em style="color:#FE484A;">994<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:53</span>
+											<b style="color:#FE484A;">8.89</b>
+											<em style="color:#FE484A;">748<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:53</span>
+											<b style="color:#FE484A;">8.89</b>
+											<em style="color:#FE484A;">11845<i style="color:red;display:none;">S</i></em>
+										</li>								</ul>
+						</div>
+							</div>
+							</div>
+
+
+				<div id="pc_index_left_adv_image2">
+
+				</div>
+
+				<script>
+					agpComStr.bannerF();
+				</script>
+
+
+				<div class="attention_stock_box">
+					<div class="left_common_title">
+						<span id="attention_num">--</span><span>人关注了该股票</span>
+					</div>
+					<ul class="attention_stock_content clearfix">
+
+					</ul>
+				</div>
+
+				<div class="other_stock_box">
+					<div class="left_common_title">	关注该股票的人还关注了</div>
+					<ul class="my_hot_content other_stock_content">
+					</ul>
+				</div>
+
+				<!-- 2021-10-20 PCQ-283 隐藏大数据诊股 -->
+				<!--<div class="diagnose_stock_box" >
+						<div class="left_common_title">	大数据诊股</div>
+						<div class="diagnose_stock_content">
+							<span class="diagnose_info">诊断</span> ：<span id="diagnose_info_msg"></span>
+						</div>
+					</div>-->
+		</div>
+	</div>
+</section>
+
+<script type="text/javascript">
+	if(window.AGQCONFIG){
+    $('.main_wrap').addClass('main_wrap_agq');
+	  $('.refrsh_icon').css('right','80px')
+  }
+	else{
+		if (stock_code === 'sh000001' || stock_code === 'sz399001' || stock_code === 'sz399006'
+			|| stock_code === 'USI:COMP' || stock_code === 'USI:DJI' || stock_code === 'USI:SP500' || stock_code === 'HKHSI'
+			|| stock_code === 'USI:TSLA'
+			|| stock_code === 'sh000016' || stock_code === 'sh000688' || stock_code === 'sh000300' || stock_code === 'bj899050'
+			|| stock_code.substr(0, 4) === 'sh11' || stock_code.substr(0, 4) === 'sz12'
+      || stock_code === 'sh000852' || stock_code === 'sh000905' || stock_code === 'sh000888'
+    )  {
+      //不能模拟炒股的
+      $('.refrsh_icon').css('right','80px')
+      $('.stock_data_public .simu').css('display','none');
+    } else {
+      //可以模拟炒股的
+      $('.stock_data_public .simu').css('display','flex');
+      $('.refrsh_icon').css('right','161px')
+    }
+	}
+
+
+	function introduce_fn(introduce){
+    
+		let _html = `
+		
+		<div class="stock-widget">
+			<div class="widget-header">
+				<div class="title">简介</div>
+				<a href="javascript:;" class="more" id="widget-more">更多
+					<svg xmlns="http://www.w3.org/2000/svg" width="6" height="11" viewBox="0 0 6 11" fill="none">
+						<path d="M0.913971 10.0022C0.736448 9.83272 0.710956 9.56381 0.841424 9.36588L0.897667 9.29532L4.79825 5.21018L0.907435 1.35525C0.733033 1.18253 0.712448 0.913198 0.846503 0.717681L0.904023 0.648155C1.07675 0.473754 1.34608 0.453169 1.5416 0.587223L1.61112 0.644744L5.85169 4.84459C6.02115 5.01243 6.04566 5.27198 5.92303 5.46631L5.86145 5.54515L1.62089 9.98593C1.43018 10.1856 1.11368 10.1929 0.913971 10.0022Z" fill="#979797"/>
+					</svg>
+				</a>
+			</div>
+			<div class="widget-content stock-profile">
+				${introduce.length >= 85  ? 
+					
+					`
+						<div class="profile-detail hide" style="display: none;">
+							${introduce}
+							<a href="#" class="fold">收起
+								<svg xmlns="http://www.w3.org/2000/svg" width="11" height="7" viewBox="0 0 11 7" fill="none">
+									<path d="M1 6.3358L5.67161 1.66419L10.3432 6.3358" stroke="#1B8EE2" stroke-width="1.5"/>
+								</svg>
+							</a>
+						</div>
+						<div class="profile-summary" style="">
+							${introduce.substr(0,60)}...
+							<a href="#" class="unfold">展开
+								<svg xmlns="http://www.w3.org/2000/svg" width="11" height="7" viewBox="0 0 11 7" fill="none">
+									<path d="M1 0.664187L5.67161 5.3358L10.3432 0.664187" stroke="#1B8EE2" stroke-width="1.5"/>
+								</svg>
+							</a>    
+						</div>
+					` : 
+					
+					`
+						<div class="profile-summary" style="">
+							${introduce}  
+						</div>
+					
+					`
+				}
+
+			</div>
+		</div>
+		
+		`
+		
+		$('.main_right').prepend(_html);
+		$('.banner2212,#banner2212').hide();
+	}
+	if(stock_data.introduce){
+		introduce_fn(stock_data.introduce)
+	}
+	
+
+
+
+
+</script>
+
+
+<!-- 尾部代码start -->
+
+<div id="agpCommonFooter"></div>
+<script>
+    if(window.AGQCONFIG){
+      $('#agpCommonFooter').remove();
+    }
+</script>
+<!-- 尾部代码end -->
+
+<!-- 右侧小秘书start -->
+<style>
+  .v2_sideBar.home_bind_go_top {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .v2_sideBar li.agp_go_top {
+    display: none; 
+    position: absolute; 
+    bottom: -63px;
+    width: 100%; 
+    height: 63px;
+    background-color: #fff;
+    border-left: 1px solid #eaeaea; 
+    border-right: 1px solid #eaeaea;
+    margin-left: -1px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+  .v2_sideBar li.agp_go_top a {
+    cursor: pointer;
+  }
+</style>
+<!-- 去掉 $is_zxzq_domain 显示4个 其他显示2个的规则  -->
+<!-- 详情见right_column_old.html -->
+
+<ul class="v2_sideBar">
+    <li class="sideBar_xms" style="display:block;">
+        <a href="javascript:;" class="service_xms" id="xms_online">
+            <div class="v2_sideBar_li">
+                <img src="https://cdn.aigupiao.com/static/pc/img/secretary.png" alt="secretary">
+                <p>爱股票<br />小秘书</p>
+            </div>
+        </a>
+        <!-- <div class="service_xms_layer">
+            <a href="javascript:;"  class="v2_right_login">
+                <div class="xms_layer_wrap">
+                    <i></i>
+                    <img src="https://cdn.aigupiao.com/static/pc/img/secretary.png" alt="secretary" />
+                    <div class="wxkf_intro">
+                        <h5>爱股票小秘书<em>在线</em></h5>
+                        <p>点击与爱股票小秘书在线交谈</p>
+                    </div>
+                </div>
+            </a>
+        </div> -->
+    </li>
+    <!-- 无企微了 -->
+    <!-- <li class="sideBar_wx">
+        <a href="javascript:;" class="service_wx">
+            <div class="v2_sideBar_li">
+                <span></span>
+                <p>微信客服</p>
+            </div>
+        </a>
+        <div class="service_wx_layer">
+            <div class="xms_layer_wrap clearfix">
+                <i></i>
+                <img src="https://cdncos.aigupiao.com/assets/pc/img/wx_blue_qr_code.png" alt="微信客服"/>
+                <div class="wxkf_intro">
+                  <h5>微信客服</h5>
+                  <p>扫描左侧二维码，添加爱股票企业微信客服</p>
+                </div>
+            </div>
+        </div>
+    </li> -->
+    <!-- <li class="sideBar_qq">
+        <a href="javascript:;" class="service_qq">
+            <div class="v2_sideBar_li">
+                <span></span>
+                <p>QQ客服</p>
+            </div>
+        </a>
+        <div class="service_xms_layer" style="width: 290px;height: 118px;top: -25px;">
+
+            <div class="xms_layer_wrap clearfix">
+                <i style="top: 50px;"></i>
+                <img style="border-radius: 0;width:90px;height:90px;margin:14px 10px 0 14px;float: left" src="https://cdncos.aigupiao.com/static/pc/img/qq3096252373.png" alt="爱股票QQ客服">
+                <div class="wxkf_intro" style="width: 155px;">
+                    <h5 style="font:14px/25px '微软雅黑';font-weight: bold;">QQ客服</h5>
+                    <p style="font:12px/19px '微软雅黑';">扫描左侧二维码，或手动添加QQ号<span style="color:#ed4040;">3096252373</span>，添加爱股票QQ客服</p>
+                </div>
+            </div>
+
+        </div>
+    </li> -->
+    <!-- <li class="sideBar_tel">
+        <a href="javascript:;" class="service_tel">
+            <div class="v2_sideBar_li">
+                <span></span>
+                <p>服务热线</p>
+            </div>
+        </a>
+        <div class="service_xms_layer" style="height:90px;">
+            <div class="xms_layer_wrap clearfix">
+                <i></i>
+                <div class="wxkf_intro">
+                    <h5>服务热线</h5>
+                    <p>15396010715</p>
+                    <span>服务时间：工作日9点-18点</span>
+                </div>
+            </div>
+        </div>
+    </li> -->
+    <!-- <li class="sideBar_tel sideBar_apply">
+        <a href="/pcv/collaborator" class="service_tel service_apply" target="_blank">
+            <div class="v2_sideBar_li">
+                <span></span>
+                <p>申请入驻</p>
+            </div>
+        </a>
+    </li> -->
+    <!--APP下载-->
+    <li class="sideBar_app" style="display: block">
+        <a href="javascript:;" class="service_app">
+            <div class="v2_sideBar_li">
+                <span></span>
+                <p>APP下载</p>
+            </div>
+        </a>
+        <div class="service_xms_layer">
+            <div class="xms_layer_wrap clearfix">
+                <i></i>
+                <img src="https://cdncos.aigupiao.com/assets/pc/img/qrcode.png" alt="下载爱股票APP" />
+                <div class="wxkf_intro">
+                    <p>扫描二维码</p>
+                    <p>下载爱股票APP</p>
+                </div>
+            </div>
+        </div>
+    </li>
+    <!-- <li class="sideBar_apply" style="display: none">
+        <a href="/pcv/contact" target="_blank" class="service_apply">
+            <div class="v2_sideBar_li">
+                <span style="width: 18px;height: 18px;background-image: none;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                        <path d="M17.4826 7.16577C17.6331 7.07538 17.7252 6.91269 17.7252 6.73713V5.61516C17.7252 5.4593 17.5548 5.36333 17.4215 5.44413L11.0186 9.32559C10.7 9.51874 10.3004 9.51874 9.98183 9.32559L3.57894 5.44413C3.44565 5.36333 3.27526 5.4593 3.27526 5.61516V6.73713C3.27526 6.91269 3.36733 7.07538 3.51783 7.16577L9.98536 11.0501C10.3022 11.2404 10.6982 11.2404 11.0151 11.0501L17.4826 7.16577ZM17.7252 3C18.2041 3 18.6197 3.17742 18.9718 3.53225C19.3239 3.88708 19.5 4.29649 19.5 4.76048V15.2395C19.5 15.7035 19.3239 16.1129 18.9718 16.4678C18.6197 16.8226 18.2041 17 17.7252 17H3.27481C2.79588 17 2.38034 16.8226 2.02821 16.4678C1.67607 16.1129 1.5 15.7035 1.5 15.2395V4.76048C1.5 4.29649 1.67607 3.88708 2.02821 3.53225C2.38034 3.17742 2.79588 3 3.27481 3H17.7252Z" fill="#F97070"/>
+                    </svg>
+                </span>
+                <p>联系我们</p>
+            </div>
+        </a>
+    </li> -->
+</ul>
+
+<script>
+
+if(window.AGQCONFIG){
+    $('.v2_sideBar').remove();
+}
+
+
+  $('.v2_sideBar').append(`
+    <li class="agp_go_top">
+      <a href="javascript:;" class="agp_top">
+        <div class="v2_sideBar_li" style="border-bottom: none">
+          <img src="https://cdncos.aigupiao.com/assets/pc/svg/go_top.svg" alt="">
+          <p>回到顶部</p>
+        </div>
+      </a>
+    </li>  
+  `)
+  agpComStr.setRightClose();
+  goTopFn();
+  function goTopFn() {
+      if ($(window).scrollTop() > 1000) {
+        $(".agp_go_top").fadeIn(400);
+        $(".v2_sideBar").addClass("home_bind_go_top");
+      } else { 
+        $(".agp_go_top").fadeOut(400); 
+        $(".v2_sideBar").removeClass("home_bind_go_top");
+      }
+  }
+  $(window).scroll(goTopFn);
+  $(".agp_go_top").click(function() {
+      $('body,html').animate({scrollTop: 0},200); 
+      return false;
+  });
+  
+</script>
+<!-- 右侧小秘书end -->
+
+<!--登录相关的html-->
+<!-- pc/js/loginPop/loginDialog.js -->
+<!--登录相关的html-->
+
+<!-- 管理弹窗start -->
+<div class="managePopup" style="display:none;">
+	<div class="mP_head"><h5>提示</h5></div>
+	<div class="mP_psg">
+		<p class="mP_nor">确认屏蔽此人发布的所有直播？</p>
+		<p class="mP_weak">下载APP可在：账号安全与隐私中解除对该老师的屏蔽</p>
+		<textarea id="mP_input" type="text" placeholder="输入编辑内容" rows="2"></textarea>
+	</div>
+	<div class="mP_btn">
+		<div class="mP_btnBox clearfix">
+			<a href="javascript:void(0)" class="mP_confirm">确认</a>
+			<div class="mP_cancle">取消</div>
+		</div>
+	</div>
+</div>
+<div class="manageBg" style="display:none;"></div>
+<!-- 管理弹窗end --> 
+
+<!--视频播放弹窗-->
+<script src="https://cdn1.aigupiao.com/pc/js/lib/echarts/echarts.min.js?v=20260915154951202"></script>
+<!-- <script src="https://cdn1.aigupiao.com/pc/js/stock_market/common.js?v=20260915154951202"></script> -->
+<script src="https://cdn1.aigupiao.com/sr/pc/js/stock/discuss_both.js?v=20260915154951202"></script>
+<script src="https://cdn1.aigupiao.com/sr/pc/js/stock/stock_discuss.js?v=20260915154951202"></script>
+<script src="https://cdn1.aigupiao.com/sr/pc/js/stock/investInteraction.js?v=20260915154951202"></script>
+
+<!-- 图表 -->         
+<script src="https://cdn1.aigupiao.com/sr/pc/js/stock/echarts/drawchart.js?v=20260915154951202"></script>
+<script src="https://cdn1.aigupiao.com/sr/pc/js/stock/echarts/drawchart_us.js?v=20260915154951202"></script>
+<script src="https://cdn1.aigupiao.com/sr/pc/js/stock/echarts/drawchart_hsi.js?v=20260915154951202"></script>
+
+<!-- 股票数据 -->  
+<script src="https://cdn1.aigupiao.com/sr/pc/js/stock/stock_market.js?v=20260915154951202"></script>
+<!-- 爱股圈股票 -->
+<script src="https://cdn1.aigupiao.com/sr/pc/js/stock/agq_stock.js?v=20260915154951202"></script>
+
+<script src="https://cdn1.aigupiao.com/pc/js/stock_market/vendor-1.js?v=20260915154951202"></script>
+<script src="https://cdn1.aigupiao.com/pc/js/stock_market/vendor-2.js?v=20260915154951202"></script>
+<script src="https://cdn1.aigupiao.com/pc/js/stock_market/vendor-3.js?v=20260915154951202"></script>
+<script src="https://cdn1.aigupiao.com/sr/pc/js/stock/stockComon.js?v=20260915154951202"></script>
+<!-- js部分end -->
+</body>
+</html>
