@@ -1,0 +1,228 @@
+Samsung Electro-Mechanics Showcases Next-Generation Semiconductor Package Substrate Technologies for AI and Servers at 'KPCA Show 2026' | News | Newsroom | SAMSUNG ELECTRO-MECHANICS
+go to the gnb menu
+go to the content
+SAMSUNG ELECTRO-MECHANICS
+PRODUCTS
+Passive Component
+MLCC
+Inductor
+Chip Resistor
+Tantalum
+Silicon Capacitor
+Module
+Camera Module
+Package Substrate
+Package Substrate
+Application
+Automotive
+Computer
+Display
+Mobile Phone
+Wearable
+AI Server
+Server (Legacy)
+Network
+Solid State Drive
+Tablet
+Passive Component Center
+SUPPORT
+Contact Us
+FAQ
+Inquiry
+Sales Partners
+Sales Representatives
+Buy Now
+Certificate
+Environment/Safety/Quality
+Product Environmental Certificate
+Information Security Certificate
+Technical Resources
+Product Catalog
+Software Library
+Counterfeit Product
+Disclaimer
+B2Bi (EDI)
+ABOUT US
+Company
+Company Information
+CEO Message
+Mission & Vision
+Global Network
+History & Awards
+IR
+Earnings Release
+Shareholders Meeting
+Shareholder
+Stocks
+Financial Information
+Corporate Governance
+IR Archives
+Public Disclosures
+Online PR Hall
+NEWSROOM
+News
+Main
+Latest Articles
+Newsletter
+Latest Newsletter
+Subscribe to Newsletter
+Online Exhibition Hall 2022
+-->
+SUSTAINABILITY
+Sustainability Management
+Planet
+Environmental Strategy
+Climate Change
+Environmental Impact
+Product Environment
+People
+Employees
+Social Contribution
+Supply Chain
+Progress
+Ethical Management
+Compliance
+Library
+-->
+Inquiry
+SNS
+linkedin
+youtube
+ENG
+KOR
+CHN
+JPN
+Search
+search area
+search input
+search
+Product Search
+Component Library
+Sales Partners
+Global Network
+Environment/Safety/Quality Certificate
+Product Environmental Certificate
+FAQ
+View Full Menu
+PRODUCTS
+Passive
+Component
+Module
+Substrate
+Application
+Passive Component
+Center
+SUPPORT
+Contact Us
+Buy Now
+Sales Representatives
+Technical Resources
+Counterfeit Product Disclaimer
+B2Bi (EDI)
+ABOUT US
+Company
+IR
+Online PR Hall
+NEWSROOM
+News
+Newsletter
+SUSTAINABILITY
+Sustainability
+Planet
+People
+Progress
+Library
+search popup close
+Press Release
+2026.09.10
+Samsung Electro-Mechanics Showcases Next-Generation Semiconductor Package Substrate Technologies for AI and Servers at 'KPCA Show 2026'
+Share on Facebook
+Copy url
+▶ Exhibiting five products including 2.5D, 2.1D, and glass substrates
+▶ Expanding applications to high value-added substrates for data centers, mobile, and autonomous driving
+Samsung Electro-Mechanics will participate in the 'KPCA Show 2026' (International Semiconductor Substrate & Advanced Packaging Industry Exhibition) held at Songdo Convensia in Incheon from September 9 to 11, where it will showcase next-generation semiconductor package substrate technologies.
+The 'KPCA Show' is Korea's leading exhibition where Korean and international companies in semiconductor substrates, packaging, materials, and equipment participate to share the latest technologies and market trends in the industry. It serves as a venue to exchange the latest technology trends in the semiconductor package and electronic circuit industries.
+A semiconductor package substrate is a key component that connects highly integrated semiconductor chips to the mainboard, delivering electrical signals and power. As the performance of semiconductors such as AI accelerators and server CPUs rapidly improves and the adoption of high-performance memory expands, the status of the package substrate is also shifting — beyond simple interconnection, it has become a core technology that determines semiconductor performance, power efficiency, and signal stability.
+In particular, AI semiconductors that integrate multiple high-performance chips into a single package require highly demanding technologies such as large-area, high-layer-count substrates, fine circuits, micro vias and bumps, and high-precision embedding.
+At this exhibition, Samsung Electro-Mechanics will introduce next-generation package substrate technologies for a wide range of applications, from AI and servers to data centers, mobile, and autonomous driving, including ▲2.5D package substrates ▲2.1D package substrates ▲glass substrates ▲automotive FCBGA ▲UTCSP (Ultra Thin Chip Scale Package) substrates.
+▶ Responding to Higher-Performance AI Accelerators… Showcasing 2.5D and 2.1D Package Substrate Technologies
+With the spread of generative AI, the computational performance of AI accelerators is increasing, leading to a surge in data input/output (I/O). As a result, substrates now require large-area, high-layer-count structures, high circuit density, and the ability to implement bumps at large scale.
+Samsung Electro-Mechanics will introduce core technologies for 2.5D package substrates for AI accelerators, including technologies to reduce warpage in large-area, high-layer-count substrates, high-speed signal transmission, and high-density connection technologies.
+The company will also present 2.1D package substrate technology, which enables direct connection between semiconductor chips without a silicon interposer. Through such fine circuit and high-density connection technologies, Samsung Electro-Mechanics is strengthening its competitiveness in the high-speed, high-density chip connections required for AI semiconductors.
+▶ Next-Generation Package Substrates: Glass Substrates
+As AI semiconductors become larger and more highly integrated, there is a growing need for substrate technologies that offer greater rigidity and dimensional stability, as well as improved signal, power, and thermal characteristics, compared to conventional organic material-based substrates.
+Glass substrate technology applies glass as the core material to reduce warpage of the substrate and to secure signal characteristics and power efficiency while lowering the number of layers.
+At this exhibition, Samsung Electro-Mechanics will introduce core glass substrate technologies, such as forming fine connection channels in glass material and filling them with metal, as well as precision surface processing technologies.
+▶ High Value-Added Package Substrates for Data Centers, Mobile, and Autonomous Driving
+Samsung Electro-Mechanics' UTCSP substrates lead with a coreless structure that reduces substrate thickness and fine bond finger technology, meeting the demands for high integration and slimness in data centers and mobile devices.
+The company will also exhibit UTC (Ultra Thin Core) package substrates used in CPUs such as those for laptops and tablets, as well as co-package substrates for smartphones.
+Automotive package substrates require not only large-area, high-layer-count structures and fine circuit implementation, but also the reliability to withstand high temperatures, high humidity, and repeated temperature changes.
+Accordingly, Samsung Electro-Mechanics is strengthening its competitiveness in package substrates for autonomous driving with high-function substrate technologies, including multi-chip structures, and reliability assurance technologies.
+Choo Hyuck, Executive Vice President and Head of the Package Solution Unit at Samsung Electro-Mechanics, said, "As the high-performance semiconductor market for AI accelerators, servers, and autonomous driving grows, the role and technical difficulty of package substrates are also rapidly increasing. Samsung Electro-Mechanics will further advance its large-area, high-layer-count, ultra-fine circuit technologies and next-generation packaging technologies to respond to the high-end semiconductor package substrate market."
+Related Articles
+[A MESSAGE from Samsung Electro-Mechanics] Samsung Electro-Mechanics Holds ‘2026 Co-Prosperity Communication Forum’ with Partners
+Press Release
+2026.09.02
+Samsung Electro-Mechanics signed KRW 1.0722 Trillion Deal with a Global Major Corporation - AI Server MLCC Supply Contract
+Press Release
+2026.09.01
+Samsung Electro-Mechanics, Q2 2026 Business Results
+Press Release
+2026.07.30
+'new_news_subscribe_popup' -->
+Subscribe to Newsletter
+List
+Online Museum
+Subscribe to Newsletter
+Subscribe to Newsletter
+Latest Articles
+Latest Articles
+TOP
+Subscribe to our newsletter
+and get the latest news
+from Samsung Electro-Mechanics
+Delivering the moments of new future
+and innovation created
+by Samsung Electro-Mechanics quickly and efficiently.
+Consent to Collection and Use of Personal Information for Subscription to Newsletter
+(Including consent to receive advertising information)
+View details
+1. Purpose of Collecting Personal Information
+Samsung Electro-Mechanics Co., Ltd. (hereinafter referred to as "SEM") collect your email information to deliver reports or news published by SEM, and the collected personal information will not be used for any purpose other than the specified purpose, and in the event of any change in the purpose of the collection, you will be notified in advance for your consent.
+2. Terms of Retention and Usage of Personal Information
+When you apply to unsubscribe from the newsletter,
+your personal data will be destroyed without delay. If the retention of the information is required by other laws, personal information for which the term of retention and use has expired may be retained without being destroyed.
+3. Personal Information We Collect
+Item(s): Email
+Period of Retention:
+Until request of unsubscribe to newsletters
+Purpose of Collection:
+To provide reports and news from Samsung Electro-Mechanics
+4. Matters Concerning the Consignment of Personal Information Processing
+The “sending of newsletters” is entrusted to and operated by an external professional company as shown below to perform the service. In accordance with related laws, such as the Personal Information Protection Act, the Company specifies in its agreement with the external service provider matters concerning the liabilities, such as the prohibition to use personal information for purposes other than those to perform the consigned service, technical and administrative protective measures, restrictions on re-consignment, management and supervision of the trustee, damages, etc., pursuant to related laws such as the Personal Information Protection Act, and SEM will notify you without delay in the event of any change in the details of the consignment or any change of the consignee.
+Matters Concerning the Consignment of Personal Information Processing
+Name of the Consignee Company
+The Uber Creative
+Representative Telephone Number
++82-2-517-5133
+Consigned Work
+Sending out newsletters, operation and maintenance of the website
+※ You have the right to refuse to consent to the collection and use of your personal data, and if you do not agree, you will not be able to receive the newsletter.
+I have read the above contents and agree to the collection and use of my personal information including consent to receive advertising information.
+Agree
+Disagree
+I agree to receive the Samsung Electro-Mechanics newsletter.
+Agree
+Disagree
+I am 14 years old or older.
+Subscribe
+Close
+Ethics
+Security Report
+Contact Us
+youtube
+linkedin
+Personal Data Processing Policy
+Terms of Use
+Copyright. SAMSUNG ELECTRO-MECHANICS All rights reserved.
+SAMSUNG ELECTRO-MECHANICS

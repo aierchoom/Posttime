@@ -1,0 +1,182 @@
+SKC
+SKC
+Corporation
+About SKC
+ESG Management
+Ethical Management
+Recruit
+Sustainability Report
+Creation
+Rechargeable battery
+Semiconductor
+Eco-friendly
+Communication
+Newsroom
+IR
+Career
+SKC Family
+Life
+Jobs
+Recruitment
+My application
+유튜브
+링크드인
+검색
+SKC
+search
+ENG
+KOR
+CHN
+-->
+뉴스룸
+Newsroom
+IR
+Semiconductor
+Inside SKC
+Rechargeable battery
+Semiconductor
+Eco-friendly
+ESG
+All
+Notices
+Press Releases
+SKC News
+-->
+Title+Contents
+Title
+Contents
+search
+갤러형으로 보기
+목록형으로 보기
+SKC Invests KRW 281 Billion in Absolics, Accelerating Commercialization of Glass Substrates
+○ SKC announces participation in Absolics' shareholder allocation rights issue... Acquiring over 190,000 new shares based on its stake○​ Accelerating the two-track strategy for glass substrates...Commencing reliability evaluations for embedding products and preparing for non-embedding PoC within the yearSKC is accelerating the commercialization of glass substrates to secure a leading position in the next-generation packaging market by participating in the rights issue of Absolics, its semiconductor glass substrate business investment arm.SKC announced on the 4th that its board of directors resolved to make a cash investment of approximately KRW 281 billion by participating in a shareholder allocation rights issue initiated by Absolics. SKC plans to acquire 192,416 new shares, allocated in proportion to its current stake (70.05%).This participation is a follow-up measure to SKC’s KRW 1.1671 trillion capital increase carried out in the first half of this year. SKC previously outlined a blueprint to invest approximately KRW 590 billion of the secured funds into the glass substrate business over the next three years. This current investment marks the first execution of funds based on that decision, and SKC plans to inject the remaining capital in stages, aligned with the business's progress.Absolics is currently expediting its preparations for the commercialization of glass substrates, with a strategic focus on both embedding and non-embedding products. For embedding products, the company has successfully completed preliminary evaluations of samples produced at its Georgia plant in the United States and is currently conducting reliability testing.Non-embedding products are also part of ongoing supplier selection initiatives in the second half of the year, with procedures underway to enter the Proof of Concept (PoC) stage before the year's end. Absolics aims to execute customer validations for each product seamlessly, while continuously enhancing yield and quality competitiveness to establish a full-scale mass production system.An SKC official stated, "This investment is the first step in translating the financial resources secured in the first half of the year into tangible business achievements." The official added, "We will continue to inject the planned capital in phases to accelerate our readiness for mass production, and we will solidify our technological leadership in the next-generation semiconductor packaging market through close collaboration with strategic partners." [End]
+2026-09-04
+Absolics Announces 400 Billion KRW Rights Issue… Secures Funds for Glass Substrate Commercialization
+• Raises 401.1 billion KRW via shareholder allotment... preemptively secures funds required for the commercialization of glass substrates.• Enters reliability evaluation for 'Embedding' products... prepares to launch Proof of Concept (PoC) for 'Non-Embedding' products within the year.• Prioritizes new shares based on existing shareholders' equity ratios... in the event of forfeited shares, additional subscriptions by existing shareholders and third parties will be carried out.Absolics, SKC’s glass substrate investment company, is initiating a rights issue worth approximately 400 billion KRW. SKC announced on the 21st that Absolics has decided on a shareholder-allotted rights issue to secure the financial resources necessary for the commercialization of glass substrates.Absolics plans to focus the secured funds on glass substrate evaluation and client certification. Alongside this, the company will pursue upgrades to certain facilities and equipment to improve yield and enhance quality across the entire production process.Building on this foundation, Absolics plans to accelerate its "two-track" strategy, simultaneously pursuing the commercialization of both "Embedding" and "Non-Embedding" products. The Embedding products have successfully completed preliminary evaluations—including the verification of electrical properties for samples produced at its Georgia plant in the U.S.—and have now entered the reliability evaluation phase. The Non-Embedding products are also part of a project scheduled for supplier selection in the second half of this year, and the company is preparing to initiate a Proof of Concept (PoC) within the year depending on the final selection results.Moving forward, Absolics intends to continue making additional investments in alignment with client evaluation results and phased milestones. The immediate focus will be on stably achieving the quality levels demanded by clients, after which it plans to further review plans for large-scale expansion investments.An SKC official stated, "Through this preemptive financing, we will drive the commercialization of Absolics' glass substrates without any setbacks and further accelerate our mass production preparations." They added, "Based on close collaboration with our strategic partners, we will continue to solidify our overwhelming technological leadership in the next-generation semiconductor packaging market."Meanwhile, Absolics is currently owned 70.05% by SKC and 29.95% by AMAT (Applied Materials). The acquisition of new shares will proceed according to the internal procedures of each shareholder. In the event of forfeited shares, they will be allocated through additional subscriptions by existing shareholders and third parties based on the inter-shareholder agreement. [End]
+2026-08-21
+SK picglobal Launches Cooling Fluid for AI Data Centers, First in Korea to Earn OCP Qualification
+l Optimized for Direct-to-Chip Liquid Cooling (DLC), delivering
+breakthrough performance over conventional air coolingl Earns OCP “Inspired” supplier qualification — first in Korea and second
+worldwide — validating competitiveness and accelerating global expansion
+l Formulated with SK picglobal’s flagship propylene glycol (PG), meeting
+human safety standards and offering biodegradabilitySK picglobal,
+an SKC-invested chemical business, has launched HTF (Heat Transfer Fluid) PG25,
+an eco-friendly cooling fluid engineered for AI data centers. HTF PG25 is optimized
+for Direct-to-Chip Liquid Cooling (DLC), which directly cools high-temperature
+components such as GPUs and CPUs inside servers.
+DLC,
+the target application for HTF PG25, is emerging as a key technology for AI
+data centers and can deliver up to 10× higher cooling efficiency than
+conventional air cooling. As global IT leaders including NVIDIA adopt DLC as a
+next-generation data center standard, the technology is gaining traction as an
+essential solution for high-density servers.
+Following its launch, HTF PG25 became the first in Korea — and only the
+second worldwide among DLC cooling fluids—to earn the Open Compute Project (OCP)
+“Inspired” supplier qualification. OCP is a global consortium that promotes
+open collaboration across semiconductor silicon, servers, networking, and data-center
+infrastructure. An increasing number of data-center operators now require OCP-qualified
+solutions from their suppliers.
+Environmental
+performance is another key strength of HTF PG25. The product uses SK picglobal’s
+high-purity propylene glycol (PG), a material widely validated for safe use. It
+is formulated with propylene glycol that meets United States Pharmacopeia (USP)
+specifications, supporting both human safety and biodegradability.
+Building on
+the launch, SK picglobal is accelerating its expansion into the AI data-center
+cooling market. The company began commercial sales in Korea in October and
+plans to broaden collaboration with data-center operators and solution
+providers in Korea and overseas, delivering sustainable and cost-efficient
+cooling solutions worldwide.
+An SK
+picglobal spokesperson said, “HTF PG25 will help improve energy efficiency in
+data centers and reduce carbon emissions. With commercial sales underway in
+Korean since October and our OCP “inspired” supplier qualification, we aim to
+deliver trusted cooling solutions to customers in global markets.”[End]
+2025-12-02
+SKC to Merge with SK enpulse, Restructuring Toward a High-Value Semiconductor Back-End Business
+● Merger targeted for completion within the year; expanding investments in advanced materials and testing solutions for high-value semiconductor back-end processes​● ​Approximately KRW 380 billion in cash and other assets from SK enpulse to be transferred to SKC, bolstering the company’s financial positionSKC Co., Ltd. (CEO Woncheol Park) announced that it will merge with SK enpulse, a semiconductor materials company in which it has invested, as part of its ongoing portfolio rebalancing strategy.The decision was approved at a board meeting held on October 14, and SKC aims to complete all merger procedures within this year.Through this merger, SKC will secure approximately KRW 380 billion in funds, including SK enpulse’s cash holdings and proceeds from recent business divestitures. The funds will be used to invest in high-value semiconductor back-end packaging and advanced materials businesses—including the commercialization of glass substrates—as well as to reduce debt and strengthen the company’s financial position.Since 2023, SKC has been actively promoting the rebalancing of its semiconductor materials business as part of its mid- to long-term portfolio restructuring strategy. The company has divested SK enpulse’s fine ceramics, wet chemical and cleaning, CMP pad, and blank mask businesses, while spinning off the back-end equipment division into a new company, I-Semi, and transferring it to ISC.As a result, SKC’s semiconductor materials portfolio is now centered on ISC’s test sockets and equipment, and the glass substrate business of Absolix (currently being commercialized in Georgia, USA). Building on these two pillars, SKC plans to enhance its competitiveness in high-value back-end processes and expand its presence in advanced semiconductor materials.An SKC official stated, “The divestiture of SK enpulse’s non-core businesses and the merger complete our transition toward a high-value, back-end-focused portfolio while also reinforcing our financial stability. We will leverage the secured funds to create new growth opportunities in the semiconductor back-end field.”
+2025-10-16
+SKC Makes its Debut at MWC, Showcasing Vision for Key AI Data Center Solutions
+l Exhibiting real semiconductor glass substrates at MWC 2025, highlighting key AI data center solutionsl Reducing power consumption and thickness by more than 50% compared to conventional substrates while enhancing data processing speed by 40%l Pioneering world’s first commercialization of glass substrates by year-end, driving advancements in AI technology ​SKC (CEO Woncheol Park) will showcase its glass substrates at Mobile World Congress 2025 (MWC2025), the world’s largest mobile exhibition, taking place from March 3 to 6 (local time).SKC will exhibit its glass substrates in the AI DC (AI Data Center) zone within the exhibition hall operated by SK Telecom. Under the theme “Innovative AI Accelerates the Future,” the exhibition will feature key technologies related to AI data centers (AI DC) and the latest research advancements in AI-powered communication infrastructure.Glass substrates will be showcased as a key technology essential for processing large-scale data in the AI DC zone. Notably, they will be exhibited alongside SK hynix’s high-bandwidth memory (HBM3E) and high-performance SSD storage for data centers, presenting a comprehensive AI solution.Glass substrates enable the implementation of ultra-fine circuits and can incorporate various components, such as MLCCs, allowing large-capacity central processing units (CPUs) and graphics processing units (GPUs) to be mounted on their surface. When applied to semiconductor packaging, glass substrates reduce power consumption and package thickness by more than half while increasing data processing speed by 40% compared to conventional substrates.An SKC representative stated, “As the world’s first company to commercialize semiconductor substrates, we are proud to showcase our technological excellence on the global stage at MWC 2025, following our successful appearance at CES 2025”. They added, “We look forward to contributing to the advancement of AI technology, which is capturing global attention, through the successful commercialization of glass substrates by the end of the year.” [End]
+2025-03-04
+SKC Showcases Glass Substrates for AI Data Center at CES 2025
+l
+Exhibiting actual semiconductor glass substrates at CES 2025, showcasing
+their potential as a key material for AI data centers.l
+Highlighting advanced glass substrate technology for AI semiconductors
+and participating in presentation sessions.l Reaffirming its technological leadership as
+the world’s first to commercialize glass substrates.
+SKC (CEO Woncheol Park) will unveil its glass
+substrates, widely regarded as a “game changer” in the semiconductor industry,
+at CES 2025—the world’s largest consumer electronics and IT exhibition—scheduled
+to take place from January 7 to 10 (local time) in Las Vegas, USA.
+SKC exhibits actual glass substrates in the AI Data Center (AI DC) zone
+of the exhibition hall jointly operated by four SK Group affiliates (SKC, SK
+hynix, SK telecom, and SK enmove). Operated under the theme of “Innovative AI, Sustainable Tomorrow,” the SK
+exhibition hall is divided into three zones: AI DC, AI Services, and AI
+Ecosystems.
+During the exhibition, glass substrates will be presented as a solution
+to enhance the speed of AI servers handling large-scale data. A visualization
+of their application in AI data centers will provide visitors with a tangible
+understanding of how the substrates are utilized in practice.
+In addition to the exhibition, a presentation will highlight the
+advantages of glass substrates. Absolics, an SKC-invested affiliate in the glass
+substrate business, will participate in a session titled “Cutting-edge Hardware
+and Software for AI Semiconductors,” offering insights into the future
+development of AI solutions driven by glass substrate technology.
+Glass substrates offer several advantages, including the ability to
+implement ultra-fine circuits and house various components, such as MLCCs, enabling
+large-capacity CPUs and GPUs to be mounted on their surface. This leads to a
+40% increase in data processing speed compared to conventional substrates,
+while reducing power consumption and package thickness by over 50%. Applying glass substrates to AI data centers can significantly
+reduce their physical footprint and energy consumption.
+SKC has completed the world’s first mass-production facility in Georgia,
+USA, and is accelerating its commercialization efforts. Last year, SKC secured USD
+75 million in production subsidies and USD 100 million in R&D grants from the
+U.S. government, recognizing its technological innovation.
+An
+SKC representative stated, “As the first company in the world to commercialize
+semiconductor substrates, CES provides an opportunity to once again showcase our
+technological excellence on a global stage.” They added, “We will further
+solidify our technological edge through glass substrates amid the increasingly
+fierce competition in the semiconductor industry.” [End]
+2025-01-10
+SKC assigns fine ceramics business to Hahn & Company
+● Signing a business assignment deal with PEF manager Hahn & Company··· at 360BN won​● ​SKC cranking up a business overhaul, focused on semiconductors, proprietary high-value materials and componentsSKC (CEO: CEO: Woncheol Park) assigned the fine ceramics business of its chip material-producing subsidiary SK Enpulse to Hahn & Company, a top-tier private equity fund (PEF) managers in Korea.SK Enpulse announced on the 31st that the company convened a board meeting on the 30th where they resolved to assign its fine ceramics business to Hahn & Company for 360 billion won. After the board meeting, the two companies signed a business assignment agreement to that effect. SK Enpulse is expected to undergo necessary procedural steps including an extraordinary shareholders’ meeting next month and close the deal next January.Fine ceramics refer to materials based on highly pure inorganic compounds and processed to feature better electrical properties and durability than conventional ceramic materials. SK Enpulse supplies in the market parts based on well-known fine ceramics including alumina (Al2O3), silicon (Si), silicon carbide (SiC), and quartz which are required for a variety of semiconductor and display manufacturing processes. In so doing, SK Enpulse has contributed to raising the ratio of homegrown chip materials and components in the market. Hahn & Company that will acquire the fine ceramics business from SK Enpulse is the biggest PEF investment manager in Korea. Since its incorporation in 2010, Hahn & Company has acquired over 30 promising Korean companies and prospected for new growth engines, adopting the first-ever bolt-on strategy in Korea to improve their business fundamentals and ramp up market capitalization. Hahn & Company is expected to shore up global competitiveness of the fine ceramics business by ensuring employees’ job security and making additional investments after the assignment.SKC is accelerating the overhaul of its semiconductor business with focus on new high-value items, selling the basic chipmaking material business of SK Enpulse including wet chemical and washing operations, purchasing equity in the U.S. chip packaging solution provider Chipletz, and acquiring semiconductor test solution company ISC. Furthermore, SKC vows to further enhance its business competitiveness by seeking to commercialize the world’s first semiconductor glass substrate for high-performance computing applications and identify additional M&A opportunities.“SKC will use the sale proceeds of the fine ceramics business as funding resource to push the competitive edge of the chip material and component business to a new height,” said an official at SKC. “We will build solutions on our proprietary technologies and become a game changer in the global chip material and component market.” [End]
+2023-10-31
+SKC closes acquisition of global chip test solution provider ISC
+● Winding up the acquisition procedure on Oct. 4··· Incumbent ISC CEO Kim Jeong-ryeol  and CEO Kim Jong-woo of SK Enpulse to jointly take the helm●​ ISC to emerge as a pivotal block of the chip business··· vowing to post 3 trillion won in chip materials sales by 2027, reshuffling its product portfolio with high-value itemsISC, a global leader of chip test solutions, is making a fresh start as a subsidiary of SKC (CEO: Woncheol Park).SKC fully paid the stock purchase price on October 4, wrapping up the acquisition of ISC. Together with incumbent CEO Kim Jeong-ryeol, CEO Kim Jong-woo of SK Enpulse will be appointed as a joint CEO. Signing a stock purchase agreement (SPA) with ISC’s biggest shareholder, Helios Private Equity Fund No.1 this July, SKC has worked on steps to close the deal, including submission of corporate consolidation report in Korea and elsewhere. SKC also participated in ISC’s recapitalization to raise its equity ratio to 45%, laying down groundwork for further growth.Incorporated in 2001, ISC has built its portfolio around test sockets for testing the electrical properties of semiconductor chipsets. Test sockets are regarded as a key consumable in the downstream segment of chipmaking process. In particular, as leading chipmakers try to advance packaging technologies to improve the performance of chipsets, demand for test chips is rising rapidly, implying significant potential growth way forward. ISC succeeded in commercializing the world’s first silicone-based test sock in 2003, currently dominating the market with over 50% market share. ISC also excels in technological prowess, holding the industry record of more than 500 patents. Let alone silicone sockets, ISC possesses a variety of test solutions, including copper alloy-based pogo sockets that are conventional electrical property test sockets and interface boards. SKC aims to facilitate the growth of ISC as a key building block of its chip material business. In addition to becoming an investment destination by scaling up its existing business, ISC is expected to create synergy by forging technological collaboration with semiconductor substrate business and commercializing integrated solutions. Furthermore, SKC vows to work on additional M&A deals in the semiconductor sector to boost the semiconductor sales to 3 trillion won by 2027. Prior to the ISC deal, SKC sold off its basic semiconductor material business involving wet chemical and washing to local companies in China the previous month. SKC also invested in Chipletz in the United States in a bid to enhance its business foundation for cutting-edge chip packaging solutions and dedicated a semiconductor substrate production plant in the State of Georgia, putting in high gears its chip business migration to high-value materials/components.“Acquiring ISC, SKC is embarking on a full-scale migration of semiconductor business portfolio to high-value products and solutions,” said an official at SKC. “To stimulate the growth of ISC, we will render active support, identifying new business opportunities and launching drastic investment initiatives.”
+2023-10-04
+SK enpulse Sells Its Semiconductor Basic Materials Business
+● Wet chemical & cleaning business is sold to local companies: Yaker Technology and Sunyang Shinjin.​● ​SKC’s semiconductors materials/parts will continue the accelerated innovation centered on its high-value-added businesses.SK enpulse, an invested subsidiary of SKC (CEO & President Woncheol Park) in the semiconductor materials business, is selling its semiconductor front-end process basic materials business.On September 12, SK enpulse held a board meeting that decided to sell two of its businesses in China to local companies. The wet chemical business will be sold to the local semiconductor/display materials company Yaker Technology, and the cleaning business will be sold to the investment company Sunyang Shinjin. The sale amounts to approximately KRW 88 billion, including SK enpulse’s 75% stake in the wet chemical business and 90% in the cleaning business. SK enpulse signed share purchase agreements (SPA) with Yaker Technology and Sunyang Shinjin immediately after the board meeting.Yaker Technology, acquiring the wet chemical business, is a large company listed on the Shenzhen Stock Exchange in China, with its operations involving special gases for semiconductors/displays and photoresistor business. Sunyang Shinjin has invested in and owns equipment/parts manufacturers for semiconductor processes.SKC integrated its semiconductor materials/parts businesses into SK enpulse early this year, seeking to continuously expand high-value-added materials business areas for semiconductor front-end processes, including CMP pads and blank masks. Additionally, the company is entering the semiconductor back-end process scene. Last month, SKC signed an agreement to acquire ISC, a global leader in semiconductor test solutions, and plans to complete the world’s first glass substrate mass production facility for high-performance semiconductor packaging in Georgia, USA, through Absolics Inc. at the end of this year.The sale is part of a business restructuring focused on high-value-added materials/parts. An SK enpulse executive said, “Our decision to sell existing businesses was made ambitiously to centralize our efforts on the high-value-added materials and parts business that are essential in the future semiconductor industry,” and added, “We will continue to strive for business model innovation.” [End of document]
+2023-09-13
+SKC invests in Chipletz, a rising star of the U.S. chip packaging industry
+● Securing about 12% equity in Chipletz, a tech. firm spun off from AMD by joining its Series B funding as a strategic investor● Eyeing synergy with high-performance computing chip glass substrate business ··· accelerating the global expansion of back-end chip process businessSKC (President & CEO Woncheol Park) invests in Chipletz, a U.S. chip packaging startup. Chip packaging refers to the back-end process in which chips supporting different functions respectively such as CPU, DRAM, etc. are seamlessly connected with each other, and it is emerging as a key determinant of chipset performance. The Chipletz investment will allow SKC to further accelerate the global expansion of its chip back-end process business. SKC announced on the 10th that the Company would acquire about 12% stake in Chipletz in its Series B funding round. Exact equity ratio will be finalized when Chipletz’s Series B funding is closed. The two companies agreed not to disclose the amount of investment. After incorporating Absolics, a chip glass substrate manufacturer, in 2021 which is scheduled to dedicate its Phase 1 production facility by the end of this year, SKC rolls out full-scale partnership with a global tech. firm to access innovative chip packaging technology.Chipletz was launched as a CIC (company in company) of AMD, U.S.-based global chip maker, in 2016 and spun off from the parent company 5 years after in 2021. Chipletz has a full package of architectural engineering and technology development know-how for cutting-edge semiconductor substrates as well as access to a network of big-name customers. AMD and Taiwan’s ASE, the world’s largest OSAT (outsourced semiconductor assembly and test) provider, already top the shareholders list of Chipletz, with stakes in the company.Co-founder and CEO Bryan Black of Chipletz is a chip packaging expert who worked for Intel and AMS for more than 20 years. In particular, he is named as one of the most foremost authorities on next-gen. chip packaging technologies which are essential for AI computing such as ‘3D packaging’ that connects multiple heterogeneous chips in a 3D architecture. Other management leaders of Chipletz including CTO Michael Su, also one of the co-founders, and Vice President of Product Engineering Michael Alfano are also known for their long-standing careers in the chip packaging sector. Incorporating Absolics in 2021, SKC is endeavoring to roll out the world’s first commercial glass substrate for high-performance computing chips. Chips packaged with glass substrate are known to be the game changer of the market, as they can drastically improve data processing throughput of chipsets while cutting power consumption by half. SKC’s Phase 1 production facility under construction in Geogia, U.S.A. is coasting along without any setback toward the goal of completion by year-end. The investment will enable SKC to forge strong partnership with Chipletz in the field of chip packaging. SKC vows to combine its glass substrate production capacity with Chipletz’s engineering know-how, architectural and other relevant technologies, and access to a network of customers, etc. to build a differentiated ‘chip packaging solution ecosystem.’ Furthermore, the two companies will join forces in fostering R&D and responding to the U.S. CHIPS & Science (Creating Helpful Incentives to Produce Semiconductors and Science) Act of 2022.As the fabrication approach to increasing capacity by narrowing linewidth has met its limit in the semiconductor industry, the packaging technology that combines multiple chips seamlessly to render higher performance is getting increasingly important. SKC, which is already expanding a suite of high-value components for front-end process such as CMP pad, blank mask, etc. via its investee SK enpulse, will significantly enhance its packaging business infrastructure for the future by investing in Chipletz next to the commercialization of chip glass substrates and the acquisition of ISC, a packaging test solutions provider.“The strategic investment in Chipletz that has a global top-tier packaging architecture technology enhances our competitive edge for chip materials and components by a notch,” an official at SKC said. “A combination of SKC’ proprietary technologies and manufacturing capacity with Chipletz’s packaging engineering capability will be a game changer in the chip back-end process market.” [End]Chipletz website: www.chipletz.com
+2023-09-11
+more
+SK Ethical Management
+Sitemap
+Family Site
+SK
+-->
+SK nexilis
+SK enpulse
+-->
+SK picglobal
+SK pucore
+-->
+SKC hi-Tech & marketing
+-->
+SK telesys
+-->
+SKC inc.
+-->
+SKC jiangsu
+-->
+SKC China
+-->
+SK leaveo
+Absolics
+ISC
+SK-C Tower, 15 Chungmu-ro, Jung-gu, Seoul, Republic of Korea   TEL: 02-3787-1234
+Copyright by SKC. All rights reserved.

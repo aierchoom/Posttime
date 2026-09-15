@@ -1,0 +1,72 @@
+[
+  {
+    "file": "2026-08-29_京东方_半年报.pdf",
+    "url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESZ_STOCK/2026/2026-8/2026-08-29/12572072.PDF",
+    "access_date": "2026-09-15",
+    "bytes": 5704318,
+    "sha256": "f001102239e36540005b48b8c77adf40fcdf1c10644e6291717a98eae8c1b02f",
+    "status": "ok"
+  },
+  {
+    "file": "2026-09-11_京东方_IR043.pdf",
+    "url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESZ_STOCK/2026/2026-9/2026-09-11/12595880.PDF",
+    "access_date": "2026-09-15",
+    "bytes": 370686,
+    "sha256": "838dadab7c47ec0f3b670db2516258fba4404f5e8b0dde74c7eedc79da35e58b",
+    "status": "ok"
+  },
+  {
+    "file": "2026-05-21_京东方_康宁合作备忘录.pdf",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-05-21/1225321632.PDF",
+    "access_date": "2026-09-15",
+    "bytes": 191259,
+    "sha256": "86da0384e7c4936e973541ee5e87ed4b79cc9eec5280612449f578c19bdeb598",
+    "status": "ok"
+  },
+  {
+    "file": "2026-08-29_TCL_半年报.html",
+    "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12565266&stockid=000100",
+    "access_date": "2026-09-15",
+    "bytes": 944335,
+    "sha256": "b9b86c1e96ccfdb4eeef8e733af9ab4a5eb4d8fb3d5bfbef5876090b9fc7d849",
+    "status": "ok"
+  },
+  {
+    "file": "2026-09-15_SKC_官网新闻.html",
+    "url": "https://www.skc.co.kr/m/eng/Conmmunication/newsroom/system.do?gubun=006002",
+    "access_date": "2026-09-15",
+    "bytes": 63751,
+    "sha256": "4677dd6e70b0e50b7a0f8f849d63efda8e56e39af0ae233415cb84aaafd88016",
+    "status": "ok"
+  },
+  {
+    "file": "2026-09-10_三星电机_KPCA.html",
+    "url": "https://samsungsem.com/global/newsroom/news/view.do?id=10522",
+    "access_date": "2026-09-15",
+    "bytes": 51660,
+    "sha256": "24d7f1317e965e342aa5bb3a4da0adce2dd91b8fe936c85ba64cc61f68c2f4d8",
+    "status": "ok"
+  },
+  {
+    "file": "2026-07-02_住友_玻璃芯合资.html",
+    "url": "https://www.sumitomo-chem.co.jp/english/news/detail/20260702e_2.html",
+    "access_date": "2026-09-15",
+    "bytes": 37912,
+    "sha256": "812060efda9cd35ca5e1c44902ccebde46382a12e416eed11a1a120793a0350f",
+    "status": "ok"
+  },
+  {
+    "file": "2026-07-24_Intel_蓝思合作.html",
+    "url": "https://newsroom.intel.com/new-technologies/intel-and-lens-technology-collaborate-to-enable-advanced-semiconductor-packaging-for-the-ai-era",
+    "status": "error",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  {
+    "file": "2026-09-15_金元证券研报页面.html",
+    "url": "https://data.eastmoney.com/report/info/AP202609021828915450.html",
+    "access_date": "2026-09-15",
+    "bytes": 42591,
+    "sha256": "1c36359b986247e161894a5cfea9dfab3ee31b01a305c61a7323c9f5fc6dbe5a",
+    "status": "ok"
+  }
+]
