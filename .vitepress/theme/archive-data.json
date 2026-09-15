@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-15T14:56:33.280Z",
+  "generatedAt": "2026-09-15T15:31:06.672Z",
   "totals": {
     "reports": 32,
     "objects": 30,
-    "evidenceRows": 793
+    "evidenceRows": 794
   },
   "latestReports": [
     {
@@ -14,8 +14,8 @@
       "path": "公司档案/京东方A（000725）/2026-09-15/京东方A（000725）.md",
       "link": "/公司档案/京东方A（000725）/2026-09-15/京东方A（000725）",
       "evidencePath": "公司档案/京东方A（000725）/2026-09-15/京东方A（000725）_evidence-ledger.csv",
-      "evidenceRows": 23,
-      "updatedAt": "2026-09-15T14:56:33.280Z",
+      "evidenceRows": 24,
+      "updatedAt": "2026-09-15T15:31:06.672Z",
       "categoryKey": "companies",
       "categoryTitle": "公司档案",
       "accent": "company"
@@ -136,8 +136,8 @@
             "path": "公司档案/京东方A（000725）/2026-09-15/京东方A（000725）.md",
             "link": "/公司档案/京东方A（000725）/2026-09-15/京东方A（000725）",
             "evidencePath": "公司档案/京东方A（000725）/2026-09-15/京东方A（000725）_evidence-ledger.csv",
-            "evidenceRows": 23,
-            "updatedAt": "2026-09-15T14:56:33.280Z"
+            "evidenceRows": 24,
+            "updatedAt": "2026-09-15T15:31:06.672Z"
           },
           "reports": [
             {
@@ -148,8 +148,8 @@
               "path": "公司档案/京东方A（000725）/2026-09-15/京东方A（000725）.md",
               "link": "/公司档案/京东方A（000725）/2026-09-15/京东方A（000725）",
               "evidencePath": "公司档案/京东方A（000725）/2026-09-15/京东方A（000725）_evidence-ledger.csv",
-              "evidenceRows": 23,
-              "updatedAt": "2026-09-15T14:56:33.280Z"
+              "evidenceRows": 24,
+              "updatedAt": "2026-09-15T15:31:06.672Z"
             },
             {
               "title": "京东方A（000725）研究报告",
@@ -651,8 +651,8 @@
           "path": "公司档案/京东方A（000725）/2026-09-15/京东方A（000725）.md",
           "link": "/公司档案/京东方A（000725）/2026-09-15/京东方A（000725）",
           "evidencePath": "公司档案/京东方A（000725）/2026-09-15/京东方A（000725）_evidence-ledger.csv",
-          "evidenceRows": 23,
-          "updatedAt": "2026-09-15T14:56:33.280Z"
+          "evidenceRows": 24,
+          "updatedAt": "2026-09-15T15:31:06.672Z"
         },
         {
           "title": "珀莱雅（603605）研究报告",

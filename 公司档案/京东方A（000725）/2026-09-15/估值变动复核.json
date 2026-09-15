@@ -1,0 +1,17 @@
+{
+  "basis": "固定370.44328064亿股，对照2026-08-17与2026-09-15模型；计算不是新增估值建议",
+  "oldPE": 6.349150120732501,
+  "oldPB": 5.911836209355518,
+  "newProfitOldPE": 5.770656802137319,
+  "newMid": 5.495863621083162,
+  "profitChange": -0.0911135045785374,
+  "peMidChange": -0.04761904761904767,
+  "year2026Change": -0.0027599914444444984,
+  "bearProfitChange": -0.21439661871492754,
+  "oldBearPE": 3.644282594808196,
+  "newBearSamePE": 2.8629607288396564,
+  "oldRequiredH2Revenue": 963.1056249100001,
+  "oldRequiredH2GrossMargin": 0.16173837470272948,
+  "newFY26DisplayRevenue": 1687.5543750900001,
+  "newFY26DisplayGrossMargin": 0.13083147116265523
+}
