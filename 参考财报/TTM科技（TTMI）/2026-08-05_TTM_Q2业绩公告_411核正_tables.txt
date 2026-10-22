@@ -1,0 +1,174 @@
+TABLE 0
+		Second Quarter				First Two Quarters	
+		2026				2025				2026				2025	
+
+CONSOLIDATED CONDENSED STATEMENTS OF OPERATIONS
+											
+Net sales	$	1,004,054			$	730,621			$	1,850,030			$	1,379,289	
+Cost of goods sold	792,196			582,512			1,456,991			1,100,208	
+											
+Gross profit	211,858			148,109			393,039			279,081	
+											
+Operating expenses:											
+Selling and marketing	25,490			21,316			50,484			42,587	
+General and administrative	62,107			49,719			130,852			93,493	
+Research and development	7,978			7,009			15,786			15,073	
+Amortization of definite-lived intangibles	6,888			6,888			13,777			13,777	
+Restructuring charges	340			1,408			636			2,122	
+Total operating expenses	102,803			86,340			211,535			167,052	
+											
+Operating income	109,055			61,769			181,504			112,029	
+											
+Interest expense	(10,496	)		(11,095	)		(21,096	)		(22,559	)
+Loss on extinguishment of debt	(747	)		-			(747	)		-	
+Unrealized loss on derivative instruments	(13,994	)		-			(13,994	)		-	
+Other, net	(2,571	)		(5,149	)		(5,895	)		(2,954	)
+											
+Income before income taxes	81,247			45,525			139,772			86,516	
+Income tax benefit (provision)	1,800			(3,995	)		(6,737	)		(12,808	)
+											
+Net income	$	83,047			$	41,530			$	133,035			$	73,708	
+											
+Earnings per share:											
+Basic	$	0.80			$	0.41			$	1.28			$	0.72	
+Diluted	0.77			0.40			1.24			0.70	
+											
+Weighted-average shares used in computing per share amounts:											
+Basic	104,291			101,857			104,061			101,861	
+Diluted	107,583			104,873			107,334			104,701	
+											
+Reconciliation of the denominator used to calculate basic earnings per share and diluted earnings per share:												
+Weighted-average shares outstanding	104,291			101,857			104,061			101,861	
+Dilutive effect of performance-based stock units, restricted stock units and stock options	3,292			3,016			3,273			2,840	
+Diluted shares	107,583			104,873			107,334			104,701	
+
+TABLE 1
+	June 29, 2026		December 29, 2025
+Cash and cash equivalents	$	507,905			$	501,234	
+Accounts receivable, net	720,143			563,741	
+Contract assets	596,036			468,006	
+Inventories	307,972			250,057	
+Total current assets	2,249,899			1,855,406	
+Property, plant and equipment, net	1,187,809			1,010,710	
+Total assets	4,415,709			3,840,331	
+					
+Short-term debt, including current portion of long-term debt	$	4,000			$	3,815	
+Accounts payable	812,987			543,538	
+Contract liabilities	186,770			175,627	
+Total current liabilities	1,263,967			962,197	
+Long-term debt, net of discount and issuance costs	969,456			912,336	
+Total long-term liabilities	1,217,314			1,115,881	
+Total stockholders' equity	1,934,428			1,762,253	
+Total liabilities and stockholders' equity	4,415,709			3,840,331	
+
+TABLE 2
+	Second Quarter		First Two Quarters
+	2026		2025		2026		2025
+Gross margin	21.1	%		20.3	%		21.2	%		20.2	%
+Operating margin	10.9	%		8.5	%		9.8	%		8.1	%
+											
+	Second Quarter		First Two Quarters
+	2026		2025		2026		2025
+End market breakdown 1 :											
+Aerospace and Defense	37	%		45	%		39	%		47	%
+Automotive	8	%		11	%		8	%		11	%
+Data Center and Networking	40	%		29	%		38	%		28	%
+Medical, Industrial, and Instrumentation	15	%		15	%		15	%		14	%
+											
+	Second Quarter		First Two Quarters
+	2026		2025		2026		2025
+Operating segment data 1 :											
+Net sales:											
+Aerospace & Defense	$	382,750			$	335,183			$	734,414			$	651,433	
+Commercial	621,605			395,624			1,116,648			728,329	
+Intersegment eliminations	(301	)		(186	)		(1,032	)		(473	)
+Total net sales	$	1,004,054			$	730,621			$	1,850,030			$	1,379,289	
+											
+Segment operating income:											
+Aerospace & Defense	63,861			48,145			118,640			90,514	
+Commercial	112,676			60,069			194,244			103,718	
+Total segment operating income	$	176,537			$	108,214			$	312,884			$	194,232	
+											
+Unallocated amounts:											
+Restructuring	(340	)		(1,408	)		(636	)		(2,122	)
+Acquisition-related and other charges	(4,749	)		-			(4,946	)		-	
+Stock-based compensation	(13,292	)		(9,188	)		(37,648	)		(17,975	)
+Other corporate expenses	(39,877	)		(26,625	)		(69,702	)		(43,658	)
+Amortization of definite-lived intangibles	(9,224	)		(9,224	)		(18,448	)		(18,448	)
+Total operating income	$	109,055			$	61,769			$	181,504			$	112,029	
+
+TABLE 3
+	Second Quarter		First Two Quarters
+	2026		2025		2026		2025
+											
+Non-GAAP gross profit reconciliation 3 :											
+GAAP gross profit	$	211,858			$	148,109			$	393,039			$	279,081	
+Add back item:											
+Amortization of definite-lived intangibles	2,336			2,336			4,671			4,671	
+Stock-based compensation	3,771			2,827			7,438			5,500	
+Unrealized (gain) loss on commodity hedge	1,785			(283	)		3,279			(1,059	)
+Non-GAAP gross profit	$	219,750			$	152,989			$	408,427			$	288,193	
+Non-GAAP gross margin	21.9	%		20.9	%		22.1	%		20.9	%
+											
+Non-GAAP operating income reconciliation 4 :											
+GAAP operating income	$	109,055			$	61,769			$	181,504			$	112,029	
+Add back items:											
+Amortization of definite-lived intangibles	9,224			9,224			18,448			18,448	
+Stock-based compensation	13,292			9,188			37,648			17,975	
+Unrealized (gain) loss on commodity hedge	1,785			(283	)		3,279			(1,059	)
+Restructuring, acquisition-related and other charges	5,089			1,523			5,582			2,237	
+Non-GAAP operating income	$	138,445			$	81,421			$	246,461			$	149,630	
+Non-GAAP operating margin	13.8	%		11.1	%		13.3	%		10.8	%
+											
+Non-GAAP net income and EPS reconciliation 5 :											
+GAAP net income	$	83,047			$	41,530			$	133,035			$	73,708	
+Add back items:											
+Amortization of definite-lived intangibles	9,224			9,224			18,448			18,448	
+Stock-based compensation	13,292			9,188			37,648			17,975	
+Non-cash interest expense	588			536			1,142			1,067	
+Loss on extinguishment of debt	747			-			747			-	
+Unrealized (gain) loss on commodity hedge	1,785			(283	)		3,279			(1,059	)
+Unrealized (gain) loss on foreign exchange	(226	)		5,750			(1,209	)		7,964	
+Unrealized loss on derivative instruments	13,994			-			13,994			-	
+Restructuring, acquisition-related and other charges	5,089			1,543			5,582			2,257	
+Income taxes 6	(20,661	)		(6,727	)		(25,705	)		(7,167	)
+Non-GAAP net income	$	106,879			$	60,761			$	186,961			$	113,193	
+Non-GAAP earnings per diluted share	$	0.99			$	0.58			$	1.74			$	1.08	
+											
+	Second Quarter		First Two Quarters
+	2026		2025		2026		2025
+Adjusted EBITDA reconciliation 7 :											
+GAAP net income	$	83,047			$	41,530			$	133,035			$	73,708	
+Add back items:											
+Income tax (benefit) provision	(1,800	)		3,995			6,737			12,808	
+Interest expense	10,496			11,095			21,096			22,559	
+Amortization of definite-lived intangibles	9,224			9,224			18,448			18,448	
+Depreciation expense	31,122			27,692			60,414			54,555	
+Stock-based compensation	13,292			9,188			37,648			17,975	
+Loss on extinguishment of debt	747			-			747			-	
+Unrealized (gain) loss on commodity hedge	1,785			(283	)		3,279			(1,059	)
+Unrealized (gain) loss on foreign exchange	(226	)		5,750			(1,209	)		7,964	
+Unrealized loss on derivative instruments	13,994			-			13,994			-	
+Restructuring, acquisition-related and other charges	5,089			1,543			5,463			2,257	
+Adjusted EBITDA	$	166,770			$	109,734			$	299,652			$	209,215	
+Adjusted EBITDA margin	16.6	%		15.0	%		16.2	%		15.2	%
+											
+Free cash flow reconciliation:											
+Operating cash flow	$	96,429			$	97,804			$	118,172			$	87,149	
+Capital expenditures, net	(50,416	)		(60,234	)		(157,217	)		(123,454	)
+Free cash flow	$	46,013			$	37,570			$	(39,045	)		$	(36,305	)
+
+TABLE 4
+1 Prior year end market revenue has been recasted due to merged Data Center Computing and Networking end markets. The operating segment data has been recasted also due to strategically realigning the RF and Specialty Components (RF&S Components) segment within the A&D segment during the quarter ended March 30, 2026.
+
+2 This information provides a reconciliation of non-GAAP gross profit, non-GAAP operating income, non-GAAP net income, non-GAAP EPS, and adjusted EBITDA to the most comparable GAAP metric in our consolidated condensed statements of operations.
+
+3 Non-GAAP gross profit and gross margin measures exclude amortization of definite-lived intangibles, stock-based compensation, and unrealized (gain) loss on commodity hedge.
+
+4 Non-GAAP operating income and operating margin measures exclude amortization of definite-lived intangibles, stock-based compensation, unrealized (gain) loss on commodity hedge, restructuring, acquisition-related, and other charges.
+
+5 This information provides non-GAAP net income and non-GAAP EPS, which are non-GAAP financial measures. Management believes that both measures -- which add back amortization of definite-lived intangibles, stock-based compensation, non-cash interest expense, loss on extinguishment of debt, unrealized (gain) loss on commodity hedge, unrealized (gain) loss on foreign exchange, unrealized loss on derivative instruments, restructuring, acquisition-related, and other charges as well as the associated tax impact of these charges and discrete tax items -- provide additional useful information to investors regarding the Company's ongoing financial condition and results of operations.
+
+6 Income tax adjustments reflect the difference between income taxes based on a non-GAAP tax rate and a forecasted annual GAAP tax rate.
+
+7 Adjusted EBITDA is defined as earnings before income tax (benefit) provision, interest expense, amortization of definite-lived intangibles, depreciation expense, stock-based compensation, loss on extinguishment of debt, unrealized (gain) loss on commodity hedge, unrealized (gain) loss on foreign exchange, unrealized loss on derivative instruments, restructuring, acquisition-related, and other charges. We present adjusted EBITDA to enhance the understanding of our operating results, and it is a key measure we use to evaluate our operations. In addition, we provide our adjusted EBITDA because we believe that investors and securities analysts will find adjusted EBITDA to be a useful measure for evaluating our operating performance and comparing our operating performance with that of similar companies that have different capital structures and for evaluating our ability to meet our future debt service, capital expenditures, and working capital requirements. However, adjusted EBITDA should not be considered as an alternative to cash flows from operating activities as a measure of liquidity or as an alternative to net income as a measure of operating results in accordance with accounting principles generally accepted in the United States of America.

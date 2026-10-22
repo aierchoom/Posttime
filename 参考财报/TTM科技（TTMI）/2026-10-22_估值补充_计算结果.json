@@ -1,0 +1,215 @@
+{
+  "ratios": {
+    "price": 75.19,
+    "quote_time": "2026-10-22 10:54 EDT / 22:54 Asia/Shanghai; intraday, not close",
+    "previous_close": 102.15,
+    "change_vs_previous_close_pct": -26.39255996084191,
+    "guide_2026_PE_low_high": [
+      14.94831013916501,
+      15.12877263581489
+    ],
+    "guide_2027_PE_low_high": [
+      8.448314606741572,
+      9.282716049382715
+    ],
+    "guide_2027_PE_mid": 8.845882352941176,
+    "own_base_2027_PE": 8.964992856056902,
+    "pre_Q3_public_consensus_2027_PE": 10.314128943758574,
+    "public_consensus_update_date": "2026-10-20, pre-Q3; not a terminal export",
+    "LTM_GAAP_NI": 268.523,
+    "LTM_adjusted_NI": 419.557,
+    "LTM_GAAP_PE_diluted_proxy": 30.157147842084285,
+    "LTM_adjusted_PE_diluted_proxy": 19.301043267065022,
+    "LTM_FCF": 47.422,
+    "LTM_EBITDA": 668.1329999999999,
+    "diluted_equity_proxy": 8270.9,
+    "common_equity_proxy_using_July_share_count": 7921.18108416,
+    "post_Epiq_net_debt_proxy": 1867.525,
+    "diluted_EV_proxy": 10138.425,
+    "reported_FCF_yield_diluted_proxy_pct": 0.5733596101996155,
+    "LTM_EV_EBITDA_scope_mismatch": 15.174261711365851
+  },
+  "peers": {
+    "WUS": {
+      "price": 106.96,
+      "currency": "CNY",
+      "quote": "2026-10-22 15:04 CST, delayed",
+      "eps_2027": 5.01,
+      "period_end": "2027-12-31",
+      "pe": 21.34930139720559
+    },
+    "SANM": {
+      "price": 155.64,
+      "currency": "USD",
+      "quote": "2026-10-22 10:31 EDT",
+      "eps_2027": 14.08,
+      "period_end": "2027-09-30",
+      "pe": 11.053977272727272
+    },
+    "MRCY": {
+      "price": 74.79,
+      "currency": "USD",
+      "quote": "2026-10-22 10:36 EDT",
+      "eps_2027": 1.67,
+      "period_end": "2027-06-30",
+      "pe": 44.78443113772455
+    }
+  },
+  "valuation": {
+    "Bear": {
+      "eps": 4.0537676000000005,
+      "pe": [
+        8,
+        10
+      ],
+      "price_range": [
+        32.430140800000004,
+        40.537676000000005
+      ],
+      "return_pct": [
+        -56.86907727091368,
+        -46.0863465886421
+      ],
+      "basis": "2027E own segment model, adjusted EPS; multiples are research assumptions, not observed TTMI historical quantiles"
+    },
+    "Base": {
+      "eps": 8.387067475374545,
+      "pe": [
+        11,
+        14
+      ],
+      "price_range": [
+        92.25774222912,
+        117.41894465524364
+      ],
+      "return_pct": [
+        22.69948427865407,
+        56.162979991014275
+      ],
+      "basis": "2027E own segment model, adjusted EPS; multiples are research assumptions, not observed TTMI historical quantiles"
+    },
+    "Bull": {
+      "eps": 10.9599140226018,
+      "pe": [
+        14,
+        17
+      ],
+      "price_range": [
+        153.43879631642523,
+        186.3185383842306
+      ],
+      "return_pct": [
+        104.06808926243549,
+        147.7969655329573
+      ],
+      "basis": "2027E own segment model, adjusted EPS; multiples are research assumptions, not observed TTMI historical quantiles"
+    }
+  },
+  "reverse_PE": {
+    "10": {
+      "required_eps": 7.519,
+      "discount_to_guide_mid_pct": -11.541176470588233,
+      "required_commercial_margin_pct": 21.31086347987718
+    },
+    "11": {
+      "required_eps": 6.835454545454545,
+      "discount_to_guide_mid_pct": -19.58288770053477,
+      "required_commercial_margin_pct": 19.193347161011495
+    },
+    "12": {
+      "required_eps": 6.265833333333333,
+      "discount_to_guide_mid_pct": -26.284313725490193,
+      "required_commercial_margin_pct": 17.42875022862343
+    },
+    "14": {
+      "required_eps": 5.3707142857142856,
+      "discount_to_guide_mid_pct": -36.81512605042017,
+      "required_commercial_margin_pct": 14.655812192013606
+    },
+    "15": {
+      "required_eps": 5.012666666666666,
+      "discount_to_guide_mid_pct": -41.02745098039217,
+      "required_commercial_margin_pct": 13.546636977369674
+    },
+    "20": {
+      "required_eps": 3.7595,
+      "discount_to_guide_mid_pct": -55.77058823529411,
+      "required_commercial_margin_pct": 9.66452372611593
+    }
+  },
+  "cash_yield": {
+    "4": {
+      "required_FCF": 330.836,
+      "required_FCF_to_Base_adjusted_NI_pct": 35.85997142422761,
+      "required_FCF_per_share": 3.0076
+    },
+    "6": {
+      "required_FCF": 496.25399999999996,
+      "required_FCF_to_Base_adjusted_NI_pct": 53.78995713634141,
+      "required_FCF_per_share": 4.5114
+    },
+    "8": {
+      "required_FCF": 661.672,
+      "required_FCF_to_Base_adjusted_NI_pct": 71.71994284845522,
+      "required_FCF_per_share": 6.0152
+    },
+    "10": {
+      "required_FCF": 827.09,
+      "required_FCF_to_Base_adjusted_NI_pct": 89.64992856056902,
+      "required_FCF_per_share": 7.519
+    }
+  },
+  "cash_supported_multiples": [
+    {
+      "conversion": 0.4,
+      "required_cash_yield": 0.06,
+      "implied_PE": 6.666666666666667,
+      "base_price": 55.913783169163636
+    },
+    {
+      "conversion": 0.4,
+      "required_cash_yield": 0.08,
+      "implied_PE": 5.0,
+      "base_price": 41.935337376872724
+    },
+    {
+      "conversion": 0.6,
+      "required_cash_yield": 0.06,
+      "implied_PE": 10.0,
+      "base_price": 83.87067475374545
+    },
+    {
+      "conversion": 0.6,
+      "required_cash_yield": 0.08,
+      "implied_PE": 7.5,
+      "base_price": 62.903006065309086
+    },
+    {
+      "conversion": 0.8,
+      "required_cash_yield": 0.06,
+      "implied_PE": 13.333333333333334,
+      "base_price": 111.82756633832727
+    },
+    {
+      "conversion": 0.8,
+      "required_cash_yield": 0.08,
+      "implied_PE": 10.0,
+      "base_price": 83.87067475374545
+    }
+  ],
+  "SBC_stress": {
+    "annual_SBC": 96.36,
+    "after_tax_SBC_per_share": 0.6832800000000001,
+    "economic_eps_proxy": 7.703787475374545,
+    "price_to_economic_eps_proxy": 9.76013425089253
+  },
+  "caveats": [
+    "Quote is fixed intraday snapshot, not close; peers same day but not same second",
+    "110 million is conservative future diluted-share assumption; not observed current common shares",
+    "Net debt reconstructed from book values, excludes fees and subsequent movements; not reported Sept30 net debt",
+    "LTM EBITDA excludes most Epiq earnings but net debt includes acquisition, so LTM EV/EBITDA is mismatched and not used as fair multiple",
+    "EPS forecasts are adjusted; WUS profit standard may differ and fiscal years end in different months",
+    "Original segment model retained; public company call transcript later says 108.1m 2027 shares, but original 110m conservative model kept separate",
+    "No Ophir contribution or additional acquisition financing assumed in 2027 scenarios"
+  ]
+}

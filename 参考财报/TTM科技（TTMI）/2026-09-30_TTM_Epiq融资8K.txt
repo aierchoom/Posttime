@@ -1,0 +1,152 @@
+September 30, 2026 - 8-K: Current report | TTM Technologies, Inc. (TTMI)
+September 30, 2026 >
+                                                                Form 8-K >
+                                                                TTM Technologies, Inc.
+Document Links
+Form: 8-K
+Current report
+September 30, 2026
+Complete Filing PDF »
+Includes filing and all documents
+Documents
+8-K »
+EX-10.1 »
+EX-99.1 »
+8-K: Current report
+Published on September 30, 2026
+false
+0001116942
+0001116942
+2026-09-30
+2026-09-30
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+WASHINGTON, D.C. 20549
+FORM
+8-K
+CURRENT REPORT
+Pursuant to Section 13 or 15(d)
+of the Securities Exchange Act of 1934
+Date of Report (Date of earliest event reported):
+September 30, 2026
+TTM TECHNOLOGIES, INC.
+(Exact name of Registrant as specified in its charter)
+Delaware
+000-31285
+91-1033443
+(State of
+Incorporation)
+(Commission
+File Number)
+(I.R.S. Employer
+Identification No.)
+200 East Sandpointe
+,
+Suite 400
+Santa Ana
+,
+California
+92707
+(Address of principal executive offices)
+(Zip Code)
+(
+714
+)
+327-3000
+Registrant’s telephone number, including area code
+Check the appropriate box below if the Form
+8-K
+filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:
+☐
+Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+☐
+Soliciting material pursuant to Rule
+14a-12
+under the Exchange Act (17 CFR
+240.14a-12)
+☐
+Pre-commencement
+communications pursuant to Rule
+14d-2(b)
+under the Exchange Act (17 CFR
+240.14d-2(b))
+☐
+Pre-commencement
+communications pursuant to Rule
+13e-4(c)
+under the Exchange Act (17 CFR
+240.13e-4(c))
+Securities registered pursuant to Section 12(b) of the Act:
+Title of each class
+Trading
+Symbol(s)
+Name of each exchange
+on which registered
+Common Stock, $0.001 par value
+TTMI
+Nasdaq Global Select Market
+Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule
+12b-2
+of the Securities Exchange Act of 1934
+(§240.12b-2
+of this chapter).
+Emerging growth company
+☐
+If an emerging growth company, indicate by checkmark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐
+Section 1 – Registrant’s Business and Operations
+Item 1.01.
+Entry into a Material Definitive Agreement.
+In connection with the completion of the Acquisition (as defined and discussed below in Item 8.01), on September 30, 2026 (the “Closing Date”), TTM Technologies, Inc. (the “Company”) entered into the Third Amended and Restated Credit Agreement, dated as of September 30, 2026, by and among the Company, the foreign subsidiary borrowers party thereto, any designated borrowers party thereto, JPMorgan Chase Bank, N.A. (“JPM”), as Administrative Agent, and the other parties thereto (the “Third A&R Credit Agreement”). The Third A&R Credit Agreement, (which amends and restates the Company’s Second Amended and Restated Credit Agreement, dated as of June 1, 2026, by and among the Company, the foreign subsidiary borrowers party thereto, any designated borrowers party thereto, JPM, as Administrative Agent, and the other parties thereto (the “Prior Credit Agreement”)) provides for (i) an incremental senior secured term loan A facility in an aggregate principal amount of $300 million (the “Term A Incremental Facility”) and (ii) a seven-year incremental senior secured term loan B facility in an aggregate principal amount of $800 million (the “Term B Incremental Facility” and, together with the Term A Incremental Facility, the “Incremental Facilities”). On the Closing Date, the Incremental Facilities were funded in connection with the completion of the Acquisition, and the proceeds were used as discussed below in Item 8.01.
+Consistent with the existing loans under the Prior Credit Agreement, the Incremental Facilities are unconditionally guaranteed by each of the Company’s direct and indirect, existing and future domestic subsidiaries, including Epiq Solutions (as defined below) concurrently with the closing of the Acquisition, subject to certain exceptions (collectively, the “Guarantors”). In addition, subject to certain exclusions and limitations, and consistent with the existing loans under the Prior Credit Agreement, the obligations of the Company and each Guarantor in respect of the Incremental Facilities are secured by a perfected first priority security interest in substantially all of the tangible and intangible assets of the Company and the Guarantors, including all of the capital stock held by the Company and the Guarantors (subject to a limitation of 65% on pledges of capital stock of certain foreign subsidiaries and domestic holding companies of foreign subsidiaries). The representations and warranties, affirmative and negative covenants and events of default applicable to the Incremental Facilities are generally the same as those applicable to the existing loans under the Prior Credit Agreement, subject to differences in pricing and certain other facility-specific terms.
+A copy of the Third A&R Credit Agreement is filed as Exhibit 10.1 to this Current Report on Form
+8-K
+(this “Report”) and incorporated herein by reference thereto. The foregoing summary of the Third A&R Credit Agreement does not purport to be complete and is qualified in its entirety by reference to the full text of the Third A&R Credit Agreement.
+Section 2 – Financial Information
+Item 2.03.
+Creation of a Direct Financial Obligation or an Obligation under an
+Off-Balance
+Sheet Arrangement of a Registrant.
+The disclosures above under Item 1.01 of this Report are also responsive to this Item 2.03 and are hereby incorporated by reference into this Item 2.03.
+Section 7 - Regulation FD
+Item 7.01.
+Regulation FD Disclosure.
+On September 30, 2026, the Company issued a press release announcing the closing of the Incremental Facilities and the Acquisition (the “Closing Press Release”). A copy of the Closing Press Release is furnished with this Report as Exhibit 99.1 and is incorporated herein by reference.
+Certain Information
+The information furnished in this Item 7.01, including Exhibit 99.1, shall not be deemed to be “filed” for the purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), or otherwise subject to the liabilities of that section, and shall not be incorporated by reference into any registration statement or other document filed under the Securities Act of 1933, as amended, or the Exchange Act, except as shall be expressly set forth by specific reference in such filing.
+Section 8 - Other Events
+Item 8.01.
+Other Events.
+On the Closing Date, pursuant to the terms of the Securities Purchase Agreement, dated as of August 15, 2026, by and among the Company, TTM Technologies North America, LLC, a Delaware limited liability company and a wholly-owned subsidiary of the Company (the “Buyer”), EDS TopCo, LP, a Delaware limited partnership (the “Seller”), and EDS Intermediate Holding, LLC, a Delaware limited liability company (“Epiq Solutions”), the Company completed its previously announced acquisition of all of the issued and outstanding membership interests of Epiq Solutions (the “Acquisition”). As a result of the Acquisition, Epiq Solutions became a wholly-owned subsidiary of the Company.
+The consideration paid by the Company was approximately $1.1 billion in cash, subject to customary working capital and certain other adjustments (the “Purchase Price”). On the Closing Date, the Purchase Price was paid to the Seller (less certain amounts paid for certain transaction expenses and to be held in escrow for the fulfillment of a post-closing purchase price adjustment, if any). The Company used approximately $1.1 billion from (i) a portion of the proceeds of borrowings under the Incremental Facilities and (ii) a portion of the proceeds from the previously disclosed completed offering of the Company’s 6.750% senior notes due 2034 to fund the Purchase Price and pay fees and expenses related to the Acquisition.
+The foregoing description of the Acquisition does not purport to be complete and is subject to, and qualified in its entirety by, the full text of the Securities Purchase Agreement, which was filed as Exhibit 2.1 to the Company’s Current Report on Form
+8-K
+filed with the SEC on August 17, 2026, and which is incorporated herein by reference.
+Section 9 - Financial Statements and Exhibits
+Item 9.01.
+Financial Statements and Exhibits.
+(d)
+Exhibits
+.
+EXHIBIT INDEX
+Exhibit Number
+Description
+2.1*
+Securities Purchase Agreement, dated as of August 15, 2026, by and among EDS Intermediate Holding, LLC, EDS TopCo, LP, TTM Technologies North America, LLC, and TTM Technologies, Inc.
+10.1
+Third Amended and Restated Credit Agreement, dated as of September 30, 2026, by and among TTM Technologies, Inc., as Borrower, the foreign subsidiary borrowers party thereto, any designated borrowers party thereto, the several Lenders from time to time parties thereto, and JPMorgan Chase Bank, N.A., as Administrative Agent.
+99.1
+Press Release dated September 30, 2026.
+104
+Cover Page Interactive Data File (embedded within the Inline XBRL document).
+*
+Incorporated by reference to Exhibit 2.1 to the Company’s Current Report on Form
+8-K
+dated August 17, 2026.
+SIGNATURES
+Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this Report to be signed on its behalf by the undersigned hereunto duly authorized.
+TTM TECHNOLOGIES, INC.
+Date: September 30, 2026
+/s/ Daniel J. Weber
+By:
+Daniel J. Weber
+Senior Vice President, Chief Legal Officer & Secretary

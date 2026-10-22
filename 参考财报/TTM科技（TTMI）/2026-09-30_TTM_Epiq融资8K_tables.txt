@@ -1,0 +1,68 @@
+TABLE 0
+				
+Delaware		000-31285		91-1033443
+(State of Incorporation)		(Commission File Number)		(I.R.S. Employer Identification No.)
+
+TABLE 1
+		
+200 East Sandpointe , Suite 400		
+Santa Ana , California		92707
+(Address of principal executive offices)		(Zip Code)
+
+TABLE 2
+☐	Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+
+TABLE 3
+☐	Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)
+
+TABLE 4
+☐	Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))
+
+TABLE 5
+☐	Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))
+
+TABLE 6
+				
+Title of each class		Trading Symbol(s)		Name of each exchange on which registered
+Common Stock, $0.001 par value		TTMI		Nasdaq Global Select Market
+
+TABLE 7
+Item 1.01.	Entry into a Material Definitive Agreement.
+
+TABLE 8
+Item 2.03.	Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant.
+
+TABLE 9
+Item 7.01.	Regulation FD Disclosure.
+
+TABLE 10
+Item 8.01.	Other Events.
+
+TABLE 11
+Item 9.01.	Financial Statements and Exhibits.
+
+TABLE 12
+(d)	Exhibits .
+
+TABLE 13
+		
+Exhibit Number		Description
+	
+2.1*		Securities Purchase Agreement, dated as of August 15, 2026, by and among EDS Intermediate Holding, LLC, EDS TopCo, LP, TTM Technologies North America, LLC, and TTM Technologies, Inc.
+	
+10.1		Third Amended and Restated Credit Agreement, dated as of September 30, 2026, by and among TTM Technologies, Inc., as Borrower, the foreign subsidiary borrowers party thereto, any designated borrowers party thereto, the several Lenders from time to time parties thereto, and JPMorgan Chase Bank, N.A., as Administrative Agent.
+	
+99.1		Press Release dated September 30, 2026.
+	
+104		Cover Page Interactive Data File (embedded within the Inline XBRL document).
+
+TABLE 14
+*	Incorporated by reference to Exhibit 2.1 to the Company’s Current Report on Form 8-K dated August 17, 2026.
+
+TABLE 15
+						
+				TTM TECHNOLOGIES, INC.
+		
+Date: September 30, 2026				/s/ Daniel J. Weber
+				By:		Daniel J. Weber
+						Senior Vice President, Chief Legal Officer & Secretary

@@ -1,0 +1,1155 @@
+TABLE 0
+		
+Delaware		91-1033443
+(State or Other Jurisdiction of Incorporation or Organization)		(I.R.S. Employer Identification No.)
+200 East Sandpointe , Suite 400 Santa Ana , California		92707 (Zip Code)
+(Address of Principal Executive Offices)		
+
+TABLE 1
+			
+		
+Title of each class	Trading symbol(s)	Name of each exchange on which registered
+Common Stock , $0.001 par value	TTMI	Nasdaq Global Select Market
+
+TABLE 2
+			
+Large accelerated filer	☑	Accelerated filer	☐
+Non-accelerated filer	☐	Smaller reporting company	☐
+		Emerging growth company	☐
+
+TABLE 3
+					
+Auditor Firm Id:	185	Auditor Name:	KPMG LLP	Auditor Location:	Irvine, CA
+
+TABLE 4
+		
+PART I	
+ITEM 1.	BUSINESS	4
+ITEM 1A.	RISK FACTORS	13
+ITEM 1B.	UNRESOLVED STAFF COMMENTS	24
+ITEM 1C.	CYBERSECURITY	24
+ITEM 2.	PROPERTIES	27
+ITEM 3.	LEGAL PROCEEDINGS	27
+ITEM 4.	MINE SAFETY DISCLOSURES	27
+	
+PART II	
+ITEM 5.	MARKET FOR REGISTRANT’S COMMON EQUITY, RELATED STOCKHOLDER MATTERS, AND ISSUER PURCHASES OF EQUITY SECURITIES	28
+ITEM 6.	RESERVED	29
+ITEM 7.	MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS	30
+ITEM 7A.	QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK	39
+ITEM 8.	FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA	40
+ITEM 9.	CHANGES IN AND DISAGREEMENTS WITH ACCOUNTANTS ON ACCOUNTING AND FINANCIAL DISCLOSURE	41
+ITEM 9A.	CONTROLS AND PROCEDURES	41
+ITEM 9B.	OTHER INFORMATION	41
+ITEM 9C.	DISCLOSURE REGARDING FOREIGN JURISDICTIONS THAT PREVENT INSPECTIONS	42
+	
+PART III	
+ITEM 10.	DIRECTORS, EXECUTIVE OFFICERS, AND CORPORATE GOVERNANCE	43
+ITEM 11.	EXECUTIVE COMPENSATION	43
+ITEM 12.	SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEMENT AND RELATED STOCKHOLDER MATTERS	43
+ITEM 13.	CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS AND DIRECTOR INDEPENDENCE	43
+ITEM 14.	PRINCIPAL ACCOUNTANT FEES AND SERVICES	43
+	
+PART IV	
+ITEM 15.	EXHIBITS, FINANCIAL STATEMENT SCHEDULES	44
+ITEM 16.	FORM 10-K SUMMARY	46
+SIGNATURES	47
+INDEX TO CONSOLIDATED FINANCIAL STATEMENTS	48
+
+TABLE 5
+						
+2025 Repurchase Program		Share repurchase program authorized by the Board of Directors on May 8, 2025		NISPOM		National Industrial Security Program Operating Manual
+A&D		Aerospace and Defense		NOLs		Net operating losses
+ABL Revolving Loans		U.S. ABL and Asia ABL, collectively		OBBBA		One Big Beautiful Bill Act
+AESA		Active electronically scanned array		ODMs		Original design manufacturers
+AI		Artificial intelligence		OECD		Organization for Economic Co-operation and Development
+Asia ABL		Asia Asset-Based Lending Credit Agreement		OEMs		Original equipment manufacturers
+ASICs		Application Specific Integrated Circuits		PCB		Printed circuit board
+ASU		Accounting Standards Update		Plan		2023 Incentive Compensation Plan
+CEO		Chief Executive Officer		PRUs		Performance-based restricted stock units
+CFO		Chief Financial Officer		QTA		Quick turnaround
+CIC		Custom Integrated Circuit		R&D		Research and development
+CIRT		Cybersecurity Incident Response Team		REACH		Registration, Evaluation, Authorisation and Restriction of Chemicals
+CME		Chicago Mercantile Exchange		Report		This Annual Report on Form 10-K for the fiscal year ended December 29, 2025
+CODM		Chief operating decision maker		RF		Radio frequency
+Company		TTM Technologies, Inc.		RF&S Components		RF and Specialty Components
+DCF		Discounted cash flow		RMB		Renminbi
+DCSA		Defense Counterintelligence and Security Agency		RoHS		Restriction of Hazardous Substances
+DFM		Design-for-manufacturability		ROU		Right-of-use
+DoW		U.S. Department of War		RSUs		Restricted stock units
+EAR		Export Administration Regulations		SBR		Special Board Resolution
+EBITDA		Earnings before interest, tax, depreciation, and amortization expense		SEC		Securities and Exchange Commission
+EMS		Electronic manufacturing services		SH E-MS		Shanghai E-MS
+ERP		Enterprise resource planning system		SLP		Substrate-like PCB
+Exchange Act		Securities Exchange Act of 1934, as amended		SOFR		Secured Overnight Financing Rate
+FASB		Financial Accounting Standards Board		SSA		Special Security Agreement
+FCPA		Foreign Corrupt Practices Act		SVHCs		Substances of Very High Concern
+Guarantors		Subsidiary Guarantors of the Company, subject to certain exceptions		SVP-IT		Senior Vice President of Information Technology
+HDI		High-Density Interconnect		Telephonics		Telephonics Corporation and ISC Farmingdale Corp.
+HNTE		High and new technology enterprise		Term Loan Facility		First Amendment, dated as of August 1, 2024, to that certain Amended and Restated Term Loan Credit Agreement, dated as of May 30, 2023
+IC		Integrated circuit		TSR		Total stockholder return
+IFF		Identification Friend or Foe		TTM		TTM Technologies, Inc.
+IT		Information technology		U.S. ABL		U.S. Asset-Based Lending Credit Agreement
+ITAR		International Traffic in Arms Regulations		U.S. ABL Priority Collateral		Perfected first priority security interest in certain deposit accounts, cash and cash equivalents, accounts receivable, and certain U.S. inventory
+MIDA		Malaysia Investment Development Authority		U.S. GAAP		Accounting principles generally accepted in the United States of America
+MYR		Malaysian ringgit		USG		U.S. federal government
+
+TABLE 6
+														
+U.S. Locations		Operating Segment		Leased Square Feet			Owned Square Feet			Total Square Feet	
+Chippewa Falls, WI		A&D			—				280,000				280,000	
+Eau Claire, WI		Commercial			—				715,000				715,000	
+Farmingdale, NY		A&D			—				172,000				172,000	
+Forest Grove, OR		A&D			—				212,000				212,000	
+Littleton, CO		A&D			27,000				63,000				90,000	
+Logan, UT		Commercial			12,000				118,000				130,000	
+North Jackson, OH		A&D			—				85,000				85,000	
+Salem, NH		A&D			44,000				—				44,000	
+San Diego, CA		A&D			43,000				—				43,000	
+San Jose, CA		Commercial			42,000				—				42,000	
+Santa Ana, CA (1)		Headquarters			14,000				—				14,000	
+Santa Ana, CA		A&D			18,000				83,000				101,000	
+Stafford, CT		A&D			—				130,000				130,000	
+Stafford Springs, CT		A&D			—				116,000				116,000	
+Sterling, VA (2)		A&D			101,000				—				101,000	
+Syracuse, NY (3)		A&D and RF&S Components			38,000				378,000				416,000	
+Total					339,000				2,352,000				2,691,000	
+
+TABLE 7
+														
+Foreign Locations		Operating Segment		Leased Square Feet			Owned Square Feet			Total Square Feet	
+Canada											
+Toronto		Commercial			16,000				139,000				155,000	
+Malaysia											
+Penang		Commercial			876,000				—				876,000	
+China											
+Dongguan		Commercial			—				1,292,000				1,292,000	
+Guangzhou		Commercial			—				2,251,000				2,251,000	
+Hong Kong (1)		Asia Headquarters			—				25,000				25,000	
+Huiyang		Commercial			—				518,000				518,000	
+Suzhou		RF&S Components			68,000				—				68,000	
+Zhongshan		Commercial			192,000				1,298,000				1,490,000	
+Total					1,152,000				5,523,000				6,675,000	
+
+TABLE 8
+																							
+	12/28/2020			1/3/2022			1/2/2023			1/1/2024			12/30/2024			12/29/2025	
+TTM Technologies, Inc.	$	100.00			$	110.11			$	109.67			$	114.98			$	179.64			$	517.89	
+Nasdaq Composite		100.00				122.18				82.43				119.22				154.48				187.14	
+Dow Jones U.S. Electrical Components & Equipment		100.00				125.35				103.42				132.15				176.57				236.57	
+
+TABLE 9
+									
+		For the Year Ended
+		December 29, 2025 (1)		December 30, 2024 (1)		January 1, 2024 (1)
+End Markets (2) :									
+Aerospace and Defense		44	%		46	%		46	%
+Automotive		10			13			16	
+Data Center Computing		24			20			14	
+Medical/Industrial/Instrumentation		14			14			16	
+Networking		8			7			8	
+Total		100	%		100	%		100	%
+
+TABLE 10
+												
+		For the Year Ended	
+		December 29, 2025			December 30, 2024			January 1, 2024	
+		(In thousands, except margin rates)	
+Net sales		$	2,906,345			$	2,442,753			$	2,232,567	
+Cost of goods sold			2,304,659				1,965,378				1,819,299	
+Gross profit			601,686				477,375				413,268	
+Gross margin			20.7	%			19.5	%			18.5	%
+Operating expenses:									
+Selling and marketing			85,460				80,030				76,922	
+General and administrative			192,149				170,107				149,631	
+Research and development			28,992				31,845				27,272	
+Amortization of definite-lived intangibles			27,554				35,550				48,675	
+Impairment of goodwill		—				32,600				44,100	
+Restructuring charges			2,847				11,200				24,352	
+Total operating expenses			337,002				361,332				370,952	
+Operating income			264,684				116,043				42,316	
+Operating margin			9.1	%			4.8	%			1.9	%
+Total other expense, net			(54,347	)			(32,094	)			(42,019	)
+Income tax provision			(32,889	)			(27,650	)			(19,015	)
+Net income (loss)		$	177,448			$	56,299			$	(18,718	)
+
+TABLE 11
+												
+		For the Year Ended	
+		December 29, 2025			December 30, 2024			January 1, 2024	
+		(In thousands, except margin rates)	
+Segment sales:									
+A&D		$	1,292,523			$	1,139,955			$	1,045,983	
+Commercial			1,585,701				1,275,701				1,164,672	
+RF&S Components			40,014				37,317				38,619	
+Total		$	2,918,238			$	2,452,973			$	2,249,274	
+Segment operating income:									
+A&D		$	183,813			$	141,800			$	95,021	
+Commercial			238,781				179,782				171,379	
+RF&S Components			11,253				8,666				10,955	
+Total			433,847				330,248				277,355	
+Segment operating margin rate:									
+A&D			14.2	%			12.4	%			9.1	%
+Commercial			15.1	%			14.1	%			14.7	%
+RF&S Components			28.1	%			23.2	%			28.4	%
+Total			14.9	%			13.5	%			12.3	%
+Unallocated amounts:									
+Restructuring			(2,847	)			(11,200	)			(24,352	)
+Impairment of goodwill		—				(32,600	)			(44,100	)
+Gain on sale of property, plant, and equipment		—				15,669				195	
+Acquisition-related and other charges			(15	)			(14,524	)			(4,529	)
+Stock-based compensation			(41,668	)			(29,780	)			(22,887	)
+Other corporate expenses			(87,736	)			(96,878	)			(77,790	)
+Amortization of definite-lived intangibles (1)			(36,897	)			(44,892	)			(61,576	)
+Operating income		$	264,684			$	116,043			$	42,316	
+
+TABLE 12
+																																	
+	As of December 29, 2025
+		2026			2027			2028			2029			2030			Total			Fair Value			Weighted Average Interest Rate
+		(In thousands, except interest rates)
+US$ Variable Rate (1)		$	3,465			$	4,331			$	83,465			$	2,599			$	328,309			$	422,169			$	425,806				5.79		%
+US$ Fixed Rate			350				404				363				500,419				445				501,981				490,306				4.01		
+Total		$	3,815			$	4,735			$	83,828			$	503,018			$	328,754			$	924,150			$	916,112					
+
+TABLE 13
+												
+Name and Title		Action		Adoption / Termination Date		Rule 10b5-1 (1)		Non-Rule 10b5-1 (2)		Total Number of Shares of Common Stock to be Sold (3)		Expiration Date
+Daniel L. Boehle ( Executive Vice President and CFO )		Termination		November 17, 2025		X				Indeterminable (4)		August 31, 2026
+
+TABLE 14
+												
+Name and Title		Action		Adoption / Termination Date		Rule 10b5-1 (1)		Non-Rule 10b5-1 (2)		Total Number of Shares of Common Stock to be Sold (3)		Expiration Date
+Thomas Clapprood ( President, Radar Systems and Sensors Business Unit )		Termination		November 17, 2025		X				Indeterminable (4)		June 30, 2026
+Thomas T. Edman ( Director )		Termination		November 20 , 2025		X				Indeterminable (4)		June 30, 2026
+Robert Farrell ( President, Communication and Computing Business Unit )		Termination		November 18, 2025		X				Indeterminable (4)		June 30, 2026
+Catherine A. Gridley ( Executive Vice President and President, Aerospace & Defense Sector )		Terminatio n		November 17 , 2025		X				Indeterminable (4)		June 30, 2026
+Dale Knecht ( Senior Vice President of Global Information Technology )		Terminatio n		November 24 , 2025		X				Indeterminable (4)		June 30, 2026
+Shawn Powers ( Executive Vice President and Chief Human Resources Officer )		Terminatio n		November 24 , 2025		X				Indeterminable (4)		June 30, 2026
+Shawn Powers ( Executive Vice President and Chief Human Resources Officer )		Termination		November 13, 2025		X				Up to 15,000		November 30, 2026
+Douglas L. Soder ( Executive Vice President and President, Commercial Sector )		Termination		November 13 , 2025		X				Up to 25,000		November 30, 2026
+Douglas L. Soder ( Executive Vice President and President, Commercial Sector )		Termination		November 17 , 2025		X				Indeterminable (4)		June 30, 2026
+Steven Spoto ( President, Integrated Electronics Business Unit )		Termination		November 19 , 2025		X				Indeterminable (4)		August 12, 2026
+James P. Walsh ( Chief Operating Officer )		Termination		November 17 , 2025		X				Indeterminable (4)		June 30, 2026
+Daniel J. Weber ( Executive Vice President, Chief Legal Officer and Secretary )		Termination		November 17, 2025		X				Indeterminable (4)		June 30, 2026
+
+TABLE 15
+												
+												
+Exhibit				Filed/Furnished		Incorporated by Reference
+Number		Exhibit Description		Herewith		Form		File Number		Exhibit		Filing Date
+												
+2.1		Stock Purchase Agreement, dated as of April 18, 2022, by and among TTM Technologies, Inc., Griffon Corporation, and Exphonics, Inc.				8-K		000-31285		2.1		June 27, 2022
+												
+3.1(a)		Registrant’s Certificate of Incorporation, as amended June 3, 2011				8-K		000-31285		3.1		June 6, 2011
+												
+3.1(b)		TTM Technologies, Inc. Amended and Restated Certificate of Incorporation, effective May 8, 2024				8-K		000-31285		3.1		May 10, 2024
+												
+3.1(c)		Certificate of Correction of the Amended and Restated Certificate of Incorporation, filed June 10, 2024				8-K/A		000-31285		3.3		June 10, 2024
+												
+3.2		TTM Technologies, Inc. Sixth Amended and Restated Bylaws				8-K		000-31285		3.2		May 10, 2024
+												
+4.1		Form of Registrant’s common stock certificate				8-K		000-31285		4.1		August 30, 2005
+												
+4.2		Description of the Registrant’s Securities				10-K		000-31285		4.2		February 21, 2025
+												
+4.3		Indenture dated as of March 10, 2021, by and among the Company, the Guarantors named therein, and Wilmington Trust, National Association, as Trustee				8-K		000-31285		4.1		March 10, 2021
+												
+4.4		Form of 4.000% Senior Notes due 2029				8-K		000-31285		4.1 (1)		March 10, 2021
+												
+10.1‡		Form of Director and Officer Indemnification Agreement				8-K		000-31285		10.1		December 15, 2014
+												
+10.2‡		Executive and Director Deferred Compensation Plan				8-K		000-31285		10.25		September 19, 2011
+												
+10.3‡		Form of Executive Change in Control Severance Agreement and schedule of agreements				10-Q		000-31285		10.4		May 5, 2015
+												
+10.4‡		TTM Technologies, Inc. 2006 Incentive Compensation Plan				10-K		000-31285		10.6		March 16, 2007
+												
+10.5‡		TTM Technologies, Inc. 2014 Incentive Compensation Plan, as amended				8-K		000-31285		10.1		May 18, 2016
+												
+10.6‡		TTM Technologies, Inc. Form of Restricted Stock Unit Award Grant Notice (for U.S. taxpayers) pursuant to TTM Technologies, Inc. 2014 Incentive Compensation Plan				10-Q		000-31285		10.1		August 4, 2016
+												
+10.7‡		TTM Technologies, Inc. Form of Restricted Stock Unit Award Grant Notice (for non-U.S. taxpayers) pursuant to TTM Technologies, Inc. 2014 Incentive Compensation Plan				10-Q		000-31285		10.2		May 5, 2015
+												
+10.8‡		TTM Technologies, Inc. Form of Performance-Based RSU Grant Notice and Award Agreement pursuant to TTM Technologies, Inc. 2014 Incentive Compensation Plan				10-Q		000-31285		10.2		August 4, 2016
+
+TABLE 16
+												
+												
+												
+10.9‡		TTM Technologies, Inc. Form of Restricted Stock Unit Award Grant Notice (for non-employee directors) pursuant to TTM Technologies, Inc. 2014 Incentive Compensation Plan				10-Q		000-31285		10.1		August 10, 2015
+												
+10.10‡		TTM Technologies, Inc. 2023 Incentive Compensation Plan				S-8		333-272490		99.1		June 7, 2023
+												
+10.11‡		TTM Technologies, Inc. 2023 Form of Restricted Stock Unit Award Grant Notice and Award Agreement (for U.S. taxpayers) pursuant to TTM Technologies, Inc. 2023 Incentive Compensation Plan				10-Q		000-31285		10.5		August 10, 2023
+												
+10.12‡		TTM Technologies, Inc. 2023 Form of Restricted Stock Unit Award Grant Notice and Award Agreement (for non-U.S. taxpayers) pursuant to TTM Technologies, Inc. 2023 Incentive Compensation Plan				10-Q		000-31285		10.6		August 10, 2023
+												
+10.13‡		TTM Technologies, Inc. 2023 Form of Performance-Based RSU Grant Notice and Award Agreement pursuant to TTM Technologies, Inc. 2023 Incentive Compensation Plan				10-Q		000-31285		10.7		August 10, 2023
+												
+10.14‡		TTM Technologies, Inc. 2024 Form of Restricted Stock Unit Award Grant Notice (for non-employee directors) pursuant to TTM Technologies, Inc. 2023 Incentive Compensation Plan				10-K		000-31285		10.14		February 21, 2025
+												
+10.15‡		Letter Agreement, dated as of July 28, 2023, by and between the Company and Daniel L. Boehle				8-K		000-31285		10.1		August 2, 2023
+												
+10.16		Amended & Restated Facility Agreement, dated as of June 14, 2023, by and among TTM Technologies China Limited and TTM Technologies Trading (Asia) Company Limited, as borrowers, TTM Technologies (Asia Pacific) Limited and other parties as guarantors, The Hong Kong and Shanghai Banking Corporation Limited and Barclays Bank PLC as original lenders, and The Hong Kong and Shanghai Banking Corporation Limited as arranger, facility agent, security trustee and issuing bank				8-K		000-31285		10.1		June 20, 2023
+												
+10.17		First Amendment, dated as of June 10, 2024, to that certain Amended and Restated ABL Credit Agreement, dated as of May 30, 2023, by and among TTM Technologies, Inc., as Borrower, the several Lenders from time to time parties thereto, JPMorgan Chase Bank, N.A., as Administrative Agent, Barclays Bank PLC, Bank of America, N.A. and Truist Securities, Inc. as Syndication Agents, and HSBC Securities (USA) Inc., as Documentation Agent				10-Q		000-31285		10.1		August 6, 2024
+												
+10.18		First Amendment, dated as of August 1, 2024, to that certain Amended and Restated Term Loan Credit Agreement, dated as of May 30, 2023, by and among TTM Technologies, Inc., as Borrower, JPMorgan Chase Bank, N.A., as Administrative Agent, and the several lenders from time to time parties thereto				10-Q		000-31285		10.2		August 6, 2024
+												
+
+TABLE 17
+												
+												
+10.19‡		Letter Agreement, dated as of August 14, 2025, by and between the Company and Edwin Roks				8-K		000-31285		10.1		August 14, 2025
+												
+10.20‡		Form of First Amendment to Performance-Based RSU Grant Notice Award Agreement by and between TTM Technologies, Inc. and Thomas Edman				8-K		000-31285		10.2		August 14, 2025
+												
+19		TTM Technologies, Inc. Insider Trading Policy				10-K		000-31285		19		February 21, 2025
+												
+21.1		Subsidiaries of the Registrant		X								
+												
+23.1		Consent of KPMG LLP, independent registered public accounting firm		X								
+												
+31.1		CEO Certification Pursuant to Section 302 of the Sarbanes-Oxley Act of 2002		X								
+												
+31.2		CFO Certification Pursuant to Section 302 of the Sarbanes-Oxley Act of 2002		X								
+												
+32.1*		CEO Certification Pursuant to Section 906 of the Sarbanes-Oxley Act of 2002		X								
+												
+32.2*		CFO Certification Pursuant to Section 906 of the Sarbanes-Oxley Act of 2002		X								
+												
+97		TTM Technologies, Inc. Executive Compensation Recoupment Policy				10-K		000-31285		97		February 27, 2024
+												
+101.INS		Inline XBRL Instance Document – the instance document does not appear in the Interactive Data File because its XBRL tags are embedded within the inline XBRL document.										
+												
+101.SCH		Inline XBRL Taxonomy Extension Schema With Embedded Linkbase Documents										
+												
+104		Cover Page Interactive Data File (formatted as inline XBRL and contained in Exhibit 101)										
+
+TABLE 18
+		
+TTM TECHNOLOGIES, INC.
+		
+By:		/s/    Edwin Roks
+		Edwin Roks President and Chief Executive Officer
+
+TABLE 19
+				
+				
+Name		Title		Date
+				
+/s/    Edwin Roks Edwin Roks		President, Chief Executive Officer, and Director (Principal Executive Officer)		February 13, 2026
+				
+/s/    Daniel L. Boehle Daniel L. Boehle		Executive Vice President and Chief Financial Officer (Principal Financial Officer and Principal Accounting Officer)		February 13, 2026
+				
+/s/    Rex D. Geveden Rex D. Geveden		Chairman of the Board		February 13, 2026
+				
+/s/    Wajid Ali Wajid Ali		Director		February 13, 2026
+				
+/s/    Thomas T. Edman		Director		February 13, 2026
+Thomas T. Edman
+				
+/s/    Julie S. England Julie S. England		Director		February 13, 2026
+				
+/s/    Philip G. Franklin Philip G. Franklin		Director		February 13, 2026
+				
+/s/    Pamela B. Jackson Pamela B. Jackson		Director		February 13, 2026
+				
+/s/    Chantel E. Lenard Chantel E. Lenard		Director		February 13, 2026
+				
+/s/    John G. Mayer John G. Mayer		Director		February 13, 2026
+				
+
+TABLE 20
+	
+Report of Independent Registered Public Accounting Firm	49
+Consolidated Balance Sheets as of December 29, 2025 and December 30, 2024	51
+Consolidated Statements of Operations for the Years Ended December 29, 2025, December 30, 2024, and January 1, 2024	52
+Consolidated Statements of Comprehensive Income (Loss) for the Years Ended December 29, 2025, December 30, 2024, and January 1, 2024	53
+Consolidated Statements of Stockholders’ Equity for the Years Ended December 29, 2025, December 30, 2024, and January 1, 2024	54
+Consolidated Statements of Cash Flows for the Years Ended December 29, 2025, December 30, 2024, and January 1, 2024	55
+Notes to Consolidated Financial Statements	56
+
+TABLE 21
+								
+		As of	
+		December 29, 2025			December 30, 2024	
+		(In thousands, except par value)	
+ASSETS						
+Current assets:						
+Cash and cash equivalents		$	501,234			$	503,932	
+Accounts receivable, net			563,741				448,611	
+Contract assets			468,006				381,382	
+Inventories			250,057				224,985	
+Prepaid expenses and other current assets			72,368				47,834	
+Total current assets			1,855,406				1,606,744	
+Property, plant, and equipment, net			1,010,710				869,957	
+Operating lease right-of-use assets			80,914				78,252	
+Goodwill			670,135				670,135	
+Definite-lived intangibles, net			154,922				191,819	
+Deposits and other non-current assets			68,244				55,587	
+Total assets		$	3,840,331			$	3,472,494	
+						
+LIABILITIES AND STOCKHOLDERS' EQUITY						
+Current liabilities:						
+Short-term debt, including current portion of long-term debt		$	3,815			$	3,795	
+Accounts payable			543,538				406,221	
+Contract liabilities			175,627				170,915	
+Accrued salaries, wages, and benefits			132,967				108,149	
+Other current liabilities			106,250				119,974	
+Total current liabilities			962,197				809,054	
+Long-term debt, net of discount and issuance costs			912,336				914,359	
+Operating lease liabilities			87,524				77,509	
+Other long-term liabilities			116,021				107,748	
+Total long-term liabilities			1,115,881				1,099,616	
+Commitments and contingencies (Note 11)						
+Equity:						
+Common stock, $ 0.001 par value; 300,000 shares authorized, 115,197 and 113,161 shares issued as of December 29, 2025 and December 30, 2024, respectively; 103,379 and 101,997 shares outstanding as of December 29, 2025 and December 30, 2024, respectively			115				113	
+Treasury stock – common stock at cost; 11,818 and 11,164 shares as of December 29, 2025 and December 30, 2024, respectively			( 174,744	)			( 157,570	)
+Additional paid-in capital			951,942				910,741	
+Retained earnings			1,015,870				838,422	
+Accumulated other comprehensive loss			( 30,930	)			( 27,882	)
+Total stockholders’ equity			1,762,253				1,563,824	
+Total liabilities and stockholders' equity		$	3,840,331			$	3,472,494	
+
+TABLE 22
+												
+		For the Year Ended	
+		December 29, 2025			December 30, 2024			January 1, 2024	
+		(In thousands, except per share data)	
+Net sales		$	2,906,345			$	2,442,753			$	2,232,567	
+Cost of goods sold			2,304,659				1,965,378				1,819,299	
+Gross profit			601,686				477,375				413,268	
+Operating expenses:									
+Selling and marketing			85,460				80,030				76,922	
+General and administrative			192,149				170,107				149,631	
+Research and development			28,992				31,845				27,272	
+Amortization of definite-lived intangibles			27,554				35,550				48,675	
+Impairment of goodwill			—				32,600				44,100	
+Restructuring charges			2,847				11,200				24,352	
+Total operating expenses			337,002				361,332				370,952	
+Operating income			264,684				116,043				42,316	
+Other (expense) income:									
+Interest expense			( 45,334	)			( 47,515	)			( 48,124	)
+Loss on extinguishment of debt			—				—				( 1,154	)
+Gain on sale of subsidiary			—				—				1,270	
+Other, net			( 9,013	)			15,421				5,989	
+Total other expense, net			( 54,347	)			( 32,094	)			( 42,019	)
+Income before income taxes			210,337				83,949				297	
+Income tax provision			( 32,889	)			( 27,650	)			( 19,015	)
+Net income (loss)		$	177,448			$	56,299			$	( 18,718	)
+									
+Earnings (loss) per share:									
+Basic earnings (loss) per share		$	1.73			$	0.55			$	( 0.18	)
+Diluted earnings (loss) per share			1.68				0.54				( 0.18	)
+
+TABLE 23
+												
+		For the Year Ended	
+		December 29, 2025			December 30, 2024			January 1, 2024	
+		(In thousands)	
+Net income (loss)		$	177,448			$	56,299			$	( 18,718	)
+Other comprehensive (loss) income, net of tax:									
+Pension obligation adjustments, net			( 721	)			1,082				1,251	
+Foreign currency translation adjustments, net			383				( 897	)			( 249	)
+Derecognition of foreign currency translation adjustments due to sale of subsidiary			—				—				( 6,627	)
+Net unrealized (loss) gain on cash flow hedges:									
+Unrealized (loss) gain on effective cash flow hedges during the period, net			( 1,592	)			4,147				4,061	
+Amounts realized in the statement of operations, net			( 1,118	)			( 3,147	)			( 2,713	)
+Net			( 2,710	)			1,000				1,348	
+Other comprehensive (loss) income, net of tax			( 3,048	)			1,185				( 4,277	)
+Comprehensive income (loss), net of tax		$	174,400			$	57,484			$	( 22,995	)
+
+TABLE 24
+																																
+		Common Stock			Treasury Stock			Additional Paid-In			Retained			Accumulated Other Comprehensive			Total Stockholders’	
+		Shares			Amount			Shares			Amount			Capital			Earnings			Loss			Equity	
+		(In thousands)	
+Balance, January 2, 2023			109,598			$	110				( 7,370	)		$	( 98,659	)		$	858,077			$	800,841			$	( 24,790	)		$	1,535,579	
+Net loss			—				—				—				—				—				( 18,718	)			—				( 18,718	)
+Other comprehensive loss			—				—				—				—				—				—				( 4,277	)			( 4,277	)
+Issuance of common stock for performance-based restricted stock units			337				—				—				—				—				—				—				—	
+Issuance of common stock for restricted stock units			1,347				1				—				—				( 1	)			—				—				—	
+Repurchases of common stock			—				—				( 1,804	)			( 24,432	)			—				—				—				( 24,432	)
+Stock-based compensation			—				—				—				—				22,887				—				—				22,887	
+Balance, January 1, 2024			111,282			$	111				( 9,174	)		$	( 123,091	)		$	880,963			$	782,123			$	( 29,067	)		$	1,511,039	
+Net income			—				—				—				—				—				56,299				—				56,299	
+Other comprehensive income			—				—				—				—				—				—				1,185				1,185	
+Issuance of common stock for performance-based restricted stock units			227				1				—				—				( 1	)			—				—				—	
+Issuance of common stock for restricted stock units			1,652				1				—				—				( 1	)			—				—				—	
+Repurchases of common stock			—				—				( 1,990	)			( 34,479	)			—				—				—				( 34,479	)
+Stock-based compensation			—				—				—				—				29,780				—				—				29,780	
+Balance, December 30, 2024			113,161			$	113				( 11,164	)		$	( 157,570	)		$	910,741			$	838,422			$	( 27,882	)		$	1,563,824	
+Net income			—				—				—				—				—				177,448				—				177,448	
+Other comprehensive loss			—				—				—				—				—				—				( 3,048	)			( 3,048	)
+Exercise of stock options			—				—				20				300				( 64	)			—				—				236	
+Issuance of common stock for performance-based restricted stock units			305				—				—				—				—				—				—				—	
+Issuance of stock for restricted stock units			1,731				2				26				401				( 403	)			—				—				—	
+Repurchases of common stock			—				—				( 700	)			( 17,875	)			—				—				—				( 17,875	)
+Stock-based compensation			—				—				—				—				41,668				—				—				41,668	
+Balance, December 29, 2025			115,197			$	115				( 11,818	)		$	( 174,744	)		$	951,942			$	1,015,870			$	( 30,930	)		$	1,762,253	
+
+TABLE 25
+												
+		For the Year Ended	
+		December 29, 2025			December 30, 2024			January 1, 2024	
+		(In thousands)	
+Cash flows from operating activities:									
+Net income (loss)		$	177,448			$	56,299			$	( 18,718	)
+Adjustments to reconcile net income (loss) to net cash provided by operating activities:									
+Depreciation of property, plant, and equipment			110,274				105,233				99,155	
+Amortization of definite-lived intangible assets			36,897				44,892				61,576	
+Amortization of debt discount and issuance costs			2,157				2,042				2,205	
+Loss on extinguishment of debt			—				—				1,154	
+Deferred income taxes			3,349				( 1,722	)			( 11,347	)
+Stock-based compensation			41,668				29,780				22,887	
+Impairment of goodwill			—				32,600				44,100	
+Gain on sale of subsidiary			—				—				( 1,270	)
+Other			5,376				( 1,899	)			( 516	)
+Changes in operating assets and liabilities:									
+Accounts receivable, net			( 115,130	)			( 35,054	)			49,936	
+Contract assets			( 86,624	)			( 89,332	)			42,589	
+Inventories			( 25,072	)			( 11,910	)			( 45,392	)
+Prepaid expenses and other assets			( 22,489	)			( 2,688	)			( 6,034	)
+Accounts payable			138,971				49,719				( 34,582	)
+Contract liabilities			4,712				44,407				22,527	
+Accrued salaries, wages, and benefits			24,038				9,588				( 16,447	)
+Other liabilities			( 3,693	)			4,939				( 24,539	)
+Net cash provided by operating activities			291,882				236,894				187,284	
+Cash flows from investing activities:									
+Purchases of property, plant, and equipment and other assets			( 292,565	)			( 185,739	)			( 160,242	)
+Proceeds from capital-related government incentives			17,844				—				—	
+Proceeds from sale of property, plant, and equipment and other assets			781				32,868				505	
+Proceeds from sale of SH E-MS property			—				6,737				61,769	
+Proceeds from sale of subsidiary, net of cash disposed			—				—				6,039	
+Other			—				( 76	)			( 101	)
+Net cash used in investing activities			( 273,940	)			( 146,210	)			( 92,030	)
+Cash flows from financing activities:									
+Repurchases of common stock			( 17,875	)			( 34,479	)			( 24,432	)
+Repayment of long-term debt borrowings			( 3,795	)			( 9,596	)			( 291,572	)
+Customer deposits			1,500				—				—	
+Proceeds from exercise of stock options			236				—				—	
+Proceeds from long-term debt borrowings			—				8,416				234,818	
+Payment of debt issuance costs			—				( 1,162	)			( 5,487	)
+Proceeds from borrowings of revolving loan			—				—				50,000	
+Refund of customer deposits			—				—				( 7,500	)
+Payment of original issue discount			—				—				( 3,500	)
+Other			( 987	)			—				—	
+Net cash used in financing activities			( 20,921	)			( 36,821	)			( 47,673	)
+Effect of foreign currency exchange rates on cash and cash equivalents			281				( 139	)			( 122	)
+Net (decrease) increase in cash and cash equivalents			( 2,698	)			53,724				47,459	
+Cash and cash equivalents at beginning of period			503,932				450,208				402,749	
+Cash and cash equivalents at end of period		$	501,234			$	503,932			$	450,208	
+Supplemental cash flow information:									
+Cash paid, net for interest		$	46,197			$	48,988			$	47,884	
+Cash paid, net for income taxes			37,437				18,766				53,751	
+Supplemental disclosure of non-cash investing and financing activities:									
+Property, plant, and equipment recorded in accounts payable and other current liabilities		$	62,842			$	77,403			$	117,299	
+Cashless rollover of debt			—				340,395				115,182	
+
+TABLE 26
+		
+Land use rights		50 - 99 years
+Buildings and improvements		7 - 50 years
+Machinery and equipment		3 - 10 years
+Furniture and fixtures		3 - 7 years
+
+TABLE 27
+												
+		For the Year Ended	
+		December 29, 2025			December 30, 2024			January 1, 2024	
+		(In thousands)	
+Balance at beginning of year		$	10,777			$	12,301			$	12,319	
+Addition charged as a reduction of sales			4,831				2,787				4,692	
+Deductions			( 3,238	)			( 4,281	)			( 4,719	)
+Effect of foreign currency exchange rates			22				( 30	)			9	
+Balance at end of year		$	12,392			$	10,777			$	12,301	
+
+TABLE 28
+																
+		For the Year Ended December 29, 2025	
+		A&D			Commercial			RF&S Components			Total	
+		(In thousands)	
+End Markets (1) :												
+Aerospace and Defense		$	1,281,536			$	—			$	—			$	1,281,536	
+Automotive			—				302,194				—				302,194	
+Data Center Computing			—				682,374				1,019				683,393	
+Medical/Industrial/Instrumentation			—				405,132				4,329				409,461	
+Networking			—				195,151				34,610				229,761	
+Total		$	1,281,536			$	1,584,851			$	39,958			$	2,906,345	
+
+TABLE 29
+																
+		For the Year Ended December 30, 2024	
+		A&D			Commercial			RF&S Components			Total	
+		(In thousands)	
+End Markets (1) :												
+Aerospace and Defense		$	1,130,781			$	—			$	—			$	1,130,781	
+Automotive			—				315,125				—				315,125	
+Data Center Computing			—				500,798				619				501,417	
+Medical/Industrial/Instrumentation			—				332,346				2,809				335,155	
+Networking			—				126,565				33,710				160,275	
+Total		$	1,130,781			$	1,274,834			$	37,138			$	2,442,753	
+
+TABLE 30
+																
+		For the Year Ended January 1, 2024	
+		A&D			Commercial			RF&S Components			Total	
+		(In thousands)	
+End Markets (1) :												
+Aerospace and Defense		$	1,030,491			$	—			$	18			$	1,030,509	
+Automotive			—				351,477				—				351,477	
+Data Center Computing			—				313,378				51				313,429	
+Medical/Industrial/Instrumentation			—				357,264				3,448				360,712	
+Networking			—				141,436				35,004				176,440	
+Total		$	1,030,491			$	1,163,555			$	38,521			$	2,232,567	
+
+TABLE 31
+																					
+		For the Year Ended December 29, 2025
+		A&D			Commercial			RF&S Components			Eliminations			Total
+		(In thousands, except margin rates)
+Net sales		$	1,281,536			$	1,584,851			$	39,958			$	—			$	2,906,345		
+Intersegment sales			10,987				850				56				( 11,893	)			—		
+Segment sales		$	1,292,523			$	1,585,701			$	40,014			$	( 11,893	)		$	2,906,345		
+																
+		Net Sales			Cost of Goods Sold			Operating Expenses			Operating Income			Operating Margin
+A&D		$	1,292,523			$	( 988,792	)		$	( 119,918	)		$	183,813				14.2		%
+Commercial			1,585,701				( 1,271,779	)			( 75,141	)			238,781				15.1		
+RF&S Components			40,014				( 19,640	)			( 9,121	)			11,253				28.1		
+Total segment			2,918,238				( 2,280,211	)			( 204,180	)			433,847				14.9		
+Eliminations			( 11,893	)									—					
+Unallocated amounts:																
+Restructuring												( 2,847	)				
+Acquisition-related and other charges												( 15	)				
+Stock-based compensation												( 41,668	)				
+Other corporate expenses												( 87,736	)				
+Amortization of definite-lived intangibles												( 36,897	)				
+Consolidated		$	2,906,345										264,684				9.1		%
+Interest expense												( 45,334	)				
+Other, net												( 9,013	)				
+Income before income taxes											$	210,337					
+
+TABLE 32
+																					
+		For the Year Ended December 30, 2024
+		A&D			Commercial			RF&S Components			Eliminations			Total
+		(In thousands, except margin rates)
+Net sales		$	1,130,781			$	1,274,834			$	37,138			$	—			$	2,442,753		
+Intersegment sales			9,174				867				179				( 10,220	)			—		
+Segment sales		$	1,139,955			$	1,275,701			$	37,317			$	( 10,220	)		$	2,442,753		
+																
+		Net Sales			Cost of Goods Sold			Operating Expenses			Operating Income			Operating Margin
+A&D		$	1,139,955			$	( 883,450	)		$	( 114,705	)		$	141,800				12.4		%
+Commercial			1,275,701				( 1,029,647	)			( 66,272	)			179,782				14.1		
+RF&S Components			37,317				( 19,139	)			( 9,512	)			8,666				23.2		
+Total segment			2,452,973				( 1,932,236	)			( 190,489	)			330,248				13.5		
+Eliminations			( 10,220	)									—					
+Unallocated amounts:																
+Restructuring												( 11,200	)				
+Impairment of goodwill												( 32,600	)				
+Gain on sale of property, plant, and equipment												15,669					
+Acquisition-related and other charges												( 14,524	)				
+Stock-based compensation												( 29,780	)				
+Other corporate expenses												( 96,878	)				
+Amortization of definite-lived intangibles												( 44,892	)				
+Consolidated		$	2,442,753										116,043				4.8		%
+Interest expense												( 47,515	)				
+Other, net												15,421					
+Income before income taxes											$	83,949					
+
+TABLE 33
+																					
+		For the Year Ended January 1, 2024
+		A&D			Commercial			RF&S Components			Eliminations			Total
+		(In thousands, except margin rates)
+Net sales		$	1,030,491			$	1,163,555			$	38,521			$	—			$	2,232,567		
+Intersegment sales			15,492				1,117				98				( 16,707	)			—		
+Segment sales		$	1,045,983			$	1,164,672			$	38,619			$	( 16,707	)		$	2,232,567		
+																
+		Net Sales			Cost of Goods Sold			Operating Expenses			Operating Income			Operating Margin
+A&D		$	1,045,983			$	( 847,452	)		$	( 103,510	)		$	95,021				9.1		%
+Commercial			1,164,672				( 930,144	)			( 63,149	)			171,379				14.7		
+RF&S Components			38,619				( 17,540	)			( 10,124	)			10,955				28.4		
+Total segment			2,249,274				( 1,795,136	)			( 176,783	)			277,355				12.3		
+Eliminations			( 16,707	)									—					
+Unallocated amounts:																
+Restructuring												( 24,352	)				
+Impairment of goodwill												( 44,100	)				
+Gain on sale of property, plant, and equipment												195					
+Acquisition-related and other charges												( 4,529	)				
+Stock-based compensation												( 22,887	)				
+Other corporate expenses												( 77,790	)				
+Amortization of definite-lived intangibles												( 61,576	)				
+Consolidated		$	2,232,567										42,316				1.9		%
+Interest expense												( 48,124	)				
+Loss on extinguishment of debt												( 1,154	)				
+Gain on sale of subsidiary												1,270					
+Other, net												5,989					
+Income before income taxes											$	297					
+
+TABLE 34
+												
+		For the Year Ended	
+		December 29, 2025			December 30, 2024			January 1, 2024	
+		(In thousands)	
+A&D		$	33,770			$	36,998			$	42,587	
+Commercial			68,904				58,234				48,370	
+RF&S Components			1,765				1,693				1,833	
+Segment total			104,439				96,925				92,790	
+Corporate			5,835				8,308				6,365	
+Total		$	110,274			$	105,233			$	99,155	
+
+TABLE 35
+												
+		For the Year Ended	
+		December 29, 2025			December 30, 2024			January 1, 2024	
+		(In thousands)	
+United States		$	1,554,258			$	1,232,288			$	1,263,065	
+Taiwan			256,995				274,345				177,042	
+Other			1,095,092				936,120				792,460	
+Total net sales		$	2,906,345			$	2,442,753			$	2,232,567	
+
+TABLE 36
+								
+		As of	
+		December 29, 2025			December 30, 2024	
+		(In thousands)	
+United States		$	876,099			$	1,171,611	
+China			732,843				357,159	
+Other			226,825				203,141	
+Total		$	1,835,767			$	1,731,911	
+
+TABLE 37
+								
+		As of	
+		December 29, 2025			December 30, 2024	
+		(In thousands)	
+Inventories:						
+Raw materials		$	197,531			$	178,066	
+Work-in-process			48,236				45,580	
+Finished goods			4,290				1,339	
+Inventories		$	250,057			$	224,985	
+						
+Property, plant, and equipment, net:						
+Land and land use rights		$	72,342			$	69,788	
+Buildings and improvements			634,785				515,773	
+Machinery and equipment			1,187,187				1,116,658	
+Furniture and fixtures and other			11,642				11,115	
+Construction-in-progress			101,945				75,502	
+Property, plant, and equipment, gross			2,007,901				1,788,836	
+Less: Accumulated depreciation			( 997,191	)			( 918,879	)
+Property, plant, and equipment, net		$	1,010,710			$	869,957	
+						
+Other current liabilities:						
+Sales return and allowances		$	12,392			$	10,777	
+Accrued facility operating costs			10,497				8,925	
+Operating leases			8,909				7,556	
+Interest			8,792				9,054	
+Housing fund			8,783				7,927	
+Income taxes payable			8,080				15,919	
+Warranty			7,855				7,685	
+Accrued professional fees			3,522				3,606	
+Other			37,420				48,525	
+Other current liabilities		$	106,250			$	119,974	
+						
+Other long-term liabilities:						
+Deferred income taxes		$	46,334			$	41,362	
+Customer deposits			23,465				28,390	
+Finance leases			15,829				11,985	
+Other			30,393				26,011	
+Other long-term liabilities		$	116,021			$	107,748	
+
+TABLE 38
+																
+		A&D			Commercial			RF&S Components			Total	
+		(In thousands)	
+As of December 29, 2025 and December 30, 2024												
+Goodwill		$	256,199			$	382,636			$	177,200			$	816,035	
+Accumulated impairment losses			—				—				( 145,900	)			( 145,900	)
+Carrying amount		$	256,199			$	382,636			$	31,300			$	670,135	
+
+TABLE 39
+																
+		Gross Amount			Accumulated Amortization			Net Carrying Amount			Weighted Average Amortization Period	
+		(In thousands)			(In years)	
+As of December 29, 2025												
+Customer relationships		$	323,500			$	( 189,264	)		$	134,236				11.8	
+Technology			66,650				( 45,964	)			20,686				8.2	
+Total		$	390,150			$	( 235,228	)		$	154,922				
+												
+As of December 30, 2024												
+Customer relationships		$	323,500			$	( 161,710	)		$	161,790				11.8	
+Technology			66,650				( 36,621	)			30,029				8.2	
+Total		$	390,150			$	( 198,331	)		$	191,819				
+
+TABLE 40
+				
+		(In thousands)	
+2026		$	36,897	
+2027			34,543	
+2028			30,997	
+2029			22,355	
+2030			18,178	
+Thereafter			11,952	
+Total		$	154,922	
+
+TABLE 41
+																		
+		As of December 29, 2025			As of December 30, 2024	
+		Interest Rate		Principal Outstanding			Interest Rate		Principal Outstanding	
+		(In thousands, except interest rates)	
+Senior Notes due March 2029			4.00		%		$	500,000				4.00		%		$	500,000	
+Term Loan due May 2030			5.97					342,169				6.59					345,634	
+Asia ABL Revolving Loan due June 2028			5.02					80,000				5.64					80,000	
+Other			5.99					1,981				5.99					2,311	
+Total debt							924,150								927,945	
+Less: Unamortized debt issuance costs							( 5,617	)							( 6,951	)
+Less: Unamortized debt discount							( 2,382	)							( 2,840	)
+Subtotal							916,151								918,154	
+Less: Current maturities							( 3,815	)							( 3,795	)
+Long-term debt, less current maturities						$	912,336							$	914,359	
+
+TABLE 42
+				
+		(In thousands)	
+2026		$	3,815	
+2027			4,735	
+2028			83,828	
+2029			503,018	
+2030			328,754	
+Total		$	924,150	
+
+TABLE 43
+																										
+		As of December 29, 2025		As of December 30, 2024
+		Debt Issuance Costs			Debt Discount			Effective Interest Rate		Debt Issuance Costs			Debt Discount			Effective Interest Rate
+		(In thousands, except interest rates)
+Senior Notes due March 2029		$	2,608			$	—				4.18		%		$	3,362			$	—				4.18		%
+Term Loan due May 2030			3,009				2,382				8.01					3,589				2,840				8.01		
+Total		$	5,617			$	2,382							$	6,951			$	2,840					
+
+TABLE 44
+												
+		For the Year Ended	
+		December 29, 2025			December 30, 2024			January 1, 2024	
+		(In thousands)	
+United States		$	62,677			$	( 36,745	)		$	( 105,101	)
+Foreign			147,660				120,694				105,398	
+Income before income taxes		$	210,337			$	83,949			$	297	
+
+TABLE 45
+												
+		For the Year Ended	
+		December 29, 2025			December 30, 2024			January 1, 2024	
+		(In thousands)	
+Current (provision) benefit:									
+Federal		$	( 3,235	)		$	( 2,984	)		$	445	
+State			( 2,900	)			( 2,958	)			( 1,592	)
+Foreign			( 22,964	)			( 22,934	)			( 29,094	)
+Total current			( 29,099	)			( 28,876	)			( 30,241	)
+Deferred (provision) benefit:									
+Federal			( 1,664	)			340				1,321	
+State			( 216	)			85				271	
+Foreign			( 1,910	)			801				9,634	
+Total deferred			( 3,790	)			1,226				11,226	
+Total income tax (provision) benefit:									
+Federal			( 4,899	)			( 2,644	)			1,766	
+State			( 3,116	)			( 2,873	)			( 1,321	)
+Foreign			( 24,874	)			( 22,133	)			( 19,460	)
+Income tax provision		$	( 32,889	)		$	( 27,650	)		$	( 19,015	)
+
+TABLE 46
+								
+		For the Year Ended December 29, 2025	
+		Amount			Rate	
+		(In thousands, except rates)	
+U.S. federal statutory income tax		$	( 44,171	)			21.0	%
+Domestic federal tax effects:						
+Tax credits						
+Research credits			4,696				( 2.2	)
+Foreign tax credits			11,681				( 5.6	)
+Nontaxable and nondeductible items						
+IRC section 162(m) limitation			( 4,355	)			2.1	
+Other			421				( 0.2	)
+Cross-border tax laws						
+Global intangible low-taxed income			( 30,760	)			14.6	
+Foreign derived intangible income			16,916				( 8.0	)
+Excess tax benefits on share-based payments			5,355				( 2.5	)
+Change in valuation allowance			5,983				( 2.8	)
+Domestic state and local income taxes, net of federal effect			( 3,116	)			1.5	
+Foreign tax effects:						
+China						
+Super research and development expenditure			3,482				( 1.7	)
+Tax settlement			( 3,221	)			1.5	
+Other			681				( 0.3	)
+Hong Kong						
+Statutory income tax rate differential			4,123				( 2.0	)
+Other			( 450	)			0.2	
+Other foreign jurisdictions			1,177				( 0.6	)
+Worldwide changes in unrecognized tax benefits			( 1,331	)			0.6	
+Total income tax provision		$	( 32,889	)			15.6	%
+
+TABLE 47
+								
+		For the Year Ended	
+		December 30, 2024			January 1, 2024	
+	(In thousands)	
+Statutory federal income tax provision		$	( 17,629	)		$	( 62	)
+State income taxes, net of federal benefit and state tax credits			( 672	)			( 1,875	)
+IRC section 162(m) limitation			( 1,467	)			( 2,121	)
+Stock options			453				( 651	)
+Global intangible low-taxed income			( 7,435	)			( 12,639	)
+Foreign tax credits			10,131				14,916	
+Permanently reinvested earnings assertion			( 2,634	)			( 3,934	)
+Foreign tax differential on foreign earnings and other permanent items			6,928				3,788	
+Change in valuation allowance			( 13,650	)			( 13,460	)
+Uncertain tax positions			—				957	
+Federal research and development credits			6,052				4,665	
+Goodwill impairment			( 6,846	)			( 9,261	)
+Other			( 881	)			662	
+Income tax provision		$	( 27,650	)		$	( 19,015	)
+
+TABLE 48
+								
+		As of	
+		December 29, 2025			December 30, 2024	
+		(In thousands)	
+Deferred income tax assets:						
+Net operating loss carryforwards		$	28,843			$	29,974	
+Reserves and accruals			59,071				57,453	
+Interest expense limitation			—				41	
+Tax credit carryforwards			30,334				33,559	
+Stock-based compensation			8,038				6,591	
+Property, plant, and equipment			3,515				3,748	
+Intangible and capitalized research expenditure amortization			1,909				7,601	
+Operating lease liabilities			22,913				—	
+Other deferred income tax assets			1,822				880	
+			156,445				139,847	
+Less: Valuation allowance			( 85,963	)			( 95,373	)
+			70,482				44,474	
+Deferred income tax liabilities:						
+Debt discount and issuance cost			( 1,123	)			( 1,582	)
+Repatriation of foreign earnings			( 6,196	)			( 4,961	)
+Property, plant, and equipment basis differences			( 85,275	)			( 74,632	)
+Goodwill and intangible amortization			( 1,458	)			( 1,358	)
+Unrealized gain on cash flow hedge			( 527	)			( 1,895	)
+Operating lease right-of-use assets			( 19,342	)			—	
+Other deferred income tax liabilities			( 329	)			( 465	)
+Net deferred income tax liabilities (included in other long-term liabilities and deposits and other non-current assets)		$	( 43,768	)		$	( 40,419	)
+
+TABLE 49
+												
+		For the Year Ended	
+		December 29, 2025			December 30, 2024			January 1, 2024	
+		(In thousands)	
+Balance at beginning of year		$	95,373			$	81,779			$	67,173	
+(Reduction) addition charged to expense			( 2,937	)			13,743				13,811	
+Addition related to acquisition			—				—				1,187	
+Reduction related to tax law changes			( 5,983	)			—				—	
+Reduction related to other comprehensive income			( 530	)			—				—	
+Other addition (reduction) charged to expense			40				( 149	)			( 392	)
+Balance at end of year		$	85,963			$	95,373			$	81,779	
+
+TABLE 50
+												
+		For the Year Ended	
+		December 29, 2025			December 30, 2024			January 1, 2024	
+		(In thousands, except per share data)	
+HNTE and R&D benefit		$	5,792			$	5,187			$	6,056	
+Basic shares			102,598				101,781				102,744	
+Diluted shares			105,453				104,098				102,744	
+Increase on earnings per share:									
+Basic		$	0.06			$	0.05			$	0.06	
+Diluted			0.05				0.05				0.06	
+
+TABLE 51
+												
+		For the Year Ended	
+		December 29, 2025			December 30, 2024			January 1, 2024	
+		(In thousands)	
+Balance at beginning of year		$	10,639			$	10,363			$	9,778	
+Additions based on tax positions related to the current year			1,125				1,220				934	
+Additions for tax positions of prior years			977				—				13	
+Reductions for tax positions of prior years			—				( 3	)			—	
+Lapse of statute of limitations			( 337	)			( 941	)			( 362	)
+Balance at end of year		$	12,404			$	10,639			$	10,363	
+
+TABLE 52
+				
+		For the Year Ended December 29, 2025	
+		(In thousands)	
+U.S. federal		$	3,460	
+U.S. state and local			4,258	
+Foreign:			
+China			4,209	
+Hong Kong			23,668	
+Other			1,842	
+Total foreign			29,719	
+Total income taxes paid, net of refunds		$	37,437	
+
+TABLE 53
+												
+		For the Year Ended	
+		December 29, 2025			December 30, 2024			January 1, 2024	
+		(In thousands, except per share amounts)	
+Net income (loss)		$	177,448			$	56,299			$	( 18,718	)
+									
+Basic weighted average shares			102,598				101,781				102,744	
+Dilutive effect of PRUs, RSUs, and stock options			2,855				2,317				—	
+Diluted shares			105,453				104,098				102,744	
+									
+Earnings (loss) per share:									
+Basic earnings (loss) per share		$	1.73			$	0.55			$	( 0.18	)
+Diluted earnings (loss) per share			1.68				0.54				( 0.18	)
+
+TABLE 54
+												
+		As of	
+		December 29, 2025			December 30, 2024			January 1, 2024	
+		(In thousands)	
+Foreign currency translation		$	( 33,374	)		$	( 33,757	)		$	( 32,860	)
+Pension obligation			2,891				3,612				2,530	
+Cash flow hedges			( 447	)			2,263				1,263	
+Total		$	( 30,930	)		$	( 27,882	)		$	( 29,067	)
+
+TABLE 55
+																
+		As of December 29, 2025			As of December 30, 2024	
+		Carrying Amount			Fair Value			Carrying Amount			Fair Value	
+		(In thousands)	
+Derivative assets, current		$	5,212			$	5,212			$	1,765			$	1,765	
+Derivative assets, non-current			—				—				1,326				1,326	
+Derivative liabilities, current			31				31				667				667	
+Derivative liabilities, non-current			382				382				—				—	
+Senior Notes due March 2029			497,392				488,325				496,638				464,325	
+Term Loan due May 2030			336,778				345,806				339,205				346,930	
+ABL Revolving Loans			80,000				80,000				80,000				80,000	
+Other loan			1,981				1,981				2,311				2,311	
+
+TABLE 56
+								
+		For the Year Ended	
+		December 29, 2025			December 30, 2024	
+		(In thousands)	
+Confirmed obligations outstanding at beginning of year		$	17,218			$	18,832	
+Invoices confirmed during the year			12,579				22,887	
+Confirmed invoices paid during the year			( 17,480	)			( 24,983	)
+Effect of foreign currency exchange rates			218				482	
+Confirmed obligations outstanding at end of year		$	12,535			$	17,218	
+
+TABLE 57
+								
+		Shares			Weighted Average Fair Value	
+		(In thousands)				
+Outstanding shares as of December 30, 2024			329			$	20.14	
+Granted			371				46.12	
+Vested			( 372	)			19.82	
+Forfeited / cancelled			102				31.34	
+Change in units due to annual performance achievement			52				61.73	
+Outstanding shares as of December 29, 2025			482			$	47.26	
+
+TABLE 58
+												
+		For the Year Ended	
+		December 29, 2025 (1)			December 30, 2024 (2)			January 1, 2024 (3)	
+Weighted-average fair value		$	46.11			$	19.51			$	16.36	
+Risk-free interest rate			3.99	%			4.42	%			4.46	%
+Expected volatility			39	%			41	%			42	%
+
+TABLE 59
+								
+		Shares			Weighted Average Grant-Date Fair Value	
+		(In thousands)				
+Non-vested RSUs outstanding as of December 30, 2024			3,465			$	16.47	
+Granted			1,197				38.03	
+Vested			( 1,730	)			15.27	
+Cancelled			( 163	)			19.62	
+Non-vested RSUs outstanding as of December 29, 2025			2,769			$	26.23	
+Vested and expected to vest through 2028 as of December 29, 2025			3,381			$	23.80	
+
+TABLE 60
+												
+		For the Year Ended	
+		December 29, 2025			December 30, 2024			January 1, 2024	
+		(In thousands)	
+Cost of goods sold		$	12,866			$	9,342			$	7,455	
+Selling and marketing			4,648				3,845				3,205	
+General and administrative			23,616				15,322				11,088	
+Research and development			538				1,271				1,139	
+Total		$	41,668			$	29,780			$	22,887	
+
+TABLE 61
+								
+		Unrecognized Stock-Based Compensation Cost			Remaining Weighted Average Recognition Period	
+		(In thousands)			(In years)	
+RSU awards		$	55,306				1.5	
+PRU awards			14,746				1.7	
+Total		$	70,052				
+
+TABLE 62
+												
+		For the Year Ended	
+		December 29, 2025			December 30, 2024			January 1, 2024	
+		(In thousands)	
+Operating lease cost		$	15,218			$	14,933			$	9,527	
+Variable lease cost			1,290				1,055				930	
+Short-term lease cost			677				409				311	
+Finance lease costs:									
+Amortization of right-of-use assets			1,652				1,372				1,374	
+Interest on lease liabilities			554				354				373	
+
+TABLE 63
+												
+		For the Year Ended	
+		December 29, 2025			December 30, 2024			January 1, 2024	
+		(In thousands)	
+Cash paid for amounts included in the measurement of lease liabilities:									
+Operating cash flows for operating leases		$	14,469			$	13,926			$	9,039	
+Right-of-use assets obtained in exchange for new lease obligations:									
+Operating leases		$	12,700			$	2,796			$	77,041	
+Finance leases			4,682				—				—	
+
+TABLE 64
+										
+				As of	
+		Balance Sheet Location		December 29, 2025			December 30, 2024	
+				(In thousands)	
+Assets:								
+Operating leases		Operating lease right-of-use assets		$	80,914			$	78,252	
+Finance leases		Property, plant, and equipment, net			13,652				10,621	
+Total lease assets				$	94,566			$	88,873	
+Liabilities:								
+Current:								
+Operating leases		Other current liabilities		$	8,909			$	7,556	
+Finance leases		Other current liabilities			1,117				814	
+Long-term:								
+Operating leases		Operating lease liabilities			87,524				77,509	
+Finance leases		Other long-term liabilities			15,829				11,985	
+Total lease liabilities				$	113,379			$	97,864	
+
+TABLE 65
+										
+		As of
+		December 29, 2025		December 30, 2024
+Weighted average remaining lease term (years):								
+Operating leases		11.3				12.5		
+Finance leases		11.6				11.6		
+Weighted average discount rate:								
+Operating leases			6.22		%			6.24		%
+Finance leases			3.70					2.69		
+
+TABLE 66
+								
+		Operating Leases			Finance Leases	
+		(In thousands)	
+2026		$	14,537			$	1,698	
+2027			12,432				1,717	
+2028			11,338				1,733	
+2029			10,389				1,750	
+2030			10,413				1,780	
+Thereafter			79,270				12,395	
+Total lease payments			138,379				21,073	
+Less: Imputed interest			( 41,946	)			( 4,127	)
+Total		$	96,433			$	16,946	

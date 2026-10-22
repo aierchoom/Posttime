@@ -1,0 +1,61 @@
+[
+  {
+    "name": "2026-08-05_TTM_Q2业绩公告_411核正",
+    "url": "https://investors.ttm.com/news-events/press-releases/detail/411/ttm-technologies-inc-reports-second-quarter-2026-results",
+    "final_url": "https://investors.ttm.com/news-events/press-releases/detail/411/ttm-technologies-inc-reports-second-quarter-2026-results",
+    "bytes": 206721,
+    "sha256": "ab7e6aa04db4a360421c43b5cc1c8cb60e2e326f109980a591e428a28ace2c5e",
+    "tables": 5,
+    "access_date": "2026-10-22"
+  },
+  {
+    "name": "2026-02_TTM_FY2025业绩公告",
+    "url": "https://investors.ttm.com/news-events/press-releases/detail/400/ttm-technologies-inc-reports-fourth-quarter-fiscal-year",
+    "final_url": "https://investors.ttm.com/news-events/press-releases/detail/400/ttm-technologies-inc-reports-fourth-quarter-fiscal-year",
+    "bytes": 376383,
+    "sha256": "82e6064dda9e2ede82cb4ab7f52dbaff1052079644b0ba6dfaf9471819f1439d",
+    "tables": 4,
+    "access_date": "2026-10-22"
+  },
+  {
+    "name": "2026-02_TTM_FY2025年报10K",
+    "url": "https://investors.ttm.com/sec-filings/all-sec-filings/content/0001193125-26-051976/ttmi-20251229.htm",
+    "final_url": "https://investors.ttm.com/sec-filings/all-sec-filings/content/0001193125-26-051976/ttmi-20251229.htm",
+    "bytes": 5428896,
+    "sha256": "660759eacc6b150a39a43f908fbd7806a7063e32193fec44c4f7f1a1f480dc0c",
+    "tables": 67,
+    "access_date": "2026-10-22"
+  },
+  {
+    "name": "2026-08-05_TTM_Q2季报10Q",
+    "url": "https://investors.ttm.com/sec-filings/all-sec-filings/content/0001193125-26-335107/ttmi-20260629.htm",
+    "final_url": "https://investors.ttm.com/sec-filings/all-sec-filings/content/0001193125-26-335107/ttmi-20260629.htm",
+    "bytes": 3365177,
+    "sha256": "f7f8fec949a22867e5f7bc7495a854e427e29664f1dc3c7cb8c9d5abac5f8748",
+    "tables": 39,
+    "access_date": "2026-10-22"
+  },
+  {
+    "name": "2026-09-30_TTM_Epiq融资8K",
+    "url": "https://investors.ttm.com/sec-filings/all-sec-filings/content/0001193125-26-409136/d147406d8k.htm",
+    "final_url": "https://investors.ttm.com/sec-filings/all-sec-filings/content/0001193125-26-409136/d147406d8k.htm",
+    "bytes": 48310,
+    "sha256": "0398f5c908754a3a4e18ca9ae3a9394dacdc3255f15181a0d1dcfff102a79e6a",
+    "tables": 16,
+    "access_date": "2026-10-22"
+  },
+  {
+    "name": "2026-10-22_TTM_三季报8K",
+    "url": "https://investors.ttm.com/sec-filings/all-sec-filings/content/0001193125-26-428263/d282109d8k.htm",
+    "final_url": "https://investors.ttm.com/sec-filings/all-sec-filings/content/0001193125-26-428263/d282109d8k.htm",
+    "bytes": 36051,
+    "sha256": "81e19a49b510a581832aae3d8fb531cb2ae21af0a64b83996798ee25dfe3b063",
+    "tables": 11,
+    "access_date": "2026-10-22"
+  },
+  {
+    "name": "2026-08-18_Mercury_FY2026业绩_无index",
+    "url": "https://ir.mrcy.com/news-releases/news-release-details/mercury-systems-reports-fourth-quarter-and-fiscal-2026-results",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

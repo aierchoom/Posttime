@@ -1,0 +1,49 @@
+TABLE 0
+				
+Delaware		000-31285		91-1033443
+(State of Incorporation)		(Commission File Number)		(I.R.S. Employer Identification No.)
+
+TABLE 1
+		
+200 East Sandpointe , Suite 400		
+Santa Ana , California		92707
+(Address of principal executive offices)		(Zip Code)
+
+TABLE 2
+☐	Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+
+TABLE 3
+☐	Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)
+
+TABLE 4
+☐	Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))
+
+TABLE 5
+☐	Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))
+
+TABLE 6
+				
+Title of each class		Trading Symbol(s)		Name of each exchange on which registered
+Common Stock, $0.001 par value		TTMI		Nasdaq Global Select Market
+
+TABLE 7
+Item 2.02	Results of Operations and Financial Condition
+
+TABLE 8
+Item 9.01.	Financial Statements and Exhibits
+
+TABLE 9
+		
+Exhibit Number		Description
+	
+99.1		Press release regarding earnings results, dated October 22, 2026
+	
+104		Cover Page Interactive Data File (embedded within the Inline XBRL document)
+
+TABLE 10
+						
+				TTM TECHNOLOGIES, INC.
+			
+Date: October 22, 2026						/s/ Daniel J. Weber
+				By:		Daniel J. Weber
+						Executive Vice President, Chief Legal Officer & Secretary

@@ -1,0 +1,782 @@
+[
+  {
+    "text": "Skip to content",
+    "href": "#content"
+  },
+  {
+    "text": "Investors",
+    "href": "https://ats.net/en/investors/"
+  },
+  {
+    "text": "IR News",
+    "href": "https://ats.net/en/investors/ir-news/"
+  },
+  {
+    "text": "Ad-hoc Announcements",
+    "href": "https://ats.net/en/investors/ir-news/ad-hoc-announcements/"
+  },
+  {
+    "text": "Manager’s Transactions",
+    "href": "https://ats.net/en/investors/ir-news/managers-transactions/"
+  },
+  {
+    "text": "Corporate News",
+    "href": "https://ats.net/en/investors/ir-news/corporate-news/"
+  },
+  {
+    "text": "AT&S Share",
+    "href": "https://ats.net/en/investors/share/"
+  },
+  {
+    "text": "Price Development",
+    "href": "https://ats.net/en/investors/share/price-development/"
+  },
+  {
+    "text": "Total Return Calculator",
+    "href": "https://ats.net/en/investors/share/total-return-calculator/"
+  },
+  {
+    "text": "Shareholder Structure",
+    "href": "https://ats.net/en/investors/share/shareholder-structure/"
+  },
+  {
+    "text": "Dividend",
+    "href": "https://ats.net/en/investors/share/dividend/"
+  },
+  {
+    "text": "Coverage",
+    "href": "https://ats.net/en/investors/share/coverage/"
+  },
+  {
+    "text": "Credit Relations",
+    "href": "https://ats.net/en/investors/credit-relations/"
+  },
+  {
+    "text": "Development of Financial Indicators",
+    "href": "https://ats.net/en/investors/credit-relations/development-of-financial-indicators/"
+  },
+  {
+    "text": "Development of Financial Debt",
+    "href": "https://ats.net/en/investors/credit-relations/development-of-financial-debt/"
+  },
+  {
+    "text": "Hybrid bond 2022",
+    "href": "https://ats.net/en/investors/credit-relations/hybrid-bond-2022/"
+  },
+  {
+    "text": "Hybrid Convertible Bond 2026",
+    "href": "https://ats.net/en/investors/credit-relations/hybrid-convertible-bond/"
+  },
+  {
+    "text": "Key Figures",
+    "href": "https://ats.net/en/investors/key-figures/"
+  },
+  {
+    "text": "Financial reports and presentation",
+    "href": "https://ats.net/en/investors/financial-reports-presentation/"
+  },
+  {
+    "text": "Financial calendar",
+    "href": "https://ats.net/en/investors/financial-calendar/"
+  },
+  {
+    "text": "Annual General Meeting",
+    "href": "https://ats.net/en/investors/annual-general-meeting/"
+  },
+  {
+    "text": "Orderservice",
+    "href": "https://ats.net/en/investors/orderservice/"
+  },
+  {
+    "text": "Suppliers",
+    "href": "https://ats.net/en/suppliers/"
+  },
+  {
+    "text": "Careers",
+    "href": "https://ats.net/en/careers/"
+  },
+  {
+    "text": "Training",
+    "href": "https://ats.net/en/careers/training/"
+  },
+  {
+    "text": "Job Portal",
+    "href": "https://career.ats.net/search"
+  },
+  {
+    "text": "Events",
+    "href": "/en/events/"
+  },
+  {
+    "text": "Blog",
+    "href": "https://ats.net/en/blog/"
+  },
+  {
+    "text": "Media",
+    "href": "https://ats.net/en/press/"
+  },
+  {
+    "text": "Press Releases",
+    "href": "https://ats.net/en/press/"
+  },
+  {
+    "text": "Press Downloads",
+    "href": "https://ats.canto.de/v/press/"
+  },
+  {
+    "text": "DE",
+    "href": "https://ats.net/investoren/kennzahlen/"
+  },
+  {
+    "text": "EN",
+    "href": "https://ats.net/en/investors/key-figures/"
+  },
+  {
+    "text": "",
+    "href": "https://ats.net/"
+  },
+  {
+    "text": "Solutions",
+    "href": "https://ats.net/en/solutions/"
+  },
+  {
+    "text": "Aerospace & aviation",
+    "href": "https://ats.net/en/solutions/aerospace-aviation/"
+  },
+  {
+    "text": "Automotive",
+    "href": "https://ats.net/en/solutions/automotive/"
+  },
+  {
+    "text": "Communications & 5G",
+    "href": "https://ats.net/en/solutions/communication-5g/"
+  },
+  {
+    "text": "Consumer electronics",
+    "href": "https://ats.net/en/solutions/consumer-electronics/"
+  },
+  {
+    "text": "Industrial",
+    "href": "https://ats.net/en/solutions/industrial/"
+  },
+  {
+    "text": "Medical",
+    "href": "https://ats.net/en/solutions/medical/"
+  },
+  {
+    "text": "Semiconductors & modules",
+    "href": "https://ats.net/en/solutions/semiconductors-modules/"
+  },
+  {
+    "text": "Products",
+    "href": "https://ats.net/en/products/"
+  },
+  {
+    "text": "Double-sided printed circuit boards",
+    "href": "https://ats.net/en/products/double-sided-printed-circuit-boards/"
+  },
+  {
+    "text": "Flexible and rigid-flex printed circuit boards",
+    "href": "https://ats.net/en/products/flexible-and-rigid-flex-printed-circuit-boards/"
+  },
+  {
+    "text": "HDI printed circuit boards",
+    "href": "https://ats.net/en/products/hdi-printed-circuit-boards/"
+  },
+  {
+    "text": "IC Substrates",
+    "href": "https://ats.net/en/products/ic-substrates/"
+  },
+  {
+    "text": "Modules",
+    "href": "https://ats.net/en/products/modules/"
+  },
+  {
+    "text": "Multilayer printed circuit boards",
+    "href": "https://ats.net/en/products/multilayer-printed-circuit-boards/"
+  },
+  {
+    "text": "Optical Transceiver",
+    "href": "https://ats.net/en/products/optical-transceiver/"
+  },
+  {
+    "text": "Substrate-like printed circuit boards",
+    "href": "https://ats.net/en/products/substrate-like-printed-circuit-boards/"
+  },
+  {
+    "text": "Test & reference boards",
+    "href": "https://ats.net/en/products/test-reference-boards/"
+  },
+  {
+    "text": "Thermally enhanced printed circuit boards",
+    "href": "https://ats.net/en/products/thermally-enhanced-printed-circuit-boards/"
+  },
+  {
+    "text": "Technologies",
+    "href": "https://ats.net/en/technologies/"
+  },
+  {
+    "text": "2.5D® Technology",
+    "href": "https://ats.net/en/technologies/2-5d-technologie/"
+  },
+  {
+    "text": "Advanced packaging",
+    "href": "https://ats.net/en/technologies/advanced-packaging/"
+  },
+  {
+    "text": "Cavity printed circuit boards",
+    "href": "https://ats.net/en/technologies/cavity-printed-circuit-boards/"
+  },
+  {
+    "text": "ECP® Technology",
+    "href": "https://ats.net/en/technologies/ecp/"
+  },
+  {
+    "text": "mSAP",
+    "href": "https://ats.net/en/technologies/msap/"
+  },
+  {
+    "text": "Power packaging",
+    "href": "https://ats.net/en/technologies/power-packaging/"
+  },
+  {
+    "text": "Radio frequency electronics",
+    "href": "https://ats.net/en/technologies/radio-frequency-electronics/"
+  },
+  {
+    "text": "SLP & HDI",
+    "href": "https://ats.net/en/technologies/slp-hdi/"
+  },
+  {
+    "text": "System in package",
+    "href": "https://ats.net/en/technologies/system-in-package-sip/"
+  },
+  {
+    "text": "Z-Interconnect",
+    "href": "https://ats.net/en/technologies/z-interconnect/"
+  },
+  {
+    "text": "DUMMY",
+    "href": "#"
+  },
+  {
+    "text": "Services",
+    "href": "https://ats.net/en/service/"
+  },
+  {
+    "text": "Design",
+    "href": "https://ats.net/en/service/design/"
+  },
+  {
+    "text": "Simulation",
+    "href": "https://ats.net/en/service/simulation/"
+  },
+  {
+    "text": "Turnkey solutions",
+    "href": "https://ats.net/en/service/turnkey-solutions/"
+  },
+  {
+    "text": "R&D",
+    "href": "https://ats.net/en/innovation/"
+  },
+  {
+    "text": "Sustainability",
+    "href": "https://ats.net/en/sustainability/"
+  },
+  {
+    "text": "Company",
+    "href": "https://ats.net/en/company/"
+  },
+  {
+    "text": "Mission & vision",
+    "href": "https://ats.net/en/company/mission-vision/"
+  },
+  {
+    "text": "AT&S Worldwide",
+    "href": "https://ats.net/en/company/ats-worldwide/"
+  },
+  {
+    "text": "History",
+    "href": "https://ats.net/en/company/history/"
+  },
+  {
+    "text": "Management Board and Supervisory Board",
+    "href": "https://ats.net/en/company/management-board-supervisory-board/"
+  },
+  {
+    "text": "Certifications",
+    "href": "https://ats.net/en/company/certifications/"
+  },
+  {
+    "text": "Corporate governance",
+    "href": "https://ats.net/en/company/corporate-governance/"
+  },
+  {
+    "text": "Information subject to disclosure",
+    "href": "https://ats.net/en/company/corporate-governance/disclosable-information/"
+  },
+  {
+    "text": "Business ethics",
+    "href": "https://ats.net/en/company/corporate-governance/business-ethics/"
+  },
+  {
+    "text": "Search",
+    "href": "#"
+  },
+  {
+    "text": "Kids Corner",
+    "href": "https://ats.net/en/kidscorner/"
+  },
+  {
+    "text": "",
+    "href": "https://ats.net/"
+  },
+  {
+    "text": "Solutions",
+    "href": "https://ats.net/en/solutions/"
+  },
+  {
+    "text": "Aerospace & aviation",
+    "href": "https://ats.net/en/solutions/aerospace-aviation/"
+  },
+  {
+    "text": "Automotive",
+    "href": "https://ats.net/en/solutions/automotive/"
+  },
+  {
+    "text": "Communications & 5G",
+    "href": "https://ats.net/en/solutions/communication-5g/"
+  },
+  {
+    "text": "Consumer electronics",
+    "href": "https://ats.net/en/solutions/consumer-electronics/"
+  },
+  {
+    "text": "Industrial",
+    "href": "https://ats.net/en/solutions/industrial/"
+  },
+  {
+    "text": "Medical",
+    "href": "https://ats.net/en/solutions/medical/"
+  },
+  {
+    "text": "Semiconductors & modules",
+    "href": "https://ats.net/en/solutions/semiconductors-modules/"
+  },
+  {
+    "text": "Hybrid Convertible Bond 2026",
+    "href": "https://ats.net/en/investors/credit-relations/hybrid-convertible-bond/"
+  },
+  {
+    "text": "Products",
+    "href": "https://ats.net/en/products/"
+  },
+  {
+    "text": "Double-sided printed circuit boards",
+    "href": "https://ats.net/en/products/double-sided-printed-circuit-boards/"
+  },
+  {
+    "text": "Flexible and rigid-flex printed circuit boards",
+    "href": "https://ats.net/en/products/flexible-and-rigid-flex-printed-circuit-boards/"
+  },
+  {
+    "text": "HDI printed circuit boards",
+    "href": "https://ats.net/en/products/hdi-printed-circuit-boards/"
+  },
+  {
+    "text": "IC Substrates",
+    "href": "https://ats.net/en/products/ic-substrates/"
+  },
+  {
+    "text": "Modules",
+    "href": "https://ats.net/en/products/modules/"
+  },
+  {
+    "text": "Multilayer printed circuit boards",
+    "href": "https://ats.net/en/products/multilayer-printed-circuit-boards/"
+  },
+  {
+    "text": "Optical Transceiver",
+    "href": "https://ats.net/en/products/optical-transceiver/"
+  },
+  {
+    "text": "Substrate-like printed circuit boards",
+    "href": "https://ats.net/en/products/substrate-like-printed-circuit-boards/"
+  },
+  {
+    "text": "Test & reference boards",
+    "href": "https://ats.net/en/products/test-reference-boards/"
+  },
+  {
+    "text": "Thermally enhanced printed circuit boards",
+    "href": "https://ats.net/en/products/thermally-enhanced-printed-circuit-boards/"
+  },
+  {
+    "text": "Technologies",
+    "href": "https://ats.net/en/technologies/"
+  },
+  {
+    "text": "2.5D® Technology",
+    "href": "https://ats.net/en/technologies/2-5d-technologie/"
+  },
+  {
+    "text": "Advanced packaging",
+    "href": "https://ats.net/en/technologies/advanced-packaging/"
+  },
+  {
+    "text": "Cavity printed circuit boards",
+    "href": "https://ats.net/en/technologies/cavity-printed-circuit-boards/"
+  },
+  {
+    "text": "ECP® Technology",
+    "href": "https://ats.net/en/technologies/ecp/"
+  },
+  {
+    "text": "mSAP",
+    "href": "https://ats.net/en/technologies/msap/"
+  },
+  {
+    "text": "Power Packaging",
+    "href": "https://ats.net/en/technologies/power-packaging/"
+  },
+  {
+    "text": "Radio Frequency Electronics",
+    "href": "https://ats.net/en/technologies/radio-frequency-electronics/"
+  },
+  {
+    "text": "SLP & HDI",
+    "href": "https://ats.net/en/technologies/slp-hdi/"
+  },
+  {
+    "text": "System in package",
+    "href": "https://ats.net/en/technologies/system-in-package-sip/"
+  },
+  {
+    "text": "Z-Interconnect",
+    "href": "https://ats.net/en/technologies/z-interconnect/"
+  },
+  {
+    "text": "Services",
+    "href": "https://ats.net/en/service/"
+  },
+  {
+    "text": "Design",
+    "href": "https://ats.net/en/service/design/"
+  },
+  {
+    "text": "Simulation",
+    "href": "https://ats.net/en/service/simulation/"
+  },
+  {
+    "text": "Turnkey Solutions",
+    "href": "https://ats.net/en/service/turnkey-solutions/"
+  },
+  {
+    "text": "R&D",
+    "href": "https://ats.net/en/innovation/"
+  },
+  {
+    "text": "Sustainability",
+    "href": "https://ats.net/en/sustainability/"
+  },
+  {
+    "text": "Company",
+    "href": "https://ats.net/en/company/"
+  },
+  {
+    "text": "Mission & vision",
+    "href": "https://ats.net/en/company/mission-vision/"
+  },
+  {
+    "text": "History",
+    "href": "https://ats.net/en/company/history/"
+  },
+  {
+    "text": "AT&S Worldwide",
+    "href": "https://ats.net/en/company/ats-worldwide/"
+  },
+  {
+    "text": "Management Board and Supervisory Board",
+    "href": "https://ats.net/en/company/management-board-supervisory-board/"
+  },
+  {
+    "text": "Certifications",
+    "href": "https://ats.net/en/company/certifications/"
+  },
+  {
+    "text": "Corporate governance",
+    "href": "https://ats.net/en/company/corporate-governance/"
+  },
+  {
+    "text": "Information subject to disclosure",
+    "href": "https://ats.net/en/company/corporate-governance/disclosable-information/"
+  },
+  {
+    "text": "Business ethics",
+    "href": "https://ats.net/en/company/corporate-governance/business-ethics/"
+  },
+  {
+    "text": "Kids Corner",
+    "href": "https://ats.net/en/kidscorner/"
+  },
+  {
+    "text": "Investors",
+    "href": "https://ats.net/en/investors/"
+  },
+  {
+    "text": "IR News",
+    "href": "https://ats.net/en/investors/ir-news/"
+  },
+  {
+    "text": "Ad-hoc Announcements",
+    "href": "https://ats.net/en/investors/ir-news/ad-hoc-announcements/"
+  },
+  {
+    "text": "Manager’s Transactions",
+    "href": "https://ats.net/en/investors/ir-news/managers-transactions/"
+  },
+  {
+    "text": "Corporate News",
+    "href": "https://ats.net/en/investors/ir-news/corporate-news/"
+  },
+  {
+    "text": "AT&S Share",
+    "href": "https://ats.net/en/investors/share/"
+  },
+  {
+    "text": "Price Development",
+    "href": "https://ats.net/en/investors/share/price-development/"
+  },
+  {
+    "text": "Total Return Calculator",
+    "href": "https://ats.net/en/investors/share/total-return-calculator/"
+  },
+  {
+    "text": "Shareholder Structure",
+    "href": "https://ats.net/en/investors/share/shareholder-structure/"
+  },
+  {
+    "text": "Dividend",
+    "href": "https://ats.net/en/investors/share/dividend/"
+  },
+  {
+    "text": "Coverage",
+    "href": "https://ats.net/en/investors/share/coverage/"
+  },
+  {
+    "text": "Credit Relations",
+    "href": "https://ats.net/en/investors/credit-relations/"
+  },
+  {
+    "text": "Development of Financial Indicators",
+    "href": "https://ats.net/en/investors/credit-relations/development-of-financial-indicators/"
+  },
+  {
+    "text": "Development of Financial Debt",
+    "href": "https://ats.net/en/investors/credit-relations/development-of-financial-debt/"
+  },
+  {
+    "text": "Hybrid bond 2022",
+    "href": "https://ats.net/en/investors/credit-relations/hybrid-bond-2022/"
+  },
+  {
+    "text": "Hybrid Convertible Bond 2026",
+    "href": "https://ats.net/en/investors/credit-relations/hybrid-convertible-bond/"
+  },
+  {
+    "text": "Key Figures",
+    "href": "https://ats.net/en/investors/key-figures/"
+  },
+  {
+    "text": "Financial reports and presentation",
+    "href": "https://ats.net/en/investors/financial-reports-presentation/"
+  },
+  {
+    "text": "Financial calendar",
+    "href": "https://ats.net/en/investors/financial-calendar/"
+  },
+  {
+    "text": "Annual General Meeting",
+    "href": "https://ats.net/en/investors/annual-general-meeting/"
+  },
+  {
+    "text": "Orderservice",
+    "href": "https://ats.net/en/investors/orderservice/"
+  },
+  {
+    "text": "Suppliers",
+    "href": "https://ats.net/en/suppliers/"
+  },
+  {
+    "text": "Careers",
+    "href": "https://ats.net/en/careers/"
+  },
+  {
+    "text": "Training",
+    "href": "https://ats.net/en/careers/training/"
+  },
+  {
+    "text": "Job Portal",
+    "href": "https://career.ats.net/search"
+  },
+  {
+    "text": "Events",
+    "href": "https://ats.net/en/events/"
+  },
+  {
+    "text": "Blog",
+    "href": "https://ats.net/en/blog/"
+  },
+  {
+    "text": "Press",
+    "href": "https://ats.net/en/press/"
+  },
+  {
+    "text": "Press releases",
+    "href": "https://ats.net/en/press/pressreleases/"
+  },
+  {
+    "text": "Press downloads",
+    "href": "https://ats.net/en/press/pressdownloads/"
+  },
+  {
+    "text": "DE",
+    "href": "https://ats.net/investoren/kennzahlen/"
+  },
+  {
+    "text": "EN",
+    "href": "https://ats.net/en/investors/key-figures/"
+  },
+  {
+    "text": "AT&S",
+    "href": "https://ats.net/en/"
+  },
+  {
+    "text": "Investors",
+    "href": "https://ats.net/en/investors/"
+  },
+  {
+    "text": "Investorenpräsentation",
+    "href": "https://ats.net/en/download/investor-presentation/?wpdmdl=6167&refresh=6ada1a4cd41651792678476"
+  },
+  {
+    "text": "Privacy Policy",
+    "href": "https://policies.google.com/privacy"
+  },
+  {
+    "text": "Terms of Service",
+    "href": "https://policies.google.com/terms"
+  },
+  {
+    "text": "@ E-Mail",
+    "href": "#"
+  },
+  {
+    "text": "Privacy Policy",
+    "href": "https://policies.google.com/privacy"
+  },
+  {
+    "text": "Terms of Service",
+    "href": "https://policies.google.com/terms"
+  },
+  {
+    "text": "@ E-Mail",
+    "href": "#"
+  },
+  {
+    "text": "Company",
+    "href": "https://ats.net/en/company/"
+  },
+  {
+    "text": "Mission & vision",
+    "href": "https://ats.net/en/company/mission-vision/"
+  },
+  {
+    "text": "AT&S Worldwide",
+    "href": "https://ats.net/en/company/ats-worldwide/"
+  },
+  {
+    "text": "Sustainability",
+    "href": "https://ats.net/en/sustainability/"
+  },
+  {
+    "text": "Investors",
+    "href": "https://ats.net/en/investors/"
+  },
+  {
+    "text": "AT&S Share",
+    "href": "https://ats.net/en/investors/share/"
+  },
+  {
+    "text": "Corporate governance",
+    "href": "https://ats.net/en/company/corporate-governance/"
+  },
+  {
+    "text": "IR News",
+    "href": "https://ats.net/en/investors/ir-news/"
+  },
+  {
+    "text": "Careers",
+    "href": "https://ats.net/en/careers/"
+  },
+  {
+    "text": "Job Portal",
+    "href": "https://career.ats.net"
+  },
+  {
+    "text": "Contact",
+    "href": "https://ats.net/en/contact/"
+  },
+  {
+    "text": "Privacy Statement",
+    "href": "https://ats.net/en/privacy-statement/"
+  },
+  {
+    "text": "General Terms and Conditions of Sale and Delivery",
+    "href": "https://ats.net/en/general-terms-and-conditions-of-sale-and-delivery/"
+  },
+  {
+    "text": "Legal notice",
+    "href": "https://ats.net/en/legal-notice/"
+  },
+  {
+    "text": "Subscribe to our newsletter",
+    "href": "https://ats.net/en/subscribe-ats-newsletter/"
+  },
+  {
+    "text": "",
+    "href": "https://www.facebook.com/atsPCB/"
+  },
+  {
+    "text": "",
+    "href": "https://twitter.com/ATS_AG"
+  },
+  {
+    "text": "",
+    "href": "https://www.instagram.com/ats_ag/"
+  },
+  {
+    "text": "",
+    "href": "https://www.youtube.com/user/ATundS"
+  },
+  {
+    "text": "",
+    "href": "https://www.linkedin.com/company/at&s/"
+  },
+  {
+    "text": "Page load link",
+    "href": "#"
+  },
+  {
+    "text": "AT&S",
+    "href": "https://ats.net/?blackhole=436bbabe95"
+  },
+  {
+    "text": "",
+    "href": "/kontakt"
+  },
+  {
+    "text": "Go to Top",
+    "href": "#"
+  }
+]

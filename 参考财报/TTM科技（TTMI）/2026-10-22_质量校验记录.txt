@@ -1,0 +1,21 @@
+TTM科技（TTMI）2026Q3财报研究
+信息截止日期：2026-10-22，Asia/Shanghai
+
+财务勾稽：PASS
+- FCF = CFO - company net capital expenditures
+- Segment revenue plus eliminations = consolidated revenue
+- Segment operating income less unallocated charges = GAAP operating income
+- GAAP net income plus disclosed reconciling items = Non-GAAP net income
+
+原始来源核对：PASS
+verify_source_inputs.py: 76 raw HTML numeric inputs matched the calculation model.
+
+报告结构：PASS (0 warning(s))
+check_report.py: company depth gate business 4/4, peers 5/5.
+Evidence ledger: 251 rows; 14 source IDs; every source path exists.
+分类README与对象README均已同步，分类索引按最新版本日期排列。
+
+人工质量边界：
+经营研究可用，价格估值未收敛。
+缺少2026Q3完整10-Q、Q3税务明细、并购后完整资产负债表、应用层利润及真实量价数据、机构原始估值和同截点行情。
+2027情景的等效交付、ASP组合、Epiq和欧洲贡献、利润率及融资成本均有明确假设标记；不是对公司指引的独立验证。

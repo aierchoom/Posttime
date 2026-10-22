@@ -1,0 +1,14 @@
+TABLE 0
+in € million (unless otherwise stated)	Q1 2026/27	Q1 2025/26	Change in %
+Revenue	548.7	398.9	37.5%
+EBITDA	165.0	70.6	>100%
+EBITDA margin (in %)	30.1%	17.7%	–
+EBIT	73.4	(16.3)	>100%
+EBIT margin (in %)	13.4%	(4.1%)	–
+Profit for the period	40.8	(55.9)	>100%
+ROCE (in %)	12.0%	(2.0%)	–
+Net CAPEX	(34.8)	(53.6)	35.1%
+Cash flow from operating activities	39.9	184.0	(78.3%)
+Earnings per share (in €)	0.93	(1.55)	>100%
+Employees (headcount)1	14,569	12,8	13. Aug
+1 Incl. contract staff, average. As of June 30, 2026: 14,939			

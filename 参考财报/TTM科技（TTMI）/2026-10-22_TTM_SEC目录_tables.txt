@@ -1,0 +1,12 @@
+TABLE 0
+Date	Form	Description	XBRL	Pages
+10/22/26	8-K	Form 8-K: Current report		10
+10/19/26	8-K	Form 8-K: Current report		6
+10/13/26	8-K	Form 8-K: Current report		5
+09/30/26	8-K	Form 8-K: Current report		195
+09/24/26	8-K	Form 8-K: Current report		146
+09/11/26	144	Form 144: Report of proposed sale of securities		2
+09/10/26	8-K	Form 8-K: Current report		7
+09/03/26	4	Form 4: Statement of changes in beneficial ownership of securities		1
+08/25/26	4	Form 4: Statement of changes in beneficial ownership of securities		1
+08/25/26	4	Form 4: Statement of changes in beneficial ownership of securities		1

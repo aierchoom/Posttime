@@ -1,0 +1,175 @@
+TABLE 0
+						Fourth Quarter		Full Year
+							2025				2024				2025				2024	
+												
+CONSOLIDATED CONDENSED STATEMENTS OF OPERATIONS								
+												
+	Net sales			$	774,320			$	650,965			$	2,906,345			$	2,442,753	
+	Cost of goods sold			608,451				524,424				2,304,659				1,965,378	
+												
+	Gross profit			165,869				126,541				601,686				477,375	
+												
+	Operating expenses:								
+		Selling and marketing			21,077				19,977				85,460				80,030	
+		General and administrative			50,058				45,266				192,149				170,107	
+		Research and development			6,881				7,923				28,992				31,845	
+		Amortization of definite-lived intangibles			6,888				6,914				27,554				35,550	
+		Impairment of goodwill			-				32,600				-				32,600	
+		Restructuring charges			216				4,833				2,847				11,200	
+			Total operating expenses			85,120				117,513				337,002				361,332	
+												
+	Operating income			80,749				9,028				264,684				116,043	
+												
+	Interest expense			(12,376	)			(11,204	)			(45,334	)			(47,515	)
+	Other, net				(6,365	)			16,507				(9,013	)			15,421	
+												
+	Income before income taxes			62,008				14,331				210,337				83,949	
+	Income tax provision			(11,323	)			(9,161	)			(32,889	)			(27,650	)
+												
+	Net income		$	50,685			$	5,170			$	177,448			$	56,299	
+												
+	Earnings per share:								
+		Basic			$	0.49			$	0.05			$	1.73			$	0.55	
+		Diluted			0.48				0.05				1.68				0.54	
+												
+	Weighted-average shares used in computing per share amounts:								
+		Basic				103,351				101,981				102,598				101,781	
+		Diluted			106,596				104,576				105,453				104,098	
+												
+	Reconciliation of the denominator used to calculate basic earnings per share and diluted earnings per share:						
+	Weighted-average shares outstanding			103,351				101,981				102,598				101,781	
+	Dilutive effect of performance-based stock units, restricted stock units and stock options			3,245				2,595				2,855				2,317	
+	Diluted shares			106,596				104,576				105,453				104,098	
+
+TABLE 1
+SELECTED BALANCE SHEET DATA				
+						December 29, 2025		December 30, 2024
+	Cash and cash equivalents		$	501,234			$	503,932	
+	Accounts receivable, net			563,741				448,611	
+	Contract assets			468,006				381,382	
+	Inventories			250,057				224,985	
+	Total current assets			1,855,406				1,606,744	
+	Property, plant and equipment, net			1,010,710				869,957	
+	Total assets			3,840,331				3,472,494	
+								
+	Short-term debt, including current portion of long-term debt		$	3,815			$	3,795	
+	Accounts payable			543,538				406,221	
+	Contract liabilities			175,627				170,915	
+	Total current liabilities			962,197				809,054	
+	Long-term debt, net of discount and issuance costs			912,336				914,359	
+	Total long-term liabilities			1,115,881				1,099,616	
+	Total stockholders' equity			1,762,253				1,563,824	
+	Total liabilities and stockholders' equity			3,840,331				3,472,494	
+
+TABLE 2
+SUPPLEMENTAL DATA								
+						Fourth Quarter		Full Year
+							2025				2024				2025				2024	
+	Gross margin			21.4	%			19.4	%			20.7	%			19.5	%
+	Operating margin			10.4	%			1.4	%			9.1	%			4.8	%
+												
+						Fourth Quarter		Full Year
+							2025				2024				2025				2024	
+	End market breakdown 1 :								
+		Aerospace and Defense			41	%			46	%			44	%			46	%
+		Automotive			9	%			12	%			10	%			13	%
+		Data Center Computing			28	%			22	%			24	%			20	%
+		Medical/Industrial/Instrumentation			14	%			13	%			14	%			14	%
+		Networking			8	%			7	%			8	%			7	%
+												
+						Fourth Quarter		Full Year
+							2025				2024				2025				2024	
+	Operating segment data 1 :								
+		Net sales:								
+			Aerospace & Defense		$	317,970			$	306,157			$	1,292,523			$	1,139,955	
+			Commercial			448,452				339,261				1,585,701				1,275,701	
+			RF&S Components			10,672				10,121				40,014				37,317	
+			Intersegment eliminations			(2,774	)			(4,574	)			(11,893	)			(10,220	)
+				Total net sales		$	774,320			$	650,965			$	2,906,345			$	2,442,753	
+												
+		Segment operating income:								
+			Aerospace & Defense			44,870				41,548				183,813				141,800	
+			Commercial			75,032				48,924				238,781				179,782	
+			RF&S Components			3,672				2,527				11,253				8,666	
+				Total segment operating income		$	123,574			$	92,999			$	433,847			$	330,248	
+												
+		Unallocated amounts:								
+			Restructuring			(216	)			(4,833	)			(2,847	)			(11,200	)
+			Impairment of goodwill			-				(32,600	)			-				(32,600	)
+			Gain on sale of property, plant, and equipment			-				1,249				-				15,669	
+			Acquisition-related and other charges			-				(1,585	)			(15	)			(14,524	)
+			Stock-based compensation			(12,082	)			(8,083	)			(41,668	)			(29,780	)
+			Other corporate expenses			(21,303	)			(28,869	)			(87,736	)			(96,878	)
+			Amortization of definite-lived intangibles			(9,224	)			(9,250	)			(36,897	)			(44,892	)
+				Total operating income		$	80,749			$	9,028			$	264,684			$	116,043	
+												
+												
+RECONCILIATIONS 2								
+						Fourth Quarter		Full Year
+							2025				2024				2025				2024	
+												
+	Non-GAAP gross profit reconciliation 3 :								
+		GAAP gross profit		$	165,869			$	126,541			$	601,686			$	477,375	
+		Add back item:								
+			Amortization of definite-lived intangibles			2,336				2,336				9,343				9,342	
+			Stock-based compensation			3,646				2,653				12,866				9,342	
+			Unrealized (gain) loss on commodity hedge			(4,044	)			1,635				(5,879	)			370	
+			Other charges			-				-				-				709	
+		Non-GAAP gross profit		$	167,807			$	133,165			$	618,016			$	497,138	
+		Non-GAAP gross margin			21.7	%			20.5	%			21.3	%			20.4	%
+												
+	Non-GAAP operating income reconciliation 4 :								
+		GAAP operating income		$	80,749			$	9,028			$	264,684			$	116,043	
+		Add back items:								
+			Amortization of definite-lived intangibles			9,224				9,250				36,897				44,892	
+			Stock-based compensation			12,082				8,083				41,668				29,780	
+			(Gain) loss on sale of property, plant and equipment			-				(1,249	)			-				(15,669	)
+			Unrealized (gain) loss on commodity hedge			(4,044	)			1,635				(5,879	)			370	
+			Impairment, restructuring, acquisition-related and other charges			226				39,018				3,044				58,324	
+		Non-GAAP operating income		$	98,237			$	65,765			$	340,414			$	233,740	
+		Non-GAAP operating margin			12.7	%			10.1	%			11.7	%			9.6	%
+												
+	Non-GAAP net income and EPS reconciliation 5 :								
+		GAAP net income		$	50,685			$	5,170			$	177,448			$	56,299	
+		Add back items:								
+			Amortization of definite-lived intangibles			9,224				9,250				36,897				44,892	
+			Stock-based compensation			12,082				8,083				41,668				29,780	
+			Non-cash interest expense			548				525				2,157				2,042	
+			(Gain) loss on sale of property, plant and equipment			-				(1,249	)			-				(15,669	)
+			Unrealized (gain) loss on commodity hedge			(4,044	)			1,635				(5,879	)			370	
+			Unrealized (gain) loss on foreign exchange			6,163				(13,048	)			14,629				(1,039	)
+			Impairment, restructuring, acquisition-related and other charges			226				39,018				3,044				58,324	
+			Income taxes 6			(63	)			2,005				(10,994	)			2,481	
+		Non-GAAP net income		$	74,821			$	51,389			$	258,970			$	177,480	
+		Non-GAAP earnings per diluted share		$	0.70			$	0.49			$	2.46			$	1.70	
+												
+						Fourth Quarter		Full Year
+							2025				2024				2025				2024	
+	Adjusted EBITDA reconciliation 7 :								
+		GAAP net income		$	50,685			$	5,170			$	177,448			$	56,299	
+		Add back items:								
+			Income tax provision			11,323				9,161				32,889				27,650	
+			Interest expense			12,376				11,204				45,334				47,515	
+			Amortization of definite-lived intangibles			9,224				9,250				36,897				44,892	
+			Depreciation expense			28,139				26,524				110,274				105,233	
+			Stock-based compensation			12,082				8,083				41,668				29,780	
+			(Gain) loss on sale of property, plant and equipment			-				(1,249	)			-				(15,669	)
+			Unrealized (gain) loss on commodity hedge			(4,044	)			1,635				(5,879	)			370	
+			Unrealized (gain) loss on foreign exchange			6,163				(13,048	)			14,629				(1,039	)
+			Impairment, restructuring, acquisition-related and other charges			226				38,966				3,044				56,439	
+		Adjusted EBITDA		$	126,174			$	95,696			$	456,304			$	351,470	
+		Adjusted EBITDA margin			16.3	%			14.7	%			15.7	%			14.4	%
+												
+	Free cash flow reconciliation:								
+		Operating cash flow		$	62,930			$	86,054			$	291,882			$	236,894	
+		Capital expenditures, net			(51,253	)			(52,761	)			(273,940	)			(152,871	)
+		Free cash flow		$	11,677			$	33,293			$	17,942			$	84,023	
+
+TABLE 3
+1 Prior year end market revenue and operating segment data has been recasted in connection with the Company's previously disclosed change in organization structure - refer to the recasted historical selected unaudited financial information in the Form 8-K filed on July 30, 2025 for further information.
+2 This information provides a reconciliation of non-GAAP gross profit, non-GAAP operating income, non-GAAP net income, non-GAAP EPS, and adjusted EBITDA to the financial information in our consolidated condensed statements of operations. Prior year results have been revised to exclude the impact of unrealized (gain) loss on foreign exchange from non-GAAP net income, non-GAAP EPS, and adjusted EBITDA - refer to the revised historical non-GAAP financial information in the Form 8-K filed on February 5, 2025 for further information.
+3 Non-GAAP gross profit and gross margin measures exclude amortization of definite-lived intangibles, stock-based compensation, unrealized (gain) loss on commodity hedge, and other charges.
+4 Non-GAAP operating income and operating margin measures exclude amortization of definite-lived intangibles, stock-based compensation, (gain) loss on sale of property, plant and equipment, unrealized (gain) loss on commodity hedge, impairment, restructuring, acquisition-related, and other charges.
+5 This information provides non-GAAP net income and non-GAAP EPS, which are non-GAAP financial measures. Management believes that both measures -- which add back amortization of definite-lived intangibles, stock-based compensation, non-cash interest expense, (gain) loss on sale of property, plant and equipment, unrealized (gain) loss on commodity hedge, unrealized (gain) loss on foreign exchange, impairment, restructuring, acquisition-related, and other charges as well as the associated tax impact of these charges and discrete tax items -- provide additional useful information to investors regarding the Company's ongoing financial condition and results of operations.
+6 Income tax adjustments reflect the difference between income taxes based on a non-GAAP tax rate and a forecasted annual GAAP tax rate.
+7 Adjusted EBITDA is defined as earnings before income taxes provision, interest expense, amortization of definite-lived intangibles, depreciation expense, stock-based compensation, (gain) loss on sale of property, plant and equipment, unrealized (gain) loss on commodity hedge, unrealized (gain) loss on foreign exchange, impairment, restructuring, acquisition-related, and other charges. We present adjusted EBITDA to enhance the understanding of our operating results, and it is a key measure we use to evaluate our operations. In addition, we provide our adjusted EBITDA because we believe that investors and securities analysts will find adjusted EBITDA to be a useful measure for evaluating our operating performance and comparing our operating performance with that of similar companies that have different capital structures and for evaluating our ability to meet our future debt service, capital expenditures, and working capital requirements. However, adjusted EBITDA should not be considered as an alternative to cash flows from operating activities as a measure of liquidity or as an alternative to net income as a measure of operating results in accordance with accounting principles generally accepted in the United States of America.

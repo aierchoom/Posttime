@@ -1,0 +1,97 @@
+[
+  {
+    "name": "2026-10-12_TTM_新增4亿美元扩产",
+    "url": "https://investors.ttm.com/news-events/press-releases/detail/417/ttm-technologies-announces-400-million-in-planned",
+    "final_url": "https://investors.ttm.com/news-events/press-releases/detail/417/ttm-technologies-announces-400-million-in-planned",
+    "bytes": 31599,
+    "sha256": "7b64cd94b48a99fb67a882e9ec0a951568aef0d9722abaffa03e635b9c4ae5f3",
+    "tables": 0,
+    "access_date": "2026-10-22"
+  },
+  {
+    "name": "2026-10-22_TTM_SEC目录",
+    "url": "https://investors.ttm.com/sec-filings/all-sec-filings",
+    "final_url": "https://investors.ttm.com/sec-filings/all-sec-filings",
+    "bytes": 44226,
+    "sha256": "d4844874edff07c52f9cfaa2370fc9f3a34a4d826ab4de585d58ea20e9010331",
+    "tables": 1,
+    "access_date": "2026-10-22"
+  },
+  {
+    "name": "2026-10-22_TTM_演示材料目录",
+    "url": "https://investors.ttm.com/news-events/presentations",
+    "final_url": "https://investors.ttm.com/news-events/presentations",
+    "bytes": 28147,
+    "sha256": "0902cb20d28a92150bd692f39930f5387b4e2d54e21026797c03dd6e077e7645",
+    "tables": 0,
+    "access_date": "2026-10-22"
+  },
+  {
+    "name": "2026-10-19_TTM_Ophir收购协议",
+    "url": "https://investors.ttm.com/news-events/press-releases/detail/419/ttm-technologies-inc-agrees-to-acquire-mks-inc-s",
+    "final_url": "https://investors.ttm.com/news-events/press-releases/detail/419/ttm-technologies-inc-agrees-to-acquire-mks-inc-s",
+    "bytes": 33883,
+    "sha256": "962e3169a1c62a6b7a8c3f3c615630594643f768b18cdaf998177d600f376de1",
+    "tables": 0,
+    "access_date": "2026-10-22"
+  },
+  {
+    "name": "2026-09-30_TTM_Epiq交割及融资",
+    "url": "https://investors.ttm.com/news-events/press-releases/detail/416/ttm-technologies-inc-completes-acquisition-of-epiq",
+    "final_url": "https://investors.ttm.com/news-events/press-releases/detail/416/ttm-technologies-inc-completes-acquisition-of-epiq",
+    "bytes": 31078,
+    "sha256": "dc0db67f58fa5d4023a6398ed5f25c120de89e692712cae710d893c6e22cfafd",
+    "tables": 0,
+    "access_date": "2026-10-22"
+  },
+  {
+    "name": "2026-08-05_TTM_Q2业绩公告",
+    "url": "https://investors.ttm.com/news-events/press-releases/detail/410/ttm-technologies-inc-reports-second-quarter-2026-results",
+    "final_url": "https://investors.ttm.com/news-events/press-releases/detail/410/ttm-technologies-inc-to-conduct-second-quarter-2026",
+    "bytes": 27598,
+    "sha256": "b7c041b7b6e8bf45e3cd188f5c7d1f454e1729e53d6f4d792eb633a91a077838",
+    "tables": 0,
+    "access_date": "2026-10-22"
+  },
+  {
+    "name": "2026-10-22_TTM_Q3业绩公告",
+    "url": "https://investors.ttm.com/news-events/press-releases/detail/420/ttm-technologies-inc-reports-third-quarter-2026-results",
+    "final_url": "https://investors.ttm.com/news-events/press-releases/detail/420/ttm-technologies-inc-reports-third-quarter-2026-results",
+    "bytes": 263659,
+    "sha256": "b0da3a63ec0c0a3aa791b32ae9307670a7360802156afdc898d99e1761bc2928",
+    "tables": 1,
+    "access_date": "2026-10-22"
+  },
+  {
+    "name": "2026-08_Mercury_FY2026业绩",
+    "url": "https://ir.mrcy.com/index.php/news-releases/news-release-details/mercury-systems-reports-fourth-quarter-and-fiscal-2026-results",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "2026-05_ATS_2025至2026财年业绩",
+    "url": "https://ats.net/en/ir-news/ats-closes-successful-financial-year-with-strong-fourth-quarter/",
+    "final_url": "https://ats.net/en/ir-news/ats-closes-successful-financial-year-with-strong-fourth-quarter/",
+    "bytes": 1176166,
+    "sha256": "e8700b019a2c2f644e2b46e5f6838dd89286cc734c4a4b982e02789a0de42eb9",
+    "tables": 6,
+    "access_date": "2026-10-22"
+  },
+  {
+    "name": "2026-10-22_TTM_财报目录",
+    "url": "https://investors.ttm.com/financial-information/financial-results",
+    "final_url": "https://investors.ttm.com/financial-information/financial-results",
+    "bytes": 145888,
+    "sha256": "17ba022a6c8dfe88fa15e85f6dedd67b29587aba8b60e60e2acc5be1ac360f17",
+    "tables": 0,
+    "access_date": "2026-10-22"
+  },
+  {
+    "name": "2026-10-22_ATS_最新关键指标",
+    "url": "https://ats.net/en/investors/key-figures/",
+    "final_url": "https://ats.net/en/investors/key-figures/",
+    "bytes": 1211869,
+    "sha256": "8515fb2bf9e041a52ec1d917aee9783f98fac220bfdc2ae478a8b9419b05aa5e",
+    "tables": 1,
+    "access_date": "2026-10-22"
+  }
+]
