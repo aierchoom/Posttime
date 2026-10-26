@@ -1,0 +1,763 @@
+Executive summary - Key Questions on Energy and AI - IEA (https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary)
+citeturn14view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary","lineno":null}); Total lines: 234
+L0: 【0†iframe†www.googletagmanager.com】
+L1:
+L2: [Input: Search everything]
+L3:
+L4:   * 【1†About】
+L5:   * 【2†News】
+L6:   * 【3†Events】
+L7:   * 【4†Programmes】
+L8:   * 【5†Help centre】
+L9:
+L10: Sign In
+L11:
+L12: You are connecting via IP recognition from
+L13: .
+L14:
+L15: If you wish to proceed, click on Connect.
+L16: If you prefer to log into your personal account, please sign in below.
+L17:
+L18: 【6†Connect】
+L19:
+L20: OR
+L21:
+L22: [Input]
+L23:
+L24: Email *
+L25:
+L26: [Input: ]
+L27:
+L28: Password * 【7†Forgot password?】
+L29:
+L30: [Input: ]
+L31:
+L32: Sign in
+L33:
+L34: Create an account
+L35: Create a free IEA account to download our reports or subcribe to a paid service.
+L36:
+L37: 【8†Join for free】
+L38:
+L39: Contents
+L40:
+L41: 【9†Cite】
+L42:
+L43: 【10†Download full report†iea.blob.core.windows.net】
+L44: #### Cite report
+L45:
+L46: IEA (2026), Key Questions on Energy and AI, IEA, Paris https://www.iea.org/reports/key-questions-on-energy-and-ai, Licence: CC BY 4.0
+L47:
+L48: Copy to clipboard
+L49:
+L50: #### Share this report
+L51:
+L52:   * 【9†Twitter】
+L53:   * 【9†Facebook】
+L54:   * 【9†LinkedIn】
+L55:   * 【9†Bluesky】
+L56:   * 【9†Email】
+L57:   * 【9†Print】
+L58:
+L59: #### Report options
+L60:
+L61: 【10†Download†iea.blob.core.windows.net】
+L62:
+L63: 【11†Key Questions on Energy and AI】
+L64:
+L65: # Executive summary
+L66: ### The AI and energy nexus continues to evolve rapidly
+L67: The largest technology companies are contributing to a surge in data centre investment, as their capital expenditure exceeded USD 400 billion in 2025 – and is expected to jump by another 75% in 2026. Capital expenditure of just five technology companies is now larger than global investment in oil and natural gas production. Many jurisdictions are seeing project pipelines accelerate dramatically, although not all projects will come to fruition.
+L68: Those that are moving forward are doing so at pace: the IEA’s unique satellite-based tracking shows that “artificial intelligence (AI) factories” – cutting-edge data centres specifically designed for AI – have more than tripled in capacity in the past 18 months. Meanwhile, the capabilities of AI are improving quickly, increasing the likelihood that it will reshape economic growth, innovation and competitiveness and disrupt established industries and jobs.
+L69: In April 2025, the IEA published its landmark Energy and AI report, which provided first-of-its-kind global analysis on the links between AI and energy. Since then, the field has evolved rapidly: new questions have emerged and new data has come to light. This report builds on the foundation of previous work, providing fresh analysis on key issues.
+L70: It covers the outlook for data centre electricity demand considering recent market developments; innovations in powering data centres; and the implications of these trends for energy security, affordability, competitiveness and overall energy demand.
+--------------------------------------------------------------------------------
+Energy use of AI inference, efficiency pathways, and test-time scaling - Microsoft Research (https://www.microsoft.com/en-us/research/publication/energy-use-of-ai-inference-efficiency-pathways-and-test-time-scaling/)
+citeturn14view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.microsoft.com/en-us/research/publication/energy-use-of-ai-inference-efficiency-pathways-and-test-time-scaling/","lineno":null}); Total lines: 43
+L0: # Energy use of AI inference, efficiency pathways, and test-time scaling
+L1:
+L2:   * 【0†Felipe Oviedo】 ,
+L3:   * 【1†Fiodar Kazhamiaka】 ,
+L4:   * 【2†Esha Choukse】 ,
+L5:   * 【3†Allen Kim】 ,
+L6:   * 【4†Amy Luers】 ,
+L7:   * Melanie Nakagawa ,
+L8:   * 【5†Ricardo Bianchini】 ,
+L9:   * 【6†Juan M. Lavista Ferres】
+L10:
+L11: Joule | April 2026
+L12:
+L13: 【7†Download BibTex】
+L14: As artificial intelligence (AI) becomes widely used and new workflows scale token demand, questions about how much energy large language models (LLMs) consume are increasingly important for grid planning, AI development, and energy policy. Rapid expansion of AI data-center capacity further increases the importance of accurate energy estimates.
+L15: Public estimates of AI inference energy often overlook how efficiently large-scale inference systems operate and how rapidly efficiency improvements are reducing per-query energy use. Under realistic assumptions for large-scale deployments, this study finds that optimized frontier-scale inference consumes sub-watt-hour energy per query (median 0.31 Wh, interquartile range [IQR] 0.16–0.60), aligning with multiple independent measurements and estimates under production conditions.
+L16: It also shows that high-profile public estimates and measurements based on non-production assumptions overstate energy use by 4–20×. Long reasoning and agentic queries, however, are estimated to increase energy consumption by more than an order of magnitude due to increased token generation and reduced serving concurrency.
+L17: At data-center scale, serving billions of queries per day translates into substantial electricity demand, and even a modest share of long reasoning queries, for example, 10% of daily requests, can more than double total energy consumption. Encouragingly, recent efficiency improvements in model design, serving systems, and hardware could together reduce energy use by 8–20×, helping to keep overall demand manageable even as AI inference scales to billions of queries per day.
+L18: This pattern echoes how data centers historically tempered energy demand through efficiency gains during the internet and cloud buildup.
+L19: Opens in a new tab
+L20:
+L21: 【8†DOI†doi.org】
+L22:
+L23: Follow us:
+L24:
+L25:   * 【9†Follow on X†x.com】
+L26:   * 【10†Like on Facebook†www.facebook.com】
+L27:   * 【11†Follow on LinkedIn†www.linkedin.com】
+L28:   * 【12†Subscribe on Youtube†www.youtube.com】
+L29:   * 【13†Follow on Instagram†www.instagram.com】
+L30:   * 【14†Subscribe to our RSS feed】
+L31:
+L32: Share this page:
+L33:
+L34:   * 【15†Share on X†x.com】
+L35:   * 【16†Share on Facebook†www.facebook.com】
+L36:   * 【17†Share on LinkedIn†www.linkedin.com】
+L37:   * 【18†Share on Reddit†www.reddit.com】
+--------------------------------------------------------------------------------
+智启新未来，打造智能世界的硅基黑土地 - 华为 (https://www.huawei.com/cn/news/2026/9/hc-wang-keynote)
+citeturn14view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.huawei.com/cn/news/2026/9/hc-wang-keynote","lineno":null}); Total lines: 272
+L0: [Input] [Input]
+L1:
+L2: 【0†集团网站】 【0†选择区域/语言】
+L3:
+L4: 集团网站
+L5:
+L6: 【1†企业业务网站†e.huawei.com】
+L7:
+L8: 【2†运营商业务网站†carrier.huawei.com】
+L9:
+L10: 【3†消费者业务网站†consumer.huawei.com】
+L11:
+L12: 【4†华为云业务网站†www.huaweicloud.com】
+L13:
+L14: 【5†数字能源业务网站†digitalpower.huawei.com】
+L15:
+L16: 【6†智能汽车解决方案业务网站†auto.huawei.com】
+L17: ### 选择区域/语言
+L18:   * Australia - 【7†English】
+L19:   * Brazil - 【8†Português】
+L20:   * China - 【9†简体中文】
+L21:   * Europe - 【10†English】
+L22:   * France - 【11†Français】
+L23:   * Germany - 【12†Deutsch】
+L24:   * Ireland - 【13†English】
+L25:   * Italy - 【14†Italiano】
+L26:   * Japan - 【15†日本語】
+L27:   * Kazakhstan - 【16†Қазақ тілі】
+L28:   * Kazakhstan - 【17†Русский】
+L29:   * Kenya - 【18†English】
+L30:   * Korea - 【19†한국어】
+L31:   * Malaysia - 【20†English】
+L32:   * Mexico - 【21†Español】
+L33:   * Mongolia - 【22†Монгол】
+L34:   * Netherlands - 【23†Nederlands】
+L35:   * New Zealand - 【24†English】
+L36:   * Poland - 【25†Polski】
+L37:   * Romania - 【26†Română】
+L38:   * Singapore - 【27†English】
+L39:   * South Africa - 【28†English】
+L40:   * Spain - 【29†Español】
+L41:   * Switzerland - 【30†Deutsch】
+L42:   * Switzerland - 【31†Français】
+L43:   * Switzerland - 【32†Italiano】
+L44:   * Switzerland - 【33†English】
+L45:   * Tanzania - 【34†English】
+L46:   * Thailand - 【35†ภาษาไทย】
+L47:   * Türkiye - 【36†Türkçe】
+L48:   * Ukraine - 【37†Українська】
+L49:   * United Kingdom - 【38†English】
+L50:   * Uzbekistan - 【39†Русский】
+L51:   * Uzbekistan - 【40†O’zbek】
+L52:   * Vietnam - 【41†Tiếng Việt】
+L53:   * Global - 【42†English】
+L54: [Input] [Input] [Input] [Input] [Input] [Input] [Input] [Input] [Input]
+L55:
+L56:   *     * 【43†手机†consumer.huawei.com】
+L57:     * 【44†电脑†consumer.huawei.com】
+L58:     * 【45†平板†consumer.huawei.com】
+L59:     * 【46†智慧屏†consumer.huawei.com】
+L60:     * 【47†穿戴†consumer.huawei.com】
+L61:     * 【48†耳机音箱†consumer.huawei.com】
+L62:     * 【49†全屋智能†consumer.huawei.com】
+L63:     * 【50†路由器†consumer.huawei.com】
+L64:     * 【51†HarmonyOS 7†consumer.huawei.com】
+L65:     * 【52†全部产品†consumer.huawei.com】
+L66:
+L67: 【52†消费者业务网站†consumer.huawei.com】
+L68:
+L69:   * ### 产品
+L70: #### 联接
+L71:
+L72:     * 【2†运营商网络†carrier.huawei.com】
+L73:     * 【53†企业网络†e.huawei.com】
+L74:     * 【54†企业光网络†e.huawei.com】
+L75:     * 【55†企业无线†e.huawei.com】
+L76:
+L77: #### 计算
+L78:
+L79:     * 【56†通用计算†e.huawei.com】
+L80:     * 【57†AI计算†e.huawei.com】
+L81:     * 【58†数据存储†e.huawei.com】
+L82:
+L83: #### 云
+L84:
+L85:     * 【4†华为云†www.huaweicloud.com】
+L86:
+L87: #### 数字能源
+L88:
+L89:     * 【59†智能光伏†solar.huawei.com】
+L90:     * 【60†智能电动†digitalpower.huawei.com】
+L91:     * 【61†智能充电网络†digitalpower.huawei.com】
+L92:     * 【62†数据中心能源及关键供电†digitalpower.huawei.com】
+L93:     * 【63†站点能源†digitalpower.huawei.com】
+L94:
+L95: ### 行业解决方案
+L96: ### 热点话题
+L97:
+L98: 【1†企业业务网站†e.huawei.com】
+L99:
+L100: 【2†运营商业务网站†carrier.huawei.com】
+L101:
+L102: 【4†华为云网站†www.huaweicloud.com】
+L103:
+L104: 【5†数字能源网站†digitalpower.huawei.com】
+L105:
+L106: 【64†智能汽车解决方案网站†auto.huawei.com】
+L107:
+L108:   * ### 个人及家庭产品
+L109:
+L110: ### 华为云业务
+L111:
+L112: ### 企业业务
+L113:
+L114: ### 运营商业务
+L115:
+L116: ### 数字能源业务
+L117:
+L118:   * ### 合作伙伴
+L119:
+L120: ### 开发者
+--------------------------------------------------------------------------------
+ (https://static.cninfo.com.cn/finalpage/2026-10-20/1225611145.PDF)
+citeturn14view3 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 12; Source: open({"ref_id":"https://static.cninfo.com.cn/finalpage/2026-10-20/1225611145.PDF","lineno":null}); Total lines: 592
+L0@P0: 海光信息技术股份有限公司 2026 年第三季度报告
+L1@P0: 1 / 12
+L2@P0: 证券代码：688041 证券简称：海光信息
+L3@P0: 海光信息技术股份有限公司
+L4@P0: 2026 年第三季度报告
+L5@P0: 本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重
+L6@P0: 大遗漏，并对其内容的真实性、准确性和完整性依法承担法律责任。
+L7@P0: 重要内容提示：
+L8@P0: 公司董事会及董事、高级管理人员保证季度报告内容的真实、准确、完整，不存在虚假记载、误导性
+L9@P0: 陈述或重大遗漏，并承担个别和连带的法律责任。
+L10@P0: 公司负责人、主管会计工作负责人及会计机构负责人（会计主管人员）保证季度报告中财务信息的真
+L11@P0: 实、准确、完整。
+L12@P0: 第三季度财务报表是否经审计
+L13@P0: □是 √否
+L14@P0: 一、主要财务数据
+L15@P0: （一） 主要会计数据和财务指标
+L16@P0: 单位：元 币种：人民币
+L17@P0: 项目 本报告期
+L18@P0: 本报告期比
+L19@P0: 上年同期增
+L20@P0: 减变动幅度
+L21@P0: (%)
+L22@P0: 年初至报告期末
+L23@P0: 年初至报告期
+L24@P0: 末比上年同期
+L25@P0: 增减变动幅度
+L26@P0: (%)
+L27@P0: 营业收入 5,855,689,454.32 45.46 14,954,710,229.13 57.58
+L28@P0: 利润总额 1,446,799,309.40 20.56 3,609,412,179.20 27.14
+L29@P0: 归属于上市公司股东的净利润 1,048,040,894.63 37.90 2,846,508,812.66 45.12
+L30@P0: 归属于上市公司股东的扣除
+L31@P0: 非经常性损益的净利润
+L32@P0: 952,830,320.63 31.12 2,584,242,015.98 42.25
+L33@P0: 经营活动产生的现金流量净额 不适用 不适用 -2,442,780,168.86 -208.35
+L34@P0: 基本每股收益（元/股） 0.45 36.36 1.23 44.71
+L35@P0: 稀释每股收益（元/股） 0.45 36.36 1.23 44.71
+L36@P0: 加权平均净资产收益率（%） 4.05 增加 0.44 个
+L37@P0: 百分点
+L38@P0: 11.59 增加 2.29 个
+L39@P0-1: 百分点海光信息技术股份有限公司 2026 年第三季度报告
+L40@P1: 2 / 12
+L41@P1: 项目 本报告期
+L42@P1: 本报告期比
+L43@P1: 上年同期增
+L44@P1: 减变动幅度
+L45@P1: (%)
+L46@P1: 年初至报告期末
+L47@P1: 年初至报告期
+L48@P1: 末比上年同期
+L49@P1: 增减变动幅度
+L50@P1: (%)
+L51@P1: 研发投入合计 1,819,662,147.21 48.68 4,472,044,952.74 52.39
+L52@P1: 研发投入占营业收入的比例
+L53@P1: （%）
+L54@P1: 31.08 增加 0.68 个
+L55@P1: 百分点
+L56@P1: 29.90 减少 1.02 个
+L57@P1: 百分点
+L58@P1: 本报告期末 上年度末
+L59@P1: 本报告期末比
+L60@P1: 上年度末增减
+L61@P1: 变动幅度(%)
+L62@P1: 总资产 40,687,771,489.95 35,638,165,817.46 14.17
+L63@P1: 归属于上市公司股东的所有
+L64@P1: 者权益
+L65@P1: 26,423,282,007.15 22,493,222,807.40 17.47
+L66@P1: 注：“本报告期”指本季度初至本季度末 3 个月期间，下同。
+L67@P1: （二） 非经常性损益项目和金额
+L68@P1: √适用 □不适用
+L69@P1: 单位：元 币种：人民币
+L70@P1: 非经常性损益项目 本期金额
+L71@P1: 年初至报告期
+L72@P1: 末金额
+L73@P1: 说明
+L74@P1: 非流动性资产处置损益，包括已计提资产减值准备的冲
+L75@P1: 销部分
+L76@P1: 46,213.39 7,286,418.98
+L77@P1: 计入当期损益的政府补助，但与公司正常经营业务密切
+L78@P1: 相关、符合国家政策规定、按照确定的标准享有、对公司
+L79@P1: 损益产生持续影响的政府补助除外
+L80@P1: 101,662,667.12 269,281,387.51
+L81@P1: 除同公司正常经营业务相关的有效套期保值业务外，非
+L82@P1: 金融企业持有金融资产和金融负债产生的公允价值变动
+L83@P1: 损益以及处置金融资产和金融负债产生的损益
+L84@P1: 283,794.26
+L85@P1: 计入当期损益的对非金融企业收取的资金占用费
+L86@P1: 委托他人投资或管理资产的损益
+L87@P1: 对外委托贷款取得的损益
+L88@P1: 因不可抗力因素，如遭受自然灾害而产生的各项资产损
+L89@P1: 失
+L90@P1: 单独进行减值测试的应收款项减值准备转回
+L91@P1: 企业取得子公司、联营企业及合营企业的投资成本小于
+L92@P1: 取得投资时应享有被投资单位可辨认净资产公允价值产
+L93@P1: 生的收益
+L94@P1: 同一控制下企业合并产生的子公司期初至合并日的当期
+L95@P1: 净损益
+L96@P1: 非货币性资产交换损益
+L97@P1: 债务重组损益
+L98@P1: 企业因相关经营活动不再持续而发生的一次性费用，如
+L99@P1-2: 安置职工的支出等海光信息技术股份有限公司 2026 年第三季度报告
+L100@P2: 3 / 12
+L101@P2: 非经常性损益项目 本期金额
+L102@P2: 年初至报告期
+L103@P2: 末金额
+L104@P2: 说明
+L105@P2: 因税收、会计等法律、法规的调整对当期损益产生的一次
+L106@P2: 性影响
+L107@P2: 因取消、修改股权激励计划一次性确认的股份支付费用
+L108@P2: 对于现金结算的股份支付，在可行权日之后，应付职工薪
+L109@P2: 酬的公允价值变动产生的损益
+L110@P2: 采用公允价值模式进行后续计量的投资性房地产公允价
+L111@P2: 值变动产生的损益
+L112@P2: 交易价格显失公允的交易产生的收益
+L113@P2: 与公司正常经营业务无关的或有事项产生的损益
+L114@P2: 受托经营取得的托管费收入
+L115@P2: 除上述各项之外的其他营业外收入和支出 -1,531,236.38 -1,687,201.60
+L116@P2: 其他符合非经常性损益定义的损益项目 19,810.78 5,733,531.43
+L117@P2: 减：所得税影响额 3,308,956.75 11,048,496.83
+L118@P2: 少数股东权益影响额（税后） 1,677,924.16 7,582,637.07
+L119@P2: 合计 95,210,574.00 262,266,796.68
+L120@P2: 对公司将《公开发行证券的公司信息披露解释性公告第 1 号——非经常性损益》未列举的项目认定为非
+L121@P2: 经常性损益项目且金额重大的，以及将《公开发行证券的公司信息披露解释性公告第 1 号——非经常性
+L122@P2: 损益》中列举的非经常性损益项目界定为经常性损益的项目，应说明原因。
+L123@P2: □适用 √不适用
+L124@P2: （三） 主要会计数据、财务指标发生变动的情况、原因
+L125@P2: √适用 □不适用
+L126@P2: 项目名称
+L127@P2: 变动比例
+L128@P2: （%）
+L129@P2: 主要原因
+L130@P2: 营业收入_年初至报告期末 57.58
+L131@P2: 受人工智能产业快速发展、国产化进程
+L132@P2: 由政策驱动全面转向市场驱动等因素带
+L133@P2: 动，国内高端芯片需求持续攀升。公司
+L134@P2: 持续加大研发投入，围绕通用计算和人
+L135@P2: 工智能计算市场，迭代优化产品性能，
+L136@P2: 在高端芯片市场具有竞争优势，持续保
+L137@P2: 持市场领先，实现了公司业绩持续增长。
+L138@P2: 归属于上市公司股东的净利润_年初至报
+L139@P2: 告期末
+L140@P2: 45.12
+L141@P2: 归属于上市公司股东的扣除非经常性损
+L142@P2: 益的净利润_年初至报告期末
+L143@P2: 42.25
+L144@P2: 基本每股收益（元/股）_年初至报告期末 44.71
+--------------------------------------------------------------------------------
+寒武纪(688256)_公司公告_寒武纪：2026年第三季度报告新浪财经_新浪网 (https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12657969&stockid=688256)
+citeturn14view4 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12657969&stockid=688256","lineno":null}); Total lines: 381
+L0: 【0†财经首页†finance.sina.com.cn】 | 【1†新浪首页†www.sina.com.cn】 | 【2†新浪导航†news.sina.com.cn】
+L1:
+L2: 【3†iframe†finance.sina.com.cn】
+L3:
+L4:   * 热点推荐
+L5:   * ·【4†自选股-轻松管理您的千只股票†vip.stock.finance.sina.com.cn】
+L6:   * ·【5†金融e路通-理财投资更轻松†finance.sina.com.cn】
+L7:   * ·【6†行情中心-通往财富之门†biz.finance.sina.com.cn】
+L8:   * 【0†财经首页†finance.sina.com.cn】
+L9:   * 【7†股票†finance.sina.com.cn】
+L10:   * 【8†基金†finance.sina.com.cn】
+L11:   * 【9†滚动†finance.sina.com.cn】
+L12:   * 【10†公告†vip.stock.finance.sina.com.cn】
+L13:   * 【11†大盘†finance.sina.com.cn】
+L14:   * 【12†个股†finance.sina.com.cn】
+L15:   * 【13†新股†finance.sina.com.cn】
+L16:   * 【14†权证†finance.sina.com.cn】
+L17:   * 【15†报告†finance.sina.com.cn】
+L18:   * 【16†环球市场†finance.sina.com.cn】
+L19:   * 博客
+L20:
+L21:     * 【17†财经博客†blog.sina.com.cn】
+L22:     * 【18†股票博客†blog.sina.com.cn】
+L23:   * 【19†股票吧†finance.sina.com.cn】
+L24:   * 【20†港股†finance.sina.com.cn】
+L25:   * 【21†美股†finance.sina.com.cn】
+L26:   * 【6†行情中心†biz.finance.sina.com.cn】
+L27:   * 【4†自选股†vip.stock.finance.sina.com.cn】
+L28:
+L29: 【22†上证指数†finance.sina.com.cn】: 0000.00　0.00　00.00亿元　|　【23†深圳成指†finance.sina.com.cn】: 0000.00　0.00　00.00亿元　|　【24†沪深300†finance.sina.com.cn】: 0000.00　0.00　00.00亿元
+L30:
+L31: [Input] [Input]
+L32: # 读取中,请稍候
+L33:
+L34:  | 00-00 00:00:00
+L35: ##### --.--
+L36:
+L37: 0.00 (0.000%)  | 昨收盘:0.000  | 今开盘:0.000  | 最高价:0.000  | 最低价:0.000
+L38: 成交额:0  | 成交量:0  | 买入价:0.000  | 卖出价:0.000
+L39: 市盈率:0.000  | 收益率:0.000  | 52周最高:0.000  | 52周最低:0.000
+L40:
+L41: 【25†Image†image.sinajs.cn】
+L42:
+L43:   * 资讯与公告：
+L44:   * 【26†个股资讯】
+L45:   * 【27†公司公告】
+L46:   * 【28†年度报告】
+L47:   * 【29†中期报告】
+L48:   * 【30†一季度报告】
+L49:   * 【31†三季度报告】
+L50: 寒武纪：2026年第三季度报告 （【32†下载公告†file.finance.sina.com.cn】）
+L51: ---
+L52: 公告日期:2026-10-24
+L53: /证券代码：688256证券简称：寒武纪中科寒武纪科技股份有限公司2026年第三季度报告重要内容提示：公司董事会及董事、高级管理人员保证季度报告内容的真实、准确、完整，不存在虚假记载、误导性陈述或重大遗漏，并承担个别和连带的法律责任。公司负责人、主管会计工作负责人及会计机构负责人（会计主管人员）保证季度报告中财务信息的真实、准确、完整。第三季度财务报表是否经审计□是√否一、主要财务数据（一）主要会计数据和财务指标单位：元币种：人民币本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性依法承担法律责任。项目
+L54: 项目 本报告期 本报告期比上年同期增减变动幅度(%) 年初至报告期末 年初至报告期末比上年同期增减变动幅度(%)
+L55: 营业收入 3,530,828,294.64 104.47 9,526,401,914.25 106.76
+L56: 利润总额 1,404,429,363.61 148.08 3,705,641,538.93 131.04
+L57: 归属于上市公司股东的净利润 1,403,610,679.47 147.74 3,714,522,759.80 131.49
+L58: 归属于上市公司股东的扣除非经常性损益的净利润 1,357,585,325.91 168.13 3,523,141,104.43 148.30
+L59: 经营活动产生的现金流量净额 -83,677,874.96 不适用 227,636,767.50 不适用
+L60: /
+L61: 基本每股收益（元/股） 2.23 145.05 5.91 129.07
+L62: 稀释每股收益（元/股） 2.21 145.56 5.86 128.91
+L63: 加权平均净资产收益率（%） 9.79 增加1.76个百分点 27.73 增加2.52个百分点
+L64: 研发投入合计 522,586,496.30 73.66 1,225,052,567.56 45.35
+L65: 研发投入占营业收入的比例（%） 14.80 减少2.63个百分点 12.86 减少5.43个百分点
+L66: 本报告期末 上年度末 本报告期末比上年度末增减变动幅度(%)
+L67: 总资产 22,364,229,366.86 13,437,714,065.91 66.43
+L68: 归属于上市公司股东的所有者权益 15,123,685,399.14 11,836,173,972.81 27.78
+L69: 注：1、“本报告期”指本季度初至本季度末3个月期间，下同。2、本表中“研发投入”与财务报表研发费用核算口径一致。3、公司于2026年5月实施了2025年年度权益分派：以实施权益分派股权登记日登记的公司总股本扣除公司回购专用证券账户中的股份为基数，以资本公积金向全体股东每10股转增4.9股，合计转增206,607,799股，转增后公司总股本为628,292,969股。根据《企业会计准则第34号—每股收益》要求，公司按调整后的股数对上期每股收益重新计算并列报。（二）非经常性损益项目和金额√适用□不适用单位：元币种：人民币
+L70: 非经常性损益项目 本期金额 年初至报告期末金额 说明
+L71: 非流动性资产处置损益，包括已计提资产减值准备的冲销部分 53,484.43 249,216.99 /
+
+
+Executive summary - Key Questions on Energy and AI - IEA (https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary)
+citeturn15view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn14view0","pattern":"efficiency"}); Total lines: 234
+L67: The largest technology companies are contributing to a surge in data centre investment, as their capital expenditure exceeded USD 400 billion in 2025 – and is expected to jump by another 75% in 2026. Capital expenditure of just five technology companies is now larger than global investment in oil and natural gas production. Many jurisdictions are seeing project pipelines accelerate dramatically, although not all projects will come to fruition.
+L68: Those that are moving forward are doing so at pace: the IEA’s unique satellite-based tracking shows that “artificial intelligence (AI) factories” – cutting-edge data centres specifically designed for AI – have more than tripled in capacity in the past 18 months. Meanwhile, the capabilities of AI are improving quickly, increasing the likelihood that it will reshape economic growth, innovation and competitiveness and disrupt established industries and jobs.
+L69: In April 2025, the IEA published its landmark Energy and AI report, which provided first-of-its-kind global analysis on the links between AI and energy. Since then, the field has evolved rapidly: new questions have emerged and new data has come to light. This report builds on the foundation of previous work, providing fresh analysis on key issues.
+L70: It covers the outlook for data centre electricity demand considering recent market developments; innovations in powering data centres; and the implications of these trends for energy security, affordability, competitiveness and overall energy demand.
+L71: ### Energy consumption per AI query has declined massively, but much more energy-intensive use cases are becoming increasingly popular
+L72: Measured per individual task, the energy efficiency of AI is improving at a rate unprecedented in energy history. Software and hardware advances have resulted in the energy use per AI task dropping by at least an order of magnitude annually in recent years. Simple text queries now typically consume less electricity than running a television over the same period of time.
+L73: If all conventional internet searches were performed with simple AI text queries, it would consume less than 4 terawatt-hours (TWh) of electricity annually, equivalent to less than 1% of total data centre consumption today.
+L74: However, new energy-intensive AI applications are increasingly being launched and used, such as those for video generation, reasoning and agentic tasks. These kinds of tasks can consume hundreds or thousands of times more energy per query than simple text generation.
+L75: The energy demand of AI is therefore the result of three rapidly evolving and uncertain trends: improvements in efficiency, surging uptake, and changing model capabilities, which can unlock new and, in many instances, far more energy-intensive use cases. To improve the robustness of the outlook for AI’s energy demand, close monitoring, frequent updates and cooperation with the tech sector, including more systematic energy consumption disclosures, will remain important.
+L76: The global electricity demand of data centres – the critical infrastructure for training and running AI models – grew by 17% in 2025, in line with IEA projections. Electricity consumption from AI-focused data centres grew even faster, surging 50% in 2025.
+L77: While there are no comprehensive statistics on the frequency and depth of AI usage around the world, major model providers reported a threefold increase in active users and a fivefold increase in revenue over the past year, highlighting the rapid growth of demand.
+L78: ### Capital expenditures by hyperscalers
+L79:
+L80: 【12†Open】
+L81:
+L82: #### Notes
+L83:
+L84: Data for 2026 are estimates.
+L85:
+L86: ### AI use on OpenRouter
+L87:
+L88: 【13†Open】
+L89: ### Across the AI value chain, a scramble for electricity, grid connections, manufacturing capacity, chips and capital has set in
+L90: The speed of the AI revolution is increasingly contrasting with the speed of the physical, social and economic systems that underpin it. Bottlenecks across energy supply chains and advanced chip manufacturing have tightened since our last report. Planning and regulatory systems are being stretched by the wave of project applications for data centres, amid a broader trend of rapid load growth and electrification.
+L91: Social acceptability is also a growing issue, as communities push back against data centre projects, and concerns about affordability and environmental impacts rise. Essential elements within the IT industry are currently facing limitations; notably, a shortage of high-bandwidth memory – integral to AI chip production – has developed over the past six months and is anticipated to persist through at least the end of 2027.
+L92: Data centre investments have grown too large to be funded from company balance sheets alone, and large amounts of funding from capital markets will be critical for their buildout. As a result, the pace of data centre growth, and the resulting increase in energy consumption, will be sensitive to market sentiment, including expectations for returns on investment in data centres and AI deployment, as well as to broader macroeconomic and financing conditions.
+L93: Understanding the energy implications of AI therefore also means following closely the technology’s economic trajectory.
+L94: ### Our updated data centre electricity demand outlook sees near-term bottlenecks but longer-term upside
+L95: The central projection for electricity demand from data centres remains close to the trajectory set out in the IEA’s 2025 report. Our updated projections see electricity consumption from data centres roughly doubling from 485 TWh in 2025 to 950 TWh in 2030, accounting for around 3% of global electricity demand by that date. Electricity consumption from AI-focused data centres grows much faster than overall data centre electricity consumption, tripling in this period.
+L96: Bottlenecks across the value chain, however, are reducing the likelihood of more aggressive near-term scenarios, despite booming investment and surging project pipelines.
+L97: The mid- to longer-term outlook for data centre electricity demand sees a possible upside. Investments in relieving bottlenecks across energy equipment and chip manufacturing, and rapid uptake of energy-intensive use cases of AI, raise the prospect that there could be an even higher upside case after 2030. The IEA will continue to update its projections regularly.
+L98: ### Electricity demand growth in 2025
+L99:
+L100: 【14†Open】
+L101:
+L102: #### Notes
+L103:
+L104: Total = 800 TWh
+L105:
+L106: ### Electricity consumption by data centres, 2020-2035
+L107:
+L108: 【15†Open】
+L109: ### AI is pushing data centre power density to the limits of today’s technologies
+L110: An individual server rack within an advanced data centre is only the size of a large refrigerator, but by 2027 it could have peak power demand equivalent to that of 65 households. The speed of this shift is remarkable: between 2020 and 2025, the power density of AI servers increased by 11 times; by 2027, it is set to see a further fourfold increase. This will test the capacity to ramp up supply chains for key electricity technologies such as power electronics and transformers.
+L136: Effects are concentrated in advanced economies, particularly the United States, although emerging and developing economies also benefit from increased economic activity.
+L137: Ultimately, what matters most for energy demand are energy policies and energy technologies. In our analysis, the impact of energy policies and energy technology developments on energy demand is much larger than the potential impact of an AI-driven economic growth boost.
+L138: ### Estimated energy demand impact of AI-induced GDP growth, 2035
+L139:
+L140: 【20†Open】
+L141:
+L142: ### Energy savings potential from AI, 2035
+L143:
+L144: 【21†Open】
+L145: ### In an unstable world, the links between AI and energy security have tightened
+L146: Over the past year, energy and technology supply chains have become further strained.  Trade restrictions have targeted key components going into data centres, such as the critical minerals needed for advanced power electronics, or the batteries and battery components needed to smooth AI loads. A 70% surge in gas turbine orders in 2025 has highlighted chokepoints in energy technology supply chains.
+L147: And data centres themselves have been targeted in conflict zones, underscoring their role as critical infrastructure. The broader implications of the energy crisis tied to the conflict in the Middle East are still unknown, but they could extend to the choices that countries and companies make about the fuels and technologies used to power data centres, and where sites are located.
+L148: AI has the potential to be an important tool to enhance energy security and sustainability. For example, AI technologies monitor grids, transformers and other energy equipment to reduce unexpected failures and outages, and AI and digital grid-enhancing technologies are key to optimising the use of existing grid capacity, helping to offset lengthy and costly grid expansions.
+L149: At the same time, AI risks making cyberattacks easier and more powerful, and an increasingly digitalised energy sector presents new vulnerabilities.
+L150: With increasing deployment of AI-enabled robotics, automation and efficiency solutions, AI will be critical to industrial competitiveness. Advances in data, models and hardware now allow for broader automation in industrial design and production, speeding up development, boosting innovation and lowering costs.
+L151: The AI-enabled optimisation of production processes could reduce energy costs by 3-10 percentage points in energy-intensive industries, where energy is a critical production input and margins tend to be low. Well-documented AI use cases have the potential to save over 13 exajoules (EJ) of energy by 2035, equivalent to 3% of global final energy consumption, if barriers to wider uptake are overcome.
+L152: Longer-term, AI could unlock another wave of industrial innovation and productivity: the almost two-fold jump in venture capital going into this field in 2025 is a marker of the potential. The race to develop more powerful AI models is being run alongside another race to apply AI across the economy for innovation and productivity, with China particularly focused on the latter.
+L153: ### But the energy sector is not yet taking full advantage of AI opportunities
+L154: An IEA survey of energy companies reveals that the lack of digital skills is the single largest barrier to greater AI adoption in the energy sector. The adoption of AI is also limited by fragmented data and concerns related to data protection, privacy, and cybersecurity. For example, only 10% of global electricity consumption is covered by open electricity data policies. The lack of adequate digitalisation of equipment can also be a barrier.
+L155: Globally, less than half of energy demand is covered by policy frameworks aiming to promote the uptake of AI in the energy sector.
+L156: ### Share of policy coverage in energy demand, 2026
+L157:
+L158: 【22†Open】
+L159:
+L160: ### Share of global stock that is digitally connected, 2026
+L161:
+L162: 【23†Open】
+L163: ### Social concerns around AI have grown, focusing particularly on the environment and electricity prices…
+L164: Data centres are a highly visible flashpoint for concerns around energy prices and the environment. Energy prices have risen up the agenda since the inflationary shock of Covid-19 and the 2022 global energy crisis, with the energy crisis sparked by the conflict in the Middle East compounding concerns.
+L165: In addition to the potential impact of data centres on electricity prices, surveys increasingly show that citizens are concerned about AI’s effect on jobs, the economy, the environment, and society more broadly. The emissions associated with data centres double in IEA projections, reaching around 350 million tonnes in 2035, but still make up about 2% of global electricity sector emissions by that date.
+L166: ### …but with the right conditions, data centres do not necessarily raise electricity prices
+L167: The impact of electricity demand growth on electricity prices depends on a combination of fundamental factors and policy choices. In systems with tighter demand-supply balances, load growth can indeed trigger a need for new investments, potentially raising prices. On the other hand, in systems with excess electricity supply, load growth can result in more efficient capital utilisation and lower prices. The shape of the load growth matters too.
+L168: In the same way that high and reliable passenger numbers can allow airlines to lower average ticket prices on established routes, predictable baseload electricity demand can increase the efficiency of the use of capital-intensive power plants and grids, potentially lowering electricity prices.
+L169: Data centres can create special challenges for electricity affordability. Data centres are large, concentrated, rapidly developed infrastructure that are likely to trigger a need for new generation and grid investments in systems that host them. Actual peak load from data centres is often uncertain, as data centres are filled progressively with operating servers and often oversize their grid connections initially.
+L170: The mismatch between fast-moving data centres and slow-moving energy investments, and the uncertainty over their load, creates risks of misalignment between electricity system investment and data centre demand that could raise electricity prices in some places if unmitigated.
+L171: ### Policy remains key to ensuring AI and data centres play a constructive role in energy systems
+L172:
+L173: The IEA proposes three principles to help ensure AI deployment is leveraged for the benefit of the energy sector, and that data centres minimise any adverse impacts on electricity systems.
+L174:   * Proactive management of data centre project pipelines and electricity sector investment can support adequate and reliable electricity for the sector without adversely affecting prices. This includes reforming the management of data centre connection queues and streamlining permitting timelines. Similarly, more robust demand projections, building on greater disclosure from technology companies and strong cooperation with system operators, can help ensure investments are well aligned.
+L175: Finally, how costs are allocated in the electricity system is ultimately up to policymakers. Tools such as tariff schemes can support the fair allocation of the costs of grid upgrades and new generation capacity.
+L176:   * Approaches that promote electricity system flexibility can help accelerate grid connections and ensure electricity affordability. This can help defer the need for large investments and improve the efficiency of expensive grid and generation investments. System operators can explore non-firm grid connections and incentivise data centre developers to provide demand response in return for faster connection processes.
+L177: Increasingly sophisticated, grid-interactive onsite power assets, such as battery storage and gas-fired generators, can help data centres support grid operations, moving data centres from grid loads to grid resources.
+L178:   * Removing barriers to AI adoption in the energy sector can ensure AI is leveraged to enhance energy security and sustainability. Comprehensive policy frameworks that address data availability, cybersecurity, skills, and interoperability are crucial for boosting AI uptake.
+L179: As public concerns grow around the local impacts of data centres, and the broader implications of AI on jobs and fairness, social acceptability will hinge on demonstrating AI’s benefits for affordable, secure and sustainable energy systems, including at the local level.
+L180: ### Newsletters
+L181:
+L182: The best of the IEA sent straight to your inbox
+L183:
+L184: 【24†Subscribe to newsletters】
+L185:
+L186: 【25†Image】
+L187: ### Podcasts
+L188:
+L189: Top energy experts put IEA analysis in context
+L190:
+L191: 【26†Listen to our podcast】
+L192:
+L193: 【27†Image】
+L194:
+L195:   * Understand energy
+L196:   * 【28†Reports】
+L197:   * 【2†News and commentaries】
+L198:   * 【3†Events】
+L199:   * 【29†Energy system】
+L200:   * 【30†Topics】
+L201:   * 【31†Countries and regions】
+L202:   * 【32†Glossary】
+L203:
+L204:   * Explore data
+L205:   * 【33†Data explorers】
+L206:   * 【34†Data sets】
+L207:   * 【35†Policies database】
+L208:   * 【36†Chart library】
+L209:   * 【37†Energy Statistics Browser】
+L210:   * IEA essentials
+L211:   * 【1†About】
+L212:   * 【38†Mission】
+L213:   * 【39†Membership】
+L214:   * 【40†Structure】
+L215:   * 【4†Programmes】
+L216:   * 【41†International collaborations】
+L217:   * 【42†Training】
+L218:
+L219:   * Connect
+L220:   * 【43†Contact】
+L221:   * 【44†Press】
+L222:   * 【45†Careers】
+L223:   * 【46†Internships】
+L224:   * 【47†Delegates†ieaorg.sharepoint.com】
+L225:   * 【5†Help centre】
+L226:
+L227: © 2026 IEA
+L228:
+L229:   * 【48†Terms】
+L230:   * 【49†Privacy】
+L231: #### Subscription successful
+L232:
+L233: Thank you for subscribing. You can unsubscribe at any time by clicking the link at the bottom of any IEA newsletter.
+--------------------------------------------------------------------------------
+Executive summary - Key Questions on Energy and AI - IEA (https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary)
+citeturn15view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn14view0","pattern":"17%"}); Total lines: 234
+L74: However, new energy-intensive AI applications are increasingly being launched and used, such as those for video generation, reasoning and agentic tasks. These kinds of tasks can consume hundreds or thousands of times more energy per query than simple text generation.
+L75: The energy demand of AI is therefore the result of three rapidly evolving and uncertain trends: improvements in efficiency, surging uptake, and changing model capabilities, which can unlock new and, in many instances, far more energy-intensive use cases. To improve the robustness of the outlook for AI’s energy demand, close monitoring, frequent updates and cooperation with the tech sector, including more systematic energy consumption disclosures, will remain important.
+L76: The global electricity demand of data centres – the critical infrastructure for training and running AI models – grew by 17% in 2025, in line with IEA projections. Electricity consumption from AI-focused data centres grew even faster, surging 50% in 2025.
+L77: While there are no comprehensive statistics on the frequency and depth of AI usage around the world, major model providers reported a threefold increase in active users and a fivefold increase in revenue over the past year, highlighting the rapid growth of demand.
+L78: ### Capital expenditures by hyperscalers
+L79:
+L80: 【12†Open】
+L81:
+L82: #### Notes
+L83:
+L84: Data for 2026 are estimates.
+L85:
+L86: ### AI use on OpenRouter
+L87:
+L88: 【13†Open】
+L89: ### Across the AI value chain, a scramble for electricity, grid connections, manufacturing capacity, chips and capital has set in
+L90: The speed of the AI revolution is increasingly contrasting with the speed of the physical, social and economic systems that underpin it. Bottlenecks across energy supply chains and advanced chip manufacturing have tightened since our last report. Planning and regulatory systems are being stretched by the wave of project applications for data centres, amid a broader trend of rapid load growth and electrification.
+L91: Social acceptability is also a growing issue, as communities push back against data centre projects, and concerns about affordability and environmental impacts rise. Essential elements within the IT industry are currently facing limitations; notably, a shortage of high-bandwidth memory – integral to AI chip production – has developed over the past six months and is anticipated to persist through at least the end of 2027.
+L92: Data centre investments have grown too large to be funded from company balance sheets alone, and large amounts of funding from capital markets will be critical for their buildout. As a result, the pace of data centre growth, and the resulting increase in energy consumption, will be sensitive to market sentiment, including expectations for returns on investment in data centres and AI deployment, as well as to broader macroeconomic and financing conditions.
+L93: Understanding the energy implications of AI therefore also means following closely the technology’s economic trajectory.
+L94: ### Our updated data centre electricity demand outlook sees near-term bottlenecks but longer-term upside
+L95: The central projection for electricity demand from data centres remains close to the trajectory set out in the IEA’s 2025 report. Our updated projections see electricity consumption from data centres roughly doubling from 485 TWh in 2025 to 950 TWh in 2030, accounting for around 3% of global electricity demand by that date. Electricity consumption from AI-focused data centres grows much faster than overall data centre electricity consumption, tripling in this period.
+L96: Bottlenecks across the value chain, however, are reducing the likelihood of more aggressive near-term scenarios, despite booming investment and surging project pipelines.
+L97: The mid- to longer-term outlook for data centre electricity demand sees a possible upside. Investments in relieving bottlenecks across energy equipment and chip manufacturing, and rapid uptake of energy-intensive use cases of AI, raise the prospect that there could be an even higher upside case after 2030. The IEA will continue to update its projections regularly.
+L98: ### Electricity demand growth in 2025
+L99:
+L100: 【14†Open】
+L101:
+L102: #### Notes
+L103:
+L104: Total = 800 TWh
+L105:
+L106: ### Electricity consumption by data centres, 2020-2035
+L107:
+L108: 【15†Open】
+L109: ### AI is pushing data centre power density to the limits of today’s technologies
+L110: An individual server rack within an advanced data centre is only the size of a large refrigerator, but by 2027 it could have peak power demand equivalent to that of 65 households. The speed of this shift is remarkable: between 2020 and 2025, the power density of AI servers increased by 11 times; by 2027, it is set to see a further fourfold increase. This will test the capacity to ramp up supply chains for key electricity technologies such as power electronics and transformers.
+L111: Some of these technologies also depend on critical inputs from a small number of producers, notably China. Care is therefore needed to ensure that supply chains for the critical emerging technologies going into data centres are diverse and resilient.
+L112: Unlike traditional data centre operations, AI training and model use induce large and rapid power swings, making energy storage critical to ensure that electricity is always supplied reliably. By 2030, around 20-25 GW of battery storage could be installed in data centres globally, potentially making them a grid asset if the incentives are right.
+L113: Recent months have seen a data centre operator sign an agreement for the largest battery project ever by energy capacity (four times larger than the previous record-holder), helping to commercialise long-duration energy storage.
+L114: ### Total data centre electricity demand covered by renewables PPAs
+L115:
+L116: 【16†Open】
+L117: ### PPAs and offtake agreements in firm power technologies for data centres
+L118:
+L119: 【17†Open】
+L120: Constrained by slow grid connections, data centre developers in the United States are pushing forward projects with onsite natural gas-based power generation. Satellite tracking of these projects indicates that around one-fifth have started land clearing or construction. This highlights that onsite gas power is an emerging solution, with key design, supply chain, regulatory and financial questions remaining.
+L121: New IEA analysis shows that providing reliable onsite gas-fired electricity to meet critical and variable data centre load requires overbuilding onsite generation infrastructure by 30% to 70% relative to demand. Yet in the context of a supply crunch for gas turbines, it is not clear that onsite generation necessarily promises a faster route to market for data centres at scale. Though uncertainties are high, around 15‑27 GW of onsite natural gas may power data centres by 2030, mostly in the United States.
+L122: However, this does not remove the urgency of addressing grid bottlenecks, as most data centres prefer connecting to the grid.
+L123: The AI boom could therefore accelerate deployment and innovation in the electricity sector, if spending continues and if government support is also aligned. In this report, we analysed share price movements of AI and energy companies to understand how financial markets expect AI’s energy demand to impact energy companies.
+L124: On the one hand, financial valuations since the launch of ChatGPT do not suggest that AI demand will provide a generalised uplift to the energy sector; it is simply too small in the context of the energy sector as a whole. In contrast, manufacturers of gas turbines and electrical equipment, some nuclear companies, and some energy startups have seen their valuations become more strongly linked to AI, highlighting the pull that data centre demand is providing for innovation and growth in their businesses.
+L125: ### Global natural gas turbine orders, 2024-2025
+L126:
+L127: 【18†Open】
+L128:
+L129: ### Pipeline of onsite natural gas power projects for data centres in the United States, 2026
+L130:
+L131: 【19†Open】
+L132: ### Even if AI boosts economic growth, the impact on energy demand will be lower
+L133:
+L134: Initial signs indicate AI is boosting productivity in some sectors, which may push up overall economic growth. There are a wide range of projections of the impact of AI on GDP. Based on cooperation with the OECD and economic modelling of the possible task-by-task productivity boost coming from AI, this report provides a first-of-its-kind analysis of the implications of an AI-driven GDP boost on the energy sector.
+L135: Stronger economic growth from AI does not translate one-to-one into higher energy demand. It is concentrated in knowledge-intensive services and high-income countries, where the elasticity between energy demand and economic activity is lower. Estimates show that, depending on the scale of uptake, an AI-driven growth boost could raise the level of global energy demand by between 1-4% in 2035 compared with trends without this AI boost.
+L136: Effects are concentrated in advanced economies, particularly the United States, although emerging and developing economies also benefit from increased economic activity.
+L137: Ultimately, what matters most for energy demand are energy policies and energy technologies. In our analysis, the impact of energy policies and energy technology developments on energy demand is much larger than the potential impact of an AI-driven economic growth boost.
+L138: ### Estimated energy demand impact of AI-induced GDP growth, 2035
+L139:
+L140: 【20†Open】
+L141:
+L142: ### Energy savings potential from AI, 2035
+L143:
+L144: 【21†Open】
+L145: ### In an unstable world, the links between AI and energy security have tightened
+L146: Over the past year, energy and technology supply chains have become further strained.  Trade restrictions have targeted key components going into data centres, such as the critical minerals needed for advanced power electronics, or the batteries and battery components needed to smooth AI loads. A 70% surge in gas turbine orders in 2025 has highlighted chokepoints in energy technology supply chains.
+L147: And data centres themselves have been targeted in conflict zones, underscoring their role as critical infrastructure. The broader implications of the energy crisis tied to the conflict in the Middle East are still unknown, but they could extend to the choices that countries and companies make about the fuels and technologies used to power data centres, and where sites are located.
+--------------------------------------------------------------------------------
+Executive summary - Key Questions on Energy and AI - IEA (https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary)
+citeturn15view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn14view0","pattern":"2030"}); Total lines: 234
+L78: ### Capital expenditures by hyperscalers
+L79:
+L80: 【12†Open】
+L81:
+L82: #### Notes
+L83:
+L84: Data for 2026 are estimates.
+L85:
+L86: ### AI use on OpenRouter
+L87:
+L88: 【13†Open】
+L89: ### Across the AI value chain, a scramble for electricity, grid connections, manufacturing capacity, chips and capital has set in
+L90: The speed of the AI revolution is increasingly contrasting with the speed of the physical, social and economic systems that underpin it. Bottlenecks across energy supply chains and advanced chip manufacturing have tightened since our last report. Planning and regulatory systems are being stretched by the wave of project applications for data centres, amid a broader trend of rapid load growth and electrification.
+L91: Social acceptability is also a growing issue, as communities push back against data centre projects, and concerns about affordability and environmental impacts rise. Essential elements within the IT industry are currently facing limitations; notably, a shortage of high-bandwidth memory – integral to AI chip production – has developed over the past six months and is anticipated to persist through at least the end of 2027.
+L92: Data centre investments have grown too large to be funded from company balance sheets alone, and large amounts of funding from capital markets will be critical for their buildout. As a result, the pace of data centre growth, and the resulting increase in energy consumption, will be sensitive to market sentiment, including expectations for returns on investment in data centres and AI deployment, as well as to broader macroeconomic and financing conditions.
+L93: Understanding the energy implications of AI therefore also means following closely the technology’s economic trajectory.
+L94: ### Our updated data centre electricity demand outlook sees near-term bottlenecks but longer-term upside
+L95: The central projection for electricity demand from data centres remains close to the trajectory set out in the IEA’s 2025 report. Our updated projections see electricity consumption from data centres roughly doubling from 485 TWh in 2025 to 950 TWh in 2030, accounting for around 3% of global electricity demand by that date. Electricity consumption from AI-focused data centres grows much faster than overall data centre electricity consumption, tripling in this period.
+L96: Bottlenecks across the value chain, however, are reducing the likelihood of more aggressive near-term scenarios, despite booming investment and surging project pipelines.
+L97: The mid- to longer-term outlook for data centre electricity demand sees a possible upside. Investments in relieving bottlenecks across energy equipment and chip manufacturing, and rapid uptake of energy-intensive use cases of AI, raise the prospect that there could be an even higher upside case after 2030. The IEA will continue to update its projections regularly.
+L98: ### Electricity demand growth in 2025
+L99:
+L100: 【14†Open】
+L101:
+L102: #### Notes
+L103:
+L104: Total = 800 TWh
+L105:
+L106: ### Electricity consumption by data centres, 2020-2035
+L107:
+L108: 【15†Open】
+L109: ### AI is pushing data centre power density to the limits of today’s technologies
+L110: An individual server rack within an advanced data centre is only the size of a large refrigerator, but by 2027 it could have peak power demand equivalent to that of 65 households. The speed of this shift is remarkable: between 2020 and 2025, the power density of AI servers increased by 11 times; by 2027, it is set to see a further fourfold increase. This will test the capacity to ramp up supply chains for key electricity technologies such as power electronics and transformers.
+L111: Some of these technologies also depend on critical inputs from a small number of producers, notably China. Care is therefore needed to ensure that supply chains for the critical emerging technologies going into data centres are diverse and resilient.
+L112: Unlike traditional data centre operations, AI training and model use induce large and rapid power swings, making energy storage critical to ensure that electricity is always supplied reliably. By 2030, around 20-25 GW of battery storage could be installed in data centres globally, potentially making them a grid asset if the incentives are right.
+L113: Recent months have seen a data centre operator sign an agreement for the largest battery project ever by energy capacity (four times larger than the previous record-holder), helping to commercialise long-duration energy storage.
+L114: ### Total data centre electricity demand covered by renewables PPAs
+L115:
+L116: 【16†Open】
+L117: ### PPAs and offtake agreements in firm power technologies for data centres
+L118:
+L119: 【17†Open】
+L120: Constrained by slow grid connections, data centre developers in the United States are pushing forward projects with onsite natural gas-based power generation. Satellite tracking of these projects indicates that around one-fifth have started land clearing or construction. This highlights that onsite gas power is an emerging solution, with key design, supply chain, regulatory and financial questions remaining.
+L121: New IEA analysis shows that providing reliable onsite gas-fired electricity to meet critical and variable data centre load requires overbuilding onsite generation infrastructure by 30% to 70% relative to demand. Yet in the context of a supply crunch for gas turbines, it is not clear that onsite generation necessarily promises a faster route to market for data centres at scale. Though uncertainties are high, around 15‑27 GW of onsite natural gas may power data centres by 2030, mostly in the United States.
+L122: However, this does not remove the urgency of addressing grid bottlenecks, as most data centres prefer connecting to the grid.
+L123: The AI boom could therefore accelerate deployment and innovation in the electricity sector, if spending continues and if government support is also aligned. In this report, we analysed share price movements of AI and energy companies to understand how financial markets expect AI’s energy demand to impact energy companies.
+L124: On the one hand, financial valuations since the launch of ChatGPT do not suggest that AI demand will provide a generalised uplift to the energy sector; it is simply too small in the context of the energy sector as a whole. In contrast, manufacturers of gas turbines and electrical equipment, some nuclear companies, and some energy startups have seen their valuations become more strongly linked to AI, highlighting the pull that data centre demand is providing for innovation and growth in their businesses.
+L125: ### Global natural gas turbine orders, 2024-2025
+L126:
+L127: 【18†Open】
+L128:
+L129: ### Pipeline of onsite natural gas power projects for data centres in the United States, 2026
+L130:
+L131: 【19†Open】
+L132: ### Even if AI boosts economic growth, the impact on energy demand will be lower
+L133:
+L134: Initial signs indicate AI is boosting productivity in some sectors, which may push up overall economic growth. There are a wide range of projections of the impact of AI on GDP. Based on cooperation with the OECD and economic modelling of the possible task-by-task productivity boost coming from AI, this report provides a first-of-its-kind analysis of the implications of an AI-driven GDP boost on the energy sector.
+L135: Stronger economic growth from AI does not translate one-to-one into higher energy demand. It is concentrated in knowledge-intensive services and high-income countries, where the elasticity between energy demand and economic activity is lower. Estimates show that, depending on the scale of uptake, an AI-driven growth boost could raise the level of global energy demand by between 1-4% in 2035 compared with trends without this AI boost.
+L136: Effects are concentrated in advanced economies, particularly the United States, although emerging and developing economies also benefit from increased economic activity.
+L137: Ultimately, what matters most for energy demand are energy policies and energy technologies. In our analysis, the impact of energy policies and energy technology developments on energy demand is much larger than the potential impact of an AI-driven economic growth boost.
+L138: ### Estimated energy demand impact of AI-induced GDP growth, 2035
+L139:
+L140: 【20†Open】
+L141:
+L142: ### Energy savings potential from AI, 2035
+L143:
+L144: 【21†Open】
+L145: ### In an unstable world, the links between AI and energy security have tightened
+L146: Over the past year, energy and technology supply chains have become further strained.  Trade restrictions have targeted key components going into data centres, such as the critical minerals needed for advanced power electronics, or the batteries and battery components needed to smooth AI loads. A 70% surge in gas turbine orders in 2025 has highlighted chokepoints in energy technology supply chains.
+L147: And data centres themselves have been targeted in conflict zones, underscoring their role as critical infrastructure. The broader implications of the energy crisis tied to the conflict in the Middle East are still unknown, but they could extend to the choices that countries and companies make about the fuels and technologies used to power data centres, and where sites are located.
+L148: AI has the potential to be an important tool to enhance energy security and sustainability. For example, AI technologies monitor grids, transformers and other energy equipment to reduce unexpected failures and outages, and AI and digital grid-enhancing technologies are key to optimising the use of existing grid capacity, helping to offset lengthy and costly grid expansions.
+L149: At the same time, AI risks making cyberattacks easier and more powerful, and an increasingly digitalised energy sector presents new vulnerabilities.
+--------------------------------------------------------------------------------
+智启新未来，打造智能世界的硅基黑土地 - 华为 (https://www.huawei.com/cn/news/2026/9/hc-wang-keynote)
+citeturn15view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn14view2","pattern":"规模商用"}); Total lines: 272
+No matching text found for "规模商用"

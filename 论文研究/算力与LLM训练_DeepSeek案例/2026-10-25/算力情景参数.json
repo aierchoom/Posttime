@@ -1,0 +1,12 @@
+{
+  "status": "illustrative_uncalibrated_not_a_forecast",
+  "base_year": 2026,
+  "end_year": 2030,
+  "base_index": 100,
+  "training_share": 0.3,
+  "scenarios": [
+    {"name":"效率占优示意","alpha":0.1,"residual_target_multiplier":0.96,"training_algorithm_efficiency_multiplier":1.8,"training_runs_multiplier":1.05,"query_multiplier":1.5,"complexity_multiplier":1.0,"inference_algorithm_efficiency_multiplier":1.8,"effective_per_device_throughput_multiplier":1.4},
+    {"name":"需求扩张示意","alpha":0.1,"residual_target_multiplier":0.92,"training_algorithm_efficiency_multiplier":1.8,"training_runs_multiplier":1.1,"query_multiplier":2.2,"complexity_multiplier":1.2,"inference_algorithm_efficiency_multiplier":2.0,"effective_per_device_throughput_multiplier":1.4},
+    {"name":"更高目标示意","alpha":0.1,"residual_target_multiplier":0.88,"training_algorithm_efficiency_multiplier":1.8,"training_runs_multiplier":1.15,"query_multiplier":3.0,"complexity_multiplier":1.4,"inference_algorithm_efficiency_multiplier":2.2,"effective_per_device_throughput_multiplier":1.4}
+  ]
+}

@@ -1,0 +1,1519 @@
+智启新未来，打造智能世界的硅基黑土地 - 华为 (https://www.huawei.com/cn/news/2026/9/hc-wang-keynote)
+citeturn4view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.huawei.com/cn/news/2026/9/hc-wang-keynote","lineno":null}); Total lines: 272
+L0: [Input] [Input]
+L1:
+L2: 【0†集团网站】 【0†选择区域/语言】
+L3:
+L4: 集团网站
+L5:
+L6: 【1†企业业务网站†e.huawei.com】
+L7:
+L8: 【2†运营商业务网站†carrier.huawei.com】
+L9:
+L10: 【3†消费者业务网站†consumer.huawei.com】
+L11:
+L12: 【4†华为云业务网站†www.huaweicloud.com】
+L13:
+L14: 【5†数字能源业务网站†digitalpower.huawei.com】
+L15:
+L16: 【6†智能汽车解决方案业务网站†auto.huawei.com】
+L17: ### 选择区域/语言
+L18:   * Australia - 【7†English】
+L19:   * Brazil - 【8†Português】
+L20:   * China - 【9†简体中文】
+L21:   * Europe - 【10†English】
+L22:   * France - 【11†Français】
+L23:   * Germany - 【12†Deutsch】
+L24:   * Ireland - 【13†English】
+L25:   * Italy - 【14†Italiano】
+L26:   * Japan - 【15†日本語】
+L27:   * Kazakhstan - 【16†Қазақ тілі】
+L28:   * Kazakhstan - 【17†Русский】
+L29:   * Kenya - 【18†English】
+L30:   * Korea - 【19†한국어】
+L31:   * Malaysia - 【20†English】
+L32:   * Mexico - 【21†Español】
+L33:   * Mongolia - 【22†Монгол】
+L34:   * Netherlands - 【23†Nederlands】
+L35:   * New Zealand - 【24†English】
+L36:   * Poland - 【25†Polski】
+L37:   * Romania - 【26†Română】
+L38:   * Singapore - 【27†English】
+L39:   * South Africa - 【28†English】
+L40:   * Spain - 【29†Español】
+L41:   * Switzerland - 【30†Deutsch】
+L42:   * Switzerland - 【31†Français】
+L43:   * Switzerland - 【32†Italiano】
+L44:   * Switzerland - 【33†English】
+L45:   * Tanzania - 【34†English】
+L46:   * Thailand - 【35†ภาษาไทย】
+L47:   * Türkiye - 【36†Türkçe】
+L48:   * Ukraine - 【37†Українська】
+L49:   * United Kingdom - 【38†English】
+L50:   * Uzbekistan - 【39†Русский】
+L51:   * Uzbekistan - 【40†O’zbek】
+L52:   * Vietnam - 【41†Tiếng Việt】
+L53:   * Global - 【42†English】
+L54: [Input] [Input] [Input] [Input] [Input] [Input] [Input] [Input] [Input]
+L55:
+L56:   *     * 【43†手机†consumer.huawei.com】
+L57:     * 【44†电脑†consumer.huawei.com】
+L58:     * 【45†平板†consumer.huawei.com】
+L59:     * 【46†智慧屏†consumer.huawei.com】
+L60:     * 【47†穿戴†consumer.huawei.com】
+L61:     * 【48†耳机音箱†consumer.huawei.com】
+L62:     * 【49†全屋智能†consumer.huawei.com】
+L63:     * 【50†路由器†consumer.huawei.com】
+L64:     * 【51†HarmonyOS 7†consumer.huawei.com】
+L65:     * 【52†全部产品†consumer.huawei.com】
+L66:
+L67: 【52†消费者业务网站†consumer.huawei.com】
+L68:
+L69:   * ### 产品
+L70: #### 联接
+L71:
+L72:     * 【2†运营商网络†carrier.huawei.com】
+L73:     * 【53†企业网络†e.huawei.com】
+L74:     * 【54†企业光网络†e.huawei.com】
+L75:     * 【55†企业无线†e.huawei.com】
+L76:
+L77: #### 计算
+L78:
+L79:     * 【56†通用计算†e.huawei.com】
+L80:     * 【57†AI计算†e.huawei.com】
+L81:     * 【58†数据存储†e.huawei.com】
+L82:
+L83: #### 云
+L84:
+L85:     * 【4†华为云†www.huaweicloud.com】
+L86:
+L87: #### 数字能源
+L88:
+L89:     * 【59†智能光伏†solar.huawei.com】
+L90:     * 【60†智能电动†digitalpower.huawei.com】
+L91:     * 【61†智能充电网络†digitalpower.huawei.com】
+L92:     * 【62†数据中心能源及关键供电†digitalpower.huawei.com】
+L93:     * 【63†站点能源†digitalpower.huawei.com】
+L94:
+L95: ### 行业解决方案
+L96: ### 热点话题
+L97:
+L98: 【1†企业业务网站†e.huawei.com】
+L99:
+L100: 【2†运营商业务网站†carrier.huawei.com】
+L101:
+L102: 【4†华为云网站†www.huaweicloud.com】
+L103:
+L104: 【5†数字能源网站†digitalpower.huawei.com】
+L105:
+L106: 【64†智能汽车解决方案网站†auto.huawei.com】
+L107:
+L108:   * ### 个人及家庭产品
+L109:
+L110: ### 华为云业务
+L111:
+L112: ### 企业业务
+L113:
+L114: ### 运营商业务
+L115:
+L116: ### 数字能源业务
+L117:
+L118:   * ### 合作伙伴
+L119:
+L120: ### 开发者
+--------------------------------------------------------------------------------
+华为开创AI时代计算架构：让百万处理器成为一台计算机 - 华为 (https://www.huawei.com/cn/news/2026/9/new-computing-architecture-peerium)
+citeturn4view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.huawei.com/cn/news/2026/9/new-computing-architecture-peerium","lineno":null}); Total lines: 231
+L0: [Input] [Input]
+L1:
+L2: 【0†集团网站】 【0†选择区域/语言】
+L3:
+L4: 集团网站
+L5:
+L6: 【1†企业业务网站†e.huawei.com】
+L7:
+L8: 【2†运营商业务网站†carrier.huawei.com】
+L9:
+L10: 【3†消费者业务网站†consumer.huawei.com】
+L11:
+L12: 【4†华为云业务网站†www.huaweicloud.com】
+L13:
+L14: 【5†数字能源业务网站†digitalpower.huawei.com】
+L15:
+L16: 【6†智能汽车解决方案业务网站†auto.huawei.com】
+L17: ### 选择区域/语言
+L18:   * Australia - 【7†English】
+L19:   * Brazil - 【8†Português】
+L20:   * China - 【9†简体中文】
+L21:   * Europe - 【10†English】
+L22:   * France - 【11†Français】
+L23:   * Germany - 【12†Deutsch】
+L24:   * Ireland - 【13†English】
+L25:   * Italy - 【14†Italiano】
+L26:   * Japan - 【15†日本語】
+L27:   * Kazakhstan - 【16†Қазақ тілі】
+L28:   * Kazakhstan - 【17†Русский】
+L29:   * Kenya - 【18†English】
+L30:   * Korea - 【19†한국어】
+L31:   * Malaysia - 【20†English】
+L32:   * Mexico - 【21†Español】
+L33:   * Mongolia - 【22†Монгол】
+L34:   * Netherlands - 【23†Nederlands】
+L35:   * New Zealand - 【24†English】
+L36:   * Poland - 【25†Polski】
+L37:   * Romania - 【26†Română】
+L38:   * Singapore - 【27†English】
+L39:   * South Africa - 【28†English】
+L40:   * Spain - 【29†Español】
+L41:   * Switzerland - 【30†Deutsch】
+L42:   * Switzerland - 【31†Français】
+L43:   * Switzerland - 【32†Italiano】
+L44:   * Switzerland - 【33†English】
+L45:   * Tanzania - 【34†English】
+L46:   * Thailand - 【35†ภาษาไทย】
+L47:   * Türkiye - 【36†Türkçe】
+L48:   * Ukraine - 【37†Українська】
+L49:   * United Kingdom - 【38†English】
+L50:   * Uzbekistan - 【39†Русский】
+L51:   * Uzbekistan - 【40†O’zbek】
+L52:   * Vietnam - 【41†Tiếng Việt】
+L53:   * Global - 【42†English】
+L54: [Input] [Input] [Input] [Input] [Input] [Input] [Input] [Input] [Input]
+L55:
+L56:   *     * 【43†手机†consumer.huawei.com】
+L57:     * 【44†电脑†consumer.huawei.com】
+L58:     * 【45†平板†consumer.huawei.com】
+L59:     * 【46†智慧屏†consumer.huawei.com】
+L60:     * 【47†穿戴†consumer.huawei.com】
+L61:     * 【48†耳机音箱†consumer.huawei.com】
+L62:     * 【49†全屋智能†consumer.huawei.com】
+L63:     * 【50†路由器†consumer.huawei.com】
+L64:     * 【51†HarmonyOS 7†consumer.huawei.com】
+L65:     * 【52†全部产品†consumer.huawei.com】
+L66:
+L67: 【52†消费者业务网站†consumer.huawei.com】
+L68:
+L69:   * ### 产品
+L70: #### 联接
+L71:
+L72:     * 【2†运营商网络†carrier.huawei.com】
+L73:     * 【53†企业网络†e.huawei.com】
+L74:     * 【54†企业光网络†e.huawei.com】
+L75:     * 【55†企业无线†e.huawei.com】
+L76:
+L77: #### 计算
+L78:
+L79:     * 【56†通用计算†e.huawei.com】
+L80:     * 【57†AI计算†e.huawei.com】
+L81:     * 【58†数据存储†e.huawei.com】
+L82:
+L83: #### 云
+L84:
+L85:     * 【4†华为云†www.huaweicloud.com】
+L86:
+L87: #### 数字能源
+L88:
+L89:     * 【59†智能光伏†solar.huawei.com】
+L90:     * 【60†智能电动†digitalpower.huawei.com】
+L91:     * 【61†智能充电网络†digitalpower.huawei.com】
+L92:     * 【62†数据中心能源及关键供电†digitalpower.huawei.com】
+L93:     * 【63†站点能源†digitalpower.huawei.com】
+L94:
+L95: ### 行业解决方案
+L96: ### 热点话题
+L97:
+L98: 【1†企业业务网站†e.huawei.com】
+L99:
+L100: 【2†运营商业务网站†carrier.huawei.com】
+L101:
+L102: 【4†华为云网站†www.huaweicloud.com】
+L103:
+L104: 【5†数字能源网站†digitalpower.huawei.com】
+L105:
+L106: 【64†智能汽车解决方案网站†auto.huawei.com】
+L107:
+L108:   * ### 个人及家庭产品
+L109:
+L110: ### 华为云业务
+L111:
+L112: ### 企业业务
+L113:
+L114: ### 运营商业务
+L115:
+L116: ### 数字能源业务
+L117:
+L118:   * ### 合作伙伴
+L119:
+L120: ### 开发者
+--------------------------------------------------------------------------------
+ (https://static.cninfo.com.cn/finalpage/2026-10-20/1225611145.PDF)
+citeturn4view2 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 12; Source: open({"ref_id":"https://static.cninfo.com.cn/finalpage/2026-10-20/1225611145.PDF","lineno":null}); Total lines: 592
+L0@P0: 海光信息技术股份有限公司 2026 年第三季度报告
+L1@P0: 1 / 12
+L2@P0: 证券代码：688041 证券简称：海光信息
+L3@P0: 海光信息技术股份有限公司
+L4@P0: 2026 年第三季度报告
+L5@P0: 本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重
+L6@P0: 大遗漏，并对其内容的真实性、准确性和完整性依法承担法律责任。
+L7@P0: 重要内容提示：
+L8@P0: 公司董事会及董事、高级管理人员保证季度报告内容的真实、准确、完整，不存在虚假记载、误导性
+L9@P0: 陈述或重大遗漏，并承担个别和连带的法律责任。
+L10@P0: 公司负责人、主管会计工作负责人及会计机构负责人（会计主管人员）保证季度报告中财务信息的真
+L11@P0: 实、准确、完整。
+L12@P0: 第三季度财务报表是否经审计
+L13@P0: □是 √否
+L14@P0: 一、主要财务数据
+L15@P0: （一） 主要会计数据和财务指标
+L16@P0: 单位：元 币种：人民币
+L17@P0: 项目 本报告期
+L18@P0: 本报告期比
+L19@P0: 上年同期增
+L20@P0: 减变动幅度
+L21@P0: (%)
+L22@P0: 年初至报告期末
+L23@P0: 年初至报告期
+L24@P0: 末比上年同期
+L25@P0: 增减变动幅度
+L26@P0: (%)
+L27@P0: 营业收入 5,855,689,454.32 45.46 14,954,710,229.13 57.58
+L28@P0: 利润总额 1,446,799,309.40 20.56 3,609,412,179.20 27.14
+L29@P0: 归属于上市公司股东的净利润 1,048,040,894.63 37.90 2,846,508,812.66 45.12
+L30@P0: 归属于上市公司股东的扣除
+L31@P0: 非经常性损益的净利润
+L32@P0: 952,830,320.63 31.12 2,584,242,015.98 42.25
+L33@P0: 经营活动产生的现金流量净额 不适用 不适用 -2,442,780,168.86 -208.35
+L34@P0: 基本每股收益（元/股） 0.45 36.36 1.23 44.71
+L35@P0: 稀释每股收益（元/股） 0.45 36.36 1.23 44.71
+L36@P0: 加权平均净资产收益率（%） 4.05 增加 0.44 个
+L37@P0: 百分点
+L38@P0: 11.59 增加 2.29 个
+L39@P0-1: 百分点海光信息技术股份有限公司 2026 年第三季度报告
+L40@P1: 2 / 12
+L41@P1: 项目 本报告期
+L42@P1: 本报告期比
+L43@P1: 上年同期增
+L44@P1: 减变动幅度
+L45@P1: (%)
+L46@P1: 年初至报告期末
+L47@P1: 年初至报告期
+L48@P1: 末比上年同期
+L49@P1: 增减变动幅度
+L50@P1: (%)
+L51@P1: 研发投入合计 1,819,662,147.21 48.68 4,472,044,952.74 52.39
+L52@P1: 研发投入占营业收入的比例
+L53@P1: （%）
+L54@P1: 31.08 增加 0.68 个
+L55@P1: 百分点
+L56@P1: 29.90 减少 1.02 个
+L57@P1: 百分点
+L58@P1: 本报告期末 上年度末
+L59@P1: 本报告期末比
+L60@P1: 上年度末增减
+L61@P1: 变动幅度(%)
+L62@P1: 总资产 40,687,771,489.95 35,638,165,817.46 14.17
+L63@P1: 归属于上市公司股东的所有
+L64@P1: 者权益
+L65@P1: 26,423,282,007.15 22,493,222,807.40 17.47
+L66@P1: 注：“本报告期”指本季度初至本季度末 3 个月期间，下同。
+L67@P1: （二） 非经常性损益项目和金额
+L68@P1: √适用 □不适用
+L69@P1: 单位：元 币种：人民币
+L70@P1: 非经常性损益项目 本期金额
+L71@P1: 年初至报告期
+L72@P1: 末金额
+L73@P1: 说明
+L74@P1: 非流动性资产处置损益，包括已计提资产减值准备的冲
+L75@P1: 销部分
+L76@P1: 46,213.39 7,286,418.98
+L77@P1: 计入当期损益的政府补助，但与公司正常经营业务密切
+L78@P1: 相关、符合国家政策规定、按照确定的标准享有、对公司
+L79@P1: 损益产生持续影响的政府补助除外
+L80@P1: 101,662,667.12 269,281,387.51
+L81@P1: 除同公司正常经营业务相关的有效套期保值业务外，非
+L82@P1: 金融企业持有金融资产和金融负债产生的公允价值变动
+L83@P1: 损益以及处置金融资产和金融负债产生的损益
+L84@P1: 283,794.26
+L85@P1: 计入当期损益的对非金融企业收取的资金占用费
+L86@P1: 委托他人投资或管理资产的损益
+L87@P1: 对外委托贷款取得的损益
+L88@P1: 因不可抗力因素，如遭受自然灾害而产生的各项资产损
+L89@P1: 失
+L90@P1: 单独进行减值测试的应收款项减值准备转回
+L91@P1: 企业取得子公司、联营企业及合营企业的投资成本小于
+L92@P1: 取得投资时应享有被投资单位可辨认净资产公允价值产
+L93@P1: 生的收益
+L94@P1: 同一控制下企业合并产生的子公司期初至合并日的当期
+L95@P1: 净损益
+L96@P1: 非货币性资产交换损益
+L97@P1: 债务重组损益
+L98@P1: 企业因相关经营活动不再持续而发生的一次性费用，如
+L99@P1-2: 安置职工的支出等海光信息技术股份有限公司 2026 年第三季度报告
+L100@P2: 3 / 12
+L101@P2: 非经常性损益项目 本期金额
+L102@P2: 年初至报告期
+L103@P2: 末金额
+L104@P2: 说明
+L105@P2: 因税收、会计等法律、法规的调整对当期损益产生的一次
+L106@P2: 性影响
+L107@P2: 因取消、修改股权激励计划一次性确认的股份支付费用
+L108@P2: 对于现金结算的股份支付，在可行权日之后，应付职工薪
+L109@P2: 酬的公允价值变动产生的损益
+L110@P2: 采用公允价值模式进行后续计量的投资性房地产公允价
+L111@P2: 值变动产生的损益
+L112@P2: 交易价格显失公允的交易产生的收益
+L113@P2: 与公司正常经营业务无关的或有事项产生的损益
+L114@P2: 受托经营取得的托管费收入
+L115@P2: 除上述各项之外的其他营业外收入和支出 -1,531,236.38 -1,687,201.60
+L116@P2: 其他符合非经常性损益定义的损益项目 19,810.78 5,733,531.43
+L117@P2: 减：所得税影响额 3,308,956.75 11,048,496.83
+L118@P2: 少数股东权益影响额（税后） 1,677,924.16 7,582,637.07
+L119@P2: 合计 95,210,574.00 262,266,796.68
+L120@P2: 对公司将《公开发行证券的公司信息披露解释性公告第 1 号——非经常性损益》未列举的项目认定为非
+L121@P2: 经常性损益项目且金额重大的，以及将《公开发行证券的公司信息披露解释性公告第 1 号——非经常性
+L122@P2: 损益》中列举的非经常性损益项目界定为经常性损益的项目，应说明原因。
+L123@P2: □适用 √不适用
+L124@P2: （三） 主要会计数据、财务指标发生变动的情况、原因
+L125@P2: √适用 □不适用
+L126@P2: 项目名称
+L127@P2: 变动比例
+L128@P2: （%）
+L129@P2: 主要原因
+L130@P2: 营业收入_年初至报告期末 57.58
+L131@P2: 受人工智能产业快速发展、国产化进程
+L132@P2: 由政策驱动全面转向市场驱动等因素带
+L133@P2: 动，国内高端芯片需求持续攀升。公司
+L134@P2: 持续加大研发投入，围绕通用计算和人
+L135@P2: 工智能计算市场，迭代优化产品性能，
+L136@P2: 在高端芯片市场具有竞争优势，持续保
+L137@P2: 持市场领先，实现了公司业绩持续增长。
+L138@P2: 归属于上市公司股东的净利润_年初至报
+L139@P2: 告期末
+L140@P2: 45.12
+L141@P2: 归属于上市公司股东的扣除非经常性损
+L142@P2: 益的净利润_年初至报告期末
+L143@P2: 42.25
+L144@P2: 基本每股收益（元/股）_年初至报告期末 44.71
+L145@P2: 稀释每股收益（元/股）_年初至报告期末 44.71
+--------------------------------------------------------------------------------
+GitHub - deepseek-ai/DeepGEMM-Ascend: DeepGEMM-Ascend: clean and efficient matrix multiplication kernel library for Huawei Ascend NPUs · GitHub (https://github.com/deepseek-ai/DeepGEMM-Ascend)
+citeturn4view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://github.com/deepseek-ai/DeepGEMM-Ascend","lineno":null}); Total lines: 431
+L0: 【0†Skip to content】
+L1: ## Navigation Menu
+L2:
+L3: 【1†Sign in】
+L4:
+L5: Appearance settings
+L6:
+L7:   * Platform
+L8:
+L9:     * AI CODE CREATION
+L10:       * 【2†GitHub CopilotWrite better code with AI】
+L11:       * 【3†GitHub Copilot appDirect agents from issue to merge】
+L12:       * 【4†MCP RegistryIntegrate external tools】
+L13:
+L14:     * DEVELOPER WORKFLOWS
+L15:       * 【5†ActionsAutomate any workflow】
+L16:       * 【6†CodespacesInstant dev environments】
+L17:       * 【7†IssuesPlan and track work】
+L18:       * 【8†Code ReviewManage code changes】
+L19:       * 【9†Code QualityEnforce quality at merge】
+L20:     * APPLICATION SECURITY
+L21:       * 【10†GitHub Advanced SecurityFind and fix vulnerabilities】
+L22:       * 【11†Code securitySecure your code as you build】
+L23:       * 【12†Secret protectionStop leaks before they start】
+L24:
+L25:     * EXPLORE
+L26:       * 【13†Why GitHub】
+L27:       * 【14†Documentation†docs.github.com】
+L28:       * 【15†Blog†github.blog】
+L29:       * 【16†Changelog†github.blog】
+L30:       * 【17†Marketplace】
+L31:
+L32: 【18†View all features】
+L33:
+L34:   * Solutions
+L35:     * BY COMPANY SIZE
+L36:       * 【19†Enterprises】
+L37:       * 【20†Small and medium teams】
+L38:       * 【21†Startups】
+L39:       * 【22†Nonprofits】
+L40:
+L41:     * BY USE CASE
+L42:       * 【23†App Modernization】
+L43:       * 【24†DevSecOps】
+L44:       * 【25†DevOps】
+L45:       * 【26†CI/CD】
+L46:       * 【27†View all use cases】
+L47:
+L48:     * BY INDUSTRY
+L49:       * 【28†Healthcare】
+L50:       * 【29†Financial services】
+L51:       * 【30†Manufacturing】
+L52:       * 【31†Government】
+L53:       * 【32†See all industries】
+L54:
+L55: 【33†View all solutions】
+L56:
+L57:   * Resources
+L58:     * EXPLORE BY TOPIC
+L59:       * 【34†AI】
+L60:       * 【35†Software Development】
+L61:       * 【36†DevOps】
+L62:       * 【37†Security】
+L63:       * 【38†View all topics】
+L64:
+L65:     * EXPLORE BY TYPE
+L66:       * 【39†Customer stories】
+L67:       * 【40†Events & webinars】
+L68:       * 【41†Ebooks & reports】
+L69:       * 【42†Business insights】
+L70:       * 【43†GitHub Skills†skills.github.com】
+L71:     * SUPPORT & SERVICES
+L72:       * 【14†Documentation†docs.github.com】
+L73:       * 【44†Customer support†support.github.com】
+L74:       * 【45†Community forum】
+L75:       * 【46†Trust center】
+L76:       * 【47†Partners】
+L77:
+L78: 【48†View all resources】
+L79:
+L80:   * Open Source
+L81:
+L82:     * COMMUNITY
+L83:       * 【49†GitHub SponsorsFund open source developers】
+L84:     * PROGRAMS
+L85:       * 【50†Security Lab†securitylab.github.com】
+L86:       * 【51†Maintainer Community†maintainers.github.com】
+L87:       * 【52†GitHub Stars†stars.github.com】
+L88:       * 【53†Archive Program†archiveprogram.github.com】
+L89:
+L90:     * REPOSITORIES
+L91:       * 【54†Topics】
+L92:       * 【55†Trending】
+L93:       * 【56†Collections】
+L94:
+L95:   * Enterprise
+L96:
+L97:     * ENTERPRISE SOLUTIONS
+L98:       * 【19†Enterprise platformAI-powered developer platform】
+--------------------------------------------------------------------------------
+GitHub - deepseek-ai/DeepEP-Ascend: A high-performance communication library for machine learning training and inference on Huawei Ascend NPUs. · GitHub (https://github.com/deepseek-ai/DeepEP-Ascend)
+citeturn4view4 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://github.com/deepseek-ai/DeepEP-Ascend","lineno":null}); Total lines: 482
+L0: 【0†Skip to content】
+L1: ## Navigation Menu
+L2:
+L3: 【1†Sign in】
+L4:
+L5: Appearance settings
+L6:
+L7:   * Platform
+L8:
+L9:     * AI CODE CREATION
+L10:       * 【2†GitHub CopilotWrite better code with AI】
+L11:       * 【3†GitHub Copilot appDirect agents from issue to merge】
+L12:       * 【4†MCP RegistryIntegrate external tools】
+L13:
+L14:     * DEVELOPER WORKFLOWS
+L15:       * 【5†ActionsAutomate any workflow】
+L16:       * 【6†CodespacesInstant dev environments】
+L17:       * 【7†IssuesPlan and track work】
+L18:       * 【8†Code ReviewManage code changes】
+L19:       * 【9†Code QualityEnforce quality at merge】
+L20:     * APPLICATION SECURITY
+L21:       * 【10†GitHub Advanced SecurityFind and fix vulnerabilities】
+L22:       * 【11†Code securitySecure your code as you build】
+L23:       * 【12†Secret protectionStop leaks before they start】
+L24:
+L25:     * EXPLORE
+L26:       * 【13†Why GitHub】
+L27:       * 【14†Documentation†docs.github.com】
+L28:       * 【15†Blog†github.blog】
+L29:       * 【16†Changelog†github.blog】
+L30:       * 【17†Marketplace】
+L31:
+L32: 【18†View all features】
+L33:
+L34:   * Solutions
+L35:     * BY COMPANY SIZE
+L36:       * 【19†Enterprises】
+L37:       * 【20†Small and medium teams】
+L38:       * 【21†Startups】
+L39:       * 【22†Nonprofits】
+L40:
+L41:     * BY USE CASE
+L42:       * 【23†App Modernization】
+L43:       * 【24†DevSecOps】
+L44:       * 【25†DevOps】
+L45:       * 【26†CI/CD】
+L46:       * 【27†View all use cases】
+L47:
+L48:     * BY INDUSTRY
+L49:       * 【28†Healthcare】
+L50:       * 【29†Financial services】
+L51:       * 【30†Manufacturing】
+L52:       * 【31†Government】
+L53:       * 【32†See all industries】
+L54:
+L55: 【33†View all solutions】
+L56:
+L57:   * Resources
+L58:     * EXPLORE BY TOPIC
+L59:       * 【34†AI】
+L60:       * 【35†Software Development】
+L61:       * 【36†DevOps】
+L62:       * 【37†Security】
+L63:       * 【38†View all topics】
+L64:
+L65:     * EXPLORE BY TYPE
+L66:       * 【39†Customer stories】
+L67:       * 【40†Events & webinars】
+L68:       * 【41†Ebooks & reports】
+L69:       * 【42†Business insights】
+L70:       * 【43†GitHub Skills†skills.github.com】
+L71:     * SUPPORT & SERVICES
+L72:       * 【14†Documentation†docs.github.com】
+L73:       * 【44†Customer support†support.github.com】
+L74:       * 【45†Community forum】
+L75:       * 【46†Trust center】
+L76:       * 【47†Partners】
+L77:
+L78: 【48†View all resources】
+L79:
+L80:   * Open Source
+L81:
+L82:     * COMMUNITY
+L83:       * 【49†GitHub SponsorsFund open source developers】
+L84:     * PROGRAMS
+L85:       * 【50†Security Lab†securitylab.github.com】
+L86:       * 【51†Maintainer Community†maintainers.github.com】
+L87:       * 【52†GitHub Stars†stars.github.com】
+L88:       * 【53†Archive Program†archiveprogram.github.com】
+L89:
+L90:     * REPOSITORIES
+L91:       * 【54†Topics】
+L92:       * 【55†Trending】
+L93:       * 【56†Collections】
+L94:
+L95:   * Enterprise
+L96:
+L97:     * ENTERPRISE SOLUTIONS
+L98:       * 【19†Enterprise platformAI-powered developer platform】
+
+
+寒武纪（688256）2026年三季报简析：营收净利润同比双双增长，存货明显上升_股票频道_证券之星 (https://stock.stockstar.com/RB2026102500000320.shtml)
+citeturn5search0 [wordlim: 200] Published: today; Crawled: today; 按单季度数据看，第三季度营业总收入35.31亿元，同比上升104.47%，第三季度归母净利润14.04亿元，同比上升147.74%。 ... 公司过去三年（2023/2024/2025）的营运资本/营收（即生产经营过程中公司每产生一块钱的营收企业经营需要垫付的资金）分别为0.98/2.02/1.34，其中营运资本（公司生产经营过程中公司自己掏的钱）分别为6.93亿/23.67亿/87.2亿元，营收分别为7.09亿/11.74亿/64.97亿元。 ... 建议关注财务费用状况（近3年经营活动产生的现金流净额均值为负） ... 本文数据来源于寒武纪2026年三季报，仅供参考不构成投资建议。
+
+# 寒武纪（688256）2026年三季报简析：营收净利润同比双双增长，存货明显上升
+
+来源：证星财报简析
+
+2026-10-25 06:04:36
+
+据证券之星公开数据整理，近期寒武纪（688256）发布2026年三季报。截至本报告期末，公司营业总收入95.26亿元，同比上升106.76%，归母净利润37.15亿元，同比上升131.49%。按单季度数据看，第三季度营业总收入35.31亿元，同比上升104.47%，第三季度归母净利润14.04亿元，同比上升147.74%。本报告期寒武纪存货明显上升，存货同比增幅达212.81%。
+
+本次财报公布的各项数据指标表现尚佳。其中，毛利率56.53%，同比增2.23%，净利率38.99%，同比增11.99%，销售费用、管理费用、财务费用总计2.0亿元，三费占营收比2.1%，同比减50.76%，每股净资产24.05元，同比减11.05%，每股经营性现金流0.36元，同比增616.77%，每股收益5.91元，同比增129.07%
+
+证券之星价投圈财报分析工具显示：
+--------------------------------------------------------------------------------
+寒武纪：前三季度净利润约37.15亿元，同比增长131.49% _ 东方财富网 (https://finance.eastmoney.com/a/202610233906705220.html)
+citeturn5search1 [wordlim: 200] Published: 2 days ago; Crawled: yesterday; 　　上证智讯 10月23日晚，寒武纪发布2026年第三季度报告称，公司前三季度实现营业收入约95.26亿元，同比增长106.76%；归属于上市公司股东的净利润约37.15亿元，同比增长131.49%；扣除非经常性损益的净利润约35.23亿元，同比增长148.30%；经营活动产生的现金流量净额约2.28亿元；基本每股收益5.91元；加权平均净资产收益率27.73%，较上年同期增加2.52个百分点。　　第三季度单季，公司实现营业收入约35.31亿元，同比增长104.47%；归属于上市公司股东的净利润约14.04亿元，同比增长147.74%。
+
+寒武纪：前三季度净利润约37.15亿元，同比增长131.49%
+
+2026年10月23日 22:27
+
+来源： 上海证券报·中国证券网
+
+　　上证智讯 10月23日晚，寒武纪发布2026年第三季度报告称，公司前三季度实现营业收入约95.26亿元，同比增长106.76%；归属于上市公司股东的净利润约37.15亿元，同比增长131.49%；扣除非经常性损益的净利润约35.23亿元，同比增长148.30%；经营活动产生的现金流量净额约2.28亿元；基本每股收益5.91元；加权平均净资产收益率27.73%，较上年同期增加2.52个百分点。
+
+　　第三季度单季，公司实现营业收入约35.31亿元，同比增长104.47%；归属于上市公司股东的净利润约14.04亿元，同比增长147.74%。
+
+　　截至报告期末，公司总资产约223.64亿元，比上年末增长66.43%；归属于上市公司股东的所有者权益约151.24亿元，比上年末增长27.78%。第三季度财务报表未经审计。
+
+　　公告称，营业收入较上年同期增长主要系公司持续拓展市场，积极助力人工智能应用落地；总资产增长主要系收入规模大幅增长带动利润增长。前三季度扣除股份支付影响后的净利润约39.05亿元，同比增长120.32%。
+
+　　本文由AI生成，不构成投资建议。--------------------------------------------------------------------------------
+寒武纪三季报：赚37亿到手只有2亿？剩下的钱全进了仓库_新浪财经 (https://cj.sina.com.cn/articles/view/7399555658/1b90c424a02001r66e)
+citeturn5search2 [wordlim: 200] Published: 2 days ago; Crawled: yesterday; 前三季度，寒武纪实现营业收入95.26亿元，同比增长106.76％；归属于母公司股东的净利润37.15亿元，同比增长131.49％；扣除非经常性损益后，净利润为35.23亿元，同比增长148％。 ... 最终，前三季度经营活动现金流净额只剩2.28亿元，其中第三季度单季净流出8368万元。 ... 今年7月，公司推出限制性股票激励计划草案，授予价格为每股750元，考核目标写得很明确：2026年营收不低于135亿元，2026至2027年累计不低于405亿元，2026至2028年累计不低于1000亿元。 ... 前三季度已完成95.26亿元，距135亿元还差39.74亿元；第三季度单季营收35.31亿元，第四季度只要再增长一成多，今年的目标就能达成。
+
+# 寒武纪三季报：赚37亿到手只有2亿？剩下的钱全进了仓库
+
+2026年10月23日 22:22 红星资本局
+
+10月23日，寒武纪（688256.SH）发布三季报。
+
+前三季度，公司净利润37.15亿元，同期经营活动现金流净额2.28亿元。赚了37亿元，落袋2亿元，中间35亿元的差额，沉进了仓库：存货从49亿元涨到116亿元。
+
+利润一路飙升，现金却原地不动，这家公司究竟在布一个什么样的局？
+
+账面漂亮，现金却没跟上
+
+先说赚到的钱。
+
+前三季度，寒武纪实现营业收入95.26亿元，同比增长106.76％；归属于母公司股东的净利润37.15亿元，同比增长131.49％；扣除非经常性损益后，净利润为35.23亿元，同比增长148％。非经常性损益合计只有1.9亿元左右，这意味着利润的主要来源是卖芯片，而不是政府补贴或理财收益。
+
+再看成色。营业成本41.4亿元，毛利率在56％上下，比去年同期的55％还略有提升，说明增长并非靠降价换来。费用端更是克制：销售费用0.45亿元，管理费用1.5亿元，合计不到2亿元，只占收入的2％。别的公司要靠销售团队四处奔走，寒武纪的客户更像是排着队下单。
+
+研发投入同样没有缩水。前三季度研发费用12.25亿元，同比增长45％。研发费用率从18.3％降至12.9％，并非少花了钱，而是收入涨得太快，把比例摊薄了。
+
+就利润表而言，这一页几乎挑不出毛病。但问题在于，这些钱没有落进口袋。
+
+钱去了哪里
+
+答案先从现金流量表里找。销售商品、提供劳务收到的现金达106.7亿元，比营收还多，说明回款没有问题。问题出在支出：购买商品、接受劳务支付的现金高达89.9亿元，几乎是去年同期的两倍。最终，前三季度经营活动现金流净额只剩2.28亿元，其中第三季度单季净流出8368万元。
+
+资产负债表则把去向摆得更清楚。存货从49.4亿元涨到116.65亿元，翻了一倍多；预付款项从7.45亿元涨到30.44亿元，涨至约四倍。
+不妨算一笔账。前三季度已完成95.26亿元，距135亿元还差39.74亿元；第三季度单季营收35.31亿元，第四季度只要再增长一成多，今年的目标就能达成。真正的压力在后头：三年累计1000亿元，今年做135亿元，意味着后两年要做出约865亿元。管理层的意思很明白，眼下囤的货，是为了接住后面几百亿元的订单。
+
+此外，公司前高管梁军将对寒武纪的索赔金额提高到了278亿元。这只是他的单方面诉求，案件尚未开庭，公司表示对经营没有影响，这里不作展开。
+
+再看估值。截至10月23日收盘，寒武纪股价932.2元，总市值5862亿元，滚动市盈率（TTM）约176倍。这个价格买的不是今天的利润，而是明后年的增长。
+
+寒武纪的壁垒有两样：一是研发人员占比超过八成，真金白银往里投；二是国产算力的生态位，国内大模型需要一个自己能够掌控的算力底座，而它是少数接得住的选手。痛点同样清晰：软件生态与英伟达仍有差距，上游产能始终是悬在头顶的一把剑。囤货，就是它对这把剑的回应。
+
+〖结语〗
+
+回到开头：赚了37亿元，到手2亿元，剩下的35亿元，变成了116亿元的存货、30亿元的预付款，外加供应商垫付的资金。
+
+利润是真的，囤货是主动的，杠杆借的是供应链的力，而前提是，明后年的订单要接得住。
+
+所以，这份三季报与其说是一份答卷，不如说是一场押注。押对了，今天的存货就是明天的收入，寒武纪将坐稳国产算力龙头的位置；押错了，仓库里就是一堆会贬值的货，再加上一份沉甸甸的估值。
+
+好故事人人爱听，能否兑现，还得靠一个个季度的报表来回答。
+
+（本文仅为个人分析，不构成任何投资建议。投资有风险，入市需谨慎。）
+
+红星资本局智慧财报工作室 刘谧 周怡
+
+编辑 汪垠涛
+
+审核 何先菊--------------------------------------------------------------------------------
+新世界变量 - Podcast - Apple Podcast (https://podcasts.apple.com/hk/podcast/%E6%96%B0%E4%B8%96%E7%95%8C%E5%8F%98%E9%87%8F/id6795862659)
+citeturn5search3 [wordlim: 200] Crawled: today; ## 主要资料 - [寒武纪2026年半年度报告](https://static.cninfo.com.cn/finalpage/2026-08-08/1225464969.PDF) - [寒武纪2025年年度报告](https://static.cninfo.com.cn/finalpage/2026-03-13/1225007336.
+## 时间线 - 00:00 片头 - 00:18 利润高速增长，资产负债表出现另一幅画面 - 01:37 寒武纪究竟卖什么 - 02:55 利润表与规模效应 - 04:48 净利润与经营现金流为什么不同步 - 06:26 82亿元存货的构成与减值风险 - 07:33 预付款与供应链集中 - 08:34 应收账款下降，历史旧账仍待出清 - 09:11 负债、现金与供应链杠杆 - 09:58 客户集中：市场传闻之外看什么 - 11:04 国产算力增长需要跨过三道关 - 11:59 6200亿元估值与海外同行比较 - 14:03 总结与五项后续观察指标 - 14:59 片尾 ## 五项后续观察指标 1. 经营现金流能否持续转正； 2. 存货周转是否改善； 3. 存货跌价准备占比是否继续上升； 4. 预付款对象的集中度是否下降； 5. 合同负债、存货与后续收入能否相互匹配。 ## 主要资料 - [寒武纪2026年半年度报告](https://static.cninfo.com.cn/finalpage/2026-08-08/1225464969.PDF) - [寒武纪2025年年度报告](https://static.cninfo.com.cn/finalpage/2026-03-13/1225007336.PDF) - 寒武纪2026年限制性股票激励计划草案 - [寒武纪机构盈利预测汇总](https://basic.10jqka.com.cn/48/688256/worth.html) - [英伟达盈利预测](https://finance.yahoo.com/quote/NVDA/analysis/) - [AMD估值数据](https://stockanalysis.com/stocks/amd/financials/?p=ttm) - [博通估值数据](https://stockanalysis.com/stocks/avgo/financials/ratios/?p=quarterly) - [Marvell估值数据](https://stockanalysis.com/stocks/mrvl/statistics/) 🎧 [Apple Podcasts收听《新世界变量》](https://podcasts.apple.com/cn/podcast/id6795862659) 🎧 [小宇宙收听《新世界变量》](https://www.xiaoyuzhoufm.com/podcast/6a676feea48ad08ac6f5de6a) 节目现已上线Apple播客和QQ音乐，搜索“新世界变量”即可订阅。 资料与行情核查截至北京时间2026年10月10日。本期为财务、产业与投资科普，不构成投资建议。 15 分鐘】
+
+--------------------------------------------------------------------------------
+China's AI chipmakers raise prices as high-bandwidth memory shortage bites | MarketScreener (https://www.marketscreener.com/news/china-s-ai-chipmakers-raise-prices-as-high-bandwidth-memory-shortage-bites-ce785bdedb8bf125)
+citeturn5search4 [wordlim: 200] Published: last month; Crawled: yesterday; Shenzhen-based Huawei has publicly said the 950DT, its most advanced AI chip, will be available in the fourth quarter of 2026. ... Huawei has said the Ascend 950 series will use two proprietary HBM technologies: HiBL 1.0 for the 950PR and HiZQ 2.0 for the 950DT, without detailing where or how the memory is manufactured.
+--------------------------------------------------------------------------------
+Groundbreaking SuperPoD Interconnect: Leading a New Paradigm for AI Infrastructure - Huawei (https://www.huawei.com/en/news/2025/9/hc-xu-keynote-speech)
+citeturn5search5 [wordlim: 200] Published: 1.1 years ago; Crawled: today; [Shanghai, China, September 18, 2025] Ladies and gentlemen, good morning. ... This chip will be available in the first quarter of 2026. ... That's where our HiZQ 2.0 HBM comes in, delivering 144 GB of memory and 4 TB/s memory access bandwidth. ... Themed All Intelligence, HUAWEI CONNECT 2025 will delve into AI across three dimensions: strategy, technology, and ecosystems.
+--------------------------------------------------------------------------------
+寒武纪（688256）融资融券 - 股票F10资料查询_爱股网 (https://igu888.com/f10/688256.html?n=H)
+citeturn5search6 [wordlim: 200] Crawled: today;     近期寒武纪发布2026三季报，十大流通股东发生了以下变化：1位股东新进，1位股东退出，3位股东的自持流通股份增加，2位股东的自持流通股份减少。 ... 机构或基金名称持有数量占流通股比例自持流通股份变动比例股份类型陈天石1.781亿股28.32%不变流通A股北京中科算源资产管理有限公司9785万股15.56%不变流通A股北京艾溪科技中心(有限合伙)4566万股7.26%不变流通A股香港中央结算有限公司1999万股3.18%-9.20%流通A股华夏上证科创板50成份ETF896.2万股1.43%121.45%流通A股张炜745万股1.18%不变流通A股北京艾加溪科技中心(有限合伙)668.2万股1.06%-5.62%流通A股嘉实上证科创板芯片ETF457.5万股0.73%33.49%流通A股易方达上证科创板50ETF410.2万股0.65%68.20%流通A股东方人工智能主题混合A244.9万股0.39%新进流通A股小科普：社保基金（全国社会保障基金理事会）：国家战略储备基金，通过多种渠道实现基金保值增值，以保障社会保险支出的需求。 ... SH)发布三季报，前三季度营收同比增长57.58%，第三季度营收58.56亿元，创单季新高。 ...     　　2026年10月15日，大模型公司阶跃星辰开源新一代模型Step5Preview，华为昇腾、摩尔线程、沐曦股份、壁仞科技(06082.
+--------------------------------------------------------------------------------
+Huawei reveals next‑gen AI accelerators edge Nvidia in China | Technology (https://kr.headtopics.com/news/huawei-reveals-next-gen-ai-accelerators-edge-nvidia-in-china-87875885)
+citeturn5search7 [wordlim: 200] Published: last month; Crawled: last week; 📊News: 97% · Publisher: 61% ... With up to 288 GB of what we assume is Huawei’s custom HiZQ memory tech, a homegrown alternative to the high-bandwidth memory used by the rest of the world, and up to four petaFLOPS of FP4 performance , the accelerator offers twice the performance and memory capacity of the company’s 950-series parts, launched earlier this year. ... Slated for some time in 2028, the Ascend 970-series parts promise up to 3.6 petaFLOPS FP8 or 14 petaFLOPS at FP4 — Huawei appears to be dedicating more die area to low precision data types, something we have seen with AMD and Nvidia’s latest generation of chips as well. ... By 2029, Huawei expects to double performance again to 7.2 petaFLOPS FP8 and 28 petaFLOPS FP4 while boosting memory capacity to 384 GB and 38.4 TB/s of memory bandwidth.
+--------------------------------------------------------------------------------
+赚37亿，落袋只有2亿！寒武纪三季报“炸裂”，为何市场用脚投票？_财富号_东方财富网 (https://caifuhao.eastmoney.com/news/20261024073327056756130)
+citeturn5search8 [wordlim: 200] Published: yesterday; Crawled: today; 客户预付意愿的绝对水平，相比去年是显著改善的；环比Q2的回落，更多是节奏问题——二季度末1.88亿是阶段性高点，Q3回落至1.41亿，属于正常波动，而非方向逆转。 ... 寒武纪的估值，是英伟达的6倍以上。 ... 华泰证券此前（据较早研报）将2026/2027年净利润预测上调至60亿/176亿元，目标价1679.4元；但该目标价发布于股价高位阶段，需注意研报时效性。 ... 176倍的TTM PE，对应的是2026年“只有37亿”的已实现利润；而47倍的“2027年PE”，对应的是“明年利润翻三倍”的预期。
+--------------------------------------------------------------------------------
+以开创的超节点互联技术，引领AI基础设施新范式 - 华为 (https://www.huawei.com/cn/news/2025/9/hc-xu-keynote-speech)
+citeturn5search9 [wordlim: 200] Published: 1.1 years ago; Crawled: yesterday; 2026年Q1，我们将推出Kunpeng 950处理器，包括两个版本，分别是：96核/192线程和192核/384线程；支持通用计算超节点；安全方面新增四层隔离，成为鲲鹏首颗实现机密计算的数据中心处理器。 ... 2025年9月18-20日，第十届华为全联接大会在上海世博展览馆及世博中心举办。 ... 欲了解更多详情，请参阅华为全联接大会官网：www.huawei.com/cn/events/huaweiconnect
+--------------------------------------------------------------------------------
+快科技资讯2026年09月21日Blog版-资讯中心-科技改变生活 (https://news.mydrivers.com/blog/20260921.htm)
+citeturn5search10 [wordlim: 200] Published: last month; Crawled: today; 快科技9月21日消息，在2026世界人工智能大会上，华为首次对外展出当前业界最大规模超节点产品——昇腾950超节点真机。 ... 整套超节点以昇腾950DT NPU 芯片作为计算核心，单颗芯片专为大模型训练、解码推理优化，搭载HiZQ 2.0 HBM高带宽内存，单卡HBM容量144GB，带宽4TB/s，支持FP16、BF16、FP8、MXFP4 等多精度AI计算，适配大模型预训练、长上下文推理、MoE 混合专家模型等场景。
+--------------------------------------------------------------------------------
+Inside Huawei's 1,024-NPU Atlas 950 SuperPoD and… | VibeLeaderboard (https://www.vibeleaderboard.ai/intel/598883d6-27df-4995-8787-2c5a5d52b088)
+citeturn5search11 [wordlim: 200] Published: last month; Crawled: 3 days ago; Each 950 SuperPoD therefore boasts 1 EFLOPS FP8 and 98TB of HiZQ memory (Huawei’s custom HBM3E equivalent). ... On the roadmap, Huawei is still undecided whether to implement NPO or stick with 1.6T LPO pluggables for the next gen Ascend 960 system.
+--------------------------------------------------------------------------------
+PowerPoint 演示文稿 (https://www.cgws.com/cczq/ggdt/ccyj/202509/P020250923673310995999.pdf)
+citeturn5search12 [wordlim: 200] Published: 1.1 years ago; ◆ Ascend 950系列（含Ascend 950PR和Ascend 950DT两颗芯片）共用Ascend 950 Die，相比前代有四大根本性提升：一是新增支持FP8/MXFP8/MXFP4等低数值精度格式，算力达1P和2P，还支持自研HiF8，精度接近FP16；二是通过提升向量算力占比，采用双编程模型新同构设计，减少内存访问颗粒度，大幅提升向量算力；三是互联带宽达2TB/s，较Ascend 910C提升2.5倍；四是自研HiBL1.0和HiZQ 2.0两种HBM，与Die合封构成不同芯片，分别构成芯片Ascend 950PR：面向Prefill和推荐场景，以及Ascend 950DT：面向Decode和训练场景。 ...     <td>288GB,9.6TB/s</td>
+--------------------------------------------------------------------------------
+cts_Thread01_841_010120250924010030100957001A_04.indd (https://csossihettpx2597658.cdn.gov-ntruss.com/data2/content/pdf/20250924/03.pdf?v=1)
+citeturn5search13 [wordlim: 200] Published: 1.1 years ago; NEWS STORAGE ... 2025년 9월 24일 수요일3 ... 이어 4분기에 출시될 950DT는 HiZQ ... “분양 3년내 완판… 2026년 흑자전환 목표”
+--------------------------------------------------------------------------------
+YATA0620250920C (https://ep.ycwb.com/epaper/ycwb/resfile/2025-09-20/A06/ycwb20250920A06.pdf)
+citeturn5search14 [wordlim: 200] Published: 1.1 years ago; 9月18日，华为全联接大会2025在上海开幕，华为副董事长、轮值董事长徐直军公布了华为自研昇腾芯片的最新进展，首次披露包括昇腾950PR、昇腾950DT、昇腾960及970系列在内的多款AI芯片详细路标。 ... 特别值得注意的是，华为自研了两种HBM内存——HiBL 1.0和HiZQ 2.0，分别针对Prefill推理/推荐场景和Decode/训练场景进行优化。950PR将于2026Q1推出，950DT则计划在2026Q4上市。
+--------------------------------------------------------------------------------
+中原证券-计算机行业月报：鸿蒙迎来重要升级，AI算力需求多元化趋势明显-251023.pdf (https://report.mklist.com/api/book/39242.pdf?from=opds)
+citeturn5search15 [wordlim: 200] Published: last year; | 内存 | 54G HBM2 | 128GB, 32TB/s | 128GB, 1.6TB/s HiBL 1.0 | 144GB, 4TB/s HiZQ 2.0 | 288GB, 9.6TB/s | 288GB, 14.4TB/s | ... 在此基础上，9 月 18 日华为发布了 Atlas 950 和 Atlas 960 两大超节点，将分别于 2026Q4 和 2027Q4 发布，Atlas 950 将超过英伟达 2026 年下半年发布的 NVL144 和 2027 年将推出的 NVL576，成为全球最强超节点，同时 Atlas 960 将超过万卡规模。
+--------------------------------------------------------------------------------
+Nothing Better (https://file.alphasquare.co.kr/media/pdfs/market-report/%EB%B0%98%EB%8F%84%EC%B2%B4202620251022%EC%9C%A0%EC%A7%84%ED%88%AC%EC%9E%90%EC%A6%9D%EA%B6%8C.)
+citeturn5search16 [wordlim: 200] Published: last year; 화웨이는 지난 9월 22 일 ‘화웨이 커넥트’를 통해 AI 칩 Ascend 950 을 소개, 효율성에 집중한 950PR 과 고성능에 집중한 950DT 를 출시했다.950PR 은 2026 년 1 분기 출시 예정이며 HiBL 1.0 이 탑재될 예정이고, 이어서 950DT 는 4 분기에 출시, HiZQ 2.0 이 탑재될 예정이다.
+--------------------------------------------------------------------------------
+2025年09月22日 (https://pdf.dfcfw.com/pdf/H3_AP202509221748428871_1.pdf?1758549745000.pdf=)
+citeturn5search17 [wordlim: 200] Published: 1.1 years ago; ——电子行业周报2025/9/15-2025/9/21 ... fangji@longone.com.cn ... 根据最新路线图，华为计划于2026年第一季度推出昇腾950PR芯片，该芯片新增对FP8/MXFP8/HIF8等低精度格式的支持，算力提升至1 PFLOPS（FP8类格式）和2 PFLOPS（MXFP4），同时向量算力显著增强，互联带宽提高2.5倍，并首次采用华为自研HBM内存，提供HiBL 1.0（128GB容量，1.6TB/s带宽）和HiZQ 2.0（144GB容量，4TB/s带宽）两个版本。
+--------------------------------------------------------------------------------
+智启新未来，打造智能世界的硅基黑土地 - 华为 (https://www.huawei.com/cn/news/2026/9/hc-wang-keynote)
+citeturn5view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn4view0","lineno":155}); Total lines: 272
+L143: ### 发现华为
+L144:
+L145: 搜索历史 【79†Image】清空
+L146:
+L147: 热门链接
+L148:
+L149:   * 【80†HUAWEI Mate 90†consumer.huawei.com】
+L150:   * 【81†HiSuite华为手机助手†consumer.huawei.com】
+L151:   * 【82†消费者产品保修查询†consumer.huawei.com】
+L152:   * 【83†华为电脑管家†consumer.huawei.com】
+L153:   * 【84†穿戴†consumer.huawei.com】
+L154:   * 【85†ensp†info.support.huawei.com】
+L155:   * 【86†打印机†consumer.huawei.com】
+L156:   * 【87†驱动程序下载†consumer.huawei.com】
+L157:
+L158: 搜索历史 【79†Image】清空
+L159:
+L160: 热门链接
+--------------------------------------------------------------------------------
+华为开创AI时代计算架构：让百万处理器成为一台计算机 - 华为 (https://www.huawei.com/cn/news/2026/9/new-computing-architecture-peerium)
+citeturn5view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn4view1","lineno":160}); Total lines: 231
+L143: ### 发现华为
+L144:
+L145: 搜索历史 【79†Image】清空
+L146:
+L147: 热门链接
+L148:
+L149:   * 【80†HUAWEI Mate 90†consumer.huawei.com】
+L150:   * 【81†HiSuite华为手机助手†consumer.huawei.com】
+L151:   * 【82†消费者产品保修查询†consumer.huawei.com】
+L152:   * 【83†华为电脑管家†consumer.huawei.com】
+L153:   * 【84†穿戴†consumer.huawei.com】
+L154:   * 【85†ensp†info.support.huawei.com】
+L155:   * 【86†打印机†consumer.huawei.com】
+L156:   * 【87†驱动程序下载†consumer.huawei.com】
+L157:
+L158: 搜索历史 【79†Image】清空
+L159:
+L160: 热门链接
+--------------------------------------------------------------------------------
+GitHub - deepseek-ai/DeepGEMM-Ascend: DeepGEMM-Ascend: clean and efficient matrix multiplication kernel library for Huawei Ascend NPUs · GitHub (https://github.com/deepseek-ai/DeepGEMM-Ascend)
+citeturn5view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn4view3","lineno":240}); Total lines: 431
+L234: ### Development
+L235:
+L236:     # Submodule must be cloned
+L237:     git clone --recursive https://github.com/deepseek-ai/DeepGEMM-Ascend.git
+L238:     cd DeepGEMM-Ascend
+L239:
+L240:     # Link some essential includes and build the C++ extension
+L241:     cat develop.sh
+L242:     ./develop.sh
+L243:
+L244: ### Installation
+L245:
+L246:     pip install . --no-build-isolation
+L247:
+L248: ## Interfaces
+--------------------------------------------------------------------------------
+GitHub - deepseek-ai/DeepEP-Ascend: A high-performance communication library for machine learning training and inference on Huawei Ascend NPUs. · GitHub (https://github.com/deepseek-ai/DeepEP-Ascend)
+citeturn5view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn4view4","lineno":250}); Total lines: 482
+L250: ## Features and API compatibility
+L251:
+L252: Training, inference prefill and decoding share the same `EPBuffer` interface and the `deep_ep` Python package name. The implementation follows DeepEP's EPBuffer-based V2.5 APIs; supported modes and stream behavior are specific to Ascend.
+--------------------------------------------------------------------------------
+Additional Platforms | PyTorch (https://docs.pytorch.org/get-started/additional-platforms/)
+citeturn5view4 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://docs.pytorch.org/get-started/additional-platforms/","lineno":null}); Total lines: 65
+L0: 【0†Image†www.facebook.com】 【1†Image†analytics.twitter.com】 【2†Image†t.co】 【3†iframe†www.googletagmanager.com】
+L1:
+L2: Join us at PyTorch Conference in San Francisco, October 22-23. CFP open now! 【4†Learn more†events.linuxfoundation.org】.
+
+
+寒武纪(688256)_公司公告_寒武纪：2026年第三季度报告新浪财经_新浪网 (https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12657969&stockid=688256)
+citeturn6view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12657969&stockid=688256","lineno":null}); Total lines: 381
+L0: 【0†财经首页†finance.sina.com.cn】 | 【1†新浪首页†www.sina.com.cn】 | 【2†新浪导航†news.sina.com.cn】
+L1:
+L2: 【3†iframe†finance.sina.com.cn】
+L3:
+L4:   * 热点推荐
+L5:   * ·【4†自选股-轻松管理您的千只股票†vip.stock.finance.sina.com.cn】
+L6:   * ·【5†金融e路通-理财投资更轻松†finance.sina.com.cn】
+L7:   * ·【6†行情中心-通往财富之门†biz.finance.sina.com.cn】
+L8:   * 【0†财经首页†finance.sina.com.cn】
+L9:   * 【7†股票†finance.sina.com.cn】
+L10:   * 【8†基金†finance.sina.com.cn】
+L11:   * 【9†滚动†finance.sina.com.cn】
+L12:   * 【10†公告†vip.stock.finance.sina.com.cn】
+L13:   * 【11†大盘†finance.sina.com.cn】
+L14:   * 【12†个股†finance.sina.com.cn】
+L15:   * 【13†新股†finance.sina.com.cn】
+L16:   * 【14†权证†finance.sina.com.cn】
+L17:   * 【15†报告†finance.sina.com.cn】
+L18:   * 【16†环球市场†finance.sina.com.cn】
+L19:   * 博客
+L20:
+L21:     * 【17†财经博客†blog.sina.com.cn】
+L22:     * 【18†股票博客†blog.sina.com.cn】
+L23:   * 【19†股票吧†finance.sina.com.cn】
+L24:   * 【20†港股†finance.sina.com.cn】
+L25:   * 【21†美股†finance.sina.com.cn】
+L26:   * 【6†行情中心†biz.finance.sina.com.cn】
+L27:   * 【4†自选股†vip.stock.finance.sina.com.cn】
+L28:
+L29: 【22†上证指数†finance.sina.com.cn】: 0000.00　0.00　00.00亿元　|　【23†深圳成指†finance.sina.com.cn】: 0000.00　0.00　00.00亿元　|　【24†沪深300†finance.sina.com.cn】: 0000.00　0.00　00.00亿元
+L30:
+L31: [Input] [Input]
+L32: # 读取中,请稍候
+L33:
+L34:  | 00-00 00:00:00
+L35: ##### --.--
+L36:
+L37: 0.00 (0.000%)  | 昨收盘:0.000  | 今开盘:0.000  | 最高价:0.000  | 最低价:0.000
+L38: 成交额:0  | 成交量:0  | 买入价:0.000  | 卖出价:0.000
+L39: 市盈率:0.000  | 收益率:0.000  | 52周最高:0.000  | 52周最低:0.000
+L40:
+L41: 【25†Image†image.sinajs.cn】
+L42:
+L43:   * 资讯与公告：
+L44:   * 【26†个股资讯】
+L45:   * 【27†公司公告】
+L46:   * 【28†年度报告】
+L47:   * 【29†中期报告】
+L48:   * 【30†一季度报告】
+L49:   * 【31†三季度报告】
+L50: 寒武纪：2026年第三季度报告 （【32†下载公告†file.finance.sina.com.cn】）
+L51: ---
+L52: 公告日期:2026-10-24
+L53: /证券代码：688256证券简称：寒武纪中科寒武纪科技股份有限公司2026年第三季度报告重要内容提示：公司董事会及董事、高级管理人员保证季度报告内容的真实、准确、完整，不存在虚假记载、误导性陈述或重大遗漏，并承担个别和连带的法律责任。公司负责人、主管会计工作负责人及会计机构负责人（会计主管人员）保证季度报告中财务信息的真实、准确、完整。第三季度财务报表是否经审计□是√否一、主要财务数据（一）主要会计数据和财务指标单位：元币种：人民币本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性依法承担法律责任。项目
+L54: 项目 本报告期 本报告期比上年同期增减变动幅度(%) 年初至报告期末 年初至报告期末比上年同期增减变动幅度(%)
+L55: 营业收入 3,530,828,294.64 104.47 9,526,401,914.25 106.76
+L56: 利润总额 1,404,429,363.61 148.08 3,705,641,538.93 131.04
+L57: 归属于上市公司股东的净利润 1,403,610,679.47 147.74 3,714,522,759.80 131.49
+L58: 归属于上市公司股东的扣除非经常性损益的净利润 1,357,585,325.91 168.13 3,523,141,104.43 148.30
+L59: 经营活动产生的现金流量净额 -83,677,874.96 不适用 227,636,767.50 不适用
+L60: /
+L61: 基本每股收益（元/股） 2.23 145.05 5.91 129.07
+L62: 稀释每股收益（元/股） 2.21 145.56 5.86 128.91
+L63: 加权平均净资产收益率（%） 9.79 增加1.76个百分点 27.73 增加2.52个百分点
+L64: 研发投入合计 522,586,496.30 73.66 1,225,052,567.56 45.35
+L65: 研发投入占营业收入的比例（%） 14.80 减少2.63个百分点 12.86 减少5.43个百分点
+L66: 本报告期末 上年度末 本报告期末比上年度末增减变动幅度(%)
+L67: 总资产 22,364,229,366.86 13,437,714,065.91 66.43
+L68: 归属于上市公司股东的所有者权益 15,123,685,399.14 11,836,173,972.81 27.78
+L69: 注：1、“本报告期”指本季度初至本季度末3个月期间，下同。2、本表中“研发投入”与财务报表研发费用核算口径一致。3、公司于2026年5月实施了2025年年度权益分派：以实施权益分派股权登记日登记的公司总股本扣除公司回购专用证券账户中的股份为基数，以资本公积金向全体股东每10股转增4.9股，合计转增206,607,799股，转增后公司总股本为628,292,969股。根据《企业会计准则第34号—每股收益》要求，公司按调整后的股数对上期每股收益重新计算并列报。（二）非经常性损益项目和金额√适用□不适用单位：元币种：人民币
+L70: 非经常性损益项目 本期金额 年初至报告期末金额 说明
+L71: 非流动性资产处置损益，包括已计提资产减值准备的冲销部分 53,484.43 249,216.99 /
+L72: 计入当期损益的政府补助，但与公司正常经营业务密切相关、符合国家政策规定、按照确定的标准享有、对公司损益产生持续影响的政府补助除外 31,658,772.78 123,376,652.73 /
+L73: 除同公司正常经营业务相关的有效套期保值业务外，非金融企业持有金融资产和金融负债产生的公允价值变动损益以及处置金融资产和金融负债产生的损益 16,815,842.48 55,523,718.23 /
+L74: 单独进行减值测试的应收款项减值准备转回 - 15,445,790.00 /
+L75: 除上述各项之外的其他营业外收入和支出 -2,455,613.41 -2,444,838.27 /
+L76: 减：所得税影响额 -819.89 581,983.31 /
+L77: 少数股东权益影响额（税后） 47,952.61 186,901.00 /
+L78: 合计 46,025,353.56 191,381,655.37 /
+L79: /对公司将《公开发行证券的公司信息披露解释性公告第1号——非经常性损益》未列举的项目认定为非经常性损益项目且金额重大的，以及将《公开发行证券的公司信息披露解释性公告第1号——非经常性损益》中列举的非经常性损益项目界定为经常性损益的项目，应说明原因。□适用√不适用（三）主要会计数据、财务指标发生变动的情况、原因√适用□不适用
+L80: 项目名称 变动比例（%） 主要原因
+L81: 营业收入_本报告期 104.47 主要系公司持续拓展市场，积极助力人工智能应用落地，营业收入较上年同期大幅增长。
+L82: 营业收入_年初至报告期末 106.76
+L83: 利润总额_本报告期 148.08 主要系营业收入较上年同期大幅增长,带动利润总额、归属于上市公司股东的净利润及归属于上市公司股东的扣除非经常性损益的净利润较上年同期大幅增长。
+L84: 利润总额_年初至报告期末 131.04
+L85: 归属于上市公司股东的净利润_本报告期 147.74
+L86: 归属于上市公司股东的净利润_年初至报告期末 131.49
+L87: 归属于上市公司股东的扣除非经常性损益的净利润_本报告期 168.13
+L88: 归属于上市公司股东的扣除非经常性损益的净利润_年初至报告期末 148.30
+L89: 经营活动产生的现金流量净额_本报告期 不适用 主要系公司销售回款较上年同期大幅增加所致。
+L90: 经营活动产生的现金流量净额_年初至报告期末 不适用
+L91: 基本每股收益（元/股）_本报告期 145.05 主要系归属于上市公司股东的净利润大幅增长所致。
+--------------------------------------------------------------------------------
+智启新未来，打造智能世界的硅基黑土地 - 华为 (https://www.huawei.com/cn/news/2026/9/hc-wang-keynote)
+citeturn6view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn4view0","pattern":"950DT"}); Total lines: 272
+No matching text found for "950DT"--------------------------------------------------------------------------------
+智启新未来，打造智能世界的硅基黑土地 - 华为 (https://www.huawei.com/cn/news/2026/9/hc-wang-keynote)
+citeturn6view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn4view0","pattern":"1000"}); Total lines: 272
+No matching text found for "1000"--------------------------------------------------------------------------------
+智启新未来，打造智能世界的硅基黑土地 - 华为 (https://www.huawei.com/cn/news/2026/9/hc-wang-keynote)
+citeturn6view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn4view0","pattern":"PyTorch"}); Total lines: 272
+L196: 超节点已成为建设超大规模AI基础设施的必然选择。当前，10万卡集群已成为训练十万亿级SOTA模型的标配，但传统服务器架构导致集群内通信超过训练时间的40%，严重制约了MFU（模型浮点算力利用率）。根据华为马尔科夫实验室仿真结果显示，4K超节点组成的10万卡集群相比由8卡服务器组成的10万卡集群MFU提升了2.75倍。
+L197:
+L198: 基于灵衢打造11颗关键芯片，发布业界首个使用NPO的昇腾960超节点
+L199:
+L200: 在所有芯片中，昇腾芯片是整个系统中的核心部件，华为宣布昇腾960芯片研发进度超出预期，性能实现倍增。960DT比原计划提前三个季度，2027年第一季度就绪；960PR比原计划提前一个季度，2027年第三季度就绪。未来，昇腾系列芯片将持续坚持一年一代的演进节奏。2028和2029年，华为将陆续推出昇腾970、980芯片，依托τ定律的创新方向，实现算力规格继续翻倍，访存带宽、访存容量、互联带宽等也将大幅提升。
+L201:
+L202: 除了昇腾芯片以外，华为还基于灵衢UnifiedBus打造了系列化套片，全面覆盖计算、互联、存储、管理等关键能力。
+L203: 超节点的设计理念是通过互联实现多NPU的协同。华为研发了新一代NPO（Near-Packaged Optics）形态的光互联产品——Hi-ONE，基于华为自主创新技术，通过光、机、电、磁、热等要素的均衡设计，实现了单引擎7.2T的传输容量。这是业界首个量产的NPO产品，是行业目前最大传输能力的NPO产品，也是唯一实现内置光源的NPO产品。这款产品把“高带宽、高可靠”与“低时延、低功耗”完美融为一体，与灵衢总线协议一起构建可规模扩展的超节点互联系统。 同时，华为在全球光互联标准组织OIF提出了NPO标准立项的建议，得到了众多行业伙伴的积极响应，进一步完善NPO的产业生态。
+L204:
+L205: 基于昇腾960芯片和Hi-ONE，华为打造了业界首个采用NPO技术的超节点——昇腾960超节点，单个超节点为4096卡规模，最大可提供8E FP8的算力，高达1PB的HBM容量。超节点中用5500个Hi-ONE，替代原本需要的4万8千颗800G光模块，降低了超550千瓦功耗，系统无故障运行时间提升一倍，系统可用度达到99.8%。
+L206:
+L207: 鲲鹏超节点与AI记忆存储亮相，构筑百万卡超节点集群
+L208: 随着SOTA模型的参数规模达到10T级，其训练、推理系统不再是单一的AI服务器或单一的智算超节点，而是一个复杂的算力系统。该系统包括智算超节点、通算超节点、一套平等互联且免协议转换的互联系统，在推理系统中还需要部署PB级的KV缓存集群。
+L209:
+L210: 首先，鲲鹏超节点全新升级。基于灵衢全光组网，鲲鹏超节点最大支持4096节点，并形成高达256TB的统一内存池，可显著加速Agent性能。在Agent沙箱场景，十万级别沙箱启动相比传统服务器方案提升30倍，且沙箱密度还可以再提升25%；在Agent向量检索场景，在百亿千维的复杂向量检索场景下，实现检索效率比传统服务器性能实现倍增。
+L211:
+L212: 其次，华为基于灵衢打造AI记忆存储-OceanStor M900。Agent与长序列需要多层次KV Cache架构，面向Agent推理系统，华为提出了多层KV缓存架构，推出基于灵衢UnifiedBus、支持“一跳直连”的华为L3.5层PB级KV缓存——OceanStor M900集群。同时，M900采用混合介质加优化Retention算法，可将SSD读写寿命提升16倍，从底层保障KV命中和长稳可靠。
+L213: 同时，华为发挥“计算+通信”综合优势，为业界带来全新的Agentic超节点集群，加速10万亿大模型训练和推理。基于灵衢UnifiedBus统一互联，把多种互联协议统一为灵衢协议，大幅减少协议转换开销，实现昇腾超节点、鲲鹏超节点、KV缓存集群等子系统平等互联，提供多层次、高带宽、大容量的存储系统，且各类KV缓存均可一跳直达的KV缓存。通过二层CLOS四平面组网，最大集群规模可达到51.2万卡，再结合多轨道拓扑技术，最大可支持100万卡昇腾超节点集群。
+L214:
+L215: 构建开源开放的算力生态是华为公司的核心战略
+L216:
+L217: 鲲鹏生态引领千行百业数智化创新。截至目前，鲲鹏全球开发者超过了416万，全球生态合作伙伴超过7200家，支持了560多个全球开源项目，openEuler装机量也已超过2000万套，成为中国服务器操作系统第一份额。
+L218: 昇腾已跨越生态拐点。CANN作为昇腾生态的根基，已进入常态化的开源社区运作，从“可用”走向“易用”。CANN外部开发者首次超越内部开发者，占比61%，社区月活开发者突破5200名，是中国最活跃的开源社区；基于昇腾+CANN的原生训练模型已超过40个，也是国内唯一支持预训练的技术路线；昇腾已覆盖90多个主流三方社区，如PyTorch、Triton、vLLM、veRL等。在Linux基金会的大力支持下，昇腾已正式成为在 PyTorch 官网可直接安装的算力平台，并且是首个来自中国的算力平台，全球所有开发者可以更便捷地获取昇腾生态的创新成果。
+L219:
+L220: 创新多样性算力，推进AI入端、上车，智能无所不及
+L221:
+L222: AI入端正在全面加速，华为将持续构建能力，为用户构筑AI全场景极致体验。首先，通过麒麟和昇腾组合实现端侧算力自给、自治；其次，通过盘古和三方大模型实现端侧智能好用、易用；第三，HarmonyOS作为智能无处不在的Agent OS，将从系统底层架构、运行机制、交互逻辑全面重构，支撑Agent和人共生共用；第四，丰富的AI生态是小艺系统智能体枝繁叶茂的基础。
+L223: 华为将重点围绕AI Phone、AI PC、车和家庭场景打造四大端侧算力平台。通过端端算力协同和端云算力协同，构筑分布式群体智能，围绕个人移动空间、办公空间、车空间和家空间，提供一体的、连续的智能服务，实现全场景伴随，将智能带入每个人和每个空间。
+L224:
+L225: 没有网络的算力是信息孤岛，围绕“用算”构筑新一代通信网络
+L226:
+L227: AI算力的价值释放，依赖于新一代通信网络的构建。华为推动通信网络从服务于人的连接向围绕用算发生根本性变革，基于5G-A/6G、万兆光网及多级协同低时延承载网，打造从中心到边缘到端的智能联接体系。
+L228:
+L229: 最后，汪涛表示：“人工智能也许是人类社会最后一次技术革命，它带来的变革之深、之广、之快，远超想象，没有任何一家公司能独自支撑整个智能世界。华为聚焦AI基础设施，坚持打造硅基黑土地，让算力触手可及；坚持软件开源开放，让开发者释放潜能；坚持拥抱百模千态，让价值多元释放；坚持合作共赢，让客户成功、伙伴成长。让我们携手，共建万物互联的智能时代。”
+L230: 2026年9月17-19日，华为全联接大会2026在上海世博展览馆及世博中心举办。本届大会以“智启新未来”为主题，通过“战略全景-产业技术-生态发展”的三维视角，阐释华为全面智能化战略的最新举措，并发布创新的产品与解决方案、丰富的行业智能化应用样板点、好用易用的开发者工具与平台等。欲了解更多详情，请参阅华为全联接大会官网：【89†www.huawei.com/cn/events/huaweiconnect】
+L231:
+L232: * * *
+L233:
+L234: FAQs：
+L235:
+L236: Q1：什么是超节点？为什么它越来越重要？
+L237: 超节点是一种把多个计算节点通过高效互联紧密连接起来的计算系统，它能让这些节点共享统一内存，像一台计算机一样协同工作。随着大模型训练和推理规模持续扩大，超节点能够降低大规模集群中的通信开销、提升模型浮点算力利用率（MFU），目前已成为产、学、研在AI基础设施领域的共识，也是建设超大规模AI基础设施的必然选择。
+L238: Q2：昇腾960超节点有什么特别之处？
+L239: 昇腾960超节点是业界首个采用NPO技术的超节点，单个超节点最大支持4096卡，可提供8E FP8算力和1PB HBM容量。它用5500个Hi-ONE替代原本需要的4万8千颗800G光模块，降低550多千瓦功耗的同时，系统无故障运行时间提升一倍，可用度达到99.8%，为大规模AI训练和推理提供高效、可靠的算力支撑。
+L240:
+L241: Q3：什么是NPO？Hi-ONE在超节点中发挥什么作用？
+L242: NPO（Near-Packaged Optics，近封装光学）是一种面向高速互联的光互联技术。华为研发的Hi-ONE是业界首个具备量产能力的NPO产品，也是目前行业最大传输能力、唯一实现内置光源的NPO产品，单引擎传输容量达到7.2T，与灵衢UnifiedBus共同构建可规模扩展的超节点互联系统。
+L243:
+L244: [Input] [Input] [Input]
+L245: ## 相关新闻
+L246:
+L247: 【90†查看全部】
+L248:
+L249: [Input]
+L250:
+L251: ### 关于华为
+L252:
+L253: ### 新闻与活动
+L254:
+L255: ### 发现华为
+L256:
+L257: ### 我们的产品
+L258:
+L259: ### 技术支持
+L260:
+L261:   * 【91†华为商城†www.vmall.com】
+L262:   * 【4†华为云†www.huaweicloud.com】
+L263:   * 【92†华为JDC社区†jdc.huawei.com】
+L264:   * 【93†华为心声社区†xinsheng.huawei.com】
+L265:
+L266: 版权所有 © 1998-@year 华为技术有限公司 【94†粤A2-20044005号†beian.miit.gov.cn】  【95†粤公网安备44030702002388号†www.beian.gov.cn】
+L267:
+L268:   * 【69†联系我们】
+L269:   * 【96†法律声明】
+L270:   * 【97†隐私政策】
+L271:   * 【98†除名查询】
+--------------------------------------------------------------------------------
+华为开创AI时代计算架构：让百万处理器成为一台计算机 - 华为 (https://www.huawei.com/cn/news/2026/9/new-computing-architecture-peerium)
+citeturn6view4 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn4view1","pattern":"25.6"}); Total lines: 231
+No matching text found for "25.6"--------------------------------------------------------------------------------
+GitHub - deepseek-ai/DeepGEMM-Ascend: DeepGEMM-Ascend: clean and efficient matrix multiplication kernel library for Huawei Ascend NPUs · GitHub (https://github.com/deepseek-ai/DeepGEMM-Ascend)
+citeturn6view5 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn4view3","pattern":"Requirements"}); Total lines: 431
+L209: # DeepGEMM Ascend
+L210:
+L211: DeepGEMM Ascend is a port of DeepGEMM to the HUAWEI Ascend platform. It is fully API-compatible with DeepGEMM and supports BF16, FP8, FP4 GEMM, MQA logits, and MegaMoE. On Ascend platforms, users can simply install the package and use the same APIs and development workflow as DeepGEMM on other supported platforms.
+L212: DeepGEMM Ascend provides a lightweight abstraction over the Ascend MAD (matrix multiply-add) primitives, hiding much of the complexity associated with fractal layouts, alignment constraints, address calculations, and verbose low-level parameters. This enables GEMM kernels to remain both concise and efficient. DeepGEMM Ascend makes extensive use of Ascend-specific optimization techniques, such as sparse data loading and coroutine-based pipelining, to approach the performance limits of the Ascend hardware.
+L213: These implementations can also serve as references for extreme performance optimization on the Ascend platform.
+L214: Despite its lightweight codebase, DeepGEMM Ascend can achieve peak hardware performance across a wide range of matrix shapes.
+L215:
+L216: DeepGEMM Ascend 是华为昇腾平台上的 DeepGEMM 实现。它完全兼容 DeepGEMM 的 API，支持 BF16、FP8、FP4 GEMM、MQA logits 和 MegaMoE 算子。DeepGEMM Ascend 和 DeepGEMM 使用相同的包名，用户只需安装当前包，即可沿用其他平台上 DeepGEMM 的 API 和开发流程。
+L217:
+L218: DeepGEMM Ascend 对昇腾平台的矩阵乘加原语（MAD）提供了一个轻量的抽象，能够隐藏分形矩阵布局、对齐约束、地址计算、参数转换等细节，让 GEMM kernel 的实现保持简洁高效。DeepGEMM Ascend 广泛采用昇腾平台特有的优化技术，包括稀疏数据加载、基于协程的流水线等，以接近硬件的性能极限。这些实现也可以作为昇腾平台极致性能优化的参考。
+L219: DeepGEMM Ascend 代码轻量，并且在多种矩阵形状上能达到硬件极限性能。
+L220: ## News
+L221:
+L222:   * 2026.09.30: Initial release of DeepGEMM Ascend, with support for Ascend 950 devices. The kernels are designed to achieve near-peak hardware performance.
+L223:
+L224: ## Quick Start
+L225: ### Requirements
+L226:
+L227:   * HUAWEI Ascend NPU (developed and validated on the Ascend 950 series)
+L228:   * CANN 9.20 toolkit providing `bin/bisheng`, `bin/ld.lld`
+L229:   * Torch NPU package `torch_npu`
+L230:   * Python 3.10 or higher
+L231:   * Compilers and standard libraries with C++20 `<format>` support
+L232:   * `tilelang`, used by the HC prenorm kernel (declared as a package dependency)
+L233:   * `tree-sitter` and `tree-sitter-cpp`, used to generate Python type stubs when building from source
+L234: ### Development
+L235:
+L236:     # Submodule must be cloned
+L237:     git clone --recursive https://github.com/deepseek-ai/DeepGEMM-Ascend.git
+L238:     cd DeepGEMM-Ascend
+L239:
+L240:     # Link some essential includes and build the C++ extension
+L241:     cat develop.sh
+L242:     ./develop.sh
+L243:
+L244: ### Installation
+L245:
+L246:     pip install . --no-build-isolation
+L247:
+L248: ## Interfaces
+L249: ### Kernel Interface
+L250:
+L251: Please refer to 【94†DeepGEMM's interfaces】 for the kernel APIs.
+L252:
+L253: Note
+L254:
+L255: The scaling factor format on Ascend differs from NVIDIA's: each pair of UE8M0 scaling factors along the K dimension is packed into an `int16`, and the packed values are stored in MN-major order for optimal hardware efficiency.
+L256: Dense BF16, FP8, FP4 and mixed FP8×FP4 GEMMs accept `c` with shape `[M, N]` or `[1, N]` and the same dtype as `d`. Full C uses atomic add. A contiguous `[1, N]` bias is loaded and added in the AIV epilogue before the output cast. The `bf16_gemm_nn` and `fp8_fp4_gemm_nn` interfaces take `A[M, K]` and `B[K, N]`:
+L257:
+L258:     deep_gemm.bf16_gemm_nn(a, b, c=bias, d=d)
+L259: ### Utilities
+L260:
+L261: The library provides some utility functions besides the above kernels:
+L262:   * `deep_gemm.set_num_sms` / `get_num_sms`: set/get the number of AI cores the kernels may use
+L263:   * `deep_gemm.set_npu_arch` / `get_npu_arch`: override/query the `dav-*` NPU architecture used for JIT compilation, `0` queries the device
+L264:   * `deep_gemm.set_mk_alignment_for_contiguous_layout` / `get_mk_alignment_for_contiguous_layout`: set/get the group-level M/K alignment for contiguous layout
+L265:   * `deep_gemm.get_theoretical_mk_alignment_for_contiguous_layout`: get the theoretical minimum M/K alignment
+L266:   * `deep_gemm.use_deterministic_algorithms` / `get_deterministic_algorithms`: enable/disable deterministic algorithms
+L267:   * `deep_gemm.transform_sf_into_required_layout`: transform scaling factors into the required layout
+L268:   * `deep_gemm.transform_k_grouped_sf_into_required_layout`: transform K-grouped scaling factors into the required layout
+L269:   * `deep_gemm.get_paged_mqa_logits_metadata`: build the scheduling metadata for the paged MQA kernels
+L270:   * `deep_gemm.aclnn_fp8_fp4_gemm_{nt, nn, tn, tt}` and `deep_gemm.aclnn_bf16_gemm_{nt, nn, tn, tt}`: ACLNN reference GEMMs used to cross-check the kernels in tests
+L271: ### Environment Variables
+L272:
+L273: Ascend home path is given by `ASCEND_HOME_PATH` or `ASCEND_TOOLKIT_HOME`.
+L274:
+L275: Each `DG_JIT_*` variable falls back to the corresponding global `DJ_JIT_*` variable when unset, and is snapshotted when the JIT runtime is first created.
+L276:   * General
+L277:     * `DG_JIT_DEBUG`: `0` or `1`, enable JIT debugging features, including compiler commands, load-time reporting, and the selected config per shape; `0` by default
+L278:     * `DG_PRINT_CONFIGS`: `0` or `1`, print the selected config for each shape, `0` by default
+L279:   * JIT cache
+L280:     * `DG_JIT_CACHE_DIR`: string, cache directory (or a `:`-separated list of directories) for compiled kernels; lookup searches all paths front-to-back (first hit wins) and a cache miss compiles into the first path, `$HOME/.dj` by default
+L281:   * Compiler output and artifacts
+L282:     * `DG_JIT_PRINT_COMPILER_COMMAND`: `0` or `1`, print compiler and disassembler commands, `0` by default
+L283:     * `DG_JIT_PRINT_LOAD_TIME`: `0` or `1`, print kernel load time, `0` by default
+--------------------------------------------------------------------------------
+GitHub - deepseek-ai/DeepEP-Ascend: A high-performance communication library for machine learning training and inference on Huawei Ascend NPUs. · GitHub (https://github.com/deepseek-ai/DeepEP-Ascend)
+citeturn6view6 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn4view4","pattern":"Hardware"}); Total lines: 482
+No matching text found for "Hardware"--------------------------------------------------------------------------------
+Additional Platforms | PyTorch (https://docs.pytorch.org/get-started/additional-platforms/)
+citeturn6view7 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn5view4","pattern":"Ascend"}); Total lines: 65
+No matching text found for "Ascend"
+
+智启新未来，打造智能世界的硅基黑土地 - 华为 (https://www.huawei.com/cn/news/2026/9/hc-wang-keynote)
+citeturn7view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn4view0","lineno":174}); Total lines: 272
+L70: #### 联接
+L71:
+L72:     * 【2†运营商网络†carrier.huawei.com】
+L73:     * 【53†企业网络†e.huawei.com】
+L74:     * 【54†企业光网络†e.huawei.com】
+L75:     * 【55†企业无线†e.huawei.com】
+L76:
+L77: #### 计算
+L78:
+L79:     * 【56†通用计算†e.huawei.com】
+L80:     * 【57†AI计算†e.huawei.com】
+L81:     * 【58†数据存储†e.huawei.com】
+L82:
+L83: #### 云
+L84:
+L85:     * 【4†华为云†www.huaweicloud.com】
+L86:
+L87: #### 数字能源
+L88:
+L89:     * 【59†智能光伏†solar.huawei.com】
+L90:     * 【60†智能电动†digitalpower.huawei.com】
+L91:     * 【61†智能充电网络†digitalpower.huawei.com】
+L92:     * 【62†数据中心能源及关键供电†digitalpower.huawei.com】
+L93:     * 【63†站点能源†digitalpower.huawei.com】
+L94:
+L95: ### 行业解决方案
+L96: ### 热点话题
+L97:
+L98: 【1†企业业务网站†e.huawei.com】
+L99:
+L100: 【2†运营商业务网站†carrier.huawei.com】
+L101:
+L102: 【4†华为云网站†www.huaweicloud.com】
+L103:
+L104: 【5†数字能源网站†digitalpower.huawei.com】
+L105:
+L106: 【64†智能汽车解决方案网站†auto.huawei.com】
+L107:
+L108:   * ### 个人及家庭产品
+L109:
+L110: ### 华为云业务
+L111:
+L112: ### 企业业务
+L113:
+L114: ### 运营商业务
+L115:
+L116: ### 数字能源业务
+L117:
+L118:   * ### 合作伙伴
+L119:
+L120: ### 开发者
+L121: ### 学习与认证
+L122:
+L123:   * ### 关于华为
+L124:
+L125:     * 【65†公司简介】
+L126:     * 【66†公司年报】
+L127:     * 【67†公司治理】
+L128:     * 【68†管理层信息】
+L129:     * 【69†联系我们】
+L130:
+L131:     * 【70†可持续发展】
+L132:     * 【71†信任中心】
+L133:     * 【72†华为开源】
+L134:     * 【73†创新与知识产权】
+L135:     * 【74†合规与诚信】
+L136:
+L137:     * 【75†招贤纳士†career.huawei.com】
+L138:     * 【76†债券投资者】
+L139:     * 【77†供应商†supplier.huawei.com】
+L140:     * 【78†公共政策】
+L141:
+L142: ### 新闻与活动
+L143: ### 发现华为
+L144:
+L145: 搜索历史 【79†Image】清空
+L146:
+L147: 热门链接
+L148:
+L149:   * 【80†HUAWEI Mate 90†consumer.huawei.com】
+L150:   * 【81†HiSuite华为手机助手†consumer.huawei.com】
+L151:   * 【82†消费者产品保修查询†consumer.huawei.com】
+L152:   * 【83†华为电脑管家†consumer.huawei.com】
+L153:   * 【84†穿戴†consumer.huawei.com】
+L154:   * 【85†ensp†info.support.huawei.com】
+L155:   * 【86†打印机†consumer.huawei.com】
+L156:   * 【87†驱动程序下载†consumer.huawei.com】
+L157:
+L158: 搜索历史 【79†Image】清空
+L159:
+L160: 热门链接
+L161:   * 【80†HUAWEI Mate 90†consumer.huawei.com】
+L162:   * 【81†HiSuite华为手机助手†consumer.huawei.com】
+L163:   * 【82†消费者产品保修查询†consumer.huawei.com】
+L164:   * 【83†华为电脑管家†consumer.huawei.com】
+L165:   * 【84†穿戴†consumer.huawei.com】
+L166:   * 【85†ensp†info.support.huawei.com】
+L167:   * 【86†打印机†consumer.huawei.com】
+L168:   * 【87†驱动程序下载†consumer.huawei.com】
+L169:
+L170: [Input]
+L171:
+L172: 新闻与活动
+L173:
+L174: [Input] [Input]
+L175: # 智启新未来，打造智能世界的硅基黑土地
+L176:
+L177: 关键信息：
+L178:
+L179:   * 战略聚焦：面向智能世界加速到来带来的算力需求，华为坚持聚焦AI基础设施，围绕“超节点+集群”推进系统架构创新，打造智能世界的“硅基黑土地”。
+L180:   * 技术突破：华为发布业界首个采用NPO技术的昇腾960超节点，并升级鲲鹏超节点、推出OceanStor M900 AI记忆存储系统；基于灵衢UnifiedBus统一互联，构建Agentic超节点集群，支持百万卡超大规模集群。
+L181:   * 生态开放：华为持续构建开源开放的算力生态，鲲鹏全球开发者超过416万；CANN进入常态化开源社区运营，昇腾覆盖90多个主流第三方社区，并正式成为PyTorch官方支持的技术路线。
+L182:
+L183: * * *
+L184:
+L185: [中国，上海，2026年9月17日] 今日，华为全联接大会2026在上海启幕。华为副董事长、轮值董事长汪涛在大会上发表了“智启新未来，打造智能世界的硅基黑土地”的主题演讲，与产业界共同探讨在智能浪潮中如何携手合作，打造强大的AI基础设施，筑牢坚实的算力底座，迎接智能世界带来的机遇与挑战。
+L186:
+L187: 【88†Image†www-file.huawei.com】
+L188: 华为副董事长、轮值董事长汪涛发表主题演讲
+L189:
+L190: AI变革的速度超过历史上任何一次技术革命。今天大模型参数已经快速迈向10万亿，到2030年将达到100万亿以上；智能体已经可以按小时级连续工作，到2030年将以月为单位执行任务；中国每日推理Token已增长到每日500万亿左右，到2030年将达到百万万亿级。端侧智能也在快速增强，手机模型从2024年的3B发展到今天的30B，未来将进一步走向100B级。这些变化，都对AI基础设施的规模、性能和可靠性提出了更高的要求，只有打造更加强大的AI基础设施，才能筑牢智能世界的坚实底座。
+L191: 智能世界加速到来，华为坚持聚焦AI基础设施，打造智能世界的硅基黑土地。华为AI战略的核心是算力，坚持硬件变现，围绕“超节点+集群”，通过系统架构创新构建竞争力，打造中国坚实算力底座，为世界构建新的选择；坚持构建开源开放的算力生态，支持主流大模型基于昇腾原生训练、积极拥抱“百模千态”；面向客户，我们提供线下、线上的灵活算力方案，加速千行百业智能化；面向丰富的端侧场景，通过提供大中小微多样性算力，推进AI入端、上车，物联轻智能升级，让智能真正无所不及；围绕“用算”构筑新一代通信网络，把智能传递给每个人、家庭和企业。
+L192:
+L193: 超节点已成为产、学、研共识，是建设超大规模AI基础设施的必然选择
+L194:
+L195: 截至目前，昇腾910C超节点已部署超1000套，昇腾950超节点也已规模商用。超节点在规模商用的同时，已成为产、学、研在AI基础设施领域的共识，即是一种在物理上由多个计算节点通过高效的互联协议紧密连接组成，具备跨物理节点统一内存编址能力，逻辑上具备“一台计算机”特征的计算系统。
+L196: 超节点已成为建设超大规模AI基础设施的必然选择。当前，10万卡集群已成为训练十万亿级SOTA模型的标配，但传统服务器架构导致集群内通信超过训练时间的40%，严重制约了MFU（模型浮点算力利用率）。根据华为马尔科夫实验室仿真结果显示，4K超节点组成的10万卡集群相比由8卡服务器组成的10万卡集群MFU提升了2.75倍。
+L197:
+L198: 基于灵衢打造11颗关键芯片，发布业界首个使用NPO的昇腾960超节点
+L199:
+L200: 在所有芯片中，昇腾芯片是整个系统中的核心部件，华为宣布昇腾960芯片研发进度超出预期，性能实现倍增。960DT比原计划提前三个季度，2027年第一季度就绪；960PR比原计划提前一个季度，2027年第三季度就绪。未来，昇腾系列芯片将持续坚持一年一代的演进节奏。2028和2029年，华为将陆续推出昇腾970、980芯片，依托τ定律的创新方向，实现算力规格继续翻倍，访存带宽、访存容量、互联带宽等也将大幅提升。
+L201:
+L202: 除了昇腾芯片以外，华为还基于灵衢UnifiedBus打造了系列化套片，全面覆盖计算、互联、存储、管理等关键能力。
+L203: 超节点的设计理念是通过互联实现多NPU的协同。华为研发了新一代NPO（Near-Packaged Optics）形态的光互联产品——Hi-ONE，基于华为自主创新技术，通过光、机、电、磁、热等要素的均衡设计，实现了单引擎7.2T的传输容量。这是业界首个量产的NPO产品，是行业目前最大传输能力的NPO产品，也是唯一实现内置光源的NPO产品。这款产品把“高带宽、高可靠”与“低时延、低功耗”完美融为一体，与灵衢总线协议一起构建可规模扩展的超节点互联系统。 同时，华为在全球光互联标准组织OIF提出了NPO标准立项的建议，得到了众多行业伙伴的积极响应，进一步完善NPO的产业生态。
+L204:
+L205: 基于昇腾960芯片和Hi-ONE，华为打造了业界首个采用NPO技术的超节点——昇腾960超节点，单个超节点为4096卡规模，最大可提供8E FP8的算力，高达1PB的HBM容量。超节点中用5500个Hi-ONE，替代原本需要的4万8千颗800G光模块，降低了超550千瓦功耗，系统无故障运行时间提升一倍，系统可用度达到99.8%。
+L206:
+L207: 鲲鹏超节点与AI记忆存储亮相，构筑百万卡超节点集群
+L208: 随着SOTA模型的参数规模达到10T级，其训练、推理系统不再是单一的AI服务器或单一的智算超节点，而是一个复杂的算力系统。该系统包括智算超节点、通算超节点、一套平等互联且免协议转换的互联系统，在推理系统中还需要部署PB级的KV缓存集群。
+L209:
+L210: 首先，鲲鹏超节点全新升级。基于灵衢全光组网，鲲鹏超节点最大支持4096节点，并形成高达256TB的统一内存池，可显著加速Agent性能。在Agent沙箱场景，十万级别沙箱启动相比传统服务器方案提升30倍，且沙箱密度还可以再提升25%；在Agent向量检索场景，在百亿千维的复杂向量检索场景下，实现检索效率比传统服务器性能实现倍增。
+L211:
+L212: 其次，华为基于灵衢打造AI记忆存储-OceanStor M900。Agent与长序列需要多层次KV Cache架构，面向Agent推理系统，华为提出了多层KV缓存架构，推出基于灵衢UnifiedBus、支持“一跳直连”的华为L3.5层PB级KV缓存——OceanStor M900集群。同时，M900采用混合介质加优化Retention算法，可将SSD读写寿命提升16倍，从底层保障KV命中和长稳可靠。
+L213: 同时，华为发挥“计算+通信”综合优势，为业界带来全新的Agentic超节点集群，加速10万亿大模型训练和推理。基于灵衢UnifiedBus统一互联，把多种互联协议统一为灵衢协议，大幅减少协议转换开销，实现昇腾超节点、鲲鹏超节点、KV缓存集群等子系统平等互联，提供多层次、高带宽、大容量的存储系统，且各类KV缓存均可一跳直达的KV缓存。通过二层CLOS四平面组网，最大集群规模可达到51.2万卡，再结合多轨道拓扑技术，最大可支持100万卡昇腾超节点集群。
+L214:
+L215: 构建开源开放的算力生态是华为公司的核心战略
+L216:
+L217: 鲲鹏生态引领千行百业数智化创新。截至目前，鲲鹏全球开发者超过了416万，全球生态合作伙伴超过7200家，支持了560多个全球开源项目，openEuler装机量也已超过2000万套，成为中国服务器操作系统第一份额。
+--------------------------------------------------------------------------------
+华为开创AI时代计算架构：让百万处理器成为一台计算机 - 华为 (https://www.huawei.com/cn/news/2026/9/new-computing-architecture-peerium)
+citeturn7view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn4view1","lineno":174}); Total lines: 231
+L70: #### 联接
+L71:
+L72:     * 【2†运营商网络†carrier.huawei.com】
+L73:     * 【53†企业网络†e.huawei.com】
+L74:     * 【54†企业光网络†e.huawei.com】
+L75:     * 【55†企业无线†e.huawei.com】
+L76:
+L77: #### 计算
+L78:
+L79:     * 【56†通用计算†e.huawei.com】
+L80:     * 【57†AI计算†e.huawei.com】
+L81:     * 【58†数据存储†e.huawei.com】
+L82:
+L83: #### 云
+L84:
+L85:     * 【4†华为云†www.huaweicloud.com】
+L86:
+L87: #### 数字能源
+L88:
+L89:     * 【59†智能光伏†solar.huawei.com】
+L90:     * 【60†智能电动†digitalpower.huawei.com】
+L91:     * 【61†智能充电网络†digitalpower.huawei.com】
+L92:     * 【62†数据中心能源及关键供电†digitalpower.huawei.com】
+L93:     * 【63†站点能源†digitalpower.huawei.com】
+L94:
+L95: ### 行业解决方案
+L96: ### 热点话题
+L97:
+L98: 【1†企业业务网站†e.huawei.com】
+L99:
+L100: 【2†运营商业务网站†carrier.huawei.com】
+L101:
+L102: 【4†华为云网站†www.huaweicloud.com】
+L103:
+L104: 【5†数字能源网站†digitalpower.huawei.com】
+L105:
+L106: 【64†智能汽车解决方案网站†auto.huawei.com】
+L107:
+L108:   * ### 个人及家庭产品
+L109:
+L110: ### 华为云业务
+L111:
+L112: ### 企业业务
+L113:
+L114: ### 运营商业务
+L115:
+L116: ### 数字能源业务
+L117:
+L118:   * ### 合作伙伴
+L119:
+L120: ### 开发者
+L121: ### 学习与认证
+L122:
+L123:   * ### 关于华为
+L124:
+L125:     * 【65†公司简介】
+L126:     * 【66†公司年报】
+L127:     * 【67†公司治理】
+L128:     * 【68†管理层信息】
+L129:     * 【69†联系我们】
+L130:
+L131:     * 【70†可持续发展】
+L132:     * 【71†信任中心】
+L133:     * 【72†华为开源】
+L134:     * 【73†创新与知识产权】
+L135:     * 【74†合规与诚信】
+L136:
+L137:     * 【75†招贤纳士†career.huawei.com】
+L138:     * 【76†债券投资者】
+L139:     * 【77†供应商†supplier.huawei.com】
+L140:     * 【78†公共政策】
+L141:
+L142: ### 新闻与活动
+L143: ### 发现华为
+L144:
+L145: 搜索历史 【79†Image】清空
+L146:
+L147: 热门链接
+L148:
+L149:   * 【80†HUAWEI Mate 90†consumer.huawei.com】
+L150:   * 【81†HiSuite华为手机助手†consumer.huawei.com】
+L151:   * 【82†消费者产品保修查询†consumer.huawei.com】
+L152:   * 【83†华为电脑管家†consumer.huawei.com】
+L153:   * 【84†穿戴†consumer.huawei.com】
+L154:   * 【85†ensp†info.support.huawei.com】
+L155:   * 【86†打印机†consumer.huawei.com】
+L156:   * 【87†驱动程序下载†consumer.huawei.com】
+L157:
+L158: 搜索历史 【79†Image】清空
+L159:
+L160: 热门链接
+L161:   * 【80†HUAWEI Mate 90†consumer.huawei.com】
+L162:   * 【81†HiSuite华为手机助手†consumer.huawei.com】
+L163:   * 【82†消费者产品保修查询†consumer.huawei.com】
+L164:   * 【83†华为电脑管家†consumer.huawei.com】
+L165:   * 【84†穿戴†consumer.huawei.com】
+L166:   * 【85†ensp†info.support.huawei.com】
+L167:   * 【86†打印机†consumer.huawei.com】
+L168:   * 【87†驱动程序下载†consumer.huawei.com】
+L169:
+L170: [Input]
+L171:
+L172: 新闻与活动
+L173:
+L174: [Input] [Input]
+L175: # 华为开创AI时代计算架构：让百万处理器成为一台计算机
+L176:
+L177: 关键信息：
+L178:
+L179:   * Peerium计算架构突破了图灵范式，提出了Nested BSP，突破了冯·诺依曼单机架构，颠覆了长久以来的主从架构，实现了百万级处理器真正成为一台更大的计算机。
+L180:   * 灵衢是实现Peerium计算架构的关键互联技术。
+L181:
+L182: * * *
+L183:
+L184: [中国，上海，2026年9月17日] 今日，华为发布AI时代的全新计算架构 – Peerium计算架构。该架构能实现百万级处理器成为一台计算机，以满足不断发展的AI算力需求。
+L185:
+L186: Peerium计算架构是基于嵌套并行，统一内存寻址、平等互联实现百万级处理器强扩展的计算架构。Peerium计算架构突破了图灵范式，提出了Nested BSP，突破了冯·诺依曼单机架构，颠覆了长久以来的主从架构，实现了百万级处理器真正成为一台更大的计算机。
+L187:
+L188: 灵衢是实现Peerium计算架构的关键互联技术。灵衢是基于一个开放协议，可无限扩展地联接CPU、NPU、内存、SSD、网卡和交换机的高速总线。有了灵衢，可实现计算、存储和网络的平等互联。
+L189: Atlas 950超节点是Peerium计算架构的首代产品，25.6万卡Atlas 950超节点集群已经在部署中，基于NPO的Atlas 960系统正在测试中。
+L190:
+L191: 华为轮值董事长徐直军表示：“AI时代，华为基于开创的Peerium计算架构，持续打造满足客户训练和推理需求的超节点和集群，让算力无处不在，让智能无所不及。”
+L192:
+L193: * * *
+L194:
+L195: FAQs：
+L196:
+L197: Q1:什么是Peerium计算架构？
+L198: Peerium计算架构是基于嵌套并行，统一内存寻址、平等互联实现百万级处理器强扩展的计算架构。
+L199:
+L200: Q2：什么是灵衢？
+L201: 灵衢是基于一个开放协议，可无限扩展地联接CPU、NPU、内存、SSD、网卡和交换机的高速总线。有了灵衢，可实现计算、存储和网络的平等互联。
+L202:
+L203: [Input] [Input] [Input]
+L204: ## 相关新闻
+L205:
+L206: 【88†查看全部】
+L207:
+L208: [Input]
+L209:
+L210: ### 关于华为
+L211:
+L212: ### 新闻与活动
+L213:
+L214: ### 发现华为
+L215:
+L216: ### 我们的产品
+L217:
+L218: ### 技术支持
+L219:
+L220:   * 【89†华为商城†www.vmall.com】
+L221:   * 【4†华为云†www.huaweicloud.com】
+L222:   * 【90†华为JDC社区†jdc.huawei.com】
+L223:   * 【91†华为心声社区†xinsheng.huawei.com】
+L224:
+L225: 版权所有 © 1998-@year 华为技术有限公司 【92†粤A2-20044005号†beian.miit.gov.cn】  【93†粤公网安备44030702002388号†www.beian.gov.cn】
+L226:
+L227:   * 【69†联系我们】
+L228:   * 【94†法律声明】
+L229:   * 【95†隐私政策】
+L230:   * 【96†除名查询】
+--------------------------------------------------------------------------------
+GitHub - deepseek-ai/DeepEP-Ascend: A high-performance communication library for machine learning training and inference on Huawei Ascend NPUs. · GitHub (https://github.com/deepseek-ai/DeepEP-Ascend)
+citeturn7view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn4view4","lineno":209}); Total lines: 482
+L196: 【88†develop.sh】  | 【88†develop.sh】  |    |
+L197: 【89†setup.py】  | 【89†setup.py】  |    |
+L198: [Button: View all files]
+L199: ## Repository files navigation
+L200:
+L201:   *   * 【90†README】
+L202:
+L203: More items
+L204: # DeepEP-Ascend
+L205:
+L206: （中文介绍）【62†DeepEP-Ascend】 是面向华为昇腾 NPU 的高性能机器学习训练与推理通信库，提供 MoE dispatch/combine 的专家并行（EP）all-to-all 操作，支持 FP8 dispatch 和延迟 epilogue。此外还提供流水线并行（PP）、面向上下文并行和数据并行（CP/DP）的 Bucket 集合通信，以及 Engram 远端内存访问等通信原语（开发中）。其公开 buffer API 与 NVIDIA 版 【91†DeepEP】 对齐。Ascend C 内核使用 HCCL/HCOMM、UBMEM 和 URMA 完成通信，并通过 【92†DeepJIT】 在运行时编译。
+L207: (English introduction) 【62†DeepEP-Ascend】 is a high-performance communication library for machine learning training and inference on Huawei Ascend NPUs. It provides expert-parallel (EP) all-to-all operations for MoE dispatch and combine, including FP8 dispatch and deferred epilogues. It also offers communication primitives (work in progress) for pipeline parallelism (PP), context and data parallelism through Bucket collectives (CP/DP), and remote memory access through Engram.
+L208: Its public buffer APIs are aligned with the NVIDIA version of 【91†DeepEP】. Ascend C kernels use HCCL/HCOMM, UBMEM and URMA, and are compiled at runtime through 【92†DeepJIT】.
+L209: ## Performance
+L210:
+L211: Measured on Ascend 950DT NPUs with CANN 9.2.0 and the manually configured PoC HDK described under 【93†Recommended HDK and firmware】. All measurements use netlayer 1, the supernode's external Clos network.
+L212:
+L213: The following runs use 16,384 tokens/rank capacity, hidden size 7168, top-6 routing over 256 experts, 32 AI cores / 64 AIVs, expert alignment 128 and no bias. Dispatch uses FP8 with row-major scales; combine uses BF16. Each rank uses 10 warmups and 50 samples with cache flushing.
+L214: EP size  | Dispatch (GB/s)  | Combine (GB/s)
+L215: --- | --- | ---
+L216: EP8  | 373–375  | 345–347
+L217: EP16  | 348–352  | 338–341
+L218: EP32  | 335–340  | 320–324
+L219: EP64  | 323–327  | 294–298
+L220: EP128  | 313–320  | 272–278
+L221: Bandwidth ranges cover all ranks, using timings that include issue and drain but exclude final epilogues. Sustained dispatch reaches roughly 90–95% of the physical payload bandwidth limit for EP sizes up to 32. Larger EP sizes and combine remain under optimization; combine has additional local reduction overhead and HBM contention with URMA. Huawei firmware improvements are also planned to reduce this contention.
+L222: ## Quick start
+L223: ### Requirements
+L224:
+L225:   * Linux on an Ascend host with supported NPU drivers and firmware.
+L226:   * Ascend 950 (A5) with UBMEM connectivity and UBC_CTP/URMA channels between the participating ranks.
+L227:   * An even number of ranks for multi-rank communication.
+L228:   * CANN with Ascend C, the Bisheng compiler, HCCL and HCOMM headers/libraries.
+L229:   * Python 3.10 or newer, a matching PyTorch/`torch_npu` installation, and NumPy for the tests.
+L230:   * A C++20 compiler and standard library supporting `std::format`.
+L231: The validated stack is Ascend 950DT, CANN 9.2.0, Python 3.12, PyTorch 2.13.0+cpu and torch_npu 2.13.0rc1, with the PoC HDK configuration described below. Kernel support on other Ascend generations or CANN versions has not been established by these measurements.
+L232:
+L233: Installation builds the host extension; device kernels are compiled on first use. Keep the CANN toolkit and Bisheng available at runtime. Set `ASCEND_HOME_PATH` to the active CANN installation, or use `ASCEND_TOOLKIT_HOME`.
+L234: ### Recommended HDK and firmware
+L235: Use Huawei's Q3 commercial HDK release for Atlas 850E when it becomes publicly available. Huawei has advised that this release includes the configuration required for full-bandwidth operation. Public availability is currently planned for mid-October 2026, around October 15, through the 【94†Huawei Atlas 850E software download page†support.huawei.com】, where users can apply for access when the release becomes available.
+L236: The date is a vendor release plan; availability is subject to Huawei's publication schedule.
+L237: The performance results in this README were collected using a PoC HDK supplied to DeepSeek, with additional manual configuration. That configuration is not a publicly distributed release. Users on earlier PoC versions may observe lower bandwidth and should first check their HDK version and configuration. Use the Q3 commercial release, once available, as the recommended public deployment baseline; these measurements are not results from that unreleased commercial version.
+L238: ### Installation
+L239:
+L240: Activate the CANN environment and install the matching PyTorch/`torch_npu` packages first, then:
+L241:
+L242:     git clone https://github.com/deepseek-ai/DeepEP-Ascend.git
+L243:     cd DeepEP-Ascend
+L244:
+L245:     # Fetch the required DeepJIT submodule over HTTPS.
+L246:     git submodule update --init --recursive third-party/deep_jit
+L247:
+L248:     python -m pip install --no-build-isolation .
+--------------------------------------------------------------------------------
+Additional Platforms | PyTorch (https://docs.pytorch.org/get-started/additional-platforms/)
+citeturn7view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn5view4","lineno":25}); Total lines: 65
+L0: 【0†Image†www.facebook.com】 【1†Image†analytics.twitter.com】 【2†Image†t.co】 【3†iframe†www.googletagmanager.com】
+L1:
+L2: Join us at PyTorch Conference in San Francisco, October 22-23. CFP open now! 【4†Learn more†events.linuxfoundation.org】.
+L3: # Get Started
+L4:
+L5: Select preferences and run the command to install PyTorch locally, or get started quickly with one of the supported cloud platforms.
+L6:
+L7: In the selector below, you will find compute platforms and configurations provided by our partners and community members. Choose your preferences and run the provided command.
+L8:
+L9: Compute Platform
+L10:
+L11: PyTorch Build
+L12:
+L13: Your OS
+L14:
+L15: Run this Command:
+L16:
+L17: Support Channel:
+L18:
+L19: Compute Platform
+L20:
+L21: PyTorch Build
+L22:
+L23: Stable
+L24:
+L25: Preview (Nightly)
+L26:
+L27: Your OS
+L28:
+L29: Linux
+L30:
+L31: Windows
+L32:
+L33: Run this Command:
+L34: Select a compute platform to see the installation command.
+L35:
+L36: Support Channel:
+L37:
+L38: Select a compute platform to see the support channel.
+L39:
+L40: Note: More platform-specific details will appear below upon selection. Please scroll down.
+L41:
+L42: * * *
+L43: ## Docs
+L44:
+L45: Access comprehensive developer documentation for PyTorch
+L46:
+L47: 【5†View Docs】
+L48:
+L49: ## Tutorials
+L50:
+L51: Get in-depth tutorials for beginners and advanced developers
+L52:
+L53: 【6†View Tutorials†pytorch.org】
+L54: ## Resources
+L55:
+L56: Find development resources and get your questions answered
+L57:
+L58: 【7†View Resources】
+L59:
+L60: Stay in touch for updates, event info, and the latest news
+L61:
+L62: By submitting this form, I consent to receive marketing emails from the LF and its projects regarding their events, training, research, developments, and related announcements. I understand that I can unsubscribe at any time using the links in the footers of the emails I receive. 【8†Privacy Policy†www.linuxfoundation.org】.
+L63: © Copyright The Linux Foundation. The PyTorch Foundation is a project of The Linux Foundation. For web site terms of use, trademark policy and other policies applicable to The PyTorch Foundation please see 【9†Linux Foundation Policies†www.linuxfoundation.org】. The PyTorch Foundation supports the PyTorch open source project, which has been established as PyTorch Project a Series of LF Projects, LLC.
+L64: For policies applicable to the PyTorch Project a Series of LF Projects, LLC, please see 【10†LF Projects, LLC Policies†www.lfprojects.org】. 【11†Privacy Policy†www.linuxfoundation.org】 and 【12†Terms of Use†www.linuxfoundation.org】.
+--------------------------------------------------------------------------------
+ (https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2026/2026-10/2026-10-24/12657969.PDF)
+citeturn7view4 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 12; Source: click({"ref_id":"turn6view0","id":32}); Redirected to URL: https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESH_STOCK/2026/2026-10/2026-10-24/12657969.PDF; Total lines: 438

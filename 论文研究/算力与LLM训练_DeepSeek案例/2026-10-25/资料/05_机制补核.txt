@@ -1,0 +1,249 @@
+[2405.04434] DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model (https://arxiv.org/abs/2405.04434)
+citeturn44view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn38view3","pattern":"compressed"}); Total lines: 175
+No matching text found for "compressed"--------------------------------------------------------------------------------
+[2401.06066] DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models (https://arxiv.org/abs/2401.06066)
+citeturn44view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn38view4","pattern":"shared"}); Total lines: 165
+L9: # Title:DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models
+L10:
+L11: Authors:【5†Damai Dai】, 【6†Chengqi Deng】, 【7†Chenggang Zhao】, 【8†R.X. Xu】, 【9†Huazuo Gao】, 【10†Deli Chen】, 【11†Jiashi Li】, 【12†Wangding Zeng】, 【13†Xingkai Yu】, 【14†Y. Wu】, 【15†Zhenda Xie】, 【16†Y.K. Li】, 【17†Panpan Huang】, 【18†Fuli Luo】, 【19†Chong Ruan】, 【20†Zhifang Sui】, 【21†Wenfeng Liang】
+L12: View a PDF of the paper titled DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models, by Damai Dai and 16 other authors
+L13:
+L14: 【22†View PDF】 【23†HTML (experimental)】
+L15: > Abstract:In the era of large language models, Mixture-of-Experts (MoE) is a promising architecture for managing computational costs when scaling up model parameters. However, conventional MoE architectures like GShard, which activate the top-$K$ out of $N$ experts, face challenges in ensuring expert specialization, i.e. each expert acquires non-overlapping and focused knowledge. In response, we propose the DeepSeekMoE architecture towards ultimate expert specialization.
+L16: It involves two principal strategies: (1) finely segmenting the experts into $mN$ ones and activating $mK$ from them, allowing for a more flexible combination of activated experts; (2) isolating $K_s$ experts as shared ones, aiming at capturing common knowledge and mitigating redundancy in routed experts. Starting from a modest scale with 2B parameters, we demonstrate that DeepSeekMoE 2B achieves comparable performance with GShard 2.9B, which has 1.5 times the expert parameters and computation.
+L17: In addition, DeepSeekMoE 2B nearly approaches the performance of its dense counterpart with the same number of total parameters, which set the upper bound of MoE models. Subsequently, we scale up DeepSeekMoE to 16B parameters and show that it achieves comparable performance with LLaMA2 7B, with only about 40% of computations.
+L18: Further, our preliminary efforts to scale up DeepSeekMoE to 145B parameters consistently validate its substantial advantages over the GShard architecture, and show its performance comparable with DeepSeek 67B, using only 28.5% (maybe even 18.2%) of computations.
+L19: Subjects:  | Computation and Language (cs.CL)
+L20: Cite as:  | 【24†arXiv:2401.06066】 [cs.CL]
+L21:    | (or 【25†arXiv:2401.06066v1】 [cs.CL] for this version)
+L22:    | 【26†https://doi.org/10.48550/arXiv.2401.06066†doi.org】 arXiv-issued DOI via DataCite
+L23: ## Submission history
+L24:
+L25: From: Damai Dai [【27†view email】]
+L26: [v1] Thu, 11 Jan 2024 17:31:42 UTC (293 KB)
+L27:
+L28: Full-text links:
+L29:
+L30: ## Access Paper:
+L31:
+L32: View a PDF of the paper titled DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models, by Damai Dai and 16 other authors
+L33:
+L34:   * 【22†View PDF】
+L35:   * 【23†HTML (experimental)】
+L36:   * 【28†TeX Source】
+L37:
+L38: 【29†view license】
+L39:
+L40: ### Additional Features
+L41:
+L42:   * 【30†Audio Summary】
+L43: ### Current browse context:
+L44:
+L45: cs.CL
+L46:
+L47: 【31†< prev】   |   【32†next >】
+L48:
+L49: 【33†new】 | 【34†recent】 | 【35†2024-01】
+L50:
+L51: Change to browse by:
+L52:
+L53: 【36†cs】
+L54:
+L55: ### References & Citations
+L56:
+L57:   * 【37†SciX†scixplorer.org】
+L58:   * 【38†Google Scholar†scholar.google.com】
+L59:   * 【39†Semantic Scholar†api.semanticscholar.org】
+L60:
+L61: [Button: export BibTeX citation] Loading...
+L62:
+L63: ## BibTeX formatted citation
+L64:
+L65: [Button: ×]
+L66:
+L67: loading...
+L68:
+L69: Data provided by:
+L70:
+L71: ### Bookmark
+L72:
+L73: [Input] Bibliographic Tools
+L74: # Bibliographic and Citation Tools
+L75:
+L76: [Input] Bibliographic Explorer Toggle
+L77:
+L78: Bibliographic Explorer (【40†What is the Explorer?†info.arxiv.org】)
+L79:
+L80: [Input] Connected Papers Toggle
+L81:
+L82: Connected Papers (【41†What is Connected Papers?†www.connectedpapers.com】)
+L83:
+L84: [Input] Litmaps Toggle
+L85:
+L86: Litmaps (【42†What is Litmaps?†www.litmaps.co】)
+L87:
+L88: [Input] scite.ai Toggle
+L89:
+L90: scite Smart Citations (【43†What are Smart Citations?†www.scite.ai】)
+L91:
+L92: [Input] Code, Data, Media
+L93: # Code, Data and Media Associated with this Article
+L94:
+L95: [Input] alphaXiv Toggle
+L96:
+L97: alphaXiv (【44†What is alphaXiv?†alphaxiv.org】)
+L98:
+L99: [Input] Links to Code Toggle
+L100:
+L101: CatalyzeX Code Finder for Papers (【45†What is CatalyzeX?†www.catalyzex.com】)
+L102:
+L103: [Input] DagsHub Toggle
+L104:
+L105: DagsHub (【46†What is DagsHub?†dagshub.com】)
+L106:
+L107: [Input] GotitPub Toggle
+L108:
+L109: Gotit.pub (【47†What is GotitPub?†gotit.pub】)
+L110:
+L111: [Input] Huggingface Toggle
+L112:
+L113: Hugging Face (【48†What is Huggingface?†huggingface.co】)
+L114:
+L115: [Input] ScienceCast Toggle
+--------------------------------------------------------------------------------
+Optimizing Model Parameters — PyTorch Tutorials 2.14.0+cu130 documentation (https://docs.pytorch.org/tutorials/beginner/basics/optimization_tutorial.html)
+citeturn44view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn42view0","pattern":"loss.backward"}); Total lines: 679
+L388: Common loss functions include 【173†nn.MSELoss†pytorch.org】 (Mean Square Error) for regression tasks, and 【174†nn.NLLLoss†pytorch.org】 (Negative Log Likelihood) for classification. 【175†nn.CrossEntropyLoss†pytorch.org】 combines `nn.LogSoftmax` and `nn.NLLLoss`.
+L389:
+L390: We pass our model’s output logits to `nn.CrossEntropyLoss`, which will normalize the logits and compute the prediction error.
+L391:
+L392:     # Initialize the loss function
+L393:     【176†loss_fn】 = 【176†nn.CrossEntropyLoss】()
+L394: ### Optimizer【177†#】
+L395:
+L396: Optimization is the process of adjusting model parameters to reduce model error in each training step. Optimization algorithms define how this process is performed (in this example we use Stochastic Gradient Descent). All optimization logic is encapsulated in the `optimizer` object. Here, we use the SGD optimizer; additionally, there are many 【178†different optimizers†pytorch.org】 available in PyTorch such as ADAM and RMSProp, that work better for different kinds of models and data.
+L397: We initialize the optimizer by registering the model’s parameters that need to be trained, and passing in the learning rate hyperparameter.
+L398:
+L399:     【179†optimizer】 = 【179†torch.optim.SGD】(【180†model.parameters】(), lr=learning_rate)
+L400:
+L401:
+L402: Inside the training loop, optimization happens in three steps:
+L403:
+L404:   * Call `optimizer.zero_grad()` to reset the gradients of model parameters. Gradients by default add up; to prevent double-counting, we explicitly zero them at each iteration.
+L405:   * Backpropagate the prediction loss with a call to `loss.backward()`. PyTorch deposits the gradients of the loss w.r.t. each parameter.
+L406:
+L407:   * Once we have our gradients, we call `optimizer.step()` to adjust the parameters by the gradients collected in the backward pass.
+L408: ## Full Implementation【181†#】
+L409: We define `train_loop` that loops over our optimization code, and `test_loop` that evaluates the model’s performance against our test data.
+L410:
+L411:     def train_loop(dataloader, model, 【176†loss_fn】, 【179†optimizer】):
+L412:         size = len(dataloader.dataset)
+L413:         # Set the model to training mode - important for batch normalization and dropout layers
+L414:         # Unnecessary in this situation but added for best practices
+L415:         【182†model.train】()
+L416:         for batch, (X, y) in enumerate(dataloader):
+L417:             # Compute prediction and loss
+L418:             pred = model(X)
+L419:             loss = 【176†loss_fn】(pred, y)
+L420:
+L421:             # Backpropagation
+L422:             loss.backward()
+L423:             【183†optimizer.step】()
+L424:             【184†optimizer.zero_grad】()
+L425:
+L426:             if batch % 100 == 0:
+L427:                 loss, current = loss.item(), batch * batch_size + len(X)
+L428:                 print(f"loss: {loss:>7f}  [{current:>5d}/{size:>5d}]")
+L429:
+L430:
+L431:     def test_loop(dataloader, model, 【176†loss_fn】):
+L432:         # Set the model to evaluation mode - important for batch normalization and dropout layers
+L433:         # Unnecessary in this situation but added for best practices
+L434:         【185†model.eval】()
+L435:         size = len(dataloader.dataset)
+L436:         num_batches = len(dataloader)
+L437:         test_loss, correct = 0, 0
+L438:
+L439:         # Evaluating the model with torch.no_grad() ensures that no gradients are computed during test mode
+L440:         # also serves to reduce unnecessary gradient computations and memory usage for tensors with requires_grad=True
+L441:         with 【186†torch.no_grad】():
+L442:             for X, y in dataloader:
+L443:                 pred = model(X)
+L444:                 test_loss += 【176†loss_fn】(pred, y).item()
+L445:                 correct += (pred.argmax(1) == y).type(【162†torch.float】).sum().item()
+L446:
+L447:         test_loss /= num_batches
+L448:         correct /= size
+L449:         print(f"Test Error: \n Accuracy: {(100*correct):>0.1f}%, Avg loss: {test_loss:>8f} \n")
+L450: We initialize the loss function and optimizer, and pass it to `train_loop` and `test_loop`. Feel free to increase the number of epochs to track the model’s improving performance.
+L451:
+L452:     【176†loss_fn】 = 【176†nn.CrossEntropyLoss】()
+L453:     【179†optimizer】 = 【179†torch.optim.SGD】(【180†model.parameters】(), lr=learning_rate)
+L454:
+L455:     epochs = 10
+L456:     for t in range(epochs):
+L457:         print(f"Epoch {t+1}\n-------------------------------")
+L458:         train_loop(【157†train_dataloader】, model, 【176†loss_fn】, 【179†optimizer】)
+L459:         test_loop(【157†test_dataloader】, model, 【176†loss_fn】)
+L460:     print("Done!")
+L461:
+L462:
+L463:     Epoch 1
+L464:     -------------------------------
+L465:     loss: 2.311237  [   64/60000]
+L466:     loss: 2.295860  [ 6464/60000]
+L467:     loss: 2.278365  [12864/60000]
+L468:     loss: 2.267278  [19264/60000]
+L469:     loss: 2.251289  [25664/60000]
+L470:     loss: 2.227032  [32064/60000]
+L471:     loss: 2.230420  [38464/60000]
+L472:     loss: 2.206807  [44864/60000]
+L473:     loss: 2.198595  [51264/60000]
+L474:     loss: 2.164147  [57664/60000]
+L475:     Test Error:
+L476:      Accuracy: 46.8%, Avg loss: 2.158507
+L477:
+L478:     Epoch 2
+L479:     -------------------------------
+L480:     loss: 2.170008  [   64/60000]
+L481:     loss: 2.158304  [ 6464/60000]
+L482:     loss: 2.100185  [12864/60000]
+L483:     loss: 2.114178  [19264/60000]
+L484:     loss: 2.066838  [25664/60000]
+L485:     loss: 2.011670  [32064/60000]
+L486:     loss: 2.039299  [38464/60000]
+L487:     loss: 1.970160  [44864/60000]
+L488:     loss: 1.970656  [51264/60000]
+L489:     loss: 1.899743  [57664/60000]
+L490:     Test Error:
+L491:      Accuracy: 59.3%, Avg loss: 1.893004
+L492:
+L493:     Epoch 3
+L494:     -------------------------------
+L495:     loss: 1.928313  [   64/60000]
+L496:     loss: 1.895231  [ 6464/60000]
+L497:     loss: 1.776213  [12864/60000]
+L498:     loss: 1.815304  [19264/60000]
+L499:     loss: 1.707070  [25664/60000]
+L500:     loss: 1.661521  [32064/60000]
+L501:     loss: 1.685036  [38464/60000]
+L502:     loss: 1.595511  [44864/60000]
+L503:     loss: 1.612579  [51264/60000]
+L504:     loss: 1.509670  [57664/60000]
+L505:     Test Error:
+L506:      Accuracy: 62.4%, Avg loss: 1.522176
+L507:
+L508:     Epoch 4
+L509:     -------------------------------
+L510:     loss: 1.590659  [   64/60000]
+L511:     loss: 1.552686  [ 6464/60000]
+L512:     loss: 1.401514  [12864/60000]
+L513:     loss: 1.473378  [19264/60000]
+L514:     loss: 1.351168  [25664/60000]
+L515:     loss: 1.350026  [32064/60000]
+L516:     loss: 1.371358  [38464/60000]
+L517:     loss: 1.303422  [44864/60000]
+L518:     loss: 1.328495  [51264/60000]
+L519:     loss: 1.232633  [57664/60000]
+L520:     Test Error:
+L521:      Accuracy: 63.4%, Avg loss: 1.255068

@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-27",
+  "weight_denominator": "source-disclosed net asset weights",
+  "method": "Sum disclosed weights. Overlap=sum min(wA,wB); top-ten-only overlap is a lower bound.",
+  "sums": [
+    {
+      "fund": "159819",
+      "date": "2026-06-30",
+      "top_sum": 64.95
+    },
+    {
+      "fund": "516510",
+      "date": "2026-06-30",
+      "top_sum": 50.77
+    },
+    {
+      "fund": "588200",
+      "date": "2026-06-30",
+      "top_sum": 60.06
+    },
+    {
+      "fund": "SMH",
+      "date": "2026-10-23",
+      "top_sum": 69.02
+    },
+    {
+      "fund": "SOXX",
+      "date": "2026-10-23",
+      "top_sum": 62.51
+    },
+    {
+      "fund": "017102/017103",
+      "date": "2026-09-30",
+      "top_sum": 60.54
+    },
+    {
+      "fund": "018993/018994",
+      "date": "2026-09-30",
+      "top_sum": 55.7
+    }
+  ],
+  "ai_cloud_top10_lower_bound": 14.79,
+  "active_security_lower_bound": 26.64,
+  "active_issuer_lower_bound": 27.81
+}

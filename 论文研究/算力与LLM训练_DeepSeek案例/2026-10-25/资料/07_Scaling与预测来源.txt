@@ -1,0 +1,926 @@
+Key Questions on Energy and AI - IEA (https://www.iea.org/reports/key-questions-on-energy-and-ai)
+citeturn64search0 [wordlim: 200] Published: 6 months ago; Crawled: today; IEA (2026), Key Questions on Energy and AI, IEA, Paris https://www.iea.org/reports/key-questions-on-energy-and-ai, Licence: CC BY 4.0
+
+# Key Questions on Energy and AI
+
+#### About this report
+
+Following the publication of the IEA’s landmark Energy and AI report in 2025, this report examines how the energy and AI nexus has evolved amid surging investment in data centres and rapid advances in model capabilities. Drawing on fresh datasets and analysis, it explores where electricity demand is rising, how quickly grids and supply chains can respond, and what these shifts mean for energy security, affordability and sustainability.
+
+Published 16 April 2026
+
+Licence CC BY 4.0
+
+#### Online table of contents
+
+  * 1.0 Executive summary Read online
+
+#### Cite report
+
+IEA (2026), Key Questions on Energy and AI, IEA, Paris https://www.iea.org/reports/key-questions-on-energy-and-ai, Licence: CC BY 4.0--------------------------------------------------------------------------------
+Exploring possible AI trajectories through 2030 (EN) (https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/02/exploring-possible-ai-trajectories-through-2030_b6fb75d9/cb41117a-en.pdf)
+citeturn64search12 [wordlim: 200] Published: 8 months ago; As a result, the cost of the compute used to train frontier models has risen by 2.8x per year from 2015 to 2024 (Epoch AI, 2025[18]). ... Estimates of the ability to scale the amount of compute and data used to train AI models suggests that continued scaling in line with current trends is possible through to 2030 (Sevilla et al., 2024[49]).
+
+Continuing scaling would require increasingly expensive, data intensive, compute intensive, and power intensive training runs. Increases in the cost efficiency of computing hardware result in approximately 30% improvements in performance per dollar each year (Rahman, 2024[137]). However, this has not been enough to outweigh the quadrupling in the compute used to train frontier models over this period. As a result, the cost of the compute used to train frontier models has risen by 2.8x per year from 2015 to 2024 (Epoch AI, 2025[18]). The power used to train frontier models has increased 2.3x per year from 2011 to 2025 (Epoch AI, 2025[18]).
+
+Estimates of the ability to scale the amount of compute and data used to train AI models suggests that continued scaling in line with current trends is possible through to 2030 (Sevilla et al., 2024[49]). This would enable training runs using 10,000 times greater compute than that used to train OpenAI’s GPT-4.
+
+If scaling continued at its current pace, power constraints are predicted to begin limiting the rate at which AI training runs can be scaled further around 2030 (Figure 3). Chip production capacity and data scarcity could also begin posing barriers to continued scaling at a similar or slightly later date. Each of these predictions carries substantial uncertainty, but current estimates suggest scaling trends could continue through to 2030 before hitting these limits.
+
+EXPLORING POSSIBLE AI TRAJECTORIES THROUGH 2030 © OECD 2026--------------------------------------------------------------------------------
+Key Questions on Energy and AI – IEA (https://quentinpaletta.github.io/key_questions_energy_ai.html)
+citeturn64search1 [wordlim: 200] Published: 6 months ago; Crawled: last month; # Key Questions on Energy and AIInternational Energy Agency (IEA)  ·  Paris, France  ·  April 16, 2026 CC BY 4.0 ... Abstract The development and uptake of artificial intelligence (AI) has accelerated in recent years – elevating the question of what widespread deployment of the technology will mean for the energy sector.
+
+# Key Questions on Energy and AI
+
+International Energy Agency (IEA)  ·  Paris, France  ·  April 16, 2026 CC BY 4.0
+[IEA] Authors Thomas Spencer, Siddharth Singh, Davide D'Ambrosio, Yasmine Arsalane, James Bragg, Julie Dallard, Inhoi Heo, Vincent Jacamon, Martin Kueppers, Brieuc Nerincx, Quentin Paletta, Hans-Kristian Ringkjob, Vera O'Riordan, Nicholas Salmon, Max Schoenfisch, Ryota Taniguchi, Brent Wanner
+Lead authors and co-ordinators: Thomas Spencer and Siddharth Singh. Directed by Laura Cozzi (Director, Sustainability, Technology and Outlooks). Published by the International Energy Agency. Abstract The development and uptake of artificial intelligence (AI) has accelerated in recent years – elevating the question of what widespread deployment of the technology will mean for the energy sector. There is no AI without energy – specifically electricity for data centres. At the same time, AI could transform how the energy industry operates if it is adopted at scale. However, until now, policy makers and other stakeholders have often lacked the tools to analyse both sides of this issue due to a lack of comprehensive data. This report from the International Energy Agency (IEA) aims to fill this gap based on new global and regional modelling and datasets, as well as extensive consultation with governments and regulators, the tech sector, the energy industry and international experts. It includes projections for how much electricity AI could consume over the next decade, as well as which energy sources are set to help meet it. It also analyses what the uptake of AI could mean for energy security, missions, innovation and affordability. Official report  /  BibTeX--------------------------------------------------------------------------------
+AI 2030 - final version (https://epoch.ai/files/AI_2030.pdf)
+citeturn64search13 [wordlim: 200] Some have linked this to the idea that training scaling will slow, or even cease, as AI developers focus on using inference compute. ... AI in 2030 | Epoch AI  30
+Scale: Compute
+
+Inference compute scaling won’t detract from training compute
+
+Training and inference compute are likely of a similar magnitude
+
+<visual_element id="e1">
+Horizontal stacked bar chart with legend: blue = Inference compute, teal = Training compute. X-axis: Proportion of total compute, marked 0%, 20%, 40%, 60%, 80%, 100%. Three rows:
+- Reports of OpenAI spending (The Information, 2024): 60% inference, 40% training
+- Google AI energy allocation (Patterson et al, 2022): 60% inference, 40% training
+- Meta AI energy allocation (Wu et al, 2022): 78% inference, 22% training
+EPOCH AI logo appears above the chart.
+</visual_element>
+
+CC-BY  epoch.ai
+
+Reported allocations of spending and energy allocation suggest that training and inference compute are of fairly similar magnitude for large AI developers. Moreover, total installed AI compute has grown around 2.3x/year, similar to frontier AI training clusters (Pilz et al. 2025), suggesting training has grown similar to inference.
+
+Recent developments in inference compute scaling have been hailed as a paradigm shift. Some have linked this to the idea that training scaling will slow, or even cease, as AI developers focus on using inference compute. However, inference scaling need not imply that training compute scaling will cease, because reasoning models also benefit from training compute.
+
+Evidence to date suggests that compute has been allocated fairly similarly between training and inference (see Figure above). Inference has gotten more compute (60–80%), but the allocations have remained of a similar order of magnitude. More generally, as long as it is possible to trade training and inference compute off against one another, there are reasons to expect that AI labs should continue allocating similar resources to each. Training higher-quality models reduces the amount of inference needed for a given
+
+AI in 2030 | Epoch AI  30--------------------------------------------------------------------------------
+Compute Forecast — Europe 2031 (https://europe2031.ai/compute-forecast/)
+citeturn64search2 [wordlim: 200] Crawled: 2 days ago; In 2025, the AI Futures Project estimated that global AI compute will grow to 435 GW by 2030. ... Building on a recent estimate by chip researcher Dylan Patel, we assume that by 2031, there will be around 700 EUV machines, in theory capable of producing 780-870 GW of AI compute from 2026 onwards.
+
+# Compute Forecast
+
+A central factor in our scenario is compute: the AI data centres and chips required to train and run frontier AI systems. We believe that compute is rapidly becoming one of the world’s most important strategic resources, as the amount of compute a country or continent controls increasingly determines its ability to build advanced AI systems, deploy them at scale, capture the resulting economic gains, and maintain geopolitical leverage. If a continent already owns a meaningful share of global AI compute, foreign companies or governments will think twice about restricting its access to AI models or related infrastructure.
+
+Below, we estimate (i) the growth of global AI compute until 2031 and (ii) the relative shares of different world regions over time. Our estimate is based on publicly available information about historical growth rates, supply chain bottlenecks and announced data center projects.
+
+See our full quantitative forecast here.
+
+## 1. Global AI compute
+
+Our projections draw heavily on a previous compute forecast by the AI Futures Project, published in April 2025 as part of their AI 2027 scenario. The authors describe their assumptions in detail here. Importantly, the compute forecast does not presuppose their other predictions about future AI progress.
+
+In 2025, the AI Futures Project estimated that global AI compute will grow to 435 GW by 2030. We assume, in line with their own forthcoming work, that actual growth will be somewhat slower. This is because supply chain bottlenecks, mainly around EUV lithography, are likely to decelerate AI compute growth – continuing the already observable slowdown from 3.4x annual growth historically to around 2.2x today to an (expected) 1.25x by 2031. Taking into account this slowdown, we estimate that the global supply of AI compute will reach around 370 GW by 2031 – still more than a tenfold increase of the approximately 30 GW of global AI data centre capacity at the beginning of this year.
+
+  * World
+
+Global AI compute (GW)
+
+This is well within the upper bound of what the world’s EUV lithography machines – the most complex tool required to produce cutting-edge chips – would be physically capable of producing by 2031. Building on a recent estimate by chip researcher Dylan Patel, we assume that by 2031, there will be around 700 EUV machines, in theory capable of producing 780-870 GW of AI compute from 2026 onwards.
+
+In practice, the effective output will be much less, as there are bottlenecks to chip production other than EUV (e.g. high-bandwidth memory or advanced packaging) and some EUV machines are used to produce non-AI chips. If just 50% of all EUV capacity went into AI chip production, these machines could in theory produce 390-430 GW of AI compute between 2026 and 2031. Our estimate of 373 GW is within this conservative upper bound.
+--------------------------------------------------------------------------------
+Artificial Intelligence - Topics - IEA (https://www.iea.org/topics/artificial-intelligence)
+citeturn64search3 [wordlim: 200] Crawled: today; Key Questions on Energy and AI ... In April 2025, the IEA published Energy and AI, a groundbreaking report that provided the most comprehensive, data-driven global analysis on the energy-AI nexus to date, and released a follow-up report addressing emerging trends in April 2026.
+
+# A transformative technology with important implications for energy
+
+Artificial intelligence
+
+#### Sub-navigation
+
+Key Questions on Energy and AI
+
+Artificial intelligence (AI) has emerged as one of the most consequential technologies of our time. In recent years, the capabilities of AI systems have grown quickly due to improved computing power, a boom in data availability and breakthroughs in the design of AI models, leading to rapid adoption by both businesses and individuals. 
+
+Though significant uncertainties remain, AI has the potential to transform the energy sector in the coming decade. It has been driving a surge in electricity demand from data centres around the world. AI also has the potential to unlock significant opportunities to cut costs, manage system complexity, improve the accuracy of forecasts, enhance competitiveness and reduce emissions – and it is already being deployed in the energy sector towards these ends.
+
+To better understand the growing connections between energy and AI, the IEA launched a major new initiative in 2024: Energy for AI, and AI for Energy. --------------------------------------------------------------------------------
+Can AI scaling continue through 2030? | Epoch AI (https://proxy.goincop1.workers.dev/https/epoch.ai/publications/can-ai-scaling-continue-through-2030)
+citeturn64search4 [wordlim: 200] Published: 2.2 years ago; Crawled: last month; Further evidence of AI systems’ potential for sufficiently large economic returns could emerge from scaling beyond GPT-4 to a GPT-6 equivalent model, coupled with substantial algorithmic improvements and post-training improvements. ... In this article, we estimated the maximum feasible scale of AI training runs by 2030 by analyzing the availability and potential constraints key factors required for scaling up training runs. ... If in 2029 training and inference compute are equal, and training compute continues to grow at 4x per year, one-quarter of total compute (equal to 2029’s training) will run inference on 2029 models, while three-quarters will train 2030 models.
+--------------------------------------------------------------------------------
+Trends in AI | Epoch AI (https://epoch.ai/trends)
+citeturn64search5 [wordlim: 200] Crawled: today; Model capabilities 14ECI/year The ECI frontier has advanced by 14 points per year since the introduction of reasoning models.Model performance 90% CI+12 to +17 ECI Compute stock growth 3.4×/year 6.8months 0.53OOM/year The total computing power of the stock of AI chips is growing at a rate of 3.4×/year.The total computing power of the stock of AI chips is doubling every 6.8 months.The total computing power of the stock of AI chips is growing by 0.53 OOMs per year.AI companies 90% CI3.2× to 3.7×6.4 to 7.2 months0.51 to 0.57 OOM Training compute 5×/year 5.2months 0.7OOM/year Training compute for frontier language models has been growing at 5× per year since 2020. ... These trends appear set to continue through 2030. ... Following the introduction of the first reasoning models (OpenAI’s o1-mini and o1-preview) in September 2024, the Epoch Capabilities Index (ECI) frontier has advanced linearly by 14 points per year, compared with 6 points per year for non-reasoning models.
+--------------------------------------------------------------------------------
+Forecasting AI Time Horizon Under Compute Slowdowns (https://arxiv.org/abs/2511.19492)
+citeturn64academia14 [wordlim: 200] Published: 11 months ago; However, it is unclear whether compute scaling will persist at current rates through 2030, raising the question of how possible compute slowdowns might impact AI agent capability forecasts.Given a model of time horizon as a function of training compute and algorithms, along with a model of how compute investment spills into algorithmic progress (which, notably, precludes the possibility of a software-only singularity), and the empirical fact that both time horizon and compute have grown at constant rates over 2019--2025, we derive that time horizon growth must be proportional to compute growth.
+--------------------------------------------------------------------------------
+Introduction: Unlocking digital innovation in the electricity system | OECD (https://www.oecd.org/en/publications/unlocking-digital-innovation-in-the-electricity-system_5f78b601-en/full-report/component-4.html)
+citeturn64search6 [wordlim: 200] Published: 2 weeks ago; Crawled: 2 days ago; The overall energy impact of AI use depends on several factors: first, the efficiency of the algorithms and hardware that underpin the relevant AI system; second, the extent to which AI is deployed throughout economies and the intensity of that usage; and finally, the specific capabilities of the AI model itself. ... Source: IEA (2026[5]) Key questions on AI and Energy, https://www.iea.org/reports/key-questions-on-energy-and-ai; IEA (2025[6]) Energy and AI, https://www.iea.org/reports/energy-and-ai
+--------------------------------------------------------------------------------
+Beyond Chinchilla-Optimal: Accounting for Inference in Language Model Scaling Laws - arXiv.gg (https://arxiv.gg/abs/2401.00448)
+citeturn64search7 [wordlim: 200] Published: 1.5 years ago; Crawled: last month; `2401.00448` · 2025-04-14 · Cited by 54 · 🧠 ready ... We modify the Chinchilla scaling laws to calculate the optimal LLM parameter count and pre-training data size to train and deploy a model of a given quality and inference demand.We conduct our analysis both in terms of a compute budget and real-world costs and find that LLM researchers expecting reasonably large inference demand (~1B requests) should train models smaller and longer than Chinchilla-optimal. ... 📄 PDF on arXiv.org 🧠 Refresh Paper ◎ Find Similar [Input] Auto-prepare ↗ arxiv.org
+--------------------------------------------------------------------------------
+AI scaling: Data & research | Epoch AI (https://epoch.ai/topics/scaling?trk=article-ssr-frontend-pulse_little-text-block)
+citeturn64search8 [wordlim: 200] Crawled: today; 26, 2026 ... Image: Can AI scaling continue through 2030? ... Epoch AI's breakdown of single-site compute capacity trends through 2028.
+--------------------------------------------------------------------------------
+Compute scaling will slow down due to increasing lead times (https://epochai.substack.com/p/compute-scaling-will-slow-down-due)
+citeturn64search9 [wordlim: 200] Published: 1.1 years ago; Crawled: last month; # Epoch AI ... The massive compute scaling that has driven AI progress since 2020 is likely to slow down soon, due to increasing economic uncertainty and longer development cycles. ... For example, OpenAI currently likely has over $15 billion worth of compute, and this compute stock has been growing by around 2.2× each year.1 At that pace, current trends would predict a trillion dollar cluster around 2030 — but longer lead times would delay this to around 2035.
+--------------------------------------------------------------------------------
+The Epoch AI Brief - June 2025 - Epoch AI (https://epochai.substack.com/p/the-epoch-ai-brief-june-2025)
+citeturn64search10 [wordlim: 200] Published: 1.4 years ago; Crawled: 2 days ago; If current trends continue, the largest AI supercomputer in 2030 would cost hundreds of billions of dollars and require 9 GW of power. ... #### How Many AI Models Will Exceed Compute Thresholds? ... The conservative and aggressive scenarios predict about 10 and 80 notable models above 1026 FLOP by 2027, respectively.
+--------------------------------------------------------------------------------
+A single datacentre campus reaches 20 GW · takeoff.watch (https://takeoff.watch/questions/datacentre-campus-reaches-20-gw)
+citeturn64search11 [wordlim: 200] Crawled: today; Forecast made on 23 Oct 2026 ... The largest AI datacentre today runs at about 1 gigawatt, and no announced single site plans more than about 8 gigawatts of computing load before 2032. ...   * More signs that compute is spreading out, not concentrating: ... Epoch says the record for IT power has doubled every 10 months since mid-2024 (4 Sep 2026).
+--------------------------------------------------------------------------------
+Key Questions on Energy and AI (https://iea.blob.core.windows.net/assets/cef28e46-1836-4bb9-8df7-85b6b8b1b0ce/KeyQuestionsonEnergyandAI.pdf)
+citeturn64search15 [wordlim: 200] Published: 6 months ago; IRFM (Institute for Research into Fusion by Magnetic Confinement) (2025), AI to monitor the walls of the Tokamak WEST, ... Science, vol. 367(6481), pp. 984-986, https://www.science.org/doi/abs/10.1126/science.aba3758 ... International Energy Agency | Key questions on energy and AI
+--------------------------------------------------------------------------------
+Beyond Chinchilla-Optimal: Accounting for Inference in Language Model Scaling Laws (https://arxiv.org/abs/2401.00448)
+citeturn64academia16 [wordlim: 200] Published: 2.8 years ago; We modify the Chinchilla scaling laws to calculate the optimal LLM parameter count and pre-training data size to train and deploy a model of a given quality and inference demand.We conduct our analysis both in terms of a compute budget and real-world costs and find that LLM researchers expecting reasonably large inference demand (~1B requests) should train models smaller and longer than Chinchilla-optimal.
+--------------------------------------------------------------------------------
+JUNE 2026
+The Compute Coalition:
+How to Build the (https://assets.carnegieendowment.org/files/Phillips-Robins%20et%20al._Compute_final.pdf)
+citeturn64search17 [wordlim: 200] Published: 4 months ago; 12 The research organization Epoch AI projects that the ... As of March 2026, the largest data center cluster ... deployed compute. ... it is expected to begin operating in 2030 and reachfull completion in 2036.
+--------------------------------------------------------------------------------
+Scaling Intelligence: The Exponential Growth of AI’s Power Needs (https://restservice.epri.com/publicattachment/94532)
+citeturn64search18 [wordlim: 200] Published: 1.2 years ago; compute investment beginning around 2020. ... In Epoch AI’s research, ... by 2030. ... reach or exceed 1 GW in 2026–2027 and grow to 2–5 GW25   |  EPRI White Paper   Scaling Intelligence: The Exponential Growth of AI’s Power Needs
+--------------------------------------------------------------------------------
+AWS Prescriptive Guidance - Generative AI inference architecture and best practices on AWS (https://docs.aws.amazon.com/pdfs/prescriptive-guidance/latest/gen-ai-inference-architecture-and-best-practices-on-aws/gen-ai-inference-architecture-and-best-practices-on-aws.pdf)
+citeturn64search19 [wordlim: 200] Published: 10 months ago; Fundamental to designing an inference system is the selection of the underlying compute infrastructure and the policies for dynamically scaling it based on inference demand. ... <tr><td>13B</td><td>26 GB</td><td>13 GB</td><td>6.5 GB</td></tr>
+--------------------------------------------------------------------------------
+We used satellite tracking to map every data centre on Earth. Dedicated AI data centre capacity doubled in just 12 months (15 minute film) (https://www.reddit.com/r/ArtificialInteligence/comments/1wh3yr6/we_used_satellite_tracking_to_map_every_data/)
+citeturn64reddit20 [wordlim: 200] Published: last month; We've produced a 15-minute documentary film based on our own primary research, and I thought I'd share some key findings with this sub. ... But video generation and long-running agentic workloads use **hundreds to thousands of times** the energy of a simple text query, and could outweigh recent efficiency gains. ... **Report and underlying analysis:** https://www.iea.org/reports/key-questions-on-energy-and-ai
+--------------------------------------------------------------------------------
+Beyond Terabit/s Integrated Neuromorphic Photonic Processor for DSP-Free Optical Interconnects (https://arxiv.org/abs/2504.15044)
+citeturn64academia21 [wordlim: 200] Published: 1.5 years ago; Date: Mon Apr 21 11:56:36 2025 ... Multi-scale AI training and inference demand uniform, ultra-low latency, and energy-efficient links to enable massive GPUs to function as a single cohesive unit. ... Experimentally, our OSP achieves a 100 Gbaud PAM4 per lane, 1.6 Tbit/s data center interconnect over a 5 km optical fiber in the C-band (equivalent to over 80 km in the O-band), far exceeding the reach of state-of-the-art DSP solutions, which are fundamentally constrained by chromatic dispersion in IMDD systems. ... Unlike DSPs, which introduce increased latency at high data rates, our OSP maintains consistent, ultra-low latency regardless of data rate scaling, making it ideal for future optical interconnects.
+--------------------------------------------------------------------------------
+When Intelligence Overloads Infrastructure: A Forecast Model for AI-Driven Bottlenecks (https://arxiv.org/abs/2511.07265)
+citeturn64academia22 [wordlim: 200] Published: last year; Title: When Intelligence Overloads Infrastructure: A Forecast Model for AI-Driven Bottlenecks ... This paper introduces a unified forecasting model that projects AI agent populations to increase by more than 100 times between 2026 and 2036+, reaching trillions of instances globally.In parallel, bandwidth demand is expected to surge from 1 EB/day in 2026 to over 8,000 EB/day by 2036, which is an increase of 8000 times in a single decade.
+--------------------------------------------------------------------------------
+AI infrastructure (https://en.wikipedia.org/wiki/AI_infrastructure)
+citeturn64search23 [wordlim: 200] Crawled: last week; A 2025 scenario study of AI servers in the United States estimated an annual water footprint of 731–1,125 million cubic metres and additional annual emissions of 24–44 million tonnes of carbon-dioxide equivalent between 2024 and 2030, depending on expansion; the authors emphasised deep uncertainty from server locations, efficiency measures and grid decarbonisation. ... *  International Energy Agency (16 April 2026).Key Questions on Energy and AI (Report).
+--------------------------------------------------------------------------------
+When Might AI Outsmart Us? It Depends Who You Ask (https://time.com/6556168/when-ai-outsmart-humans/)
+citeturn64news24 [wordlim: 100] Published: 2.8 years ago; Instead of estimating when AI models will be trained with amounts of compute similar to the human brain, the Epoch approach makes direct use of scaling laws and makes a simplifying assumption: If an AI model trained with a given amount of compute can faithfully reproduce a given portion of text-based on whether the scaling laws predict such a model can repeatedly predict the next word almost flawlessly-then it can do the work of producing that text. ... The difference between the model's forecast and those of people like Legg is probably largely down to transformative AI being harder to achieve than AGI, says Besiroglu. ... In an effort to more systematically assess what the experts believe about the future of artificial intelligence, AI Impacts, an AI safety project at the nonprofit Machine Intelligence Research Institute, surveyed 2,778 experts in fall 2023, all of whom had published peer-reviewed research in prestigious AI journals and conferences in the last year. ... Epoch's model estimates a 50% chance that transformative AI arrives by 2033, the median expert estimates a 50% probability of AGI before 2048, and the superforecasters are much further out at 2070.
+After all, Russell Crowe plays Nobel Prize-winning mathematician John Nash in the 2001 film, A Beautiful Mind, but nobody would claim that the better his acting performance, the more impressive his mathematical skills must be. Researchers at Epoch argue that this analogy rests on a flawed understanding of how language models work. As they scale up, LLMs acquire the ability to reason like humans, rather than just superficially emulating human behavior. However, some researchers argue it's unclear whether current AI models are in fact reasoning.
+Epoch's approach is one way to quantitatively model the scaling hypothesis, says Tamay Besiroglu, Epoch's associate director, who notes that researchers at Epoch tend to think AI will progress less rapidly than the model suggests. The model estimates a 10% chance of transformative AI-defined as "AI that if deployed widely, would precipitate a change comparable to the industrial revolution"-being developed by 2025, and a 50% chance of it being developed by 2033. The difference between the model's forecast and those of people like Legg is probably largely down to transformative AI being harder to achieve than AGI, says Besiroglu.
+
+When Might AI Outsmart Us? It Depends Who You Ask
+Date: Fri Jan 19 18:44:27 2024 UTC
+
+Who's right?
+
+All three approaches to predicting when AGI might be developed-Epoch's model of the scaling hypothesis, and the expert and superforecaster surveys-have one thing in common: there's a lot of uncertainty. In particular, the experts are spread widely, with 10% thinking it's as likely as not that AGI is developed by 2030, and 18% thinking AGI won't be reached until after 2100.
+Still, on average, the different approaches give different answers. Epoch's model estimates a 50% chance that transformative AI arrives by 2033, the median expert estimates a 50% probability of AGI before 2048, and the superforecasters are much further out at 2070.
+There are many points of disagreement that feed into debates over when AGI might be developed, says Katja Grace, who organized the expert survey as lead researcher at AI Impacts. First, will the current methods for building AI systems, bolstered by more compute and fed more data, with a few algorithmic tweaks, be sufficient? --------------------------------------------------------------------------------
+'The new battle ground for scaling and protecting margins': AI servers set to consume more power than every conventional data center by 2027 (https://www.techradar.com/pro/the-new-battle-ground-for-scaling-and-protecting-margins-ai-servers-set-to-consume-more-power-than-every-conventional-data-center-by-2027)
+citeturn64news25 [wordlim: 100] Published: 3 months ago; These are the findings of a Gartner forecast that also predicts AI optimized servers to account for 31% of data center power consumption in 2026. ... "Surging demand for compute-intensive AI workloads is driving unprecedented data center power growth, while AI capacity is now constrained by power availability, making data center power security the new battle ground for scaling and protecting margins in the global AI race," said Gartner's Direct Analyst Linglan Wang.By 2030, Garter predicts that supply will be unable to meet demand once consumption passes the 1,200 TWh mark.
+‘The new battle ground for scaling and protecting margins’: AI servers set to consume more power than every conventional data center by 2027
+Date: Fri Jul 10 13:51:02 2026 UTC
+
+Data centers built to add capacity for AI will soon consume more power than conventional data center hardware. Consuming 175 terawatt-hours (TWh) in 2026, predictions take that number to 258 TWh in 2027 - at which AI-optimized data centers will pass conventional data centers for consumption.
+Compared to 2025, AI data center power consumption has increased by around 84%.These are the findings of a Gartner forecast that also predicts AI optimized servers to account for 31% of data center power consumption in 2026.
+This level of consumption, combined with an excess in electricity demand compared to production, will be the main constraint on future AI expansion, Gartner predicts. But data center consumption as a whole is expected to be 565 TWh in 2026, a 26% increase year over year.
+
+Consumption on the rise, but capacity is slow to expand
+
+When it comes to global consumption, the US accounts for 36% or around 204 TWh of the full 565 TWh of global demand. Within that slice of US demand, AI data centers account for one third, with expected consumption for 2026 to be around 68 TWh.
+"Surging demand for compute-intensive AI workloads is driving unprecedented data center power growth, while AI capacity is now constrained by power availability, making data center power security the new battle ground for scaling and protecting margins in the global AI race," said Gartner's Direct Analyst Linglan Wang.
+By 2030, Garter predicts that supply will be unable to meet demand once consumption passes the 1,200 TWh mark.
+In order to address this constraint, Wang suggested that business leaders and infrastructure providers should focus on upgrading the efficiency of power grids and the hardware that draws the most power such as cooling systems.
+A recent Google Cloud report further suggested that to address the rising cost of power consumption, businesses should move from running AI models on a centralized cloud to edge deployments, where the efficiency of these systems is increased with the added benefit of avoiding a global outage of services if the centralized cloud system fails.
+But these levels of consumption increase will hardly help to cool the rising anti-data center sentiment in the US, which-when combined with hardware and power production shortages-has seen nearly half of all data centers in 2026 delayed or cancelled.
+Via Tom's Hardware
+--------------------------------------------------------------------------------
+Elon Musk says xAI is targeting 50 million 'H100 equivalent' AI GPUs in five years - 230k GPUs, including 30k GB200s already reportedly operational for training Grok (https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-says-xai-is-targeting-50-million-h100-equivalent-ai-gpus-in-five-years-230k-gpus-including-30k-gb200s-already-reportedly-operational-for-training-grok)
+citeturn64news26 [wordlim: 100] Published: 1.3 years ago; "The xAI goal is 50 million in units of H100 equivalent-AI compute (but much better power-efficiency) online within 5 years," Elon Musk wrote in an X post.One Nvidia H100 GPU can deliver around 1,000 FP16/BF16 TFLOPS for AI training (these are currently the most popular formats for AI training), so 50 million of such AI accelerators will have to deliver 50 FP16/BF16 ExaFLOPS for AI training by 2030. ... 2026
+--------------------------------------------------------------------------------
+AI servers will consume more power than all conventional data center hardware combined by 2027 - global data center electricity consumption set to grow by 26% this year, Gartner forecasts (https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-servers-will-consume-more-power-than-conventional-data-center-hardware-by-2027-gartner-forecasts)
+citeturn64news27 [wordlim: 100] Published: 3 months ago; "Surging demand for compute-intensive AI workloads is driving unprecedented data center power growth, while AI capacity is now constrained by power availability, making data center power security the new battle ground for scaling and protecting margins in the global AI race," said Gartner's Direct Analyst Linglan Wang. ... By 2030, AI-optimized servers are forecast to account for close to half of all data center power consumption. ... Regional grids are already feeling the strain, and more than 75 data center projects worth $130 billion were blocked in the first months of 2026 amid opposition over power and water costs, while some operators have turned to on-site gas generators to bring capacity online without waiting for grid connections.
+--------------------------------------------------------------------------------
+Technological singularity (https://en.wikipedia.org/wiki/Technological_singularity)
+citeturn64search28 [wordlim: 200] Crawled: 5 days ago; In July 2026, OpenAI CEO Sam Altman and SpaceXAI CEO Elon Musk claimed the singularity had arrived. ... In modern deep learning, the effects of hardware improvement on neural networks are characterized by neural scaling laws. ... "So we will be producing about 10^{26} to 10^{29} cps of nonbiological computation per year in the early 2030s.
+--------------------------------------------------------------------------------
+The AI Bubble And The U.S. Economy (https://www.reddit.com/r/economy/comments/1vu4hn2/the_ai_bubble_and_the_us_economy/)
+citeturn64reddit29 [wordlim: 200] Published: 2 months ago; An update: the latest IEA report shows that AI-focused data-center electricity consumption rose 50% in 2025 and notes that data-center investment has become too large to be financed through corporate balance sheets alone. ... IEA: https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary
+
+
+Can AI scaling continue through 2030? | Epoch AI (https://epoch.ai/blog/can-ai-scaling-continue-through-2030)
+citeturn65view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://epoch.ai/blog/can-ai-scaling-continue-through-2030","lineno":null}); Redirected to URL: https://epoch.ai/publications/can-ai-scaling-continue-through-2030; Total lines: 1483
+L0: 【0†Image: Menu】【1†Image: Menu】
+L1:
+L2: [Input]
+L3:
+L4: 【2†Latest】Our work
+L5:
+L6: #### Featured
+L7:
+L8:   * 【3†Trends in AI】
+L9:   * 【4†Data on AI】
+L10:   * 【5†Capabilities & benchmarking】
+L11:
+L12: #### Publications
+L13:
+L14:   * 【6†Papers & reports】
+L15:   * 【7†Data Insights】
+L16:   * 【8†Newsletter】
+L17:   * 【9†Podcast】
+L18:   * 【10†All publications】
+L19:
+L20: #### Data explorers
+L21:
+L22:   * 【5†AI capabilities】
+L23:   * 【11†AI models】
+L24:   * 【12†AI data centers】
+L25:   * 【13†AI chip sales】
+L26:   * 【14†AI companies】
+L27:   * 【15†Polling on AI usage】
+L28:   * 【4†All data explorers】
+L29: #### Our benchmarks
+L30:
+L31:   * 【16†Epoch Capabilities Index】
+L32:   * 【17†MirrorCode】
+L33:   * 【18†FrontierMath: Open Problems】
+L34:   * 【19†Epoch Automation Reports】
+L35:   * 【20†Earthborne Rangers】
+L36:
+L37: Topics
+L38:
+L39: #### AI progress
+L40:
+L41:   * 【21†Scaling】
+L42:   * 【22†Software progress】
+L43:   * 【23†Open models】
+L44:   * 【24†Capabilities & benchmarks】
+L45:   * 【25†Math】
+L46:
+L47: #### Industry
+L48:
+L49:   * 【26†Leading companies】
+L50:   * 【27†Finances】
+L51:   * 【28†Geopolitics】
+L52:
+L53: #### Infrastructure
+L54:
+L55:   * 【29†Chips】
+L56:   * 【30†Data centers】
+L57:   * 【31†Energy】
+L58: #### Impacts
+L59:
+L60:   * 【32†Adoption & use】
+L61:   * 【33†Economic impact】
+L62:   * 【34†Future of AI】
+L63:
+L64: About
+L65:
+L66: #### Who we are
+L67:
+L68:   * 【35†About us】
+L69:   * 【36†Our team】
+L70:   * 【37†Transparency】
+L71:
+L72: #### Engage with us
+L73:
+L74:   * 【38†Careers】
+L75:   * 【39†Press】
+L76:   * 【40†Work with our experts】
+L77:   * 【41†Donate】
+L78:
+L79: 【42†Contact】
+L80:
+L81: [Input: Search epoch.ai]
+L82:
+L83:   * 【2†Latest】
+L84:   * Our work
+L85:
+L86: #### Featured
+L87:
+L88: 【3†Trends in AI】【4†Data on AI】【5†Capabilities & benchmarking】
+L89: #### Publications
+L90:
+L91: 【6†Papers & reports】【7†Data Insights】【8†Newsletter】【9†Podcast】【10†All publications】
+L92:
+L93: #### Data explorers
+L94:
+L95: 【5†AI capabilities】【11†AI models】【12†AI data centers】【13†AI chip sales】【14†AI companies】【15†Polling on AI usage】【4†All data explorers】
+L96:
+L97: #### Our benchmarks
+L98:
+L99: 【16†Epoch Capabilities Index】【17†MirrorCode】【18†FrontierMath: Open Problems】【19†Epoch Automation Reports】【20†Earthborne Rangers】
+L100:
+L101:   * 【43†Navigate by topic】
+L102: #### AI progress
+L103:
+L104: 【21†Scaling】【22†Software progress】【23†Open models】【24†Capabilities & benchmarks】【25†Math】
+L105:
+L106: #### Industry
+L107:
+L108: 【26†Leading companies】【27†Finances】【28†Geopolitics】
+L109:
+L110: #### Infrastructure
+L111:
+L112: 【29†Chips】【30†Data centers】【31†Energy】
+L113:
+L114: #### Impacts
+L115:
+L116: 【32†Adoption & use】【33†Economic impact】【34†Future of AI】
+L117:
+L118:   * 【35†About】
+L119:
+L120: #### Who we are
+L121:
+L122: 【35†About us】【36†Our team】【37†Transparency】
+L123: #### Engage with us
+L124:
+L125: 【38†Careers】【39†Press】【40†Work with our experts】【41†Donate】
+L126:
+L127:   * 【42†Contact】
+L128:   * Report
+L129:
+L130: Aug. 20, 2024
+L131: # Can AI scaling continue through 2030?
+L132:
+L133: We investigate the scalability of AI training runs. We identify electric power, chip manufacturing, data and latency as constraints. We conclude that 2e29 FLOP training runs will likely be feasible by 2030.
+L134:
+L135: Cite
+L136:
+L137: 【44†Colab】
+L138:
+L139: 【45†Image: Pablo Villalobos's avatar】【46†Image: Ege Erdil's avatar】
+L140:
+L141: By 【47†Jaime Sevilla】, 【48†Tamay Besiroglu†x.com】, 【49†Ben Cottier】, 【50†Josh You】, 【51†Edu Roldán】, Pablo Villalobos, and Ege Erdil
+L142: ### Contents
+L143:
+L144:   * 【52†Introduction】
+L145:   * 【53†Power constraints】
+L146:   * 【54†Chip manufacturing capacity】
+L147:   * 【55†Data scarcity】
+L148:   * 【56†Latency wall】
+L149:   * 【57†What constraint is the most limiting?】
+L150:   * 【58†Will labs attempt to scale to these new heights?】
+L151:   * 【59†Conclusion】
+L152:   * 【60†Appendices】
+L153:
+L154: Introduction
+L155:   * 【52†Introduction】
+L156:   * 【53†Power constraints】
+L157:   * 【54†Chip manufacturing capacity】
+L158:   * 【55†Data scarcity】
+L159:   * 【56†Latency wall】
+L160:   * 【57†What constraint is the most limiting?】
+L161:   * 【58†Will labs attempt to scale to these new heights?】
+L162:   * 【59†Conclusion】
+L163:   * 【60†Appendices】
+--------------------------------------------------------------------------------
+Trends in AI | Epoch AI (https://epoch.ai/trends)
+citeturn65view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://epoch.ai/trends","lineno":null}); Total lines: 426
+L0: 【0†Image: Menu】【1†Image: Menu】
+L1:
+L2: [Input]
+L3:
+L4: 【2†Latest】Our work
+L5:
+L6: #### Featured
+L7:
+L8:   * 【3†Trends in AI】
+L9:   * 【4†Data on AI】
+L10:   * 【5†Capabilities & benchmarking】
+L11:
+L12: #### Publications
+L13:
+L14:   * 【6†Papers & reports】
+L15:   * 【7†Data Insights】
+L16:   * 【8†Newsletter】
+L17:   * 【9†Podcast】
+L18:   * 【10†All publications】
+L19:
+L20: #### Data explorers
+L21:
+L22:   * 【5†AI capabilities】
+L23:   * 【11†AI models】
+L24:   * 【12†AI data centers】
+L25:   * 【13†AI chip sales】
+L26:   * 【14†AI companies】
+L27:   * 【15†Polling on AI usage】
+L28:   * 【4†All data explorers】
+L29: #### Our benchmarks
+L30:
+L31:   * 【16†Epoch Capabilities Index】
+L32:   * 【17†MirrorCode】
+L33:   * 【18†FrontierMath: Open Problems】
+L34:   * 【19†Epoch Automation Reports】
+L35:   * 【20†Earthborne Rangers】
+L36:
+L37: Topics
+L38:
+L39: #### AI progress
+L40:
+L41:   * 【21†Scaling】
+L42:   * 【22†Software progress】
+L43:   * 【23†Open models】
+L44:   * 【24†Capabilities & benchmarks】
+L45:   * 【25†Math】
+L46:
+L47: #### Industry
+L48:
+L49:   * 【26†Leading companies】
+L50:   * 【27†Finances】
+L51:   * 【28†Geopolitics】
+L52:
+L53: #### Infrastructure
+L54:
+L55:   * 【29†Chips】
+L56:   * 【30†Data centers】
+L57:   * 【31†Energy】
+L58: #### Impacts
+L59:
+L60:   * 【32†Adoption & use】
+L61:   * 【33†Economic impact】
+L62:   * 【34†Future of AI】
+L63:
+L64: About
+L65:
+L66: #### Who we are
+L67:
+L68:   * 【35†About us】
+L69:   * 【36†Our team】
+L70:   * 【37†Transparency】
+L71:
+L72: #### Engage with us
+L73:
+L74:   * 【38†Careers】
+L75:   * 【39†Press】
+L76:   * 【40†Work with our experts】
+L77:   * 【41†Donate】
+L78:
+L79: 【42†Contact】
+L80:
+L81: [Input: Search epoch.ai]
+L82:
+L83:   * 【2†Latest】
+L84:   * Our work
+L85:
+L86: #### Featured
+L87:
+L88: 【3†Trends in AI】【4†Data on AI】【5†Capabilities & benchmarking】
+L89: #### Publications
+L90:
+L91: 【6†Papers & reports】【7†Data Insights】【8†Newsletter】【9†Podcast】【10†All publications】
+L92:
+L93: #### Data explorers
+L94:
+L95: 【5†AI capabilities】【11†AI models】【12†AI data centers】【13†AI chip sales】【14†AI companies】【15†Polling on AI usage】【4†All data explorers】
+L96:
+L97: #### Our benchmarks
+L98:
+L99: 【16†Epoch Capabilities Index】【17†MirrorCode】【18†FrontierMath: Open Problems】【19†Epoch Automation Reports】【20†Earthborne Rangers】
+L100:
+L101:   * 【43†Navigate by topic】
+L102: #### AI progress
+L103:
+L104: 【21†Scaling】【22†Software progress】【23†Open models】【24†Capabilities & benchmarks】【25†Math】
+L105:
+L106: #### Industry
+L107:
+L108: 【26†Leading companies】【27†Finances】【28†Geopolitics】
+L109:
+L110: #### Infrastructure
+L111:
+L112: 【29†Chips】【30†Data centers】【31†Energy】
+L113:
+L114: #### Impacts
+L115:
+L116: 【32†Adoption & use】【33†Economic impact】【34†Future of AI】
+L117:
+L118:   * 【35†About】
+L119:
+L120: #### Who we are
+L121:
+L122: 【35†About us】【36†Our team】【37†Transparency】
+L123: #### Engage with us
+L124:
+L125: 【38†Careers】【39†Press】【40†Work with our experts】【41†Donate】
+L126:
+L127:   * 【42†Contact】
+L128:   * Updated Feb. 5, 2026
+L129: # Trends in AI
+L130:
+L131: Frontier AI systems are advancing rapidly from increases in compute, hardware performance, software efficiency, and investment. This dashboard explores those dynamics.
+L132:
+L133: Show growth values in
+L134:
+L135: Increase/year
+L136:
+L137: Doubling time
+L138:
+L139: OOM/year
+L140: 【44†Model capabilities 14ECI/year The ECI frontier has advanced by 14 points per year since the introduction of reasoning models.Model performance 90% CI+12 to +17 ECI】【45†Compute stock growth 3.4×/year 6.8months 0.53OOM/year The total computing power of the stock of AI chips is growing at a rate of 3.4×/year.The total computing power of the stock of AI chips is doubling every 6.8 months.The total computing power of the stock of AI chips is growing by 0.53 OOMs per year.AI companies 90% CI3.2× to 3.7×6.4 to 7.2 months0.51 to 0.57 OOM】【46†Training compute 5×/year 5.2months 0.7OOM/year Training compute for frontier language models has been growing at 5× per year since 2020.Training compute for frontier language models has been doubling every 5.2 months since 2020.Training compute for frontier language models has been growing at 0.7 OOMs per year since 2020.Training runs 90% CI4× to 6×4.6 to 6.0 months0.6 to 0.8 OOM】【47†Build time 2.1years Gigawatt-scale data centers can be built in about 2 years.Data centers 90% CI1 to 3.6 years】【47†Largest AI data center 1,100,000H100e The largest known AI data center has a computing capacity equivalent to 1.1 million NVIDIA H100 chips.Data centers】【48†Chip performance per dollar 1.49×/year 1.7years 0.17OOM/year AI chip performance per dollar has grown by 49% per year since 2023.AI chip performance per dollar has doubled every 1.7 years since 2023.AI chip performance per dollar has grown by 0.17 OOMs per year since 2023.Hardware 90% CI1.36× to 1.66×1.4 to 2.3 years0.13 to 0.22 OOM】
+--------------------------------------------------------------------------------
+Compute scaling will slow down due to increasing lead times (https://epochai.substack.com/p/compute-scaling-will-slow-down-due)
+citeturn65view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://epochai.substack.com/p/compute-scaling-will-slow-down-due","lineno":null}); Total lines: 171
+L0: 【0†iframe†www.googletagmanager.com】
+L1:
+L2: # 【1†Epoch AI】
+L3:
+L4: 【2†Gradient Updates】
+L5:
+L6: # Compute scaling will slow down due to increasing lead times
+L7: ### A heavily underappreciated dynamic when thinking about AI timelines.
+L8:
+L9: 【3†Anson Ho†substack.com】 and 【4†Yafah Edelman†substack.com】
+L10:
+L11: Sep 05, 2025
+L12:
+L13: 30
+L14:
+L15: 2
+L16:
+L17: 4
+L18:
+L19: Share
+L20:
+L21: The massive compute scaling that has driven AI progress since 2020 is likely to slow down soon, due to increasing economic uncertainty and longer development cycles.
+L22: While investors could theoretically scale compute by several orders of magnitude, the required hundreds of billions, combined with uncertain returns, will push them toward incremental scaling — investing, deploying products to gauge returns, then reevaluating further investment. Additionally, as the required compute grows larger, the time between project initiation and product deployment (i.e. “lead time”) lengthens significantly, creating a feedback loop that naturally slows the pace of compute scaling.
+L23: In particular, our current best guess is that every additional 10× increase in compute scale lengthens lead times by around a year. For example, OpenAI currently likely has over $15 billion worth of compute, and this compute stock has been growing by around 2.2× each year.【5†1】 At that pace, current trends would predict a trillion dollar cluster around 2030 — but longer lead times would delay this to around 2035.
+L24: The “extrapolation with lead times” is determined by taking the direct extrapolation, and adjusting it such that each additional 10× increase in compute stock increases lead times by a year. These accumulate so that the total delay is larger at greater compute scales.
+L25: Importantly, this dynamic applies most directly to the overall stock of compute at a lab, not the size of training runs. Even if lead times slow scaling of compute investment, frontier AI labs may still 【6†scale training compute at 5× per year†epoch.ai】 for another 1-2 years by allocating a larger fraction of compute to training.
+L26: The implications could be huge. It may become harder to obtain the compute needed to run experiments and find novel algorithmic improvements, and at some point training compute scaling will also have to decelerate. Since compute is strongly correlated with model capabilities, we expect this dynamic to slow AI progress.
+L27: ## Uncertainties about investment returns prevent a “YOLO scaleup”
+L28:
+L29: If investors believe the 【7†Bitter Lesson†www.incompleteideas.net】, one might expect them to throw everything into expanding the available compute. For example, we see this sort of dynamic in economic models like the 【8†GATE model†epoch.ai】, which (dubiously) predicts that it is optimal to invest $25 trillion in AI today.
+L30: But in practice, such massive investment is highly unlikely. This is partly because the returns to scaling are deeply uncertain, while the costs are enormous. For example, the second phase of xAI’s Colossus cluster already required 【9†nearly $10 billion in hardware acquisition costs†epoch.ai】. Scaling compute a thousandfold would likely cost at least a thousand times more,【10†2】 making any overestimate of returns extremely costly.
+L31: This concern becomes ever more important as hardware acquisition costs approach hundreds of billions or even trillions, approaching 【11†single-digit percentages of Gross World Product†data.worldbank.org】.
+--------------------------------------------------------------------------------
+[2403.05812] Algorithmic progress in language models (https://arxiv.org/abs/2403.05812)
+citeturn65view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2403.05812","lineno":null}); Total lines: 166
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1:
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3:
+L4: Press Enter to search · 【4†Advanced search】
+L5:
+L6: # Computer Science > Computation and Language
+L7:
+L8: [Submitted on 9 Mar 2024]
+L9: # Title:Algorithmic progress in language models
+L10:
+L11: Authors:【5†Anson Ho】, 【6†Tamay Besiroglu】, 【7†Ege Erdil】, 【8†David Owen】, 【9†Robi Rahman】, 【10†Zifan Carl Guo】, 【11†David Atkinson】, 【12†Neil Thompson】, 【13†Jaime Sevilla】
+L12:
+L13: View a PDF of the paper titled Algorithmic progress in language models, by Anson Ho and 8 other authors
+L14:
+L15: 【14†View PDF】 【15†HTML (experimental)】
+L16: > Abstract:We investigate the rate at which algorithms for pre-training language models have improved since the advent of deep learning. Using a dataset of over 200 language model evaluations on Wikitext and Penn Treebank spanning 2012-2023, we find that the compute required to reach a set performance threshold has halved approximately every 8 months, with a 95% confidence interval of around 5 to 14 months, substantially faster than hardware gains per Moore's Law.
+L17: We estimate augmented scaling laws, which enable us to quantify algorithmic progress and determine the relative contributions of scaling models versus innovations in training algorithms. Despite the rapid pace of algorithmic progress and the development of new architectures such as the transformer, our analysis reveals that the increase in compute made an even larger contribution to overall performance improvements over this time period.
+L18: Though limited by noisy benchmark data, our analysis quantifies the rapid progress in language modeling, shedding light on the relative contributions from compute and algorithms.
+L19: Subjects:  | Computation and Language (cs.CL); Artificial Intelligence (cs.AI)
+L20: Cite as:  | 【16†arXiv:2403.05812】 [cs.CL]
+L21:    | (or 【17†arXiv:2403.05812v1】 [cs.CL] for this version)
+L22:    | 【18†https://doi.org/10.48550/arXiv.2403.05812†doi.org】 arXiv-issued DOI via DataCite
+L23: ## Submission history
+L24:
+L25: From: Tamay Besiroglu [【19†view email】]
+L26: [v1] Sat, 9 Mar 2024 06:26:21 UTC (1,072 KB)
+L27:
+L28: Full-text links:
+L29:
+L30: ## Access Paper:
+L31:
+L32: View a PDF of the paper titled Algorithmic progress in language models, by Anson Ho and 8 other authors
+L33:
+L34:   * 【14†View PDF】
+L35:   * 【15†HTML (experimental)】
+L36:   * 【20†TeX Source】
+L37:
+L38: 【21†view license†creativecommons.org】
+L39:
+L40: ### Additional Features
+L41:
+L42:   * 【22†Audio Summary】
+L43: ### Current browse context:
+L44:
+L45: cs.CL
+L46:
+L47: 【23†< prev】   |   【24†next >】
+L48:
+L49: 【25†new】 | 【26†recent】 | 【27†2024-03】
+L50:
+L51: Change to browse by:
+L52:
+L53: 【28†cs】
+L54: 【29†cs.AI】
+L55:
+L56: ### References & Citations
+L57:
+L58:   * 【30†SciX†scixplorer.org】
+L59:   * 【31†Google Scholar†scholar.google.com】
+L60:   * 【32†Semantic Scholar†api.semanticscholar.org】
+L61:
+L62: [Button: export BibTeX citation] Loading...
+L63:
+L64: ## BibTeX formatted citation
+L65:
+L66: [Button: ×]
+L67:
+L68: loading...
+L69:
+L70: Data provided by:
+L71:
+L72: ### Bookmark
+L73:
+L74: [Input] Bibliographic Tools
+L75: # Bibliographic and Citation Tools
+L76:
+L77: [Input] Bibliographic Explorer Toggle
+L78:
+L79: Bibliographic Explorer (【33†What is the Explorer?†info.arxiv.org】)
+L80:
+L81: [Input] Connected Papers Toggle
+L82:
+L83: Connected Papers (【34†What is Connected Papers?†www.connectedpapers.com】)
+L84:
+L85: [Input] Litmaps Toggle
+L86:
+L87: Litmaps (【35†What is Litmaps?†www.litmaps.co】)
+L88:
+L89: [Input] scite.ai Toggle
+L90:
+L91: scite Smart Citations (【36†What are Smart Citations?†www.scite.ai】)
+L92:
+L93: [Input] Code, Data, Media
+L94: # Code, Data and Media Associated with this Article
+L95:
+L96: [Input] alphaXiv Toggle
+L97:
+L98: alphaXiv (【37†What is alphaXiv?†alphaxiv.org】)
+L99:
+L100: [Input] Links to Code Toggle
+L101:
+L102: CatalyzeX Code Finder for Papers (【38†What is CatalyzeX?†www.catalyzex.com】)
+L103:
+L104: [Input] DagsHub Toggle
+L105:
+L106: DagsHub (【39†What is DagsHub?†dagshub.com】)
+L107:
+L108: [Input] GotitPub Toggle
+L109:
+L110: Gotit.pub (【40†What is GotitPub?†gotit.pub】)
+L111:
+L112: [Input] Huggingface Toggle
+L113:
+L114: Hugging Face (【41†What is Huggingface?†huggingface.co】)
+L115:
+L116: [Input] ScienceCast Toggle
+--------------------------------------------------------------------------------
+Executive summary - Key Questions on Energy and AI - IEA (https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary)
+citeturn65view4 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary","lineno":null}); Total lines: 234
+L0: 【0†iframe†www.googletagmanager.com】
+L1:
+L2: [Input: Search everything]
+L3:
+L4:   * 【1†About】
+L5:   * 【2†News】
+L6:   * 【3†Events】
+L7:   * 【4†Programmes】
+L8:   * 【5†Help centre】
+L9:
+L10: Sign In
+L11:
+L12: You are connecting via IP recognition from
+L13: .
+L14:
+L15: If you wish to proceed, click on Connect.
+L16: If you prefer to log into your personal account, please sign in below.
+L17:
+L18: 【6†Connect】
+L19:
+L20: OR
+L21:
+L22: [Input]
+L23:
+L24: Email *
+L25:
+L26: [Input: ]
+L27:
+L28: Password * 【7†Forgot password?】
+L29:
+L30: [Input: ]
+L31:
+L32: Sign in
+L33:
+L34: Create an account
+L35: Create a free IEA account to download our reports or subcribe to a paid service.
+L36:
+L37: 【8†Join for free】
+L38:
+L39: Contents
+L40:
+L41: 【9†Cite】
+L42:
+L43: 【10†Download full report†iea.blob.core.windows.net】
+L44: #### Cite report
+L45:
+L46: IEA (2026), Key Questions on Energy and AI, IEA, Paris https://www.iea.org/reports/key-questions-on-energy-and-ai, Licence: CC BY 4.0
+L47:
+L48: Copy to clipboard
+L49:
+L50: #### Share this report
+L51:
+L52:   * 【9†Twitter】
+L53:   * 【9†Facebook】
+L54:   * 【9†LinkedIn】
+L55:   * 【9†Bluesky】
+L56:   * 【9†Email】
+L57:   * 【9†Print】
+L58:
+L59: #### Report options
+L60:
+L61: 【10†Download†iea.blob.core.windows.net】
+L62:
+L63: 【11†Key Questions on Energy and AI】
+L64:
+L65: # Executive summary
+L66: ### The AI and energy nexus continues to evolve rapidly
+L67: The largest technology companies are contributing to a surge in data centre investment, as their capital expenditure exceeded USD 400 billion in 2025 – and is expected to jump by another 75% in 2026. Capital expenditure of just five technology companies is now larger than global investment in oil and natural gas production. Many jurisdictions are seeing project pipelines accelerate dramatically, although not all projects will come to fruition.
+L68: Those that are moving forward are doing so at pace: the IEA’s unique satellite-based tracking shows that “artificial intelligence (AI) factories” – cutting-edge data centres specifically designed for AI – have more than tripled in capacity in the past 18 months. Meanwhile, the capabilities of AI are improving quickly, increasing the likelihood that it will reshape economic growth, innovation and competitiveness and disrupt established industries and jobs.
+L69: In April 2025, the IEA published its landmark Energy and AI report, which provided first-of-its-kind global analysis on the links between AI and energy. Since then, the field has evolved rapidly: new questions have emerged and new data has come to light. This report builds on the foundation of previous work, providing fresh analysis on key issues.
+L70: It covers the outlook for data centre electricity demand considering recent market developments; innovations in powering data centres; and the implications of these trends for energy security, affordability, competitiveness and overall energy demand.
+L71: ### Energy consumption per AI query has declined massively, but much more energy-intensive use cases are becoming increasingly popular
+L72: Measured per individual task, the energy efficiency of AI is improving at a rate unprecedented in energy history. Software and hardware advances have resulted in the energy use per AI task dropping by at least an order of magnitude annually in recent years. Simple text queries now typically consume less electricity than running a television over the same period of time.
+L73: If all conventional internet searches were performed with simple AI text queries, it would consume less than 4 terawatt-hours (TWh) of electricity annually, equivalent to less than 1% of total data centre consumption today.
+L74: However, new energy-intensive AI applications are increasingly being launched and used, such as those for video generation, reasoning and agentic tasks. These kinds of tasks can consume hundreds or thousands of times more energy per query than simple text generation.
+--------------------------------------------------------------------------------
+Beyond Chinchilla-Optimal: Accounting for Inference in Language Model Scaling Laws (https://proceedings.mlr.press/v235/sardana24a.html)
+citeturn65view5 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://proceedings.mlr.press/v235/sardana24a.html","lineno":null}); Total lines: 52
+L0: Proceedings of Machine Learning Research
+L1:
+L2: [Input]
+L3:
+L4: 【0†Volume 235】【1†JMLR†www.jmlr.org】 【2†DMLR†data.mlr.press】 【3†TMLR†jmlr.org】 【4†MLOSS†www.jmlr.org】 【5†FAQ】 【6†Submission Format】
+L5:
+L6: [【7†edit†github.com】]
+L7:
+L8: # Beyond Chinchilla-Optimal: Accounting for Inference in Language Model Scaling Laws
+L9:
+L10: Nikhil Sardana, Jacob Portes, Sasha Doubov, Jonathan Frankle
+L11:
+L12: Proceedings of the 41st International Conference on Machine Learning, PMLR 235:43445-43460, 2024.
+L13: #### Abstract
+L14: Large language model (LLM) scaling laws are empirical formulas that estimate changes in model quality as a result of increasing parameter count and training data. However, these formulas, including the popular Deepmind Chinchilla scaling laws, neglect to include the cost of inference. We modify the Chinchilla scaling laws to calculate the optimal LLM parameter count and pre-training data size to train and deploy a model of a given quality and inference demand.
+L15: We conduct our analysis both in terms of a compute budget and real-world costs and find that LLM researchers expecting reasonably large inference demand ($\sim$1B requests) should train models smaller and longer than Chinchilla-optimal. Furthermore, we train 47 models of varying sizes and parameter counts to validate our formula and find that model quality continues to improve as we scale tokens per parameter to extreme ranges (up to 10,000).
+L16: Finally, we ablate the procedure used to fit the Chinchilla scaling law coefficients and find that developing scaling laws only from data collected at typical token/parameter ratios overestimates the impact of additional tokens at these extreme ranges.
+L17: #### Cite this Paper
+L18:
+L19: * * *
+L20:
+L21: BibTeX
+L22: `@InProceedings{pmlr-v235-sardana24a, title = {Beyond Chinchilla-Optimal: Accounting for Inference in Language Model Scaling Laws}, author = {Sardana, Nikhil and Portes, Jacob and Doubov, Sasha and Frankle, Jonathan}, booktitle = {Proceedings of the 41st International Conference on Machine Learning}, pages = {43445--43460}, year = {2024}, editor = {Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix}, volume = {235}, series = {Proceedings of Machine Learning Research}, month = {21--27 Jul}, publisher = {PMLR}, pdf = {https://raw.githubusercontent.com/mlresearch/v235/main/assets/sardana24a/sardana24a.pdf}, url = {https://proceedings.mlr.press/v235/sardana24a.html}, abstract = {Large language model (LLM) scaling laws are empirical formulas that estimate changes in model quality as a result of increasing parameter count and training data.
+L23: However, these formulas, including the popular Deepmind Chinchilla scaling laws, neglect to include the cost of inference. We modify the Chinchilla scaling laws to calculate the optimal LLM parameter count and pre-training data size to train and deploy a model of a given quality and inference demand.
+L24: We conduct our analysis both in terms of a compute budget and real-world costs and find that LLM researchers expecting reasonably large inference demand ($\sim$1B requests) should train models smaller and longer than Chinchilla-optimal. Furthermore, we train 47 models of varying sizes and parameter counts to validate our formula and find that model quality continues to improve as we scale tokens per parameter to extreme ranges (up to 10,000).
+L25: Finally, we ablate the procedure used to fit the Chinchilla scaling law coefficients and find that developing scaling laws only from data collected at typical token/parameter ratios overestimates the impact of additional tokens at these extreme ranges.} } `
+
+
+Executive summary - Key Questions on Energy and AI - IEA (https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary)
+citeturn66view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn65view4","pattern":"950"}); Total lines: 234
+L93: Understanding the energy implications of AI therefore also means following closely the technology’s economic trajectory.
+L94: ### Our updated data centre electricity demand outlook sees near-term bottlenecks but longer-term upside
+L95: The central projection for electricity demand from data centres remains close to the trajectory set out in the IEA’s 2025 report. Our updated projections see electricity consumption from data centres roughly doubling from 485 TWh in 2025 to 950 TWh in 2030, accounting for around 3% of global electricity demand by that date. Electricity consumption from AI-focused data centres grows much faster than overall data centre electricity consumption, tripling in this period.
+L96: Bottlenecks across the value chain, however, are reducing the likelihood of more aggressive near-term scenarios, despite booming investment and surging project pipelines.
+L97: The mid- to longer-term outlook for data centre electricity demand sees a possible upside. Investments in relieving bottlenecks across energy equipment and chip manufacturing, and rapid uptake of energy-intensive use cases of AI, raise the prospect that there could be an even higher upside case after 2030. The IEA will continue to update its projections regularly.
+L98: ### Electricity demand growth in 2025
+L99:
+L100: 【14†Open】
+L101:
+L102: #### Notes
+L103:
+L104: Total = 800 TWh
+L105:
+L106: ### Electricity consumption by data centres, 2020-2035
+L107:
+L108: 【15†Open】
+--------------------------------------------------------------------------------
+Can AI scaling continue through 2030? | Epoch AI (https://epoch.ai/blog/can-ai-scaling-continue-through-2030)
+citeturn66view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn65view0","pattern":"2e29"}); Redirected to URL: https://epoch.ai/publications/can-ai-scaling-continue-through-2030; Total lines: 1483
+L131: # Can AI scaling continue through 2030?
+L132:
+L133: We investigate the scalability of AI training runs. We identify electric power, chip manufacturing, data and latency as constraints. We conclude that 2e29 FLOP training runs will likely be feasible by 2030.
+L134:
+L135: Cite
+L136:
+L137: 【44†Colab】
+L138:
+L139: 【45†Image: Pablo Villalobos's avatar】【46†Image: Ege Erdil's avatar】
+L140:
+L141: By 【47†Jaime Sevilla】, 【48†Tamay Besiroglu†x.com】, 【49†Ben Cottier】, 【50†Josh You】, 【51†Edu Roldán】, Pablo Villalobos, and Ege Erdil
+L171: We find that training runs of 2e29 FLOP will likely be feasible by the end of this decade. In other words, by 2030 it will be very likely possible to train models that exceed GPT-4 in scale to the same degree that GPT-4 exceeds GPT-2 in scale.^{【67†2】} If pursued, we might see by the end of the decade advances in AI as drastic as the difference between the rudimentary text generation of GPT-2 in 2019 and the sophisticated problem-solving abilities of GPT-4 in 2023.
+L189: Bottom line. While there is substantial uncertainty about the precise scales of training that are technically feasible, our analysis suggests that training runs of around 2e29 FLOP are likely possible by 2030. This represents a significant increase in scale over current models, similar to the size difference between GPT-2 and GPT-4. The constraint likely to bind first is power, followed by the capacity to manufacture enough chips.
+L203: Using the power demand per GPU, we can estimate the installed power demand for frontier models.  The recent 【82†Llama 3.1 405B model†ai.meta.com】, with its 4e25 FLOP training run, used a cluster of 16,000 H100 GPUs. This configuration required 27MW of total installed capacity (16,000 GPUs × 1,700W per GPU). While substantial—equivalent to the average yearly consumption of 23,000 US households^{【83†9】}—this demand is still small compared to large data centers, which can require hundreds of megawatts.
+L204: How much will this increase by the end of the decade? Frontier training runs by 2030 are projected to be 5,000x larger than Llama 3.1 405B, reaching 2e29 FLOP.^{【84†10】} However, we don’t expect power demand to scale by as much. This is for several reasons.
+L205: First, we expect hardware to become more power-efficient over time. The peak FLOP/s per W achieved by GPUs used for ML training have increased by around 1.28x/year between 2010 and 2024.^{【85†11】} If continued, we would see 4x more efficient training runs by the end of the decade.
+L206: Second, we anticipate more efficient hardware usage in future AI training. While Llama 3.1 405B used FP16 format (16-bit precision), there’s growing adoption of FP8 training, as seen with 【86†Inflection-2†inflection.ai】. An Anthropic co-founder 【87†has suggested†x.com】 FP8 will become standard practice in frontier labs. We expect that training runs will switch over to 8-bit by 2030, which will be ~2x as power-efficient (e.g.
+L207: The H100 performs around 2e15 FLOP/s at 8-bit precision, compared to 1e15 FLOP/s at 16-bit precision).^{【88†12】}
+L208: Third, we expect training runs to be longer. Since 2010, the length of training runs 【89†has increased by 20% per year】 among notable models, which would be on trend to 3x larger training runs by 2030. Larger training run durations would spread out energy needs over time. For context, Llama 3.1 405B was trained over 【90†72 days†x.com】, while other contemporary models such as GPT-4 are 【91†speculated†www.semianalysis.com】 to have been trained over ~100 days.
+L209: However, we think it’s unlikely that 【92†training runs will exceed a year】, as labs will wish to adopt better algorithms and training techniques on the order of the timescale at which these provide substantial performance gains.
+L210: Given all of the above, we expect training runs in 2030 will be 4x (hardware efficiency) * 2x (FP8) * 3x (increased duration) = 24x more power-efficient than the Llama 3.1 405B training run. Therefore, on-trend 2e29 FLOP training runs in 2030 will require 5,000x (increased scale) / 24x ≈ 200x more power than was used for training of Llama 3.1 405B, for a power demand of 6 GW.
+L211: These figures are still relatively small compared to the total installed power capacity of the US, which is around 1,200 GW, or the 477 GW of power that the US produced on average in 2023.^{【93†13】} However, they are substantial compared to the power consumption of all US data centers today, which is around 20 GW,^{【94†14】} most of which is 【95†currently not AI related†www.goldmansachs.com】.
+L228: For context, a 5 GW power supply such as the rumored Stargate campus would allow for training runs of 2e29 FLOP by 2030, accounting for expected advances in energy efficiency, and an increase in training duration to over 300 days.^{【115†25】} Training networks powered by co-located power plants or local electricity networks are unlikely to exceed 10 GW—as this would come close to the total projected power demand across all data centers in Northern Virginia.
+L407: However, if we extrapolate the ongoing 4x/year trend in training compute to 2030, we anticipate training runs of around 2e29 FLOP. A training run of this size would require almost 20M H100-equivalent GPUs.^{【177†60】} If we suppose that at most around 20% of total production can be netted by a single AI lab, global manufacturing capacity would need to reach closer to 100M H100-equivalent GPUs by 2030.
+L766: ## What constraint is the most limiting?
+L767:
+L768: So far we have examined four main bottlenecks to AI scaling in isolation. When considered together, they imply that training runs of up to 2e29 FLOP would be feasible by the end of the decade. This would represent a roughly 10,000-fold scale-up relative to current models, and it would mean that the historical trend of scaling could continue uninterrupted until 2030 (see figure 7).^{【282†102】}
+L769:
+L770: 【283†Image】
+L771:
+L772: Enable JavaScript to see an interactive visualization.
+L1096: ## Will labs attempt to scale to these new heights?
+L1097: We find that, based on extrapolating current trends around the key AI bottlenecks, training runs of up to 2e29 FLOP will be possible by the end of this decade. Achieving this scale would be on-trend: The largest training runs to date have been of the order of 5e25 FLOP, and six more years of the historical trend of 4x/year would result in models trained using roughly 2e29 FLOP.
+L1098: The price tag of the cluster needed for such a training run will be on the order of hundreds of billions of dollars.^{【284†103】} Will the AI industry actually seek to train models of this scale?
+L1099: To date, increasing the scale of AI models has consistently led to improved capabilities. This has instilled a scaling-focused view of AI development that has resulted in the amount of spending on training runs growing 【285†by around 2.5x/year】. Early indications suggest that this is likely to continue.
+L1100: Notably, it 【286†has been reported†www.theinformation.com】 that Microsoft and OpenAI are working on plans for a data center project known as “Stargate” that could cost as much as $100 billion, set to launch in 2028. This suggests that major tech companies are indeed preparing to achieve the immense scales we’re considering.
+L1110: Our main result: Based on current trends, training runs of up to 2e29 FLOP will be feasible by the end of this decade. In other words, it is likely feasible, by the end of the decade, for an AI lab to train a model that would exceed GPT-4 in scale to the same degree that GPT-4 eclipses GPT-2 in training compute.
+L1245:   9. The average 【314†US household†www.eia.gov】 consumes 10,000 kWh of electricity a year, for an average rate of ~1,200 W after dividing by 8,760 hours in a year.
+L1246:
+L1247:   10. Training compute for frontier models is growing as 【63†4.1x/year】, which would result in training runs of \(3.8e25 \text{ FLOP} \times 4.1\text{ x/year}^{6\text{ years}} = 2e29\text{ FLOP}\) by end of the decade.
+L1316:   59. Assuming that one lab amasses ~1/4th of the 2 million H100s for training (see 【71†Appendix B】), with 2e15 FLOP/s at FP8 precision, 40% FLOP/s utilization, and 6 months of training.
+L1317:
+L1318:   60. 16 million GPUs performing 【358†2e15 FLOP/s each at 40% utilization over 6 months†www.wolframalpha.com】 can perform 2e29 FLOP.
+L1382:   103. A training run of 2e29 FLOP would require 30M H100-equivalents running at 40% utilization for three months. At a 44% performance improvement per year and a 10% increase in prices for leading ML GPUs, hardware acquisition costs would cost around $200B (or roughly half that if the training run duration were doubled).
+L1383:
+L1384:   104. We provide a rough calculation to illustrate this in 【385†Appendix F】.
+L1420: ## Investigating the trajectory of AI for the benefit of society
+L1421:
+L1422: Get the latest from Epoch AI in your inbox
+L1423:
+L1424: 【391†Subscribe†epochai.substack.com】
+L1425:
+L1426: ### Our work
+L1427:
+L1428:   * 【2†Latest】
+L1429:   * 【3†Trends in AI】
+L1430:   * 【10†Publications】
+L1431:   * 【7†Data Insights】
+L1432:   * 【8†Newsletter: Gradient Updates】
+L1433:   * 【9†Podcast】
+L1434:
+L1435: ### Data on AI
+L1436:
+L1437:   * 【11†Models】
+L1438:   * 【12†AI data centers】
+L1439:   * 【392†Hardware】
+L1440:   * 【14†Companies】
+L1441:   * 【13†Chip sales】
+L1442:   * 【15†Polling】
+L1443:
+L1444: ### Benchmarking
+L1445:
+L1446:   * 【5†Capabilities & benchmarking】
+L1447:   * 【393†FrontierMath】
+L1448: ### Company
+L1449:
+L1450:   * 【35†About】
+L1451:   * 【36†Team】
+L1452:   * 【40†Consultations】
+L1453:   * 【37†Transparency】
+L1454:   * 【41†Donate】
+L1455:   * 【38†Careers】
+L1456:
+L1457: © 2026 Epoch AI
+L1458:
+L1459: 【394†Privacy policy】【395†Cookie policy】【396†Designed by And—Now†and-now.co.uk】
+L1460:
+L1461: Feedback
+L1462:
+L1463: ## Feedback
+L1464:
+L1465: Have a question? Noticed something wrong? Let us know.
+L1466:
+L1467: Message
+L1468:
+L1469: If you would like a reply, please include your name and email address.
+L1470:
+L1471: Name
+L1472:
+L1473: [Input]
+L1474:
+L1475: Email address
+L1476:
+L1477: [Input]
+L1478:
+L1479: [Button: Cancel][Button: Submit]
+L1480: # Can AI scaling continue through 2030?
+L1481:
+L1482: We investigate four constraints to scaling AI training: power, chip manufacturing, data, and latency. We predict 2e29 FLOP runs will be feasible by 2030.
+--------------------------------------------------------------------------------
+[2403.05812] Algorithmic progress in language models (https://arxiv.org/abs/2403.05812)
+citeturn66view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn65view3","pattern":"8 months"}); Total lines: 166
+L9: # Title:Algorithmic progress in language models
+L10:
+L11: Authors:【5†Anson Ho】, 【6†Tamay Besiroglu】, 【7†Ege Erdil】, 【8†David Owen】, 【9†Robi Rahman】, 【10†Zifan Carl Guo】, 【11†David Atkinson】, 【12†Neil Thompson】, 【13†Jaime Sevilla】
+L12:
+L13: View a PDF of the paper titled Algorithmic progress in language models, by Anson Ho and 8 other authors
+L14:
+L15: 【14†View PDF】 【15†HTML (experimental)】
+L16: > Abstract:We investigate the rate at which algorithms for pre-training language models have improved since the advent of deep learning. Using a dataset of over 200 language model evaluations on Wikitext and Penn Treebank spanning 2012-2023, we find that the compute required to reach a set performance threshold has halved approximately every 8 months, with a 95% confidence interval of around 5 to 14 months, substantially faster than hardware gains per Moore's Law.
+L17: We estimate augmented scaling laws, which enable us to quantify algorithmic progress and determine the relative contributions of scaling models versus innovations in training algorithms. Despite the rapid pace of algorithmic progress and the development of new architectures such as the transformer, our analysis reveals that the increase in compute made an even larger contribution to overall performance improvements over this time period.
+L18: Though limited by noisy benchmark data, our analysis quantifies the rapid progress in language modeling, shedding light on the relative contributions from compute and algorithms.
+L19: Subjects:  | Computation and Language (cs.CL); Artificial Intelligence (cs.AI)
+L20: Cite as:  | 【16†arXiv:2403.05812】 [cs.CL]
+L21:    | (or 【17†arXiv:2403.05812v1】 [cs.CL] for this version)
+L22:    | 【18†https://doi.org/10.48550/arXiv.2403.05812†doi.org】 arXiv-issued DOI via DataCite

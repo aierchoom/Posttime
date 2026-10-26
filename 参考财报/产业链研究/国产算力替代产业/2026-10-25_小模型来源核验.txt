@@ -1,0 +1,569 @@
+Small Language Models are the Future of Agentic AI (https://arxiv.org/abs/2506.02153)
+citeturn16academia12 [wordlim: 200] Published: 1.4 years ago; Title: Small Language Models are the Future of Agentic AI ... Date: Mon Jun  2 18:35:16 2025 ... Here we lay out the position that small language models (SLMs) are sufficiently powerful, inherently more suitable, and necessarily more economical for many invocations in agentic systems, and are therefore the future of agentic AI.
+--------------------------------------------------------------------------------
+Introducing Gemma 3 270M: The compact model for hyper-efficient AI - Google Developers Blog (https://developers.googleblog.com/introducing-gemma-3-270m/)
+citeturn16search0 [wordlim: 200] Published: 1.2 years ago; Crawled: yesterday; Today, we're adding a new, highly specialized tool to the Gemma 3 toolkit: Gemma 3 270M, a compact, 270-million parameter model designed from the ground up for task-specific fine-tuning with strong instruction-following and text structuring capabilities already trained in.Gemma 3 270M brings strong instruction-following capabilities to a small-footprint model.As shown by the IFEval benchmark (which tests a model's ability to follow verifiable instructions), it establishes a new level of performance for its size, making sophisticated AI capabilities more accessible for on-device and research applications. ...   * Deploy your solution: Once fine-tuned, you can deploy your specialized model anywhere, from your own local environment to Google Cloud Run.
+--------------------------------------------------------------------------------
+Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs - Microsoft Research (https://www.microsoft.com/en-us/research/publication/phi-4-mini-technical-report-compact-yet-powerful-multimodal-language-models-via-mixture-of-loras/)
+citeturn16search1 [wordlim: 200] Published: 1.7 years ago; Crawled: yesterday; Phi-4-Mini is a 3.8-billion-parameter language model trained on high-quality web and synthetic data, significantly outperforming recent open-source models of similar size and matching the performance of models twice its size on math and coding tasks requiring complex reasoning. ... Compared to its predecessor, Phi-3.5-Mini, Phi-4-Mini features an expanded vocabulary size of 200K tokens to better support multilingual applications, as well as group query attention for more efficient long-sequence generation.
+--------------------------------------------------------------------------------
+Phi-4
+Microsoft Research
+January 2025
+
+## Intr (https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/WEF-2025_Leave-Behind_Phi-4.pdf)
+citeturn16search13 [wordlim: 200] Published: 1.8 years ago; Phi-4 is Microsoft’s newest small language model (SLM) specializing in complex reasoning tasks. ... microsoft.com/research
+--------------------------------------------------------------------------------
+How Small Language Models Are Key to Scalable Agentic AI | NVIDIA Technical Blog (https://developer.nvidia.com/blog/how-small-language-models-are-key-to-scalable-agentic-ai)
+citeturn16search2 [wordlim: 200] Published: 1.2 years ago; Crawled: 5 days ago;   * Small language models (SLMs) are well-suited for agentic AI because agents typically use only a narrow subset of large language model capabilities such as parsing commands, generating structured outputs, and producing summaries. ... Titled Small Language Models are the Future of Agentic AI, we highlight the growing opportunities for integrating SLMs in place of LLMs in agentic applications, decreasing costs, and increasing operational flexibility. ... This future path isn’t speculative—NVIDIA already offers a suite of products, from open NVIDIA Nemotron reasoning models to the NVIDIA NeMo software suite for managing the entire AI agent lifecycle.
+--------------------------------------------------------------------------------
+Gemma 3 — Google DeepMind (https://deepmind.google/models/gemma/gemma-3/?trk=article-ssr-frontend-pulse_little-text-block)
+citeturn16search3 [wordlim: 200] Crawled: last week; Gemma 3 is the most capable model that can run on a single GPU or TPU. ... 270M### Compact model designed for both task-specific fine-tuning and strong instruction-following. ... ### Lightweight text model, ideal for small applications. ... Scores: Gemma 2 2b (15.6%), Gemma 2 9b (46.8%), Gemma 2 27b (56.9%), Gemma 3 1b (14.7%), Gemma 3 4b (43.6%), Gemma 3 12b (60.6%), Gemma 3 27b (67.5%).
+--------------------------------------------------------------------------------
+Qwen3 | NVIDIA NeMo AutoModel (https://docs.nvidia.com/nemo/automodel/latest/model-coverage/large-language-models/qwen-3)
+citeturn16search4 [wordlim: 200] Crawled: 2 days ago; Qwen3 is Alibaba Cloud’s third-generation dense language model series, featuring improved reasoning, instruction following, and multilingual capabilities over Qwen2. ...   * Qwen3: 0.6B, 1.7B, 4B, 8B, 14B, 32B
+--------------------------------------------------------------------------------
+Gemma 3: Google’s new open model based on Gemini 2.0 (https://blog.google/innovation-and-ai/technology/developers-tools/gemma-3/)
+citeturn16search5 [wordlim: 200] Published: 1.6 years ago; Crawled: yesterday; Mar 12, 2025 ... Gemma 3 comes in a range of sizes (1B, 4B, 12B and 27B), allowing you to choose the best model for your specific hardware and performance needs. ... Academic researchers can apply for Google Cloud credits (worth $10,000 per award) to accelerate their Gemma 3-based research.
+--------------------------------------------------------------------------------
+Qwen3-0.6B - Continuum (https://continuumcode.ai/models/qwen/qwen3-0.6b/)
+citeturn16search6 [wordlim: 200] Crawled: 2 days ago; We did not open a vals.ai card for this identity. ... Files tab: https://huggingface.co/Qwen/Qwen3-0.6B/tree/main. ... Price this model Opens the pricing calculator preloaded with Qwen3-0.6B.
+--------------------------------------------------------------------------------
+Expanding on‑device AI in Microsoft Edge: New models and APIs for the web - Microsoft Edge Blog (https://blogs.windows.com/msedgedev/2026/06/02/expanding-on-device-ai-in-microsoft-edge-new-models-and-apis-for-the-web/)
+citeturn16search7 [wordlim: 200] Published: 4 months ago; Crawled: 4 months ago; At Build 2025, we introduced the Prompt and Writing Assistance APIs in Microsoft Edge with the Phi-4-mini language model. ... With the Aion-1.0-Instruct small language model, the new Language Detector and Translator APIs, and on-device speech recognition in Microsoft Edge, you can build AI-powered web experiences by leveraging models built into the browser, without relying on specialized hardware, cloud services, or domain-specific expertise.
+--------------------------------------------------------------------------------
+qwen-qwen3-0.6b | Model Catalog | Microsoft Foundry (https://ai.azure.com/catalog/models/qwen-qwen3-0.6b)
+citeturn16search8 [wordlim: 200] Crawled: last month; Hugging Face ...   * model (string): Model ID used to generate the response, in this case since only a single model is deployed within the same endpoint you can either set it to Qwen/Qwen3-0.6B or leave it blank instead. ... Alternatively, given that `Qwen/Qwen3-0.6B` is a reasoning model, note that the recommended API is the OpenAI Responses API over the default OpenAI Chat Completions API aforementioned.
+--------------------------------------------------------------------------------
+Best Practices (https://support.huaweicloud.com/intl/en-us/bestpractice-modelarts/ModelArts%20Best%20Practices-pdf.pdf)
+citeturn16search14 [wordlim: 200] Published: last year; <td>https://huggingface.co/Qwen/Qwen3-0.6B</td> ... <td>https://huggingface.co/Qwen/Qwen3-0.6B</td>
+--------------------------------------------------------------------------------
+microsoft/phi-4 · Hugging Face (https://huggingface.co/microsoft/phi-4)
+citeturn16search9 [wordlim: 200] Published: 1.9 years ago; Crawled: 2 days ago; Primary Use Cases  | Our model is designed to accelerate research on language models, for use as a building block for generative AI powered features. ... Category  | Benchmark  | phi-4 (14B)  | phi-3 (14B)  | Qwen 2.5 (14B instruct)  | GPT-4o-mini  | Llama-3.3 (70B instruct)  | Qwen 2.5 (72B instruct)  | GPT-4o ...         model="microsoft/phi-4", ... Phi-4 Collection Phi-4 family of small language, multi-modal and reasoning models. • 17 items • Updated Jul 10, 2025 • 217
+--------------------------------------------------------------------------------
+Qwen3-0.6B
+
+| Introduction |
+|---|
+
+Qwen3 is the l (https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/static/pdf/static/zh_CN/stackflow/models/qwen3-0.6b.pdf)
+citeturn16search15 [wordlim: 200] Published: 1.4 years ago; `apt install llm-model-qwen3-0.6b-ax630c`
+--------------------------------------------------------------------------------
+Small Language Models are the Future of Agentic AI | alphaXiv (https://www.alphaxiv.org/abs/2506.02153v1)
+citeturn16search10 [wordlim: 200] Published: 1.4 years ago; Crawled: yesterday; However, researchers from NVIDIA argue that this LLM-centric approach may be fundamentally misaligned with the actual requirements of most agentic tasks. ... @misc{belcak2025smalllanguagemodelsfuture, title={Small Language Models are the Future of Agentic AI}, author={Peter Belcak and Greg Heinrich and Shizhe Diao and Yonggan Fu and Xin Dong and Saurav Muralidharan and Yingyan Celine Lin and Pavlo Molchanov}, year={2025}, eprint={2506.02153}, archivePrefix={arXiv}, primaryClass={cs.AI}, url={https://arxiv.org/abs/2506.02153}, }
+--------------------------------------------------------------------------------
+Qwen/Qwen3-0.6B · Hugging Peers (https://huggingpeers.co/models/Qwen/Qwen3-0.6B)
+citeturn16search11 [wordlim: 200] Published: 1.5 years ago; Crawled: last week; Model card Sources Papers Questions Issues / Problems Discussions Comments ...   * Hugging Face · Qwen/Qwen3-0.6B (this)
+--------------------------------------------------------------------------------
+Gemma 3 Technical Report (https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf?_bhlid=4c639b019a17d2f8e7f352bb0bda4fb8f71f48d3)
+citeturn16search16 [wordlim: 200] Published: 1.6 years ago; Google DeepMind — 2025-03-12 ... This new version comes in sizes comparable to Gemma 2 (Gemma Team, 2024b), with the addition of a 1B model. ... Please send correspondence to gemma-3-report@google.com.
+--------------------------------------------------------------------------------
+Gemma 3 Technical Report (https://arxiv.org/abs/2503.19786)
+citeturn16academia17 [wordlim: 200] Published: 1.6 years ago; We also change the architecture of the model to reduce the KV-cache memory that tends to explode with long context. ... In particular, our novel post-training recipe significantly improves the math, chat, instruction-following and multilingual abilities, making Gemma3-4B-IT competitive with Gemma2-27B-IT and Gemma3-27B-IT comparable to Gemini-1.5-Pro across benchmarks.
+--------------------------------------------------------------------------------
+2025 Responsible AI Transparency Report (https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/2025-Responsible-AI-Transparency-Report.pdf)
+citeturn16search18 [wordlim: 200] Published: 1.3 years ago; Microsoft’s Phi family of small language models (SLM) are designed to deliver high-quality outputs while maintaining a lightweight architecture for cost-effective deployment. ... Grid of Microsoft model cards listing Phi family models and task types, including: Phi-4 (Chat completion), microsoft-phi-1-5 (Text generation), microsoft-phi-2 (Text generation), Phi-4-mini-reasoning (Chat completion), Phi-4-reasoning (Chat completion), Phi-3.5-mini-instruct (Chat completion), Phi-3.5-MoE-instruct (Chat completion), Phi-3.5-vision-instruct (Chat completion), Phi-3-medium-4k-instruct (Chat completion), Phi-3-vision-128k-instruct (Chat completion), Phi-3-mini-128k-instruct (Chat completion), Phi-4-reasoning-plus-onnx (Chat completion), Phi-3-mini-4k-instruct (Chat completion), Phi-4-mini-reasoning-onnx (Chat completion), Phi-3-small-8k-instruct (Chat completion), Phi-4-mini-instruct (Chat completion), Phi-4-multimodal-instruct (Chat completion), and Phi-3-medium-128k-inst...
+--------------------------------------------------------------------------------
+Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs (https://arxiv.org/abs/2503.01743)
+citeturn16academia19 [wordlim: 200] Published: 1.6 years ago; Authors: Microsoft, :, Abdelrahman Abouelenin, Atabak Ashfaq, Adam Atkinson, Hany Awadalla, Nguyen Bach, Jianmin Bao, Alon Benhaim, Martin Cai, Vishrav Chaudhary, Congcong Chen, Dong Chen, Dongdong Chen, Junkun Chen, Weizhu Chen, Yen-Chun Chen, Yi-ling Chen, Qi Dai, Xiyang Dai, Ruchao Fan, Mei Gao, Min Gao, Amit Garg, Abhishek Goswami, Junheng Hao, Amr Hendy, Yuxuan Hu, Xin Jin, Mahmoud Khademi, Dongwoo Kim, Young Jin Kim, Gina Lee, Jinyu Li, Yunsheng Li, Chen Liang, Xihui Lin, Zeqi Lin, Mengchen Liu, Yang Liu, Gilsinia Lopez, Chong Luo, Piyush Madan, Vadim Mazalov, Arindam Mitra, Ali Mousavi, Anh Nguyen, Jing Pan, Daniel Perez-Becker, Jacob Platin, Thomas Portet, Kai Qiu, Bo Ren, Liliang Ren, Sambuddha Roy, Ning Shang, Yelong Shen, Saksham Singhal, Subhojit Som, Xia Song, Tetyana Sych, Praneetha Vaddamanu, Shuohang Wang, Yiming Wang, Zhenghao Wang, Haibin Wu, Haoran Xu, Weijian Xu, Yifan Yang, Ziyi Yang, Donghan Yu, Ishmam Zabir, Jianwen Zhang, Li Lyna Zhang, Yunan Zhang, Xiren Zhou ... Phi-4-Mini is a 3.8-billion-parameter language model trained on high-quality web and synthetic data, significantly outperforming recent open-source models of similar size and matching the performance of models twice its size on math and coding tasks requiring complex reasoning.
+--------------------------------------------------------------------------------
+Strategic Guide Aligning AI Transformation with Sustainability Goals (https://marketingassets.microsoft.com/gdc/gdcf6TAmy/original)
+citeturn16search20 [wordlim: 200] Published: 7 months ago; - A model router that automatically selects the best model for the task is now generally available in Microsoft Foundry. ... Japan Airlines used Phi-4 in a successful proof of concept designed to help attendants quickly log medical issues, delays, or other irregularities midair—even without strong WiFi. ... Mini) is built on Microsoft’s Phi small language models and deployed through Microsoft Foundry—fine-tuned on proprietary label data and internal Q&As, and designed to give label-accurate answers in under 30 seconds.
+--------------------------------------------------------------------------------
+Phi-4-Mini-Reasoning: Exploring the Limits of Small Reasoning Language Models in Math (https://arxiv.org/abs/2504.21233)
+citeturn16academia21 [wordlim: 200] Published: 1.5 years ago; Title: Phi-4-Mini-Reasoning: Exploring the Limits of Small Reasoning Language Models in Math ... Date: Wed Apr 30 00:04:35 2025 ... The resulting Phi-4-Mini-Reasoning model exceeds, on math reasoning tasks, much larger reasoning models, e.g., outperforming DeepSeek-R1-Distill-Qwen-7B by 3.2 points and DeepSeek-R1-Distill-Llama-8B by 7.7 points on Math-500.
+--------------------------------------------------------------------------------
+Qwen (https://en.wikipedia.org/wiki/Qwen)
+citeturn16search22 [wordlim: 200] Crawled: 2 days ago; Alibaba released the weights of Qwen3.8-Max as Qwen3.8-2.4T-A95B on 12 August 2026, and the open-weights model omits certain features of the cloud model, such as image input and a non-thinking mode. ... *  "Qwen/Qwen3.8-2.4T-A95B · Hugging Face". huggingface.co.
+--------------------------------------------------------------------------------
+Phi (language model) (https://en.wikipedia.org/wiki/Phi_%28language_model%29)
+citeturn16search23 [wordlim: 200] Crawled: 2 days ago; Phi is a series of large language models developed by Microsoft that are open-weights and can run locally on one's device. ... In April 2024, Microsoft released Phi-3-mini as an open-weights model with 3.8 billion parameters. ... In March 2026, Phi-4-reasoning-vision-15B was released, with the capability of deciding when to reason.
+--------------------------------------------------------------------------------
+Qwen3-0.6B model converted into MoE (https://www.reddit.com/r/LocalLLaMA/comments/1xd87wu/qwen306b_model_converted_into_moe/)
+citeturn16reddit24 [wordlim: 200] Published: yesterday; Still, my perfectionism has finally let me publish another model: Qwen3-0.6B, my first chat-style conversion.
+--------------------------------------------------------------------------------
+Qwen3-0.6B (400 MB) on a Samsung Note 8 (2017) phone drives a real desktop Chrome (https://www.reddit.com/r/LocalLLaMA/comments/1wapzjg/qwen306b_400_mb_on_a_samsung_note_8_2017_phone/)
+citeturn16reddit25 [wordlim: 200] Published: last month; Setup: Galaxy Note 8 (2017, Android 9, 6 GB), llama.cpp in Termux, Qwen3-0.6B Q4\_K\_M. ... What the model does: it gets a structured representation of the page (here, about 10 named links or fields, roughly 200 tokens), picks one by name, and at the end copies the facts it was given into JSON.
+--------------------------------------------------------------------------------
+Qwen3 Published 30 seconds ago (Model Weights Available) (https://www.reddit.com/r/LocalLLaMA/comments/1k9qxbl)
+citeturn16reddit26 [wordlim: 200] Published: 1.5 years ago; Crawled: 1.1 years ago;       Edit 1 - Uploaded: https://huggingface.co/qingy2024/Qwen3-0.6B/tree/main ... It seems there's a Qwen3-235B-A22B model.
+--------------------------------------------------------------------------------
+first Qwen 3 variants available (https://www.reddit.com/r/LocalLLaMA/comments/1kal2lq)
+citeturn16reddit27 [wordlim: 200] Published: 1.5 years ago; Crawled: 1.5 years ago; https://huggingface.co/huihui-ai/Qwen3-0.6B-abliterated ... I'm looking for a Qwen 3 14B model in .gguf format that works in chat mode rather than instruct mode, and still supports function calling.
+--------------------------------------------------------------------------------
+Qwen 3 is now on huggingface (https://www.reddit.com/r/LocalLLaMA/comments/1k9udty)
+citeturn16reddit28 [wordlim: 200] Published: 1.5 years ago; Crawled: 1.5 years ago; https://huggingface.co/Qwen/Qwen3-0.6B-FP8 ... https://huggingface.co/Qwen/Qwen3-1.7B-FP8
+--------------------------------------------------------------------------------
+Are small language models finally having their moment? (https://www.itpro.com/technology/artificial-intelligence/are-small-language-models-finally-having-their-moment)
+citeturn16news29 [wordlim: 100] Published: 7 months ago; "We've tested code completion on our Qt Modelling Language using several small language models like GPT-oss-20b or Llama 3.3 70B against larger models like Gemini 3 Pro Preview, GPT-5, and Claude 4.5." ... In 2026, some of the most notable SLMs include Microsoft's Phi-4 and Phi4--mini, Google's Gemma 3 and Gemma 3n, OpenAI's gpt-oss-120b and gpt-oss-20b, Alibaba's Qwen 2.5, and Meta's Llama 4.
+The healthcare industry deploys SLMs for data compliance and protection of patient history. Thanks to the ability of SLMs to function without the internet in case of an emergency.
+"For customers who will never connect to a public cloud in highly regulated industries like medical and defense, the choice is pretty clear", Schneider highlighted the important enterprise use case of SLMs.
+Searching through data held on premises, or generating documents grounded in information held in a private cloud, is in fact an ideal use case for SLMs. Provided they're backed with the right hardware, such as a few on premises server racks or on suitably powerful staff devices, they can complete tasks securely and with low latency.
+"When classifying thousands of support tickets, extracting invoice data, or flagging compliance issues, an SLM trained on your own data will often outperform a general-purpose giant at a fraction of the cost, running in milliseconds and keeping data strictly on-premises," says Barry James, the director of data and AI at Nucleo.
+Other common SLM use cases include:
+
+Notable SLMs
+
+In 2026, some of the most notable SLMs include Microsoft's Phi-4 and Phi4--mini, Google's Gemma 3 and Gemma 3n, OpenAI's gpt-oss-120b and gpt-oss-20b, Alibaba's Qwen 2.5, and Meta's Llama 4.
+These models can be run on hardware much smaller than you would find in a data center. Microsoft says Phi-4-mini can be run on a single PC with a minimum of 16GB RAM. Gemma 3n is designed to run on smartphones, while depending on the quantized model size (ranging from 270 million to 27 billion) Gemma 3 can run on a consumer-grade laptop or may require a top-of-the-line GPU.
+As the demand for SLMs increases, AI labs may focus more on quantization and squeezing the most performance possible out of small models.
+--------------------------------------------------------------------------------
+Qwen (https://es.wikipedia.org/wiki/Qwen)
+citeturn16search30 [wordlim: 200] Crawled: 5 months ago; El 26 de marzo de 2025, Qwen2.5-Omni-7B se publicó bajo la licencia Apache 2.0 y se puso a disposición a través de chat.qwen.ai, así como de plataformas como Hugging Face, GitHub y ModelScope. ... Los modelos Qwen 3 están disponibles a través de chat.qwen.ai y son de código abierto en Hugging Face y ModelScope.
+--------------------------------------------------------------------------------
+Microsoft quietly launches Fara-7B, a new 'agentic' small language model that lives on your PC - and it's more powerful than GPT-4o (https://www.itpro.com/technology/artificial-intelligence/microsoft-fara-7b-agentic-small-language-model)
+citeturn16news31 [wordlim: 100] Published: 11 months ago; Microsoft quietly launches Fara-7B, a new 'agentic' small language model that lives on your PC — and it’s more powerful than GPT-4oDate: Thu Nov 27 12:02:02 2025 UTCMicrosoft has unveiled Fara-7B, a new 'agentic' small language model that can live on your computer and control it for you. ... Beyond that, Fara-7B has built in controls based on Microsoft's Responsible AI Policy, with its own benchmarks suggesting a "high refusal rate of 82%".
+"We ultimately train this version of Fara-7B on a dataset of 145,000 trajectories consisting of one million steps covering diverse websites, task types, and difficulty levels," researchers explained.
+"Additionally, we include training data for several auxiliary tasks, including grounding for accurate UI element localization, captioning, and visual question answering."
+Compared to existing benchmarks, researchers said it generally outperformed larger models including GPT-4o.
+
+Agent for experimentation
+
+The CUA-enabling model doesn't mean we need never click or type again, as this is very much a project in the works. Researchers noted the new model is an "experimental release designed to invite hands-on exploration" and to draw feedback from the community.
+"Users can build and test agentic experiences beyond pure research - automating everyday web tasks like filling out forms, searching for information, booking travel, or managing accounts."
+Indeed, Fara-7B should be run in a sandboxed environment, researchers advised, allowing users to keep a close eye on how it works and to avoid any sensitive data or high-risk tasks.
+--------------------------------------------------------------------------------
+Microsoft's new 'flash' reasoning AI model ships with a hybrid architecture - making its responses 10x faster with a "2 to 3 times average reduction in latency" (https://www.windowscentral.com/artificial-intelligence/microsofts-new-flash-reasoning-ai-model-ships-with-a-hybrid-architecture-making-its-responses-10x-faster-with-a-2-to-3-times-average-reduction-in-latency)
+citeturn16news32 [wordlim: 100] Published: 1.3 years ago; Last year, Microsoft formed a dedicated AI team to develop small language models (SMLs). ... Microsoft says that Phi-4-mini-flash-reasoning follows Phi-4-mini; however, it was developed using a new hybrid architecture (SambaY), which makes its responses 10x faster: ... [Image 0: The 2025 Acer Swift GO 14 AI Windows laptop powered by the Qualcomm Snapdragon X Plus processor.] ... Microsoft is developing its own off-frontier AI models, which could be 3-6 months behind OpenAI.
+--------------------------------------------------------------------------------
+QWEN 3 0.6 B is a REASONING MODEL (https://www.reddit.com/r/LocalLLaMA/comments/1k9zhrl)
+citeturn16reddit33 [wordlim: 200] Published: 1.5 years ago; Crawled: 1.1 years ago; Someone copied the system card from when it was up a few hours ago and posted it here. ...   unsloth has GGUFs up on higingface ... I'm currently testing a Q8 quant of that little 0.6B reasoning model on SuperGPQA. ... Today, I gave the same task to Qwen3 8B and it did it perfectly while being a model x4 smaller.
+--------------------------------------------------------------------------------
+Qwen (https://fr.wikipedia.org/wiki/Qwen)
+citeturn16search34 [wordlim: 200] Crawled: 2 months ago; *  (en) « Qwen/Qwen3-Omni-30B-A3B-Instruct », sur Hugging Face, 22 septembre 2025 (consulté le 23 septembre 2025). ... *  (en) Carl Franzen, « Alibaba's new open source model QwQ-32B matches DeepSeek-R1 with way smaller compute requirements » [archive du 16 mai 2025], sur VentureBeat, 5 mars 2025 (consulté le 29 avril 2025).
+--------------------------------------------------------------------------------
+Nvidia targets open source interoperability with new model coalitions, agentic frameworks (https://www.itpro.com/technology/artificial-intelligence/nvidia-targets-open-source-interoperability-with-new-model-coalitions-agentic-frameworks)
+citeturn16news35 [wordlim: 100] Published: 7 months ago; Research from the Linux Foundation in November 2025 noted the surging appeal of open source AI models for enterprises, which often represent a more cost-effective and flexible option for IT leaders. ... "Nvidia's OpenClaw narrative reinforces this view by focusing on control, security, and sustained inference rather than raw model scale, underscoring that agentic AI will drive durable compute demand while forcing enterprises to rethink architecture, cost models, and operational safeguards."
+--------------------------------------------------------------------------------
+Gemma (language model) (https://en.wikipedia.org/wiki/Gemma_%28language_model%29)
+citeturn16search36 [wordlim: 200] Crawled: 2 weeks ago;  PaliGemma  | 2024-07-10  | 3B  | 8,192  | Image  | A vision-language model that takes text and image inputs, and outputs text. ...  PaliGemma 2  | 2024-12-04  | 3B, 10B, 28B  | 8,192  | Made by mating SigLIP-So400m with Gemma v2.0 2B, 9B, and 27B. ...  Gemma 3  | 2025-03-12  | 1B, 4B, 12B, 27B  | 131,072  | All models trained with distillation.
+--------------------------------------------------------------------------------
+通义千问 (https://zh.wikipedia.org/wiki/%E9%80%9A%E4%B9%89%E5%8D%83%E9%97%AE)
+citeturn16search37 [wordlim: 200] Crawled: last month; 2026年8月26日，Qwen3.8-Flash-Next发布，125B 参数 MoE 模型，训练成本仅为前代 1/9，是全新一代 Qwen4 系列模型的雏形。
+--------------------------------------------------------------------------------
+Nvidia GTC 2025 - all the news you might have missed (https://www.techradar.com/pro/live/nvidia-gtc-2025-all-the-news-and-updates-from-jensen-huang-keynote-as-it-happens)
+citeturn16news38 [wordlim: 100] Published: 1.6 years ago; In a press release, it said that AI-Q, powered by its new open source AgentIQ software library "integrates fast multimodal; extraction and world-class retrieval" using Nvidia's NeMo Retriever and NIM microservices, plus agentic systems. ... In case you missed it, Nvidia's new Omniverse Blueprint for Earth-2 weather analytics model hopes to improve weather forecasting in the wake of "severe weather-related events" that have had a $2 trillion impact on the global economy in the last decade. ... Both affordable, large capacity (but slow) and super fast expensive (but small) storage have their roles to play in Generative AI as they provide the foundation for the bits and bytes that will feed training and inference processes. ... Other websites within the Future portfolio have been covering GTC 2025 as well, a sign of the growing importance of the event for anyone interested in technology - so here's what you might have missed.
+--------------------------------------------------------------------------------
+AI Tasks 2025.8 - Perfect for fine tuned Gemma 3 270M (https://www.reddit.com/r/homeassistant/comments/1mqjqfj)
+citeturn16reddit39 [wordlim: 200] Published: 1.2 years ago; Crawled: 1.2 years ago; Google just released Gemma 3 270M which is extremely fast on old/edge hardware.Seems like a neat model for simple text based AI tasks introduced with HA 2025.8.Fine tuning for the task could be necessary.
+--------------------------------------------------------------------------------
+NVIDIA Author offers TL;DR on Small Language Models are the Future of Agentic AI Position Paper (https://www.reddit.com/r/LLMDevs/comments/1n96gto)
+citeturn16reddit40 [wordlim: 200] Published: 1.1 years ago; Crawled: 1.1 years ago; [Friday September 05 2025] [+18 votes]We had the privilege of hosting Peter Belcak – an AI Researcher working on the reliability and efficiency of agentic systems at NVIDIA – who walked us live through his paper making the rounds in AI circles titled “Small Language Models are the Future of Agentic AI.” ... https://arize.com/blog/nvidias-small-language-models-are-the-future-of-agentic-ai-paper/
+--------------------------------------------------------------------------------
+Look out Nvidia - Alibaba reveals its most powerful AI models for robots as it looks to strike ahead in agentic race (https://www.techradar.com/pro/look-out-nvidia-alibaba-reveals-its-most-powerful-ai-models-for-robots-as-it-looks-to-strike-ahead-in-agentic-race)
+citeturn16news41 [wordlim: 100] Published: 4 months ago; Look out Nvidia — Alibaba reveals its most powerful AI models for robots as it looks to strike ahead in agentic race ... The Qwen-Robot Suite consists of three core models: Qwen-RobotManip, a generalizable vision-language-action model; Qwen-RobotNav, a scalable vision-language navigation model; and Qwen-RobotWorld, a video world model designed for embodied intelligence. ... Nvidia's position on the matter is perhaps more nuanced with it attempting to behave as an 'enabler' versus a direct competitor as it pushes its open-source model to perhaps form the same building block that CUDA does for GPUs with Cosmos, GR00T, Isaac and similar offerings being the playbook this time around to ensure future robotics platforms are built, much like most AI tools, around Nvidia's hardware and software stack.
+--------------------------------------------------------------------------------
+Google researcher requesting feedback on the next Gemma. (https://www.reddit.com/r/LocalLLaMA/comments/1ljnmj9)
+citeturn16reddit42 [wordlim: 200] Published: 1.3 years ago; Crawled: 1.2 years ago;     What the Gemma 3 tokenizer does with its chat template is simply prefix what was set as the system prompt in front of the first user message, separated by just an empty line. ... So I hope that Gemma 3.5 or 4 will finally implement effective system prompt support! ... ps: mind you gemini deep research suggeted t it was the best model for the job.... no surprise there Google. ... my mac studio m3 ultra wants a big moe model while my RTX 5070 ti wants a small model
+
+
+Introducing Gemma 3 270M: The compact model for hyper-efficient AI - Google Developers Blog (https://developers.googleblog.com/introducing-gemma-3-270m/)
+citeturn17view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://developers.googleblog.com/introducing-gemma-3-270m/","lineno":null}); Total lines: 128
+L0: 【0†iframe†www.googletagmanager.com】
+L1:
+L2: 【1†Community/Events†developers.google.com】
+L3:
+L4: 【2†Learn†developers.google.com】
+L5:
+L6: 【3†Blog】
+L7:
+L8: 【4†YouTube†www.youtube.com】
+L9:
+L10: [Input: Search all articles...]
+L11:
+L12: [Button: Search ]
+L13:
+L14: 【5†Gemma】
+L15: # Introducing Gemma 3 270M: The compact model for hyper-efficient AI
+L16:
+L17: AUG. 14, 2025
+L18:
+L19: 【6†Olivier Lacombe】 Group Product Manager Google DeepMind
+L20:
+L21: 【7†Kathleen Kenealy】 Research Engineer
+L22:
+L23: 【8†Kat Black】
+L24:
+L25: 【9†Ravin Kumar】
+L26:
+L27: 【10†Francesco Visin】
+L28:
+L29: 【11†Jiageng Zhang】
+L30: The last few months have been an exciting time for the Gemma family of open models. We introduced 【12†Gemma 3†blog.google】 and 【13†Gemma 3 QAT】, delivering state-of-the-art performance for single cloud and desktop accelerators. Then, we announced the full release of 【14†Gemma 3n】, a mobile-first architecture bringing powerful, real-time multimodal AI directly to edge devices.
+L31: Our goal has been to provide useful tools for developers to build with AI, and we continue to be 【15†amazed†www.youtube.com】 by the vibrant 【16†Gemmaverse†deepmind.google】 you are helping create, celebrating together as downloads surpassed 200 million last week.
+L32: Today, we're adding a new, highly specialized tool to the Gemma 3 toolkit: 【17†Gemma 3 270M†ai.google.dev】, a compact, 270-million parameter model designed from the ground up for task-specific fine-tuning with strong instruction-following and text structuring capabilities already trained in.
+L33:
+L34: 【18†Image: Gemma 3 270M†storage.googleapis.com】
+L35: Gemma 3 270M brings strong instruction-following capabilities to a small-footprint model. As shown by the IFEval benchmark (which tests a model's ability to follow verifiable instructions), it establishes a new level of performance for its size, making sophisticated AI capabilities more accessible for on-device and research applications.
+L36: ## Core capabilities of Gemma 3 270M
+L37:
+L38:   * Compact and capable architecture: Our new model has a total of 270 million parameters: 170 million embedding parameters due to a large vocabulary size and 100 million for our transformer blocks. Thanks to the large vocabulary of 256k tokens, the model can handle specific and rare tokens, making it a strong base model to be further fine-tuned in specific domains and languages.
+L39:   * Extreme energy efficiency: A key advantage of Gemma 3 270M is its low power consumption. Internal tests on a Pixel 9 Pro SoC show the INT4-quantized model used just 0.75% of the battery for 25 conversations, making it our most power-efficient Gemma model.
+L40:
+L41:   * Instruction following: An instruction-tuned model is released alongside a pre-trained checkpoint. While this model is not designed for complex conversational use cases, it’s a strong model that follows general instructions right out of the box.
+L42:   * Production-ready quantization: 【13†Quantization-Aware Trained】 (QAT) 【19†checkpoints are available†huggingface.co】, enabling you to run the models at INT4 precision with minimal performance degradation, which is essential for deploying on resource-constrained devices.
+--------------------------------------------------------------------------------
+How Small Language Models Are Key to Scalable Agentic AI | NVIDIA Technical Blog (https://developer.nvidia.com/blog/how-small-language-models-are-key-to-scalable-agentic-ai/)
+citeturn17view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://developer.nvidia.com/blog/how-small-language-models-are-key-to-scalable-agentic-ai/","lineno":null}); Total lines: 99
+L0: 【0†DEVELOPER】
+L1:
+L2: 【1†Technical Blog】
+L3:
+L4: [Input: Search blog] [Input] [Input]
+L5:
+L6: 【2†Top Stories】
+L7:
+L8: [Select]
+L9:
+L10: # How Small Language Models Are Key to Scalable Agentic AI
+L11:
+L12: 【3†Image: Decorative image.†developer-blogs.nvidia.com】
+L13:
+L14: Aug 29, 2025
+L15:
+L16: By 【4†Peter Belcak】
+L17:
+L18: [Button: Like ]
+L19:
+L20: 【5†Discuss (0)】
+L21: ## AI-Generated Summary
+L22:   * Small language models (SLMs) are well-suited for agentic AI because agents typically use only a narrow subset of large language model capabilities such as parsing commands, generating structured outputs, and producing summaries.
+L23:   * The 【6†NVIDIA Nemotron Nano 2†build.nvidia.com】 demonstrates high-performing SLMs with a 9B parameter Mamba-transformer architecture that achieves 6x higher throughput while supporting 128k token contexts on a single GPU.
+L24:   * Running SLMs can be 10x to 30x cheaper than frontier LLMs, with fine-tuning completed in a few GPU hours compared to days or weeks for larger models.
+L25:   * SLMs offer greater reliability for agent workflows by adhering to strict formatting requirements and reducing failure points in production systems.
+L26:   * A heterogeneous architecture uses SLMs for the bulk of operational subtasks while reserving LLMs for complex, multi-step reasoning where their generalist capabilities are indispensable.
+L27:   * NVIDIA NeMo provides end-to-end software to curate data, customize and evaluate models, safeguard agent responses, and monitor agentic AI systems for organizations adopting this approach.
+L28: ### Next Steps
+L29:
+L30:   * Read the 【7†position paper†arxiv.org】 outlining the role of SLMs in agentic AI.
+L31:   * Explore 【8†NVIDIA NeMo Customizer】 to customize models for agentic workflows.
+L32:   * Visit the 【9†Nemotron page†www.nvidia.com】 to access open reasoning models and get started with heterogeneous AI systems.
+L33:
+L34: Powered by NVIDIA Nemotron. AI-generated content may summarize information incompletely. Verify important information. 【10†Learn more†www.nvidia.com】
+L35: The rapid rise of agentic AI has reshaped how enterprises, developers, and entire industries think about automation and digital productivity. From software development workflows to enterprise process orchestration, AI agents are increasingly helping to power enterprises’ core operations, especially in areas that have previously been deemed plagued by repetitive tasks.
+L36: Most of these agents depend heavily on large language models (LLMs). LLMs are often recognized for their general reasoning, fluency, and capacity to support open-ended dialogue. But when they’re embedded inside agents, they may not always be the most efficient or economical choice. In our recent position paper, we outline our observations about the role small language models (SLMs) play in agentic AI.
+L37: Titled 【7†Small Language Models are the Future of Agentic AI†arxiv.org】, we highlight the growing opportunities for integrating SLMs in place of LLMs in agentic applications, decreasing costs, and increasing operational flexibility.
+--------------------------------------------------------------------------------
+Qwen3: Think Deeper, Act Faster | Qwen (https://qwenlm.github.io/blog/qwen3/)
+citeturn17view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://qwenlm.github.io/blog/qwen3/","lineno":null}); Total lines: 279
+L0: ## We have a new blog!
+L1: View this page at 【0†qwen.ai†qwen.ai】.
+L2:
+L3: This page will automatically redirect in 5 seconds.
+L4:
+L5: If you are not redirected automatically, please click the button below.
+L6:
+L7: [Button: Go Now]
+L8:
+L9:   * 【1†Blog】
+L10:   * 【2†Publication】
+L11:   * 【3†About】
+L12:   * 【4†Try Qwen Chat †chat.qwen.ai】
+L13: # Qwen3: Think Deeper, Act Faster
+L14:
+L15: April 29, 2025 · 10 min · 2036 words · Qwen Team | Translations:
+L16:
+L17:   * 【5†简体中文】
+L18:
+L19: 【6†Image: Qwen3 Main Image†qianwen-res.oss-accelerate-overseas.aliyuncs.com】
+L20:
+L21: 【4†QWEN CHAT†chat.qwen.ai】 【7†GitHub†github.com】 【8†Hugging Face†huggingface.co】 【9†ModelScope†modelscope.cn】 【10†Kaggle†www.kaggle.com】 【11†DEMO†huggingface.co】 【12†DISCORD†discord.gg】
+L22: ## Introduction【13†#】
+L23: Today, we are excited to announce the release of Qwen3, the latest addition to the Qwen family of large language models. Our flagship model, Qwen3-235B-A22B, achieves competitive results in benchmark evaluations of coding, math, general capabilities, etc., when compared to other top-tier models such as DeepSeek-R1, o1, o3-mini, Grok-3, and Gemini-2.5-Pro.
+L24: Additionally, the small MoE model, Qwen3-30B-A3B, outcompetes QwQ-32B with 10 times of activated parameters, and even a tiny model like Qwen3-4B can rival the performance of Qwen2.5-72B-Instruct.
+L25: 【14†Image†qianwen-res.oss-cn-beijing.aliyuncs.com】【15†Image†qianwen-res.oss-cn-beijing.aliyuncs.com】
+L26:
+L27: We are open-weighting two MoE models: Qwen3-235B-A22B, a large model with 235 billion total parameters and 22 billion activated parameters, and Qwen3-30B-A3B, a smaller MoE model with 30 billion total parameters and 3 billion activated parameters. Additionally, six dense models are also open-weighted, including Qwen3-32B, Qwen3-14B, Qwen3-8B, Qwen3-4B, Qwen3-1.7B, and Qwen3-0.6B, under Apache 2.0 license.
+L28: Models  | Layers  | Heads (Q / KV)  | Tie Embedding  | Context Length
+L29: --- | --- | --- | --- | ---
+L30: Qwen3-0.6B  | 28  | 16 / 8  | Yes  | 32K
+L31: Qwen3-1.7B  | 28  | 16 / 8  | Yes  | 32K
+L32: Qwen3-4B  | 36  | 32 / 8  | Yes  | 32K
+L33: Qwen3-8B  | 36  | 32 / 8  | No  | 128K
+L34: Qwen3-14B  | 40  | 40 / 8  | No  | 128K
+L35: Qwen3-32B  | 64  | 64 / 8  | No  | 128K
+L36: Models  | Layers  | Heads (Q / KV)  | # Experts (Total / Activated)  | Context Length
+L37: --- | --- | --- | --- | ---
+L38: Qwen3-30B-A3B  | 48  | 32 / 4  | 128 / 8  | 128K
+L39: Qwen3-235B-A22B  | 94  | 64 / 4  | 128 / 8  | 128K
+L40: The post-trained models, such as Qwen3-30B-A3B, along with their pre-trained counterparts (e.g., Qwen3-30B-A3B-Base), are now available on platforms like Hugging Face, ModelScope, and Kaggle. For deployment, we recommend using frameworks like SGLang and vLLM. For local usage, tools such as Ollama, LMStudio, MLX, llama.cpp, and KTransformers are highly recommended. These options ensure that users can easily integrate Qwen3 into their workflows, whether in research, development, or production environments.
+L41: We believe that the release and open-sourcing of Qwen3 will significantly advance the research and development of large foundation models. Our goal is to empower researchers, developers, and organizations around the world to build innovative solutions using these cutting-edge models.
+--------------------------------------------------------------------------------
+Expanding on‑device AI in Microsoft Edge: New models and APIs for the web - Microsoft Edge Blog (https://blogs.windows.com/msedgedev/2026/06/02/expanding-on-device-ai-in-microsoft-edge-new-models-and-apis-for-the-web/)
+citeturn17view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://blogs.windows.com/msedgedev/2026/06/02/expanding-on-device-ai-in-microsoft-edge-new-models-and-apis-for-the-web/","lineno":null}); Total lines: 86
+L0: 【0†Windows Blogs】
+L1:
+L2: / Microsoft Edge Blog
+L3:
+L4: June 2, 2026
+L5:
+L6: 【1†Web APIs】
+L7: # Expanding on‑device AI in Microsoft Edge: New models and APIs for the web
+L8:
+L9:   * 【2†Sohum Chatterjee】
+L10:
+L11: At Build 2025, we 【3†introduced】 the Prompt and Writing Assistance APIs in Microsoft Edge with the Phi-4-mini language model. Since then, we’ve heard from web developers, incorporated your feedback, and expanded Edge’s on-device AI capabilities with new models and APIs.
+L12:
+L13: Today, we’re introducing three updates:
+L14:   1. A developer preview of the pre-release Aion-1.0-Instruct small language model for early testing and feedback.
+L15:   2. The Language Detector and Translator APIs in Edge 148, powered by on-device, task-specific models.
+L16:   3. Experimental on-device speech recognition with the Web Speech API, available in Edge Canary and Dev channels.
+L17: ## Developer preview of Aion-1.0-Instruct
+L18:
+L19: For the past year, the Prompt and Writing Assistance APIs have used Phi-4-mini, a 【4†highly capable†huggingface.co】 4B-parameter language model, in Edge. While it delivers strong text understanding, reasoning, and instruction-following for web scenarios, the model’s 【5†hardware requirements†learn.microsoft.com】 have limited its availability across devices.
+L20: Today, we’re introducing a developer preview of the pre-release Aion-1.0-Instruct small language model in Edge Canary and Dev channels. This language model is smaller, faster, and more efficient. It expands support to significantly more devices — including those with less capable GPUs and, through CPU-inference, devices without a GPU — while delivering strong quality for a wide range of web use-cases.
+L21: This preview allows you to evaluate Aion-1.0-Instruct in real-world web scenarios, test API interoperability, and provide feedback that will guide final optimizations, ahead of its planned open-source release on Hugging Face in July. To try out the model, explore the documentation for the 【6†Prompt API†learn.microsoft.com】 and 【7†Writing Assistance APIs†learn.microsoft.com】, experiment with the 【8†playground samples†microsoftedge.github.io】, and share your feedback on 【9†GitHub†github.com】.
+L22: ## Language Detector and Translator APIs in Edge 148
+L23:
+L24: The 【10†Language Detector†learn.microsoft.com】 and 【11†Translator†learn.microsoft.com】 APIs enable websites and browser extensions to identify the language of text and translate between language pairs. These APIs are now available in Edge 148, powered by on-device, task-specific models built directly into the browser. They deliver fast, high-quality translation, support 145+ languages, and are optimized for translation workloads on the web.
+L25: You can use these APIs from JavaScript in your site or extension, gaining improved user privacy, network independence, and zero translation costs compared to cloud-based services.
+L26: In their simplest form, the Language Detector and Translator APIs can be used as shown:
+L27:
+L28:     // Create a Language Detector session.
+L29:     const detector = await LanguageDetector.create();
+L30:
+L31:     // Detect the language of the text.
+L32:     const results = await detector.detect(userText);
+L33:
+L34:     // Use the results.
+L35:     for (const result of results) {
+L36:       // Show the full list of potential languages with their likelihood,
+L37:       // ranked from most likely to least likely.
+
+
+Qwen3: Think Deeper, Act Faster | Qwen (https://qwenlm.github.io/blog/qwen3/)
+citeturn18view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"https://qwenlm.github.io/blog/qwen3/","pattern":"distillation"}); Total lines: 279
+No matching text found for "distillation"--------------------------------------------------------------------------------
+Qwen3: Think Deeper, Act Faster | Qwen (https://qwenlm.github.io/blog/qwen3/)
+citeturn18view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"https://qwenlm.github.io/blog/qwen3/","pattern":"36"}); Total lines: 279
+L25: 【14†Image†qianwen-res.oss-cn-beijing.aliyuncs.com】【15†Image†qianwen-res.oss-cn-beijing.aliyuncs.com】
+L26:
+L27: We are open-weighting two MoE models: Qwen3-235B-A22B, a large model with 235 billion total parameters and 22 billion activated parameters, and Qwen3-30B-A3B, a smaller MoE model with 30 billion total parameters and 3 billion activated parameters. Additionally, six dense models are also open-weighted, including Qwen3-32B, Qwen3-14B, Qwen3-8B, Qwen3-4B, Qwen3-1.7B, and Qwen3-0.6B, under Apache 2.0 license.
+L28: Models  | Layers  | Heads (Q / KV)  | Tie Embedding  | Context Length
+L29: --- | --- | --- | --- | ---
+L30: Qwen3-0.6B  | 28  | 16 / 8  | Yes  | 32K
+L31: Qwen3-1.7B  | 28  | 16 / 8  | Yes  | 32K
+L32: Qwen3-4B  | 36  | 32 / 8  | Yes  | 32K
+L33: Qwen3-8B  | 36  | 32 / 8  | No  | 128K
+L34: Qwen3-14B  | 40  | 40 / 8  | No  | 128K
+L35: Qwen3-32B  | 64  | 64 / 8  | No  | 128K
+L36: Models  | Layers  | Heads (Q / KV)  | # Experts (Total / Activated)  | Context Length
+L37: --- | --- | --- | --- | ---
+L38: Qwen3-30B-A3B  | 48  | 32 / 4  | 128 / 8  | 128K
+L39: Qwen3-235B-A22B  | 94  | 64 / 4  | 128 / 8  | 128K
+L40: The post-trained models, such as Qwen3-30B-A3B, along with their pre-trained counterparts (e.g., Qwen3-30B-A3B-Base), are now available on platforms like Hugging Face, ModelScope, and Kaggle. For deployment, we recommend using frameworks like SGLang and vLLM. For local usage, tools such as Ollama, LMStudio, MLX, llama.cpp, and KTransformers are highly recommended. These options ensure that users can easily integrate Qwen3 into their workflows, whether in research, development, or production environments.
+L41: We believe that the release and open-sourcing of Qwen3 will significantly advance the research and development of large foundation models. Our goal is to empower researchers, developers, and organizations around the world to build innovative solutions using these cutting-edge models.
+L42:
+L43: Feel free to try Qwen3 out in Qwen Chat Web (【4†chat.qwen.ai†chat.qwen.ai】) and mobile APP!
+L44: ## Key Features【16†#】
+L45:
+L46:   * Hybrid Thinking Modes
+L47:
+L48: Qwen3 models introduce a hybrid approach to problem-solving. They support two modes:
+L49:
+L50:   1. Thinking Mode: In this mode, the model takes time to reason step by step before delivering the final answer. This is ideal for complex problems that require deeper thought.
+L51:   2. Non-Thinking Mode: Here, the model provides quick, near-instant responses, suitable for simpler questions where speed is more important than depth.
+L52: This flexibility allows users to control how much “thinking” the model performs based on the task at hand. For example, harder problems can be tackled with extended reasoning, while easier ones can be answered directly without delay. Crucially, the integration of these two modes greatly enhances the model’s ability to implement stable and efficient thinking budget control.
+L71:   * Improved Agentic Capabilities
+L72:
+L73: We have optimized the Qwen3 models for coding and agentic capabilities, and also we have strengthened the support of MCP as well. Below we provide examples to show how Qwen3 thinks and interacts with the environment.
+L74: ## Pre-training【18†#】
+L75: In terms of pretraining, the dataset for Qwen3 has been significantly expanded compared to Qwen2.5. While Qwen2.5 was pre-trained on 18 trillion tokens, Qwen3 uses nearly twice that amount, with approximately 36 trillion tokens covering 119 languages and dialects. To build this large dataset, we collected data not only from the web but also from PDF-like documents. We used Qwen2.5-VL to extract text from these documents and Qwen2.5 to improve the quality of the extracted content.
+L76: To increase the amount of math and code data, we used Qwen2.5-Math and Qwen2.5-Coder to generate synthetic data. This includes textbooks, question-answer pairs, and code snippets.
+L77: The pre-training process consists of three stages. In the first stage (S1), the model was pretrained on over 30 trillion tokens with a context length of 4K tokens. This stage provided the model with basic language skills and general knowledge. In the second stage (S2), we improved the dataset by increasing the proportion of knowledge-intensive data, such as STEM, coding, and reasoning tasks. The model was then pretrained on an additional 5 trillion tokens.
+--------------------------------------------------------------------------------
+Introducing Gemma 3 270M: The compact model for hyper-efficient AI - Google Developers Blog (https://developers.googleblog.com/introducing-gemma-3-270m/)
+citeturn18view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"https://developers.googleblog.com/introducing-gemma-3-270m/","pattern":"fine-tuning"}); Total lines: 128
+L31: Our goal has been to provide useful tools for developers to build with AI, and we continue to be 【15†amazed†www.youtube.com】 by the vibrant 【16†Gemmaverse†deepmind.google】 you are helping create, celebrating together as downloads surpassed 200 million last week.
+L32: Today, we're adding a new, highly specialized tool to the Gemma 3 toolkit: 【17†Gemma 3 270M†ai.google.dev】, a compact, 270-million parameter model designed from the ground up for task-specific fine-tuning with strong instruction-following and text structuring capabilities already trained in.
+L33:
+L34: 【18†Image: Gemma 3 270M†storage.googleapis.com】
+L35: Gemma 3 270M brings strong instruction-following capabilities to a small-footprint model. As shown by the IFEval benchmark (which tests a model's ability to follow verifiable instructions), it establishes a new level of performance for its size, making sophisticated AI capabilities more accessible for on-device and research applications.
+L36: ## Core capabilities of Gemma 3 270M
+L37:
+L38:   * Compact and capable architecture: Our new model has a total of 270 million parameters: 170 million embedding parameters due to a large vocabulary size and 100 million for our transformer blocks. Thanks to the large vocabulary of 256k tokens, the model can handle specific and rare tokens, making it a strong base model to be further fine-tuned in specific domains and languages.
+L39:   * Extreme energy efficiency: A key advantage of Gemma 3 270M is its low power consumption. Internal tests on a Pixel 9 Pro SoC show the INT4-quantized model used just 0.75% of the battery for 25 conversations, making it our most power-efficient Gemma model.
+L40:
+L41:   * Instruction following: An instruction-tuned model is released alongside a pre-trained checkpoint. While this model is not designed for complex conversational use cases, it’s a strong model that follows general instructions right out of the box.
+L42:   * Production-ready quantization: 【13†Quantization-Aware Trained】 (QAT) 【19†checkpoints are available†huggingface.co】, enabling you to run the models at INT4 precision with minimal performance degradation, which is essential for deploying on resource-constrained devices.
+L43: ##
+L44: The right tool for the job
+L45:
+L46: In engineering, success is defined by efficiency, not just raw power. You wouldn't use a sledgehammer to hang a picture frame. The same principle applies to building with AI.
+L47: Gemma 3 270M embodies this "right tool for the job" philosophy. It's a high-quality foundation model that follows instructions well out of the box, and its true power is unlocked through fine-tuning. Once specialized, it can execute tasks like text classification and data extraction with remarkable accuracy, speed, and cost-effectiveness. By starting with a compact, capable model, you can build production systems that are lean, fast, and dramatically cheaper to operate.
+L48: ##
+L49: A real-world blueprint for success
+L50: The power of this approach has already delivered incredible results in the real world. A perfect example is 【20†the work done by Adaptive ML with SK Telecom.†deepmind.google】 Facing the challenge of nuanced, multilingual content moderation, they chose to specialize. Instead of using a massive, general-purpose model, Adaptive ML fine-tuned a Gemma 3 4B model.
+L51: The results were stunning: the specialized Gemma model not only met but exceeded the performance of much larger proprietary models on its specific task.
+L52: Gemma 3 270M is designed to let developers take this approach even further, unlocking even greater efficiency for well-defined tasks. It's the perfect starting point for creating a fleet of small, specialized models, each an expert at its own task.
+L53:
+L54: But this power of specialization isn't just for enterprise tasks; it also enables powerful creative applications. For example, check out 【21†this Bedtime Story Generator web app†huggingface.co】:
+L55: 【22†Link to Youtube Video†www.youtube.com】 (visible only when JS is disabled)
+L56:
+L57: Gemma 3 270M used to power a Bedtime Story Generator web app using Transformers.js. The model’s size and performance make it suitable for offline, web-based, creative tasks. (Credit: Joshua (@xenovacom on X) from the Hugging Face team)
+L58: ## When to choose Gemma 3 270M
+L59:
+L60: Gemma 3 270M inherits the advanced architecture and robust pre-training of the Gemma 3 collection, providing a solid foundation for your custom applications.
+L61:
+L62: Here’s when it’s the perfect choice:
+L63:
+L64:   * You have a high-volume, well-defined task. Ideal for functions like sentiment analysis, entity extraction, query routing, unstructured to structured text processing, creative writing, and compliance checks.
+L65:   * You need to make every millisecond and micro-cent count. Drastically reduce, or eliminate, your inference costs in production and deliver faster responses to your users. A fine-tuned 270M model can run on lightweight, inexpensive infrastructure or directly on-device.
+L66:
+L67:   * You need to iterate and deploy quickly. The small size of Gemma 3 270M allows for rapid fine-tuning experiments, helping you find the perfect configuration for your use case in hours, not days.
+L68:   * You need to ensure user privacy. Because the model can run entirely on-device, you can build applications that handle sensitive information without ever sending data to the cloud.
+L69:
+L70:   * You want a fleet of specialized task models. Build and deploy multiple custom models, each expertly trained for a different task, without breaking your budget.
+L71: ##
+L72: Get started with fine-tuning
+L73:
+L74: We want to make it as easy as possible to turn Gemma 3 270M into your own custom solution. It’s built on the same architecture as the rest of the Gemma 3 models, with recipes and tools to get you started quickly. You can find our guide on 【17†full fine-tuning†ai.google.dev】 using Gemma 3 270M as part of the Gemma docs.
+L75:   * Download the model: Get the Gemma 3 270M models from 【19†Hugging Face†huggingface.co】, 【23†Ollama†ollama.com】, 【24†Kaggle†www.kaggle.com】, 【25†LM Studio†lmstudio.ai】, or 【26†Docker†hub.docker.com】. We are releasing both pretrained and instruction tuned models.
+L76:   * Try the model: Try the models on 【27†Vertex AI†console.cloud.google.com】 or with popular inference tools like 【28†llama.cpp†huggingface.co】 【29†Gemma.cpp†www.kaggle.com】, 【30†LiteRT†huggingface.co】, 【31†Keras†www.kaggle.com】, and 【32†MLX†huggingface.co】.
+L77:
+L78:   * Start fine-tuning: Use your favorite tools, including 【33†Hugging Face†ai.google.dev】, 【34†UnSloth†docs.unsloth.ai】, and 【35†JAX.†gemma-llm.readthedocs.io】
+L79:   * Deploy your solution: Once fine-tuned, you can deploy your specialized model anywhere, from 【36†your own local environment†localhost】 to 【37†Google Cloud Run†cloud.google.com】.
+L80:
+L81: The Gemmaverse is built on the idea that innovation comes in all sizes. With Gemma 3 270M, we’re empowering developers to build smarter, faster, and more efficient AI solutions. We can’t wait to see the specialized models you create.
+L82:
+L83: posted in:
+L84:   * 【5†Gemma】
+L85:   * 【38†AI】
+L86:   * 【39†Announcements】
+L87:   * 【40†Gemma 3】
+L88:   * 【41†Gemma 3 QAT】
+L89:   * 【42†on-device AI】
+L90:
+L91: Previous
+L92:
+L93: Next
+L94:
+L95: Related Posts
+L96: 【43†AI Cloud Tutorials Industry Trends Architecting Governed, Self-Evolving AI Agents on Google Cloud OCT. 22, 2026】 【44†Gemma Mobile AI Announcements Introducing EmbeddingGemma: The Best-in-Class Open Model for On-Device Embeddings SEPT. 4, 2025】 【45†AI Cloud Announcements Best Practices Integrating TorchTPU into TorchTitan and Optimizing Models for TPU OCT. 20, 2026】 【46†Cloud Announcements Events Streaming comes to API Gateway: real-time and AI-ready APIs, without changing your spec OCT.
+L97: 22, 2026】 【47†Gemma AI Announcements T5Gemma: A new collection of encoder-decoder Gemma models JULY 9, 2025】 【48†AI Cloud Tutorials Influence Powering the Agent Development Lifecycle with any framework, from ADK to LangChain and beyond OCT. 21, 2026】
+L98:   * Connect
+L99:     * 【49†Blog†googledevelopers.blogspot.com】
+L100:     * 【50†Bluesky†goo.gle】
+L101:     * 【51†Instagram†goo.gle】
+L102:     * 【52†LinkedIn†goo.gle】
+L103:     * 【53†X (Twitter)†goo.gle】
+L104:     * 【54†YouTube†goo.gle】
+L105:   * Programs
+L106:     * 【55†Google Developer Program†developers.google.com】
+L107:     * 【56†Google Developer Groups†developers.google.com】
+L108:     * 【57†Google Developer Experts†developers.google.com】
+L109:     * 【58†Accelerators†developers.google.com】
+L110:     * 【59†Women Techmakers†www.womentechmakers.com】
+L111:     * 【60†Google Cloud & NVIDIA†developers.google.com】
+L112:   * Developer consoles
+L113:     * 【61†Google API Console†console.developers.google.com】
+L114:     * 【62†Google Cloud Platform Console†console.cloud.google.com】
+L115:     * 【63†Google Play Console†play.google.com】
+L116:     * 【64†Firebase Console†console.firebase.google.com】
+L117:     * 【65†Actions on Google Console†console.actions.google.com】
+L118:     * 【66†Cast SDK Developer Console†cast.google.com】
+L119:     * 【67†Chrome Web Store Dashboard†chrome.google.com】
+L120:     * 【68†Google Home Developer Console†console.home.google.com】
+L121:   * 【69†Android†developer.android.com】
+L122:   * 【70†Chrome†developer.chrome.com】
+L123:   * 【71†Firebase†firebase.google.com】
+L124:   * 【72†Google Cloud Platform†cloud.google.com】
+L125:   * 【73†All products†developers.google.com】
+L126:   *   * 【74†Terms†developers.google.com】
+L127:   * 【75†Privacy†policies.google.com】
+
+
+Aman's AI Journal • Primers • Qwen3 (https://aman.ai/primers/qwen3/)
+citeturn19search0 [wordlim: 200] Crawled: 6 days ago;   * The following figure (source) shows the complete Qwen3 post-training pipeline, including the four-stage training path for flagship models and the separate strong-to-weak distillation path used to transfer their capabilities into smaller models. ... Qwen3 therefore uses strong-to-weak distillation for six lightweight models:
+--------------------------------------------------------------------------------
+Qwen3模型架构、训练方法梳理 - 文章 - 开发者社区 - 火山引擎 (https://developer.volcengine.com/articles/7506407032786780187)
+citeturn19search1 [wordlim: 200] Crawled: last month; > https://github.com/QwenLM/Qwen3 ... Strong-to-Weak Distillation（强到弱蒸馏）
+--------------------------------------------------------------------------------
+Qwen3 Technical Report (https://vpn.luca-server.com/px/aHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA1LjA5Mzg4djE)
+citeturn19search2 [wordlim: 200] Published: 1.4 years ago; Crawled: 2 months ago; It is noteworthy that Qwen3-30B-A3B achieves comparable performance to QwQ-32B with a smaller model size and less than 1/10 activated parameters, demonstrating the effectiveness of our Strong-to-Weak Distillation approach in endowing lightweight models with profound reasoning capabilities.
+--------------------------------------------------------------------------------
+The post-training pipeline of Qwen3 is strategically designed with two core objectives: (https://cdn.jsdelivr.net/gh/yanfeng98/paper-is-all-you-need/papers/00069-Qwen3_Technical_Report.pdf)
+citeturn19search12 [wordlim: 200] Published: 1.2 years ago; In the following sections, we present the four-stage training process and provide a detailed explanation of the Strong-to-Weak Distillation approach. ... In the query filtering phase, we use Qwen2.5-72B-Instruct to identify and remove queries that are not easily verifiable.
+--------------------------------------------------------------------------------
+本文由AINLP 公众号整理翻译，更多LLM 资源请扫码关注！ (https://www.52nlp.cn/wp-content/uploads/2025/11/Qwen3-VL%E6%8A%80%E6%9C%AF%E6%8A%A5%E5%91%8A%E8%8B%B1%E4%B8%AD%E5%AF%B9%E7%85%A7%E7%89%88.pdf)
+citeturn19search13 [wordlim: 200] Published: 8 months ago; We adopt the Strong-to-Weak Distillation pipeline as described in Qwen3 to further improve the perfor-
+--------------------------------------------------------------------------------
+Prefix Teach, Suffix Fade: Local Teachability Collapse in Strong-to-Weak On-Policy Distillation (https://arxiv.org/abs/2605.13643)
+citeturn19academia14 [wordlim: 200] Published: 5 months ago; Experimental results across strong-to-weak distillation tasks using the Qwen3 model family indicate that this release rule consistently outperforms standard full-trajectory OPD across five in-domain benchmarks at various student scales.
+--------------------------------------------------------------------------------
+Strong Teacher Not Needed? On Distillation in LLM Pretraining (https://arxiv.org/abs/2605.23857)
+citeturn19academia15 [wordlim: 200] Published: 5 months ago; Knowledge distillation generally assumes a strong-to-weak relationship where stronger teachers yield better students.
+--------------------------------------------------------------------------------
+Knowledge Distillation (KD) (https://icml.cc/media/icml-2025/Slides/43650.pdf)
+citeturn19search16 [wordlim: 200] Published: 1.3 years ago; The lower branch is labeled “Lightweight Models” and shows “Base Models” feeding a green-highlighted “Strong-to-Weak Distillation” block, ending at a red-outlined box listing “Qwen3-30B-A3B”, “14B/8B/4B/1.7B/0.6B”.
+--------------------------------------------------------------------------------
+Qwen3 Technical Report – Read with an AI tutor (https://www.chapterpal.com/s/540pckb6/qwen3-technical-report)
+citeturn19search3 [wordlim: 200] Published: 1.5 years ago; Crawled: today; ### Knowl 4 — Strong-to-Weak Knowledge Distillation for Lightweight Qwen3 Models
+--------------------------------------------------------------------------------
+GitHub - h9-tec/LLM-Training-Handbook · GitHub (https://github.com/h9-tec/LLM-Training-Handbook)
+citeturn19search4 [wordlim: 200] Crawled: yesterday; The paper then ran the controlled comparison that made the result influential: large-scale RL applied directly to Qwen2.5-32B-Base for more than 10,000 steps, against distillation into the same base model. ... The five smaller dense models and the 30B MoE were produced by strong-to-weak distillation in two phases: off-policy distillation on teacher outputs generated in both thinking and non-thinking modes, and then on-policy distillation, in which the student samples its own responses and is trained to align its logits with the teacher's by minimizing a KL divergence.
+--------------------------------------------------------------------------------
+Qwen3 Technical Report — flashcards · learn.ifs.name (https://learn.ifs.name/d/qwen3/)
+citeturn19search5 [wordlim: 200] Published: 1.5 years ago; Crawled: 4 days ago; ## 4.5 Strong-to-Weak Distillation ... Off-policy distillation first, fine-tuning on teacher outputs in both modes; then on-policy distillation, where the student generates responses and is trained to match the teacher’s (Qwen3-32B or 235B-A22B) logits by minimizing KL divergence.
+--------------------------------------------------------------------------------
+Qwen3: Features, DeepSeek-R1 Comparison, Access, and More | DataCamp (https://www.datacamp.com/blog/qwen3)
+citeturn19search6 [wordlim: 200] Published: 1.5 years ago; Crawled: today; In stage 3, called Thinking Mode Fusion, Qwen3 learns to balance slow, careful reasoning with faster responses. ... These models are trained using strong-to-weak distillation, a process where knowledge from the larger models is compressed into smaller, faster models without losing too much reasoning ability.
+--------------------------------------------------------------------------------
+fanfer/strong-to-weak-distillation | DeepWiki (https://deepwiki.com/fanfer/strong-to-weak-distillation)
+citeturn19search7 [wordlim: 200] Crawled: last month; The second system implements a two-stage strong-to-weak knowledge distillation pipeline for training smaller models using larger teacher models. ... Model Distillation: Train compact student models (e.g., Qwen3-8B) by transferring knowledge from large teacher models (e.g., Qwen3-235B-A22B) through a staged distillation process
+--------------------------------------------------------------------------------
+1/10 activated parameters, demonstrating the effectiveness of our Strong-to-Weak Distillation approach in endowing lightweight models with profound reasoning capabilities. (https://www.52nlp.cn/wp-content/uploads/2025/05/Qwen3%E6%8A%80%E6%9C%AF%E6%8A%A5%E5%91%8A%E8%8B%B1%E4%B8%AD%E5%AF%B9%E7%85%A7%E7%89%88.pdf)
+citeturn19search17 [wordlim: 200] Published: 1.4 years ago; These results, once again, demonstrate the efficacy of our Strong-to-Weak Distillation approach, making it possible for us to build the lightweight Qwen3 models with remarkably reduced costs and efforts.
+--------------------------------------------------------------------------------
+Vinija's Notes • Primers • Qwen 3 (https://vinija.ai/models/qwen3/)
+citeturn19search8 [wordlim: 200] Crawled: 3 weeks ago; The post-training pipeline is designed with Thinking Control and Strong-to-Weak Distillation as dual core objectives. ... This stage resulted in the AIME’24 score increasing from 70.1 to 85.1 over 170 RL training steps for Qwen3-235B-A22B.
+--------------------------------------------------------------------------------
+February 13, 2026 (https://www.znakschoola.ru/?_=%2Fpdf%2F2602.12125%23UE7DkG0PaBHZOakR54g1Wl8%3D)
+citeturn19search18 [wordlim: 200] Published: 8 months ago; Table 3: Evaluation accuracy on four math reasoning benchmarks in the strong-to-weak distillation setting. ... We select Qwen3-30B-A3B-Instruct-2507 as the teacher model and perform distillation on Qwen3-1.7B-Non-
+--------------------------------------------------------------------------------
+GitHub - china10s/awesome-opd: Awesome On-Policy Distillation · GitHub (https://github.com/china10s/awesome-opd)
+citeturn19search9 [wordlim: 200] Crawled: today;   * Qwen3 Technical Report (Alibaba, 2025) [arXiv:2505.09388] Qwen3's lightweight series (0.6B / 1.7B / 4B / 8B / 14B + 30B-A3B MoE) is built with a two-phase Strong-to-Weak pipeline: (1) off-policy SFT on teacher responses, (2) on-policy distillation where the student rolls out and aligns its logits with Qwen3-32B / 235B-A22B via reverse-KL.
+--------------------------------------------------------------------------------
+Qwen3 Technical Report — Feiyue KB (https://zhaifeiyue.github.io/papers/2505.09388/detail.html)
+citeturn19search10 [wordlim: 200] Crawled: 2 weeks ago; Image: Figure 1: Qwen3 4-stage post-training pipeline with parallel strong-to-weak distillation
+--------------------------------------------------------------------------------
+Prefix Teach, Suffix Fade: Local Teachability Collapse in Strong-to-Weak On-Policy Distillation (https://www.newx.sg/paper/detail/c35e3624-966f-11f1-b84c-00163e10baa7)
+citeturn19search11 [wordlim: 200] Published: 5 months ago; Crawled: last month; # Prefix Teach, Suffix Fade: Local Teachability Collapse in Strong-to-Weak On-Policy Distillation ... Experimental results across strong-to-weak distillation tasks using the Qwen3 model family indicate that this release rule consistently outperforms standard full-trajectory OPD across five in-domain benchmarks at various student scales.
+--------------------------------------------------------------------------------
+AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses (https://arxiv.org/abs/2608.12307)
+citeturn19academia19 [wordlim: 200] Published: 2 months ago; We study strong-to-weak scaffolding: whether a stronger builder model can construct inference-time harnesses that help a weaker target model solve tasks more reliably without any parameter updates. ... These results suggest that inference-time harness design is an important complement to conventional training-time distillation, enabling strong models to transfer cognitive structure to weaker models without retraining.
+--------------------------------------------------------------------------------
+Eliciting Weak-to-Strong Generalization with On-Policy Reverse Distillation (https://arxiv.org/abs/2609.08798)
+citeturn19academia20 [wordlim: 200] Published: last month; Results in conventional strong-to-weak distillation further demonstrate that OPRD effectively combines verifier-driven policy optimization with teacher guidance regardless of capacity ordering.
+--------------------------------------------------------------------------------
+List of large language models (https://en.wikipedia.org/wiki/List_of_large_language_models)
+citeturn19search21 [wordlim: 200] Crawled: 4 days ago; The smaller models including 66B are publicly available, while the 175B model is available on request. ...  Marketed by Microsoft as a "small language model". ...  It was able to solve an open problem in statistical learning theory that had previously remained unresolved by human researchers. ... Retrieved 28 August 2026 – via GitHub. ... "Alibaba unveils Qwen3.5 as China's chatbot race shifts to AI agents". ... *  "A Chinese AI called 'Qwen3.6-35B-A3B,' which is more powerful than Gemma4, has been released as an open model".
+--------------------------------------------------------------------------------
+Which small model is best for fine-tuning? We tested 12 of them and here's what we found (https://www.reddit.com/r/neuralnetworks/comments/1picp6h/which_small_model_is_best_for_finetuning_we/)
+citeturn19reddit22 [wordlim: 200] Published: 10 months ago; **TL;DR:** We fine-tuned 12 small models to find which ones are most tunable and perform best after fine-tuning.Surprise finding: Llama-3.2-1B showed the biggest improvement (most tunable), while Qwen3-4B delivered the best final performance - matching a 120B teacher on 7/8 tasks and outperforming by 19 points on the SQuAD 2.0 dataset. ... 12 models total - Qwen3 (8B, 4B, 1.7B, 0.6B), Llama (3.1-8B, 3.2-3B, 3.2-1B), SmolLM2 (1.7B, 135M), Gemma (1B, 270M), and Granite 8B.
+--------------------------------------------------------------------------------
+Very Small Models: Same corpus, same questions, way different results... (https://www.reddit.com/r/Rag/comments/1uk9dk6/very_small_models_same_corpus_same_questions_way/)
+citeturn19reddit23 [wordlim: 200] Published: 3 months ago; Crawled: 3 months ago; As a follow-up, I'll to see if the Qwen3.5 model family made any improvements, leveraging the same test (again, same files and questions, just a model swap). ... I have to say, for its size, Llama is a strong contender, but the winner is clear for a small model here. ... Would be interested to see where Gemma 4 falls here / been wondering the same but haven had time to bench test RAG with smaller models.
+--------------------------------------------------------------------------------
+Which small model is best for fine-tuning? We tested 12 of them by spending $10K - here's what we found (https://www.reddit.com/r/LocalLLM/comments/1pi98l9/which_small_model_is_best_for_finetuning_we/)
+citeturn19reddit24 [wordlim: 200] Published: 10 months ago; **TL;DR:** We fine-tuned 12 small models to find which ones are most tunable and perform best after fine-tuning.Surprise finding: Llama-3.2-1B showed the biggest improvement (most tunable), while Qwen3-4B delivered the best final performance - matching a 120B teacher on 7/8 tasks and outperforming by 19 points on the SQuAD 2.0 dataset. ... 12 models total - Qwen3 (8B, 4B, 1.7B, 0.6B), Llama (3.1-8B, 3.2-3B, 3.2-1B), SmolLM2 (1.7B, 135M), Gemma (1B, 270M), and Granite 8B.
+--------------------------------------------------------------------------------
+Qwen3: Think Deeper, Act Faster | Qwen (https://qwenlm.github.io/blog/qwen3/)
+citeturn19view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://qwenlm.github.io/blog/qwen3/","lineno":85}); Total lines: 279
+L82: ## Post-training【20†#】
+L83:
+L84: 【21†Image†qianwen-res.oss-accelerate.aliyuncs.com】
+L85:
+L86: To develop the hybrid model capable of both step-by-step reasoning and rapid responses, we implemented a four-stage training pipeline. This pipeline includes: (1) long chain-of-thought (CoT) cold start, (2) reasoning-based reinforcement learning (RL), (3) thinking mode fusion, and (4) general RL.
+--------------------------------------------------------------------------------
+[2506.02153] Small Language Models are the Future of Agentic AI (https://arxiv.org/abs/2506.02153)
+citeturn19view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2506.02153","lineno":null}); Total lines: 168
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1:
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3:
+L4: Press Enter to search · 【4†Advanced search】
+L5:
+L6: # Computer Science > Artificial Intelligence
+L7:
+L8: [Submitted on 2 Jun 2025 (【5†v1】), last revised 22 Sep 2026 (this version, v3)]

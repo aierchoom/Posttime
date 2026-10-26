@@ -1,0 +1,366 @@
+国产算力芯片告别“躺赢” - 经济观察网 － 专业财经新闻网站 (https://www.eeo.com.cn/2026/1022/1073031.shtml)
+citeturn0search0 [wordlim: 200] Published: 3 days ago; Crawled: 2 days ago; 亮眼的业绩背后，既有AI算力需求的快速增长和厂商自身的技术积累，亦有外部环境的助力——过去几年，国产替代持续推进，美国的出口管制又限制了英伟达高端芯片的对华销售，国产芯片面对的海外竞争相对有限，订单也比较有保障。 ... 2025年1月DeepSeek-R1开源后，国产芯片大多在十多天后陆续完成适配；同年9月DeepSeek-V3.2-Exp开源，华为昇腾、寒武纪、海光信息等已能在当天完成适配。2026年10月15日，大模型公司阶跃星辰开源新一代模型Step 5 Preview，华为昇腾、摩尔线程、沐曦股份、壁仞科技（06082.
+--------------------------------------------------------------------------------
+计算机行业周报：国产算力业绩兑现验证高景气，看好AI智能体落地-研究报告正文 _ 数据中心 _ 东方财富网 (https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202610191830687551)
+citeturn0search1 [wordlim: 200] Crawled: yesterday; 10月13日至10月16日，浪潮信息、海光信息先后发布2026年前三季度业绩预告，收入与利润均实现高速增长，我们认为国产算力产业正进入业绩兑现阶段，产业链确定性显著增强。 ... 　　投资建议：海光信息、浪潮信息2026年前三季度业绩预告高增验证算力产业景气度，国产替代加速推进叠加“人工智能+”政策红利，看好AI算力与AI应用两条主线的投资机会，建议关注具备自主算力供给能力的芯片与服务器龙头，以及具备行业Know-How的AI应用龙头。 ... SH）、寒武纪（688256.
+--------------------------------------------------------------------------------
+以开创的超节点互联技术，引领AI基础设施新范式 - 华为 (https://www.huawei.com/cn/news/2025/9/hc-xu-keynote-speech)
+citeturn0search2 [wordlim: 200] Published: 1.1 years ago; Crawled: yesterday; 它在算力、内存访问带宽、内存容量、互联端口数等各种规格上相比Ascend 950翻倍，大幅度提升训练、推理等场景的性能；同时还支持华为自研的HiF4数据格式。 ... 现在进入今天最激动人心的时刻，就是新产品发布环节。 ...   * Atlas 950超节点支持8192张基于Ascend 950DT的昇腾卡，是Atlas 900超节点的20多倍，我们习惯称呼的昇腾卡，每张卡对应一颗Ascend 950DT芯片，8192张昇腾卡等同于8192颗Ascend 950DT芯片。 ... 互联带宽达到16PB/s，这个数字意味着，Atlas 950一个产品的总互联带宽，已经超过今天全球互联网峰值带宽的10倍有余。 ... 2026年Q1，我们将推出Kunpeng 950处理器，包括两个版本，分别是：96核/192线程和192核/384线程；支持通用计算超节点；安全方面新增四层隔离，成为鲲鹏首颗实现机密计算的数据中心处理器。
+--------------------------------------------------------------------------------
+华为灵衢昇腾 950 智算集群云服务计划 9 月 30 日国内商用、11 月 30 日全球商用 - IT之家 (https://m.ithome.com/html/1003981.htm)
+citeturn0search3 [wordlim: 200] Published: last month; Crawled: today; IT之家 9 月 18 日消息，在华为全联接大会 2026 上，华为公司董事、华为云 CEO 周跃峰表示，灵衢昇腾 950 智算集群云服务将于 9 月 30 日面向国内市场商用，11 月 30 日面向全球市场商用。 ... 后续华为将坚持一年一代的演进节奏，昇腾 970 计划 2028 年发布，昇腾 980 计划 2029 年发布。 ... 他强调，华为 AI 战略的核心是算力，坚持硬件变现，通过“超节点 + 集群”打造中国坚实算力底座，为世界构建新的选择。
+--------------------------------------------------------------------------------
+国产 AI 算力芯片竞品分析：份额替代、供给瓶颈与生态竞争的格局分化 - deepreport.cn (https://deepreport.cn/articles/239/)
+citeturn0search4 [wordlim: 200] Published: 3 weeks ago; Crawled: 2 days ago; # 国产 AI 算力芯片竞品分析：份额替代、供给瓶颈与生态竞争的格局分化 ... 华为昇腾 2025 年出货 81.2 万张，占国产厂商出货近一半；摩根士丹利预计其 2026 年在国产 AI 加速卡内部份额约 62%，寒武纪约 14%，CR2 达 76%。 ... 产品迭代节点清晰：沐曦曦云 C600 于 2025 年 7 月 WAIC 发布、2026 年 5 月量产；燧原 L600 于 2025 年 7 月发布，为第四代训推一体芯片；摩尔线程 MTT S5000 在 2026 年上半年实现规模化销售并落地北京、无锡、杭州等地；华为昇腾 950PR 于 2026 年一季度量产、950DT 计划 2026 年四季度推出，并在 2026 年 9 月 17 日全联接大会上把昇腾 960 的芯片就绪时间提前（960DT 提前三个季度至 2027 年一季度，960PR 提前一个季度至 2027 年三季度）。
+--------------------------------------------------------------------------------
+Huawei Advances Agentic Computing on Multiple Dimensions for SuperPoDs and SuperClusters - Huawei (https://www.huawei.com/en/news/2026/9/hc-agentic-thinkpro-pto-cann)
+citeturn0search5 [wordlim: 200] Published: last month; Crawled: today; [Shanghai, China, September 19, 2026] During HUAWEI CONNECT 2026, Zhu Zhaosheng, Chief Strategy Officer for Computing at Huawei, delivered a keynote speech on the latest progress of the Kunpeng and Ascend ecosystems. ... This year, Huawei upgraded Ascend C for the new Ascend 950 generation, adding SIMD + SIMT programming and Regbase programming to provide developers with a higher-performance, more flexible programming environment. ... Huawei has open-sourced end-to-end agent tools to accelerate the deployment of AI-native applications on Ascend, including CANNBot for operator generation, Model Agent for model adaptation, MindStudio Agent for precision tuning, and Solution Agent for industrial deployment.
+--------------------------------------------------------------------------------
+昇腾950超节点真机亮相2026世界人工智能大会 - 华为 (https://www.huawei.com/cn/news/2026/7/atlas-950-superpod)
+citeturn0search6 [wordlim: 200] Published: 3 months ago; Crawled: yesterday; [中国，上海，2026年7月17日] 今日，2026世界人工智能大会（WAIC）在上海世博中心拉开帷幕。 ... 本次WAIC，华为首次线下展出昇腾950超节点（Atlas 950 SuperPoD），该产品基于灵衢互联协议和超节点架构，实现业界最大1024卡规模，提供1 EFLOPS FP8 、2 EFLOPS FP4澎湃算力，拥有256TB全局统一内存编址空间，依托TB级NPU互联超大带宽与3μs 超低RTT时延，突破集群内计算、存储等各类资源的通信瓶颈。 ... Atlas 850E原生覆盖FP8、mxFP8、HiF8、INT8、mxFP4全量低精格式，搭配4.0 TB/s高速内存带宽，可稳定实现10ms级时延推理，充分匹配Agent多轮对话、高频KV缓存读写的负载需求，实现多卡高效并行推理和内存资源池化，支持M级超长上下文。
+--------------------------------------------------------------------------------
+Huawei sets commercial launch dates for Ascend 950 AI cluster cloud service · TechNode (https://technode.com/2026/09/18/huawei-sets-commercial-launch-dates-for-ascend-950-ai-cluster-cloud-service/)
+citeturn0search7 [wordlim: 200] Published: last month; Crawled: last week; Huawei Cloud will begin commercial operations of its Ascend 950 AI cluster cloud service in China on Sept. 30 and expand it to global markets on Nov.30, Huawei Cloud CEO Zhou Yuefeng said at Huawei Connect 2026.
+--------------------------------------------------------------------------------
+China Ascend 950DT 10,000-Card Pool: Who Gets Paid (https://www.sotkn.com/markets/china/china-ascend-950dt-10000-card-pool-october-2026/)
+citeturn0search8 [wordlim: 200] Published: 4 days ago; Crawled: 3 days ago; In short: In mid-October China Telecom and Huawei said the world's first Ascend 950DT 10,000-card pool had landed at China Telecom's Inner Mongolia cloud park, in a hall able to take 30,000 cards, built on Huawei's 1,024-card supernode design and due for handover by the end of October. ... Figures from People's Daily Online 14 October and the Helingeer New Area 15 October 2026 (Hohhot), EET China 16 October (supernode), The Information 19 October via TokenPost and Techmeme (DeepSeek), and Huawei's 18 September 2025 keynote (chip specs).
+--------------------------------------------------------------------------------
+Huawei sets Ascend 950 cluster cloud launch and Ascend 960 roadmap (https://postcutoff.com/e/2026-09-18-huawei-ascend-950-cluster-cloud/)
+citeturn0search9 [wordlim: 200] Published: last month; Crawled: today;   * Last verified 9 October 2026 ... Ascend 950 is China’s main answer to US export controls; selling it as a global cloud service extends Huawei’s AI compute beyond China.
+--------------------------------------------------------------------------------
+华为公布昇腾AI芯片三年发展路线图|界面新闻 · 科技 (https://www.jiemian.com/article/13367924.html)
+citeturn0search10 [wordlim: 200] Published: 1.1 years ago; Crawled: yesterday; 9月18日，在上海世博中心举办的2025华为全联接大会上，华为副董事长、轮值董事长徐直军登台发表演讲，首次对外公布了昇腾AI芯片未来三年的产品迭代路线图，同时明确表示2026年一季度发布的新产品将采用华为自研HBM（高带宽内存）。 ... 2026年将要发布的昇腾950PR/DT微架构将升级为SIMD/SIMT，算力达到1PFLOPS（FP8）/ 2PFLOPS（FP4），支持FP32/HF32/FP16/BF16/FP8/MXFP8 /HiF8/MXFP4/HiF4等数据格式，互联带宽为2TB/s。 ... 而“基于中国可获得的芯片制造工艺”，华为正在努力打造‘超节点+集群’算力解决方案，以满足持续增长的算力需求。
+--------------------------------------------------------------------------------
+Groundbreaking SuperPoD Interconnect: Leading a New Paradigm for AI Infrastructure - Huawei (https://www.huawei.com/en/news/2025/9/hc-xu-keynote-speech)
+citeturn0search11 [wordlim: 200] Published: 1.1 years ago; Crawled: today; We will go open source and open access with CANN (based on existing Ascend 910B/910C design) by December 31, 2025. ... In 2025, the Ascend 910C chip has become better known in the industry as we've scaled up the deployment of our Atlas 900 A3 SuperPoD. ... The Ascend 950DT chip will be available in the fourth quarter of 2026. ... Maybe you've heard about the CloudMatrix384.It's a cloud service instance that Huawei Cloud has built on top of the Atlas 900 A3 SuperPoDs.
+--------------------------------------------------------------------------------
+MN
+
+2026 年 5 月 7 日
+招银国际环球市场 | 策略报告 | 市场策略
+Mark (https://www.cmbi.com.hk/upload/202605/20260507974070.pdf)
+citeturn0search12 [wordlim: 200] Published: 5 months ago; 2026 年 5 月 7 日 ... 寒武纪（688256 CH，未评级）、海光 ... 更重要的是，DeepSeek V4 的开源与低成本推理特征，有望降低下游客户部署AI 应用 ... 链条，受益于高速互连、HDI 升级和高端材料国产化；四是关注国产算力芯片在2026年的放量节奏，但更应重视产能获取、客户结构与收入质量，而非单纯交易国产替代
+--------------------------------------------------------------------------------
+晨
+会
+纪
+要
+
+2026年05月13日
+晨会纪要20260513
+重点推荐
+➢ 1.鼎龙股 (https://www.longone.com.cn/upload/newdhyj/20260513/209454.pdf)
+citeturn0search13 [wordlim: 200] Published: 5 months ago; 12.72%；2026 年3 月全球新能源车销量同比为3.97%，1-3 月累计同比为-3.09%，中国新 ... 算力芯片、PCB、存储、设备等AI 产业链公司2026Q1 业绩表现优异，AI 带来的旺盛需求 ... 华为、寒武纪、海光信息、摩尔线程等多家国产算力芯片厂商完成了Day0 适配，基本覆盖 ... 3）上游供应链国产替代预期的半导体设备、零组件、材料产
+--------------------------------------------------------------------------------
+2026年展望：人工智能超级周期或继续，“十五五”科技国产替代或加速 (https://tdt.bocomgroup.com/BOCOM_TD_TRACK/external/download?q=2b476f7f18be61656eeaf19bb249caf1c44f169ddGZOAG9X5Sa5gDp-jdxuK_5nyLHP8fQgSPZi0um4qw7a-I7LG7iTnWTJ67od2-p8m1omc4aPCYlc-7SS_Q7v2h8Hrs1zDOCypMJLyIkEIjX5AYEihSkyHHDhLZnTG6JwXqTMIzYAj4__vNa8XDzuJVNMkL7eobCn7jVs73fMrpNn7SygO7yCxo_RczxQlEjbatLaStdUkow_ou3dgY1jYzA%2C%2C)
+citeturn0search14 [wordlim: 200] Published: 10 months ago; ** 作为国产 AI 芯片的核心标杆，华为昇腾以自研达芬奇架构为技术核心，构建起全栈自主的算力生态，实现芯片 100% 国产化，为国产 AI 算力自主可控与千行百业智能化升级奠定坚实基础。于 2025 年 9 月华为全联接大会首次亮相的昇腾 950 系列，采用 7nm 制程工艺，单芯片在 FP8 精度下算力高达 1PFLOPS，搭载自研 HiZQ 2.0 HBM 内存，容量达 144GB，带宽突破 4TB/s，核心性能指标达到国际先进水平。 ... ** 寒武纪作为国产 AI 芯片领军企业，秉持“云边端一体”的产品策略，聚焦云端、边缘计算、IP 授权及软件服务领域，提供软硬件协同、训练推理融合的统一生态解决方案。
+--------------------------------------------------------------------------------
+YATA0620250920C (https://ep.ycwb.com/epaper/ycwb/resfile/2025-09-20/A06/ycwb20250920A06.pdf)
+citeturn0search15 [wordlim: 200] Published: 1.1 years ago; 9月18日，华为全联接大会2025在上海开幕，华为副董事长、轮值董事长徐直军公布了华为自研昇腾芯片的最新进展，首次披露包括昇腾950PR、昇腾950DT、昇腾960及970系列在内的多款AI芯片详细路标。他表示，面向大模型训练与推理需求的爆发式增长，华为正以“一年一代、算力翻倍”的节奏持续推进昇腾芯片迭代。更值得关注的是，华为推出基于灵衢互联技术的Atlas 950超节点，支持8192张昇腾卡，号称“全球最强超节点”，预计2026年四季度上市。 ... “我很确定地告诉大家，昇腾芯片将持续演进，为中国乃至世界的AI算力构筑坚固根基。” ... 徐直军认为，超节点在物理上由多台机器组成，但逻辑上以一台机器学习、思考、推理，华为发布了最新超节点产品 Atlas 950 SuperPod 和 Atlas 960 SuperPoD 超节点，分别支持 8192 及 15488 张昇腾卡，在卡规模、总算力、内存容量、互联带宽等关键指标上全面领先，在未来多年都将是全球最强算力的超节点。 ... 新闻图片：华为发布会舞台上，徐直军手持演示器材站立演讲，背景为蓝色科技屏幕与山景画面。 ... <tr><td>选十中七</td><td>80</td><td>1D</td><td>10</td><td>四等奖</td><td>2250</td><td>500</td><td>1125000</td></tr>
+--------------------------------------------------------------------------------
+电子行业2025年投资策略 (https://aigc.idigital.com.cn/djyanbao/%E3%80%90%E8%A5%BF%E5%8D%97%E8%AF%81%E5%88%B8%E3%80%91%E7%94%B5%E5%AD%90%E8%A1%8C%E4%B8%9A2025%E5%B9%B4%E6%8A%95%E8%B5%84%E7%AD%96%E7%95%A5%EF%BC%9A%E5%A4%8D%E8%8B%8F%E8%BD%AC%E7%B9%81%E8%8D%A3%E5%AE%9C%E6%8D%82%E8%82%A1%EF%BC%8C%E6%B6%88%E8%B4%B9%2BAI%E7%AB%AF%E4%BE%A7%E5%BA%94%E9%87%8D%E8%A7%86-2025-02-25.pdf)
+citeturn0search16 [wordlim: 200] Published: 7 months ago; 半导体代工：国产AI加速卡起步，25年国产替代或加速 ... 厂商 寒武纪 | 产品名称 MLU 370-X8 | 推出时间 2022年3月 | 流处理器数量 - | 制程 7nm | FP32算力 (TOPS) 24 | FP16算力 (TOPS) 96 | INT8算力 (TOPS) 256 | 显存类型 LPDDR5 | 显存容量 (GB) 48 | 显存位宽 (bit) - | 显存带宽 (GB/s) 614.4 ... 伴随25年字节、腾讯、阿里等国内CSP厂将受海外禁令的影响而加大对国产AI算力卡的采购，国产AI服务器加速卡需
+--------------------------------------------------------------------------------
+华为2025年年度报告 (https://www-file.huawei.com/admin/asset/v1/pro/view/3022d6c92652427fa0d7f72dcc72daa2.pdf)
+citeturn0search17 [wordlim: 200] Published: 6 months ago; - 鲲鹏推出全球首个通算超节点TaiShan 950 SuperPoD，开放新一代主板，支持伙伴打造100多款服务器新品，覆盖数据中心、工业控制、工作站等算力场景。 ... 截至2025年底，昇腾已发展超过400万开发者，350多家伙伴发布基于昇腾的大模型应用一体机，3,000多家伙伴孵化6,700多个行业解决方案，加速AI应用落地。- 华为扎实推进产学研融合，已完成首批鲲鹏昇腾科教创新卓越中心和孵化中心建设，联合15所高校开展200多个创新研究项目，与120多所高校持续深化“智能基座”等产教融合项目，升级实践课程，建设40多个大学生研究训练项目，为计算产业培养源源不断的高质量人才。
+--------------------------------------------------------------------------------
+提前！华为发布960超节点：昇腾芯片超前部署 - YouTube (https://www.youtube.com/watch?v=D5qvzGIonig)
+citeturn0youtube18 [wordlim: 200] Published: last month; 华为发布960超节点：昇腾芯片超前部署 ... Published: 2026-09-17, 16973 views, 648 likes
+# 提前！华为发布960超节点：昇腾芯片超前部署
+By: 诚阅 ChengYue (173000 followers)
+Published: 2026-09-17, 16973 views, 648 likes
+
+## Description
+#诚阅观点 #芯片  #华为  #中美科技战
+提前！华为发布960超节点：昇腾芯片超前部署
+
+paypal账号：URL
+微信WecChat：chengyue3344520
+邮箱Email：chengyuepoint@gmail.com
+--------------------------------------------------------------------------------
+On the Limitations of Non-GPU AI Accelerators for Large-Model Inference: A Field Study of MoE and Multimodal Serving on Huawei Ascend (https://arxiv.org/abs/2607.08215)
+citeturn0academia19 [wordlim: 200] Published: 3 months ago; Date: Thu Jul  9 08:12:15 2026 ... We present a field study of deploying two large inference workloads on a 16-device Huawei Ascend 910 system using CANN and vLLM-Ascend: an LLM-as-a-judge safety and alignment evaluation pipeline based on a W8A8 MoE judge model, DeepSeek-V4-Flash, and a multimodal medical vision--language benchmark based on DeepSeek-V4-Flash-Vision for MMMU and MMMU-Pro.
+--------------------------------------------------------------------------------
+大摩重磅：国产 AI 芯片长期逻辑不变，短期交付承压 - YouTube (https://www.youtube.com/watch?v=z0b7uakUsW8)
+citeturn0youtube20 [wordlim: 200] Published: 2 months ago; 摩根士丹利 2026 年 7 月 30 日发布寒武纪二季度前瞻研报，核心判断十分明确：国内 AI 算力赛道成长空间确定，但公司新品交付滞后会压制短期上行空间，维持超配评级，下调目标价至 1408 元。短期约束集中在思元 580、590 交付不及预期，根源是产能爬坡、存储供给、整机交付节奏三重供应链卡点，市场需求并未走弱，只是订单转收入的速度放缓。 ... 行业端成长逻辑扎实，该行上调 2030 年国内 AI 芯片市场规模至 910 亿美元，2025-2030 年复合增速 23%，国产化率将从 42% 提升至 70%。
+--------------------------------------------------------------------------------
+辉讯电报｜华为超节点技术迭代、懂淘赞助香港卡牌展、高通苹果续签专利协议、华为PC国内市场大幅增长 (https://www.reddit.com/r/u_ArticleLogical9458/comments/1wqdqx8/%E8%BE%89%E8%AE%AF%E7%94%B5%E6%8A%A5%E5%8D%8E%E4%B8%BA%E8%B6%85%E8%8A%82%E7%82%B9%E6%8A%80%E6%9C%AF%E8%BF%AD%E4%BB%A3%E6%87%82%E6%B7%98%E8%B5%9E%E5%8A%A9%E9%A6%99%E6%B8%AF%E5%8D%A1%E7%89%8C%E5%B1%95%E9%AB%98%E9%80%9A%E8%8B%B9%E6%9E%9C%E7%BB%AD%E7%AD%BE%E4%B8%93%E5%88%A9%E5%8D%8F%E8%AE%AE%E5%8D%8E%E4%B8%BApc%E5%9B%BD%E5%86%85%E5%B8%82%E5%9C%BA%E5%A4%A7%E5%B9%85%E5%A2%9E%E9%95%BF/)
+citeturn0reddit21 [wordlim: 200] Published: 4 weeks ago; Crawled: 4 weeks ago; 一、国产算力集群持续演进，华为发布新一代昇腾超节点相关技术成果 ... 昇腾950可组建1024卡规模统一编址超节点；而昇腾960架构超节点可支持4096张显卡，计划在明年第一、第三季度完成交付。 ... 回顾双方合作历史，苹果与高通此前曾在多国发起专利相关诉讼，2019年4月双方达成和解，签署六年有效期全球专利许可协议。 ... 调研机构Omdia发布中国大陆PC行业统计，2026年第二季度台式机与笔记本合计出货1140万台，较去年同期上涨11%，结束此前长时间市场低迷的状态。 ... 第三名软通动力出货140万台，份额12%，同比增长71%；苹果位列第四，出货120万台，占比10%，同比上涨63%。
+--------------------------------------------------------------------------------
+CANN Bench: Benchmarking Agent Generated Kernels against Real NPU and Algorithmic Limits (https://arxiv.org/abs/2607.20518)
+citeturn0academia22 [wordlim: 200] Published: 3 months ago; Date: Wed Jul  8 02:22:22 2026 ... We present CANN Bench, an open benchmark for AI-generated operator code on Huawei's Ascend NPU.
+--------------------------------------------------------------------------------
+Huawei details AI accelerator roadmap, pulls in next-generation Ascend NPUs by several quarters - FP4 performance of the Ascend 960PR doubles expectations (https://www.tomshardware.com/tech-industry/artificial-intelligence/huawei-details-ai-accelerator-roadmap-pulls-in-next-generation-ascend-npus-by-quarters-fp4-performance-of-the-ascend-960pr-doubles-expectations)
+citeturn0news26 [wordlim: 100] Published: last month; Indeed, in September 2025, Huawei announced the maximum Atlas 950 SuperPoD configuration as 2,048 Kungpeng 950 CPUs, 8,192 Ascend 950DT NPUs, 160 cabinets (128 compute + 32 communications), 8 FP8 EFLOPS, 16 FP4 EFLOPS, and 16 PB/s of aggregate interconnect bandwidth.However, in July 2026 Huawei publicly showed a real Atlas 950 SuperPoD implementation with 256 CPUs as well as 1,024 accelerator cards, which is well below the maximum configuration.
+[Image 0: Huawei Ascend AI chip]
+The first Ascend NPUs to adopt Huawei's new architecture are Ascend 950PR for prefill and recommendation, as well as Ascend 950DT for decoding and training. Huawei said at the event that its Ascend 950 platform is gaining traction as the Atlas 950 SuperPoD systems are already in large-scale commercial use, though it did not elaborate. The company said tests of its training-oriented Ascend 950DT have produced 'good results' and expects numerous Chinese AI developers to begin training models on 950DT-based systems next year. Meanwhile, Huawei acknowledged that its production capacity remains insufficient to satisfy domestic demand.
+Indeed, in September 2025, Huawei announced the maximum Atlas 950 SuperPoD configuration as 2,048 Kungpeng 950 CPUs, 8,192 Ascend 950DT NPUs, 160 cabinets (128 compute + 32 communications), 8 FP8 EFLOPS, 16 FP4 EFLOPS, and 16 PB/s of aggregate interconnect bandwidth. However, in July 2026 Huawei publicly showed a real Atlas 950 SuperPoD implementation with 256 CPUs as well as 1,024 accelerator cards, which is well below the maximum configuration. --------------------------------------------------------------------------------
+DeepSeek and Huawei release open-source Ascend AI programming tools to reduce reliance on Nvidia ecosystem (https://www.tomshardware.com/tech-industry/artificial-intelligence/deepseek-and-huawei-release-open-source-ascend-ai-programming-tools-to-reduce-reliance-on-nvidia-ecosystem-tools-include-compute-and-communication-libraries-as-well-as-ascend-support-for-tilelang)
+citeturn0news27 [wordlim: 100] Published: 3 weeks ago; Date: Thu Oct  1 14:00:00 2026 UTC ... The tools build on Huawei's existing CANN software platform, which provides the underlying infrastructure for running AI workloads on Ascend. ... Huawei said its Ascend 950 supernodes fully supported the V4 models and that its chips had been used for part of the lighter V4-Flash model's training.
+--------------------------------------------------------------------------------
+China's Huawei to enter South Korean AI chip market with new Atlas SuperPods, clusters pack 8,192 Ascend 950 accelerators per deployment - reportedly challenges Nvidia dominance with 'tripled inference performance' of H20 at one-quarter the cost (https://www.tomshardware.com/tech-industry/semiconductors/chinas-huawei-to-enter-south-korean-ai-chip-market-with-new-atlas-superpods-clusters-pack-8-192-ascend-950-accelerators-per-deployment-reportedly-challenges-nvidia-dominance-with-tripled-inference-performance-of-h20-at-one-quarter-the-cost)
+citeturn0news28 [wordlim: 100] Published: 3 months ago; China’s Huawei to enter South Korean AI chip market with new Atlas SuperPods, clusters pack 8,192 Ascend 950 accelerators per deployment — reportedly challenges Nvidia dominance with 'tripled inference performance' of H20 at one-quarter the cost ... Huawei is planning to enter South Korea's AI accelerator market in the fourth quarter of 2026 with its Ascend 950 series processors and Atlas 950 SuperPod AI computing platform, according to a report by Korean publication ETNews last week.
+--------------------------------------------------------------------------------
+Huawei shelves global AI chip rollout as China's own demand outstrips supply (https://www.tomshardware.com/tech-industry/artificial-intelligence/huawei-shelves-global-ai-chip-rollout-as-chinas-own-demand-outstrips-supply-15-488-chip-atlas-clusters-leverage-optical-networking-to-counter-nvidia-scales-to-120-eflops)
+citeturn0news29 [wordlim: 100] Published: last month; Date: Mon Sep 21 14:30:00 2026 UTC ... Huawei this week unveiled its latest AI accelerator roadmap, revealing major training and inference performance gains for its next-generation Ascend 960, 970, and 980 NPUs over the existing Ascend 910C and Ascend 950-series. ... What perhaps does make sense is offering cloud access to its hardware to various academic and research customers to popularize its CANN software stack.
+--------------------------------------------------------------------------------
+Huawei debuts its Atlas 950 AI SuperPoD at MWC 2026, taking the AI data center fight to Nvidia and AMD (https://www.techradar.com/pro/huawei-debuts-its-atlas-950-ai-superpod-at-mwc-2026-taking-the-ai-data-center-fight-to-nvidia-and-amd)
+citeturn0news31 [wordlim: 100] Published: 7 months ago; At MWC 2026, Huawei unveiled its Atlas 950 and TaiShan 950 SuperPoDs to a global audience for the first time, expanding its largest AI computing clusters beyond the Chinese market. ... Atlas 950 runs on Huawei's Ascend AI chips and works with CANN, its open-sourced compute architecture that supports frameworks such as PyTorch and Triton.
+--------------------------------------------------------------------------------
+Is the US afraid of Huawei? Reports point to the Ascend 910C accelerator's performance to explain the surprising reversal of Nvidia's H200 AI GPU ban on China (https://www.techradar.com/pro/is-the-us-afraid-of-huawei-reports-hint-at-the-ascend-910c-accelerator-performance-to-justify-the-surprising-reversal-of-nvidias-h200-ai-gpu-ban-on-china)
+citeturn0news33 [wordlim: 100] Published: 10 months ago; According to reports, the decision was influenced by Huawei's rapid development of its Ascend 910C chips, particularly the CloudMatrix 384 system, which integrates 384 of these accelerators. ... The company plans to scale Ascend 910C production to hundreds of thousands of units next year, with projections suggesting millions could be manufactured by 2026. ... Huawei has made its CANN software for Ascend GPUs open source, offering multi-layer programming interfaces for AI applications.
+
+
+华为开创AI时代计算架构：让百万处理器成为一台计算机 - 华为 (https://www.huawei.com/cn/news/2026/9/new-computing-architecture-peerium)
+citeturn1search0 [wordlim: 200] Published: last month; Crawled: today; [中国，上海，2026年9月17日] 今日，华为发布AI时代的全新计算架构 – Peerium计算架构。 ... Atlas 950超节点是Peerium计算架构的首代产品，25.6万卡Atlas 950超节点集群已经在部署中，基于NPO的Atlas 960系统正在测试中。华为轮值董事长徐直军表示：“AI时代，华为基于开创的Peerium计算架构，持续打造满足客户训练和推理需求的超节点和集群，让算力无处不在，让智能无所不及。”
+
+# 华为开创AI时代计算架构：让百万处理器成为一台计算机
+
+关键信息：
+
+  * Peerium计算架构突破了图灵范式，提出了Nested BSP，突破了冯·诺依曼单机架构，颠覆了长久以来的主从架构，实现了百万级处理器真正成为一台更大的计算机。
+  * 灵衢是实现Peerium计算架构的关键互联技术。
+
+[中国，上海，2026年9月17日] 今日，华为发布AI时代的全新计算架构 – Peerium计算架构。该架构能实现百万级处理器成为一台计算机，以满足不断发展的AI算力需求。
+
+Peerium计算架构是基于嵌套并行，统一内存寻址、平等互联实现百万级处理器强扩展的计算架构。Peerium计算架构突破了图灵范式，提出了Nested BSP，突破了冯·诺依曼单机架构，颠覆了长久以来的主从架构，实现了百万级处理器真正成为一台更大的计算机。
+
+灵衢是实现Peerium计算架构的关键互联技术。灵衢是基于一个开放协议，可无限扩展地联接CPU、NPU、内存、SSD、网卡和交换机的高速总线。有了灵衢，可实现计算、存储和网络的平等互联。
+
+Atlas 950超节点是Peerium计算架构的首代产品，25.6万卡Atlas 950超节点集群已经在部署中，基于NPO的Atlas 960系统正在测试中。
+
+华为轮值董事长徐直军表示：“AI时代，华为基于开创的Peerium计算架构，持续打造满足客户训练和推理需求的超节点和集群，让算力无处不在，让智能无所不及。”
+
+FAQs：
+
+Q1:什么是Peerium计算架构？
+Peerium计算架构是基于嵌套并行，统一内存寻址、平等互联实现百万级处理器强扩展的计算架构。
+
+Q2：什么是灵衢？
+灵衢是基于一个开放协议，可无限扩展地联接CPU、NPU、内存、SSD、网卡和交换机的高速总线。有了灵衢，可实现计算、存储和网络的平等互联。--------------------------------------------------------------------------------
+智启新未来，打造智能世界的硅基黑土地 - 华为 (https://www.huawei.com/cn/news/2026/9/hc-wang-keynote)
+citeturn1search1 [wordlim: 200] Published: last month; Crawled: today; [中国，上海，2026年9月17日] 今日，华为全联接大会2026在上海启幕。 ... 截至目前，昇腾910C超节点已部署超1000套，昇腾950超节点也已规模商用。 ... 基于昇腾960芯片和Hi-ONE，华为打造了业界首个采用NPO技术的超节点——昇腾960超节点，单个超节点为4096卡规模，最大可提供8E FP8的算力，高达1PB的HBM容量。
+
+# 智启新未来，打造智能世界的硅基黑土地
+
+关键信息：
+
+  * 战略聚焦：面向智能世界加速到来带来的算力需求，华为坚持聚焦AI基础设施，围绕“超节点+集群”推进系统架构创新，打造智能世界的“硅基黑土地”。
+  * 技术突破：华为发布业界首个采用NPO技术的昇腾960超节点，并升级鲲鹏超节点、推出OceanStor M900 AI记忆存储系统；基于灵衢UnifiedBus统一互联，构建Agentic超节点集群，支持百万卡超大规模集群。
+  * 生态开放：华为持续构建开源开放的算力生态，鲲鹏全球开发者超过416万；CANN进入常态化开源社区运营，昇腾覆盖90多个主流第三方社区，并正式成为PyTorch官方支持的技术路线。
+
+[中国，上海，2026年9月17日] 今日，华为全联接大会2026在上海启幕。华为副董事长、轮值董事长汪涛在大会上发表了“智启新未来，打造智能世界的硅基黑土地”的主题演讲，与产业界共同探讨在智能浪潮中如何携手合作，打造强大的AI基础设施，筑牢坚实的算力底座，迎接智能世界带来的机遇与挑战。
+--------------------------------------------------------------------------------
+HYGON INFORMATION TECHNOLOGY CO., LTD. - Earnings Release 2026 | FinancialFilings (https://financialfilings.com/filings/hygon-information-technology-co-ltd/earnings-release/2026/72878756/)
+citeturn1search2 [wordlim: 200] Published: last week; Crawled: 4 days ago; # HYGON INFORMATION TECHNOLOGY CO., LTD. — Earnings Release 2026 ... 以上预告数据仅为初步核算数据，具体准确的财务数据以公司正式披露的 2026 年 第三季度报告为准，敬请广大投资者注意投资风险。
+--------------------------------------------------------------------------------
+Advancing the Agentic World, Building a Solid Silicon Foundation - Huawei (https://www.huawei.com/en/news/2026/9/hc-wang-keynote)
+citeturn1search3 [wordlim: 200] Published: last month; Crawled: today; [Shanghai, China, September 17, 2026] HUAWEI CONNECT 2026 kicked off today in Shanghai. ... "In 2028 and 2029, we will roll out the Ascend 970 and 980 chips, respectively. ... To meet these demands, Huawei has fully upgraded its TaiShan 950 SuperPoD.
+--------------------------------------------------------------------------------
+公司公告_海光信息：关于召开2026年第三季度业绩说明会的公告新浪财经_新浪网 (https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12641586)
+citeturn1search4 [wordlim: 200] Published: last week; Crawled: today; 海光信息技术股份有限公司(以下简称“公司”)将于2026 年10 月20 日发 布公司2026 年第三季度报告,为便于广大投资者更全面深入地了解公司2026 年第三季度经营成果、财务状况,公司计划于2026 年10 月22 日(星期四) 16:00-17:00 举行2026 年第三季度业绩说明会,就投资者关心的问题进行交流。 ... 二)投资者可于2026 年10 月15 日(星期四)至10 月21 日(星期三) 16:00 前登录上证路演中心网站首页,点击“ 提问预征集” 栏目 (https://roadshow.sseinfo.com/preCallQa),根据活动时间,选中本次活动或通过 公司邮箱investor@hygon.cn 向公司提问,公司将在说明会上对投资者普遍关注 的问题进行回答。
+--------------------------------------------------------------------------------
+华为副董事长徐直军：华为在未来3年规划了3个系列的昇腾芯片 | 每经网 (https://www.nbd.com.cn/articles/2025-09-18/4065481.html)
+citeturn1search5 [wordlim: 200] Published: 1.1 years ago; Crawled: last month; 9月18日，华为副董事长、轮值董事长徐直军在华为全联接大会上首次透露了昇腾芯片的演进和目标。 ... 分别是950系列——包括950PR（2026年第一季度推出）和950DT（2026年第四季度推出）两颗芯片，960（2027年第四季度推出）系列，970系列（2028年第四季度推出）。
+--------------------------------------------------------------------------------
+海光信息(688041) 盈利预测_F10_同花顺金融服务网 (https://basic.10jqka.com.cn/176/688041/worth.html)
+citeturn1search6 [wordlim: 200] Crawled: today; ## 发布时间：2026-10-21 来源：华泰证券Hygon has reported 3Q26 revenue of RMB5.856bn (+45.4% YoY, +15.6% QoQ), an attributable NP of RMB1.048bn (+37.9% YoY, -5.7% QoQ), and a recurring attributable NP of RMB953mn (+31.1% YoY, -7.9% QoQ).
+--------------------------------------------------------------------------------
+华为徐直军公布昇腾芯片后续规划 (https://feeds-drcn.cloud.huawei.com.cn/landingpage/latest?channel=-1&cpid=666&ctype=news&docid=1051169cc5366b3d8fff59efdafba3a981cb690&dy_scenario=relate&ifl=zh_CN&r=CN&tn=1cee3ec1d9a50c389ad11b191c0900a784f8fb05ea305d161386394fa919b762&to_app=hwbrowser)
+citeturn1search7 [wordlim: 200] Crawled: last month; 〖华为徐直军公布昇腾芯片后续规划〗18日，上海，华为全联接大会2025（HC 2025），华为副董事长、轮值董事长徐直军现场公布了昇腾芯片的后续规划。他表示，预计华为2026年第一季度推出昇腾950PR芯片，四季度推出昇腾950DT，2027年四季度推出昇腾960芯片，2028年四季度推出昇腾970芯片。
+--------------------------------------------------------------------------------
+以开创的超节点互联技术，引领AI基础设施新范式 - 华为 (https://www.huawei.com/cn/news/2025/9/hc-xu-keynote-speech)
+citeturn1search8 [wordlim: 200] Published: 1.1 years ago; Crawled: yesterday; 因此，今天，我就直入主题来介绍昇腾芯片及其路标。 ... 未来3年，至2028年，我们在开发和规划了三个系列，分别是Ascend 950系列，包括两颗芯片：Ascend 950PR和Ascend 950DT，以及Ascend 960、Ascend 970系列，更多具体芯片还在规划中。 ... 大模型训练和推理的性能相比Atlas 950超节点，将分别提升3倍和4倍以上，达到15.9M TPS 和80.5M TPS。 ... 2026年Q1，我们将推出Kunpeng 950处理器，包括两个版本，分别是：96核/192线程和192核/384线程；支持通用计算超节点；安全方面新增四层隔离，成为鲲鹏首颗实现机密计算的数据中心处理器。
+--------------------------------------------------------------------------------
+Chips Booked: China Hygon vs HBM (Oct 2026) (https://www.sotkn.com/markets/china/china-hygon-q3-hbm-october-2026/)
+citeturn1search9 [wordlim: 200] Published: 6 days ago; Crawled: 3 days ago; CHINA PULSE · Data as at 20 Oct 2026 · Next update: after a named HBM volume print or Hygon’s annual report ... Hygon, 2026 third-quarter report, released 19 Oct 2026, board 20 Oct. cninfo PDF — 9M sales, Q3 sales, profit, operating cash, inventory, prepayments, contract liabilities, stocking explanation.
+--------------------------------------------------------------------------------
+DeepSeek 开源昇腾基础组件 (https://feeds-drcn.cloud.huawei.com.cn/landingpage/latest?channel=-1&cpid=666&ctype=news&docid=1051098866879&dy_scenario=relate&pageType=26&r=CN&tn=6a280ab8ec7b3c6c8b24497a7153beb11c493b49b311429996af710822fbe672&to_app=hwbrowser)
+citeturn1search10 [wordlim: 200] Published: 3 weeks ago; Crawled: 3 weeks ago; 大河财立方 2026/9/30 10:10河南DeepSeek官微消息，公司正式开源面向华为昇腾算力平台的基础设施组件，涵盖 TileLang 高级语言编译工具、计算库、分布式通信库。
+--------------------------------------------------------------------------------
+海光信息: 海光信息技术股份有限公司关于召开2026年第三季度业绩说明会的公告内容摘要_公告简述_数据解析_股票_证券之星 (https://wap.stockstar.com/detail/AN2026101400038534)
+citeturn1search11 [wordlim: 200] Published: last week; Crawled: yesterday; 投资者可于2026年10月15日至10月21日16:00前通过上证路演中心网站或公司邮箱investor@hygon.cn提问。 ... 公司将于2026年10月20日披露2026年第三季度报告。
+--------------------------------------------------------------------------------
+型的适配、优化和应用支持工作。公司国产算力测试验证推广服务一体化平台通过外购模式接入一定规模的包括华为昇腾系列芯片在内的多种类型的国产芯片算力资源，国产算力事业部负责用户应用安装、移植、测试、适配、优化，以及运行过程中的保障工作。公司智算云平台已部署 DeepSeek（R1、V3、V3.1 及 V3.2 等多个版本）、智谱大模型、Qwen（2.5、3、Qwen-Long 等）多个等主流大模型。 (https://www.bse.cn/disclosure/2025/2025-11-20/f97a2b8355b743c598df316eef045d06.pdf)
+citeturn1search12 [wordlim: 200] Published: 11 months ago; Crawled: 11 months ago; 公司国产算力测试验证推广服务一体化平台通过外购模式接入一定规模的包括华为昇腾系列芯片在内的多种类型的国产芯片算力资源，国产算力事业部负责用户应用安装、移植、测试、适配、优化，以及运行过程中的保障工作。公司智算云平台已部署 DeepSeek（R1、V3、V3.1 及 V3.2 等多个版本）、智谱大模型、Qwen（2.5、3、Qwen-Long 等）多个等主流大模型。 ... 算海计划”是公司长期推进的资源合作模式，具有双重战略意义：一方面，通过汇聚各地零散、闲置的算力资源，提升合作伙伴算力设备利用率；另一方面，这也是公司在多元化算力合作运营方面的重要探索，有助于增强算力网络调度能力，并为直接采购模式下接入的算力资源提供有效补充。“
+--------------------------------------------------------------------------------
+《2026 年第三季度报告》（公告编号：2026-052）。 (https://static.cninfo.com.cn/finalpage/2026-10-22/1225614429.PDF)
+citeturn1search13 [wordlim: 200] Published: 3 days ago; 《2026 年第三季度报告》（公告编号：2026-052）。 ... 具体内容详见公司同日披露于巨潮资讯网（http://www.cninfo.com.cn）的《关于投资建设年产 1 万吨纳米硅材料项目的公告》（公告编号：2026-055）。
+--------------------------------------------------------------------------------
+大模型背景下高等教育数智化转型研究报告 (https://e.huawei.com/marketingcloud/pep/asset/20000001/Material/dcaad91606054b69b6b99b45f3cf0ed4/M3T1A669N1175578390404862104/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%83%8C%E6%99%AF%E4%B8%8B%E9%AB%98%E7%AD%89%E6%95%99%E8%82%B2%E6%95%B0%E6%99%BA%E5%8C%96%E8%BD%AC%E5%9E%8B%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A.pdf)
+citeturn1search14 [wordlim: 200] Published: 1.1 years ago; DeepSeek 的高性能、低成本、全开源和自主化促使大模型从百模大战开始收敛，千行万业应用开始蓬勃发展。 ... 2025 年 2 月以来，华为先后为东南大学、沈阳工学院、浙江树人学院、北京大学、兰州大学、上海交通大学、深圳大学、东莞理工学院、山东大学等学校基于昇腾平台部署了满血版、蒸馏版等不同版本的 DeepSeek 大模型，支持各学校助教、助学、助研、助评、助管等不同的应用需求。 ... 主框架右半部分标注“受控访问”，包含“AI大模型应用和推理”“瞄准体验的推理响应SLA”“业务场景 & 员工”“部署 / 边缘推理 / 中心推理”“APP + AI”“技能增强”，其下写有“Prompt工程、RAG、Agent、NL2SQL、Search、Copilot、Studio…”以及“调用组装、沉淀共享、上下文”，底部为“技能货架（Capability Catalog）Prompt市场、AIBOT、助手技能…”、“专家知识库 知识向量 图谱 索引”和“推理资源池（10~100~1000+卡）”。
+--------------------------------------------------------------------------------
+国新证券-计算机行业周度：华为升腾AI芯片与超节点技术-250922.pdf (https://pdf.dfcfw.com/pdf/H3_AP202509231749108328_1.pdf%3F1758643736000.pdf)
+citeturn1search15 [wordlim: 200] Crawled: 1.1 years ago; 华为秉承开放灵犀技术规范的策略，允许第三方企业开发兼容硬件，这一举措有助于加速技术在产业内的应用与普及，但能否成功关键取决于技术文档质量、实际用例支持以及问题响应机制的完善程度。 ... 华为将其 AI 生态战略的核心置于软件开源与软硬协同优化之上，通过分层解耦的 CANN 软件栈实现从算子库到驱动层的全栈开源。 ... 该合作使得 DeepSeek 大模型在昇腾平台上的单推理吞吐量显著提升，解码时延大幅降低，同时显存占用减少。 ... 6
+--------------------------------------------------------------------------------
+万联证券-电子行业跟踪报告：DeepSeek V4正式发布，华为昇腾超节点系列产品全面支持-260427.pdf (https://pdf.dfcfw.com/pdf/H3_AP202604271821626278_1.pdf?1777317565000.pdf=)
+citeturn1search16 [wordlim: 200] Crawled: 6 months ago; 产业动态：（1）AI 算力，2026 年 4 月 24 日，DeepSeek V4-Pro 和 DeepSeek V4-Flash 正式发布并开源，模型上下文处理长度由原有的 128K 显著扩展至 1M，实现近 10 倍的容量提升，首次增加了 KV Cache 滑窗和压缩算法，大幅减少 Attention 计算和访存开销，并通过模型架构创新更好地支持了 Agent 和 Coding 场景。 ... 昇腾 950 通过融合 kernel 和多流并行技术降低 Attention 计算和访存开销，大幅提升推理性能，结合多种量化算法，实现了高吞吐、低时延的 DeepSeek V4 模型推理部署。
+--------------------------------------------------------------------------------
+DeepSeek 行业应用案例集：解锁智能变革密码 (https://pic.goubyte.com/2025-04-21-pftmhhijqi.pdf)
+citeturn1search17 [wordlim: 200] Published: 1.7 years ago; Crawled: 1.6 years ago; 截图内容为一则华为计算公众号文章页面：标题“昇腾原生：澜晨科技推出基于昇腾算力的 DeepSeek R1 系列推理 API及云镜像服务”，下方显示“华为计算 2025年02月04日 18:24 湖南”；中部横幅写有“昇腾AI 向上的力量”；灰色引用框内再次说明“DeepSeek-R1系列模型的开源……联合发布基于昇腾算力的DeepSeek R1系列推理API，及云镜像服务。”
+--------------------------------------------------------------------------------
+DeepSeek V4开源 - 开源AI的新天花板 + 华为昇腾原生适配 - YouTube (https://www.youtube.com/watch?v=K1mnGCAMWXI)
+citeturn1youtube18 [wordlim: 200] Published: 6 months ago; # DeepSeek V4开源 - 开源AI的新天花板 + 华为昇腾原生适配 ... Published: 2026-04-24, 2958 views, 53 likes ... DeepSeek V4 刚刚开源发布 -- 52 页技术报告、两个预览版模型(V4-Pro 1.6T / V4-Flash 284B)、MIT 协议、1M tokens 上下文。 ... **技术架构**:CSA + HCA 混合注意力(1M ctx 下 FLOPs 只要 V3.2 的 27%、KV cache 10%)、mHC 流形约束残差、Muon 优化器替换 AdamW、On-Policy Distillation 全面替换混合 RL。
+--------------------------------------------------------------------------------
+DeepSeek Harness (https://zh.wikipedia.org/wiki/DeepSeek_Harness)
+citeturn1search19 [wordlim: 200] Crawled: yesterday; 当前版本 | v0.2.1-alpha.1（2026年10月3日，​20天前） ... DeepSeek Harness是中国深度求索公司正在进行公测的Agent harness。 ... 2026年9月29日，DeepSeek Harness官方桌面预览版上线，开箱即用。
+--------------------------------------------------------------------------------
+告别算力焦虑！中国AI不再靠英伟达，华为做对了什么？ - YouTube (https://www.youtube.com/watch?v=9IAn4XbrJi8)
+citeturn1youtube20 [wordlim: 200] Published: 4 months ago; Published: 2026-06-08, 33181 views, 998 likes ... DeepSeek V4正式发布时，华为同步官宣：昇腾950系列超节点已完成对该模型的全版本适配和全链路优化 。 ... 在面临物理制程限制与CUDA生态壁垒的双重绞杀下，国产算力如何实现从单卡到系统、从闭源到开源的绝地反击 ？ ... 00:00 老黄的预言与 DeepSeek V4 的冲击 ... 10:11 数补物理：华为的"非摩尔定律"破局之路
+--------------------------------------------------------------------------------
+华为怎么提前发布了昇腾960超节点？ (https://www.reddit.com/r/xiabb/comments/1wm09wk/%E5%8D%8E%E4%B8%BA%E6%80%8E%E4%B9%88%E6%8F%90%E5%89%8D%E5%8F%91%E5%B8%83%E4%BA%86%E6%98%87%E8%85%BE960%E8%B6%85%E8%8A%82%E7%82%B9/)
+citeturn1reddit21 [wordlim: 200] Published: last month; [Monday September 21 2026] [+1 votes] ... 950单台节点的NPU上限是1024 卡，960能上4096卡，提升幅度4倍。
+--------------------------------------------------------------------------------
+DeepSeek-V4.1 (https://zh.wikipedia.org/wiki/DeepSeek-V4.1)
+citeturn1search22 [wordlim: 200] Crawled: yesterday; 网站 | www.deepseek.comDeepSeek-V4.1是深度求索（DeepSeek）於2026年9月10日發布的人工智能大型语言模型系列，首個版本為DeepSeek-V4.1-Flash。
+--------------------------------------------------------------------------------
+DeepSeek-V4 (https://zh.wikipedia.org/wiki/DeepSeek-V4)
+citeturn1search23 [wordlim: 200] Crawled: yesterday; 网站 | www.deepseek.com ... 随着2026年9月10日，V4.1-Flash正式版的公布，深度求索宣布原deepseek-V4-flash-0731及deepseek-v4-flash-vision-exp模型于同日正式停用；出于兼容考虑，将暂时路由到V4.1-Flash模型中。
+--------------------------------------------------------------------------------
+辉讯电报｜Win11 26H2年度版推送、龙族幻想垂直服务生态成型、AMD服务器芯片产能售罄、DeepSeek开源昇腾底层组件 (https://www.reddit.com/r/Stocksnice/comments/1wunzzn/%E8%BE%89%E8%AE%AF%E7%94%B5%E6%8A%A5win11/)
+citeturn1reddit24 [wordlim: 200] Published: 3 weeks ago; [Thursday October 01 2026] [+1 votes] ... 10月1号辉讯电报今日新闻综合报道 ... 游戏模块加深和Xbox体系的融合，局域网共享资源的访问稳定性得到改善。 ... 该系列基于Zen6架构，采用台积电2nm工艺，划分SP7、SP8、Venice‑X、Verano四款不同定位产品，将在2026年末至2027年下半年陆续面世。 ... DeepSeek对外公布一套适配华为昇腾芯片的开源基础设施套件，包含TileLang高级编译语言、矩阵运算库、分布式通信模块等，功能对标英伟达CUDA生态。 ... 所有算子均完成昇腾平台适配，此前已经支撑DeepSeek‑V4大模型的训练工作。
+--------------------------------------------------------------------------------
+DeepSeek (https://zh.wikipedia.org/wiki/DeepSeek)
+citeturn1search25 [wordlim: 200] Crawled: 2 days ago; DeepSeek V4.1 Flash / 2026年9月10日，​43天前 ... 网站 | chat.deepseek.com ... 2025年1月20日發布的DeepSeek-R1取得突破性成功，於同年1月27日超越ChatGPT，成為美國iOS App Store上最多人下載的免費軟件應用程式。 ... *  DeepSeek"开源周"打响发令枪 AI进入"开源盛世".
+--------------------------------------------------------------------------------
+现在还有人关心 DeepSeek 吗？ (https://www.reddit.com/r/xiabb/comments/1w3f1wn/%E7%8E%B0%E5%9C%A8%E8%BF%98%E6%9C%89%E4%BA%BA%E5%85%B3%E5%BF%83_deepseek_%E5%90%97/)
+citeturn1reddit26 [wordlim: 200] Published: last month; [Monday August 31 2026] [+1 votes] ... VisionExp 开源了 ... 目前手握算力、愿意补贴的大厂，基本都已经掌握主流的训练法，DeepSeek 是否还能拿出再把训练、推理成本砍十倍的技术？ ...   应该不是这个问题，DS在昇腾生态上跑，已经很稳定了。
+--------------------------------------------------------------------------------
+辉讯电报｜华为超节点技术迭代、懂淘赞助香港卡牌展、高通苹果续签专利协议、华为PC国内市场大幅增长 (https://www.reddit.com/r/u_ArticleLogical9458/comments/1wqdqx8/%E8%BE%89%E8%AE%AF%E7%94%B5%E6%8A%A5%E5%8D%8E%E4%B8%BA%E8%B6%85%E8%8A%82%E7%82%B9%E6%8A%80%E6%9C%AF%E8%BF%AD%E4%BB%A3%E6%87%82%E6%B7%98%E8%B5%9E%E5%8A%A9%E9%A6%99%E6%B8%AF%E5%8D%A1%E7%89%8C%E5%B1%95%E9%AB%98%E9%80%9A%E8%8B%B9%E6%9E%9C%E7%BB%AD%E7%AD%BE%E4%B8%93%E5%88%A9%E5%8D%8F%E8%AE%AE%E5%8D%8E%E4%B8%BApc%E5%9B%BD%E5%86%85%E5%B8%82%E5%9C%BA%E5%A4%A7%E5%B9%85%E5%A2%9E%E9%95%BF/)
+citeturn1reddit27 [wordlim: 200] Published: 4 weeks ago; Crawled: 4 weeks ago; 昇腾950可组建1024卡规模统一编址超节点；而昇腾960架构超节点可支持4096张显卡，计划在明年第一、第三季度完成交付。整套集群依托灵衢UnifiedBus互联协议实现跨层级的数据互通，该协议已经对外开源。 ... 此前黄仁勋曾谈及DeepSeek运行在华为硬件上带来的行业影响，随着整套系统参数对外披露，也让行业重新评估国产算力集群的实际价值。 ... 调研机构Omdia发布中国大陆PC行业统计，2026年第二季度台式机与笔记本合计出货1140万台，较去年同期上涨11%，结束此前长时间市场低迷的状态。 ... 第三名软通动力出货140万台，份额12%，同比增长71%；苹果位列第四，出货120万台，占比10%，同比上涨63%。
+--------------------------------------------------------------------------------
+深度求索 (https://zh.wikipedia.org/wiki/%E6%B7%B1%E5%BA%A6%E6%B1%82%E7%B4%A2)
+citeturn1search28 [wordlim: 200] Crawled: 2 weeks ago; 2021年，幻方量化投资10亿元推出“萤火二号”超级计算机，搭载了约1万张英伟达A100显卡，这后来被外界认为是在美国出口禁令之前采取的非常有前瞻性的部署。 ... *  深度求索方面称其成立于2023年5月，但事实上“杭州深度求索人工智能基础技术研究有限公司”的成立登记时间为2023年7月，而前者全资子公司、位于北京市海淀区的“北京深度求索人工智能基础技术研究有限公司”则成立于2023年5月，早于前者。 ...  2026年8月  | DeepSeek Harness  | 开源人工智能代理运行时及代理开发框架，采用插件化架构，支持模型适配器、工具、会话、沙箱和事件记录。 ...  2026年9月10日  | Deepseek-V4.1  | 具备原生多模态视觉理解能力。 ... *  更新日志 | DeepSeek API Docs. api-docs.deepseek.com.
+--------------------------------------------------------------------------------
+Hunyuan-A13B Technical Report (https://arxiv.org/abs/2609.27284)
+citeturn1academia29 [wordlim: 200] Published: last month; Date: Wed Sep 23 03:21:24 2026
+--------------------------------------------------------------------------------
+Cambricon Technologies (https://en.wikipedia.org/wiki/Cambricon_Technologies)
+citeturn1search30 [wordlim: 200] Crawled: 2 months ago; In September 2023, it was reported that early investors including SDIC Venture Capital Management, China Merchants Bank and Alibaba Group had sold all their shares in Cambricon. ... In February 2026, Cambricon announced it would pay its maiden dividends after its first profitable year.
+--------------------------------------------------------------------------------
+为什么deepseek敢把“印钞机”开源？ (https://www.reddit.com/r/xiabb/comments/1xe560w/%E4%B8%BA%E4%BB%80%E4%B9%88deepseek%E6%95%A2%E6%8A%8A%E5%8D%B0%E9%92%9E%E6%9C%BA%E5%BC%80%E6%BA%90/)
+citeturn1reddit31 [wordlim: 200] Published: today; Crawled: today; [Saturday October 24 2026] [+0 votes] ... 按照行业内的说法是，一个80%毛利的东西，deepseek这是把印钞机给开源了。 ... 还有一层是能力错配：很多算法并不一定适配 GPU 微架构，某些矩阵 shape 在推理时根本喂不饱算力，激活参数更小的模型吞吐反而跑不过 DeepSeek Flash 这种激活更大的。
+
+
+海光信息:海光信息技术股份有限公司2026年第三季度报告 _ 海光信息(688041) _ 公告正文 (https://data.eastmoney.com/notices/detail/688041/AN202610191830688684.html)
+citeturn2search0 [wordlim: 200] Published: 5 days ago; Crawled: yesterday; 证券代码：688041 证券简称：海光信息 海光信息技术股份有限公司 2026 年第三季度报告 本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重 大遗漏，并对其内容的真实性、准确性和完整性依法承担法律责任。 ... 第三季度财务报表是否经审计 □是 √否 一、主要财务数据 （一） 主要会计数据和财务指标 单位：元 币种：人民币 本报告期比 年初至报告期 项目 本报告期 上年同期增 年初至报告期末 末比上年同期 减变动幅度 增减变动幅度 (%) (%) 营业收入 5,855,689,454.32 45.46 14,954,710,229.13 57.58 利润总额 1,446,799,309.40 20.56 3,609,412,179.20 27.14 归属于上市公司股东的净利润 1,048,040,894.63 37.90 2,846,508,812.66 45.12 归属于上市公司股东的扣除 952,830,320.63 31.12 2,584,242,015.98 42.25 非经常性损益的净利润 经营活动产生的现金流量净额 不适用 不适用 -2,442,780,168.86 -208.35 基本每股收益（元/股） 0.45 36.36 1.23 44.71 稀释每股收益（元/股） 0.45 36.36 1.23 44.71 加权平均净资产收益率（%） 4.05 增加 0.44 个 11.59 增加 2.29 个 百分点 百分点 本报告期比 年初至报告期 项目 本报告期 上年同期增 年初至报告期末 末比上年同期 减变动幅度 增减变动幅度 (%) (%) 研发投入合计 1,819,662,147.21 48.68 4,472,044,952.74 52.39 研发投入占营业收入的比例 31.08 增加 0.68 个 29.90 减少 1.02 个 （%） 百分点 百分点 本报告期末比 本报告期末 上年度末 上年度末增减 变动幅度(%) 总资产 40,687,771,489.95 35,638,165,817.46 14.17 归属于上市公司股东的所有 26,423,282,007.15 22,493,222,807.40 17.47 者权益 注：“本报告期”指本季度初至本季度末 3 个月期间，下同。
+--------------------------------------------------------------------------------
+海光信息技术股份有限公司 2026 年第三季度报告 (https://static.cninfo.com.cn/finalpage/2026-10-20/1225611145.PDF)
+citeturn2search12 [wordlim: 200] Published: 5 days ago; 海光信息技术股份有限公司 2026 年第三季度报告 ... | 企业因相关经营活动不再持续而发生的一次性费用，如安置职工的支出等 | | | |
+--------------------------------------------------------------------------------
+海光信息(688041)_公司公告_海光信息：2026年第三季度报告新浪财经_新浪网 (https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?CompanyCode=80505315&gather=1&id=12648958)
+citeturn2search1 [wordlim: 200] Published: 5 days ago; Crawled: 2 days ago; 四、季度财务报表（一）审计意见类型□适用√不适用（二）财务报表合并资产负债表2026年9月30日编制单位：海光信息技术股份有限公司单位：元币种：人民币审计类型：未经审计 ... 公司负责人：沙超群主管会计工作负责人：徐文超会计机构负责人：郭淼涛合并现金流量表2026年1—9月编制单位：海光信息技术股份有限公司单位：元币种：人民币审计类型：未经审计 ... 一、经营活动产生的现金流量：
+--------------------------------------------------------------------------------
+华为云企业级AI产品全面落地 做最开放的Agentic Cloud - 华为 (https://www.huawei.com/cn/news/2026/9/hc-agentic-infra-industry-ai)
+citeturn2search2 [wordlim: 200] Published: last month; Crawled: today; [中国，上海，2026年9月18日] 9月18日，在华为全联接大会2026期间，华为公司董事、华为云CEO周跃峰发表“共建Agentic Cloud，共赢行业智能体时代”主题演讲，分享华为云最新进展：深耕云上“硅基黑土地”，灵衢昇腾950智算集群服务全球上线，夯实Agentic AI基础设施底座；Agentic MaaS平台汇聚“百模千态”，加速模型能力规模化服务；企业级智能体平台智果AgentArts已服务100多家企业；“行业AI梦工厂”沉淀超过上千个行业资产，落地项目超过1000个，政务智能专区及AI硬件专区全新上线，推动智能体走向规模化应用，共建云上繁荣AI生态。 ... 欲了解更多详情，请参阅华为全联接大会官网：www.huawei.com/cn/events/huaweiconnect ... 灵衢昇腾950智算集群服务全球上线，将于9月30日在国内市场商用，11月30日在海外市场商用。
+--------------------------------------------------------------------------------
+Releases · tile-ai/tilelang-ascend · GitHub (https://github.com/tile-ai/tilelang-ascend/releases)
+citeturn2search3 [wordlim: 200] Crawled: today; # Releases: tile-ai/tilelang-ascend ... https://gitcode.com/cann/cann-recipes-infer/blob/master/docs/models/deepseek-v4/deepseek_v4_tilelang_operator_guide.md ... `tilelang-github-operations`  | Commit, rebase, PR, and issue workflow automation
+--------------------------------------------------------------------------------
+智启新未来，打造智能世界的硅基黑土地 - 华为 (https://www.huawei.com/cn/news/2026/9/hc-wang-keynote)
+citeturn2search4 [wordlim: 200] Published: last month; Crawled: today; [中国，上海，2026年9月17日] 今日，华为全联接大会2026在上海启幕。 ... 截至目前，昇腾910C超节点已部署超1000套，昇腾950超节点也已规模商用。 ... 2028和2029年，华为将陆续推出昇腾970、980芯片，依托τ定律的创新方向，实现算力规格继续翻倍，访存带宽、访存容量、互联带宽等也将大幅提升。
+--------------------------------------------------------------------------------
+华为开创AI时代计算架构：让百万处理器成为一台计算机 - 华为 (https://www.huawei.com/cn/news/2026/9/new-computing-architecture-peerium)
+citeturn2search5 [wordlim: 200] Published: last month; Crawled: today; [中国，上海，2026年9月17日] 今日，华为发布AI时代的全新计算架构 – Peerium计算架构。 ... Atlas 950超节点是Peerium计算架构的首代产品，25.6万卡Atlas 950超节点集群已经在部署中，基于NPO的Atlas 960系统正在测试中。华为轮值董事长徐直军表示：“AI时代，华为基于开创的Peerium计算架构，持续打造满足客户训练和推理需求的超节点和集群，让算力无处不在，让智能无所不及。”
+--------------------------------------------------------------------------------
+海光信息管理层回应备货与现金流压力！新一代双芯按路线推进 - 21财经 (https://m.21jingji.com/article/20261023/herald/5a5188f3489c0fd4b66e27cd3a84793e.html)
+citeturn2search6 [wordlim: 200] Published: 2 days ago; Crawled: yesterday; SH）举行2026年第三季度业绩说明会。公司董事长历军、董事兼总经理沙超群、董事兼副总经理、财务总监、董事会秘书徐文超出席，回应新品发布节奏、战略备货、经营现金流、合同负债、毛利率、股份回购等投资者关切。 ... 截至9月末，公司存货为89.21亿元，上年度末为64.06亿元；预付款项为58.85亿元，上年度末为28.85亿元；经营活动产生的现金流量净额为-24.43亿元，上年同期为22.55亿元。 ... 前三季度，海光信息销售费用为6.75亿元，上年同期为3.31亿元。
+--------------------------------------------------------------------------------
+海光信息2026年三季报解读：经营现金流大降208.35%、销售费用翻倍增长_新浪财经_新浪网 (https://finance.sina.com.cn/stock/aigc/stockfs/2026-10-19/doc-inivumae0888044.shtml)
+citeturn2search7 [wordlim: 200] Published: 5 days ago; Crawled: yesterday; 截至2026年9月末，海光信息应收账款余额达60.26亿元，较2025年末的40.34亿元增长49.44%，远超同期营收57.58%的累计增幅，下游客户回款进度慢于收入确认节奏，存在一定的坏账计提风险。 ... 2026年前三季度公司加权平均净资产收益率为11.59%，较上年同期增加2.29个百分点；2026年第三季度单季加权平均净资产收益率为4.05%，较上年同期增加0.44个百分点，净资产盈利效率稳步提升。 ... 报告期  | 销售费用（亿元）  | 同比增速
+--------------------------------------------------------------------------------
+华为灵衢昇腾 950 智算集群云服务计划 9 月 30 日国内商用、11 月 30 日全球商用 - IT之家 (https://m.ithome.com/html/1003981.htm)
+citeturn2search8 [wordlim: 200] Published: last month; Crawled: today; IT之家 9 月 18 日消息，在华为全联接大会 2026 上，华为公司董事、华为云 CEO 周跃峰表示，灵衢昇腾 950 智算集群云服务将于 9 月 30 日面向国内市场商用，11 月 30 日面向全球市场商用。 ... 昇腾 960DT 可支持 2 PFLOPS 的 FP8 算力和 4 PFLOPS 的 FP4 算力，片上 HBM 最大支持 288GB，访存带宽达 9.6 TB/s。
+--------------------------------------------------------------------------------
+海光信息财报解读：经营现金流大降208.35%、销售费用飙涨103.84%|归母净利润|芯片|区间|净利润|同比_手机新浪网 (https://finance.sina.cn/2026-10-19/detail-inivumae0888044.d.html)
+citeturn2search9 [wordlim: 200] Published: 5 days ago; Crawled: 5 days ago; 2026年前三季度筹资活动产生的现金流量净额为20.63亿元，较上年同期的-8.39亿元由负转正，主要是当期取得借款收到的现金达71.27亿元，远高于上年同期的21.93亿元，公司通过扩大债务融资规模，补充经营端消耗的现金流，覆盖备货带来的资金缺口。 ... 整体来看海光信息当期业绩高增的同时，经营现金流转负、应收账款和存货大幅攀升的现象值得投资者高度关注，公司当前通过债务融资补充现金流的模式可持续性有待观察，需警惕后续库存积压、账款回收不及预期带来的盈利与现金流双重波动风险。
+--------------------------------------------------------------------------------
+DeepSeek and Huawei release open-source Ascend AI programming tools to reduce reliance on Nvidia ecosystem (https://www.tomshardware.com/tech-industry/artificial-intelligence/deepseek-and-huawei-release-open-source-ascend-ai-programming-tools-to-reduce-reliance-on-nvidia-ecosystem-tools-include-compute-and-communication-libraries-as-well-as-ascend-support-for-tilelang)
+citeturn2news18 [wordlim: 100] Published: 3 weeks ago; Chinese AI company DeepSeek has released open-source programming tools developed in partnership with Huawei, for the company's Ascend AI chips, as part of efforts to reduce reliance on Nvidia's software and hardware ecosystem.According to a September 30 Reuters report, the release includes open-source libraries for AI computation and chip-to-chip communication, as well as Ascend support for the high-level programming language TileLang.
+The released libraries include DeepGEMM-Ascend, which handles matrix multiplication and other calculations used in DeepSeek's models. It supports BF16, FP8, and FP4 operations and uses the same programming interfaces as DeepSeek's existing DeepGEMM library, allowing developers to retain familiar APIs when moving to Ascend. Meanwhile, DeepEP-Ascend handles communication for training and inference, including routing data to the different experts in mixture-of-experts models and combining their outputs. Both libraries were developed and tested on Ascend 950 hardware.
+TileLang provides the higher-level programming layer for writing optimized kernels. DeepSeek described it as offering "a simpler programming model" than Nvidia's CUDA, with the aim of improving development efficiency and simplifying code. The language already supported Nvidia and other hardware, with earlier adapters available for Huawei's Ascend processors. The September 30 update adds native support for Ascend 950, including code generation, automatic scheduling, and synchronization.
+--------------------------------------------------------------------------------
+Huawei and DeepSeek release open source AI tools in a bid to lower Nvidia exposure - but will programmers make the switch? (https://www.techradar.com/pro/huawei-and-deepseek-release-open-source-ai-tools-in-a-bid-to-lower-nvidia-exposure-but-will-programmers-make-the-switch)
+citeturn2news19 [wordlim: 100] Published: 2 weeks ago; Huawei and DeepSeek release open source AI tools in a bid to lower Nvidia exposure — but will programmers make the switch? ... The other components named in the announcement were upgrades: TileKernels, DeepSelect, and FlashMLA are existing projects that received Ascend-targeted updates, a distinction FourWeekMBA established from the GitHub creation dates. ... It was open-sourced in January 2025, and its Huawei Ascend adapters were published in an external repository, tilelang-ascend, on September 29, 2025, a full year before the recent announcement.
+Huawei and DeepSeek release open source AI tools in a bid to lower Nvidia exposure — but will programmers make the switch?
+Date: Wed Oct  7 19:20:00 2026 UTC
+
+DeepSeek has revealed it is open sourcing a set of infrastructure components for Huawei's Ascend accelerators.
+DeepSeek published two completely new repositories, DeepGEMM-Ascend for matrix multiplication and DeepEP-Ascend for the all-to-all communication that mixture-of-experts models depend on.
+The other components named in the announcement were upgrades: TileKernels, DeepSelect, and FlashMLA are existing projects that received Ascend-targeted updates, a distinction FourWeekMBA established from the GitHub creation dates.
+
+An open source offering with limited use cases?
+
+Reuters framed it as two Chinese firms deepening ties in search of an alternative to Nvidia, with Bloomberg called the centerpiece a programming language named TileLang, China's answer to CUDA.
+--------------------------------------------------------------------------------
+DeepSeek's new AI model debuts with support for China-native chips and CANN, a replacement for Nvidia's CUDA - Chinese chipmakers Huawei, Cambricon, and Hygon get first-class support (https://www.tomshardware.com/tech-industry/deepseek-new-model-supports-huawei-cann)
+citeturn2news27 [wordlim: 100] Published: 1.1 years ago; Chinese AI firm DeepSeek has released its latest large language model, DeepSeek-V3.2-Exp, with first-day optimizations for Huawei's Ascend hardware and CANN software stack. ... Increased collaboration bw DeepSeek & Ascend/CANN team in supporting V3.2-Exp w/ gitcode updates to Cann as well as GitHub updates into vLLM & SGLang + TileLang support.Also Cambricon had updates into vLLM (vLLM-MLU) to support its inference.DS is really dealing w/ reality of... https://t.co/Unsvyxw9b6 pic.twitter.com/CBgk7pVZrx September 29, 2025
+
+
+寒武纪(688256)_公司公告_寒武纪：2026年第三季度报告新浪财经_新浪网 (https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12657969&stockid=688256)
+citeturn3search0 [wordlim: 200] Published: yesterday; Crawled: yesterday; /证券代码：688256证券简称：寒武纪中科寒武纪科技股份有限公司2026年第三季度报告重要内容提示：公司董事会及董事、高级管理人员保证季度报告内容的真实、准确、完整，不存在虚假记载、误导性陈述或重大遗漏，并承担个别和连带的法律责任。 ... 3、公司于2026年5月实施了2025年年度权益分派：以实施权益分派股权登记日登记的公司总股本扣除公司回购专用证券账户中的股份为基数，以资本公积金向全体股东每10股转增4.9股，合计转增206,607,799股，转增后公司总股本为628,292,969股。 ... 营业收入_本报告期 104.47 主要系公司持续拓展市场，积极助力人工智能应用落地，营业收入较上年同期大幅增长。
+--------------------------------------------------------------------------------
+寒武纪(688256)公司公告_新浪财经_新浪网 (https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/688256.phtml)
+citeturn3search1 [wordlim: 200] Crawled: today; 2026-10-17 寒武纪：关于召开2026年第三季度业绩说明会的公告 ... 2026-08-18 寒武纪：关于2026年限制性股票激励计划内幕信息知情人及激励对象买卖公司股票情况的自查报告
+--------------------------------------------------------------------------------
+Advancing the Agentic World, Building a Solid Silicon Foundation - Huawei (https://www.huawei.com/en/news/2026/9/hc-wang-keynote)
+citeturn3search2 [wordlim: 200] Published: last month; Crawled: today; Interconnected with UnifiedBus, Huawei's agentic SuperCluster can scale up to one million NPUs. ... Ascend now spans over 90 leading third-party open-source projects and is officially supported as a PyTorch accelerator backend.[Shanghai, China, September 17, 2026] HUAWEI CONNECT 2026 kicked off today in Shanghai.
+--------------------------------------------------------------------------------
+寒武纪：第三季度归母净利润14.04亿元，同比增长147.74%|界面新闻 · 快讯 (https://www.jiemian.com/article/15232172.html)
+citeturn3search3 [wordlim: 200] Crawled: today; 寒武纪10月23日公告，2026年第三季度实现营业收入35.31亿元，同比增长104.47%；归母净利润14.04亿元，同比增长147.74%；基本每股收益2.23元。
+--------------------------------------------------------------------------------
+GitHub - Ascend/pytorch: Ascend PyTorch adapter (torch_npu). Mirror of https://gitcode.com/Ascend/pytorch · GitHub (https://github.com/Ascend/pytorch)
+citeturn3search4 [wordlim: 200] Crawled: yesterday; As the core component of the Ascend for PyTorch community, TorchNPU is a deep learning adapter plugin built by Ascend for PyTorch, enabling the PyTorch framework to directly invoke Ascend NPU and providing developers with the powerful compute capabilities of Ascend AI processors.Ascend is a full-stack AI computing infrastructure for industry applications and services based on Huawei Ascend AI processors and software. ...   * 📢 [2026-04-30] TorchNPU 26.0.0 released, adding support for PyTorch 2.10.0, Python 3.13, P2P communication group dispatch, DTensor strategy extensions, and more.
+--------------------------------------------------------------------------------
+寒武纪(688256)_财报全文_中财网 (https://gg.cfi.cn/cbgg/108367/688256.html)
+citeturn3search5 [wordlim: 200] Crawled: today; 2026-10-24 寒武纪:2026年第三季度报告 查看 ... 2023-02-18 寒武纪:关于2022年度向特定对象发行股票的募集说明书（注册稿）等申请文件更新的提示性公告 查看
+--------------------------------------------------------------------------------
+Additional Platforms | PyTorch (https://docs.pytorch.org/get-started/additional-platforms/)
+citeturn3search6 [wordlim: 200] Crawled: 5 days ago; Ascend for PyTorch (TorchNPU) is a deep learning adaptation framework built on Ascend. ...     `pip3 install torch==2.10.0 --index-url https://download.pytorch.org/whl/cpu && pip3 install torch-npu==2.10.0
+--------------------------------------------------------------------------------
+Groundbreaking SuperPoD Interconnect: Leading a New Paradigm for AI Infrastructure - Huawei (https://www.huawei.com/en/news/2025/9/hc-xu-keynote-speech)
+citeturn3search7 [wordlim: 200] Published: 1.1 years ago; Crawled: today; And at Huawei, Ascend chips are the foundation of our AI computing strategy.We launched the Ascend 310 chip back in 2018, and the Ascend 910 chip in 2019. ... With HiBL 1.0, our proprietary, low-cost HBM that is more cost-effective than HBM3E and HBM4E, the Ascend 950PR will help our customers maintain the right level of performance while significantly reducing their investment in the hardware needed for prefill and recommendation systems.This chip will be available in the first quarter of 2026. ... That's where our HiZQ 2.0 HBM comes in, delivering 144 GB of memory and 4 TB/s memory access bandwidth.
+--------------------------------------------------------------------------------
+GitHub - PlatformLC/pytorch_npu: Ascend PyTorch adapter (torch_npu). Mirror of https://gitcode.com/Ascend/pytorch · GitHub (https://github.com/PlatformLC/pytorch_npu)
+citeturn3search8 [wordlim: 200] Crawled: today; Ascend Extension for PyTorch is the Ascend plugin for PyTorch, adapting Ascend NPU to the PyTorch framework and providing developers who use PyTorch with the powerful compute capabilities of Ascend AI processors. ... Ascend is a full-stack AI computing infrastructure for industry applications and services based on Huawei Ascend processors and software. ... Different strategies are adopted for different versions of PyTorch, with a regular branch development cycle of 6 months and a long-term support branch development cycle of 12 months.
+--------------------------------------------------------------------------------
+Cambricon posts 108% surge in first-half revenue amid China’s massive AI chip drive | South China Morning Post (https://www.scmp.com/tech/big-tech/article/3363351/cambricon-posts-108-surge-first-half-revenue-amid-chinas-massive-ai-chip-drive?module=top_story&pgtype=section)
+citeturn3search9 [wordlim: 200] Published: 2 months ago; Crawled: last month; # Cambricon posts 108% surge in first-half revenue amid China’s massive AI chip drive ... Published: 8:54pm, 7 Aug 2026
+--------------------------------------------------------------------------------
+GPU-to-NPU Migration: Handwritten Digit Recognition_Getting Started_ModelArts-Huawei Cloud (https://support.huaweicloud.com/intl/id-id/qs-modelarts/modelarts_06_0035.html)
+citeturn3search10 [wordlim: 200] Crawled: today; The torch_npu package, an adaptation layer for Ascend NPUs, allows standard PyTorch code to run on NPU hardware with minimal modifications, significantly reducing the migration barrier. ... Ascend NPU  | Huawei-developed AI processor that delivers computing performance comparable to NVIDIA GPUs.
+--------------------------------------------------------------------------------
+Huawei Pioneers a New Computing Architecture for the AI Era: Making One Million Processors Work as One Computer - Huawei (https://www.huawei.com/en/news/2026/9/new-computing-architecture-peerium?trk=article-ssr-frontend-pulse_little-text-block)
+citeturn3search11 [wordlim: 200] Published: last month; Crawled: 3 days ago; [Shanghai, China, September 17, 2026] Huawei today announced the Peerium Computing Architecture, a new computing architecture for the AI era.
+--------------------------------------------------------------------------------
+PyTorch in Production:
+Boosting LLM Training and Inferencing
+on Ascend NPU (https://static.sched.com/hosted_files/pytorchconference/cb/PyTorch%20in%20Production_%20_Boosting%20LLM%20Training%20and%20Inferencing%20_on%20Ascend%20NPU.pdf)
+citeturn3search12 [wordlim: 200] Published: 5 months ago; PyTorch in Production: ... on Ascend NPUFengchun Hua(Huawei @hipudding)
+--------------------------------------------------------------------------------
+Aicir: A Full-Stack Quantum Circuit Simulator with AscendNPU Support (https://arxiv.org/abs/2608.09733)
+citeturn3academia13 [wordlim: 200] Published: 2 months ago; Date: Mon Aug 10 15:33:46 2026 ... We developed Aicir to provide a full-stack quantum circuit simulator with a native Huawei Ascend NPU backend.
+--------------------------------------------------------------------------------
+用户指南 (https://support.huaweicloud.com/intl/zh-cn/usermanual-standard-modelarts/ModelArts%E7%94%A8%E6%88%B7%E6%8C%87%E5%8D%97_%E5%9B%BD%E9%99%85%E7%AB%99-pdf.pdf)
+citeturn3search14 [wordlim: 200] Published: 6 months ago; <td>swr.&lt;region&gt;.myhuaweicloud.com/atelier/pytorch_ascend:pytorch_2.6.0-cann_8.2.rc1-py_3.11-hce_2.0.2506-aarch64-snt3p-20250908091038-4a84562</td> ... torch-npu 2.6.0<br>
+--------------------------------------------------------------------------------
+YATA0620250920C (https://ep.ycwb.com/epaper/ycwb/resfile/2025-09-20/A06/ycwb20250920A06.pdf)
+citeturn3search15 [wordlim: 200] Published: 1.1 years ago; 9月18日，华为全联接大会2025在上海开幕，华为副董事长、轮值董事长徐直军公布了华为自研昇腾芯片的最新进展，首次披露包括昇腾950PR、昇腾950DT、昇腾960及970系列在内的多款AI芯片详细路标。 ... 更值得关注的是，华为推出基于灵衢互联技术的Atlas 950超节点，支持8192张昇腾卡，号称“全球最强超节点”，预计2026年四季度上市。 ... 特别值得注意的是，华为自研了两种HBM内存——HiBL 1.0和HiZQ 2.0，分别针对Prefill推理/推荐场景和Decode/训练场景进行优化。 ... 特别值得注意的是，华为自研了两种HBM内存——HiBL 1.0和HiZQ 2.0，分别针对Prefill推理/推荐场景和Decode/训练场景进行优化。
+--------------------------------------------------------------------------------
+CB Volume 26, Issue 8 (https://jamestown.org/wp-content/uploads/CB-Volume-26-Issue-8.pdf)
+citeturn3search16 [wordlim: 200] Published: 6 months ago; At Huawei’s China Partner Conference 2026 (华为中国合作伙伴大会) in March, the company unveiled a new neural processing unit (NPU), the Atlas 350.This latest artificial intelligence (AI) accelerator card is powered by Huawei’s Ascend 950PR chip, which Huawei claims can deliver 2.87 times the computing power of Nvidia’s H20, marking a new stage in the commercialization of domestic AI compute (Guancha, March 21).
+--------------------------------------------------------------------------------
+AscendOptimizer: Episodic Agent for Ascend NPU Operator Optimization (https://arxiv.org/abs/2603.23566)
+citeturn3academia17 [wordlim: 200] Published: 7 months ago; Title: AscendOptimizer: Episodic Agent for Ascend NPU Operator Optimization ... Date: Tue Mar 24 08:54:53 2026AscendC (Ascend C) operator optimization on Huawei Ascend neural processing units (NPUs) faces a two-fold knowledge bottleneck: unlike the CUDA ecosystem, there are few public reference implementations to learn from, and performance hinges on a coupled two-part artifact - a host-side tiling program that orchestrates data movement and a kernel program that schedules and pipelines instructions.
+--------------------------------------------------------------------------------
+An Empirical Study of OpenPangu Quantization on Ascend NPUs (https://arxiv.org/abs/2606.21257)
+citeturn3academia18 [wordlim: 200] Published: 4 months ago; Date: Fri Jun 19 09:33:11 2026 ... This paper conducts a controlled empirical study of OpenPangu 1B and 7B models on Huawei Ascend 910B1 NPUs. ... These results provide an NPU-oriented accuracy map for selecting OpenPangu quantization settings and highlight the persistent difficulty of extreme low-bit compression.
+--------------------------------------------------------------------------------
+Huawei details AI accelerator roadmap, pulls in next-generation Ascend NPUs by several quarters - FP4 performance of the Ascend 960PR doubles expectations (https://www.tomshardware.com/tech-industry/artificial-intelligence/huawei-details-ai-accelerator-roadmap-pulls-in-next-generation-ascend-npus-by-quarters-fp4-performance-of-the-ascend-960pr-doubles-expectations)
+citeturn3news22 [wordlim: 100] Published: last month; However, in July 2026 Huawei publicly showed a real Atlas 950 SuperPoD implementation with 256 CPUs as well as 1,024 accelerator cards, which is well below the maximum configuration. ... The Ascend 960PR NPU follows in Q3 2027, one quarter earlier than originally planned, with 2 FP8 PFLOPS for training, but 8 FP4 PFLOPS for inference (2X higher than Huawei announced last year).
+--------------------------------------------------------------------------------
+Huawei shelves global AI chip rollout as China's own demand outstrips supply (https://www.tomshardware.com/tech-industry/artificial-intelligence/huawei-shelves-global-ai-chip-rollout-as-chinas-own-demand-outstrips-supply-15-488-chip-atlas-clusters-leverage-optical-networking-to-counter-nvidia-scales-to-120-eflops)
+citeturn3news23 [wordlim: 100] Published: last month; Huawei this week unveiled its latest AI accelerator roadmap, revealing major training and inference performance gains for its next-generation Ascend 960, 970, and 980 NPUs over the existing Ascend 910C and Ascend 950-series. ... NPU ... But on the other hand, SMIC's inability to ramp production on 7nm and 6nm-class nodes limits Huawei's ability to supply its AI hardware anyway, which is why it can barely meet demand.
+--------------------------------------------------------------------------------
+Huawei throws massive 1-million NPU gauntlet at Nvidia and AMD as it positions itself an alternative to US AI giants (https://www.techradar.com/pro/huawei-throws-massive-1-million-npu-gauntlet-at-nvidia-and-amd-as-it-positions-itself-an-alternative-to-us-ai-giants)
+citeturn3news24 [wordlim: 100] Published: 1.1 years ago; Huawei throws massive 1-million NPU gauntlet at Nvidia and AMD as it positions itself an alternative to US AI giants ... Its Atlas 950 SuperPoD comprises of 8,192 Ascend NPU (essentially AI accelerators) with a superior version, the 960, delivering almost twice that number at 15,488 (89% more).

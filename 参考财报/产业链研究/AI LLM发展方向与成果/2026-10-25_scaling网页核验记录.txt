@@ -1,0 +1,774 @@
+ATLAS: Practical scaling laws for multilingual models (https://www.research.google/blog/atlas-practical-scaling-laws-for-multilingual-models/)
+citeturn9search0 [wordlim: 200] Published: 9 months ago; Crawled: yesterday; This imbalance creates a critical gap in public research, leaving model builders, tasked with serving billions of international and multilingual users, without data-driven guidance for key development decisions about efficiency, quality, and cost when building for non-English languages or with specific language mixtures.In “ATLAS: Adaptive Transfer Scaling Laws for Multilingual Pretraining, Finetuning, and Decoding the Curse of Multilinguality”, to be presented at ICLR 2026, we aim to address this gap. ...   * A scaling law that provides guidance on efficiently expanding model size and data as the number of supported languages increases
+--------------------------------------------------------------------------------
+Bridging Compute- and Data-Optimal Pretraining (https://arxiv.org/abs/2607.25271)
+citeturn9academia12 [wordlim: 200] Published: 2 months ago; Date: Tue Jul 28 04:18:49 2026Classical compute-optimal scaling laws assume an unbounded supply of fresh pretraining data, yet pretraining is increasingly entering a regime in which compute grows faster than the availability of high-quality data. ... The functional form of $η$ implies diminishing returns when substituting compute for data as either model size or data availability increases.
+--------------------------------------------------------------------------------
+Test-Time Scaling Makes Overtraining Compute-Optimal (https://arxiv.org/abs/2604.01411)
+citeturn9academia13 [wordlim: 200] Published: 6 months ago; Title: Test-Time Scaling Makes Overtraining Compute-Optimal ... Date: Wed Apr  1 21:17:32 2026 ... $T^2$ modernizes pretraining scaling laws with pass@$k$ modeling used for test-time scaling, then jointly optimizes pretraining and test-time decisions.
+--------------------------------------------------------------------------------
+Practical Scaling Laws: Converting Compute into Performance in a Data-Constrained World (https://arxiv.org/abs/2605.09189)
+citeturn9academia14 [wordlim: 200] Published: 5 months ago; Date: Sat May  9 22:07:01 2026The scaling laws guiding modern model training were calibrated for a single regime: data-rich, single-epoch pretraining. ... We validate it on four multi-epoch experiments spanning four architecture families (MLPs, ResNets, Fourier neural operators, and transformers) across vision, scientific ML, and language domains, and refit it to five published LLM scaling-law grids.
+--------------------------------------------------------------------------------
+Scaling Down the Scaling Laws: Parameter Efficiency and Compute-Optimal Training in Resource-Constrained Large Language Models (https://arxiv.org/abs/2610.06387)
+citeturn9academia15 [wordlim: 200] Published: 2 weeks ago; Date: Mon Oct  5 14:12:53 2026Large language models (LLMs) have achieved substantial performance gains through increases in model size, training data, and computational resources. ... Foundational work on scaling laws is synthesized alongside later research on compute-optimal training, data pruning, efficient architectures, quantization, low-rank adaptation, and edge-oriented optimization.
+--------------------------------------------------------------------------------
+Paper page - Bridging Compute- and Data-Optimal Pretraining (https://huggingface.co/papers/2607.25271)
+citeturn9search1 [wordlim: 200] Published: 2 months ago; Crawled: last month; arxiv:2607.25271 ... Compute-Data scaling laws unify compute-optimal and data-optimal scaling by modeling token effectiveness of derived data, revealing diminishing returns and suboptimal classical allocations across practical regimes. ... Classical compute-optimal scaling laws assume an unbounded supply of fresh pretraining data, yet pretraining is increasingly entering a regime in which compute grows faster than the availability of high-quality data.
+--------------------------------------------------------------------------------
+Let's (not) just put things in Context: Test-Time Training for Long-Context LLMs | DCML (https://dcml-lab.github.io/publications/ttt-longcontext-2026/)
+citeturn9search2 [wordlim: 200] Crawled: 8 months ago; arXiv PDF ... We show that a small amount of context-specific test-time training beats current scaling strategies for long-context tasks. ... Through controlled experiments on sandbox long-context tasks, we find that such inference-time strategies show rapidly diminishing returns and fail at long context. ...       year={2026}
+--------------------------------------------------------------------------------
+Decoupled DiLoCo: Resilient, Distributed AI Training at Scale — Google DeepMind (https://deepmind.google/blog/decoupled-diloco/)
+citeturn9search3 [wordlim: 200] Published: 6 months ago; Crawled: yesterday; April 23, 2026 Research ... By dividing large training runs across decoupled “islands” of compute, with asynchronous data flowing between them, this architecture isolates local disruptions so that other parts of the system can keep learning efficiently. ... Decoupled DiLoCo is not only more resilient to failures, but is also practical for executing production-level, fully distributed pre-training. ... Beyond efficiency and resilience, this training paradigm also unlocks the ability to mix different hardware generations, such as TPU v6e and TPU v5p, in a single training run. ... This work was done by a team of members across Google DeepMind and Google Research.
+--------------------------------------------------------------------------------
+>10x More Efficient Pretraining — Magic (https://magic.dev/blog/pretraining)
+citeturn9search4 [wordlim: 200] Published: last month; Crawled: last month; Research update on compute-efficient pretraining and scaling to trillion-parameter models.Magic Team, on September 8, 2026 ... We match DeepSeek V4 Pro Base using ~50x fewer FLOPs – that’s around half of GPT3’s pretraining compute, or ~$0.5M on GB200. ... For further confirmation, we partnered with Fireworks to verify baseline logprobs in their in-house inference engine.
+--------------------------------------------------------------------------------
+Can Language Models Discover Scaling Laws? | arXiv Science (https://arxiv.science/abs/2507.21184)
+citeturn9search5 [wordlim: 200] Published: 9 months ago; Crawled: 2 weeks ago; While existing agents struggle to produce accurate law formulas, this paper introduces SLDAgent, an evolution-based agent that co-optimize the scaling law model and the parameters, enabling it to autonomously explore complex relationships between variables. ...     2026-01-22 ... Can Language Models Discover Scaling Laws?. https://arxiv.org/abs/2507.21184
+--------------------------------------------------------------------------------
+Gemini Deep Think: Redefining the Future of Scientific Research — Google DeepMind (https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/)
+citeturn9search6 [wordlim: 200] Published: 8 months ago; Crawled: today; Additionally, the research agent uses Google Search and web browsing to navigate complex research, preventing spurious citations and computational inaccuracies when synthesizing published literature. ... Since achieving IMO Gold-medal standard in July 2025, Gemini Deep Think has progressed rapidly, scoring up to 90% on the IMO-ProofBench Advanced test as inference-time compute scales.We demonstrated that the scaling law continues to hold as we progress beyond Olympiad level into PhD-level exercises (per our internal FutureMath Basic benchmark). ... A green star representing "Aletheia" is marked as a benchmark at roughly 46%, remaining significantly above the model's highest performance reached.Image: Line graph titled "(b) FutureMath Basic (Ph.D level exercises)" plotting the score of Gemini Deep Think (Jan 2026) against increasing Inference-Time Compute on a logarithmic scale. ... Machine learning optimization: Training AI to filter out noise usually requires engineers to manually tune a mathematical "penalty."
+--------------------------------------------------------------------------------
+Scaling Pre-training to One Hundred Billion Data for Vision Language Models — Google DeepMind (https://deepmind.google/research/publications/132991/)
+citeturn9search7 [wordlim: 200] Published: 1.7 years ago; Crawled: today; February 11, 2025# Scaling Pre-training to One Hundred Billion Data for Vision Language Models
+--------------------------------------------------------------------------------
+Scaling Laws for Mixture Pretraining Under Data Constraints... (https://arxivlens.com/paperview/details/scaling-laws-for-mixture-pretraining-under-data-constraints-9440-20a98004)
+citeturn9search8 [wordlim: 200] Published: 5 months ago; Crawled: 4 weeks ago; Back ArXiv cs.LG Scaling Laws for Mixture Pretraining Under Data Constraints ... 2605.12715 Published May 12, 2026 ... The authors derive a repetition-aware scaling law that accounts for diminishing value from repeats and the regularizing effect of generic data, enabling principled and practical mixture configurations under data constraints. ... We study this trade-off across more than 2,000 language-model training runs spanning multiple model and target dataset sizes, as well as several data types, including multilingual, domain-specific, and quality-filtered mixtures.
+--------------------------------------------------------------------------------
+Kinetics: Rethinking Test-Time Scaling Laws (https://proceedings.neurips.cc/paper_files/paper/2025/file/79ada0f9bc4e41192ad5a80d13c8ca7e-Paper-Conference.pdf)
+citeturn9search16 [wordlim: 200] Published: last year; Existing scaling law studies [4, 74, 87] primarily focus on floating-point operations (FLOPs) ... conclusions about Pareto-optimal strategies for allocating test-time compute (Figure 1a). ... in small models [82, 64] or to reduce computation in over-parameterized networks [62, 6, 32, 15, 24, 55], ... In contrast to pretraining – where scaling laws often exhibit dimin-ishing returns [37] – TTS continues to benefit from increased token generation and more optimized
+--------------------------------------------------------------------------------
+[2610.17590] Revisiting the 16x Pretraining Compute Gap between Diffusion and Autoregressive Language Models (https://borowiecki.dev/abs/2610.17590)
+citeturn9search9 [wordlim: 200] Published: last week; Crawled: last week; [Submitted on 13 Oct 2026] ... View a PDF of the paper titled Revisiting the 16x Pretraining Compute Gap between Diffusion and Autoregressive Language Models, by Guanghan Wang and 5 other authors ... We therefore revisit the scaling laws of DLMs, adopting the exact likelihood under the model's own decoding order, block diffusion training, an encoder-decoder architecture, and a sweep over the block sizes used in practice. ...    | https://doi.org/10.48550/arXiv.2610.17590 arXiv-issued DOI via DataCite (pending registration)
+--------------------------------------------------------------------------------
+[2606.29858] Smooth Scaling Laws Hide Stepwise Token Learning (https://vpn.luca-server.com/px/aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MDYuMjk4NTg)
+citeturn9search10 [wordlim: 200] Published: 3 months ago; Crawled: 2 months ago; > Abstract:Language model loss follows remarkably regular scaling laws over model and data size, yet it remains unclear why the aggregate loss should exhibit a power-law form. ... Across more than one hundred pre-training runs on large and diverse real-language corpora with modern LLM architectures, scaling up to 6B parameters and 300B training tokens, the measured learning-time spectrum quantitatively reconstructs the validation loss derivative along the training-step $T$, data-scale $D$, and model-scale $M$ axes. ...    | https://doi.org/10.48550/arXiv.2606.29858 arXiv-issued DOI via DataCite
+--------------------------------------------------------------------------------
+On the Limits of Scale: Inverse Scaling in Vision-Language Models (https://www.opentrain.ai/papers/on-the-limits-of-scale-inverse-scaling-in-vision-language-models--arxiv-2610.27360/)
+citeturn9search11 [wordlim: 200] Published: 6 days ago; Crawled: 3 days ago; Rohit Saxena, Alessandro Suglia, Marek Rei, Pasquale Minervini Published Oct 19, 2026arXiv PDF [Button: Copy citation] [Button: Copy BibTeX] ... Scaling laws suggest that increasing model size, training data, and compute generally yields monotonic performance improvements.While this often holds at the aggregate level, we present systematic evidence that vision-language models (VLMs) exhibit inverse scaling at the subtask level: specific question categories on which larger models perform worse than smaller counterparts within the same model family.
+--------------------------------------------------------------------------------
+Foundations: Pretraining and scaling laws (https://cmu-codegen.github.io/s2024/static_files/codegen_s2024_2_scalinglaws.pdf)
+citeturn9search17 [wordlim: 200] Published: 2.8 years ago; Crawled: 11 months ago; Data-constrained scaling ... Line chart titled “Return on compute when repeating” with y-axis “Final test loss” and x-axis “Tokens (Epochs)”. ... Red/orange annotations on the plot read: “Up to ≈ 4 epochs repeating is almost as good as new data”, “Rapidly diminishing returns for more repetitions”, and “At ≈ 40 epochs, repeating is worthless”.
+--------------------------------------------------------------------------------
+Published as a conference paper at ICLR 2025 (https://proceedings.iclr.cc/paper_files/paper/2025/file/923285deb805c3e14e1aeebc9854d644-Paper-Conference.pdf)
+citeturn9search18 [wordlim: 200] Published: 1.7 years ago; **Compute and time expenditure. ... Fitting scaling laws for all domains takes less than 20 seconds—over the course of a training run, this amounts to under 19 minutes in additional time spent fitting scaling laws. ... Although not present in our particular implementation, the fitting of the scaling laws could, in principle, take place asynchronously in parallel with model training since it does not require any information from the model other than the loss, which can be staggered as the scaling laws remain accurate for some duration into the future. ... To estimate these parameters of the scaling law, we use the standard procedure for fitting a power law (Hoffmann et al., 2022) which minimizes the Huber loss with δ = 0.001 between the predicted log loss and observed log loss with L-BFGS: ... (6)
+--------------------------------------------------------------------------------
+Published as a conference paper at ICLR 2026 (https://openreview.net/pdf/6b4d7a750e939b8ad9a225214a0bbfb0f1af2fff.pdf)
+citeturn9search19 [wordlim: 200] Published: 7 months ago; Published as a conference paper at ICLR 2026 ... The compute-only scaling law’s \(\alpha(k)\) and the parameters+tokens’ \(\beta(k)\) stabilize across 3 orders of magnitude of compute, but the gold reference likelihood’s \(\kappa(k)\) stabilizes across 2 order of magnitude and the parameters+tokens’s \(\gamma(k)\) stabilizes across 1 order of magnitude. ... Our primary contribution is the proposal and rigorous backtesting of three distinct scaling laws for pass-at-\(k\), utilizing (1) pretraining compute, (2) model parameters and pretraining tokens, and (3) gold reference log likelihoods as covariates. ... **Future Directions:** Several avenues for future research are clear.
+--------------------------------------------------------------------------------
+the importance of pre-training, with the majority of training compute typically allocated to pre-training³. This allocation pattern suggests that extensive pre-training remains a prerequisite for successfully applying post-training techniques in state-of-the-art models. However, this paradigm is evolving. DeepSeekR1’s allocation of approximately 20% of its compute budget toward post-training to enhance reasoning capabilities signals a potential shift in compute distribution (Erdil, 2025). Had this analysis been conducted a year ago, we likely would not have anticipated this significant reallocation toward post-training compute, highlighting the rapid evolution of training paradigms. (https://publications.jrc.ec.europa.eu/repository/bitstream/JRC143255/JRC143255_01.pdf)
+citeturn9search20 [wordlim: 200] Published: last year; ** The minimum amount of pre-training required for post-training techniques to work effectively remains an active research topic. ... ⁴“Without proportional compute scaling” refers to two observations: 1) CoT reasoning can be elicited from relatively small models (e.g., Hsiao and Dutta’s 1.6B parameter model with task-specific fine-tuning (Hsiao and Dutta, 2025)), showing reasoning does not necessarily require a lot of absolute compute; 2) For structured reasoning with <think> tags, we have seen that a 20% additional compute investment in fine-tuning yields disproportionately large improvements relative to the 80% invested in pre-training—though this single reference point may not be representative of all reasoning capabilities (DeepSeekR1).
+--------------------------------------------------------------------------------
+Scaling Laws and Compute-Optimal Training Beyond Fixed Training Durations (https://proceedings.neurips.cc/paper_files/paper/2024/file/8b970e15a89bf5d12542810df8eae8fc-Paper-Conference.pdf)
+citeturn9search21 [wordlim: 200] Published: 2.0 years ago; Training large language models is expensive — in time, energy, and compute. ... This is then either done by computing specialized scaling laws (OpenAI, 2023; Bi et al., 2024; Hu et al., 2024; Team et al., 2023), relying on established laws (Hoffmann et al., 2022; Anil et al., 2023) or training past compute-optimality to save cost at inference (Touvron et al., 2023a,b).Despite large advances across data and training recipes, one aspect of large language model (LLM) pretraining has remained surprisingly prevalent: the cosine learning rate schedule (Loshchilov & Hutter, 2016; Radford et al., 2018; Rae et al., 2021).
+--------------------------------------------------------------------------------
+[2609.40295] How Much Is an AI Token Worth? Scaling Laws for Wild AI-Generated Web Text (https://www.reddit.com/r/mlscaling/comments/1wx8y5n/260940295_how_much_is_an_ai_token_worth_scaling/)
+citeturn9reddit22 [wordlim: 200] Published: 2 weeks ago; After applying FineWeb quality filtering, we find that 27.5% of tokens from June 2026 web data are labeled as AI-generated by Pangram, rising to 31.1% by August.Unlike synthetic data or model-collapse setups, this \*wild\* AI text comes from many models, is written for human readers, and arrives unlabeled in pretraining corpora. ... To answer this question, we pretrain 800 language models, varying the ratio of added AI tokens to human tokens, and fit scaling laws to held-out losses on both human and AI-generated text.
+--------------------------------------------------------------------------------
+Neural scaling law (https://en.wikipedia.org/wiki/Neural_scaling_law)
+citeturn9search23 [wordlim: 200] Crawled: today; The Chinchilla scaling law analysis for training transformer language models suggests that for a given training compute budget (${\displaystyle C}$), to achieve the minimal pretraining loss for that budget, the number of model parameters (${\displaystyle N}$) and the number of training tokens (${\displaystyle D}$) should be scaled in equal proportions, ${\displaystyle N_{opt}(C)\propto C^{0.5},D_{opt}(C)\propto C^{0.5}}$. ... A 2022 research trained vision transformers, with parameter counts ${\displaystyle N\in [5\times 10^{6},2\times 10^{9}]}$, on image sets of sizes ${\displaystyle D\in [3\times 10^{7},3\times 10^{9}]}$, for computing ${\displaystyle C\in [0.2,10^{4}]}$ (in units of TPUv3-core-days). ... "Beyond neural scaling laws: beating power law scaling via data pruning". arXiv:2206.14486 [cs.LG].
+--------------------------------------------------------------------------------
+Large language model (https://en.wikipedia.org/wiki/Large_language_model)
+citeturn9search24 [wordlim: 200] Crawled: yesterday; Large language model ... One particular scaling law ("Chinchilla scaling") for LLM autoregressively trained for one epoch, with a log-log learning rate schedule, states that: ${\displaystyle {\begin{cases}C=C_{0}ND\\[6pt]L={\frac {A}{N^{\alpha }}}+{\frac {B}{D^{\beta }}}+L_{0}\end{cases}}}$ where the variables are ... * chain-of-thought prompting: In a 2022 research paper, chain-of-thought prompting only improved the performance for models that had at least 62B parameters.
+--------------------------------------------------------------------------------
+Large Language Model (https://de.wikipedia.org/wiki/Large_Language_Model)
+citeturn9search25 [wordlim: 200] Crawled: 2 days ago; Large Language Model ... April 2026 (englisch). ... *  Armen Aghajanyan et al.: Scaling Laws for Generative Mixed-Modal Language Models.In: Arxiv. 2023, abgerufen am 17.
+--------------------------------------------------------------------------------
+Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters, Snell et al. 2024 (https://www.reddit.com/r/mlscaling/comments/1f385ws)
+citeturn9reddit26 [wordlim: 200] Published: 2.2 years ago; Crawled: 2.1 years ago; To understand the benefits of scaling up test-time computation, we carry out experiments on the challenging MATH \[13 \] benchmark using PaLM-2 \[3 \] models specifically fine-tuned1 to either revise incorrect answers \[28\] (e.g. improving the proposal distribution; Section 6) or verify the correctness of individual steps in an answer using a process-based reward model (PRM) \[ 22 , 45 \] (Section 5). ... On easy and medium questions, which are within a model’s capabilities, or in settings with small inference requirement, test-time compute can easily cover up for additional pretraining.
+--------------------------------------------------------------------------------
+How far will artificial intelligence go? (https://www.lemonde.fr/en/science/article/2025/02/09/how-far-will-artificial-intelligence-go_6737951_10.html)
+citeturn9news27 [wordlim: 100] Published: 1.7 years ago; In 2020 and 2022, teams from <a href="https://arxiv.org/abs/2001.08361">OpenAI</a> and <a href="https://arxiv.org/abs/2203.15556">DeepMind</a> established a link between the volume of training data, performance and model size. ... In September 2024, in <a href="https://arxiv.org/abs/2409.14160">an article posted online</a>, three leading industry specialists, Gaël Varoquaux (French National Institute for Research in Science and Digital Technologies, INRIA), Alexandra Sasha Luccioni (Hugging Face) and Meredith Whittaker (Signal), denounced the "bigger is better" paradigm: "We don't refute the existence of these scaling laws, but we do question the usefulness of large models for a large number of practical tasks," said Varoquaux. ... The Epoch AI research group, which compiles information on language models,<strong> </strong>estimates that "<a href="https://epoch.ai/blog/will-we-run-out-of-data-limits-of-llm-scaling-based-on-human-generated-data">the data stock will be fully utilized at some point between 2026 and 2032</a>."
+This size doubles every six months or so.
+DeepSeek-V3, the latest model from a Chinese company that shook up the hierarchy at the end of January, is no exception to this principle: With 14.8 trillion tokens (subdivisions of words) used for training and over 671 billion parameters for operation, it ranks among the top in size, at least compared to the models whose companies have disclosed this information. However, it required fewer computing resources for its development, putting into perspective the crazy investments needed to obtain the best performance.
+Even before the arrival of DeepSeek, this arms race was a source of irritation. In September 2024, in <a href="https://arxiv.org/abs/2409.14160">an article posted online</a>, three leading industry specialists, Gaël Varoquaux (French National Institute for Research in Science and Digital Technologies, INRIA), Alexandra Sasha Luccioni (Hugging Face) and Meredith Whittaker (Signal), denounced the "bigger is better" paradigm: "We don't refute the existence of these scaling laws, but we do question the usefulness of large models for a large number of practical tasks," said Varoquaux. The article notes that in many fields, such as medical imaging, data science, computer vision or language processing, maximalist methods are reaching their limits. Alternative methods to large models exist and are often more effective.
+"We need research to tackle these issues, not bigger models."
+The debate is raging over whether this growth can continue and the risk of reaching a saturation point. The availability of training data could slow progress, just as the exponential rise in resource demands is straining infrastructure. The Epoch AI research group, which compiles information on language models,<strong> </strong>estimates that "<a href="https://epoch.ai/blog/will-we-run-out-of-data-limits-of-llm-scaling-based-on-human-generated-data">the data stock will be fully utilized at some point between 2026 and 2032</a>."
+Conversely, engineers are competing to make the most of resources. DeepSeek, for example, has improved its architecture to lower training costs. Several techniques are also used to reduce model size, without losing too much in terms of quality. DeepSeek, once again, has used one such technique –distillation – to transform open-source models like Meta's LLaMA and Alibaba's Qwen into versions up to 440 times smaller while maintaining similar performance.
+New architectures are also emerging, such as Mamba, Hyena and systems that process individual letters rather than just tokens, aiming for even greater efficiency. However, they do not have the same disruptive potential as the one introduced by OpenAI on September 12, 2024.
+On that day, the American company announced a paradigm shift for its latest model, named o1. Although it is inaccurately described as being capable of "reasoning," it is the first to implement <a href="https://arxiv.org/abs/2201.11903">a technique made public by Google in January 2022</a>, which extends performance growth. Until now, the quality of large language models<strong> </strong>depended on their training, which was directly linked to the volume of data used in this phase, where the model learns by predicting the next word in a sentence. Producing an answer, also known as "inference," involved activating the model's billions of parameters, which remained fixed after training.
+--------------------------------------------------------------------------------
+Generative AI Is an Engineering Disaster (https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901/?utm_source=apple_news)
+citeturn9news28 [wordlim: 100] Published: 3 months ago; Date: Tue Jul 14 12:00:35 2026 UTC-04:00 ... But the industry's observation that bigger models tend to outperform smaller ones has given rise to a totemic belief in "scaling laws" that suggest any problem can be solved by simply making models bigger. ... Occasionally, companies claim to have made breakthroughs-Anthropic CEO Dario Amodei has called them "compute multipliers"-but they are usually described in vague terms, and there is no evidence that the basic problems of quadratic scaling and exploding model size have been overcome. ... Some researchers are working on extremely small models that require fewer data and less computing power. ... Her model isn't a substitute for an LLM-it's designed to solve logic problems in fields such as biology and electrical engineering, rather than generate language-but it can do some of the tasks that much larger AI models are currently being used for. ... Since the 1950s, manufacturers have learned to make microchips steadily faster, smaller, and cheaper, a trend known colloquially as Moore's Law.
+The cost of growing from, say, a thousand users to a million is a key factor that venture capitalists examine when they evaluate start-ups. They want to see that the cost of adding each new user decreases over time, so that the company can support millions of users and make increasing profits. This is achieved partly through the careful engineering of computer systems that can efficiently handle more users who want to post photos, hail Ubers, or stream music.
+With generative AI, the work of building efficient, scalable systems has not been done. And the problem is exacerbated by the ever-larger generative-AI models, which have grown from 175 billion parameters in 2020 to more than 1 trillion today, according to independent estimates (the actual sizes of the models powering products such as Claude and ChatGPT are secret). The large in large language model should not be a selling point. But the industry's observation that bigger models tend to outperform smaller ones has given rise to a totemic belief in "scaling laws" that suggest any problem can be solved by simply making models bigger. "Maybe with 10 gigawatts of compute, AI can figure out how to cure cancer," OpenAI CEO Sam Altman wrote on his blog in September.
+Generative AI Is an Engineering Disaster
+Date: Tue Jul 14 12:00:35 2026 UTC-04:00
+
+AI does not have to be built this way. Traditionally, the goal of AI was to solve problems in ways that simulated human mental processes. Researchers observed their own thinking and tried to implement their mental habits in code. This approach has mostly been abandoned, partly due to the difficulty of discerning and articulating the rules of human thought, but it did have the benefit of consuming far fewer resources and data.
+Today's approach to AI doesn't try to describe the rules of human thought; instead, it gives a computer millions of examples to imitate. The huge quantity of examples is one reason that large models can perform better than small ones when generating language, images, and music-they have more material to draw from. Some researchers want to bring back the old, more efficient approach and combine it with the modern approach, but so far these projects have not drawn nearly as much attention or funding as the models that power chatbots.
+Chatbot companies are aware that their products are inefficient. Some have found techniques for improving performance, but they have not yielded significant gains. Occasionally, companies claim to have made breakthroughs-Anthropic CEO Dario Amodei has called them "compute multipliers"-but they are usually described in vague terms, and there is no evidence that the basic problems of quadratic scaling and exploding model size have been overcome. (Anthropic declined to comment on the record when I reached out to ask about this.)
+Some researchers are working on extremely small models that require fewer data and less computing power. I spoke with Alexia Jolicoeur-Martineau, an AI researcher at Microsoft who independently designed one of these, and asked her about the industry's brute-force approach. "It's a bit insane," she told me. "At some point you have to learn to be a bit more efficient."
+Last year, Jolicoeur-Martineau won a $50,000 prize for her paper on a "tiny recursive model" that doesn't consume huge quantities of computing resources. --------------------------------------------------------------------------------
+Are we hitting a ceiling with LLM scaling? (https://www.reddit.com/r/newAIParadigms/comments/1ws7fee/are_we_hitting_a_ceiling_with_llm_scaling/)
+citeturn9reddit29 [wordlim: 200] Published: 3 weeks ago; [Monday September 28 2026] [+12 votes]For years, the AI industry has largely followed the idea that more data + more compute + bigger models = better AI. ... It is a mathematical measure of the relationship between model capability and the variables of (pre-, post- and test-time) training. ... Automated scaling law discovery is now a thing:https://arxiv.org/abs/2507.21184
+--------------------------------------------------------------------------------
+Thoughts About Scaling Law - Z.ai (https://www.reddit.com/r/LocalLLaMA/comments/1vsf9eg/thoughts_about_scaling_law_zai/)
+citeturn9reddit30 [wordlim: 200] Published: 2 months ago; [Wednesday August 19 2026] [+520 votes] ... > Thoughts About Scaling Law ... Parameter count is only meaningful alongside three others — how much data you have, where you intend to spend your compute, and who will run the model, under what conditions. ...       I mean, a lot of people speaking English as their primary language are fucking deranged these days ... The statement about scaling laws are public knowledge available to everyone for years at this point.
+--------------------------------------------------------------------------------
+How Model Growth, Recursion, and Boundary Operators Influence Scaling Exponents (Chen et al, 2026) (https://www.reddit.com/r/mlscaling/comments/1wjf0dy/how_model_growth_recursion_and_boundary_operators/)
+citeturn9reddit31 [wordlim: 200] Published: last month; Muennighoff et al. (2023) fit a scaling law in which repeated data counts for less than new data, and later work studies how loss behaves when the amount of unique data is fixed and compute keeps growing (Kim et al., 2026; Lovelace et al., 2026). ... Kim et al. (2026) show that larger models need more of it, so it must be retuned at every scale, and Lovelace et al. (2026) show that at a fixed weight decay the overfitting penalty follows a power law in model size.
+--------------------------------------------------------------------------------
+AI Scaling Wall (https://en.wikipedia.org/wiki/AI_Scaling_Wall)
+citeturn9search32 [wordlim: 200] Crawled: today; The AI Scaling Wall is the proposition that improvements in generative artificial intelligence (AI), driven by greater training data, computing power, and model size, are reaching diminishing returns.The idea proposes an imminent limit to the AI scaling laws, a term OpenAI coined in 2020 after Baidu researchers showed predictable performance gains from increasing resources such as training data or computing power.
+--------------------------------------------------------------------------------
+神经网络缩放定律 (https://zh.wikipedia.org/wiki/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%BC%A9%E6%94%BE%E5%AE%9A%E5%BE%8B)
+citeturn9search33 [wordlim: 200] Crawled: last month; 2022-06-28: 18332–18346  [2026-08-25]. arXiv:2201.05596  可免费查阅 . ... Scaling Laws, the Vendi Score, and Matrix Spectral Functions. ... Densing Law of LLMs.
+--------------------------------------------------------------------------------
+Grand modèle de langage (https://fr.wikipedia.org/wiki/Grand_mod%C3%A8le_de_langage)
+citeturn9search34 [wordlim: 200] Crawled: last week; *  (en) Yasaman Bahri, Ethan Dyer, Jared Kaplan et Jaehoon Lee, « Explaining neural scaling laws », Proceedings of the National Academy of Sciences, vol. 121, n^{o} 27,‎ 2 juillet 2024 (ISSN 0027-8424 et 1091-6490, PMID 38913889, PMCID PMC11228526, DOI 10.1073/pnas.2311878121). ... *  (en) Jason Wei, Yi Tay, Rishi Bommasani et Colin Raffel, « Emergent Abilities of Large Language Models », Transactions on Machine Learning Research,‎ 31 août 2022 (ISSN 2835-8856, arXiv 2206.07682).
+
+
+[2203.15556] Training Compute-Optimal Large Language Models (https://arxiv.org/abs/2203.15556)
+citeturn10view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2203.15556","lineno":null}); Total lines: 168
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1:
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3:
+L4: Press Enter to search · 【4†Advanced search】
+L5:
+L6: # Computer Science > Computation and Language
+L7:
+L8: [Submitted on 29 Mar 2022]
+L9: # Title:Training Compute-Optimal Large Language Models
+L10: Authors:【5†Jordan Hoffmann】, 【6†Sebastian Borgeaud】, 【7†Arthur Mensch】, 【8†Elena Buchatskaya】, 【9†Trevor Cai】, 【10†Eliza Rutherford】, 【11†Diego de Las Casas】, 【12†Lisa Anne Hendricks】, 【13†Johannes Welbl】, 【14†Aidan Clark】, 【15†Tom Hennigan】, 【16†Eric Noland】, 【17†Katie Millican】, 【18†George van den Driessche】, 【19†Bogdan Damoc】, 【20†Aurelia Guy】, 【21†Simon Osindero】, 【22†Karen Simonyan】, 【23†Erich Elsen】, 【24†Jack W. Rae】, 【25†Oriol Vinyals】, 【26†Laurent Sifre】
+L11: View a PDF of the paper titled Training Compute-Optimal Large Language Models, by Jordan Hoffmann and 21 other authors
+L12:
+L13: 【27†View PDF】 【28†HTML (experimental)】
+L14: > Abstract:We investigate the optimal model size and number of tokens for training a transformer language model under a given compute budget. We find that current large language models are significantly undertrained, a consequence of the recent focus on scaling language models whilst keeping the amount of training data constant.
+L15: By training over 400 language models ranging from 70 million to over 16 billion parameters on 5 to 500 billion tokens, we find that for compute-optimal training, the model size and the number of training tokens should be scaled equally: for every doubling of model size the number of training tokens should also be doubled. We test this hypothesis by training a predicted compute-optimal model, Chinchilla, that uses the same compute budget as Gopher but with 70B parameters and 4$\times$ more more data.
+L16: Chinchilla uniformly and significantly outperforms Gopher (280B), GPT-3 (175B), Jurassic-1 (178B), and Megatron-Turing NLG (530B) on a large range of downstream evaluation tasks. This also means that Chinchilla uses substantially less compute for fine-tuning and inference, greatly facilitating downstream usage. As a highlight, Chinchilla reaches a state-of-the-art average accuracy of 67.5% on the MMLU benchmark, greater than a 7% improvement over Gopher.
+L17: Subjects:  | Computation and Language (cs.CL); Machine Learning (cs.LG)
+L18: Cite as:  | 【29†arXiv:2203.15556】 [cs.CL]
+L19:    | (or 【30†arXiv:2203.15556v1】 [cs.CL] for this version)
+L20:    | 【31†https://doi.org/10.48550/arXiv.2203.15556†doi.org】 arXiv-issued DOI via DataCite
+L21: ## Submission history
+L22:
+L23: From: Jordan Hoffmann [【32†view email】]
+L24: [v1] Tue, 29 Mar 2022 13:38:03 UTC (10,143 KB)
+L25:
+L26: Full-text links:
+L27:
+L28: ## Access Paper:
+L29:
+L30: View a PDF of the paper titled Training Compute-Optimal Large Language Models, by Jordan Hoffmann and 21 other authors
+L31:
+L32:   * 【27†View PDF】
+L33:   * 【28†HTML (experimental)】
+L34:   * 【33†TeX Source】
+L35:
+L36: 【34†view license】
+L37:
+L38: ### Additional Features
+L39:
+L40:   * 【35†Audio Summary】
+L41: ### Current browse context:
+L42:
+L43: cs.CL
+L44:
+L45: 【36†< prev】   |   【37†next >】
+L46:
+L47: 【38†new】 | 【39†recent】 | 【40†2022-03】
+L48:
+L49: Change to browse by:
+L50:
+L51: 【41†cs】
+L52: 【42†cs.LG】
+L53:
+L54: ### References & Citations
+L55:
+L56:   * 【43†SciX†scixplorer.org】
+L57:   * 【44†Google Scholar†scholar.google.com】
+L58:   * 【45†Semantic Scholar†api.semanticscholar.org】
+L59:
+L60: ### 【46†13 blog links】
+L61:
+L62: (【47†what is this?†info.arxiv.org】)
+L63:
+L64: [Button: export BibTeX citation] Loading...
+L65:
+L66: ## BibTeX formatted citation
+L67:
+L68: [Button: ×]
+L69:
+L70: loading...
+L71:
+L72: Data provided by:
+L73: ### Bookmark
+L74:
+L75: [Input] Bibliographic Tools
+L76:
+L77: # Bibliographic and Citation Tools
+L78:
+L79: [Input] Bibliographic Explorer Toggle
+L80:
+L81: Bibliographic Explorer (【48†What is the Explorer?†info.arxiv.org】)
+L82:
+L83: [Input] Connected Papers Toggle
+L84:
+L85: Connected Papers (【49†What is Connected Papers?†www.connectedpapers.com】)
+L86:
+L87: [Input] Litmaps Toggle
+L88:
+L89: Litmaps (【50†What is Litmaps?†www.litmaps.co】)
+L90:
+L91: [Input] scite.ai Toggle
+L92:
+L93: scite Smart Citations (【51†What are Smart Citations?†www.scite.ai】)
+L94:
+L95: [Input] Code, Data, Media
+L96: # Code, Data and Media Associated with this Article
+L97:
+L98: [Input] alphaXiv Toggle
+L99:
+L100: alphaXiv (【52†What is alphaXiv?†alphaxiv.org】)
+L101:
+L102: [Input] Links to Code Toggle
+L103:
+L104: CatalyzeX Code Finder for Papers (【53†What is CatalyzeX?†www.catalyzex.com】)
+L105:
+L106: [Input] DagsHub Toggle
+L107:
+L108: DagsHub (【54†What is DagsHub?†dagshub.com】)
+L109:
+L110: [Input] GotitPub Toggle
+L111:
+L112: Gotit.pub (【55†What is GotitPub?†gotit.pub】)
+L113:
+L114: [Input] Huggingface Toggle
+L115:
+L116: Hugging Face (【56†What is Huggingface?†huggingface.co】)
+L117:
+L118: [Input] ScienceCast Toggle
+L119: ScienceCast (【57†What is ScienceCast?†sciencecast.org】)
+L120:
+L121: [Input] Demos
+L122: # Demos
+L123:
+L124: [Input] Replicate Toggle
+L125:
+L126: Replicate (【58†What is Replicate?†replicate.com】)
+L127:
+L128: [Input] Spaces Toggle
+L129:
+L130: Hugging Face Spaces (【59†What is Spaces?†huggingface.co】)
+L131:
+L132: [Input] Spaces Toggle
+L133:
+L134: TXYZ.AI (【60†What is TXYZ.AI?†txyz.ai】)
+L135:
+L136: [Input] Related Papers
+--------------------------------------------------------------------------------
+Scaling Data-Constrained Language Models (https://jmlr.org/papers/v26/24-1000.html)
+citeturn10view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://jmlr.org/papers/v26/24-1000.html","lineno":null}); Total lines: 40
+L0: 【0†Home Page】
+L1:
+L2: 【1†Papers】
+L3:
+L4: 【2†Submissions】
+L5:
+L6: 【3†News】
+L7:
+L8: 【4†Editorial Board】
+L9:
+L10: 【5†Special Issues】
+L11:
+L12: 【6†Open Source Software】
+L13:
+L14: 【7†Proceedings (PMLR)†proceedings.mlr.press】
+L15:
+L16: 【8†Data (DMLR)†data.mlr.press】
+L17:
+L18: 【9†Transactions (TMLR)】
+L19:
+L20: 【10†Search】
+L21:
+L22: 【11†Statistics】
+L23:
+L24: 【12†Login】
+L25:
+L26: 【13†Frequently Asked Questions】
+L27:
+L28: 【14†Contact Us】
+L29: ## Scaling Data-Constrained Language Models
+L30:
+L31: Niklas Muennighoff, Alexander M. Rush, Boaz Barak, Teven Le Scao, Aleksandra Piktus, Nouamane Tazi, Sampo Pyysalo, Thomas Wolf, Colin Raffel; 26(53):1−66, 2025.
+L32: ### Abstract
+L33: The current trend of scaling language models involves increasing both parameter count and training data set size. Extrapolating this trend suggests that training data set size may soon be limited by the amount of text data available on the internet. Motivated by this limit, we investigate scaling language models in data-constrained regimes.
+L34: Specifically, we run a large set of experiments varying the extent of data repetition and compute budget, ranging up to 900 billion training tokens and 9 billion parameter models. We find that with constrained data for a fixed compute budget, training with up to 4 epochs of repeated data yields negligible changes to loss compared to having unique data. However, with more repetition, the value of adding compute eventually decays to zero.
+L35: We propose and empirically validate a scaling law for compute optimality that accounts for the decreasing value of repeated tokens and excess parameters. Finally, we experiment with approaches mitigating data scarcity, including augmenting the training data set with code data or removing commonly used filters. Models and data sets from our 400 training runs are freely available at https://github.com/huggingface/datablations.
+L36: [abs][【15†pdf】][【16†bib】]        [【17†code†github.com】]
+L37: © 【18†JMLR†www.jmlr.org】 2025. (【19†edit†github.com】, 【20†beta】)
+L38:
+L39: 【21†Mastodon†sigmoid.social】
+--------------------------------------------------------------------------------
+[2408.03314] Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters (https://arxiv.org/abs/2408.03314)
+citeturn10view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2408.03314","lineno":null}); Total lines: 176
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1:
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3:
+L4: Press Enter to search · 【4†Advanced search】
+L5:
+L6: # Computer Science > Machine Learning
+L7:
+L8: [Submitted on 6 Aug 2024]
+L9: # Title:Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters
+L10:
+L11: Authors:【5†Charlie Snell】, 【6†Jaehoon Lee】, 【7†Kelvin Xu】, 【8†Aviral Kumar】
+L12:
+L13: View a PDF of the paper titled Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters, by Charlie Snell and 3 other authors
+L14:
+L15: 【9†View PDF】 【10†HTML (experimental)】
+L16: > Abstract:Enabling LLMs to improve their outputs by using more test-time computation is a critical step towards building generally self-improving agents that can operate on open-ended natural language.
+L17: In this paper, we study the scaling of inference-time computation in LLMs, with a focus on answering the question: if an LLM is allowed to use a fixed but non-trivial amount of inference-time compute, how much can it improve its performance on a challenging prompt? Answering this question has implications not only on the achievable performance of LLMs, but also on the future of LLM pretraining and how one should tradeoff inference-time and pre-training compute.
+L18: Despite its importance, little research attempted to understand the scaling behaviors of various test-time inference methods. Moreover, current work largely provides negative results for a number of these strategies. In this work, we analyze two primary mechanisms to scale test-time computation: (1) searching against dense, process-based verifier reward models; and (2) updating the model's distribution over a response adaptively, given the prompt at test time.
+L19: We find that in both cases, the effectiveness of different approaches to scaling test-time compute critically varies depending on the difficulty of the prompt. This observation motivates applying a "compute-optimal" scaling strategy, which acts to most effectively allocate test-time compute adaptively per prompt. Using this compute-optimal strategy, we can improve the efficiency of test-time compute scaling by more than 4x compared to a best-of-N baseline.
+L20: Additionally, in a FLOPs-matched evaluation, we find that on problems where a smaller base model attains somewhat non-trivial success rates, test-time compute can be used to outperform a 14x larger model.
+L21: Subjects:  | Machine Learning (cs.LG); Computation and Language (cs.CL)
+L22: Cite as:  | 【11†arXiv:2408.03314】 [cs.LG]
+L23:    | (or 【12†arXiv:2408.03314v1】 [cs.LG] for this version)
+L24:    | 【13†https://doi.org/10.48550/arXiv.2408.03314†doi.org】 arXiv-issued DOI via DataCite
+L25: ## Submission history
+L26:
+L27: From: Charlie Snell [【14†view email】]
+L28: [v1] Tue, 6 Aug 2024 17:35:05 UTC (4,152 KB)
+L29:
+L30: Full-text links:
+L31:
+L32: ## Access Paper:
+L33:
+L34: View a PDF of the paper titled Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters, by Charlie Snell and 3 other authors
+L35:
+L36:   * 【9†View PDF】
+L37:   * 【10†HTML (experimental)】
+L38:   * 【15†TeX Source】
+L39:
+L40: 【16†view license†creativecommons.org】
+L41:
+L42: ### Additional Features
+L43:
+L44:   * 【17†Audio Summary】
+L45: ### Current browse context:
+L46:
+L47: cs.LG
+L48:
+L49: 【18†< prev】   |   【19†next >】
+L50:
+L51: 【20†new】 | 【21†recent】 | 【22†2024-08】
+L52:
+L53: Change to browse by:
+L54:
+L55: 【23†cs】
+L56: 【24†cs.CL】
+L57:
+L58: ### References & Citations
+L59:
+L60:   * 【25†SciX†scixplorer.org】
+L61:   * 【26†Google Scholar†scholar.google.com】
+L62:   * 【27†Semantic Scholar†api.semanticscholar.org】
+L63:
+L64: ### 【28†1 blog link】
+L65:
+L66: (【29†what is this?†info.arxiv.org】)
+L67:
+L68: [Button: export BibTeX citation] Loading...
+L69:
+L70: ## BibTeX formatted citation
+L71:
+L72: [Button: ×]
+L73:
+L74: loading...
+L75:
+L76: Data provided by:
+L77: ### Bookmark
+L78:
+L79: [Input] Bibliographic Tools
+L80:
+L81: # Bibliographic and Citation Tools
+L82:
+L83: [Input] Bibliographic Explorer Toggle
+L84:
+L85: Bibliographic Explorer (【30†What is the Explorer?†info.arxiv.org】)
+L86:
+L87: [Input] Connected Papers Toggle
+L88:
+L89: Connected Papers (【31†What is Connected Papers?†www.connectedpapers.com】)
+L90:
+L91: [Input] Litmaps Toggle
+L92:
+L93: Litmaps (【32†What is Litmaps?†www.litmaps.co】)
+L94:
+L95: [Input] scite.ai Toggle
+L96:
+L97: scite Smart Citations (【33†What are Smart Citations?†www.scite.ai】)
+L98:
+L99: [Input] Code, Data, Media
+L100: # Code, Data and Media Associated with this Article
+L101:
+L102: [Input] alphaXiv Toggle
+L103:
+L104: alphaXiv (【34†What is alphaXiv?†alphaxiv.org】)
+L105:
+L106: [Input] Links to Code Toggle
+L107:
+L108: CatalyzeX Code Finder for Papers (【35†What is CatalyzeX?†www.catalyzex.com】)
+L109:
+L110: [Input] DagsHub Toggle
+L111:
+L112: DagsHub (【36†What is DagsHub?†dagshub.com】)
+L113:
+L114: [Input] GotitPub Toggle
+L115:
+L116: Gotit.pub (【37†What is GotitPub?†gotit.pub】)
+L117:
+L118: [Input] Huggingface Toggle
+L119:
+L120: Hugging Face (【38†What is Huggingface?†huggingface.co】)
+L121:
+L122: [Input] ScienceCast Toggle
+L123: ScienceCast (【39†What is ScienceCast?†sciencecast.org】)
+L124:
+L125: [Input] Demos
+--------------------------------------------------------------------------------
+Gemini Deep Think: Redefining the Future of Scientific Research — Google DeepMind (https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/)
+citeturn10view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/","lineno":null}); Total lines: 212
+L0: ## Explore our next generation AI systems
+L1:
+L2: 【0†Explore models】
+L3:
+L4: Gemini
+L5:
+L6: 【1†Gemini Build intelligent agents】 【2†Gemini Omni Create anything from anything】 【3†Nano Banana Create and edit detailed images】 【4†Gemini Audio Talk, create and control audio】
+L7:
+L8: Specialized models
+L9:
+L10: 【5†Veo Generate cinematic video with audio】 【6†Lyria Generate high fidelity music and audio】 【7†Genie 3 Generate and explore interactive worlds】 【8†Gemini Robotics Perceive, reason, use tools and interact】
+L11:
+L12: Open models
+L13: 【9†Gemma Build responsible AI applications at scale】
+L14: ## Our latest AI breakthroughs and updates from the lab
+L15:
+L16: 【10†Explore research】
+L17:
+L18: Breakthroughs
+L19:
+L20: 【11†SIMA 2 An agent that plays, reasons, and learns with you】 【7†Genie 3 Generate and explore interactive worlds】 【12†AlphaGo Mastering the game of Go】 【8†Gemini Robotics Perceive, reason, use tools and interact】
+L21:
+L22: Learn more
+L23:
+L24: 【13†Evals】 【14†Publications】 【15†Responsibility】 【16†Frontier safety】
+L25: ## Unlocking a new era of discovery with AI
+L26:
+L27: 【17†Explore science】
+L28:
+L29: Breakthroughs
+L30:
+L31: 【18†AlphaFold Predict protein structures with high accuracy】 【19†AlphaGenome Using AI to understand the human genome】 【20†WeatherNext Fast and accurate AI weather forecasting】 【21†AlphaEarth Map our planet in unprecedented detail】 【22†AlphaEvolve Design advanced algorithms for math and applications in computing】
+L32:
+L33: Learn more
+L34: 【23†Gemini for Science†ai.google】 【24†Experimental Tools†labs.google】 【25†Science on Antigravity†antigravity.google】
+L35: ## Our mission is to build AI responsibly to benefit humanity
+L36:
+L37: 【26†About Google DeepMind】
+L38:
+L39: 【15†Responsibility Ensuring AI safety through proactive security, even against evolving threats】 【27†News Discover our latest AI breakthroughs, projects, and updates】 【28†Careers We’re looking for people who want to make a real, positive impact on the world】
+L40:
+L41: Learn more
+L42:
+L43: 【29†Education】 【30†Our National Partnerships for AI】 【31†Accelerator programs】 【32†The Podcast】 【33†DeepMind Institute†institute.deepmind.com】
+L44: Models
+L45: ## Explore our next generation AI systems
+L46:
+L47: 【0†Explore models】
+L48:
+L49: Gemini
+L50:
+L51: 【1†Gemini Build intelligent agents】 【2†Gemini Omni Create anything from anything】 【3†Nano Banana Create and edit detailed images】 【4†Gemini Audio Talk, create and control audio】
+L52:
+L53: Specialized models
+L54:
+L55: 【5†Veo Generate cinematic video with audio】 【6†Lyria Generate high fidelity music and audio】 【7†Genie 3 Generate and explore interactive worlds】 【8†Gemini Robotics Perceive, reason, use tools and interact】
+L56:
+L57: Open models
+L58: 【9†Gemma Build responsible AI applications at scale】
+L59:
+L60: Research
+L61: ## Our latest AI breakthroughs and updates from the lab
+L62:
+L63: 【10†Explore research】
+L64:
+L65: Breakthroughs
+L66:
+L67: 【11†SIMA 2 An agent that plays, reasons, and learns with you】 【7†Genie 3 Generate and explore interactive worlds】 【12†AlphaGo Mastering the game of Go】 【8†Gemini Robotics Perceive, reason, use tools and interact】
+L68:
+L69: Learn more
+L70:
+L71: 【13†Evals】 【14†Publications】 【15†Responsibility】 【16†Frontier safety】
+L72:
+L73: Science
+L74: ## Unlocking a new era of discovery with AI
+L75:
+L76: 【17†Explore science】
+L77:
+L78: Breakthroughs
+L79:
+L80: 【18†AlphaFold Predict protein structures with high accuracy】 【19†AlphaGenome Using AI to understand the human genome】 【20†WeatherNext Fast and accurate AI weather forecasting】 【21†AlphaEarth Map our planet in unprecedented detail】 【22†AlphaEvolve Design advanced algorithms for math and applications in computing】
+L81:
+L82: Learn more
+L83: 【23†Gemini for Science†ai.google】 【24†Experimental Tools†labs.google】 【25†Science on Antigravity†antigravity.google】
+L84:
+L85: About
+L86: ## Our mission is to build AI responsibly to benefit humanity
+L87:
+L88: 【26†About Google DeepMind】
+L89:
+L90: Learn more
+L91:
+L92: 【29†Education】 【30†Our National Partnerships for AI】 【31†Accelerator programs】 【32†The Podcast】 【33†DeepMind Institute†institute.deepmind.com】
+L93:
+L94: 【15†Responsibility Ensuring AI safety through proactive security, even against evolving threats】 【27†News Discover our latest AI breakthroughs, projects, and updates】 【28†Careers We’re looking for people who want to make a real, positive impact on the world】
+L95: 【34†Build with Gemini†aistudio.google.com】 【35†Try Gemini†gemini.google.com】
+L96:
+L97: 【36†Google DeepMind】
+L98:
+L99: 【37†Google AI Learn about all our AI†ai.google】 【38†Google DeepMind Explore the frontier of AI】 【39†Google Labs Try our AI experiments†labs.google】 【40†Google Research Explore our research†research.google】
+L100:
+L101: Products and apps
+L102: 【35†Gemini app Chat with Gemini†gemini.google.com】 【34†Google AI Studio Build with our next-gen models†aistudio.google.com】 【41†Google Antigravity Our agentic development platform†antigravity.google】
+L103:
+L104: 【0†Models】
+L105:
+L106: 【10†Research】
+L107:
+L108: 【17†Science】
+L109:
+L110: 【26†About】
+L111:
+L112: 【34†Build with Gemini†aistudio.google.com】 【35†Try Gemini†gemini.google.com】
+L113:
+L114: February 11, 2026 Research
+L115: # Accelerating Mathematical and Scientific Discovery with Gemini Deep Think
+L116:
+L117: Thang Luong and Vahab Mirrokni
+--------------------------------------------------------------------------------
+[2607.25271] Bridging Compute- and Data-Optimal Pretraining (https://arxiv.org/abs/2607.25271)
+citeturn10view4 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2607.25271","lineno":null}); Total lines: 172
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1:
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3:
+L4: Press Enter to search · 【4†Advanced search】
+L5:
+L6: # Computer Science > Machine Learning
+L7:
+L8: [Submitted on 28 Jul 2026]
+L9: # Title:Bridging Compute- and Data-Optimal Pretraining
+L10:
+L11: Authors:【5†Tian Qin】, 【6†Kimia Hamidieh】, 【7†David Alvarez-Melis】
+L12:
+L13: View a PDF of the paper titled Bridging Compute- and Data-Optimal Pretraining, by Tian Qin and 2 other authors
+L14:
+L15: 【8†View PDF】 【9†HTML (experimental)】
+L16: > Abstract:Classical compute-optimal scaling laws assume an unbounded supply of fresh pretraining data, yet pretraining is increasingly entering a regime in which compute grows faster than the availability of high-quality data. We propose Compute-Data (CD) scaling laws, a unified framework that bridges compute-optimal scaling, where data scales freely with compute, and data-optimal scaling, where the corpus is fixed while compute can grow without bound.
+L17: CD scaling extends classical scaling laws by introducing a token-effectiveness function, $\eta$, which quantifies the value of a derived token-produced, for example, through multi-epoch repetition or paraphrasing-relative to a fresh token, ranging from a perfect substitute to having no value. We fit $\eta$ for two data-expansion strategies, multi-epoch repetition and paraphrasing, across model sizes from 14M to 600M parameters using the Dolma-3 corpus.
+L18: We find that token effectiveness is far from constant: it depends jointly on model size, the tokens-per-parameter ratio, and the amount of derived data, and it saturates as the corpus is expanded. The functional form of $\eta$ implies diminishing returns when substituting compute for data as either model size or data availability increases.
+L19: It also partitions training into three operational regimes---compute-bound, data-bound, and model-bound---and shows that classical compute-optimal allocation is suboptimal across most practically relevant settings.
+L20: Subjects:  | Machine Learning (cs.LG); Artificial Intelligence (cs.AI); Performance (cs.PF)
+L21: Cite as:  | 【10†arXiv:2607.25271】 [cs.LG]
+L22:    | (or 【11†arXiv:2607.25271v1】 [cs.LG] for this version)
+L23:    | 【12†https://doi.org/10.48550/arXiv.2607.25271†doi.org】 arXiv-issued DOI via DataCite
+L24: ## Submission history
+L25:
+L26: From: Tian Qin [【13†view email】]
+L27: [v1] Tue, 28 Jul 2026 04:18:49 UTC (1,003 KB)
+L28:
+L29: Full-text links:
+L30:
+L31: ## Access Paper:
+L32:
+L33: View a PDF of the paper titled Bridging Compute- and Data-Optimal Pretraining, by Tian Qin and 2 other authors
+L34:
+L35:   * 【8†View PDF】
+L36:   * 【9†HTML (experimental)】
+L37:   * 【14†TeX Source】
+L38:
+L39: 【15†view license†creativecommons.org】
+L40:
+L41: ### Additional Features
+L42:
+L43:   * 【16†Audio Summary】
+L44: ### Current browse context:
+L45:
+L46: cs.LG
+L47:
+L48: 【17†< prev】   |   【18†next >】
+L49:
+L50: 【19†new】 | 【20†recent】 | 【21†2026-07】
+L51:
+L52: Change to browse by:
+L53:
+L54: 【22†cs】
+L55: 【23†cs.AI】
+L56: 【24†cs.PF】
+L57:
+L58: ### References & Citations
+L59:
+L60:   * 【25†SciX†scixplorer.org】
+L61:   * 【26†Google Scholar†scholar.google.com】
+L62:   * 【27†Semantic Scholar†api.semanticscholar.org】
+L63:
+L64: [Button: export BibTeX citation] Loading...
+L65:
+L66: ## BibTeX formatted citation
+L67:
+L68: [Button: ×]
+L69:
+L70: loading...
+L71:
+L72: Data provided by:
+L73:
+L74: ### Bookmark
+L75:
+L76: [Input] Bibliographic Tools
+L77: # Bibliographic and Citation Tools
+L78:
+L79: [Input] Bibliographic Explorer Toggle
+L80:
+L81: Bibliographic Explorer (【28†What is the Explorer?†info.arxiv.org】)
+L82:
+L83: [Input] Connected Papers Toggle
+L84:
+L85: Connected Papers (【29†What is Connected Papers?†www.connectedpapers.com】)
+L86:
+L87: [Input] Litmaps Toggle
+L88:
+L89: Litmaps (【30†What is Litmaps?†www.litmaps.co】)
+L90:
+L91: [Input] scite.ai Toggle
+L92:
+L93: scite Smart Citations (【31†What are Smart Citations?†www.scite.ai】)
+L94:
+L95: [Input] Code, Data, Media
+L96: # Code, Data and Media Associated with this Article
+L97:
+L98: [Input] alphaXiv Toggle
+L99:
+L100: alphaXiv (【32†What is alphaXiv?†alphaxiv.org】)
+L101:
+L102: [Input] Links to Code Toggle
+L103:
+L104: CatalyzeX Code Finder for Papers (【33†What is CatalyzeX?†www.catalyzex.com】)
+L105:
+L106: [Input] DagsHub Toggle
+L107:
+L108: DagsHub (【34†What is DagsHub?†dagshub.com】)
+L109:
+L110: [Input] GotitPub Toggle
+L111:
+L112: Gotit.pub (【35†What is GotitPub?†gotit.pub】)
+L113:
+L114: [Input] Huggingface Toggle
+L115:
+L116: Hugging Face (【36†What is Huggingface?†huggingface.co】)
+L117:
+L118: [Input] ScienceCast Toggle
+L119: ScienceCast (【37†What is ScienceCast?†sciencecast.org】)
+L120:
+L121: [Input] Demos
+L122: # Demos
+L123:
+L124: [Input] Replicate Toggle
+L125:
+L126: Replicate (【38†What is Replicate?†replicate.com】)
+L127:
+L128: [Input] Spaces Toggle
+L129:
+L130: Hugging Face Spaces (【39†What is Spaces?†huggingface.co】)
+L131:
+L132: [Input] Spaces Toggle
+L133:
+L134: TXYZ.AI (【40†What is TXYZ.AI?†txyz.ai】)
+L135:
+L136: [Input] Related Papers
+L137: # Recommenders and Search Tools
+L138:
+L139: [Input] Link to Influence Flower
+L140:
+L141: Influence Flower (【41†What are Influence Flowers?†influencemap.cmlab.dev】)
+L142:
+L143: [Input] Core recommender toggle
+L144:
+L145: CORE Recommender (【42†What is CORE?†core.ac.uk】)
+L146:
+L147: [Input] IArxiv recommender toggle
+L148:
+L149: IArxiv Recommender (【43†What is IArxiv?†iarxiv.org】)
+L150:
+L151:   * Author
+L152:   * Venue
+L153:   * Institution
+L154:   * Topic
+L155:
+L156: [Input] About arXivLabs
+
+
+Gemini Deep Think: Redefining the Future of Scientific Research — Google DeepMind (https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/)
+citeturn11view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn10view3","pattern":"scal"}); Total lines: 212
+No matching text found for "scal"--------------------------------------------------------------------------------
+Gemini Deep Think: Redefining the Future of Scientific Research — Google DeepMind (https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/)
+citeturn11view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn10view3","pattern":"90%"}); Total lines: 212
+L132: Additionally, the research agent uses Google Search and web browsing to navigate complex research, preventing spurious citations and computational inaccuracies when synthesizing published literature.
+L133: 【47†Image: Flowchart titled "Aletheia: Powered by Gemini Deep Think" illustrating a multi-step solution verification process.
+L134: A central linear path moves from "Problem" to "Generator," then "Candidate solution," then "Verifier," and finally "Final output." The Verifier acts as a decision point with three feedback loops: Correct: Moves directly to "Final output." Minor fixes needed: Routes back through a "Reviser" to update the "Candidate solution." Critically flawed: Triggers a red dashed line back to the "Generator" to restart the process.†storage.googleapis.com】【48†Image: Flowchart titled "Aletheia: Powered by Gemini Deep Think" illustrating a multi-step solution verification process.
+L135: A central linear path moves from "Problem" to "Generator," then "Candidate solution," then "Verifier," and finally "Final output." The Verifier acts as a decision point with three feedback loops: Correct: Moves directly to "Final output." Minor fixes needed: Routes back through a "Reviser" to update the "Candidate solution." Critically flawed: Triggers a red dashed line back to the "Generator" to restart the process.†storage.googleapis.com】
+L136: Overview of Aletheia, a math research agent powered by Deep Think that can iteratively generate, verify, and revise for research-level math problems.
+L137: Since achieving IMO Gold-medal standard in July 2025, Gemini Deep Think has progressed rapidly, scoring up to 90% on the IMO-ProofBench Advanced 【49†test†imobench.github.io】 as inference-time compute scales. We demonstrated that the scaling law continues to hold as we progress beyond Olympiad level into PhD-level exercises (per our internal FutureMath Basic benchmark). Notably, Aletheia demonstrated that higher reasoning quality can be achieved at a lower inference-time compute.
+L138: 【50†Image: Line graph titled "IMO-ProofBench Advanced (Olympiad level)" comparing the performance of two versions of Gemini Deep Think against a benchmark named Aletheia. The y-axis shows Score percentage (30% to 90%), and the x-axis shows Inference-Time Compute on a logarithmic scale .The January 2026 version (light blue) consistently outperforms the July 2025 version (dark blue), with both showing a steady upward trend as compute increases.
+L139: The January 2026 version peaks at approximately 90% nearly reaching the Aletheia benchmark (green star) positioned just above 90%.†storage.googleapis.com】【51†Image: Line graph titled "IMO-ProofBench Advanced (Olympiad level)" comparing the performance of two versions of Gemini Deep Think against a benchmark named Aletheia.
+L140: The y-axis shows Score percentage (30% to 90%), and the x-axis shows Inference-Time Compute on a logarithmic scale .The January 2026 version (light blue) consistently outperforms the July 2025 version (dark blue), with both showing a steady upward trend as compute increases. The January 2026 version peaks at approximately 90% nearly reaching the Aletheia benchmark (green star) positioned just above 90%.†storage.googleapis.com】
+L141: The latest advanced version of Deep Think, as of Jan 2026, has significantly outperformed the IMO-Gold version (Jul 2025) on Olympiad-level problems. Aletheia makes further leaps in terms of reasoning quality with lower inference-time compute. All results were graded by human experts.
+L142: 【52†Image: Line graph titled "(b) FutureMath Basic (Ph.D level exercises)" plotting the score of Gemini Deep Think (Jan 2026) against increasing Inference-Time Compute on a logarithmic scale. The y-axis represents Score percentage (0% to 45%). The performance starts at 0% and shows a volatile upward trend, hitting an early peak of 30% before fluctuating and eventually climbing to a final high of approximately 38%.
+L143: A green star representing "Aletheia" is marked as a benchmark at roughly 46%, remaining significantly above the model's highest performance reached.†storage.googleapis.com】【53†Image: Line graph titled "(b) FutureMath Basic (Ph.D level exercises)" plotting the score of Gemini Deep Think (Jan 2026) against increasing Inference-Time Compute on a logarithmic scale. The y-axis represents Score percentage (0% to 45%).
+L144: The performance starts at 0% and shows a volatile upward trend, hitting an early peak of 30% before fluctuating and eventually climbing to a final high of approximately 38%. A green star representing "Aletheia" is marked as a benchmark at roughly 46%, remaining significantly above the model's highest performance reached.†storage.googleapis.com】
+L145: The inference-time scaling law also transfers to PhD-level exercises.
+L146:
+L147: For research-level math, Aletheia has already enabled several advancements, produced via varying levels of autonomous research:
+L148:   * Reliable autonomous research. A research paper (【54†Feng26†arxiv.org】) generated by AI without any human intervention, which calculates certain structure constants in arithmetic geometry called eigenweights.
+L149:   * AI-guided collaboration. A research paper (【55†LeeSeo26†arxiv.org】) demonstrating human-AI collaboration in proving bounds on systems of interacting particles called independent sets.
+L150:   * An extensive semi-autonomous evaluation (【56†Feng et al., 2026b†arxiv.org】) of 700 open problems on Bloom’s Erdős Conjectures 【57†database†www.erdosproblems.com】, including autonomous solutions to four open questions listed there. On Erdős-1051, our model autonomously solved and helped lead to a generalization reported in a research paper (【58†BKKKZ26†arxiv.org】).
+L151: The agent also contributed intermediate propositions on two further papers, (【59†FYZ26†arxiv.org】) and (【60†ACGKMP26†arxiv.org】). It is also of note that there has been prior 【61†work†arxiv.org】 using Gemini for research-level math at a smaller scale in terms of collaborations and the number of problems tackled.
+L152: Following extensive discussions with the mathematical community, we suggest a taxonomy to classify AI-assisted mathematics research by significance and degree of AI contribution - contributing to the wider discussion on responsible documentation, evaluation and communication of AI-generated results. Level 2 (“publishable quality”) works have been submitted to reputable journals. Currently, we do not claim any Level 3 (“Major Advance”) and Level 4 (“Landmark Breakthrough”) results.
+L153: 【62†Image: A table titled "Classification of all AI-assisted mathematics results encompassed in this work" categorizes research by novelty and collaboration type.Level 0 (Autonomous): Erdős-652, 654, 1040 (Feng et al., 2026b).Level 1 (Autonomous): Erdős-1051 (Feng et al., 2026b).Level 2 (Human + AI): Complexity Bounds (ACGKMP26) and Arithmetic Volumes (FYZ26).Level 2 (Collaboration): Independence Polynomials (LeeSeo26) and Generalized Erdős-1051 (BKKKZ26).Level 2 (Autonomous): Eigenweights (Feng26).Levels 3 and 4 are currently empty.†storage.googleapis.com】【63†Image: A table titled "Classification of all AI-assisted mathematics results encompassed in this work" categorizes research by novelty and collaboration type.Level 0 (Autonomous): Erdős-652, 654, 1040 (Feng et al., 2026b).Level 1 (Autonomous): Erdős-1051 (Feng et al., 2026b).Level 2 (Human + AI): Complexity Bounds (ACGKMP26) and Arithmetic Volumes (FYZ26).Level 2 (Collaboration): Independence Polynomials (LeeSeo26) and Generalized Erdős-1051 (BKKKZ26).Level 2 (Autonomous): Eigenweights (Feng26).Levels 3 and 4 are currently empty.†storage.googleapis.com】
+--------------------------------------------------------------------------------
+Gemini Deep Think: Redefining the Future of Scientific Research — Google DeepMind (https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/)
+citeturn11view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn10view3","pattern":"FutureMath"}); Total lines: 212
+L133: 【47†Image: Flowchart titled "Aletheia: Powered by Gemini Deep Think" illustrating a multi-step solution verification process.
+L134: A central linear path moves from "Problem" to "Generator," then "Candidate solution," then "Verifier," and finally "Final output." The Verifier acts as a decision point with three feedback loops: Correct: Moves directly to "Final output." Minor fixes needed: Routes back through a "Reviser" to update the "Candidate solution." Critically flawed: Triggers a red dashed line back to the "Generator" to restart the process.†storage.googleapis.com】【48†Image: Flowchart titled "Aletheia: Powered by Gemini Deep Think" illustrating a multi-step solution verification process.
+L135: A central linear path moves from "Problem" to "Generator," then "Candidate solution," then "Verifier," and finally "Final output." The Verifier acts as a decision point with three feedback loops: Correct: Moves directly to "Final output." Minor fixes needed: Routes back through a "Reviser" to update the "Candidate solution." Critically flawed: Triggers a red dashed line back to the "Generator" to restart the process.†storage.googleapis.com】
+L136: Overview of Aletheia, a math research agent powered by Deep Think that can iteratively generate, verify, and revise for research-level math problems.
+L137: Since achieving IMO Gold-medal standard in July 2025, Gemini Deep Think has progressed rapidly, scoring up to 90% on the IMO-ProofBench Advanced 【49†test†imobench.github.io】 as inference-time compute scales. We demonstrated that the scaling law continues to hold as we progress beyond Olympiad level into PhD-level exercises (per our internal FutureMath Basic benchmark). Notably, Aletheia demonstrated that higher reasoning quality can be achieved at a lower inference-time compute.
+L138: 【50†Image: Line graph titled "IMO-ProofBench Advanced (Olympiad level)" comparing the performance of two versions of Gemini Deep Think against a benchmark named Aletheia. The y-axis shows Score percentage (30% to 90%), and the x-axis shows Inference-Time Compute on a logarithmic scale .The January 2026 version (light blue) consistently outperforms the July 2025 version (dark blue), with both showing a steady upward trend as compute increases.
+L139: The January 2026 version peaks at approximately 90% nearly reaching the Aletheia benchmark (green star) positioned just above 90%.†storage.googleapis.com】【51†Image: Line graph titled "IMO-ProofBench Advanced (Olympiad level)" comparing the performance of two versions of Gemini Deep Think against a benchmark named Aletheia.
+L140: The y-axis shows Score percentage (30% to 90%), and the x-axis shows Inference-Time Compute on a logarithmic scale .The January 2026 version (light blue) consistently outperforms the July 2025 version (dark blue), with both showing a steady upward trend as compute increases. The January 2026 version peaks at approximately 90% nearly reaching the Aletheia benchmark (green star) positioned just above 90%.†storage.googleapis.com】
+L141: The latest advanced version of Deep Think, as of Jan 2026, has significantly outperformed the IMO-Gold version (Jul 2025) on Olympiad-level problems. Aletheia makes further leaps in terms of reasoning quality with lower inference-time compute. All results were graded by human experts.
+L142: 【52†Image: Line graph titled "(b) FutureMath Basic (Ph.D level exercises)" plotting the score of Gemini Deep Think (Jan 2026) against increasing Inference-Time Compute on a logarithmic scale. The y-axis represents Score percentage (0% to 45%). The performance starts at 0% and shows a volatile upward trend, hitting an early peak of 30% before fluctuating and eventually climbing to a final high of approximately 38%.
+L143: A green star representing "Aletheia" is marked as a benchmark at roughly 46%, remaining significantly above the model's highest performance reached.†storage.googleapis.com】【53†Image: Line graph titled "(b) FutureMath Basic (Ph.D level exercises)" plotting the score of Gemini Deep Think (Jan 2026) against increasing Inference-Time Compute on a logarithmic scale. The y-axis represents Score percentage (0% to 45%).
+L144: The performance starts at 0% and shows a volatile upward trend, hitting an early peak of 30% before fluctuating and eventually climbing to a final high of approximately 38%. A green star representing "Aletheia" is marked as a benchmark at roughly 46%, remaining significantly above the model's highest performance reached.†storage.googleapis.com】
+L145: The inference-time scaling law also transfers to PhD-level exercises.
+L146:
+L147: For research-level math, Aletheia has already enabled several advancements, produced via varying levels of autonomous research:
+L148:   * Reliable autonomous research. A research paper (【54†Feng26†arxiv.org】) generated by AI without any human intervention, which calculates certain structure constants in arithmetic geometry called eigenweights.
+L149:   * AI-guided collaboration. A research paper (【55†LeeSeo26†arxiv.org】) demonstrating human-AI collaboration in proving bounds on systems of interacting particles called independent sets.
+L150:   * An extensive semi-autonomous evaluation (【56†Feng et al., 2026b†arxiv.org】) of 700 open problems on Bloom’s Erdős Conjectures 【57†database†www.erdosproblems.com】, including autonomous solutions to four open questions listed there. On Erdős-1051, our model autonomously solved and helped lead to a generalization reported in a research paper (【58†BKKKZ26†arxiv.org】).
+L151: The agent also contributed intermediate propositions on two further papers, (【59†FYZ26†arxiv.org】) and (【60†ACGKMP26†arxiv.org】). It is also of note that there has been prior 【61†work†arxiv.org】 using Gemini for research-level math at a smaller scale in terms of collaborations and the number of problems tackled.
+L152: Following extensive discussions with the mathematical community, we suggest a taxonomy to classify AI-assisted mathematics research by significance and degree of AI contribution - contributing to the wider discussion on responsible documentation, evaluation and communication of AI-generated results. Level 2 (“publishable quality”) works have been submitted to reputable journals. Currently, we do not claim any Level 3 (“Major Advance”) and Level 4 (“Landmark Breakthrough”) results.
+L153: 【62†Image: A table titled "Classification of all AI-assisted mathematics results encompassed in this work" categorizes research by novelty and collaboration type.Level 0 (Autonomous): Erdős-652, 654, 1040 (Feng et al., 2026b).Level 1 (Autonomous): Erdős-1051 (Feng et al., 2026b).Level 2 (Human + AI): Complexity Bounds (ACGKMP26) and Arithmetic Volumes (FYZ26).Level 2 (Collaboration): Independence Polynomials (LeeSeo26) and Generalized Erdős-1051 (BKKKZ26).Level 2 (Autonomous): Eigenweights (Feng26).Levels 3 and 4 are currently empty.†storage.googleapis.com】【63†Image: A table titled "Classification of all AI-assisted mathematics results encompassed in this work" categorizes research by novelty and collaboration type.Level 0 (Autonomous): Erdős-652, 654, 1040 (Feng et al., 2026b).Level 1 (Autonomous): Erdős-1051 (Feng et al., 2026b).Level 2 (Human + AI): Complexity Bounds (ACGKMP26) and Arithmetic Volumes (FYZ26).Level 2 (Collaboration): Independence Polynomials (LeeSeo26) and Generalized Erdős-1051 (BKKKZ26).Level 2 (Autonomous): Eigenweights (Feng26).Levels 3 and 4 are currently empty.†storage.googleapis.com】
+L154: Classification of all AI-assisted mathematics results encompassed in this work. *Works listed as Level 2 in this table have been submitted for publications.
+L155:
+L156: Prompts and model outputs are available 【64†here†github.com】. For discussions on AI contributions, our “Human-AI Interaction card”, and community impact, see our 【45†paper†arxiv.org】.
+L157: ## Expanding to Physics and Computer Science
+L158: Gemini Deep Think mode has also demonstrated promise in computer science and physics. The 【65†second paper†arxiv.org】 builds on similar agentic reasoning ideas, and identifies effective "recipes" for collaboration, specifically the "Advisor" model, where humans guide AI through iterative "Vibe-Proving" cycles to validate intuition and refine proofs.
+L159: We also detail tactical techniques like “balanced prompting” —requesting simultaneous proof or refutation to prevent confirmation bias—and code-assisted verification. These methods, combined with the model's ability to bridge disparate scientific fields through deep structural connections, are transforming how theoretical research is conducted.

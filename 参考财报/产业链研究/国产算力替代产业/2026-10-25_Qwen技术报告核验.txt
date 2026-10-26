@@ -1,0 +1,158 @@
+[2505.09388] Qwen3 Technical Report (https://arxiv.org/abs/2505.09388)
+citeturn20view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2505.09388","lineno":null}); Total lines: 165
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1:
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3:
+L4: Press Enter to search · 【4†Advanced search】
+L5:
+L6: # Computer Science > Computation and Language
+L7:
+L8: [Submitted on 14 May 2025]
+L9: # Title:Qwen3 Technical Report
+L10: Authors:【5†An Yang】, 【6†Anfeng Li】, 【7†Baosong Yang】, 【8†Beichen Zhang】, 【9†Binyuan Hui】, 【10†Bo Zheng】, 【11†Bowen Yu】, 【12†Chang Gao】, 【13†Chengen Huang】, 【14†Chenxu Lv】, 【15†Chujie Zheng】, 【16†Dayiheng Liu】, 【17†Fan Zhou】, 【18†Fei Huang】, 【19†Feng Hu】, 【20†Hao Ge】, 【21†Haoran Wei】, 【22†Huan Lin】, 【23†Jialong Tang】, 【24†Jian Yang】, 【25†Jianhong Tu】, 【26†Jianwei Zhang】, 【24†Jianxin Yang】, 【24†Jiaxi Yang】, 【27†Jing Zhou】, 【27†Jingren Zhou】, 【28†Junyang Lin】, 【29†Kai Dang】, 【30†Keqin Bao】, 【31†Kexin Yang】, 【32†Le Yu】, 【33†Lianghao Deng】, 【34†Mei Li】, 【35†Mingfeng Xue】, 【34†Mingze Li】, 【36†Pei Zhang】, 【37†Peng Wang】, 【38†Qin Zhu】, 【39†Rui Men】, 【40†Ruize Gao】, 【41†Shixuan Liu】, 【42†Shuang Luo】, 【43†Tianhao Li】, 【44†Tianyi Tang】, 【45†Wenbiao Yin】, 【46†Xingzhang Ren】, 【47†Xinyu Wang】, 【48†Xinyu Zhang】, 【46†Xuancheng Ren】, 【49†Yang Fan】, 【50†Yang Su】, 【51†Yichang Zhang】, 【51†Yinger Zhang】, 【52†Yu Wan】, 【53†Yuqiong Liu】, 【54†Zekun Wang】, 【55†Zeyu Cui】, 【56†Zhenru Zhang】, 【57†Zhipeng Zhou】, 【58†Zihan Qiu】
+L11: View a PDF of the paper titled Qwen3 Technical Report, by An Yang and 59 other authors
+L12:
+L13: 【59†View PDF】 【60†HTML (experimental)】
+L14: > Abstract:In this work, we present Qwen3, the latest version of the Qwen model family. Qwen3 comprises a series of large language models (LLMs) designed to advance performance, efficiency, and multilingual capabilities. The Qwen3 series includes models of both dense and Mixture-of-Expert (MoE) architectures, with parameter scales ranging from 0.6 to 235 billion.
+L15: A key innovation in Qwen3 is the integration of thinking mode (for complex, multi-step reasoning) and non-thinking mode (for rapid, context-driven responses) into a unified framework. This eliminates the need to switch between different models--such as chat-optimized models (e.g., GPT-4o) and dedicated reasoning models (e.g., QwQ-32B)--and enables dynamic mode switching based on user queries or chat templates.
+L16: Meanwhile, Qwen3 introduces a thinking budget mechanism, allowing users to allocate computational resources adaptively during inference, thereby balancing latency and performance based on task complexity. Moreover, by leveraging the knowledge from the flagship models, we significantly reduce the computational resources required to build smaller-scale models, while ensuring their highly competitive performance.
+L17: Empirical evaluations demonstrate that Qwen3 achieves state-of-the-art results across diverse benchmarks, including tasks in code generation, mathematical reasoning, agent tasks, etc., competitive against larger MoE models and proprietary models. Compared to its predecessor Qwen2.5, Qwen3 expands multilingual support from 29 to 119 languages and dialects, enhancing global accessibility through improved cross-lingual understanding and generation capabilities.
+L18: To facilitate reproducibility and community-driven research and development, all Qwen3 models are publicly accessible under Apache 2.0.
+L19: Subjects:  | Computation and Language (cs.CL)
+L20: Cite as:  | 【61†arXiv:2505.09388】 [cs.CL]
+L21:    | (or 【62†arXiv:2505.09388v1】 [cs.CL] for this version)
+L22:    | 【63†https://doi.org/10.48550/arXiv.2505.09388†doi.org】 arXiv-issued DOI via DataCite
+L23: ## Submission history
+L24:
+L25: From: Binyuan Hui [【64†view email】]
+L26: [v1] Wed, 14 May 2025 13:41:34 UTC (2,293 KB)
+L27:
+L28: Full-text links:
+L29:
+L30: ## Access Paper:
+L31:
+L32: View a PDF of the paper titled Qwen3 Technical Report, by An Yang and 59 other authors
+L33:
+L34:   * 【59†View PDF】
+L35:   * 【60†HTML (experimental)】
+L36:   * 【65†TeX Source】
+L37:
+L38: 【66†view license】
+L39:
+L40: ### Additional Features
+L41:
+L42:   * 【67†Audio Summary】
+L43:
+L44: ### Current browse context:
+L45:
+L46: cs.CL
+L47:
+L48: 【68†< prev】   |   【69†next >】
+L49:
+L50: 【70†new】 | 【71†recent】 | 【72†2025-05】
+L51:
+L52: Change to browse by:
+L53:
+L54: 【73†cs】
+L55: ### References & Citations
+L56:
+L57:   * 【74†SciX†scixplorer.org】
+L58:   * 【75†Google Scholar†scholar.google.com】
+L59:   * 【76†Semantic Scholar†api.semanticscholar.org】
+L60:
+L61: [Button: export BibTeX citation] Loading...
+L62:
+L63: ## BibTeX formatted citation
+L64:
+L65: [Button: ×]
+L66:
+L67: loading...
+L68:
+L69: Data provided by:
+L70:
+L71: ### Bookmark
+L72:
+L73: [Input] Bibliographic Tools
+L74: # Bibliographic and Citation Tools
+L75:
+L76: [Input] Bibliographic Explorer Toggle
+L77:
+L78: Bibliographic Explorer (【77†What is the Explorer?†info.arxiv.org】)
+L79:
+L80: [Input] Connected Papers Toggle
+L81:
+L82: Connected Papers (【78†What is Connected Papers?†www.connectedpapers.com】)
+L83:
+L84: [Input] Litmaps Toggle
+L85:
+L86: Litmaps (【79†What is Litmaps?†www.litmaps.co】)
+L87:
+L88: [Input] scite.ai Toggle
+L89:
+L90: scite Smart Citations (【80†What are Smart Citations?†www.scite.ai】)
+L91:
+L92: [Input] Code, Data, Media
+--------------------------------------------------------------------------------
+Qwen3 Technical Report (https://arxiv.org/html/2505.09388v1)
+citeturn20view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/html/2505.09388v1","lineno":320}); Total lines: 774
+L296: GPQA  | 24.75  | 26.77  | 24.75  | 24.24  | 28.28
+L297: GSM8K  | 41.62  | 59.59  | 2.20  | 68.54  | 75.44
+L298: MATH  | 19.48  | 32.44  | 3.66  | 35.00  | 43.50
+L299: Coding Tasks
+L300: EvalPlus  | 31.85  | 36.23  | 8.98  | 44.80  | 52.70
+L301: MultiPL-E  | 18.70  | 24.58  | 5.15  | 33.10  | 42.71
+L302: MBPP  | 29.80  | 36.60  | 9.20  | 43.60  | 55.40
+L303: CRUX-O  | 12.10  | 27.00  | 3.80  | 29.60  | 36.40
+L304: Multilingual Tasks
+L305: MGSM  | 12.07  | 30.99  | 1.74  | 32.82  | 50.71
+L306: MMMLU  | 31.53  | 50.16  | 26.57  | 60.27  | 63.27
+L307: INCLUDE  | 24.74  | 34.26  | 25.62  | 39.55  | 45.57
+L308: ##### Qwen3-32B-Base
+L309: Qwen3-32B-Base is our largest dense model among the Qwen3 series. We compare it to the baselines of similar sizes, including Gemma-3-27B (【99†Team et al., 2025】) and Qwen2.5-32B (【53†Yang et al., 2024b】).
+L310: In addition, we introduce two strong baselines: the recently open-source MoE model Llama-4-Scout, which has three times the parameters of Qwen3-32B-Base but half the activated parameters; and our previous flagship open-source dense model Qwen2.5-72B-Base, which has more than twice the number of parameters compared to Qwen3-32B-Base. The results are shown in Table 【102†4】, which support three key conclusions:
+L311:   1. (1)
+L312:
+L313: Compared with the similar-sized models, Qwen3-32B-Base outperforms Qwen2.5-32B-Base and Gemma-3-27B Base on most benchmarks. Notably, Qwen3-32B-Base achieves 65.54 on MMLU-Pro and 39.78 on SuperGPQA, significantly outperforming its predecessor Qwen2.5-32B-Base. In addition, Qwen3-32B-Base achieves significantly higher encoding benchmark scores than all baseline models.
+L314:
+L315:   2. (2)
+L316: Surprisingly, we find that Qwen3-32B-Base achieves competitive results compared to Qwen2.5-72B-Base. Although Qwen3-32B-Base has less than half the number of parameters of Qwen2.5-72B-Base, it outperforms Qwen2.5-72B-Base in 10 of the 15 evaluation benchmarks. On coding, mathematics, and reasoning benchmarks, Qwen3-32B-Base has remarkable advantages.
+L317:
+L318:   3. (3)
+L319: Compared to Llama-4-Scout-Base, Qwen3-32B-Base significantly outperforms it on all 15 benchmarks, with only one-third of the number of parameters of Llama-4-Scout-Base, but twice the number of activated parameters.
+L320: ##### Qwen3-14B-Base & Qwen3-30B-A3B-Base
+L321: The evaluation of the Qwen3-14B-Base and Qwen3-30B-A3B-Base is compared against baselines of similar sizes, including Gemma-3-12B Base, Qwen2.5-14B Base. Similarly, we also introduce two strong baselines: (1) Qwen2.5-Turbo (【53†Yang et al., 2024b】), which has 42B parameters and 6B activated parameters. Note that its activated parameters are twice those of Qwen3-30B-A3B-Base. (2) Qwen2.5-32B-Base, which has 11 times the activated parameters of Qwen3-30B-A3B and more than twice that of Qwen3-14B.
+L322: The results are shown in Table 【103†5】, where we can draw the following conclusions.
+L323:   1. (1)
+L324:
+L325: Compared with the similar-sized models, Qwen3-14B-Base significantly performs better than Qwen2.5-14B-Base and Gemma-3-12B-Base on all 15 benchmarks.
+L326:
+L327:   2. (2)
+L328:
+L329: Similarly, Qwen3-14B-Base also achieves very competitive results compared to Qwen2.5-32B-Base with less than half of the parameters.
+L330:
+L331:   3. (3)
+L332: With only 1/5 activated non-embedding parameters, Qwen3-30B-A3B significantly outperforms Qwen2.5-14B-Base on all tasks, and achieves comparable performance to Qwen3-14B-Base and Qwen2.5-32B-Base, which brings us significant advantages in inference and training costs.
+L333: ##### Qwen3-8B / 4B / 1.7B / 0.6B-Base
+L334: For edge-side models, we take similar-sized Qwen2.5, Llama-3, and Gemma-3 base models as the baselines. The results can be seen in Table 【104†6】, Table 【105†7】, and Table 【106†8】. All Qwen3 8B / 4B / 1.7B / 0.6B-Base models continue to maintain strong performance across nearly all benchmarks.
+L335: Notably, Qwen3-8B / 4B / 1.7B-Base models even outperform larger size Qwen2.5-14B / 7B / 3B Base models on over half of the benchmarks, especially on STEM-related and coding benchmarks, reflecting the significant improvement of the Qwen3 models.
+L336: ## 4 Post-training
+L337:
+L338: Figure 1: Post-training pipeline of the Qwen3 series models.
+L339:
+L340: The post-training pipeline of Qwen3 is strategically designed with two core objectives:
+L341:
+L342:   1. (1)
+L343:
+L344: Thinking Control: This involves the integration of two distinct modes, namely the “non-thinking” and “thinking” modes, providing users with the flexibility to choose whether the model should engage in reasoning or not, and to control the depth of thinking by specifying a token budget for the thinking process.
+L345:
+L346:   2. (2)
+L347: Strong-to-Weak Distillation: This aims to streamline and optimize the post-training process for lightweight models. By leveraging the knowledge from large-scale models, we substantially reduce both the computational costs and the development efforts required for building smaller-scale models.
+L348: As illustrated in Figure 【107†1】, the flagship models in the Qwen3 series follow a sophisticated four-stage training process. The first two stages focus on developing the models’ “thinking” abilities. The next two stages aim to integrate strong “non-thinking” functionalities into the models.
+L349: Preliminary experiments suggest that directly distilling the output logits from teacher models into lightweight student models can effectively enhance their performance while maintaining fine-grained control over their reasoning processes. This approach eliminates the necessity of performing an exhaustive four-stage training process individually for every small-scale model.
+L350: It leads to better immediate performance, as indicated by higher Pass@1 scores, and also improves the model’s ability of exploration, as reflected in improved Pass@64 results. In addition, it achieves these gains with much greater training efficiency, requiring only 1/10 of the GPU hours compared to the four-stage training method.
+L351: In the following sections, we present the four-stage training process and provide a detailed explanation of the Strong-to-Weak Distillation approach.
+L352: ### 4.1 Long-CoT Cold Start
+L353:
+L354: We begin by curating a comprehensive dataset that spans a wide range of categories, including math, code, logical reasoning, and general STEM problems. Each problem in the dataset is paired with verified reference answers or code-based test cases. This dataset serves as the foundation for the “cold start” phase of long Chain-of-Thought (long-CoT) training.
+L355: The dataset construction involves a rigorous two-phase filtering process: query filtering and response filtering. In the query filtering phase, we use Qwen2.5-72B-Instruct to identify and remove queries that are not easily verifiable. This includes queries containing multiple sub-questions or those asking for general text generation. Furthermore, we exclude queries that Qwen2.5-72B-Instruct can answer correctly without using CoT reasoning.

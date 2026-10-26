@@ -1,0 +1,249 @@
+[2606.19348] DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence (https://arxiv.org/abs/2606.19348)
+citeturn38view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2606.19348","lineno":null}); Total lines: 168
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1:
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3:
+L4: Press Enter to search · 【4†Advanced search】
+L5:
+L6: # Computer Science > Computation and Language
+L7:
+L8: [Submitted on 26 Apr 2026]
+L9: # Title:DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence
+L10: Authors:【5†DeepSeek-AI】, 【6†Anyi Xu】, 【7†Bangcai Lin】, 【8†Bing Xue】, 【9†Bingxuan Wang】, 【10†Bingzheng Xu】, 【11†Bochao Wu】, 【12†Bowei Zhang】, 【13†Chaofan Lin】, 【14†Chen Dong】, 【15†Chenchen Ling】, 【16†Chengda Lu】, 【17†Chenggang Zhao】, 【18†Chengqi Deng】, 【19†Chengyu Hou】, 【20†Chenhao Xu】, 【21†Chenze Shao】, 【22†Chong Ruan】, 【23†Conner Sun】, 【24†Damai Dai】, 【25†Daya Guo】, 【26†Dejian Yang】, 【27†Deli Chen】, 【28†Donghao Li】, 【29†Dongjie Ji】, 【30†Erhang Li】, 【31†Fang Wei】, 【32†Fangyun Lin】, 【33†Fangzhou Yuan】, 【34†Feiyu Xia】, 【35†Fucong Dai】, 【36†Guangbo Hao】, 【37†Guanting Chen】, 【38†Guoai Cao】, 【39†Guolai Meng】, 【40†Guowei Li】, 【41†Han Yu】, 【42†Han Zhang】, 【43†Hanwei Xu】, 【44†Hao Li】, 【45†Haofen Liang】, 【42†Haoling Zhang】, 【46†Haoming Luo】, 【47†Haoran Wei】, 【48†Haotian Yuan】, 【42†Haowei Zhang】, 【46†Haowen Luo】, 【49†Haoyu Chen】, 【50†Haozhe Ji】, 【42†Hengqing Zhang】, 【51†Honghui Ding】, 【52†Hongxuan Tang】, 【53†Huanqi Cao】, 【54†Huazuo Gao】, 【55†Hui Qu】, 【56†Hui Zeng】, 【57†J Yang】, 【58†JQ Zhu】, 【59†Jia Luo】, 【60†Jia Song】, 【61†Jia Yu】, 【62†Jialiang Huang】, 【63†Jialu Cai】, 【64†Jian Liang】, 【65†Jiangting Zhou】, 【66†Jiasheng Ye】, 【67†Jiashi Li】, 【68†Jiaxin Xu】, 【69†Jiewen Hu】, 【57†Jieyu Yang】, 【70†Jin Chen】, 【71†Jin Yan】, 【70†Jingchang Chen】, 【65†Jingli Zhou】, 【72†Jingting Xiang】, 【73†Jingyang Yuan】, 【74†Jingyuan Cheng】, 【65†Jingzi Zhou】, 【58†Jinhua Zhu】, 【61†Jiping Yu】, 【75†Joseph Sun】, 【76†Jun Ran】, 【77†Junguang Jiang】, 【78†Junjie Qiu】, 【67†Junlong Li】, 【79†Junmin Zheng】, 【60†Junxiao Song】, 【80†Kai Dong】, 【81†Kaige Gao】, 【82†Kang Guan】, 【83†Kexing Zhou】, 【84†Kezhao Huang】, 【85†Kuai Yu】, 【86†Lean Wang】, 【87†Lecong Zhang】, 【86†Lei Wang】, 【88†Leyi Xia】, 【87†Li Zhang】, 【89†Liang Zhao】, 【90†Lihua Guo】
+--------------------------------------------------------------------------------
+[2609.19969] DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression (https://arxiv.org/abs/2609.19969)
+citeturn38view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2609.19969","lineno":null}); Total lines: 180
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1:
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3:
+L4: Press Enter to search · 【4†Advanced search】
+L5:
+L6: # Computer Science > Computation and Language
+L7:
+L8: [Submitted on 17 Sep 2026]
+L9: # Title:DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression
+L10: Authors:【5†DeepSeek-AI】: 【6†Anyi Xu】, 【7†B. Li】, 【8†Bangcai Lin】, 【9†Bing Xue】, 【10†BingCheng Xian】, 【11†Bingzheng Xu】, 【12†Bochao Wu】, 【13†Bowei Zhang】, 【14†Boyi Deng】, 【15†C.C.
+L11: Yu】, 【16†Chao Jin】, 【17†Chaofan Lin】, 【18†Chen Dong】, 【19†Chenbing Wang】, 【20†Chenfan Feng】, 【21†Chengda Lu】, 【22†Chenggang Zhao】, 【23†Chengqi Deng】, 【24†Chengyuan Zhang】, 【25†Chenhao Xu】, 【22†Chenqi Zhao】, 【26†Chenze Shao】, 【19†Chuhao Wang】, 【24†Chuqi Zhang】, 【27†Damai Dai】, 【28†Dejian Yang】, 【29†Deli Chen】, 【30†Di Huang】, 【31†Di Wu】, 【32†Donghao Li】, 【33†Erhang Li】, 【34†Eric Fu】, 【35†F.
+--------------------------------------------------------------------------------
+[2512.02556] DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models (https://arxiv.org/abs/2512.02556)
+citeturn38view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2512.02556","lineno":null}); Total lines: 174
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1:
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3:
+L4: Press Enter to search · 【4†Advanced search】
+L5:
+L6: # Computer Science > Computation and Language
+L7:
+L8: [Submitted on 2 Dec 2025]
+L9: # Title:DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models
+L10: Authors:【5†DeepSeek-AI】, 【6†Aixin Liu】, 【7†Aoxue Mei】, 【8†Bangcai Lin】, 【9†Bing Xue】, 【10†Bingxuan Wang】, 【11†Bingzheng Xu】, 【12†Bochao Wu】, 【13†Bowei Zhang】, 【14†Chaofan Lin】, 【15†Chen Dong】, 【16†Chengda Lu】, 【17†Chenggang Zhao】, 【18†Chengqi Deng】, 【19†Chenhao Xu】, 【20†Chong Ruan】, 【21†Damai Dai】, 【22†Daya Guo】, 【23†Dejian Yang】, 【24†Deli Chen】, 【25†Erhang Li】, 【26†Fangqi Zhou】, 【27†Fangyun Lin】, 【28†Fucong Dai】, 【29†Guangbo Hao】, 【30†Guanting Chen】, 【31†Guowei Li】, 【32†H.
+L11: Zhang】, 【33†Hanwei Xu】, 【34†Hao Li】, 【35†Haofen Liang】, 【36†Haoran Wei】, 【32†Haowei Zhang】, 【37†Haowen Luo】, 【38†Haozhe Ji】, 【39†Honghui Ding】, 【40†Hongxuan Tang】, 【41†Huanqi Cao】, 【42†Huazuo Gao】, 【43†Hui Qu】, 【44†Hui Zeng】, 【45†Jialiang Huang】, 【46†Jiashi Li】, 【47†Jiaxin Xu】, 【48†Jiewen Hu】, 【49†Jingchang Chen】, 【50†Jingting Xiang】, 【51†Jingyang Yuan】, 【52†Jingyuan Cheng】, 【53†Jinhua Zhu】, 【54†Jun Ran】, 【55†Junguang Jiang】, 【56†Junjie Qiu】, 【46†Junlong Li】, 【57†Junxiao Song】, 【58†Kai Dong】, 【59†Kaige Gao】, 【60†Kang Guan】, 【61†Kexin Huang】, 【62†Kexing Zhou】, 【61†Kezhao Huang】, 【63†Kuai Yu】, 【64†Lean Wang】, 【65†Lecong Zhang】, 【64†Lei Wang】, 【66†Liang Zhao】, 【67†Liangsheng Yin】, 【68†Lihua Guo】, 【69†Lingxiao Luo】, 【70†Linwang Ma】, 【64†Litong Wang】, 【65†Liyue Zhang】, 【71†M.S.
+--------------------------------------------------------------------------------
+[2405.04434] DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model (https://arxiv.org/abs/2405.04434)
+citeturn38view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2405.04434","lineno":null}); Total lines: 175
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1:
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3:
+L4: Press Enter to search · 【4†Advanced search】
+L5:
+L6: # Computer Science > Computation and Language
+L7:
+L8: [Submitted on 7 May 2024 (【5†v1】), last revised 19 Jun 2024 (this version, v5)]
+L9: # Title:DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model
+L10: Authors:【6†DeepSeek-AI】, 【7†Aixin Liu】, 【8†Bei Feng】, 【9†Bin Wang】, 【9†Bingxuan Wang】, 【10†Bo Liu】, 【11†Chenggang Zhao】, 【12†Chengqi Dengr】, 【13†Chong Ruan】, 【14†Damai Dai】, 【15†Daya Guo】, 【16†Dejian Yang】, 【17†Deli Chen】, 【18†Dongjie Ji】, 【19†Erhang Li】, 【20†Fangyun Lin】, 【21†Fuli Luo】, 【22†Guangbo Hao】, 【23†Guanting Chen】, 【24†Guowei Li】, 【25†H. Zhang】, 【26†Hanwei Xu】, 【27†Hao Yang】, 【25†Haowei Zhang】, 【28†Honghui Ding】, 【29†Huajian Xin】, 【30†Huazuo Gao】, 【31†Hui Li】, 【32†Hui Qu】, 【33†J.L.
+L11: Cai】, 【34†Jian Liang】, 【35†Jianzhong Guo】, 【36†Jiaqi Ni】, 【37†Jiashi Li】, 【38†Jin Chen】, 【39†Jingyang Yuan】, 【40†Junjie Qiu】, 【41†Junxiao Song】, 【42†Kai Dong】, 【43†Kaige Gao】, 【44†Kang Guan】, 【45†Lean Wang】, 【46†Lecong Zhang】, 【47†Lei Xu】, 【48†Leyi Xia】, 【49†Liang Zhao】, 【46†Liyue Zhang】, 【50†Meng Li】, 【51†Miaojun Wang】, 【52†Mingchuan Zhang】, 【52†Minghua Zhang】, 【53†Minghui Tang】, 【50†Mingming Li】, 【54†Ning Tian】, 【55†Panpan Huang】, 【56†Peiyi Wang】, 【57†Peng Zhang】, 【58†Qihao Zhu】, 【59†Qinyu Chen】, 【60†Qiushi Du】, 【61†R.J.
+--------------------------------------------------------------------------------
+[2401.06066] DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models (https://arxiv.org/abs/2401.06066)
+citeturn38view4 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2401.06066","lineno":null}); Total lines: 159
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1:
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3:
+L4: Press Enter to search · 【4†Advanced search】
+L5:
+L6: # Computer Science > Computation and Language
+L7:
+L8: [Submitted on 11 Jan 2024]
+L9: # Title:DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models
+L10:
+L11: Authors:【5†Damai Dai】, 【6†Chengqi Deng】, 【7†Chenggang Zhao】, 【8†R.X. Xu】, 【9†Huazuo Gao】, 【10†Deli Chen】, 【11†Jiashi Li】, 【12†Wangding Zeng】, 【13†Xingkai Yu】, 【14†Y. Wu】, 【15†Zhenda Xie】, 【16†Y.K. Li】, 【17†Panpan Huang】, 【18†Fuli Luo】, 【19†Chong Ruan】, 【20†Zhifang Sui】, 【21†Wenfeng Liang】
+L12: View a PDF of the paper titled DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models, by Damai Dai and 16 other authors
+L13:
+L14: 【22†View PDF】 【23†HTML (experimental)】
+L15: > Abstract:In the era of large language models, Mixture-of-Experts (MoE) is a promising architecture for managing computational costs when scaling up model parameters. However, conventional MoE architectures like GShard, which activate the top-$K$ out of $N$ experts, face challenges in ensuring expert specialization, i.e. each expert acquires non-overlapping and focused knowledge. In response, we propose the DeepSeekMoE architecture towards ultimate expert specialization.
+
+
+DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning (https://arxiv.org/html/2501.12948v1)
+citeturn40view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/html/2501.12948v1","lineno":null}); Total lines: 634
+L0: ##### Report GitHub Issue
+L1:
+L2: [Button: ×]
+L3:
+L4: Title: [Input: Enter title]
+L5:
+L6: Content selection saved. Describe the issue below:
+L7:
+L8: Description:
+L9:
+L10: [Button: Submit without GitHub] [Button: Submit in GitHub]
+L11:
+L12: 【0†Back to arXiv】
+L13:
+L14: 【1†Why HTML?†info.arxiv.org】 【2†Report Issue】 【3†Back to Abstract】 【4†Download PDF】
+L15:   1. 【5†Abstract】
+L16:   2. 【6†1 Introduction】
+L17:     1. 【7†1.1 Contributions】
+L18:       1. 【8†Post-Training: Large-Scale Reinforcement Learning on the Base Model】
+L19:       2. 【9†Distillation: Smaller Models Can Be Powerful Too】
+L20:     2. 【10†1.2 Summary of Evaluation Results】
+L21:   3. 【11†2 Approach】
+L22:     1. 【12†2.1 Overview】
+L23:     2. 【13†2.2 DeepSeek-R1-Zero: Reinforcement Learning on the Base Model】
+L24:       1. 【14†2.2.1 Reinforcement Learning Algorithm】
+L25:         1. 【15†Group Relative Policy Optimization】
+L26:       2. 【16†2.2.2 Reward Modeling】
+L27:       3. 【17†2.2.3 Training Template】
+L28:       4. 【18†2.2.4 Performance, Self-evolution Process and Aha Moment of DeepSeek-R1-Zero】
+L29:         1. 【19†Performance of DeepSeek-R1-Zero】
+L30:         2. 【20†Self-evolution Process of DeepSeek-R1-Zero】
+L31:         3. 【21†Aha Moment of DeepSeek-R1-Zero】
+L32:         4. 【22†Drawback of DeepSeek-R1-Zero】
+L33:     3. 【23†2.3 DeepSeek-R1: Reinforcement Learning with Cold Start】
+L34:       1. 【24†2.3.1 Cold Start】
+L35:       2. 【25†2.3.2 Reasoning-oriented Reinforcement Learning】
+L36:       3. 【26†2.3.3 Rejection Sampling and Supervised Fine-Tuning】
+L37:         1. 【27†Reasoning data】
+L38:         2. 【28†Non-Reasoning data】
+L39:       4. 【29†2.3.4 Reinforcement Learning for all Scenarios】
+--------------------------------------------------------------------------------
+[1706.03762] Attention Is All You Need (https://arxiv.org/abs/1706.03762)
+citeturn40view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/1706.03762","lineno":null}); Total lines: 187
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1:
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3:
+L4: Press Enter to search · 【4†Advanced search】
+L5:
+L6: # Computer Science > Computation and Language
+L7:
+L8: [Submitted on 12 Jun 2017 (【5†v1】), last revised 2 Aug 2023 (this version, v7)]
+L9: # Title:Attention Is All You Need
+L10:
+L11: Authors:【6†Ashish Vaswani】, 【7†Noam Shazeer】, 【8†Niki Parmar】, 【9†Jakob Uszkoreit】, 【10†Llion Jones】, 【11†Aidan N. Gomez】, 【12†Lukasz Kaiser】, 【13†Illia Polosukhin】
+L12:
+L13: View a PDF of the paper titled Attention Is All You Need, by Ashish Vaswani and 7 other authors
+L14:
+L15: 【14†View PDF】 【15†HTML (experimental)】
+L16: > Abstract:The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely.
+L17: Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU.
+--------------------------------------------------------------------------------
+[2203.15556] Training Compute-Optimal Large Language Models (https://arxiv.org/abs/2203.15556)
+citeturn40view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2203.15556","lineno":null}); Total lines: 162
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1:
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3:
+L4: Press Enter to search · 【4†Advanced search】
+L5:
+L6: # Computer Science > Computation and Language
+L7:
+L8: [Submitted on 29 Mar 2022]
+L9: # Title:Training Compute-Optimal Large Language Models
+L10: Authors:【5†Jordan Hoffmann】, 【6†Sebastian Borgeaud】, 【7†Arthur Mensch】, 【8†Elena Buchatskaya】, 【9†Trevor Cai】, 【10†Eliza Rutherford】, 【11†Diego de Las Casas】, 【12†Lisa Anne Hendricks】, 【13†Johannes Welbl】, 【14†Aidan Clark】, 【15†Tom Hennigan】, 【16†Eric Noland】, 【17†Katie Millican】, 【18†George van den Driessche】, 【19†Bogdan Damoc】, 【20†Aurelia Guy】, 【21†Simon Osindero】, 【22†Karen Simonyan】, 【23†Erich Elsen】, 【24†Jack W. Rae】, 【25†Oriol Vinyals】, 【26†Laurent Sifre】
+L11: View a PDF of the paper titled Training Compute-Optimal Large Language Models, by Jordan Hoffmann and 21 other authors
+L12:
+L13: 【27†View PDF】 【28†HTML (experimental)】
+L14: > Abstract:We investigate the optimal model size and number of tokens for training a transformer language model under a given compute budget. We find that current large language models are significantly undertrained, a consequence of the recent focus on scaling language models whilst keeping the amount of training data constant.
+--------------------------------------------------------------------------------
+DeepSeek-V3 Technical Report (https://arxiv.org/html/2412.19437v2)
+citeturn40view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn37view1","pattern":"2.788"}); Total lines: 1130
+No matching text found for "2.788"--------------------------------------------------------------------------------
+DeepSeek-V3 Technical Report (https://arxiv.org/html/2412.19437v2)
+citeturn40view4 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn37view1","pattern":"5.576"}); Total lines: 1130
+No matching text found for "5.576"--------------------------------------------------------------------------------
+DeepSeek-V3 Technical Report (https://arxiv.org/html/2412.19437v2)
+citeturn40view5 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn37view1","pattern":"14.8"}); Total lines: 1130
+L117: We present DeepSeek-V3, a strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token. To achieve efficient inference and cost-effective training, DeepSeek-V3 adopts Multi-head Latent Attention (MLA) and DeepSeekMoE architectures, which were thoroughly validated in DeepSeek-V2. Furthermore, DeepSeek-V3 pioneers an auxiliary-loss-free strategy for load balancing and sets a multi-token prediction training objective for stronger performance.
+L118: We pre-train DeepSeek-V3 on 14.8 trillion diverse and high-quality tokens, followed by Supervised Fine-Tuning and Reinforcement Learning stages to fully harness its capabilities. Comprehensive evaluations reveal that DeepSeek-V3 outperforms other open-source models and achieves performance comparable to leading closed-source models. Despite its excellent performance, DeepSeek-V3 requires only 2.788M H800 GPU hours for its full training. In addition, its training process is remarkably stable.
+L119: Throughout the entire training process, we did not experience any irrecoverable loss spikes or perform any rollbacks. The model checkpoints are available at 【96†https://github.com/deepseek-ai/DeepSeek-V3†github.com】.
+L120: Figure 1: Benchmark performance of DeepSeek-V3 and its counterparts.
+L121: ###### Contents
+L122:   1. 【6†1 Introduction】
+L123:   2. 【7†2 Architecture】
+L124:     1. 【8†2.1 Basic Architecture】
+L125:       1. 【9†2.1.1 Multi-Head Latent Attention】
+L126:       2. 【10†2.1.2 DeepSeekMoE with Auxiliary-Loss-Free Load Balancing】
+L127:     2. 【16†2.2 Multi-Token Prediction】
+L128:   3. 【20†3 Infrastructures】
+L129:     1. 【21†3.1 Compute Clusters】
+L130:     2. 【22†3.2 Training Framework】
+L131:       1. 【23†3.2.1 DualPipe and Computation-Communication Overlap】
+L132:       2. 【24†3.2.2 Efficient Implementation of Cross-Node All-to-All Communication】
+--------------------------------------------------------------------------------
+[2606.19348] DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence (https://arxiv.org/abs/2606.19348)
+citeturn40view6 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn38view0","pattern":"Abstract"}); Total lines: 168
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1:
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3:
+L4: Press Enter to search · 【4†Advanced search】
+L5:
+L6: # Computer Science > Computation and Language
+L7:
+L8: [Submitted on 26 Apr 2026]
+L9: # Title:DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence
+L10: Authors:【5†DeepSeek-AI】, 【6†Anyi Xu】, 【7†Bangcai Lin】, 【8†Bing Xue】, 【9†Bingxuan Wang】, 【10†Bingzheng Xu】, 【11†Bochao Wu】, 【12†Bowei Zhang】, 【13†Chaofan Lin】, 【14†Chen Dong】, 【15†Chenchen Ling】, 【16†Chengda Lu】, 【17†Chenggang Zhao】, 【18†Chengqi Deng】, 【19†Chengyu Hou】, 【20†Chenhao Xu】, 【21†Chenze Shao】, 【22†Chong Ruan】, 【23†Conner Sun】, 【24†Damai Dai】, 【25†Daya Guo】, 【26†Dejian Yang】, 【27†Deli Chen】, 【28†Donghao Li】, 【29†Dongjie Ji】, 【30†Erhang Li】, 【31†Fang Wei】, 【32†Fangyun Lin】, 【33†Fangzhou Yuan】, 【34†Feiyu Xia】, 【35†Fucong Dai】, 【36†Guangbo Hao】, 【37†Guanting Chen】, 【38†Guoai Cao】, 【39†Guolai Meng】, 【40†Guowei Li】, 【41†Han Yu】, 【42†Han Zhang】, 【43†Hanwei Xu】, 【44†Hao Li】, 【45†Haofen Liang】, 【42†Haoling Zhang】, 【46†Haoming Luo】, 【47†Haoran Wei】, 【48†Haotian Yuan】, 【42†Haowei Zhang】, 【46†Haowen Luo】, 【49†Haoyu Chen】, 【50†Haozhe Ji】, 【42†Hengqing Zhang】, 【51†Honghui Ding】, 【52†Hongxuan Tang】, 【53†Huanqi Cao】, 【54†Huazuo Gao】, 【55†Hui Qu】, 【56†Hui Zeng】, 【57†J Yang】, 【58†JQ Zhu】, 【59†Jia Luo】, 【60†Jia Song】, 【61†Jia Yu】, 【62†Jialiang Huang】, 【63†Jialu Cai】, 【64†Jian Liang】, 【65†Jiangting Zhou】, 【66†Jiasheng Ye】, 【67†Jiashi Li】, 【68†Jiaxin Xu】, 【69†Jiewen Hu】, 【57†Jieyu Yang】, 【70†Jin Chen】, 【71†Jin Yan】, 【70†Jingchang Chen】, 【65†Jingli Zhou】, 【72†Jingting Xiang】, 【73†Jingyang Yuan】, 【74†Jingyuan Cheng】, 【65†Jingzi Zhou】, 【58†Jinhua Zhu】, 【61†Jiping Yu】, 【75†Joseph Sun】, 【76†Jun Ran】, 【77†Junguang Jiang】, 【78†Junjie Qiu】, 【67†Junlong Li】, 【79†Junmin Zheng】, 【60†Junxiao Song】, 【80†Kai Dong】, 【81†Kaige Gao】, 【82†Kang Guan】, 【83†Kexing Zhou】, 【84†Kezhao Huang】, 【85†Kuai Yu】, 【86†Lean Wang】, 【87†Lecong Zhang】, 【86†Lei Wang】, 【88†Leyi Xia】, 【87†Li Zhang】, 【89†Liang Zhao】, 【90†Lihua Guo】
+L11: , 【91†Lingxiao Luo】, 【92†Linwang Ma】, 【93†Linyan Zhu】, 【86†Litong Wang】, 【94†Liyu Cai】, 【87†Liyue Zhang】, 【95†Longhao Chen】, 【96†MS Di】, 【97†MY Xu】, 【98†Max Mei】, 【99†Miaojun Wang】, 【100†Mingchuan Zhang】, 【100†Minghua Zhang】, 【101†Minghui Tang】, 【102†Mingming Li】, 【103†Mingxu Zhou】, 【104†Minmin Han】, 【105†Ning Wang】, 【106†Panpan Huang】, 【107†Panpan Wang】, 【108†Peixin Cong】, 【107†Peiyi Wang】, 【109†Peng Zhang】, 【110†Qiancheng Wang】, 【111†Qihao Zhu】, 【112†Qingyang Li】, 【113†Qinyu Chen】, 【114†Qiushi Du】, 【115†Qiwei Jiang】, 【116†Rui Tian】, 【117†Ruifan Xu】, 【118†Ruijie Lu】, 【117†Ruiling Xu】, 【119†Ruiqi Ge】, 【120†Ruisong Zhang】, 【121†Ruizhe Pan】, 【122†Runji Wang】, 【123†Runqian Chen】, 【124†Runqiu Yin】, 【117†Runxin Xu】, 【125†Ruomeng Shen】, 【120†Ruoyu Zhang】, 【123†Ruyi Chen】, 【126†SH Liu】, 【127†Shanghao Lu】, 【128†Shangmian Sun】, 【129†Shangyan Zhou】, 【130†Shanhuang Chen】, 【131†Shaofei Cai】, 【132†Shaoheng Nie】, 【133†Shaoqing Wu】, 【130†Shaoyuan Chen】, 【134†Shengding Hu】, 【126†Shengyu Liu】, 【134†Shiqiang Hu】, 【135†Shirong Ma】, 【136†Shiyu Wang】, 【137†Shuiping Yu】, 【129†Shunfeng Zhou】, 【138†Shuting Pan】, 【137†Shuying Yu】, 【129†Songyang Zhou】, 【139†Tao Ni】, 【140†Tao Yun】, 【141†Tian Jin】, 【142†Tian Pei】, 【143†Tian Ye】, 【144†Tianle Lin】, 【145†Tianran Ji】, 【146†Tianyi Cui】, 【147†Tianyuan Yue】, 【148†Tingting Yu】, 【149†Tun Wang】, 【150†W Zhang】, 【151†WL Xiao】, 【152†Wangding Zeng】, 【153†Wei An】, 【154†Weilin Zhao】, 【155†Wen Liu】, 【156†Wenfeng Liang】, 【157†Wenjie Pang】, 【158†Wenjing Luo】, 【159†Wenjing Yao】, 【160†Wenjun Gao】, 【161†Wenkai Yang】, 【162†Wenlve Huang】, 【163†Wenqing Hou】, 【150†Wentao Zhang】, 【164†Wenting Ma】, 【165†Xi Gao】, 【166†Xiang He】, 【167†Xiangwen Wang】, 【167†Xianzu Wang】, 【168†Xiao Bi】, 【169†Xiaodong Liu】, 【167†Xiaohan Wang】, 【170†Xiaokang Chen】, 【171†Xiaokang Zhang】, 【172†Xiaotao Nie】, 【173†Xiaowen Sun】, 【167†Xiaoxiang Wang】, 【174†Xin Cheng】, 【169†Xin Liu】, 【175†Xin Xie】, 【169†Xingchao Liu】, 【169†Xingchen Liu】, 【176†Xingkai Yu】, 【177†Xingyou Li】, 【178†Xinyu Yang】, 【171†Xinyu Zhang】, 【170†Xu Chen】, 【167†Xuanyu Wang】, 【179†Xuecheng Su】, 【170†Xueyin Chen】, 【180†Xuheng Lin】, 【181†Xuwei Fu】, 【182†YC Yan】, 【183†YQ Wang】, 【184†YW Ma】, 【185†Yanfeng Luo】, 【186†Yang Zhang】, 【187†Yanhong Xu】, 【184†Yanru Ma】, 【188†Yanwen Huang】, 【189†Yao Li】, 【189†Yao Li】, 【187†Yao Xu】, 【190†Yao Zhao】, 【191†Yaofeng Sun】, 【183†Yaohui Wang】, 【192†Yi Qian】, 【193†Yi Shao】, 【194†Yi Yu】, 【186†Yichao Zhang】, 【195†Yifan Ding】, 【196†Yifan Shi】, 【197†Yijia Wu】, 【198†Yiliang Xiong】, 【184†Yiling Ma】, 【199†Ying He】, 【200†Ying Tang】, 【201†Ying Zhou】, 【185†Yingjia Luo】, 【202†Yinmin Zhong】, 【203†Yishi Piao】, 【183†Yisong Wang】, 【186†Yixiang Zhang】, 【204†Yixiao Chen】, 【205†Yixuan Tan】, 【206†Yixuan Wei】, 【184†Yiyang Ma】, 【207†Yiyuan Liu】, 【208†Yonglun Yang】, 【209†Yongqiang Guo】, 【197†Yongtong Wu】, 【197†Yu Wu】, 【189†YuKun Li】, 【210†Yuan Cheng】, 【211†Yuan Ou】, 【187†Yuanfan Xu】, 【189†Yuanhao Li】, 【183†Yuduan Wang】, 【208†Yuehan Yang】, 【187†Yuer Xu】, 【197†Yuhan Wu】, 【212†Yuhao Meng】, 【213†Yuheng Zou】, 【214†Yukun Zha】, 【198†Yunfan Xiong】, 【204†Yupeng Chen】, 【215†Yuping Lin】, 【216†Yuqian Cao】, 【183†Yuqian Wang】, 【186†Yushun Zhang】, 【182†Yuting Yan】, 【215†Yutong Lin】, 【217†Yuxian Gu】, 【185†Yuxiang Luo】, 【218†Yuxiang You】, 【207†Yuxuan Liu】, 【201†Yuxuan Zhou】, 【201†Yuyang Zhou】, 【188†Yuzhen Huang】, 【219†ZF Wu】, 【220†Zehao Wang】, 【221†Zehua Zhao】, 【222†Zehui Ren】, 【223†Zekai Zhang】, 【224†Zhangli Sha】, 【225†Zhe Fu】, 【226†Zhe Ju】, 【227†Zhean Xu】, 【228†Zhenda Xie】, 【223†Zhengyan Zhang】, 【229†Zheren Gao】, 【230†Zhewen Hao】, 【231†Zhibin Gou】, 【232†Zhicheng Ma】, 【233†Zhigang Yan】, 【234†Zhihong Shao】, 【235†Zhixian Huang】, 【236†Zhixuan Chen】, 【219†Zhiyu Wu】, 【222†Zhizhou Ren】, 【219†Zhongyu Wu】, 【237†Zhuoshu Li】, 【223†Zhuping Zhang】, 【227†Zian Xu】, 【220†Zihao Wang】, 【238†Zihua Qu】, 【239†Zihui Gu】, 【240†Zijia Zhu】, 【237†Zilin Li】, 【223†Zipeng Zhang】, 【228†Ziwei Xie】, 【229†Ziyi Gao】, 【241†Ziyi Wan】, 【242†Zizheng Pan】, 【243†Zongqing Yao】
+L12: et al. (219 additional authors not shown)  You must enable JavaScript to view entire author list.
+L13:
+L14: View a PDF of the paper titled DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence, by DeepSeek-AI and 318 other authors
+L15:
+L16: 【244†View PDF】 【245†HTML (experimental)】
+L17: > Abstract:We present a preview version of DeepSeek-V4 series, including two strong Mixture-of-Experts (MoE) language models -- DeepSeek-V4-Pro with 1.6T parameters (49B activated) and DeepSeek-V4-Flash with 284B parameters (13B activated) -- both supporting a context length of one million tokens.
+L18: DeepSeek-V4 series incorporate several key upgrades in architecture and optimization: (1) a hybrid attention architecture that combines Compressed Sparse Attention (CSA) and Heavily Compressed Attention (HCA) to improve long-context efficiency; (2) Manifold-Constrained Hyper-Connections (mHC) that enhance conventional residual connections; (3) and the Muon optimizer for faster convergence and greater training stability.
+L19: We pre-train both models on more than 32T diverse and high-quality tokens, followed by a comprehensive post-training pipeline that unlocks and further enhances their capabilities. DeepSeek-V4-Pro-Max, the maximum reasoning effort mode of DeepSeek-V4-Pro, redefines the state-of-the-art for open models, outperforming its predecessors in core tasks. Meanwhile, DeepSeek-V4 series are highly efficient in long-context scenarios.
+L20: In the one-million-token context setting, DeepSeek-V4-Pro requires only 27% of single-token inference FLOPs and 10% of KV cache compared with DeepSeek-V3.2. This enables us to routinely support one-million-token contexts, thereby making long-horizon tasks and further test-time scaling more feasible. The model checkpoints are available at 【246†this https URL†huggingface.co】.
+--------------------------------------------------------------------------------
+[2609.19969] DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression (https://arxiv.org/abs/2609.19969)
+citeturn40view7 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn38view1","pattern":"Abstract"}); Total lines: 180
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1:
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3:
+L4: Press Enter to search · 【4†Advanced search】
+L5:
+L6: # Computer Science > Computation and Language
+L7:
+L8: [Submitted on 17 Sep 2026]
+L9: # Title:DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression
+L10: Authors:【5†DeepSeek-AI】: 【6†Anyi Xu】, 【7†B. Li】, 【8†Bangcai Lin】, 【9†Bing Xue】, 【10†BingCheng Xian】, 【11†Bingzheng Xu】, 【12†Bochao Wu】, 【13†Bowei Zhang】, 【14†Boyi Deng】, 【15†C.C.
+L11: Yu】, 【16†Chao Jin】, 【17†Chaofan Lin】, 【18†Chen Dong】, 【19†Chenbing Wang】, 【20†Chenfan Feng】, 【21†Chengda Lu】, 【22†Chenggang Zhao】, 【23†Chengqi Deng】, 【24†Chengyuan Zhang】, 【25†Chenhao Xu】, 【22†Chenqi Zhao】, 【26†Chenze Shao】, 【19†Chuhao Wang】, 【24†Chuqi Zhang】, 【27†Damai Dai】, 【28†Dejian Yang】, 【29†Deli Chen】, 【30†Di Huang】, 【31†Di Wu】, 【32†Donghao Li】, 【33†Erhang Li】, 【34†Eric Fu】, 【35†F.
+L12: Zhou】, 【35†Fangwei Zhou】, 【36†Fangyun Lin】, 【37†Fangzhou Yuan】, 【38†Feiyu Xia】, 【39†Fucong Dai】, 【40†Guangbo Hao】, 【41†Guanglin Li】, 【42†Guanting Chen】, 【43†Guoai Cao】, 【44†Guofan Fan】, 【45†Guolai Meng】, 【41†Guowei Li】, 【46†Haichuan Zhang】, 【47†Haiyang Ma】, 【48†Haiyang Shen】, 【49†Han Li】, 【50†Han Yu】, 【46†Han Zhang】, 【51†Hangyuan Deng】, 【52†Hanwei Xu】, 【52†Hanxiang Xu】, 【53†Hanxun Zhong】, 【54†Hao Guo】, 【55†Hao Jiang】, 【49†Hao Li】, 【56†Hao Qin】, 【57†Haodong Wen】, 【58†Haofen Liang】, 【59†Haofeng Huang】, 【60†Haohua Liu】, 【46†Haoling Zhang】, 【61†Haoming Luo】, 【62†Haoran Yang】, 【52†Haotian Xu】, 【63†Haotian Yuan】, 【59†Haoting Huang】, 【61†Haowen Luo】, 【64†Haoyang Cai】, 【65†Haoyu Chen】, 【66†Haozhe Ji】, 【46†Hengran Zhang】, 【67†Hengrui Wang】, 【68†Hengxu Wu】, 【69†Honghui Ding】, 【70†Hongxuan Tang】, 【67†Huadong Wang】, 【71†Huanqi Cao】, 【72†Huazuo Gao】, 【73†Hui Qu】, 【74†Hui Zeng】, 【75†J.
+L29: > Abstract:The widespread adoption of long-horizon agents has made model workloads increasingly input-heavy. Although prior work has substantially reduced the cost of long-context computation, prefill remains computationally expensive, and large KV caches continue to strain HBM and SSD capacity and data-transfer bandwidth. Together, these compute, storage, and bandwidth demands constitute the primary bottleneck to further lowering deployment costs.
+--------------------------------------------------------------------------------
+[2512.02556] DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models (https://arxiv.org/abs/2512.02556)
+citeturn40view8 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn38view2","pattern":"Abstract"}); Total lines: 174
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1:
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3:
+L4: Press Enter to search · 【4†Advanced search】
+L5:
+L6: # Computer Science > Computation and Language
+L7:
+L8: [Submitted on 2 Dec 2025]
+L9: # Title:DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models
+L10: Authors:【5†DeepSeek-AI】, 【6†Aixin Liu】, 【7†Aoxue Mei】, 【8†Bangcai Lin】, 【9†Bing Xue】, 【10†Bingxuan Wang】, 【11†Bingzheng Xu】, 【12†Bochao Wu】, 【13†Bowei Zhang】, 【14†Chaofan Lin】, 【15†Chen Dong】, 【16†Chengda Lu】, 【17†Chenggang Zhao】, 【18†Chengqi Deng】, 【19†Chenhao Xu】, 【20†Chong Ruan】, 【21†Damai Dai】, 【22†Daya Guo】, 【23†Dejian Yang】, 【24†Deli Chen】, 【25†Erhang Li】, 【26†Fangqi Zhou】, 【27†Fangyun Lin】, 【28†Fucong Dai】, 【29†Guangbo Hao】, 【30†Guanting Chen】, 【31†Guowei Li】, 【32†H.
+L11: Zhang】, 【33†Hanwei Xu】, 【34†Hao Li】, 【35†Haofen Liang】, 【36†Haoran Wei】, 【32†Haowei Zhang】, 【37†Haowen Luo】, 【38†Haozhe Ji】, 【39†Honghui Ding】, 【40†Hongxuan Tang】, 【41†Huanqi Cao】, 【42†Huazuo Gao】, 【43†Hui Qu】, 【44†Hui Zeng】, 【45†Jialiang Huang】, 【46†Jiashi Li】, 【47†Jiaxin Xu】, 【48†Jiewen Hu】, 【49†Jingchang Chen】, 【50†Jingting Xiang】, 【51†Jingyang Yuan】, 【52†Jingyuan Cheng】, 【53†Jinhua Zhu】, 【54†Jun Ran】, 【55†Junguang Jiang】, 【56†Junjie Qiu】, 【46†Junlong Li】, 【57†Junxiao Song】, 【58†Kai Dong】, 【59†Kaige Gao】, 【60†Kang Guan】, 【61†Kexin Huang】, 【62†Kexing Zhou】, 【61†Kezhao Huang】, 【63†Kuai Yu】, 【64†Lean Wang】, 【65†Lecong Zhang】, 【64†Lei Wang】, 【66†Liang Zhao】, 【67†Liangsheng Yin】, 【68†Lihua Guo】, 【69†Lingxiao Luo】, 【70†Linwang Ma】, 【64†Litong Wang】, 【65†Liyue Zhang】, 【71†M.S.
+L20: et al. (164 additional authors not shown)  You must enable JavaScript to view entire author list.
+L21:
+L22: View a PDF of the paper titled DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models, by DeepSeek-AI and 263 other authors
+L23:
+L24: 【213†View PDF】 【214†HTML (experimental)】
+L25: > Abstract:We introduce DeepSeek-V3.2, a model that harmonizes high computational efficiency with superior reasoning and agent performance. The key technical breakthroughs of DeepSeek-V3.2 are as follows: (1) DeepSeek Sparse Attention (DSA): We introduce DSA, an efficient attention mechanism that substantially reduces computational complexity while preserving model performance in long-context scenarios.
+L26: (2) Scalable Reinforcement Learning Framework: By implementing a robust reinforcement learning protocol and scaling post-training compute, DeepSeek-V3.2 performs comparably to GPT-5. Notably, our high-compute variant, DeepSeek-V3.2-Speciale, surpasses GPT-5 and exhibits reasoning proficiency on par with Gemini-3.0-Pro, achieving gold-medal performance in both the 2025 International Mathematical Olympiad (IMO) and the International Olympiad in Informatics (IOI).
+L27: (3) Large-Scale Agentic Task Synthesis Pipeline: To integrate reasoning into tool-use scenarios, we developed a novel synthesis pipeline that systematically generates training data at scale. This methodology facilitates scalable agentic post-training, yielding substantial improvements in generalization and instruction-following robustness within complex, interactive environments.

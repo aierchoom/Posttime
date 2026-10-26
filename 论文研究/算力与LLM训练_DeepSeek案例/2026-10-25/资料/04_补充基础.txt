@@ -1,0 +1,188 @@
+[2001.08361] Scaling Laws for Neural Language Models (https://arxiv.org/abs/2001.08361)
+citeturn43view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2001.08361","lineno":null}); Total lines: 186
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1:
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3:
+L4: Press Enter to search · 【4†Advanced search】
+L5:
+L6: # Computer Science > Machine Learning
+L7:
+L8: [Submitted on 23 Jan 2020]
+L9: # Title:Scaling Laws for Neural Language Models
+L10:
+L11: Authors:【5†Jared Kaplan】, 【6†Sam McCandlish】, 【7†Tom Henighan】, 【8†Tom B. Brown】, 【9†Benjamin Chess】, 【10†Rewon Child】, 【11†Scott Gray】, 【12†Alec Radford】, 【13†Jeffrey Wu】, 【14†Dario Amodei】
+L12:
+L13: View a PDF of the paper titled Scaling Laws for Neural Language Models, by Jared Kaplan and 9 other authors
+L14:
+L15: 【15†View PDF】 【16†HTML (experimental)】
+L16: > Abstract:We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, and the amount of compute used for training, with some trends spanning more than seven orders of magnitude. Other architectural details such as network width or depth have minimal effects within a wide range. Simple equations govern the dependence of overfitting on model/dataset size and the dependence of training speed on model size.
+L17: These relationships allow us to determine the optimal allocation of a fixed compute budget. Larger models are significantly more sample-efficient, such that optimally compute-efficient training involves training very large models on a relatively modest amount of data and stopping significantly before convergence.
+L18: Comments:  | 19 pages, 15 figures
+L19: Subjects:  | Machine Learning (cs.LG); Machine Learning (stat.ML)
+L20: Cite as:  | 【17†arXiv:2001.08361】 [cs.LG]
+L21:    | (or 【18†arXiv:2001.08361v1】 [cs.LG] for this version)
+L22:    | 【19†https://doi.org/10.48550/arXiv.2001.08361†doi.org】 arXiv-issued DOI via DataCite
+L23: ## Submission history
+L24:
+L25: From: Samuel McCandlish [【20†view email】]
+L26: [v1] Thu, 23 Jan 2020 03:59:20 UTC (1,520 KB)
+L27:
+L28: Full-text links:
+L29:
+L30: ## Access Paper:
+L31:
+L32: View a PDF of the paper titled Scaling Laws for Neural Language Models, by Jared Kaplan and 9 other authors
+L33:
+L34:   * 【15†View PDF】
+L35:   * 【16†HTML (experimental)】
+L36:   * 【21†TeX Source】
+L37:
+L38: 【22†view license】
+L39:
+L40: ### Additional Features
+L41:
+L42:   * 【23†Audio Summary】
+L43: ### Current browse context:
+L44:
+L45: cs.LG
+L46:
+L47: 【24†< prev】   |   【25†next >】
+L48:
+L49: 【26†new】 | 【27†recent】 | 【28†2020-01】
+L50:
+L51: Change to browse by:
+L52:
+L53: 【29†cs】
+L54: 【30†stat】
+L55: 【31†stat.ML】
+L56:
+L57: ### References & Citations
+L58:
+L59:   * 【32†SciX†scixplorer.org】
+L60:   * 【33†Google Scholar†scholar.google.com】
+L61:   * 【34†Semantic Scholar†api.semanticscholar.org】
+L62:
+L63: ### 【35†15 blog links】
+L64:
+L65: (【36†what is this?†info.arxiv.org】)
+L66: ### 【37†DBLP†dblp.uni-trier.de】 - CS Bibliography
+L67:
+L68: 【38†listing†dblp.uni-trier.de】 | 【39†bibtex†dblp.uni-trier.de】
+L69:
+L70: 【40†Jared Kaplan†dblp.uni-trier.de】
+L71: 【41†Sam McCandlish†dblp.uni-trier.de】
+L72: 【42†Tom B. Brown†dblp.uni-trier.de】
+L73: 【43†Rewon Child†dblp.uni-trier.de】
+L74: 【44†Scott Gray†dblp.uni-trier.de】
+L75:
+L76: …
+L77:
+L78: [Button: export BibTeX citation] Loading...
+L79:
+L80: ## BibTeX formatted citation
+L81:
+L82: [Button: ×]
+L83:
+L84: loading...
+L85:
+L86: Data provided by:
+L87:
+L88: ### Bookmark
+L89:
+L90: [Input] Bibliographic Tools
+L91: # Bibliographic and Citation Tools
+L92:
+L93: [Input] Bibliographic Explorer Toggle
+L94:
+L95: Bibliographic Explorer (【45†What is the Explorer?†info.arxiv.org】)
+L96:
+L97: [Input] Connected Papers Toggle
+L98:
+L99: Connected Papers (【46†What is Connected Papers?†www.connectedpapers.com】)
+L100:
+L101: [Input] Litmaps Toggle
+L102:
+L103: Litmaps (【47†What is Litmaps?†www.litmaps.co】)
+L104:
+L105: [Input] scite.ai Toggle
+L106:
+L107: scite Smart Citations (【48†What are Smart Citations?†www.scite.ai】)
+L108:
+L109: [Input] Code, Data, Media
+L110: # Code, Data and Media Associated with this Article
+L111:
+L112: [Input] alphaXiv Toggle
+L113:
+L114: alphaXiv (【49†What is alphaXiv?†alphaxiv.org】)
+L115:
+L116: [Input] Links to Code Toggle
+L117:
+L118: CatalyzeX Code Finder for Papers (【50†What is CatalyzeX?†www.catalyzex.com】)
+L119:
+L120: [Input] DagsHub Toggle
+L121:
+L122: DagsHub (【51†What is DagsHub?†dagshub.com】)
+L123:
+L124: [Input] GotitPub Toggle
+L125:
+L126: Gotit.pub (【52†What is GotitPub?†gotit.pub】)
+L127:
+L128: [Input] Huggingface Toggle
+L129:
+L130: Hugging Face (【53†What is Huggingface?†huggingface.co】)
+L131:
+L132: [Input] ScienceCast Toggle
+L133: ScienceCast (【54†What is ScienceCast?†sciencecast.org】)
+L134:
+L135: [Input] Demos
+L136: # Demos
+L137:
+L138: [Input] Replicate Toggle
+L139:
+L140: Replicate (【55†What is Replicate?†replicate.com】)
+L141:
+L142: [Input] Spaces Toggle
+L143:
+L144: Hugging Face Spaces (【56†What is Spaces?†huggingface.co】)
+L145:
+L146: [Input] Spaces Toggle
+L147:
+L148: TXYZ.AI (【57†What is TXYZ.AI?†txyz.ai】)
+L149:
+L150: [Input] Related Papers
+L151: # Recommenders and Search Tools
+L152:
+L153: [Input] Link to Influence Flower
+L154:
+L155: Influence Flower (【58†What are Influence Flowers?†influencemap.cmlab.dev】)
+L156:
+L157: [Input] Core recommender toggle
+L158:
+L159: CORE Recommender (【59†What is CORE?†core.ac.uk】)
+L160:
+L161: [Input] IArxiv recommender toggle
+L162:
+L163: IArxiv Recommender (【60†What is IArxiv?†iarxiv.org】)
+L164:
+L165:   * Author
+L166:   * Venue
+L167:   * Institution
+L168:   * Topic
+L169:
+L170: [Input] About arXivLabs
+L171: # arXivLabs: experimental projects with community collaborators
+L172:
+L173: arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
+L174:
+L175: Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
+L176: Have an idea for a project that will add value for arXiv's community? 【61†Learn more about arXivLabs†info.arxiv.org】.
+L177:
+L178: 【62†Which authors of this paper are endorsers?】 | Disable MathJax (【63†What is MathJax?†info.arxiv.org】)
+L179:
+L180: We gratefully acknowledge support from our major funders, 【64†member institutions†info.arxiv.org】, , and all contributors.
+L181: 【65†About†info.arxiv.org】 · 【66†Help†info.arxiv.org】 · 【67†Contact†info.arxiv.org】 · 【68†Subscribe†info.arxiv.org】 · 【69†Copyright†info.arxiv.org】 · 【70†Privacy†info.arxiv.org】 · 【71†Accessibility†info.arxiv.org】 · 【72†Operational Status (opens in new tab)†status.arxiv.org】
+L182:
+L183: Major funding support from
+L184:
+L185: 【73†(opens in new tab)†www.simonsfoundation.org】 【74†(opens in new tab)†www.sfi.org.bm】 【75†(opens in new tab)†www.schmidtsciences.org】

@@ -56,6 +56,17 @@ const sidebar = [
     text: '总览',
     items: [{ text: '研报档案', link: '/' }]
   },
+  {
+    text: '论文研究',
+    collapsed: false,
+    items: [
+      { text: '研究索引', link: '/论文研究/README' },
+      { text: 'LLM训练与DeepSeek调研', link: '/论文研究/算力与LLM训练_DeepSeek案例/2026-10-25/调研报告' },
+      { text: '论文方案', link: '/论文研究/算力与LLM训练_DeepSeek案例/2026-10-25/论文方案' },
+      { text: 'Scaling law与算力预估', link: '/论文研究/算力与LLM训练_DeepSeek案例/2026-10-25/Scaling%20law与未来算力预估' },
+      { text: 'ETF与主动基金布局', link: '/论文研究/算力与LLM训练_DeepSeek案例/2026-10-25/相关ETF与主动基金布局' }
+    ]
+  },
   ...archive.categories.map(categorySidebar)
 ]
 
@@ -88,6 +99,7 @@ export default defineConfig({
       { text: '档案总览', link: '/' },
       { text: '公司档案', link: '/公司档案/README' },
       { text: '产业链研究', link: '/产业链研究/README' },
+      { text: '论文研究', link: '/论文研究/README' },
       { text: '事件研究', link: '/事件研究/Meta出租AI算力（2026-07-02）/Meta出租AI算力（2026-07-02）' }
     ],
     sidebar,

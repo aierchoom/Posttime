@@ -1,0 +1,961 @@
+GitHub - deepseek-ai/DeepInfer: DeepInfer: High-performance, large-scale inference framework for DeepSeek models · GitHub (https://github.com/deepseek-ai/DeepInfer)
+citeturn46view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://github.com/deepseek-ai/DeepInfer","lineno":null}); Total lines: 354
+L0: 【0†Skip to content】
+L1: ## Navigation Menu
+L2:
+L3: 【1†Sign in】
+L4:
+L5: Appearance settings
+L6:
+L7:   * Platform
+L8:
+L9:     * AI CODE CREATION
+L10:       * 【2†GitHub CopilotWrite better code with AI】
+L11:       * 【3†GitHub Copilot appDirect agents from issue to merge】
+L12:       * 【4†MCP RegistryIntegrate external tools】
+L13:
+L14:     * DEVELOPER WORKFLOWS
+L15:       * 【5†ActionsAutomate any workflow】
+L16:       * 【6†CodespacesInstant dev environments】
+L17:       * 【7†IssuesPlan and track work】
+L18:       * 【8†Code ReviewManage code changes】
+L19:       * 【9†Code QualityEnforce quality at merge】
+L20:     * APPLICATION SECURITY
+L21:       * 【10†GitHub Advanced SecurityFind and fix vulnerabilities】
+L22:       * 【11†Code securitySecure your code as you build】
+L23:       * 【12†Secret protectionStop leaks before they start】
+L24:
+L25:     * EXPLORE
+L26:       * 【13†Why GitHub】
+L27:       * 【14†Documentation†docs.github.com】
+L28:       * 【15†Blog†github.blog】
+L29:       * 【16†Changelog†github.blog】
+L30:       * 【17†Marketplace】
+L31:
+L32: 【18†View all features】
+L33:
+L34:   * Solutions
+L35:     * BY COMPANY SIZE
+L36:       * 【19†Enterprises】
+L37:       * 【20†Small and medium teams】
+L38:       * 【21†Startups】
+L39:       * 【22†Nonprofits】
+L40:
+L41:     * BY USE CASE
+L42:       * 【23†App Modernization】
+L43:       * 【24†DevSecOps】
+L44:       * 【25†DevOps】
+L45:       * 【26†CI/CD】
+L46:       * 【27†View all use cases】
+L47:
+L48:     * BY INDUSTRY
+L49:       * 【28†Healthcare】
+L50:       * 【29†Financial services】
+L51:       * 【30†Manufacturing】
+L52:       * 【31†Government】
+L53:       * 【32†See all industries】
+L54:
+L55: 【33†View all solutions】
+L56:
+L57:   * Resources
+L58:     * EXPLORE BY TOPIC
+L59:       * 【34†AI】
+L60:       * 【35†Software Development】
+L61:       * 【36†DevOps】
+L62:       * 【37†Security】
+L63:       * 【38†View all topics】
+L64:
+L65:     * EXPLORE BY TYPE
+L66:       * 【39†Customer stories】
+L67:       * 【40†Events & webinars】
+L68:       * 【41†Ebooks & reports】
+L69:       * 【42†Business insights】
+L70:       * 【43†GitHub Skills†skills.github.com】
+L71:     * SUPPORT & SERVICES
+L72:       * 【14†Documentation†docs.github.com】
+L73:       * 【44†Customer support†support.github.com】
+L74:       * 【45†Community forum】
+L75:       * 【46†Trust center】
+L76:       * 【47†Partners】
+L77:
+L78: 【48†View all resources】
+L79:
+L80:   * Open Source
+L81:
+L82:     * COMMUNITY
+L83:       * 【49†GitHub SponsorsFund open source developers】
+L84:     * PROGRAMS
+L85:       * 【50†Security Lab†securitylab.github.com】
+L86:       * 【51†Maintainer Community†maintainers.github.com】
+L87:       * 【52†GitHub Stars†stars.github.com】
+L88:       * 【53†Archive Program†archiveprogram.github.com】
+L89:
+L90:     * REPOSITORIES
+L91:       * 【54†Topics】
+L92:       * 【55†Trending】
+L93:       * 【56†Collections】
+L94:
+L95:   * Enterprise
+L96:
+L97:     * ENTERPRISE SOLUTIONS
+L98:       * 【19†Enterprise platformAI-powered developer platform】
+L99:     * AVAILABLE ADD-ONS
+L100:       * 【10†GitHub Advanced SecurityEnterprise-grade security features】
+L101:       * 【57†Copilot for BusinessEnterprise-grade AI features】
+L102:       * 【58†Premium SupportEnterprise-grade 24/7 support】
+L103:
+L104:   * 【59†Pricing】
+L105:
+L106: Search`/`
+L107:
+L108: 【1†Sign in】
+L109:
+L110: 【60†Sign up】
+L111:
+L112: Appearance settings
+L113: You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert
+L114:
+L115:   1. 【61†deepseek-ai】
+L116:   2. 【62†DeepInfer】
+L117: ## Repository navigation
+L118:
+L119:   *   * 【62†Code】
+L120:   * 【63†Pull requests176 (176)】
+L121:   * 【64†Discussions】
+L122:   * 【65†Actions】
+L123:   * 【66†Projects】
+L124:   * 【67†Security and quality】
+L125:   * 【68†Insights】
+L126:
+L127: More items
+L128:
+L129: 【69†Image: deepseek-ai†avatars.githubusercontent.com】
+L130:
+L131: 【62†DeepInfer】
+L132:
+L133: Public
+L134:
+L135:   * 【70†Notifications】You must be signed in to change notification settings
+L136:   * 【70†Fork2.5k (2.5k)】
+L137:   * 【70†Star21.9k (21.9k)】You must be signed in to star a repository
+L138: ## About
+L139:
+L140: DeepInfer: High-performance, large-scale inference framework for DeepSeek models
+L141:
+L142: ### Resources
+L143:
+L144: 【71†Readme】
+L145:
+L146: 【72†Apache-2.0 license】
+L147:
+L148: ### Contributing
+L149:
+L150: 【73†Contributing】
+L151:
+L152: 【74†Activity】
+L153:
+L154: 【75†Custom properties】
+L155:
+L156: ### Stars
+L157:
+L158: 21.9k stars
+L159:
+L160: ### Watchers
+L161:
+L162: 51 watching
+L163:
+L164: ### Forks
+L165:
+L166: 【76†2.5k forks】
+L167:
+L168: 【77†Report repository】
+L169:
+L170: main
+L171:
+L172: 【78†Branches】【79†Tags】
+L173:
+L174: [Input: Go to file]
+L175:
+L176: Go to file
+L177:
+L178: Code
+L179:
+L180: Open more actions menu
+L181:
+L182: ## Latest commit
+L183:
+L184:
+L185:
+L186: ## History
+L187:
+L188: 4 Commits
+L189: ## Folders and files
+L190: Name  | Name  | Last commit message  | Last commit date
+L191: --- | --- | --- | ---
+L192: 【80†csrc】  | 【80†csrc】  |    |
+L193: 【81†deep_cluster】  | 【81†deep_cluster】  |    |
+L194: 【82†deepinfer】  | 【82†deepinfer】  |    |
+L195: 【83†doc】  | 【83†doc】  |    |
+L196: 【84†eval】  | 【84†eval】  |    |
+L197: 【85†examples】  | 【85†examples】  |    |
+L198: 【86†scripts】  | 【86†scripts】  |    |
+L199: 【87†tests】  | 【87†tests】  |    |
+L200: 【88†vendor】  | 【88†vendor】  |    |
+L201: 【89†.clang-format】  | 【89†.clang-format】  |    |
+L202: 【90†.gitignore】  | 【90†.gitignore】  |    |
+L203: 【91†.gitmodules】  | 【91†.gitmodules】  |    |
+L204: 【92†CONTRIBUTING.md】  | 【92†CONTRIBUTING.md】  |    |
+L205: 【93†LICENSE】  | 【93†LICENSE】  |    |
+L206: 【94†Makefile】  | 【94†Makefile】  |    |
+L207: 【95†README.md】  | 【95†README.md】  |    |
+L208: 【96†build.sh】  | 【96†build.sh】  |    |
+L209: 【97†pyproject.toml】  | 【97†pyproject.toml】  |    |
+L210: 【98†requirements-ascend.txt】  | 【98†requirements-ascend.txt】  |    |
+L211: 【99†requirements-dev.txt】  | 【99†requirements-dev.txt】  |    |
+L212: 【100†requirements-nvidia.txt】  | 【100†requirements-nvidia.txt】  |    |
+L213: 【101†requirements.txt】  | 【101†requirements.txt】  |    |
+L214: 【102†setup.py】  | 【102†setup.py】  |    |
+L215: [Button: View all files]
+L216: ## Repository files navigation
+L217:
+L218:   *   * 【103†README】
+L219:   * 【103†Contributing】
+L220:   * 【103†Apache-2.0 license】
+L221:
+L222: More items
+L223: # DeepInfer
+L224:
+L225: DeepInfer is the high-performance inference framework that powers DeepSeek's large-scale production services. This open-source release provides offline inference with the core features needed for serving at scale.
+L226:
+L227: Supported models:
+L228:
+L229:   * DeepSeek-V4.1-Flash
+L230:
+L231: Supported features:
+L232:   * Optimized kernels, model and sampler runtime
+L233:   * Parallelism: Attention DP / balanced CP, MoE EP + EPLB
+L234:   * DSpark and confidence-scheduled verification
+L235:   * SWA bounded replay
+L236:   * Asynchronous scheduling (zero-overhead batch scheduler)
+L237:   * Batch-invariant inference
+L238:   * Deterministic sampling
+L239:   * Structured outputs
+L240: Feature details and configuration
+L241:   * Optimized kernels: 【104†FlashMLA】, 【105†DeepGEMM】, 【106†DeepEP】, 【107†TileKernels】, 【108†DeepSelect】, and custom 【109†TileLang kernels】.
+L242:   * DSpark and confidence-scheduled verification: accelerate decoding with draft tokens and use confidence estimates to schedule verification. Set `DEEPINFER_ENABLE_MTP_VARLEN=1`; `DEEPINFER_USE_NEXTN_DECODE` controls the maximum draft length (default: 5).
+L243:   * Decoder SWA bounded replay: reduce decoder prefill work by replaying only a bounded suffix. Set `DEEPINFER_YOCO_PREFILL_TRUNCATION_MODE=compact` and `DEEPINFER_YOCO_PREFILL_KEEP_TOKENS=140` for the default V4.1 settings; the retained suffix must cover the SWA window plus the maximum backtracking length.
+L244:   * Asynchronous scheduling: overlap CPU batch scheduling with device execution. Enabled by default.
+L245:   * Batch-invariant inference: keep model results identical across different batch compositions. Enable with `DEEPINFER_BATCH_INVARIANT=1` (NVIDIA only).
+L246:   * Deterministic sampling: produce identical outputs for identical input tokens and sampling parameters. Set `DEEPINFER_BATCH_INVARIANT=1 DEEPINFER_ENABLE_MTP_VARLEN=0` and pass a fixed `seq_seed` to `SamplingParams` (NVIDIA only).
+L247:   * Structured outputs: constrain generation to a regex, JSON schema, or EBNF grammar. Pass `so_args={"schema_type": ..., "schema": ...}` to `SamplingParams`; see 【110†examples】.
+L248: Supported hardware:
+L249:
+L250:   * NVIDIA SM100 GPUs
+L251:   * Huawei Ascend 950 NPUs
+L252:
+L253: Required for a complete inference service (not included in this release):
+L254:
+L255:   * A KV cache system
+L256:   * VE/Prefill/Decode disaggregation (most required engine functionality is already implemented)
+L257:   * Load balancing across data-parallel replicas for both prefill and decode
+L258: ## Getting started
+L259:
+L260: ### Prerequisites
+L261:
+L262:   * Linux
+L263:   * GCC >= 13.0
+L264:   * Python 3.12
+L265:   * CUDA 13 (NVIDIA only)
+L266:   * CANN 9.2 (Ascend only)
+L267:
+L268: ### Build from source
+L269:
+L270: Before building DeepInfer, please create and activate an empty Python 3.12 environment.
+L271:
+L272:     # Use `ascend` instead for the Ascend platform
+L273:     # Keep it exported in the environment where you run DeepInfer
+L274:     export DEEPINFER_ACCELERATOR=nvidia
+L275:     ./build.sh
+L276: ### Offline inference
+L277:
+L278: The default checkpoint, 【111†`deepseek-ai/DeepSeek-V4.1-Flash-1017`†huggingface.co】, is downloaded into the Hugging Face cache on the first run; set `DEEPINFER_HF_MODEL_DIR=/path/to/DeepSeek-V4.1-Flash-1017` to run from a local copy instead.
+L279:
+L280:     python examples/offline_inference.py
+L281:
+--------------------------------------------------------------------------------
+ (https://raw.githubusercontent.com/deepseek-ai/DeepInfer/main/README.md)
+citeturn46view1 [wordlim: 200] Crawled: today; Content type: text/plain; Source: open({"ref_id":"https://raw.githubusercontent.com/deepseek-ai/DeepInfer/main/README.md","lineno":null}); Total lines: 99
+L0: # DeepInfer
+L1:
+L2: DeepInfer is the high-performance inference framework that powers DeepSeek's large-scale production services. This open-source release provides offline inference with the core features needed for serving at scale.
+L3:
+L4: Supported models:
+L5:
+L6: - DeepSeek-V4.1-Flash
+L7:
+L8: Supported features:
+L9: - Optimized kernels, model and sampler runtime
+L10: - Parallelism: Attention DP / balanced CP, MoE EP + EPLB
+L11: - DSpark and confidence-scheduled verification
+L12: - SWA bounded replay
+L13: - Asynchronous scheduling (zero-overhead batch scheduler)
+L14: - Batch-invariant inference
+L15: - Deterministic sampling
+L16: - Structured outputs
+L17:
+L18: <details>
+L19: <summary>Feature details and configuration</summary>
+L20: - **Optimized kernels:** [FlashMLA](https://github.com/deepseek-ai/FlashMLA), [DeepGEMM](https://github.com/deepseek-ai/DeepGEMM), [DeepEP](https://github.com/deepseek-ai/DeepEP), [TileKernels](https://github.com/deepseek-ai/TileKernels), [DeepSelect](https://github.com/deepseek-ai/DeepSelect), and custom [TileLang kernels](deepinfer/model_executor/layers/tilelang_ops).
+L21: - **DSpark and confidence-scheduled verification:** accelerate decoding with draft tokens and use confidence estimates to schedule verification. Set `DEEPINFER_ENABLE_MTP_VARLEN=1`; `DEEPINFER_USE_NEXTN_DECODE` controls the maximum draft length (default: 5).
+L22: - **Decoder SWA bounded replay:** reduce decoder prefill work by replaying only a bounded suffix. Set `DEEPINFER_YOCO_PREFILL_TRUNCATION_MODE=compact` and `DEEPINFER_YOCO_PREFILL_KEEP_TOKENS=140` for the default V4.1 settings; the retained suffix must cover the SWA window plus the maximum backtracking length.
+L23: - **Asynchronous scheduling:** overlap CPU batch scheduling with device execution. Enabled by default.
+L24: - **Batch-invariant inference:** keep model results identical across different batch compositions. Enable with `DEEPINFER_BATCH_INVARIANT=1` (NVIDIA only).
+L25: - **Deterministic sampling:** produce identical outputs for identical input tokens and sampling parameters. Set `DEEPINFER_BATCH_INVARIANT=1 DEEPINFER_ENABLE_MTP_VARLEN=0` and pass a fixed `seq_seed` to `SamplingParams` (NVIDIA only).
+L26: - **Structured outputs:** constrain generation to a regex, JSON schema, or EBNF grammar. Pass `so_args={"schema_type": ..., "schema": ...}` to `SamplingParams`; see [examples](examples/_structured_output.py).
+L27: </details>
+L28:
+L29: Supported hardware:
+L30:
+L31: - NVIDIA SM100 GPUs
+L32: - Huawei Ascend 950 NPUs
+L33:
+L34: Required for a complete inference service (not included in this release):
+L35:
+L36: - A KV cache system
+L37: - VE/Prefill/Decode disaggregation (most required engine functionality is already implemented)
+L38: - Load balancing across data-parallel replicas for both prefill and decode
+L39: ## Getting started
+L40:
+L41: ### Prerequisites
+L42:
+L43: - Linux
+L44: - GCC >= 13.0
+L45: - Python 3.12
+L46: - CUDA 13 (NVIDIA only)
+L47: - CANN 9.2 (Ascend only)
+L48:
+L49: ### Build from source
+L50:
+L51: Before building DeepInfer, please create and activate an empty Python 3.12 environment.
+L52:
+L53: ``` bash
+L54: # Use `ascend` instead for the Ascend platform
+L55: # Keep it exported in the environment where you run DeepInfer
+L56: export DEEPINFER_ACCELERATOR=nvidia
+L57: ./build.sh
+L58: ```
+L59: ### Offline inference
+L60:
+L61: The default checkpoint, [`deepseek-ai/DeepSeek-V4.1-Flash-1017`](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017), is
+L62: downloaded into the Hugging Face cache on the first run; set `DEEPINFER_HF_MODEL_DIR=/path/to/DeepSeek-V4.1-Flash-1017` to
+L63: run from a local copy instead.
+L64:
+L65: ``` bash
+L66: python examples/offline_inference.py
+L67: ```
+L68:
+L69: See [examples](examples/README.md) for details.
+L70: ## Performance benchmarks
+L71:
+L72: | Prefill | Decode |
+L73: | :---: | :---: |
+L74: | [![Prefill: non-cached input throughput vs. latency](doc/images/prefill_pareto.png)](doc/images/prefill_pareto.png) | [![Decode: output throughput vs. per-user speed](doc/images/decode_pareto.png)](doc/images/decode_pareto.png) |
+L75:
+L76: Measured on 4 SM100 GPUs for prefill and 64 for decode — each within one scale-up domain. To reproduce the benchmarks, see [run_sweep.sh](examples/sweep/run_sweep.sh).
+L77: ## Evaluation benchmarks
+L78:
+L79: See [eval/README.md](eval/README.md).
+L80:
+L81: ## License
+L82:
+L83: DeepInfer is released under the Apache License 2.0. See [LICENSE](LICENSE) for details.
+L84:
+L85: ## Acknowledgments
+L86:
+L87: DeepInfer was originally built primarily on [vLLM](https://github.com/vllm-project/vllm), with additional inspiration from [SGLang](https://github.com/sgl-project/sglang) and [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM). We thank their developers.
+L88: ## Citation
+L89:
+L90: ```bibtex
+L91: @misc{deepinfer2026,
+L92:   title = {DeepInfer: High-performance, large-scale inference framework for DeepSeek models},
+L93:   author = {DeepSeek-AI},
+L94:   year = {2026},
+L95:   publisher = {GitHub},
+L96:   howpublished = {\url{https://github.com/deepseek-ai/DeepInfer}},
+L97: }
+L98: ```
+--------------------------------------------------------------------------------
+GitHub - deepseek-ai/deepseek-recipe · GitHub (https://github.com/deepseek-ai/deepseek-recipe)
+citeturn46view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://github.com/deepseek-ai/deepseek-recipe","lineno":null}); Total lines: 343
+L0: 【0†Skip to content】
+L1: ## Navigation Menu
+L2:
+L3: 【1†Sign in】
+L4:
+L5: Appearance settings
+L6:
+L7:   * Platform
+L8:
+L9:     * AI CODE CREATION
+L10:       * 【2†GitHub CopilotWrite better code with AI】
+L11:       * 【3†GitHub Copilot appDirect agents from issue to merge】
+L12:       * 【4†MCP RegistryIntegrate external tools】
+L13:
+L14:     * DEVELOPER WORKFLOWS
+L15:       * 【5†ActionsAutomate any workflow】
+L16:       * 【6†CodespacesInstant dev environments】
+L17:       * 【7†IssuesPlan and track work】
+L18:       * 【8†Code ReviewManage code changes】
+L19:       * 【9†Code QualityEnforce quality at merge】
+L20:     * APPLICATION SECURITY
+L21:       * 【10†GitHub Advanced SecurityFind and fix vulnerabilities】
+L22:       * 【11†Code securitySecure your code as you build】
+L23:       * 【12†Secret protectionStop leaks before they start】
+L24:
+L25:     * EXPLORE
+L26:       * 【13†Why GitHub】
+L27:       * 【14†Documentation†docs.github.com】
+L28:       * 【15†Blog†github.blog】
+L29:       * 【16†Changelog†github.blog】
+L30:       * 【17†Marketplace】
+L31:
+L32: 【18†View all features】
+L33:
+L34:   * Solutions
+L35:     * BY COMPANY SIZE
+L36:       * 【19†Enterprises】
+L37:       * 【20†Small and medium teams】
+L38:       * 【21†Startups】
+L39:       * 【22†Nonprofits】
+L40:
+L41:     * BY USE CASE
+L42:       * 【23†App Modernization】
+L43:       * 【24†DevSecOps】
+L44:       * 【25†DevOps】
+L45:       * 【26†CI/CD】
+L46:       * 【27†View all use cases】
+L47:
+L48:     * BY INDUSTRY
+L49:       * 【28†Healthcare】
+L50:       * 【29†Financial services】
+L51:       * 【30†Manufacturing】
+L52:       * 【31†Government】
+L53:       * 【32†See all industries】
+L54:
+L55: 【33†View all solutions】
+L56:
+L57:   * Resources
+L58:     * EXPLORE BY TOPIC
+L59:       * 【34†AI】
+L60:       * 【35†Software Development】
+L61:       * 【36†DevOps】
+L62:       * 【37†Security】
+L63:       * 【38†View all topics】
+L64:
+L65:     * EXPLORE BY TYPE
+L66:       * 【39†Customer stories】
+L67:       * 【40†Events & webinars】
+L68:       * 【41†Ebooks & reports】
+L69:       * 【42†Business insights】
+L70:       * 【43†GitHub Skills†skills.github.com】
+L71:     * SUPPORT & SERVICES
+L72:       * 【14†Documentation†docs.github.com】
+L73:       * 【44†Customer support†support.github.com】
+L74:       * 【45†Community forum】
+L75:       * 【46†Trust center】
+L76:       * 【47†Partners】
+L77:
+L78: 【48†View all resources】
+L79:
+L80:   * Open Source
+L81:
+L82:     * COMMUNITY
+L83:       * 【49†GitHub SponsorsFund open source developers】
+L84:     * PROGRAMS
+L85:       * 【50†Security Lab†securitylab.github.com】
+L86:       * 【51†Maintainer Community†maintainers.github.com】
+L87:       * 【52†GitHub Stars†stars.github.com】
+L88:       * 【53†Archive Program†archiveprogram.github.com】
+L89:
+L90:     * REPOSITORIES
+L91:       * 【54†Topics】
+L92:       * 【55†Trending】
+L93:       * 【56†Collections】
+L94:
+L95:   * Enterprise
+L96:
+L97:     * ENTERPRISE SOLUTIONS
+L98:       * 【19†Enterprise platformAI-powered developer platform】
+L99:     * AVAILABLE ADD-ONS
+L100:       * 【10†GitHub Advanced SecurityEnterprise-grade security features】
+L101:       * 【57†Copilot for BusinessEnterprise-grade AI features】
+L102:       * 【58†Premium SupportEnterprise-grade 24/7 support】
+L103:
+L104:   * 【59†Pricing】
+L105:
+L106: Search`/`
+L107:
+L108: 【1†Sign in】
+L109:
+L110: 【60†Sign up】
+L111:
+L112: Appearance settings
+L113: You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert
+L114:
+L115:   1. 【61†deepseek-ai】
+L116:   2. 【62†deepseek-recipe】
+L117: ## Repository navigation
+L118:
+L119:   *   * 【62†Code】
+L120:   * 【63†Issues8 (8)】
+L121:   * 【64†Pull requests32 (32)】
+L122:   * 【65†Actions】
+L123:   * 【66†Projects】
+L124:   * 【67†Security and quality】
+L125:   * 【68†Insights】
+L126:
+L127: More items
+L128:
+L129: 【69†Image: deepseek-ai†avatars.githubusercontent.com】
+L130:
+L131: 【62†deepseek-recipe】
+L132:
+L133: Public
+L134:
+L135:   * 【70†Notifications】You must be signed in to change notification settings
+L136:   * 【70†Fork350 (350)】
+L137:   * 【70†Star2.4k (2.4k)】You must be signed in to star a repository
+L138:
+L139: ## About
+L140:
+L141: No description, website, or topics provided.
+L142: ### Resources
+L143:
+L144: 【71†Readme】
+L145:
+L146: 【72†MIT license】
+L147:
+L148: 【73†Activity】
+L149:
+L150: 【74†Custom properties】
+L151:
+L152: ### Stars
+L153:
+L154: 2.4k stars
+L155:
+L156: ### Watchers
+L157:
+L158: 4 watching
+L159:
+L160: ### Forks
+L161:
+L162: 【75†350 forks】
+L163:
+L164: 【76†Report repository】
+L165:
+L166: main
+L167:
+L168: 【77†Branches】【78†Tags】
+L169:
+L170: [Input: Go to file]
+L171:
+L172: Go to file
+L173:
+L174: Code
+L175:
+L176: Open more actions menu
+L177:
+L178: ## Latest commit
+L179:
+L180:
+L181:
+L182: ## History
+L183:
+L184: 4 Commits
+L185: ## Folders and files
+L186: Name  | Name  | Last commit message  | Last commit date
+L187: --- | --- | --- | ---
+L188: 【79†deepseek-recipe-core】  | 【79†deepseek-recipe-core】  |    |
+L189: 【80†deepseek-recipe-encoding】  | 【80†deepseek-recipe-encoding】  |    |
+L190: 【81†deepseek-recipe-image】  | 【81†deepseek-recipe-image】  |    |
+L191: 【82†deepseek-recipe-macros】  | 【82†deepseek-recipe-macros】  |    |
+L192: 【83†deepseek-recipe-python】  | 【83†deepseek-recipe-python】  |    |
+L193: 【84†deepseek-recipe】  | 【84†deepseek-recipe】  |    |
+L194: 【85†docs】  | 【85†docs】  |    |
+L195: 【86†encoding-decoding-demo】  | 【86†encoding-decoding-demo】  |    |
+L196: 【87†server-py】  | 【87†server-py】  |    |
+L197: 【88†server-rs】  | 【88†server-rs】  |    |
+L198: 【89†static】  | 【89†static】  |    |
+L199: 【90†.gitignore】  | 【90†.gitignore】  |    |
+L200: 【91†CHANGELOG.md】  | 【91†CHANGELOG.md】  |    |
+L201: 【92†Cargo.lock】  | 【92†Cargo.lock】  |    |
+L202: 【93†Cargo.toml】  | 【93†Cargo.toml】  |    |
+L203: 【94†LICENSE】  | 【94†LICENSE】  |    |
+L204: 【95†README.md】  | 【95†README.md】  |    |
+L205: 【96†README.zh.md】  | 【96†README.zh.md】  |    |
+L206: 【97†rust-toolchain.toml】  | 【97†rust-toolchain.toml】  |    |
+L207: 【98†rustfmt.toml】  | 【98†rustfmt.toml】  |    |
+L208: [Button: View all files]
+L209: ## Repository files navigation
+L210:
+L211:   *   * 【99†README】
+L212:   * 【99†MIT license】
+L213:
+L214: More items
+L215: # deepseek-recipe
+L216:
+L217: English | 【96†中文】
+L218: deepseek-recipe is a collection of Rust libraries and Python bindings that uniformly convert API requests in different formats into the Conversation format, render conversations into prompts for DeepSeek models, encode conversations into token IDs with an attached tokenizer, and convert model output into responses in the corresponding format. Use these components to connect an inference backend to API services that support multiple formats.
+L219: The caller must provide model inference, tool execution, and HTTP transport.
+L220: 【100†Getting started】 · 【101†Streaming response】 · 【102†Use with tokenizer】 · 【103†License】
+L221: ## Supported scope
+L222:   * Request/response formats: Conversion of Messages, Chat Completions, and Responses requests, 【101†Streaming response】, and complete responses. Supports text, images, thinking mode, client tool calls, and Chat Completions `prefix` continuation.
+L223:   * Prompts: Rendering of DeepSeek V4 and V4.1 conversations into prompts, and encoding of conversations into token IDs with an attached tokenizer.
+L224:   * Generation settings: Thinking mode, reasoning effort, `temperature`, `top_p`, and output token limits. After the caller encodes the prompt, `ConversationRequest::resolve_max_tokens` checks the prompt and `max_tokens` against the context limit and supplies the `max_tokens` default when the request sets none: 8192 outside thinking mode, 65536 in thinking mode, and 131072 in thinking mode with `max` effort.
+L225:   * Output parsing: Reasoning content, tool calls, JSON object output, and stop sequences. Usage reports `reasoning_tokens` when the stream processor has an attached tokenizer: the processor encodes the reasoning content with it to count the tokens.
+L226:   * Structured output: Chat Completions `response_format` of type `json_schema` or `regex`, and Responses `text.format` of type `json_schema`. Conversion validates a JSON Schema, and rendering writes it into the prompt; a regex is passed through as `ResponseFormat::Regex`. Conversion also selects the `OutputConstraint` of `InferenceOptions`: the tool call block of a request with tools and a tool choice other than `none`, otherwise the JSON, JSON Schema, or regex of its response format.
+L227: The caller decides whether its backend enforces it by constrained decoding.
+L228:   * Images: Provided as base64 or external URLs, and preprocessed for DeepSeek V4.1 with OpenCV by the image component. DeepSeek V4 does not accept images; conversion replaces each image in a V4 request with the text `[Unsupported Image]`. The component's `ReqwestImageFetcher` connects to any address by default, so a service that fetches URLs from untrusted requests should install a `DestinationFilter`.
+L229:   * Tool definitions: Function tools, and for Responses also tool namespaces and the `apply_patch` custom tool. V4.1 supports deferred tool loading in Messages and client-executed tool search in Responses.
+L230:   * Log probabilities: `logprobs` and `top_logprobs` (Chat Completions) and `top_logprobs` (Responses) are converted into `InferenceOptions`. The caller supplies the backend's values in `InferenceChunk::Tokens`; with an attached tokenizer, the Chat Completions and Responses adapters report them. The library does not compute probabilities.
+
+
+ (https://raw.githubusercontent.com/deepseek-ai/DeepInfer/main/examples/README.md)
+citeturn47view0 [wordlim: 200] Crawled: today; Content type: text/plain; Source: open({"ref_id":"https://raw.githubusercontent.com/deepseek-ai/DeepInfer/main/examples/README.md","lineno":null}); Total lines: 101
+L0: # Examples
+L1: ## Offline inference
+L2:
+L3: ``` bash
+L4: python examples/offline_inference.py --ep 8
+L5: python examples/offline_inference.py --ep 2 --dp 8
+L6: python examples/offline_inference.py --ep 2 --cp 8
+L7: ```
+L8: The default model is `deepseek-ai/DeepSeek-V4.1-Flash-1017`: when `--model_name` is a model id, it is downloaded to the local HF cache with `huggingface_hub.snapshot_download` and used from there; when it is a local HF directory (`config.json` plus safetensors), it is used directly with no network access. `DEEPINFER_HF_MODEL_DIR` points the default model at a local copy and does not override an explicitly passed `--model_name`.
+L9: The prompts for the VL offline samples live in `_prompts.py`, the images come from `images/` in the repository, and no external VL cache is needed. See `python examples/offline_inference.py --help` for the arguments.
+L10: With `--check_structured_output`, offline inference reuses the same LLM instance after the sample outputs and `decode_ppl` to run the regex, JSON, and EBNF structured-output checks and to verify a normal EOS termination; any failure fails the run. `tests/models/test_offline_inference.py` enables it explicitly, validating PPL and structured output in a single run; regular offline runs, the long-PPL-only test, and baseline refreshes leave it off by default.
+L11: PPL baselines are stored in `tests/models/offline_decode_ppl.json`, keyed by platform/workload (independent of the model directory passed in), with one set of samples per DP rank, and are compared exactly sample by sample during validation. Once a numeric change is confirmed as expected, `python examples/refresh_offline_decode_ppl.py` updates the short baseline; add `--long_context` to update the long one.
+L12: For multi-node runs (`_launch.run_dp` splits the DP ranks across nodes, and the local stdout carries only the local rank), both refreshing and validation are split by node: each node only updates or compares the ranks it owns, and golden baselines are written under a cross-node file lock (`tests/models/offline_decode_ppl.json.lock`) so the two sides never overwrite each other.
+L13: `--output <path>` (save a candidate baseline) is **supported on a single node only**: with multiple nodes the candidate file would inevitably miss the other nodes' ranks, so the script fails with an error and tells you to use the default path.
+L14: Long PPL (16389-token input, 4096-token output, nextn=5) is covered by the full pytest run (`python -m pytest -v -s tests`); to run it on its own, use `python -m pytest -v -s tests/models/test_offline_inference_long.py`.
+L15: ### NPU notes
+L16:
+L17: Debugging environment variables:
+L18: ```bash
+L19: export ASCEND_LAUNCH_BLOCKING=1 # run operators synchronously so stack traces are easy to read
+L20: export ASCEND_SLOG_PRINT_TO_STDOUT=1 # print CANN logs to stdout
+L21: ```
+L22: ### VL offline regression samples
+L23: The five inputs are, in order: two text-only samples, one single-image sample, one three-image sample, and one five-image 4-shot sample. All image inputs use only `carrots.jpeg` (carrots) and `ribs.jpeg` (ribs) from `images/`. The single-image sample uses carrots; the three-image sample uses carrots, ribs, carrots in that order; the five-image sample uses carrots, ribs, carrots, ribs, carrots in that order. The Q&A text (including the trailing space in `Answer: `) is inlined in `_prompts.py`.
+L24: After changing images or questions, re-measure the short and long PPL baselines on NVIDIA and Ascend separately.
+L25: ## Benchmark
+L26: ### Stage decoupling and metrics
+L27: The prefill and decode stages in `benchmark.py` are decoupled: `--prefill_batch_size` and `--non_cached_tokens` only affect the chunk size and suffix length of the prefill stage, while `--decode_num_requests` only controls the decode batch size.
+L28: The number of requests prefill needs, `N = prefill_num_requests`, is derived backwards from the number of chunks profiling requires and is independent of the decode batch `K`; `N` is capped at 512; if the cap is hit so that the total prefill work cannot fill the steady-state plan, a warning is printed (the prefill workload is then too small for its metrics to be meaningful), while a run that cannot even complete the warmup plus the profiling collection window fails at startup.
+L29: The decode output length is derived from an internal step-count constant and does not need to be specified.
+L30: The only coupling between the two stages is that decode reuses the shared prefix KV produced by prefill, so the whole batch is created with `max(N, K)` requests, rounded up when `--cp > 1` so that the batch splits evenly across the CP units:
+L31: - `N > K`: requests with index `>= K` get `max_tokens=1`, finish as soon as the last prefill chunk produces their first token, are evicted from `running` before the first decode schedule, and never enter the decode batch.
+L32: - `N <= K`: the batch takes `K`, the prefill chunk count exceeds what is needed, and the excess becomes a longer warmup.
+L33: Every request type is built from one source request that computes the first `context_length - non_cached_tokens` cached tokens (`--non_cached_tokens` must not exceed `--context_length`) and then forks into `max(N, K)` requests, rounded up the same way when `--cp > 1`, each computing the non-cached suffix on its own; when the cached length is 0, all requests are created directly.
+L34: VL prompts keep the total number of images unchanged and place whole images in both the cached prefix and the non-cached suffix, so no image crosses the cache boundary.
+L35: Defaults are `decode_num_requests=64`, `context_length=32768`, `non_cached_tokens=4096`, and `prefill_batch_size=32768`; nextn defaults to 5. Under the full-acceptance accounting, the 64 requests of one decode step account for 384 tokens in total. Set `DEEPINFER_USE_NEXTN_DECODE=0` explicitly to disable speculative decoding.
+L36: Benchmark and profile use the same batch of requests in a single run. With `PROFILE=1`, prefill and decode each run an independent profiler section, and on export the two are joined head-to-tail on the timeline into one trace that always contains 2 full-chunk prefill steps and 3 steady-state decode steps; the partial tail prefill chunk, the decode warmup, and the decode measurement window run between the two profiler sections, so they neither enter the trace nor carry profiler overhead.
+L37: The decode profiler goes at the very end of the measurement flow: after the profiler exits there is still a residual slowdown of ~7-11% (measured at bsz=1), so no measurement may be scheduled after it. Step times inside the trace include the profiler's immediate overhead (up to nearly 50% inflation at bsz=1) and are only meant for inspecting kernel composition — do not use them to derive SPS.
+L38: The engine's built-in periodic logging does not overlap the measurement window. The measurement segment is doubled: the first half runs with the logger on (every 5 steps for prefill, every 20 for decode; moe_lb and similar values are read here), the second half produces numbers silently, and logging is off during batch construction, warmup, the profile window, and profiler exit (`DEEPINFER_LOGGING_INTERVAL_STEP=0`).
+L39: When the benchmark finishes, `dp_rank == 0` prints the full configuration and three steady-state metrics:
+L40: - **prefill throughput** (tokens/s/GPU): after skipping 5 warmup chunks, the last 11 prefill samples give 10 steady-state intervals; the token count processed by these 10 steps is divided by the total interval duration and then by the number of devices (the first sample only provides the starting timestamp and its tokens are not counted). When prefill supply is short of two sampling points, `N/A` is printed (matching the startup WARNING).
+L41: Intervals that collide with an LB stats flush are dropped from the window (losing at most one interval) and the rest accumulate as usual; the prefill profile window burns steps to avoid the flush phase, keeping 2 extra full chunks of supply.
+L42: - **decode avg_SPS** (steps/s): after skipping 50 warmup steps and 60 logged steps, and before the decode profiler attaches, the last 61 full-batch decode samples give 60 steady-state intervals; intervals that collide with a MoE LB stats flush (EP all_gather, with jitter of a dozen ms; the benchmark sets `DEEPINFER_MOE_LB_STAT_INTERVAL` to 10 so that the prefill logged segment also carries real moe_lb values) are dropped before averaging.
+L43: It also prints the slowest single step in the clean intervals, `max_step`, which should normally be close to `1000 / avg_SPS`. The decode profile window burns steps to avoid the flush phase.
+L44: - **decode throughput** (tokens/s/GPU): `avg_SPS × decode_num_requests × (1 + nextn) / --cp`, under full-acceptance accounting — `1 + nextn` tokens per request per step, regardless of the true acceptance rate.
+L45: With `--result_jsonl <FILE>`, the full configuration and the raw quantities behind these three metrics (window step count, token count, elapsed time, `avg_SPS`) are appended as one JSON line.
+L46: ### Typical scenarios
+L47:
+L48: See `python examples/benchmark.py --help` for all arguments; nextn defaults to 5 and is overridden explicitly through `DEEPINFER_USE_NEXTN_DECODE` (set it to 0 to disable), never inferred from the model name. The parallel scale is determined by the environment: `ep_size = WORLD_SIZE × len(CUDA_VISIBLE_DEVICES)` (`WORLD_SIZE` is the number of nodes; when `CUDA_VISIBLE_DEVICES` is unset, `ASCEND_RT_VISIBLE_DEVICES` is used), and `--cp` must divide `ep_size`.
+L49: The number of redundant experts is passed through `DEEPINFER_OVERRIDE_NUM_EXTRA_EXPERTS`, defaulting to 32. This env var is only a lower bound: the engine rounds `num_routed_experts + num_extra_experts` up so that it is divisible by `ep_size` (backbone and DFlash are rounded separately), and both the records written to disk and the plots use the rounded value that actually took effect.
+L50: Before running the examples below on a single node, set the environment variables according to the devices actually available:
+L51:
+L52: ```bash
+L53: export WORLD_SIZE=1 RANK=0
+L54: export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
+L55: ```
+L56: #### DeepSeek-V4.1-Flash (nextn set through the environment)
+L57:
+L58: ``` bash
+L59: python examples/benchmark.py
+L60:
+L61: # CP8 + prefill chunk enlarged to 65536
+L62: python examples/benchmark.py --cp 8 --prefill_batch_size 65536
+L63:
+L64: # low latency: single-request decode (batch=1)
+L65: python examples/benchmark.py --decode_num_requests 1
+L66:
+L67: # 128k context + YoCo truncation (nightly profile configuration)
+L68: python examples/benchmark.py --decode_num_requests 64 --context_length 131072 --yoco_clip
+L69: ```
+L70: #### Prompt format
+L71:
+L72: `--prompt_mode` selects the input format for prefill:
+L73:
+L74: ``` bash
+L75: python examples/benchmark.py --prompt_mode text
+L76: python examples/benchmark.py --prompt_mode image
+L77: ```
+L78:
+L79: - `text`: a text-only prompt with no images constructed.
+L80: - `image`: raw images are fed to the engine directly, with the ViT and the LLM in the same engine.
+L81: ### Sweeps and Pareto curves
+L82:
+L83: `sweep/run_sweep.sh` sweeps one dimension of batch parameters on the current node, appending one line per point to the same `results.jsonl`; once it finishes, `sweep/plot_pareto.py` (requires matplotlib) connects the points into throughput-latency curves. Anything after the positional arguments is passed through to the sweep script unchanged.
+L84: ``` bash
+L85: # decode: sweep decode_num_requests (8…256), nextn=3, plot scaled by a draft acceptance rate of 0.75
+L86: bash examples/sweep/run_sweep.sh decode ce-128k 131072 3 0.75
+L87: # prefill: sweep prefill_batch_size (4096…65536)
+L88: bash examples/sweep/run_sweep.sh prefill pe-128k 131072
+L89: # encoder: fix the image size, sweep the number of images per batch (1…32)
+L90: bash examples/sweep/run_sweep.sh encoder ve-800
+L91: ```
+L92:
+L93: The outputs are `sweeps/<tag>/results.jsonl` and `sweeps/<tag>/<mode>_pareto.png`; in multi-node runs only the node holding dp_rank 0 writes the jsonl, and the other nodes exit normally once they finish.
+L94: One tag holds one curve; changing the mode or any fixed configuration starts a new tag. The parallel scale is invisible in the command (`ep_size` comes from the environment), so it is customary to add it to the name, e.g. `ep64-decode-128k`; if points really do end up in the same jsonl, plotting is blocked by a consistency assertion (model, `ep_size`, `--cp`, `context_length`, `nextn`, redundant expert count, and `yoco_clip` for prefill).
+L95: Each decode / prefill point launches `benchmark.py` once, always with `PROFILE=0` (the profiler perturbs steady-state readings). Logs are not written to disk; each sweep point's output goes straight to stdout, delimited by `--- point ... ---` sections, and the caller decides where to redirect it.
+L96: Sweeping the encoder goes through `sweep/ve_sweep.py`: it loads only the VE-side weights, not the LLM, then times each point in the same process. Image encoding is pure single-device compute, so the default `--dp 1` already yields a complete curve; `--dp` is the number of devices this node uses, and in a multi-node allocation only node 0 produces numbers while the other nodes exit normally immediately.
+L97: The timing window covers only the GPU-side pad → ViT → downsample → aligner; CPU preprocessing in the engine is done asynchronously by `MultimodalProcessor` worker processes off the step critical path, and H2D travels with `InputMetadata` through the generic transfer, so both are excluded. Throughput is scaled by the number of LLM tokens per image, the same unit as the prefill curve. Change the image size and the sweep points with `--image_size W H` / `--num_images N...`.
+L98: ## YoCo
+L99:
+L100: See [yoco/README.md](yoco/README.md) for the YoCo mask/compact equivalence verification.
+--------------------------------------------------------------------------------
+ (https://raw.githubusercontent.com/deepseek-ai/DeepInfer/main/examples/sweep/run_sweep.sh)
+citeturn47view1 [wordlim: 200] Crawled: today; Content type: text/plain; Source: open({"ref_id":"https://raw.githubusercontent.com/deepseek-ai/DeepInfer/main/examples/sweep/run_sweep.sh","lineno":null}); Total lines: 83
+L0: #!/bin/bash
+L1: # 扫一维 batch 参数，出一条吞吐-延迟 Pareto 曲线；结果与图都在 sweeps/<tag>/。
+L2: #
+L3: #   run_sweep.sh decode  <tag> <context_length> <nextn> <draft_acceptance> [benchmark.py 参数...]
+L4: #   run_sweep.sh prefill <tag> <context_length> [benchmark.py 参数...]
+L5: #   run_sweep.sh encoder <tag> [ve_sweep.py 参数...]
+L6: #
+L7: # 位置参数之后的内容透传给 benchmark.py / ve_sweep.py，如 --model_name、--cp。
+L8: set -uo pipefail
+L9:
+L10: MODE="${1:?usage: run_sweep.sh <decode|prefill|encoder> <tag> [mode 位置参数...]}"
+L11: TAG="${2:?missing <tag>}"
+L12: shift 2
+L13: SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+L14: REPO_ROOT="$(cd "${SCRIPT_DIR}/../.." && pwd)"
+L15: OUT="${REPO_ROOT}/sweeps/${TAG}"
+L16: RESULTS="${OUT}/results.jsonl"
+L17: mkdir -p "${OUT}"
+L18: # benchmark.py 在模块级读 WORLD_SIZE 推 ep_size，多机由调度器注入，单机自己补 1
+L19: export WORLD_SIZE="${WORLD_SIZE:-1}"
+L20: # 每个扫描点换一个端口：上一点的 TCPStore 退出后端口仍在 TIME_WAIT，复用会卡住 rendezvous。
+L21: # 偏移取扫描点下标，各节点算出的端口因此一致。
+L22: BASE_PORT="${MASTER_PORT:-29500}"
+L23: DESC="mode=${MODE} tag=${TAG}"
+L24: case "${MODE}" in
+L25:     decode)
+L26:         CONTEXT="${1:?decode 模式需要 <context_length>}"
+L27:         NEXTN="${2:?decode 模式需要 <nextn>}"
+L28:         ACCEPT="${3:?decode 模式需要 <draft_acceptance>}"
+L29:         shift 3
+L30:         export DEEPINFER_USE_NEXTN_DECODE="${NEXTN}"
+L31:         SWEEP_FLAG="--decode_num_requests"
+L32:         SWEEP_VALUES=(8 16 32 64 128 256)
+L33:         # 长 context 下 decode 读数只取决于已有 KV 的长度，非缓存后缀给足一个 chunk 即可
+L34:         EXTRA_ARGS=(--context_length "${CONTEXT}" --non_cached_tokens 4096)
+L35:         DESC="${DESC} context=${CONTEXT} nextn=${NEXTN}"
+L36:         ;;
+L37:     prefill)
+L38:         CONTEXT="${1:?prefill 模式需要 <context_length>}"
+L39:         shift 1
+L40:         SWEEP_FLAG="--prefill_batch_size"
+L41:         SWEEP_VALUES=(4096 8192 16384 32768 65536)
+L42:         # YoCo 截断固定取 benchmark.py 的默认 140，不作为扫描维度
+L43:         EXTRA_ARGS=(--context_length "${CONTEXT}" --yoco_clip)
+L44:         DESC="${DESC} context=${CONTEXT}"
+L45:         ;;
+L46:     encoder)
+L47:         # 扫描点与图片尺寸都是 ve_sweep.py 的默认值，要改直接透传 --num_images / --image_size
+L48:         ;;
+L49:     *)
+L50:         echo "未知 mode=${MODE}（只支持 decode / prefill / encoder）" >&2
+L51:         exit 1
+L52:         ;;
+L53: esac
+L54: echo "=== sweep ${DESC} -> ${OUT}"
+L55: git -c safe.directory="${REPO_ROOT}" -C "${REPO_ROOT}" log --oneline -1
+L56: echo "node=$(hostname) WORLD_SIZE=${WORLD_SIZE} CUDA_VISIBLE_DEVICES=${CUDA_VISIBLE_DEVICES:-unset}"
+L57: FAILED=0
+L58: if [ "${MODE}" = "encoder" ]; then
+L59:     echo "--- VE sweep ($(date +%H:%M:%S)) ---"
+L60:     python -u "${SCRIPT_DIR}/ve_sweep.py" --result_jsonl "${RESULTS}" "$@" || FAILED=1
+L61: else
+L62:     for IDX in "${!SWEEP_VALUES[@]}"; do
+L63:         VALUE="${SWEEP_VALUES[IDX]}"
+L64:         echo "--- point ${SWEEP_FLAG#--}${VALUE} ($(date +%H:%M:%S)) ---"
+L65:         # PROFILE=0：profiler 会扰动稳态读数，扫点一律关掉
+L66:         MASTER_PORT=$((BASE_PORT + IDX)) PROFILE=0 python -u "${REPO_ROOT}/examples/benchmark.py" \
+L67:             "${SWEEP_FLAG}" "${VALUE}" \
+L68:             "${EXTRA_ARGS[@]}" \
+L69:             --result_jsonl "${RESULTS}" \
+L70:             "$@" || FAILED=1
+L71:     done
+L72: fi
+L73: [ "${FAILED}" -ne 0 ] && { echo "有扫描点未跑完，不出图" >&2; exit 1; }
+L74: # 非 0 号 dp_rank 的节点不打印指标、不落 jsonl，跑完即正常退出
+L75: if [ ! -s "${RESULTS}" ]; then
+L76:     echo "本节点无 ${RESULTS}（dp_rank != 0），跳过出图"
+L77:     exit 0
+L78: fi
+L79:
+L80: PLOT_ARGS=(--mode "${MODE}" --result_jsonl "${RESULTS}" --out "${OUT}/${MODE}_pareto.png")
+L81: [ "${MODE}" = "decode" ] && PLOT_ARGS+=(--draft_acceptance "${ACCEPT}")
+L82: python "${SCRIPT_DIR}/plot_pareto.py" "${PLOT_ARGS[@]}"
+--------------------------------------------------------------------------------
+ (https://raw.githubusercontent.com/deepseek-ai/deepseek-recipe/main/README.md)
+citeturn47view2 [wordlim: 200] Crawled: today; Content type: text/plain; Source: open({"ref_id":"https://raw.githubusercontent.com/deepseek-ai/deepseek-recipe/main/README.md","lineno":null}); Total lines: 147
+L0: <div align="center">
+L1:   <img src="static/deepseek-whale.svg" alt="DeepSeek" width="240">
+L2: </div>
+L3: # deepseek-recipe
+L4:
+L5: **English** | [中文](README.zh.md)
+L6: deepseek-recipe is a collection of Rust libraries and Python bindings that
+L7: uniformly convert API requests in different formats into the Conversation
+L8: format, render conversations into prompts for DeepSeek models, encode
+L9: conversations into token IDs with an attached tokenizer, and convert model
+L10: output into responses in the corresponding format. Use these components to
+L11: connect an inference backend to API services that support multiple formats. The
+L12: caller must provide model inference, tool execution, and HTTP transport.
+L13: [Getting started](#using-deepseek-recipe) ·
+L14: [Streaming response](docs/streaming.md) ·
+L15: [Use with tokenizer](docs/tokenizer.md) · [License](#license)
+L16: ## Supported scope
+L17: - **Request/response formats:** Conversion of Messages, Chat Completions, and
+L18:   Responses requests, [Streaming response](docs/streaming.md), and complete
+L19:   responses. Supports text, images, thinking mode, client tool calls, and Chat
+L20:   Completions `prefix` continuation.
+L21: - **Prompts:** Rendering of DeepSeek V4 and V4.1 conversations into prompts, and
+L22:   encoding of conversations into token IDs with an attached tokenizer.
+L23: - **Generation settings:** Thinking mode, reasoning effort, `temperature`,
+L24:   `top_p`, and output token limits. After the caller encodes the prompt,
+L25:   `ConversationRequest::resolve_max_tokens` checks the prompt and `max_tokens`
+L26:   against the context limit and supplies the `max_tokens` default when the
+L27:   request sets none: 8192 outside thinking mode, 65536 in thinking mode, and
+L28:   131072 in thinking mode with `max` effort.
+L29: - **Output parsing:** Reasoning content, tool calls, JSON object output, and
+L30:   stop sequences. Usage reports `reasoning_tokens` when the stream processor has an
+L31:   attached tokenizer: the processor encodes the reasoning content with it to
+L32:   count the tokens.
+L33: - **Structured output:** Chat Completions `response_format` of type
+L34:   `json_schema` or `regex`, and Responses `text.format` of type `json_schema`.
+L35:   Conversion validates a JSON Schema, and rendering writes it into the prompt; a
+L36:   regex is passed through as `ResponseFormat::Regex`. Conversion also selects
+L37:   the `OutputConstraint` of `InferenceOptions`: the tool call block of a request
+L38:   with tools and a tool choice other than `none`, otherwise the JSON, JSON
+L39:   Schema, or regex of its response format. The caller decides whether its
+L40:   backend enforces it by constrained decoding.
+L41: - **Images:** Provided as base64 or external URLs, and preprocessed for
+L42:   DeepSeek V4.1 with OpenCV by the image component. DeepSeek V4 does not
+L43:   accept images; conversion replaces each image in a V4 request with the text
+L44:   `[Unsupported Image]`. The component's `ReqwestImageFetcher`
+L45:   connects to any address by default, so a service that fetches URLs from
+L46:   untrusted requests should install a `DestinationFilter`.
+L47: - **Tool definitions:** Function tools, and for Responses also tool namespaces
+L48:   and the `apply_patch` custom tool. V4.1 supports deferred tool loading in
+L49:   Messages and client-executed tool search in Responses.
+L50: - **Log probabilities:** `logprobs` and `top_logprobs` (Chat Completions) and
+L51:   `top_logprobs` (Responses) are converted into `InferenceOptions`. The caller
+L52:   supplies the backend's values in `InferenceChunk::Tokens`; with an attached
+L53:   tokenizer, the Chat Completions and Responses adapters report them. The
+L54:   library does not compute probabilities.
+L55: ## Using deepseek-recipe
+L56:
+L57: The examples below convert a Chat Completions request into a DeepSeek V4.1
+L58: prompt. The library resolves the model version from the request's `model` name
+L59: and accepts `DeepSeek-V4-Pro` and `DeepSeek-V4.1-Flash` by default; register
+L60: other names, such as `deepseek-flash`, with
+L61: `ConversionOptions::with_model_alias`.
+L62:
+L63: ### Python
+L64:
+L65: #### Installation
+L66:
+L67: Python 3.10+:
+L68:
+L69: ```sh
+L70: python3 -m pip install deepseek-recipe
+L71: ```
+L72: #### Example
+L73:
+L74: ```python
+L75: from deepseek_recipe import ChatCompletionRequest, ConversionOptions, DeepseekV41Encoding
+L76:
+L77: request = ChatCompletionRequest({
+L78:     "model": "DeepSeek-V4.1-Flash",
+L79:     "messages": [{"role": "user", "content": "Hello"}],
+L80: })
+L81: converted = request.convert(ConversionOptions())
+L82: rendered = DeepseekV41Encoding().render_conversation(converted.conversation)
+L83: print(rendered.prompt)
+L84: ```
+L85:
+L86: ### Rust
+L87: #### Installation
+L88:
+L89: ```sh
+L90: cargo add deepseek-recipe@0.2 deepseek-recipe-encoding@0.2 serde_json@1
+L91: ```
+L92:
+L93: See the [development guide](docs/development.md) for source builds and image
+L94: dependencies.
+L95: #### Example
+L96:
+L97: ```rust
+L98: use deepseek_recipe::openai::ChatCompletionRequest;
+L99: use deepseek_recipe::request::{ConversionOptions, ProtocolRequest};
+L100: use deepseek_recipe_encoding::PromptEncoding;
+L101: use deepseek_recipe_encoding::v4::dsv41::DeepseekV41Encoding;
+L102: use serde_json::json;
+L103: fn main() -> Result<(), Box<dyn std::error::Error>> {
+L104:     let request: ChatCompletionRequest = serde_json::from_value(json!({
+L105:         "model": "DeepSeek-V4.1-Flash",
+L106:         "messages": [{"role": "user", "content": "Hello"}],
+L107:     }))?;
+L108:     let converted = request.convert(ConversionOptions::default())?;
+L109:     let rendered = DeepseekV41Encoding::new().render_conversation(&converted.conversation);
+L110:     println!("{}", rendered.prompt);
+L111:     Ok(())
+L112: }
+L113: ```
+L114: ### Encoding & Decoding Demo
+L115:
+L116: Run the demo from the repository root to render prompts from requests and parse
+L117: model output into protocol responses:
+L118:
+L119: ```sh
+L120: cargo run -p encoding-decoding-demo --locked
+L121: ```
+L122:
+L123: Open [http://127.0.0.1:7778](http://127.0.0.1:7778).
+L124: ### More examples
+L125:
+L126: Rust and Python both support converting model output into streaming responses.
+L127: See the [Streaming response](docs/streaming.md). To encode conversations into
+L128: token IDs or decode backend token IDs, see
+L129: [use with tokenizer](docs/tokenizer.md).
+L130: ## Packages and example projects
+L131: | Package | Purpose |
+L132: | --- | --- |
+L133: | [`deepseek-recipe`](https://docs.rs/deepseek-recipe) | Protocol conversion and model output parsing. |
+L134: | [`deepseek-recipe-core`](https://docs.rs/deepseek-recipe-core) | Shared conversation, message, image, and tool types. |
+L135: | [`deepseek-recipe-encoding`](https://docs.rs/deepseek-recipe-encoding) | DeepSeek V4 and V4.1 prompt rendering and token encoding. |
+L136: | [`deepseek-recipe-image`](https://docs.rs/deepseek-recipe-image) | Image fetching and preprocessing. |
+L137: | [`deepseek-recipe-macros`](https://docs.rs/deepseek-recipe-macros) | The `prompt!` macro used by prompt rendering. |
+L138: | [`deepseek-recipe-python`](deepseek-recipe-python/README.md) | Python bindings, imported as `deepseek_recipe`. |
+L139: | [encoding-decoding-demo](encoding-decoding-demo/README.md) | A web interface that renders prompts, highlights special tokens, and parses complete model output into Chat Completions, Responses, or Messages responses. |
+L140: | [server-rs](server-rs/README.md) | An Axum API example with mock inference. |
+L141: | [server-py](server-py/README.md) | A FastAPI example with mock inference. |
+L142: ## License
+L143:
+L144: Project code and public documentation are licensed under the
+L145: [MIT License](LICENSE). Bundled tokenizer notices are in
+L146: [static/tokenizers/README.md](static/tokenizers/README.md).

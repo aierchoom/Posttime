@@ -1,0 +1,836 @@
+ (https://raw.githubusercontent.com/deepseek-ai/DeepSeek-V3/main/inference/configs/config_671B.json)
+citeturn39view0 [wordlim: 200] Crawled: today; Content type: text/plain; Source: open({"ref_id":"https://raw.githubusercontent.com/deepseek-ai/DeepSeek-V3/main/inference/configs/config_671B.json","lineno":null}); Total lines: 22
+L0: {
+L1:     "vocab_size": 129280,
+L2:     "dim": 7168,
+L3:     "inter_dim": 18432,
+L4:     "moe_inter_dim": 2048,
+L5:     "n_layers": 61,
+L6:     "n_dense_layers": 3,
+L7:     "n_heads": 128,
+L8:     "n_routed_experts": 256,
+L9:     "n_shared_experts": 1,
+L10:     "n_activated_experts": 8,
+L11:     "n_expert_groups": 8,
+L12:     "n_limited_groups": 4,
+L13:     "route_scale": 2.5,
+L14:     "score_func": "sigmoid",
+L15:     "q_lora_rank": 1536,
+L16:     "kv_lora_rank": 512,
+L17:     "qk_nope_head_dim": 128,
+L18:     "qk_rope_head_dim": 64,
+L19:     "v_head_dim": 128,
+L20:     "dtype": "fp8"
+L21: }
+--------------------------------------------------------------------------------
+ (https://raw.githubusercontent.com/deepseek-ai/DeepSeek-R1/main/README.md)
+citeturn39view1 [wordlim: 200] Crawled: today; Content type: text/plain; Source: open({"ref_id":"https://raw.githubusercontent.com/deepseek-ai/DeepSeek-R1/main/README.md","lineno":null}); Total lines: 242
+L0: # DeepSeek-R1
+L1: <!-- markdownlint-disable first-line-h1 -->
+L2: <!-- markdownlint-disable html -->
+L3: <!-- markdownlint-disable no-duplicate-header -->
+L4: <div align="center">
+L5:   <img src="https://github.com/deepseek-ai/DeepSeek-V2/blob/main/figures/logo.svg?raw=true" width="60%" alt="DeepSeek-R1" />
+L6: </div>
+L7: <hr>
+L8: <div align="center" style="line-height: 1;">
+L9:   <a href="https://www.deepseek.com/" target="_blank"><img alt="Homepage"
+L10:     src="https://github.com/deepseek-ai/DeepSeek-V2/blob/main/figures/badge.svg?raw=true"/></a>
+L11:   <a href="https://chat.deepseek.com/" target="_blank"><img alt="Chat"
+L12:     src="https://img.shields.io/badge/🤖%20Chat-DeepSeek%20R1-536af5?color=536af5&logoColor=white"/></a>
+L13:   <a href="https://huggingface.co/deepseek-ai" target="_blank"><img alt="Hugging Face"
+L14:     src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-DeepSeek%20AI-ffc107?color=ffc107&logoColor=white"/></a>
+L15:   <br>
+L16:   <a href="https://discord.gg/Tc7c45Zzu5" target="_blank"><img alt="Discord"
+L17:     src="https://img.shields.io/badge/Discord-DeepSeek%20AI-7289da?logo=discord&logoColor=white&color=7289da"/></a>
+L18:   <a href="https://github.com/deepseek-ai/DeepSeek-V2/blob/main/figures/qr.jpeg?raw=true" target="_blank"><img alt="WeChat"
+L19:     src="https://img.shields.io/badge/WeChat-DeepSeek%20AI-brightgreen?logo=wechat&logoColor=white"/></a>
+L20:   <a href="https://twitter.com/deepseek_ai" target="_blank"><img alt="Twitter Follow"
+L21:     src="https://img.shields.io/badge/Twitter-deepseek_ai-white?logo=x&logoColor=white"/></a>
+L22:   <br>
+L23:   <a href="https://github.com/deepseek-ai/DeepSeek-R1/blob/main/LICENSE"><img alt="License"
+L24:     src="https://img.shields.io/badge/License-MIT-f5de53?&color=f5de53"/></a>
+L25:   <br>
+L26:   <a href="https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf"><b>Paper Link</b>👁️</a>
+L27: </div>
+L28: ## 1. Introduction
+L29: We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1.
+L30: DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated remarkable performance on reasoning.
+L31: With RL, DeepSeek-R1-Zero naturally emerged with numerous powerful and interesting reasoning behaviors.
+L32: However, DeepSeek-R1-Zero encounters challenges such as endless repetition, poor readability, and language mixing. To address these issues and further enhance reasoning performance,
+L33: we introduce DeepSeek-R1, which incorporates cold-start data before RL.
+L34: DeepSeek-R1 achieves performance comparable to OpenAI-o1 across math, code, and reasoning tasks.
+L35: To support the research community, we have open-sourced DeepSeek-R1-Zero, DeepSeek-R1, and six dense models distilled from DeepSeek-R1 based on Llama and Qwen. DeepSeek-R1-Distill-Qwen-32B outperforms OpenAI-o1-mini across various benchmarks, achieving new state-of-the-art results for dense models.
+L36: **NOTE: Before running DeepSeek-R1 series models locally, we kindly recommend reviewing the [Usage Recommendation](#usage-recommendations) section.**
+L37:
+L38: <p align="center">
+L39:   <img width="80%" src="figures/benchmark.jpg">
+L40: </p>
+L41: ## 2. Model Summary
+L42:
+L43: ---
+L44:
+L45: **Post-Training: Large-Scale Reinforcement Learning on the Base Model**
+L46: -  We directly apply reinforcement learning (RL) to the base model without relying on supervised fine-tuning (SFT) as a preliminary step. This approach allows the model to explore chain-of-thought (CoT) for solving complex problems, resulting in the development of DeepSeek-R1-Zero. DeepSeek-R1-Zero demonstrates capabilities such as self-verification, reflection, and generating long CoTs, marking a significant milestone for the research community.
+L47: Notably, it is the first open research to validate that reasoning capabilities of LLMs can be incentivized purely through RL, without the need for SFT. This breakthrough paves the way for future advancements in this area.
+L48: -   We introduce our pipeline to develop DeepSeek-R1. The pipeline incorporates two RL stages aimed at discovering improved reasoning patterns and aligning with human preferences, as well as two SFT stages that serve as the seed for the model's reasoning and non-reasoning capabilities.
+L49:     We believe the pipeline will benefit the industry by creating better models.
+L50:
+L51: ---
+L52:
+L53: **Distillation: Smaller Models Can Be Powerful Too**
+L54: -  We demonstrate that the reasoning patterns of larger models can be distilled into smaller models, resulting in better performance compared to the reasoning patterns discovered through RL on small models. The open source DeepSeek-R1, as well as its API, will benefit the research community to distill better smaller models in the future.
+L55: - Using the reasoning data generated by DeepSeek-R1, we fine-tuned several dense models that are widely used in the research community. The evaluation results demonstrate that the distilled smaller dense models perform exceptionally well on benchmarks. We open-source distilled 1.5B, 7B, 8B, 14B, 32B, and 70B checkpoints based on Qwen2.5 and Llama3 series to the community.
+L56: ## 3. Model Downloads
+L57: ### DeepSeek-R1 Models
+L58:
+L59: <div align="center">
+L60:
+L61: | **Model** | **#Total Params** | **#Activated Params** | **Context Length** | **Download** |
+L62: | :------------: | :------------: | :------------: | :------------: | :------------: |
+L63: | DeepSeek-R1-Zero | 671B | 37B | 128K   | [🤗 HuggingFace](https://huggingface.co/deepseek-ai/DeepSeek-R1-Zero)   |
+L64: | DeepSeek-R1   | 671B | 37B |  128K   | [🤗 HuggingFace](https://huggingface.co/deepseek-ai/DeepSeek-R1)   |
+L65:
+L66: </div>
+L67: DeepSeek-R1-Zero & DeepSeek-R1 are trained based on DeepSeek-V3-Base.
+L68: For more details regarding the model architecture, please refer to [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) repository.
+--------------------------------------------------------------------------------
+ (https://raw.githubusercontent.com/deepseek-ai/open-infra-index/main/202502OpenSourceWeek/day_6_one_more_thing_deepseekV3R1_inference_system_overview.md)
+citeturn39view2 [wordlim: 200] Crawled: today; Content type: text/plain; Source: open({"ref_id":"https://raw.githubusercontent.com/deepseek-ai/open-infra-index/main/202502OpenSourceWeek/day_6_one_more_thing_deepseekV3R1_inference_system_overview.md","lineno":null}); Total lines: 70
+L0: # Day 6: One More Thing, DeepSeek-V3/R1 Inference System Overview
+L1: ## System Design Principles
+L2: The optimization objectives of serving DeepSeek-V3/R1 inference are: **higher throughput and lower latency.**
+L3: To optimize these two objectives, our solution employs cross-node Expert Parallelism (EP).
+L4: - First, EP significantly scales the batch size, enhancing GPU matrix computation efficiency and boosting throughput.
+L5: - Second, EP distributes experts across GPUs, with each GPU processing only a small subset of experts (reducing memory access demands), thereby lowering latency.
+L6: However, EP increases system complexity, primarily in two aspects:
+L7:   1. EP introduces cross-node communication. To optimize throughput, appropriate computational workflows must be designed to overlap communication with computation.
+L8:   2. EP involves multiple nodes, thereby inherently requiring Data Parallelism (DP) and necessitating load balancing between different DP instances.
+L9: This article focuses on how we address these challenges by:
+L10: - leveraging EP to scale batch size,
+L11: - hiding communication latency behind computation, and
+L12: - performing load balancing.
+L13: ### Large-scale Cross-node Expert Parallelism (EP)
+L14: Due to the large number of experts in DeepSeek-V3/R1—where only 8 out of 256 experts per layer are activated—the model’s high sparsity necessitates an extremely large overall batch size. This ensures sufficient batch size per expert, enabling higher throughput and lower latency. Large-scale cross-node EP is essential.
+L15: As we have adopted prefill-decode disaggregation architecture, we employ different degrees of parallelisms during the prefill and decode phases:
+L16: - **Prefilling Phase [Routed Expert EP32, MLA/Shared Expert DP32]**:  Each deployment unit spans 4 nodes with 32 redundant routed experts, where each GPU handles 9 routed experts and 1 shared expert.
+L17: - **Decoding Phase [Routed Expert EP144, MLA/Shared Expert DP144]**:  Each deployment unit spans 18 nodes with 32 redundant routed experts, where each GPU manages 2 routed experts and 1 shared expert.
+L18: ### Computation-Communication Overlapping
+L19: Large-scale cross-node EP introduces significant communication overhead. To mitigate this, we employ a dual-batch overlap strategy to hide communication costs and improve overall throughput by splitting a batch of requests into two microbatches.
+L20: During the prefilling phase, these two microbatches executed alternately and the communication cost of one microbatch is hide behind the computation of the other.
+L21: ![Communication-Computation Overlapping during Prefilling Phase.png](figures/Communication-Computation%20Overlapping%20during%20Prefilling%20Phase.png)
+L22: *Communication-Computation Overlapping during Prefilling Phase*
+L23: During the decoding phase, the execution durations of different stages are unbalanced. Hence, we subdivide the attention layer into two steps and use a 5-stage pipeline to achieve a seamless communication-computation overlapping.
+L24: ![Communication-Computation Overlapping during Decoding Phase.png](figures/Communication-Computation%20Overlapping%20during%20Decoding%20Phase.png)
+L25: *Communication-Computation Overlapping during Decoding Phase*
+L26: More details about our communication-computation overlapping mechanism can be found at https://github.com/deepseek-ai/profile-data.
+L27: ### Achieving Optimal Load Balancing
+L28: The large-scale parallelism (including DP and EP) introduces a critical challenge: if a single GPU is overloaded with computation or communication, it becomes a performance bottleneck, slowing the entire system while leaving other GPUs idle. To maximize resource utilization, we strive to balance computational and communication loads across all GPUs.
+L29: #### 1. Prefill Load Balancer
+L30:   - Key Issue: Varying request counts and sequence lengths across DP instances lead to imbalanced core-attention computation and dispatch send load.
+L31:   - Optimization Objectives:
+L32:     - Balance core-attention computation across GPUs (core-attention computational load balancing).
+L33:     - Equalize input token counts per GPU (dispatch send load balancing), preventing prolonged processing on specific GPUs.
+L34: #### 2. Decode Load Balancer
+L35:   - Key Issue: Uneven request counts and sequence lengths across DP instances cause disparities in core-attention computation (linked to KVCache usage) and dispatch send load.
+L36:   - Optimization Objectives:
+L37:     - Balance KVCache usage across GPUs (core-attention computational load balancing).
+L38:     - Equalize request counts per GPU (dispatch send load balancing).
+L39: #### 3. Expert-Parallel Load Balancer
+L40:   - Key Issue: For a given MoE model, there exist inherently high-load experts, resulting in an imbalance in expert computational workloads across different GPUs.
+L41:   - Optimization Objective:
+L42:     - Balance expert computation on each GPU (i.e., minimize the maximum dispatch receive load across all GPUs).
+L43: ### Diagram of DeepSeek's Online Inference System
+L44: ![Diagram of DeepSeek's Online Inference System.jpg](figures/Diagram%20of%20DeepSeek%27s%20Online%20Inference%20System.jpg)
+L45: *Diagram of DeepSeek's Online Inference System*
+L46: ### Statistics of DeepSeek's Online Service
+L47: All DeepSeek-V3/R1 inference services are served on H800 GPUs with precision consistent with training.
+L48: Specifically, matrix multiplications and dispatch transmissions adopt the FP8 format aligned with training,
+L49: while core MLA computations and combine transmissions use the BF16 format, ensuring optimal service performance.
+L50: Additionally, due to high service load during the day and low load at night, we implemented a mechanism to deploy inference services across all nodes during peak daytime hours.
+L51: During low-load nighttime periods, we reduce inference nodes and allocate resources to research and training.
+--------------------------------------------------------------------------------
+ (https://raw.githubusercontent.com/deepseek-ai/DualPipe/main/README.md)
+citeturn39view3 [wordlim: 200] Crawled: yesterday; Content type: text/plain; Source: open({"ref_id":"https://raw.githubusercontent.com/deepseek-ai/DualPipe/main/README.md","lineno":null}); Total lines: 62
+L0: # DualPipe
+L1:
+L2: DualPipe is an innovative bidirectional pipeline parallelism algorithm introduced in the [DeepSeek-V3 Technical Report](https://arxiv.org/pdf/2412.19437). It achieves full overlap of forward and backward computation-communication phases, also reducing pipeline bubbles. For detailed information on computation-communication overlap, please refer to the [profile data](https://github.com/deepseek-ai/profile-data).
+L3: ### Schedules
+L4:
+L5: ![dualpipe](images/dualpipe.png)
+L6:
+L7: Example DualPipe scheduling for 8 PP ranks and 20 micro-batches in two directions.
+L8: The micro-batches in the reverse direction are symmetric to those in the forward direction, so
+L9: we omit their batch ID for illustration simplicity. Two cells enclosed by a shared black border
+L10: have mutually overlapped computation and communication
+L11: ## DualPipeV
+L12:
+L13: DualPipeV is a concise V-shape schedule derived from DualPipe using a "cut-in-half" procedure, introduced by Sea AI Lab as "Cut-in-half" in their [blog post](https://hackmd.io/@ufotalent/r1lVXsa9Jg). Thanks to them for this efficient schedule!
+L14:
+L15: ### Schedules
+L16:
+L17: ![dualpipev](images/dualpipev.png)
+L18:
+L19: Example DualPipeV scheduling for 4 PP ranks (8 PP stages) and 10 micro-batches.
+L20: ## Pipeline Bubbles and Memory Usage Comparison (based on the same number of PP stages)
+L21: | Method      | Bubble                          | Parameter Per Device | Activation Per Device | #Devices |
+L22: |-------------|---------------------------------|----------------------|-----------------------|----------|
+L23: | 1F1B        | (*PP*-1)(𝐹+𝐵)                   | 1×                   | *PP*                  | *PP*     |
+L24: | ZB1P        | (*PP*-1)(𝐹+𝐵-2𝑊)               | 1×                   | *PP*                  | *PP*     |
+L25: | DualPipe    | (*PP*/2-1)(𝐹&𝐵+𝐵-3𝑊)           | 2×                   | *PP*+1                | *PP*     |
+L26: | DualPipeV   | (*PP*/2-1)(𝐹&𝐵+𝐵-3𝑊)           | 2×                   | *PP*+1                | *PP*/2   |
+L27: *PP* denotes the number of pp stages (even).
+L28: 𝐹 denotes the execution time of a forward chunk, 𝐵 denotes the execution time of a
+L29: full backward chunk, 𝑊 denotes the execution time of a "backward for weights" chunk, and 𝐹&𝐵
+L30: denotes the execution time of two mutually overlapped forward and backward chunks.
+L31: ## Quick Start
+L32:
+L33: The usage is shown in the following example:
+L34:
+L35: ```bash
+L36: python examples/example_dualpipe.py
+L37: python examples/example_dualpipev.py
+L38: ```
+L39:
+L40: Note: For real-world applications, you will need to implement a custom `overlapped_forward_backward` method tailored to your specific module.
+L41:
+L42: ## Requirements
+L43:
+L44: - PyTorch 2.0 and above
+L45:
+L46: ## Developers
+L47:
+L48: DualPipe was created and developed by Jiashi Li and Chengqi Deng and Wenfeng Liang.
+L49: ## Citation
+L50:
+L51: ```bibtex
+L52: @misc{deepseekai2025deepseekv3technicalreport,
+L53:       title={DeepSeek-V3 Technical Report},
+L54:       author={DeepSeek-AI},
+L55:       year={2025},
+L56:       eprint={2412.19437},
+L57:       archivePrefix={arXiv},
+L58:       primaryClass={cs.CL},
+L59:       url={https://arxiv.org/abs/2412.19437},
+L60: }
+L61: ```
+--------------------------------------------------------------------------------
+ (https://raw.githubusercontent.com/deepseek-ai/DeepEP/main/README.md)
+citeturn39view4 [wordlim: 200] Crawled: today; Content type: text/plain; Source: open({"ref_id":"https://raw.githubusercontent.com/deepseek-ai/DeepEP/main/README.md","lineno":null}); Total lines: 459
+L0: # DeepEP
+L1: DeepEP (DeepEveryParallel) is a high-performance communication library for machine learning training and inference. It provides high-throughput and low-latency expert-parallel (EP) all-to-all GPU kernels for MoE dispatch and combine, including FP8 dispatch, and NVLink weight and gradient exchange for redundant experts. It also offers experimental primitives for pipeline parallelism (PP), context parallelism (CP), data parallelism (DP), and remote memory access (Engram).
+L2: Communication kernels are compiled at runtime via [DeepJIT](https://github.com/deepseek-ai/DeepJIT), with the supporting extension built during installation.
+L3: ## News
+L4:
+L5: - **Ascend version release**
+L6:   - Same API and full performance on HUAWEI Ascend 950 NPUs
+L7:   - Check [DeepEP-Ascend](https://github.com/deepseek-ai/DeepEP-Ascend) for more details
+L8: - **V2.5 release**:
+L9:   - Split `ElasticBuffer` into `EPBuffer`, `EngramBuffer`, `PPBuffer`, and `BucketBuffer`, sharing the `BufferBase` lifecycle
+L10:   - Add `BufferAllocator` for planning symmetric tensor allocations before buffer construction
+L11:   - Add batched all-gather, reduce-scatter, and all-reduce through `BucketBuffer`, with sessions for ordinary PyTorch tensors
+L12:   - Add `EPBuffer.lb_prefetch_weights` and `EPBuffer.lb_reduce_grads` for dynamic redundant experts: prefetch expert weights and quantization scales over NVLink before expert computation, then accumulate redundant experts' FP32 gradients into the original experts during backward.
+L13: These primitives support the expert-replication approach explored by [MoonEP](https://github.com/MoonshotAI/MoonEP) and [UltraEP](https://github.com/Dots-Infra/UltraEP); see [Expert load balancing](#expert-load-balancing) for the API and integration requirements
+L14:   - Support deferred EP epilogues, cached expanded layouts, and zero padding between experts
+L15:   - Support multi-layer Engram storage on GPU or CPU, with one wait hook per layer
+L16:   - Fully remove V1, including its APIs, NVSHMEM backend, and legacy documentation. NVSHMEM is no longer a dependency
+L17: - **V2 release**: A complete refactoring of expert parallelism, with support for larger scale-up and scale-out domains and the lightweight **NCCL Gin backend**.
+L18: ### New features
+L19: - **JIT-compiled communication kernels** via DeepJIT
+L20: - **NCCL Gin backend**
+L21:   - Lightweight device-side communication APIs
+L22:   - Able to reuse existing NCCL communicators
+L23: - **EPv2**
+L24:   - High-throughput and low-latency APIs unified into a single `EPBuffer` interface, with an expanded layout for grouped expert GEMMs
+L25:   - Larger scale-up & scale-out domain support
+L26:   - Analytical SM & QP count calculation — no more auto-tuning needed
+L27:   - Both hybrid & direct modes remain supported
+L28: - **Engram** (experimental, with RDMA)
+L29: - **PP** (experimental, with RDMA)
+L30: - **Bucket collectives** (experimental) for CP and DP (all-gather, reduce-scatter, and all-reduce)
+L31: ### Notes
+L32:
+L33: - EP dispatch and combine require GPU SMs; zero-SM RDMA EP is not supported
+L34: - Bucket, Engram, and PP are experimental features
+L35: - Engram requires a NCCL build providing `ncclGinOptFlagsWarpGet`
+L36:
+L37: ## Quick start
+L38: ### Requirements
+L39:
+L40: - Linux
+L41: - Python 3.10 and above
+L42: - NVIDIA Hopper or newer GPUs
+L43: - CUDA Toolkit 13.1 and above for DeepJIT compilation, with support for the target GPU
+L44: - A C++20 compiler and standard library with `std::format` support
+L45: - PyTorch 2.10 and above, with CUDA support
+L46: - NCCL 2.32.3 and above
+L47: - NVLink for intranode communication
+L48: - RDMA network for internode communication
+L49: Installation builds the host C++ extension against the CUDA and NCCL libraries. GPU kernels are compiled by DeepJIT for the current device at runtime, so installation does not require a visible GPU or `TORCH_CUDA_ARCH_LIST`. Keep the CUDA toolkit and host compiler available at runtime. Automatic bandwidth detection uses `nvidia-smi` and `ibstat`; `BucketBuffer` currently requires both NVLink and RDMA bandwidth to be detectable, even for a group using only one transport.
+L50: ### Install NCCL dependency
+L51:
+L52: Install the NCCL package matching your CUDA environment so DeepEP can locate its headers and library:
+L53:
+L54: ```bash
+L55: # CUDA 13.x
+L56: python -m pip install "nvidia-nccl-cu13>=2.32.3" --no-deps
+L57: # For CUDA 12.x, use nvidia-nccl-cu12 instead
+L58: ```
+L59: For a custom NCCL installation, set `EP_NCCL_ROOT_DIR` to a directory containing `include/` and `lib/`. PyTorch and DeepEP must load the same NCCL shared library. Builds using NCCL headers older than 2.31 additionally require an exact compile-time/runtime NCCL version match.
+L60: ### Installation
+L61:
+L62: ```bash
+L63: # Initialize the DeepJIT submodule
+L64: git submodule update --init --recursive
+L65:
+L66: # Build a wheel and install it into the current Python environment
+L67: bash install.sh
+L68: ```
+L69:
+L70: Then import `deep_ep` in your Python project.
+L71:
+L72: ### Development and tests
+L73:
+L74: ```bash
+L75: # Build and link the extension into the source tree
+L76: bash develop.sh
+L77: # Run test cases
+L78: python tests/ep/test_ep.py
+L79: python tests/bucket/test_all_gather.py
+L80: python tests/bucket/test_reduce_scatter.py
+L81: python tests/bucket/test_all_reduce.py
+L82: python tests/buffer/test_allocation.py
+L83: python tests/ep/test_prefetch_weights.py
+L84: python tests/ep/test_reduce_grads.py
+L85: python tests/engram/test_engram.py
+L86: python tests/pp/test_pp.py
+L87: ```
+L88: The test scripts require NumPy and spawn local GPU workers. For multi-node tests, launch the same script on each node with a shared `MASTER_ADDR` and `MASTER_PORT`, setting `WORLD_SIZE` to the number of nodes and `RANK` to the node index. These are the conventions of `init_dist` in [deep_ep/utils/envs.py](deep_ep/utils/envs.py); adapt it to your cluster if needed. The tests default to `NCCL_IB_SL=1` and `EP_OVERRIDE_RDMA_SL=1` unless already set.
+--------------------------------------------------------------------------------
+ (https://raw.githubusercontent.com/deepseek-ai/DeepGEMM/main/README.md)
+citeturn39view5 [wordlim: 200] Crawled: today; Content type: text/plain; Source: open({"ref_id":"https://raw.githubusercontent.com/deepseek-ai/DeepGEMM/main/README.md","lineno":null}); Total lines: 184
+L0: # DeepGEMM
+L1:
+L2: DeepGEMM is a unified, high-performance tensor core kernel library that brings together the key computation primitives of modern large language models — GEMMs (FP8, FP4, BF16), fused MoE with overlapped communication (Mega MoE), MQA scoring for the lightning indexer, HyperConnection (HC), and more — into a single, cohesive CUDA codebase. All kernels are compiled at runtime through DeepJIT, requiring no CUDA compilation during installation.
+L3: DeepGEMM leverages some concepts from [CUTLASS](https://github.com/nvidia/cutlass) and [CuTe](https://github.com/NVIDIA/cutlass/tree/main/include/cute), but avoids heavy reliance on their templates or algebras. The library is designed for simplicity, with only a limited number of core kernel functions, making it a clean and accessible resource for learning NVIDIA GPU kernel optimization techniques.
+L4: Despite its lightweight design, DeepGEMM's performance matches or exceeds expert-tuned libraries across various matrix shapes.
+L5: ## News
+L6: - 2026.09.30
+L7:   - DeepGEMM Ascend is available! Check [DeepGEMM-Ascend](https://github.com/deepseek-ai/DeepGEMM-Ascend/) for more details
+L8:   - Add more optimizations, including locality domain features, check [#462](https://github.com/deepseek-ai/DeepGEMM/pull/462) for more details
+L9: - 2026.09.10: Sparse Indexer, Mega Gate, Mega mHC, DeepJIT, MoE and Indexer optimizations and more.
+L10:     - Please see [#432](https://github.com/deepseek-ai/DeepGEMM/pull/432) for more details.
+L11: - 2026.04.16: Mega MoE, FP8xFP4 GEMM, FP4 Indexer, PDL, faster JIT compilation and more.
+L12:     - Please see [#304](https://github.com/deepseek-ai/DeepGEMM/pull/304) for more details.
+L13:     - For Mega MoE benchmarks, refer to [#316](https://github.com/deepseek-ai/DeepGEMM/pull/316).
+L14: - 2025.09.28: DeepGEMM now supports scoring kernels (weighted ReLU MQA logits) for the lightning indexer for DeepSeek v3.2.
+L15:     - Please see [#200](https://github.com/deepseek-ai/DeepGEMM/pull/200) for more details.
+L16: - 2025.07.20: DeepGEMM now supports both SM90/SM100, and has a full refactor with a low-CPU-overhead JIT CPP module.
+L17:     - As NVCC 12.9 will automatically do the FFMA interleaving, all post optimizations will be no longer supported.
+L18:     - Please see [#112](https://github.com/deepseek-ai/DeepGEMM/pull/112) for more details.
+L19: - 2025.05.14: DeepGEMM now offers weight gradient kernels for dense and MoE backward! See [#95](https://github.com/deepseek-ai/DeepGEMM/pull/95) for details.
+L20: - 2025.04.18: DeepGEMM now achieves up to **1550 TFLOPS** on H800! See [#74](https://github.com/deepseek-ai/DeepGEMM/pull/74), [#78](https://github.com/deepseek-ai/DeepGEMM/pull/78), [#81](https://github.com/deepseek-ai/DeepGEMM/pull/81), [#86](https://github.com/deepseek-ai/DeepGEMM/pull/86) and [340d988](https://github.com/deepseek-ai/DeepGEMM/commit/340d9880f4a418d943d34260d20a79f41f4c0526) for details.
+L21: ## Quick start
+L22:
+L23: ### Requirements
+L24:
+L25: - NVIDIA SM90 or SM100 architecture GPU
+L26: - Python 3.8 or higher
+L27: - Compilers and standard libraries with C++20 `<format>` support
+L28: - CUDA Toolkit 12.9 or higher
+L29: - PyTorch 2.3 or higher
+L30: - CUTLASS 4.0 or higher (could be cloned by Git submodule)
+L31:
+L32: ### Development
+L33:
+L34: ```bash
+L35: # Submodule must be cloned
+L36: git clone --recursive git@github.com:deepseek-ai/DeepGEMM.git
+L37: cd DeepGEMM
+L38:
+L39: # Link some essential includes and build the C++ extension
+L40: cat develop.sh
+L41: ./develop.sh
+L42: ```
+L43: ### Installation
+L44:
+L45: ```bash
+L46: cat install.sh
+L47: ./install.sh
+L48: ```
+L49:
+L50: Then, import `deep_gemm` in your Python project, and enjoy!
+L51:
+L52: ## Interfaces
+L53: #### Notices
+L54:
+L55: This library provides optimized GEMM kernels for NVIDIA GPUs with a naming convention: `D = C + A @ B`. The input shape layout is NT (non-transposed A, transposed B). While the SM90 implementation supports only the NT memory layout (row-major, col-major), the SM100 implementation supports all memory layouts (NT, TN, NN, TT). For example, `fp8_gemm_nt` will do a `D = C + A @ B.T`
+L56: For both architectures, the LHS scaling factor is required to have a TMA-aligned and transposed layout. And the data format for the scaling factor of SM90 and SM100 is different:
+L57:
+L58: - SM90 requires scaling factors in FP32 format.
+L59: - SM100 requires scaling factors in packed [UE8M0](https://docs.nvidia.com/cuda/parallel-thread-execution/#alternate-floating-point-data-formats) format, which packs 4 UE8M0 into a single `torch.int`.
+L60: Please note that operations like input transposition or FP8 casting must be handled separately by the user, please implement or fuse them into prior kernels independently. While the library provides some simple PyTorch utility functions, these may result in slower performance, but our primary focus is on optimizing the GEMM kernels themselves.
+L61: #### Normal dense GEMMs (non-grouped)
+L62:
+L63: To perform a basic non-grouped FP8 GEMM, call the `fp8_gemm_{nt, nn, tn, tt}` function. For more details, please refer to the function documentation.
+L64: #### Grouped GEMMs (contiguous layout)
+L65: Unlike traditional grouped GEMMs in CUTLASS, DeepGEMM groups only the M-axis, while N and K must remain fixed. This design is tailored for scenarios where experts in an MoE model share the same shape. For training forward passes or inference prefilling, where each expert may process a varying number of tokens, we concatenate these tokens into a single tensor, referred to as the "contiguous" layout.
+L66: Note that each expert segment must be aligned to the GEMM M block size (`get_mk_alignment_for_contiguous_layout()`).  For more information, please refer to the `m_grouped_fp8_gemm_{nt, nn}_contiguous` function documentation.
+
+
+ (https://raw.githubusercontent.com/deepseek-ai/FlashMLA/main/README.md)
+citeturn41view0 [wordlim: 200] Crawled: today; Content type: text/plain; Source: open({"ref_id":"https://raw.githubusercontent.com/deepseek-ai/FlashMLA/main/README.md","lineno":null}); Total lines: 319
+L0: # FlashMLA
+L1:
+L2: > Breaking change notice (2026.09.30): In the 2026.09.30 release, we removed support for the Hopper architecture and for earlier models (including DeepSeek V3 / V3.2 / V4.0), and we changed the FP8 / FP4 KV cache format. This version is therefore not compatible with previous ones. If you need to run those models or use the old KV cache format, please switch to [this commit](https://github.com/deepseek-ai/FlashMLA/tree/ba89a3466e9470ad08ab39738d4e7bb66989e1e7).
+L3: ## Introduction
+L4: FlashMLA is DeepSeek's library of optimized attention kernels, powering inference of the [DeepSeek-V4.1](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash) model on NVIDIA GPUs and Huawei Ascend NPUs. This repo contains token-level sparse attention kernels for prefill and for decoding with an FP8 / FP4 KV cache, a fused kernel that combines Q-norm, Q-RoPE, attention, O-RoPE (conjugate) and the cast to FP8, and dense attention kernels for prefill and backward.
+L5: The sparse kernels power DeepSeek Sparse Attention (DSA), as introduced in [this paper](https://github.com/deepseek-ai/DeepSeek-V3.2-Exp).
+L6: FlashMLA 是 DeepSeek 的高性能注意力算子库，支撑着 [DeepSeek-V4.1](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash) 模型在 NVIDIA GPU 与华为昇腾 NPU 上的推理。该仓库支持 prefill 与使用了 FP8 或 FP4 格式的 KV 缓存的 decoding 计算，以及一个高性能的融合了 Attention 前后的小操作的融合 kernel。此外，该仓库还提供了稠密 Attention 的 prefill 与反向传播算子。
+L7: ## News
+L8:
+L9: - **2026.09.30 Release of Ascend Attention Kernels**: We've released sparse attention prefill and decoding kernels for the Huawei Ascend 950 NPU, which achieve up to 410 TFlops (95% hardware peak) and 360 TFlops (83% of hardware peak) during prefill and decoding, respectively. We've also released [a deep-dive technical report](docs/20260930-ascend-prefill-deep-dive.md) on the algorithms and optimization techniques behind these kernels.
+--------------------------------------------------------------------------------
+ (https://raw.githubusercontent.com/deepseek-ai/EPLB/main/README.md)
+citeturn41view1 [wordlim: 200] Crawled: today; Content type: text/plain; Source: open({"ref_id":"https://raw.githubusercontent.com/deepseek-ai/EPLB/main/README.md","lineno":null}); Total lines: 58
+L0: # Expert Parallelism Load Balancer (EPLB)
+L1: When using expert parallelism (EP), different experts are assigned to different GPUs. Because the load of different
+L2: experts may vary depending on the current workload, it is important to keep the load of different GPUs balanced.
+L3: As described in the DeepSeek-V3 paper, we adopt a **redundant experts** strategy that duplicates heavy-loaded experts.
+L4: Then, we heuristically pack the duplicated experts to GPUs to ensure load balancing across different GPUs. Moreover,
+L5: thanks to the **group-limited expert routing** used in DeepSeek-V3, we also attempt to place the experts of the same
+L6: group to the same node to reduce inter-node data traffic, whenever possible.
+L7: To facilitate reproduction and deployment, we open-source our deployed EP load balancing algorithm in `eplb.py`.
+L8: The algorithm computes a balanced expert replication and placement plan based on the estimated expert loads. Note
+L9: that the exact method to predict the loads of experts is out of this repo's scope. A common method is to use
+L10: moving average of historical statistics.
+L11: ## The Algorithm
+L12:
+L13: The load balancing algorithm comes with two policies used for different cases.
+L14: ### Hierarchical Load Balancing
+L15: When the number of server nodes divides the number of expert groups, we use the hierarchical load balancing policy to
+L16: harness the group-limited expert routing. We first pack the expert groups to nodes evenly, ensuring the loads of
+L17: different nodes are balanced. Then, we replicate the experts within each node. Finally, we pack the replicated experts
+L18: to individual GPUs to ensure different GPUs are load-balanced. The hierarchical load balancing policy can be used in
+L19: prefilling stage with a smaller expert-parallel size.
+--------------------------------------------------------------------------------
+[2502.05172] Joint MoE Scaling Laws: Mixture of Experts Can Be Memory Efficient (https://arxiv.org/abs/2502.05172)
+citeturn41view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2502.05172","lineno":null}); Total lines: 172
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1:
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3:
+L4: Press Enter to search · 【4†Advanced search】
+L5:
+L6: # Computer Science > Machine Learning
+L7:
+L8: [Submitted on 7 Feb 2025 (【5†v1】), last revised 19 Feb 2025 (this version, v2)]
+L9: # Title:Joint MoE Scaling Laws: Mixture of Experts Can Be Memory Efficient
+L10:
+L11: Authors:【6†Jan Ludziejewski】, 【7†Maciej Pióro】, 【8†Jakub Krajewski】, 【9†Maciej Stefaniak】, 【10†Michał Krutul】, 【11†Jan Małaśnicki】, 【12†Marek Cygan】, 【13†Piotr Sankowski】, 【14†Kamil Adamczewski】, 【15†Piotr Miłoś】, 【16†Sebastian Jaszczur】
+L12:
+L13: View a PDF of the paper titled Joint MoE Scaling Laws: Mixture of Experts Can Be Memory Efficient, by Jan Ludziejewski and 10 other authors
+L14:
+L15: 【17†View PDF】 【18†HTML (experimental)】
+L16: > Abstract:Mixture of Experts (MoE) architectures have significantly increased computational efficiency in both research and real-world applications of large-scale machine learning models. However, their scalability and efficiency under memory constraints remain relatively underexplored. In this work, we present joint scaling laws for dense and MoE models, incorporating key factors such as the number of active parameters, dataset size, and the number of experts.
+L17: Our findings provide a principled framework for selecting the optimal MoE configuration under fixed memory and compute budgets. Surprisingly, we show that MoE models can be more memory-efficient than dense models, contradicting conventional wisdom. To derive and validate the theoretical predictions of our scaling laws, we conduct over 280 experiments with up to 2.7B active parameters and up to 5B total parameters.
+L18: These results offer actionable insights for designing and deploying MoE models in practical large-scale training scenarios.
+--------------------------------------------------------------------------------
+[2408.03314] Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters (https://arxiv.org/abs/2408.03314)
+citeturn41view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2408.03314","lineno":null}); Total lines: 176
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1:
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3:
+L4: Press Enter to search · 【4†Advanced search】
+L5:
+L6: # Computer Science > Machine Learning
+L7:
+L8: [Submitted on 6 Aug 2024]
+L9: # Title:Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters
+L10:
+L11: Authors:【5†Charlie Snell】, 【6†Jaehoon Lee】, 【7†Kelvin Xu】, 【8†Aviral Kumar】
+L12:
+L13: View a PDF of the paper titled Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters, by Charlie Snell and 3 other authors
+L14:
+L15: 【9†View PDF】 【10†HTML (experimental)】
+L16: > Abstract:Enabling LLMs to improve their outputs by using more test-time computation is a critical step towards building generally self-improving agents that can operate on open-ended natural language.
+L17: In this paper, we study the scaling of inference-time computation in LLMs, with a focus on answering the question: if an LLM is allowed to use a fixed but non-trivial amount of inference-time compute, how much can it improve its performance on a challenging prompt? Answering this question has implications not only on the achievable performance of LLMs, but also on the future of LLM pretraining and how one should tradeoff inference-time and pre-training compute.
+L18: Despite its importance, little research attempted to understand the scaling behaviors of various test-time inference methods. Moreover, current work largely provides negative results for a number of these strategies. In this work, we analyze two primary mechanisms to scale test-time computation: (1) searching against dense, process-based verifier reward models; and (2) updating the model's distribution over a response adaptively, given the prompt at test time.
+--------------------------------------------------------------------------------
+Beyond Chinchilla-Optimal: Accounting for Inference in Language Model Scaling Laws (https://proceedings.mlr.press/v235/sardana24a.html)
+citeturn41view4 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://proceedings.mlr.press/v235/sardana24a.html","lineno":null}); Total lines: 52
+L0: Proceedings of Machine Learning Research
+L1:
+L2: [Input]
+L3:
+L4: 【0†Volume 235】【1†JMLR†www.jmlr.org】 【2†DMLR†data.mlr.press】 【3†TMLR†jmlr.org】 【4†MLOSS†www.jmlr.org】 【5†FAQ】 【6†Submission Format】
+L5:
+L6: [【7†edit†github.com】]
+L7:
+L8: # Beyond Chinchilla-Optimal: Accounting for Inference in Language Model Scaling Laws
+L9:
+L10: Nikhil Sardana, Jacob Portes, Sasha Doubov, Jonathan Frankle
+L11:
+L12: Proceedings of the 41st International Conference on Machine Learning, PMLR 235:43445-43460, 2024.
+L13: #### Abstract
+L14: Large language model (LLM) scaling laws are empirical formulas that estimate changes in model quality as a result of increasing parameter count and training data. However, these formulas, including the popular Deepmind Chinchilla scaling laws, neglect to include the cost of inference. We modify the Chinchilla scaling laws to calculate the optimal LLM parameter count and pre-training data size to train and deploy a model of a given quality and inference demand.
+L15: We conduct our analysis both in terms of a compute budget and real-world costs and find that LLM researchers expecting reasonably large inference demand ($\sim$1B requests) should train models smaller and longer than Chinchilla-optimal. Furthermore, we train 47 models of varying sizes and parameter counts to validate our formula and find that model quality continues to improve as we scale tokens per parameter to extreme ranges (up to 10,000).
+L16: Finally, we ablate the procedure used to fit the Chinchilla scaling law coefficients and find that developing scaling laws only from data collected at typical token/parameter ratios overestimates the impact of additional tokens at these extreme ranges.
+L17: #### Cite this Paper
+L18:
+L19: * * *
+L20:
+L21: BibTeX
+L22: `@InProceedings{pmlr-v235-sardana24a, title = {Beyond Chinchilla-Optimal: Accounting for Inference in Language Model Scaling Laws}, author = {Sardana, Nikhil and Portes, Jacob and Doubov, Sasha and Frankle, Jonathan}, booktitle = {Proceedings of the 41st International Conference on Machine Learning}, pages = {43445--43460}, year = {2024}, editor = {Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix}, volume = {235}, series = {Proceedings of Machine Learning Research}, month = {21--27 Jul}, publisher = {PMLR}, pdf = {https://raw.githubusercontent.com/mlresearch/v235/main/assets/sardana24a/sardana24a.pdf}, url = {https://proceedings.mlr.press/v235/sardana24a.html}, abstract = {Large language model (LLM) scaling laws are empirical formulas that estimate changes in model quality as a result of increasing parameter count and training data.
+--------------------------------------------------------------------------------
+DeepSeek-V3 Technical Report (https://arxiv.org/html/2412.19437v2)
+citeturn41view5 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn37view1","pattern":"Table 1"}); Total lines: 1130
+L188: Following this, we conduct post-training, including Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) on the base model of DeepSeek-V3, to align it with human preferences and further unlock its potential. During the post-training stage, we distill the reasoning capability from the DeepSeek-R1 series of models, and meanwhile carefully maintain the balance between model accuracy and generation length.
+L189: We evaluate DeepSeek-V3 on a comprehensive array of benchmarks. Despite its economical training costs, comprehensive evaluations reveal that DeepSeek-V3-Base has emerged as the strongest open-source base model currently available, especially in code and math. Its chat version also outperforms other open-source models and achieves performance comparable to leading closed-source models, including GPT-4o and Claude-3.5-Sonnet, on a series of standard and open-ended benchmarks.
+L190: Training Costs  | Pre-Training  | Context Extension  | Post-Training  | Total
+L191: --- | --- | --- | --- | ---
+L192: in H800 GPU Hours  | 2664K  | 119K  | 5K  | 2788K
+L193: in USD  | $5.328M  | $0.238M  | $0.01M  | $5.576M
+L194: Table 1: Training costs of DeepSeek-V3, assuming the rental price of H800 is $2 per GPU hour.
+L195: Lastly, we emphasize again the economical training costs of DeepSeek-V3, summarized in Table 【122†1】, achieved through our optimized co-design of algorithms, frameworks, and hardware. During the pre-training stage, training DeepSeek-V3 on each trillion tokens requires only 180K H800 GPU hours, i.e., 3.7 days on our cluster with 2048 H800 GPUs. Consequently, our pre-training stage is completed in less than two months and costs 2664K GPU hours.
+L196: Combined with 119K GPU hours for the context length extension and 5K GPU hours for post-training, DeepSeek-V3 costs only 2.788M GPU hours for its full training. Assuming the rental price of the H800 GPU is $2 per GPU hour, our total training costs amount to only $5.576M. Note that the aforementioned costs include only the official training of DeepSeek-V3, excluding the costs associated with prior research and ablation experiments on architectures, algorithms, or data.
+L197: Our main contribution includes:
+L198:
+L199: Architecture: Innovative Load Balancing Strategy and Training Objective
+L200:
+L201:   * •
+L202:
+L203: On top of the efficient architecture of DeepSeek-V2, we pioneer an auxiliary-loss-free strategy for load balancing, which minimizes the performance degradation that arises from encouraging load balancing.
+L204:
+L205:   * •
+L206:
+L207: We investigate a Multi-Token Prediction (MTP) objective and prove it beneficial to model performance. It can also be used for speculative decoding for inference acceleration.
+L208: Pre-Training: Towards Ultimate Training Efficiency
+L209:
+L210:   * •
+L211:
+L212: We design an FP8 mixed precision training framework and, for the first time, validate the feasibility and effectiveness of FP8 training on an extremely large-scale model.
+L213:
+L214:   * •
+--------------------------------------------------------------------------------
+DeepSeek-V3 Technical Report (https://arxiv.org/html/2412.19437v2)
+citeturn41view6 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn37view1","pattern":"excludes"}); Total lines: 1130
+No matching text found for "excludes"--------------------------------------------------------------------------------
+DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning (https://arxiv.org/html/2501.12948v1)
+citeturn41view7 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn40view0","pattern":"cold-start"}); Total lines: 634
+L26:       2. 【16†2.2.2 Reward Modeling】
+L27:       3. 【17†2.2.3 Training Template】
+L28:       4. 【18†2.2.4 Performance, Self-evolution Process and Aha Moment of DeepSeek-R1-Zero】
+L29:         1. 【19†Performance of DeepSeek-R1-Zero】
+L30:         2. 【20†Self-evolution Process of DeepSeek-R1-Zero】
+L31:         3. 【21†Aha Moment of DeepSeek-R1-Zero】
+L32:         4. 【22†Drawback of DeepSeek-R1-Zero】
+L33:     3. 【23†2.3 DeepSeek-R1: Reinforcement Learning with Cold Start】
+L34:       1. 【24†2.3.1 Cold Start】
+L68: We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrates remarkable reasoning capabilities. Through RL, DeepSeek-R1-Zero naturally emerges with numerous powerful and intriguing reasoning behaviors. However, it encounters challenges such as poor readability, and language mixing.
+L69: To address these issues and further enhance reasoning performance, we introduce DeepSeek-R1, which incorporates multi-stage training and cold-start data before RL. DeepSeek-R1 achieves performance comparable to OpenAI-o1-1217 on reasoning tasks. To support the research community, we open-source DeepSeek-R1-Zero, DeepSeek-R1, and six dense models (1.5B, 7B, 8B, 14B, 32B, 70B) distilled from DeepSeek-R1 based on Qwen and Llama.
+L70: Figure 1: Benchmark performance of DeepSeek-R1.
+L71: ###### Contents
+L72:   1. 【6†1 Introduction】
+L73:     1. 【7†1.1 Contributions】
+L74:     2. 【10†1.2 Summary of Evaluation Results】
+L75:   2. 【11†2 Approach】
+L76:     1. 【12†2.1 Overview】
+L77:     2. 【13†2.2 DeepSeek-R1-Zero: Reinforcement Learning on the Base Model】
+L78:       1. 【14†2.2.1 Reinforcement Learning Algorithm】
+L79:       2. 【16†2.2.2 Reward Modeling】
+L80:       3. 【17†2.2.3 Training Template】
+L81:       4. 【18†2.2.4 Performance, Self-evolution Process and Aha Moment of DeepSeek-R1-Zero】
+L82:     3. 【23†2.3 DeepSeek-R1: Reinforcement Learning with Cold Start】
+L83:       1. 【24†2.3.1 Cold Start】
+L84:       2. 【25†2.3.2 Reasoning-oriented Reinforcement Learning】
+L85:       3. 【26†2.3.3 Rejection Sampling and Supervised Fine-Tuning】
+L86:       4. 【29†2.3.4 Reinforcement Learning for all Scenarios】
+L87:     4. 【30†2.4 Distillation: Empower Small Models with Reasoning Capability】
+L88:   3. 【31†3 Experiment】
+L89:     1. 【36†3.1 DeepSeek-R1 Evaluation】
+L90:     2. 【37†3.2 Distilled Model Evaluation】
+L91:   4. 【38†4 Discussion】
+L92:     1. 【39†4.1 Distillation v.s. Reinforcement Learning】
+L93:     2. 【40†4.2 Unsuccessful Attempts】
+L94:   5. 【43†5 Conclusion, Limitations, and Future Work】
+L95:   6. 【44†References】
+L96:   7. 【45†A Contributions and Acknowledgments】
+L97: ## 1 Introduction
+L98:
+L99: In recent years, Large Language Models (LLMs) have been undergoing rapid iteration and evolution (【47†OpenAI, 2024a】; 【48†Anthropic, 2024】; 【49†Google, 2024】), progressively diminishing the gap towards Artificial General Intelligence (AGI).
+L100: Recently, post-training has emerged as an important component of the full training pipeline. It has been shown to enhance accuracy on reasoning tasks, align with social values, and adapt to user preferences, all while requiring relatively minimal computational resources against pre-training. In the context of reasoning capabilities, OpenAI’s o1 (【50†OpenAI, 2024b】) series models were the first to introduce inference-time scaling by increasing the length of the Chain-of-Thought reasoning process.
+L101: This approach has achieved significant improvements in various reasoning tasks, such as mathematics, coding, and scientific reasoning. However, the challenge of effective test-time scaling remains an open question for the research community.
+L105: However, DeepSeek-R1-Zero encounters challenges such as poor readability, and language mixing. To address these issues and further enhance reasoning performance, we introduce DeepSeek-R1, which incorporates a small amount of cold-start data and a multi-stage training pipeline. Specifically, we begin by collecting thousands of cold-start data to fine-tune the DeepSeek-V3-Base model. Following this, we perform reasoning-oriented RL like DeepSeek-R1-Zero.
+L141: Previous work has heavily relied on large amounts of supervised data to enhance model performance. In this study, we demonstrate that reasoning capabilities can be significantly improved through large-scale reinforcement learning (RL), even without using supervised fine-tuning (SFT) as a cold start. Furthermore, performance can be further enhanced with the inclusion of a small amount of cold-start data.
+L205: ##### Drawback of DeepSeek-R1-Zero
+L206:
+L207: Although DeepSeek-R1-Zero exhibits strong reasoning capabilities and autonomously develops unexpected and powerful reasoning behaviors, it faces several issues. For instance, DeepSeek-R1-Zero struggles with challenges like poor readability, and language mixing. To make reasoning processes more readable and share them with the open community, we explore DeepSeek-R1, a method that utilizes RL with human-friendly cold-start data.
+L208: Question: If $a>1$, then the sum of the real solutions of $\sqrt{a-\sqrt{a+x}}=x$ is equal to
+L209: Response: <think>
+L210: To solve the equation $\sqrt{a-\sqrt{a+x}}=x$, let’s start by squaring both $\cdots$
+L211: $\left(\sqrt{a-\sqrt{a+x}}\right)^{2}=x^{2}\implies a-\sqrt{a+x}=x^{2}.$
+L212: Rearrange to isolate the inner square root term:
+L213: $(a-x^{2})^{2}=a+x\implies a^{2}-2ax^{2}+(x^{2})^{2}=a+x\implies x^{4}-2ax^{2}-x+(a^{2}-a)=0$
+L214: …
+L215: Wait, wait. Wait. That’s an aha moment I can flag here.
+L216: Let’s reevaluate this step-by-step to identify if the correct sum can be $\cdots$
+L217: We started with the equation:
+L218: $\sqrt{a-\sqrt{a+x}}=x$
+L219: First, let’s square both sides:
+L220: $a-\sqrt{a+x}=x^{2}\implies\sqrt{a+x}=a-x^{2}$
+L221: Next, I could square both sides again, treating the equation: $\cdots$
+L222: …
+L223: Table 3: An interesting “aha moment” of an intermediate version of DeepSeek-R1-Zero. The model learns to rethink using an anthropomorphic tone. This is also an aha moment for us, allowing us to witness the power and beauty of reinforcement learning.
+L224: ### 2.3 DeepSeek-R1: Reinforcement Learning with Cold Start
+L225: Inspired by the promising results of DeepSeek-R1-Zero, two natural questions arise: 1) Can reasoning performance be further improved or convergence accelerated by incorporating a small amount of high-quality data as a cold start? 2) How can we train a user-friendly model that not only produces clear and coherent Chains of Thought (CoT) but also demonstrates strong general capabilities? To address these questions, we design a pipeline to train DeepSeek-R1.
+L226: The pipeline consists of four stages, outlined as follows.
+L227: #### 2.3.1 Cold Start
+L228: Unlike DeepSeek-R1-Zero, to prevent the early unstable cold start phase of RL training from the base model, for DeepSeek-R1 we construct and collect a small amount of long CoT data to fine-tune the model as the initial RL actor.
+L229: To collect such data, we have explored several approaches: using few-shot prompting with a long CoT as an example, directly prompting models to generate detailed answers with reflection and verification, gathering DeepSeek-R1-Zero outputs in a readable format, and refining the results through post-processing by human annotators.
+L230: In this work, we collect thousands of cold-start data to fine-tune the DeepSeek-V3-Base as the starting point for RL. Compared to DeepSeek-R1-Zero, the advantages of cold start data include:
+L231:
+L232:   * •
+L233: Readability: A key limitation of DeepSeek-R1-Zero is that its content is often not suitable for reading. Responses may mix multiple languages or lack markdown formatting to highlight answers for users. In contrast, when creating cold-start data for DeepSeek-R1, we design a readable pattern that includes a summary at the end of each response and filters out responses that are not reader-friendly.
+L234: Here, we define the output format as |special_token|<reasoning_process>|special_token|<summary>, where the reasoning process is the CoT for the query, and the summary is used to summarize the reasoning results.
+L235:   * •
+L236:
+L237: Potential: By carefully designing the pattern for cold-start data with human priors, we observe better performance against DeepSeek-R1-Zero. We believe the iterative training is a better way for reasoning models.
+L238: #### 2.3.2 Reasoning-oriented Reinforcement Learning
+L239: After fine-tuning DeepSeek-V3-Base on the cold start data, we apply the same large-scale reinforcement learning training process as employed in DeepSeek-R1-Zero. This phase focuses on enhancing the model’s reasoning capabilities, particularly in reasoning-intensive tasks such as coding, mathematics, science, and logic reasoning, which involve well-defined problems with clear solutions.
+L240: During the training process, we observe that CoT often exhibits language mixing, particularly when RL prompts involve multiple languages. To mitigate the issue of language mixing, we introduce a language consistency reward during RL training, which is calculated as the proportion of target language words in the CoT. Although ablation experiments show that such alignment results in a slight degradation in the model’s performance, this reward aligns with human preferences, making it more readable.
+L241: Finally, we combine the accuracy of reasoning tasks and the reward for language consistency by directly summing them to form the final reward. We then apply RL training on the fine-tuned model until it achieves convergence on reasoning tasks.
+L242: #### 2.3.3 Rejection Sampling and Supervised Fine-Tuning
+L243:
+L244: When reasoning-oriented RL converges, we utilize the resulting checkpoint to collect SFT (Supervised Fine-Tuning) data for the subsequent round. Unlike the initial cold-start data, which primarily focuses on reasoning, this stage incorporates data from other domains to enhance the model’s capabilities in writing, role-playing, and other general-purpose tasks. Specifically, we generate the data and fine-tune the model as described below.
+L245: ##### Reasoning data
+L246: We curate reasoning prompts and generate reasoning trajectories by performing rejection sampling from the checkpoint from the above RL training. In the previous stage, we only included data that could be evaluated using rule-based rewards. However, in this stage, we expand the dataset by incorporating additional data, some of which use a generative reward model by feeding the ground-truth and model predictions into DeepSeek-V3 for judgment.
+L247: Additionally, because the model output is sometimes chaotic and difficult to read, we have filtered out chain-of-thought with mixed languages, long parapraphs, and code blocks. For each prompt, we sample multiple responses and retain only the correct ones. In total, we collect about 600k reasoning related training samples.
+L248: ##### Non-Reasoning data
+L249: For non-reasoning data, such as writing, factual QA, self-cognition, and translation, we adopt the DeepSeek-V3 pipeline and reuse portions of the SFT dataset of DeepSeek-V3. For certain non-reasoning tasks, we call DeepSeek-V3 to generate a potential chain-of-thought before answering the question by prompting. However, for simpler queries, such as “hello” we do not provide a CoT in response. In the end, we collected a total of approximately 200k training samples that are unrelated to reasoning.
+L250: We fine-tune DeepSeek-V3-Base for two epochs using the above curated dataset of about 800k samples.
+L251: #### 2.3.4 Reinforcement Learning for all Scenarios
+L252: To further align the model with human preferences, we implement a secondary reinforcement learning stage aimed at improving the model’s helpfulness and harmlessness while simultaneously refining its reasoning capabilities. Specifically, we train the model using a combination of reward signals and diverse prompt distributions.
+L358: ## 5 Conclusion, Limitations, and Future Work
+L359:
+L360: In this work, we share our journey in enhancing model reasoning abilities through reinforcement learning. DeepSeek-R1-Zero represents a pure RL approach without relying on cold-start data, achieving strong performance across various tasks. DeepSeek-R1 is more powerful, leveraging cold-start data alongside iterative RL fine-tuning. Ultimately, DeepSeek-R1 achieves performance comparable to OpenAI-o1-1217 on a range of tasks.
+--------------------------------------------------------------------------------
+[2609.19969] DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression (https://arxiv.org/abs/2609.19969)
+citeturn41view8 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn38view1","pattern":"552B"}); Total lines: 180
+L24: et al. (492 additional authors not shown)  You must enable JavaScript to view entire author list.
+L25:
+L26: View a PDF of the paper titled DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression, by DeepSeek-AI: Anyi Xu and 590 other authors
+L27:
+L28: 【408†View PDF】 【409†HTML (experimental)】
+L29: > Abstract:The widespread adoption of long-horizon agents has made model workloads increasingly input-heavy. Although prior work has substantially reduced the cost of long-context computation, prefill remains computationally expensive, and large KV caches continue to strain HBM and SSD capacity and data-transfer bandwidth. Together, these compute, storage, and bandwidth demands constitute the primary bottleneck to further lowering deployment costs.
+L30: To address this challenge, we introduce DeepSeek-V4.1-Flash, a multimodal Mixture-of-Experts (MoE) model with 552B backbone parameters and support for contexts of up to one million tokens. With its Causal Encoder-Decoder (CED) architecture, the model activates 16B parameters per token during decode but only 8B parameters during prefill, substantially improving cost efficiency for agentic workloads.
+L31: To push the limits of KV cache compression, DeepSeek-V4.1-Flash combines cross-layer KV cache reuse in Compressed Sparse Attention 2 (CSA2) with FP4 KV caching. These designs reduce its global KV cache footprint (always in HBM) to 890 bytes per token, roughly 1/4 of the corresponding footprint of DeepSeek-V4-Flash.
+L32: Further, through a dedicated deployment optimization known as SWA Bounded Replay, DeepSeek-V4.1-Flash reduces its persistent KV cache footprint (always on SSD or in host memory) to roughly 1/8 of that of DeepSeek-V4-Flash. Despite its much smaller KV cache footprint, the model delivers substantially better performance than the baseline. In addition, we streamline the DeepSeek-V4 architecture and introduce several efficient architectural extensions.
+L33: We pretrain DeepSeek-V4.1-Flash on a multimodal corpus comprising 45T tokens and conduct comprehensive post-training, yielding strong performance across diverse text-based and multimodal agentic scenarios. Model checkpoints are available at 【410†this https URL†huggingface.co】.
+L34: Subjects:  | Computation and Language (cs.CL)
+L35: Cite as:  | 【411†arXiv:2609.19969】 [cs.CL]
+L36:    | (or 【412†arXiv:2609.19969v1】 [cs.CL] for this version)
+L37:    | 【413†https://doi.org/10.48550/arXiv.2609.19969†doi.org】 arXiv-issued DOI via DataCite
+L38: ## Submission history
+L39:
+L40: From: Wenfeng Liang [【414†view email】]
+L41: [v1] Thu, 17 Sep 2026 09:43:10 UTC (1,083 KB)
+L42:
+L43: Full-text links:
+L44:
+L45: ## Access Paper:
+L46:
+L47: View a PDF of the paper titled DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression, by DeepSeek-AI: Anyi Xu and 590 other authors
+L48:
+L49:   * 【408†View PDF】
+L50:   * 【409†HTML (experimental)】
+L51:   * 【415†TeX Source】
+L52:
+L53: 【416†view license】
+L54:
+L55: ### Additional Features
+L56:
+L57:   * 【417†Audio Summary】
+
+
+Optimizing Model Parameters — PyTorch Tutorials 2.14.0+cu130 documentation (https://docs.pytorch.org/tutorials/beginner/basics/optimization_tutorial.html)
+citeturn42view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://docs.pytorch.org/tutorials/beginner/basics/optimization_tutorial.html","lineno":null}); Total lines: 679
+L0: 【0†iframe†www.googletagmanager.com】 【1†Image†www.facebook.com】
+L1:
+L2: Back to top [Input] [Input]
+L3:
+L4: [Input: Search the docs ...] `Ctrl`+`K`
+L5:   *     * 【2†Learn the Basics】
+L6:     * 【3†Introduction to PyTorch - YouTube Series】
+L7:     * 【4†Deep Learning with PyTorch: A 60 Minute Blitz】
+L8:     * 【5†Learning PyTorch with Examples】
+L9:     * 【6†What is torch.nn really?】
+L10:     * 【7†Understanding requires_grad, retain_grad, Leaf, and Non-leaf Tensors】
+L11:     * 【8†NLP from Scratch】
+L12:     * 【9†Visualizing Models, Data, and Training with TensorBoard】
+L13:     * 【10†A guide on good usage of non_blocking and pin_memory() in PyTorch】
+L14:     * 【11†Data Loading Optimization in PyTorch】
+L15:     * 【12†Visualizing Gradients】
+L16:   *     * 【13†Introduction to torch.compile】
+L17:     * 【14†torch.compile End-to-End Tutorial】
+L18:     * 【15†Compiled Autograd: Capturing a larger backward graph for torch.compile】
+L19:     * 【16†Inductor CPU backend debugging and profiling】
+L20:     * 【17†Dynamic Compilation Control with torch.compiler.set_stance】
+L21:     * 【18†Demonstration of torch.export flow, common challenges and the solutions to address them】
+L22:     * 【19†(beta) Compiling the optimizer with torch.compile】
+L23:     * 【20†(beta) Running the compiled optimizer with an LR Scheduler】
+L24:     * 【21†Using Variable Length Attention in PyTorch】
+L25:     * 【22†Using User-Defined Triton Kernels with torch.compile】
+L26:     * 【23†Compile Time Caching in torch.compile】
+L27:     * 【24†Reducing torch.compile cold start compilation time with regional compilation】
+L28:     * 【25†torch.export Tutorial】
+L29:     * 【26†torch.export AOTInductor Tutorial for Python runtime (Beta)】
+L30:     * 【18†Demonstration of torch.export flow, common challenges and the solutions to address them】
+L31:     * 【27†Introduction to ONNX】
+L32:     * 【28†Export a PyTorch model to ONNX】
+L33:     * 【29†Extending the ONNX Exporter Operator Support】
+L34:     * 【30†Export a model with control flow to ONNX】
+L35:     * 【31†Building a Convolution/Batch Norm fuser with torch.compile】
+L36:     * 【32†(beta) Building a Simple CPU Performance Profiler with FX】
+L37:   *     * 【33†TorchVision Object Detection Finetuning Tutorial】
+L38:     * 【34†Transfer Learning for Computer Vision Tutorial】
+L39:     * 【35†Adversarial Example Generation】
+L40:     * 【36†DCGAN Tutorial】
+L41:     * 【37†Spatial Transformer Networks Tutorial】
+L42:     * 【38†Reinforcement Learning (DQN) Tutorial】
+L43:     * 【39†Reinforcement Learning (PPO) with TorchRL Tutorial】
+L44:     * 【40†Train a Mario-playing RL Agent】
+L45:     * 【41†Pendulum: Writing your environment and transforms with TorchRL】
+L46:     * 【42†Introduction to TorchRec】
+L47:     * 【43†Exploring TorchRec sharding】
+--------------------------------------------------------------------------------
+[2205.14135] FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness (https://arxiv.org/abs/2205.14135)
+citeturn42view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2205.14135","lineno":null}); Total lines: 175
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1:
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3:
+L4: Press Enter to search · 【4†Advanced search】
+L5:
+L6: # Computer Science > Machine Learning
+L7:
+L8: [Submitted on 27 May 2022 (【5†v1】), last revised 23 Jun 2022 (this version, v2)]
+L9: # Title:FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness
+L10:
+L11: Authors:【6†Tri Dao】, 【7†Daniel Y. Fu】, 【8†Stefano Ermon】, 【9†Atri Rudra】, 【10†Christopher Ré】
+L12:
+L13: View a PDF of the paper titled FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness, by Tri Dao and 4 other authors
+L14:
+L15: 【11†View PDF】 【12†HTML (experimental)】
+L16: > Abstract:Transformers are slow and memory-hungry on long sequences, since the time and memory complexity of self-attention are quadratic in sequence length. Approximate attention methods have attempted to address this problem by trading off model quality to reduce the compute complexity, but often do not achieve wall-clock speedup. We argue that a missing principle is making attention algorithms IO-aware -- accounting for reads and writes between levels of GPU memory.
+L17: We propose FlashAttention, an IO-aware exact attention algorithm that uses tiling to reduce the number of memory reads/writes between GPU high bandwidth memory (HBM) and GPU on-chip SRAM. We analyze the IO complexity of FlashAttention, showing that it requires fewer HBM accesses than standard attention, and is optimal for a range of SRAM sizes. We also extend FlashAttention to block-sparse attention, yielding an approximate attention algorithm that is faster than any existing approximate attention method.
+L18: FlashAttention trains Transformers faster than existing baselines: 15% end-to-end wall-clock speedup on BERT-large (seq. length 512) compared to the MLPerf 1.1 training speed record, 3$\times$ speedup on GPT-2 (seq. length 1K), and 2.4$\times$ speedup on long-range arena (seq. length 1K-4K).
+L19: FlashAttention and block-sparse FlashAttention enable longer context in Transformers, yielding higher quality models (0.7 better perplexity on GPT-2 and 6.4 points of lift on long-document classification) and entirely new capabilities: the first Transformers to achieve better-than-chance performance on the Path-X challenge (seq. length 16K, 61.4% accuracy) and Path-256 (seq. length 64K, 63.1% accuracy).
+L20: Subjects:  | Machine Learning (cs.LG)
+L21: Cite as:  | 【13†arXiv:2205.14135】 [cs.LG]
+L22:    | (or 【14†arXiv:2205.14135v2】 [cs.LG] for this version)
+L23:    | 【15†https://doi.org/10.48550/arXiv.2205.14135†doi.org】 arXiv-issued DOI via DataCite
+--------------------------------------------------------------------------------
+DeepSeek-V4 · Hugging Face (https://huggingface.co/docs/transformers/main/model_doc/deepseek_v4)
+citeturn42view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://huggingface.co/docs/transformers/main/model_doc/deepseek_v4","lineno":null}); Total lines: 416
+L0: [Input: Search models, datasets, users...]
+L1:
+L2:   * 【0†Models】
+L3:   * 【1†Datasets】
+L4:   * 【2†Spaces】
+L5:   * 【3†Buckets new】
+L6:   * 【4†Docs】
+L7:   * 【5†Enterprise】
+L8:   * 【6†Pricing】
+L9:   *     * Website
+L10:
+L11:       * 【7†Tasks】
+L12:       * 【8†HuggingChat】
+L13:       * 【9†Collections】
+L14:       * 【10†Languages】
+L15:       * 【11†Organizations】
+L16:     * Community
+L17:       * 【12†Blog】
+L18:       * 【13†Posts】
+L19:       * 【14†Daily Papers】
+L20:       * 【15†Hardware】
+L21:       * 【16†Learn】
+L22:       * 【17†Discord】
+L23:       * 【18†Forum†discuss.huggingface.co】
+L24:       * 【19†GitHub†github.com】
+L25:     * Solutions
+L26:
+L27:       * 【5†Team & Enterprise】
+L28:       * 【20†Hugging Face PRO】
+L29:       * 【21†Enterprise Support】
+L30:       * 【22†Inference Providers】
+L31:       * 【23†Inference Endpoints】
+L32:       * 【3†Storage Buckets】
+L33:
+L34:   * * * *
+L35:
+L36:   * 【24†Log In】
+L37:   * 【25†Sign Up】
+L38:
+L39: Transformers documentation
+L40:
+L41: DeepSeek-V4
+L42: # Transformers
+L43:
+L44: [Select]
+L45:
+L46: Search documentation
+L47:
+L48: [Select] [Select]
+L49:
+L50: Get started
+L51:
+L52: 【26†Transformers】【27†Installation】【28†Quickstart】
+L53:
+L54: Base classes
+L55:
+L56: Models
+L57:
+L58: Preprocessors
+L59:
+L60: Inference
+L61:
+L62: Pipeline API
+L63:
+L64: Generate API
+L65:
+L66: Optimization
+L67:
+L68: Chat with models
+L69:
+L70: Serving
+L71:
+L72: Training
+L73:
+L74: Get started
+L75:
+L76: Customization
+L77:
+L78: 【29†Parameter-efficient fine-tuning】
+L79:
+L80: Performance
+L81:
+L82: Distributed training
+L83:
+L84: Hardware
+L85:
+L86: Quantization
+L87:
+L88: Ecosystem integrations
+L89:
+L90: Resources
+L91:
+L92: API
+L93:
+L94: Main classes
+L95:
+L96: Models
+L97:
+L98: Text models
+L99: 【30†A.X-K1】【31†A.X-K2】【32†AFMoE】【33†ALBERT】【34†Apertus】【35†Arcee】【36†Bamba】【37†BART】【38†BARThez】【39†BARTpho】【40†Beam】【41†BERT】【42†BertGeneration】【43†BertJapanese】【44†BERTweet】【45†BigBird】【46†BigBirdPegasus】【47†BioGpt】【48†BitNet】【49†Blenderbot】【50†Blenderbot Small】【51†BLOOM】【52†BLT】【53†ByT5】【54†CamemBERT】【55†CANINE】【56†CodeGen】【57†CodeLlama】【58†Cohere】【59†Cohere2】【60†Cohere2Moe】【61†ConvBERT】【62†CPM】【63†CPMANT】【64†CTRL】【65†DBRX】【66†DeBERTa】【67†DeBERTa-v2】【68†DeepSeek-OCR-2】【69†DeepSeek-V2】【70†DeepSeek-V3】【71†DeepSeek-V3.2】【72†DeepSeek-V4】【73†DiffLlama】【74†DistilBERT】【75†Doge】【76†dots1】【77†DPR】【78†ELECTRA】【79†Encoder Decoder Models】【80†ERNIE】【81†Ernie4_5】【82†Ernie4_5_MoE】【83†ESM】【84†ESMC】【85†ESMFold2】【86†EuroBERT】【87†EXAONE-4.0】【88†EXAONE-4.5】【89†EXAONE-MoE】【90†Falcon】【91†Falcon3】【92†FalconH1】【93†FalconMamba】【94†FLAN-T5】【95†FLAN-UL2】【96†FlauBERT】【97†FlexOlmo】【98†Flint】【99†FNet】【100†FSMT】【101†Fun-ASR-Nano】【102†Funnel Transformer】【103†Fuyu】【104†Gemma】【105†Gemma2】【106†GLM-4】【107†GLM-4-0414】【108†GLM-4.5, GLM-4.6, GLM-4.7】【109†GLM-4.7-Flash】【110†GLM-5, GLM-5.1, GLM-5.2, GLM-5.3】【111†GLM-Image】【112†GPT】【113†GPT Neo】【114†GPT NeoX】【115†GPT NeoX Japanese】【116†GPT-J】【117†GPT2】【118†GPTBigCode】【119†GptOss】【120†GPTSw3】【121†Granite】【122†GraniteMoe】【123†GraniteMoeHybrid】【124†GraniteMoeShared】【125†GraniteMoeSWA】【126†GraniteSWA】【127†GTE】【128†Helium】【129†HerBERT】【130†HRM-Text】【131†HunYuanDenseV1】【132†HunYuanMoEV1】【133†HunYuanVL】【134†HyperCLOVAX】【135†HYV3】【136†HYV4】【137†I-BERT】【138†Jais2】【139†Jamba】【140†JetMoe】【141†jina_embeddings_v3】【142†KimiLinear】【143†Kolibri1】【144†Laguna】【145†LED】【146†LFM2】【147†LFM2Moe】【148†Ling 3.0】【149†LLaMA】【150†Llama2】【151†Llama3】【152†LongCatFlash】【153†Longformer】【154†LongT5】【155†LUKE】【156†M2M100】【157†MADLAD-400】【158†Mamba】【159†Mamba2】【160†MarianMT】【161†MarkupLM】【162†MBart and MBart-50】【163†MegatronBERT】【164†Mellum】【165†MiMo-V2-Flash】【166†MiniCPM3】【167†MiniMax】【168†MiniMax-M2】【169†MiniMax-M3-VL】【170†Ministral】【171†Ministral3】【172†Mistral】【173†Mixtral】【174†mLUKE】【175†MobileBERT】【176†ModernBert】【177†ModernBERTDecoder】【178†ModernVBert】【179†MPNet】【180†MPT】【181†MRA】【182†MT5】【183†Muse Spark Open】【184†MuseGlimmer】【185†MuseGlimmerAssistant】【186†MVP】【187†myt5】【188†NanoChat】【189†Nemotron】【190†NemotronH】【191†NemotronH Omni】【192†NLLB】【193†NLLB-MoE】【194†NomicBERT】【195†Nyströmformer】【196†OLMo】【197†OLMo2】【198†Olmo3】【199†OLMoE】【200†OlmoHybrid】【201†OpenAI Privacy Filter】【202†OPT】【203†Pegasus】【204†PEGASUS-X】【205†Persimmon】【206†Phi】【207†Phi-3】【208†PhiMoE】【209†PhoBERT】【210†PLBart】【211†ProphetNet】【212†Qwen2】【213†Qwen2MoE】【214†Qwen3】【215†Qwen3.5】【216†Qwen3.5 Moe】【217†Qwen3MoE】【218†Qwen3Next】【219†Qwen4-Exp】【220†RAG】【221†RecurrentGemma】【222†Reformer】【223†RemBERT】【224†RoBERTa】【225†RoBERTa-PreLayerNorm】【226†RoCBert】【227†RoFormer】【228†RWKV】【229†Seed-Oss】【230†SmolLM3】【231†SolarOpen】【232†Splinter】【233†SqueezeBERT】【234†StableLm】【235†Starcoder2】【236†Step3p7】【237†SwitchTransformers】【238†T5】【239†T5Gemma】【240†T5Gemma2】【241†T5v1.1】【242†UL2】【243†UltraBERT】【244†UltraVBert】【245†UMT5】【246†VaultGemma】【247†X-MOD】【248†XGLM】【249†XLM】【250†XLM-RoBERTa】【251†XLM-RoBERTa-XL】【252†XLM-V】【253†XLNet】【254†xLSTM】【255†YOSO】【256†Youtu-LLM】【257†Zamba】【258†Zamba2】【259†ZAYA】
