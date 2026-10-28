@@ -61,8 +61,8 @@ const sidebar = [
     collapsed: false,
     items: [
       { text: '研究索引', link: '/论文研究/README' },
-      { text: '金融学论文初稿', link: '/论文研究/算力与LLM训练_DeepSeek案例/2026-10-25/金融学论文初稿' },
-      { text: '金融学论文方案', link: '/论文研究/算力与LLM训练_DeepSeek案例/2026-10-25/论文方案' },
+      { text: '大模型技术进步对算力产业链企业价值的影响机制', link: '/论文研究/算力与LLM训练_DeepSeek案例/2026-10-25/大模型技术进步对算力产业链企业价值的影响机制' },
+      { text: '研究方案', link: '/论文研究/算力与LLM训练_DeepSeek案例/2026-10-25/研究方案' },
       { text: 'LLM训练与DeepSeek调研', link: '/论文研究/算力与LLM训练_DeepSeek案例/2026-10-25/调研报告' },
       { text: '算力预估补充资料', link: '/论文研究/算力与LLM训练_DeepSeek案例/2026-10-25/Scaling%20law与未来算力预估' },
       { text: 'ETF与主动基金布局', link: '/论文研究/算力与LLM训练_DeepSeek案例/2026-10-25/相关ETF与主动基金布局' }
