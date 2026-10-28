@@ -1,0 +1,307 @@
+{
+  "status": "illustrative_uncalibrated_not_company_valuation",
+  "financial_metrics": [
+    {
+      "company": "寒武纪",
+      "year": 2024,
+      "citation": 10,
+      "revenue_100m": 11.744643773499998,
+      "gross_margin_pct": 56.71135545659127,
+      "cfo_100m": -16.179602369,
+      "cfo_margin_pct": -137.76154203592628,
+      "cash_purchase_100m": 3.6604933522000005,
+      "cash_purchase_revenue_pct": 31.16734251624852,
+      "cfo_less_purchase_100m": -19.8400957212,
+      "net_income_parent_100m": -4.5233879101
+    },
+    {
+      "company": "寒武纪",
+      "year": 2025,
+      "citation": 10,
+      "revenue_100m": 64.9719619868,
+      "gross_margin_pct": 55.151682273624466,
+      "cfo_100m": -4.9839813700999995,
+      "cfo_margin_pct": -7.6709725513792675,
+      "cash_purchase_100m": 5.6869788863,
+      "cash_purchase_revenue_pct": 8.752973917357448,
+      "cfo_less_purchase_100m": -10.670960256399999,
+      "net_income_parent_100m": 20.592285386700002
+    },
+    {
+      "company": "浪潮信息",
+      "year": 2024,
+      "citation": 11,
+      "revenue_100m": 1150.2851644308,
+      "gross_margin_pct": 6.90164153820797,
+      "cfo_100m": 0.7486635936,
+      "cfo_margin_pct": 0.06508504297457962,
+      "cash_purchase_100m": 2.4787448268,
+      "cash_purchase_revenue_pct": 0.21548959366319975,
+      "cfo_less_purchase_100m": -1.7300812332,
+      "net_income_parent_100m": 22.9356317858
+    },
+    {
+      "company": "浪潮信息",
+      "year": 2025,
+      "citation": 11,
+      "revenue_100m": 1647.8199765823001,
+      "gross_margin_pct": 4.883417810997824,
+      "cfo_100m": 54.5305205422,
+      "cfo_margin_pct": 3.309252304083624,
+      "cash_purchase_100m": 2.2509546643,
+      "cash_purchase_revenue_pct": 0.13660197693249512,
+      "cfo_less_purchase_100m": 52.2795658779,
+      "net_income_parent_100m": 24.128663087600003
+    },
+    {
+      "company": "优刻得",
+      "year": 2024,
+      "citation": 12,
+      "revenue_100m": 15.0297200027,
+      "gross_margin_pct": 18.859896313376307,
+      "cfo_100m": 1.2209694929000001,
+      "cfo_margin_pct": 8.123700858569954,
+      "cash_purchase_100m": 6.234069380499999,
+      "cash_purchase_revenue_pct": 41.47828022997159,
+      "cfo_less_purchase_100m": -5.013099887599999,
+      "net_income_parent_100m": -2.4104204062
+    },
+    {
+      "company": "优刻得",
+      "year": 2025,
+      "citation": 12,
+      "revenue_100m": 16.993570063099998,
+      "gross_margin_pct": 25.73354335941261,
+      "cfo_100m": 2.4253126729,
+      "cfo_margin_pct": 14.271943234378673,
+      "cash_purchase_100m": 7.0289820799000005,
+      "cash_purchase_revenue_pct": 41.36259805208794,
+      "cfo_less_purchase_100m": -4.603669407000001,
+      "net_income_parent_100m": -0.7355335945999999
+    }
+  ],
+  "project_scenarios": [
+    {
+      "name": "未提效参照",
+      "efficiency": 1.0,
+      "pass_through": 0.8,
+      "elasticity": 0.6,
+      "price": 1.0,
+      "desired_tasks": 50.0,
+      "served_tasks": 50.0,
+      "capacity_bound": false,
+      "utilization": 0.5,
+      "compute_ratio": 1.0,
+      "revenue": 50.0,
+      "ebitda": 24.5,
+      "cash_tax": 2.375,
+      "annual_operating_cash": 22.125,
+      "initial_working_capital": 2.5,
+      "npv": 9.340806638890772,
+      "cash_flows": [
+        -62.5,
+        22.125,
+        22.125,
+        22.125,
+        24.625
+      ],
+      "delta_npv": 0.0
+    },
+    {
+      "name": "提效但需求反应弱",
+      "efficiency": 2.0,
+      "pass_through": 0.8,
+      "elasticity": 0.6,
+      "price": 0.5743491774985174,
+      "desired_tasks": 69.73718331752026,
+      "served_tasks": 69.73718331752026,
+      "capacity_bound": false,
+      "utilization": 0.3486859165876013,
+      "compute_ratio": 0.6973718331752026,
+      "revenue": 40.053493879481096,
+      "ebitda": 18.106057215977042,
+      "cash_tax": 0.7765143039942606,
+      "annual_operating_cash": 17.32954291198278,
+      "initial_working_capital": 2.002674693974055,
+      "npv": -5.70250165354914,
+      "cash_flows": [
+        -62.00267469397406,
+        17.32954291198278,
+        17.32954291198278,
+        17.32954291198278,
+        19.332217605956835
+      ],
+      "delta_npv": -15.043308292439912
+    },
+    {
+      "name": "计算量恰好抵消",
+      "efficiency": 2.0,
+      "pass_through": 0.8,
+      "elasticity": 1.25,
+      "price": 0.5743491774985174,
+      "desired_tasks": 100.0,
+      "served_tasks": 100.0,
+      "capacity_bound": false,
+      "utilization": 0.5,
+      "compute_ratio": 1.0,
+      "revenue": 57.43491774985174,
+      "ebitda": 29.434917749851742,
+      "cash_tax": 3.6087294374629355,
+      "annual_operating_cash": 25.82618831238881,
+      "initial_working_capital": 2.871745887492587,
+      "npv": 20.955237136405387,
+      "cash_flows": [
+        -62.87174588749259,
+        25.82618831238881,
+        25.82618831238881,
+        25.82618831238881,
+        28.697934199881395
+      ],
+      "delta_npv": 11.614430497514615
+    },
+    {
+      "name": "需求反应较强",
+      "efficiency": 2.0,
+      "pass_through": 0.8,
+      "elasticity": 1.8,
+      "price": 0.5743491774985174,
+      "desired_tasks": 135.6604327447672,
+      "served_tasks": 135.6604327447672,
+      "capacity_bound": false,
+      "utilization": 0.678302163723836,
+      "compute_ratio": 1.356604327447672,
+      "revenue": 77.91645796604999,
+      "ebitda": 42.784371417096544,
+      "cash_tax": 6.946092854274136,
+      "annual_operating_cash": 35.83827856282241,
+      "initial_working_capital": 3.8958228983025,
+      "npv": 52.36759743388879,
+      "cash_flows": [
+        -63.8958228983025,
+        35.83827856282241,
+        35.83827856282241,
+        35.83827856282241,
+        39.73410146112491
+      ],
+      "delta_npv": 43.02679079499802
+    },
+    {
+      "name": "价格充分传导且需求弱",
+      "efficiency": 2.0,
+      "pass_through": 1.0,
+      "elasticity": 0.6,
+      "price": 0.5,
+      "desired_tasks": 75.7858283255199,
+      "served_tasks": 75.7858283255199,
+      "capacity_bound": false,
+      "utilization": 0.3789291416275995,
+      "compute_ratio": 0.757858283255199,
+      "revenue": 37.89291416275995,
+      "ebitda": 14.735748497655969,
+      "cash_tax": 0.0,
+      "annual_operating_cash": 14.735748497655969,
+      "initial_working_capital": 1.8946457081379977,
+      "npv": -13.890237207516911,
+      "cash_flows": [
+        -61.894645708138,
+        14.735748497655969,
+        14.735748497655969,
+        14.735748497655969,
+        16.630394205793966
+      ],
+      "delta_npv": -23.231043846407683
+    },
+    {
+      "name": "需求触及容量上限",
+      "efficiency": 2.0,
+      "pass_through": 0.8,
+      "elasticity": 3.0,
+      "price": 0.5743491774985174,
+      "desired_tasks": 263.90158215457893,
+      "served_tasks": 180.0,
+      "capacity_bound": true,
+      "utilization": 0.9,
+      "compute_ratio": 1.8,
+      "revenue": 103.38285194973314,
+      "ebitda": 59.38285194973314,
+      "cash_tax": 11.095712987433284,
+      "annual_operating_cash": 48.28713896229985,
+      "initial_working_capital": 5.169142597486657,
+      "npv": 91.4251846489584,
+      "cash_flows": [
+        -65.16914259748665,
+        48.28713896229985,
+        48.28713896229985,
+        48.28713896229985,
+        53.456281559786504
+      ],
+      "delta_npv": 82.08437801006764
+    }
+  ],
+  "sensitivity": [
+    {
+      "years": 3,
+      "discount_rate": 0.08,
+      "npv_before": -0.27577732053041615,
+      "npv_after": -13.751821451390105,
+      "delta_npv": -13.47604413085969
+    },
+    {
+      "years": 3,
+      "discount_rate": 0.1,
+      "npv_before": -2.4915477084898647,
+      "npv_after": -15.470951118573566,
+      "delta_npv": -12.979403410083702
+    },
+    {
+      "years": 3,
+      "discount_rate": 0.12,
+      "npv_before": -4.577743485787185,
+      "npv_after": -17.08951603846504,
+      "delta_npv": -12.511772552677854
+    },
+    {
+      "years": 4,
+      "discount_rate": 0.08,
+      "npv_before": 12.618380967971977,
+      "npv_after": -3.133004803984951,
+      "delta_npv": -15.751385771956928
+    },
+    {
+      "years": 4,
+      "discount_rate": 0.1,
+      "npv_before": 9.340806638890772,
+      "npv_after": -5.70250165354914,
+      "delta_npv": -15.043308292439912
+    },
+    {
+      "years": 4,
+      "discount_rate": 0.12,
+      "npv_before": 6.290149490121292,
+      "npv_after": -8.094062879744536,
+      "delta_npv": -14.384212369865828
+    },
+    {
+      "years": 5,
+      "discount_rate": 0.08,
+      "npv_before": 24.545635035128445,
+      "npv_after": 5.557619446709863,
+      "delta_npv": -18.988015588418584
+    },
+    {
+      "years": 5,
+      "discount_rate": 0.1,
+      "npv_before": 20.080370503753453,
+      "npv_after": 2.0903406402493303,
+      "delta_npv": -17.990029863504123
+    },
+    {
+      "years": 5,
+      "discount_rate": 0.12,
+      "npv_before": 15.97065846442096,
+      "npv_after": -1.1007615544718306,
+      "delta_npv": -17.07142001889279
+    }
+  ],
+  "warning": "财报为描述性事实；项目参数全部是假设，不是企业估值或市场预测。"
+}

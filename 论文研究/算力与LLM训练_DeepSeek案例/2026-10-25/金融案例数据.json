@@ -1,0 +1,105 @@
+{
+  "as_of": "2026-10-28",
+  "currency": "CNY",
+  "unit": "yuan",
+  "scope": "合并口径；2024比较数统一取2025年报的比较列",
+  "cash_purchase_definition": "购建固定资产、无形资产和其他长期资产支付的现金；不是纯AI资本开支，未包含全部租赁和并购投入",
+  "cases": [
+    {
+      "company": "寒武纪",
+      "role": "AI芯片与配套软件",
+      "citation": 10,
+      "source_file": "参考财报/产业链研究/算力技术进步与企业价值/2026-03-13_寒武纪2025年报.pdf",
+      "pages": [
+        9,
+        26,
+        107
+      ],
+      "normalization": "合并口径；全年；不将全部云端产品收入等同LLM收入",
+      "years": [
+        {
+          "year": 2024,
+          "revenue": 1174464377.35,
+          "cost_of_revenue": 508409709.6,
+          "net_income_parent": -452338791.01,
+          "cfo": -1617960236.9,
+          "cash_purchase_long_assets": 366049335.22
+        },
+        {
+          "year": 2025,
+          "revenue": 6497196198.68,
+          "cost_of_revenue": 2913883194.49,
+          "net_income_parent": 2059228538.67,
+          "cfo": -498398137.01,
+          "cash_purchase_long_assets": 568697888.63
+        }
+      ]
+    },
+    {
+      "company": "浪潮信息",
+      "role": "服务器与系统交付",
+      "citation": 11,
+      "source_file": "参考财报/产业链研究/算力技术进步与企业价值/2026-04-11_浪潮信息2025年报.pdf",
+      "pages": [
+        7,
+        61,
+        62,
+        63,
+        65,
+        66
+      ],
+      "normalization": "2024采用同一控制下企业合并调整后比较数；不是浪潮软件；国产/海外芯片及AI/通用产品未在本研究完全拆分",
+      "years": [
+        {
+          "year": 2024,
+          "revenue": 115028516443.08,
+          "cost_of_revenue": 107089660571.46,
+          "net_income_parent": 2293563178.58,
+          "cfo": 74866359.36,
+          "cash_purchase_long_assets": 247874482.68
+        },
+        {
+          "year": 2025,
+          "revenue": 164781997658.23,
+          "cost_of_revenue": 156735004235.27,
+          "net_income_parent": 2412866308.76,
+          "cfo": 5453052054.22,
+          "cash_purchase_long_assets": 225095466.43
+        }
+      ]
+    },
+    {
+      "company": "优刻得",
+      "role": "云与算力服务",
+      "citation": 12,
+      "source_file": "参考财报/产业链研究/算力技术进步与企业价值/2026-06-16_优刻得2025年报更正后.pdf",
+      "pages": [
+        10,
+        11,
+        46,
+        145,
+        148,
+        149
+      ],
+      "normalization": "采用2026-06-16更正后的年报；混合云/公有云等合并口径，不能视作单一GPU租赁项目",
+      "years": [
+        {
+          "year": 2024,
+          "revenue": 1502972000.27,
+          "cost_of_revenue": 1219513039.4,
+          "net_income_parent": -241042040.62,
+          "cfo": 122096949.29,
+          "cash_purchase_long_assets": 623406938.05
+        },
+        {
+          "year": 2025,
+          "revenue": 1699357006.31,
+          "cost_of_revenue": 1262052234.26,
+          "net_income_parent": -73553359.46,
+          "cfo": 242531267.29,
+          "cash_purchase_long_assets": 702898207.99
+        }
+      ]
+    }
+  ]
+}

@@ -61,9 +61,10 @@ const sidebar = [
     collapsed: false,
     items: [
       { text: '研究索引', link: '/论文研究/README' },
+      { text: '金融学论文初稿', link: '/论文研究/算力与LLM训练_DeepSeek案例/2026-10-25/金融学论文初稿' },
+      { text: '金融学论文方案', link: '/论文研究/算力与LLM训练_DeepSeek案例/2026-10-25/论文方案' },
       { text: 'LLM训练与DeepSeek调研', link: '/论文研究/算力与LLM训练_DeepSeek案例/2026-10-25/调研报告' },
-      { text: '论文方案', link: '/论文研究/算力与LLM训练_DeepSeek案例/2026-10-25/论文方案' },
-      { text: 'Scaling law与算力预估', link: '/论文研究/算力与LLM训练_DeepSeek案例/2026-10-25/Scaling%20law与未来算力预估' },
+      { text: '算力预估补充资料', link: '/论文研究/算力与LLM训练_DeepSeek案例/2026-10-25/Scaling%20law与未来算力预估' },
       { text: 'ETF与主动基金布局', link: '/论文研究/算力与LLM训练_DeepSeek案例/2026-10-25/相关ETF与主动基金布局' }
     ]
   },

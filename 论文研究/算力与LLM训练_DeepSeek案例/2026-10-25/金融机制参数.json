@@ -1,0 +1,64 @@
+{
+  "status": "illustrative_uncalibrated_not_company_valuation",
+  "currency": "CNY million",
+  "task_unit": "million fixed-quality standard tasks per year",
+  "investment": 60.0,
+  "base_capacity": 100.0,
+  "base_tasks": 50.0,
+  "max_utilization": 0.9,
+  "base_price_yuan": 1.0,
+  "compute_variable_cost_yuan": 0.3,
+  "other_variable_cost_yuan": 0.05,
+  "fixed_cash_cost": 8.0,
+  "years": 4,
+  "discount_rate": 0.1,
+  "tax_rate": 0.25,
+  "working_capital_revenue_ratio": 0.05,
+  "salvage_ratio": 0.0,
+  "assumptions": [
+    "所有输入为机制演示假设，不从三家公司财报拟合，不表示DeepSeek实际提效倍数。",
+    "同任务质量、同精度计量与同硬件执行效率；a只代表每任务计算工作量节省倍率。计算约束占主导时容量按a扩大，容量/通信不另构成约束。",
+    "各年价格和需求保持该情景水平，不含自然增长、新增投资或融资；维修等常规支出包含在固定现金成本。",
+    "直线折旧至零；税款为税率乘正EBIT，亏损不产生即时退税、不追踪亏损结转。",
+    "营运资金期初投入、到期全额收回；残值账面为零，正残值按税率纳税。",
+    "经济寿命到期结束经营，不设永续终值；不将项目NPV当上市公司股权价值。"
+  ],
+  "scenarios": [
+    {
+      "name": "未提效参照",
+      "efficiency": 1.0,
+      "pass_through": 0.8,
+      "elasticity": 0.6
+    },
+    {
+      "name": "提效但需求反应弱",
+      "efficiency": 2.0,
+      "pass_through": 0.8,
+      "elasticity": 0.6
+    },
+    {
+      "name": "计算量恰好抵消",
+      "efficiency": 2.0,
+      "pass_through": 0.8,
+      "elasticity": 1.25
+    },
+    {
+      "name": "需求反应较强",
+      "efficiency": 2.0,
+      "pass_through": 0.8,
+      "elasticity": 1.8
+    },
+    {
+      "name": "价格充分传导且需求弱",
+      "efficiency": 2.0,
+      "pass_through": 1.0,
+      "elasticity": 0.6
+    },
+    {
+      "name": "需求触及容量上限",
+      "efficiency": 2.0,
+      "pass_through": 0.8,
+      "elasticity": 3.0
+    }
+  ]
+}

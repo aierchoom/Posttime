@@ -1,0 +1,1507 @@
+{
+  "as_of": "2026-10-28",
+  "scope": "中国数据中心/LLM训练推理产业；公司及业务主体清单，不是全国工商全集或证券推荐名单",
+  "counting": "同一entity_key跨环节只计一个主体；不同上市/经营主体可分别列，存在控股关联时不表示经济口径独立。代码/最新上市状态未逐一重核，故不统一填证券代码。",
+  "customer_note": "各环节客户字段是通用价值链关系，不是逐家公司已确认客户或供货合同。",
+  "groups": [
+    {
+      "id": "eda",
+      "title": "设计工具、IP与定制芯片",
+      "job": "把架构和电路设计转换成可制造方案",
+      "customer": "芯片设计公司、晶圆厂、系统客户"
+    },
+    {
+      "id": "accelerator",
+      "title": "AI加速器与GPU",
+      "job": "执行并行运算，配套底层软件",
+      "customer": "服务器厂商、云/模型团队、行业客户"
+    },
+    {
+      "id": "cpu",
+      "title": "服务器CPU",
+      "job": "运行主机程序、处理数据和管理I/O",
+      "customer": "服务器整机厂与通用计算用户"
+    },
+    {
+      "id": "foundry",
+      "title": "晶圆代工",
+      "job": "将芯片设计制造成裸片",
+      "customer": "Fabless芯片设计企业"
+    },
+    {
+      "id": "equipment",
+      "title": "半导体制造与检测设备",
+      "job": "完成刻蚀、沉积、清洗、平坦化和检测",
+      "customer": "晶圆制造与封装厂"
+    },
+    {
+      "id": "materials",
+      "title": "半导体工艺材料",
+      "job": "提供硅片、靶材和高纯化学材料",
+      "customer": "晶圆制造与封装厂"
+    },
+    {
+      "id": "packaging",
+      "title": "封装测试与封装基板",
+      "job": "连接裸片/芯粒并测试，形成可装配器件",
+      "customer": "芯片公司、模组和系统厂"
+    },
+    {
+      "id": "memory",
+      "title": "存储芯片、模组与内存接口",
+      "job": "保存模型/数据，提供不同层级的容量与带宽",
+      "customer": "服务器、存储系统及终端厂"
+    },
+    {
+      "id": "server",
+      "title": "服务器、ODM与集群集成",
+      "job": "把器件组合成整机、机柜与集群",
+      "customer": "云厂商、运营商、政企及模型团队"
+    },
+    {
+      "id": "network",
+      "title": "交换芯片、网卡与网络系统",
+      "job": "承载跨卡、跨机和存储通信",
+      "customer": "系统集成商、数据中心与云平台"
+    },
+    {
+      "id": "optics",
+      "title": "光芯片、光器件与光模块",
+      "job": "完成光信号产生、处理与电光传输",
+      "customer": "光模块厂、网络设备厂和数据中心"
+    },
+    {
+      "id": "pcb",
+      "title": "PCB制造",
+      "job": "提供板级电气连接和高速信号通道",
+      "customer": "服务器、交换机、加速卡等设备厂"
+    },
+    {
+      "id": "laminate",
+      "title": "覆铜板、铜箔与电子材料",
+      "job": "提供电路板基材及封装/板材填料",
+      "customer": "PCB、基板和封装材料厂"
+    },
+    {
+      "id": "pcb-tools",
+      "title": "PCB加工设备",
+      "job": "钻孔、加工、检测与生产自动化",
+      "customer": "PCB及基板制造厂"
+    },
+    {
+      "id": "connector",
+      "title": "连接器与高速线缆",
+      "job": "完成板间、设备间电/光/液连接",
+      "customer": "服务器、交换机及机房配套厂"
+    },
+    {
+      "id": "power",
+      "title": "供配电与服务器电源",
+      "job": "把外部电力稳定送到机柜和芯片",
+      "customer": "机房建设方、服务器与机柜厂"
+    },
+    {
+      "id": "cooling",
+      "title": "液冷与温控",
+      "job": "搬走设备热量并维持运行温度",
+      "customer": "服务器、机柜、IDC建设运营方"
+    },
+    {
+      "id": "idc",
+      "title": "IDC与数据中心园区",
+      "job": "提供机房空间、电力、制冷和运营",
+      "customer": "云厂商、互联网和企业IT客户"
+    },
+    {
+      "id": "cloud",
+      "title": "云与算力服务",
+      "job": "分配计算资源、提供训推/模型服务并计费",
+      "customer": "模型开发者、企业和应用团队"
+    },
+    {
+      "id": "software",
+      "title": "操作系统、计算软件与模型系统",
+      "job": "衔接硬件执行、模型开发和线上服务",
+      "customer": "开发者、集成商与算力运营平台"
+    }
+  ],
+  "entries": [
+    {
+      "category": "eda",
+      "name": "华大九天",
+      "entity_key": "华大九天",
+      "product": "模拟、数字、制造与封装相关EDA及基础IP",
+      "boundary": "工具环节；不能把整个集团收入当AI设计工具收入",
+      "source_ids": [
+        "S70"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "eda",
+      "name": "概伦电子",
+      "entity_key": "概伦电子",
+      "product": "建模、仿真、设计EDA、IP和测试系统",
+      "boundary": "产品覆盖不等于前沿GPU全部设计流程可独立完成",
+      "source_ids": [
+        "S71"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "eda",
+      "name": "广立微",
+      "entity_key": "广立微",
+      "product": "测试芯片EDA、DFT/DFM、WAT/WLR与良率分析",
+      "boundary": "软件和测试设备双重属性；对应制造良率",
+      "source_ids": [
+        "S72"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "eda",
+      "name": "芯原股份",
+      "entity_key": "芯原股份",
+      "product": "处理器/接口等IP、芯片定制及委外量产管理",
+      "boundary": "定制设计服务；不是自有晶圆厂或纯AI卡厂",
+      "source_ids": [
+        "S73"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "accelerator",
+      "name": "华为昇腾",
+      "entity_key": "华为",
+      "product": "NPU、加速模组/系统及CANN生态",
+      "boundary": "国产AI平台；设计、制造、供货自主程度逐层核验",
+      "source_ids": [
+        "S5",
+        "S6",
+        "S51",
+        "S52"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "accelerator",
+      "name": "寒武纪",
+      "entity_key": "寒武纪",
+      "product": "MLU芯片、加速卡及基础软件",
+      "boundary": "云端产品不只LLM；CPU/存储/网络仍需协同",
+      "source_ids": [
+        "S8",
+        "S26"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "accelerator",
+      "name": "海光信息（DCU）",
+      "entity_key": "海光信息",
+      "product": "DCU加速器、DTK及互联软件体系",
+      "boundary": "须与同公司CPU业务分拆",
+      "source_ids": [
+        "S7"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "accelerator",
+      "name": "摩尔线程",
+      "entity_key": "摩尔线程",
+      "product": "GPU、MUSA与集群相关产品",
+      "boundary": "图形、科学计算、AI负载分开评测",
+      "source_ids": [
+        "S31",
+        "S62"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "accelerator",
+      "name": "沐曦股份",
+      "entity_key": "沐曦股份",
+      "product": "GPU与MXMACA软件平台",
+      "boundary": "接口兼容不等于无需调优或性能等价",
+      "source_ids": [
+        "S32",
+        "S63"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "accelerator",
+      "name": "壁仞科技",
+      "entity_key": "壁仞科技",
+      "product": "芯片配套BIRENSUPA软件、计算库和推理工具",
+      "boundary": "本轮未建立统一销量/性能排名",
+      "source_ids": [
+        "S67"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "accelerator",
+      "name": "燧原科技",
+      "entity_key": "燧原科技",
+      "product": "GCU及模型/推理框架适配",
+      "boundary": "核对具体型号和软件版本，不由仓库存在推定量产",
+      "source_ids": [
+        "S68"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "accelerator",
+      "name": "昆仑芯",
+      "entity_key": "昆仑芯",
+      "product": "AI芯片、加速卡及多卡系统",
+      "boundary": "公开展示型号不代表当前全部产品",
+      "source_ids": [
+        "S66"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "accelerator",
+      "name": "天数智芯",
+      "entity_key": "天数智芯",
+      "product": "通用GPU训练/推理产品及软件",
+      "boundary": "须分训练和推理配置，官网展示不当性能排名",
+      "source_ids": [
+        "S89"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "accelerator",
+      "name": "景嘉微",
+      "entity_key": "景嘉微",
+      "product": "GPU与图形处理相关产品/软件",
+      "boundary": "图形产品路线；前沿LLM训练竞争力另核",
+      "source_ids": [
+        "S90"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "cpu",
+      "name": "华为鲲鹏",
+      "entity_key": "华为",
+      "product": "服务器CPU及生态",
+      "boundary": "主机通算职责；与昇腾分开",
+      "source_ids": [
+        "S5"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "cpu",
+      "name": "海光信息（CPU）",
+      "entity_key": "海光信息",
+      "product": "服务器通用CPU",
+      "boundary": "通用CPU收入不能全部算成AI加速器收入",
+      "source_ids": [
+        "S7"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "cpu",
+      "name": "龙芯中科",
+      "entity_key": "龙芯中科",
+      "product": "LoongArch服务器CPU与软件生态",
+      "boundary": "通用计算自主路线；不是GPU同类项",
+      "source_ids": [
+        "S12"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "cpu",
+      "name": "飞腾",
+      "entity_key": "飞腾",
+      "product": "腾云服务器CPU",
+      "boundary": "负责主机与通用计算，不直接替代所有AI算子",
+      "source_ids": [
+        "S91"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "cpu",
+      "name": "兆芯",
+      "entity_key": "兆芯",
+      "product": "开胜服务器CPU及整机配套",
+      "boundary": "主机软件兼容与加速器适配分别核验",
+      "source_ids": [
+        "S92"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "foundry",
+      "name": "中芯国际",
+      "entity_key": "中芯国际",
+      "product": "晶圆代工与工艺服务",
+      "boundary": "不推定与任一具体AI芯片存在未披露代工关系",
+      "source_ids": [
+        "S64"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "foundry",
+      "name": "华虹公司",
+      "entity_key": "华虹公司",
+      "product": "特色工艺晶圆代工",
+      "boundary": "电源/模拟/存储等配套重要；不能直接标为前沿GPU代工",
+      "source_ids": [
+        "S83"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "foundry",
+      "name": "晶合集成",
+      "entity_key": "晶合集成",
+      "product": "显示驱动、图像传感、电源管理等晶圆代工",
+      "boundary": "属制造支撑，AI训练芯片直接暴露尚未核实",
+      "source_ids": [
+        "S84"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "equipment",
+      "name": "北方华创",
+      "entity_key": "北方华创",
+      "product": "刻蚀、薄膜沉积等半导体装备",
+      "boundary": "面向多类芯片制造，需求先经过晶圆厂资本开支",
+      "source_ids": [
+        "S74"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "equipment",
+      "name": "中微公司",
+      "entity_key": "中微公司",
+      "product": "刻蚀及沉积相关设备",
+      "boundary": "不同工艺设备的认证/订单阶段不能合并",
+      "source_ids": [
+        "S75"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "equipment",
+      "name": "拓荆科技",
+      "entity_key": "拓荆科技",
+      "product": "PECVD、ALD及3D集成相关设备",
+      "boundary": "制造和先进封装设备；不是GPU本身",
+      "source_ids": [
+        "S76"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "equipment",
+      "name": "盛美上海",
+      "entity_key": "盛美上海",
+      "product": "清洗、电镀及相关半导体设备",
+      "boundary": "前道/封装应用按产品拆分",
+      "source_ids": [
+        "S77"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "equipment",
+      "name": "华海清科",
+      "entity_key": "华海清科",
+      "product": "CMP、磨划、湿法及晶圆再生服务",
+      "boundary": "抛光设备与抛光液材料是不同环节",
+      "source_ids": [
+        "S78"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "equipment",
+      "name": "中科飞测",
+      "entity_key": "中科飞测",
+      "product": "半导体检测与量测设备",
+      "boundary": "量测/缺陷控制不等于晶圆制造；本轮无同任务AI收入占比",
+      "source_ids": [
+        "S79"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "materials",
+      "name": "沪硅产业",
+      "entity_key": "沪硅产业",
+      "product": "半导体硅片",
+      "boundary": "不是光伏硅料；芯片类型与客户结构决定AI相关性",
+      "source_ids": [
+        "S80"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "materials",
+      "name": "安集科技",
+      "entity_key": "安集科技",
+      "product": "CMP抛光液、湿电子化学品、电镀材料",
+      "boundary": "消耗品需求取决于工艺步骤与晶圆量",
+      "source_ids": [
+        "S81"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "materials",
+      "name": "江丰电子",
+      "entity_key": "江丰电子",
+      "product": "超高纯金属溅射靶材",
+      "boundary": "兼有其他应用；不能把全部收入当AI制造用量",
+      "source_ids": [
+        "S82"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "packaging",
+      "name": "长电科技",
+      "entity_key": "长电科技",
+      "product": "封装测试及芯粒异构集成",
+      "boundary": "能力不等于已向指定国产GPU/HBM供货",
+      "source_ids": [
+        "S65"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "packaging",
+      "name": "通富微电",
+      "entity_key": "通富微电",
+      "product": "倒装、FCBGA、SiP、扇出等封装测试",
+      "boundary": "服务国内外芯片；全球HPC配套与国产替代分开",
+      "source_ids": [
+        "S85"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "packaging",
+      "name": "华天科技",
+      "entity_key": "华天科技",
+      "product": "基板/晶圆级等封装及测试",
+      "boundary": "不同产品良率、产能与客户验证阶段分开",
+      "source_ids": [
+        "S86"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "packaging",
+      "name": "甬矽电子",
+      "entity_key": "甬矽电子",
+      "product": "Bumping/RDL、倒装、SiP等封装测试",
+      "boundary": "规划中的先进封装项目不计作现有产能",
+      "source_ids": [
+        "S87"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "packaging",
+      "name": "盛合晶微",
+      "entity_key": "盛合晶微",
+      "product": "晶圆级与芯粒多芯片先进封装",
+      "boundary": "技术发布、验证、批量交付须分层",
+      "source_ids": [
+        "S88"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "packaging",
+      "name": "深南电路（基板）",
+      "entity_key": "深南电路",
+      "product": "封装基板",
+      "boundary": "与该公司的板级PCB业务不同",
+      "source_ids": [
+        "S59"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "packaging",
+      "name": "兴森科技（载板）",
+      "entity_key": "兴森科技",
+      "product": "IC封装基板与相关制造",
+      "boundary": "复用既有归档；指定GPU载板收入待核",
+      "source_ids": [
+        "S17"
+      ],
+      "verification": "既有归档；待重核原始产品资料"
+    },
+    {
+      "category": "memory",
+      "name": "长鑫",
+      "entity_key": "长鑫",
+      "product": "DRAM及服务器内存相关产品",
+      "boundary": "不能自动标为已解决HBM量产与供给",
+      "source_ids": [
+        "S33"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "memory",
+      "name": "长江存储",
+      "entity_key": "长江存储",
+      "product": "3D NAND晶圆/颗粒、嵌入式存储及SSD",
+      "boundary": "持久存储角色，不等于HBM",
+      "source_ids": [
+        "S93"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "memory",
+      "name": "兆易创新",
+      "entity_key": "兆易创新",
+      "product": "Flash、利基DRAM及相关控制产品",
+      "boundary": "服务器固件/配套存储与训练显存区分",
+      "source_ids": [
+        "S96"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "memory",
+      "name": "澜起科技",
+      "entity_key": "澜起科技",
+      "product": "DDR5内存接口及配套芯片",
+      "boundary": "接口芯片不是存储颗粒；MRDIMM不是HBM",
+      "source_ids": [
+        "S56"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "memory",
+      "name": "江波龙",
+      "entity_key": "江波龙",
+      "product": "SSD、内存模组及嵌入式存储",
+      "boundary": "产品/模组能力与上游颗粒来源分开",
+      "source_ids": [
+        "S94"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "memory",
+      "name": "佰维存储",
+      "entity_key": "佰维存储",
+      "product": "企业级SSD及存储产品",
+      "boundary": "企业级与消费级收入分别核验；SSD容量不等价显存",
+      "source_ids": [
+        "S95"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "server",
+      "name": "浪潮信息",
+      "entity_key": "浪潮信息",
+      "product": "AI/通用服务器及系统交付",
+      "boundary": "与浪潮软件等主体区分；所用芯片须逐型号核验",
+      "source_ids": [
+        "S11"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "server",
+      "name": "中科曙光",
+      "entity_key": "中科曙光",
+      "product": "服务器、存储与超节点/集群工程",
+      "boundary": "不是海光同一个产品主体；关联采购不能重复算终端市场",
+      "source_ids": [
+        "S9",
+        "S10"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "server",
+      "name": "工业富联",
+      "entity_key": "工业富联",
+      "product": "服务器ODM/JDM及机柜、网络制造",
+      "boundary": "全球AI配套，不等于纯国产加速器替代",
+      "source_ids": [
+        "S97"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "server",
+      "name": "联想",
+      "entity_key": "联想",
+      "product": "AI服务器与整套系统",
+      "boundary": "多技术平台；按具体产品识别芯片来源",
+      "source_ids": [
+        "S98"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "server",
+      "name": "新华三",
+      "entity_key": "新华三",
+      "product": "服务器、存储、网络及系统方案",
+      "boundary": "研究紫光股份映射时需核当期合并口径",
+      "source_ids": [
+        "S55"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "server",
+      "name": "中兴通讯",
+      "entity_key": "中兴通讯",
+      "product": "服务器、存储、网络及资源池方案",
+      "boundary": "系统提供者，不由整机品牌推定芯片自主率",
+      "source_ids": [
+        "S101"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "server",
+      "name": "神州数码（神州鲲泰）",
+      "entity_key": "神州数码",
+      "product": "鲲鹏/昇腾相关服务器与超节点",
+      "boundary": "与神州信息等公司区分；品牌不再另计一家",
+      "source_ids": [
+        "S99"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "server",
+      "name": "拓维信息（兆瀚）",
+      "entity_key": "拓维信息",
+      "product": "国产服务器及昇腾相关产品",
+      "boundary": "与软件服务等业务拆分；兆瀚品牌不单独计数",
+      "source_ids": [
+        "S100"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "server",
+      "name": "华勤技术",
+      "entity_key": "华勤技术",
+      "product": "AI/通用/存储服务器与交换机设计制造",
+      "boundary": "与手机等ODM业务拆分，国产芯片占比待核",
+      "source_ids": [
+        "S102"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "server",
+      "name": "华为Atlas及生态系统",
+      "entity_key": "华为",
+      "product": "加速器系统与超节点方案",
+      "boundary": "生态伙伴各自交付范围按合同确认",
+      "source_ids": [
+        "S5",
+        "S35",
+        "S36"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "network",
+      "name": "华为网络",
+      "entity_key": "华为",
+      "product": "数据中心互联与网络系统",
+      "boundary": "与计算芯片、光模块和云业务分别研究",
+      "source_ids": [
+        "S5"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "network",
+      "name": "新华三（网络）",
+      "entity_key": "新华三",
+      "product": "数据中心交换机、RoCE网络与管理",
+      "boundary": "交换芯片、光模块来源另查",
+      "source_ids": [
+        "S55"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "network",
+      "name": "中兴通讯（网络）",
+      "entity_key": "中兴通讯",
+      "product": "智算与数据中心网络系统",
+      "boundary": "不以集团通信业务全部映射AI",
+      "source_ids": [
+        "S101"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "network",
+      "name": "锐捷网络",
+      "entity_key": "锐捷网络",
+      "product": "数据中心/智算交换机与网络方案",
+      "boundary": "与星网锐捷关联映射不重复合计；不能推定交换芯片国产率",
+      "source_ids": [
+        "S103"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "network",
+      "name": "盛科通信",
+      "entity_key": "盛科通信",
+      "product": "以太网交换芯片及配套产品",
+      "boundary": "转发网络数据，不承担LLM矩阵计算",
+      "source_ids": [
+        "S104"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "network",
+      "name": "云脉芯联",
+      "entity_key": "云脉芯联",
+      "product": "RDMA智能网卡/DPU",
+      "boundary": "网卡与交换机职责不同；不与云豹智能混同",
+      "source_ids": [
+        "S105"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "optics",
+      "name": "中际旭创／InnoLight",
+      "entity_key": "中际旭创",
+      "product": "数据中心光模块",
+      "boundary": "全球AI和国产集群需求分开，品牌并入同一条",
+      "source_ids": [
+        "S57"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "optics",
+      "name": "新易盛",
+      "entity_key": "新易盛",
+      "product": "光模块及相关产品",
+      "boundary": "数通/电信、国内/海外不同需求分开",
+      "source_ids": [
+        "S106"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "optics",
+      "name": "光迅科技",
+      "entity_key": "光迅科技",
+      "product": "光器件与光模块",
+      "boundary": "不能把器件、模块及不同应用混作同质收入",
+      "source_ids": [
+        "S16"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "optics",
+      "name": "天孚通信",
+      "entity_key": "天孚通信",
+      "product": "精密光器件、光互连制造与配套",
+      "boundary": "与完整光模块厂不同；具体产品范围逐项核对",
+      "source_ids": [
+        "S107"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "optics",
+      "name": "源杰科技",
+      "entity_key": "源杰科技",
+      "product": "激光器等光芯片",
+      "boundary": "光模块上游；不属于训练用GPU芯片",
+      "source_ids": [
+        "S108"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "optics",
+      "name": "仕佳光子",
+      "entity_key": "仕佳光子",
+      "product": "PLC/AWG/DFB、光纤连接及光缆材料",
+      "boundary": "光芯片、器件、光缆与材料分部要分开",
+      "source_ids": [
+        "S138"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "optics",
+      "name": "光库科技",
+      "entity_key": "光库科技",
+      "product": "光器件、电光调制及光子集成产品",
+      "boundary": "长距通信、工业激光和AI互联暴露分别核验",
+      "source_ids": [
+        "S134"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "pcb",
+      "name": "沪电股份",
+      "entity_key": "沪电股份",
+      "product": "高速通信、服务器与交换机PCB",
+      "boundary": "全球AI配套与国产项目拆分",
+      "source_ids": [
+        "S17"
+      ],
+      "verification": "既有归档；待重核原始产品资料"
+    },
+    {
+      "category": "pcb",
+      "name": "深南电路（PCB）",
+      "entity_key": "深南电路",
+      "product": "板级PCB及电子装联",
+      "boundary": "与封装基板收入区分",
+      "source_ids": [
+        "S59"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "pcb",
+      "name": "胜宏科技",
+      "entity_key": "胜宏科技",
+      "product": "高多层、HDI等PCB",
+      "boundary": "具体AI卡/客户收入需当前公告确认",
+      "source_ids": [
+        "S17"
+      ],
+      "verification": "既有归档；待重核原始产品资料"
+    },
+    {
+      "category": "pcb",
+      "name": "生益电子",
+      "entity_key": "生益电子",
+      "product": "PCB制造",
+      "boundary": "与生益科技CCL和合并报表避免重复计量",
+      "source_ids": [
+        "S133"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "pcb",
+      "name": "景旺电子",
+      "entity_key": "景旺电子",
+      "product": "PCB、多层板等",
+      "boundary": "既有汽车等业务不可全部映射AI",
+      "source_ids": [
+        "S17"
+      ],
+      "verification": "既有归档；待重核原始产品资料"
+    },
+    {
+      "category": "pcb",
+      "name": "兴森科技（PCB）",
+      "entity_key": "兴森科技",
+      "product": "PCB样板/小批量及相关制造",
+      "boundary": "与IC载板分部区分",
+      "source_ids": [
+        "S17"
+      ],
+      "verification": "既有归档；待重核原始产品资料"
+    },
+    {
+      "category": "pcb",
+      "name": "鹏鼎控股",
+      "entity_key": "鹏鼎控股",
+      "product": "PCB/FPC等",
+      "boundary": "消费电子暴露重要，服务器AI相关性待核",
+      "source_ids": [
+        "S17"
+      ],
+      "verification": "既有归档；待重核原始产品资料"
+    },
+    {
+      "category": "laminate",
+      "name": "生益科技",
+      "entity_key": "生益科技",
+      "product": "覆铜板、粘结片及相关材料",
+      "boundary": "通过生益电子涉及PCB；合并收入不可再加子公司",
+      "source_ids": [
+        "S133"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "laminate",
+      "name": "华正新材",
+      "entity_key": "华正新材",
+      "product": "覆铜板与复合材料",
+      "boundary": "高端AI材料收入和客户认证需核",
+      "source_ids": [
+        "S17"
+      ],
+      "verification": "既有归档；待重核原始产品资料"
+    },
+    {
+      "category": "laminate",
+      "name": "南亚新材",
+      "entity_key": "南亚新材",
+      "product": "覆铜板及电子材料",
+      "boundary": "不是台塑集团的南亚塑胶；高端占比待核",
+      "source_ids": [
+        "S17"
+      ],
+      "verification": "既有归档；待重核原始产品资料"
+    },
+    {
+      "category": "laminate",
+      "name": "建滔积层板",
+      "entity_key": "建滔积层板",
+      "product": "CCL及相关上游材料一体化",
+      "boundary": "不是把建滔集团全部业务都算入CCL",
+      "source_ids": [
+        "S133"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "laminate",
+      "name": "金安国纪",
+      "entity_key": "金安国纪",
+      "product": "覆铜板",
+      "boundary": "通用CCL与高端AI板材暴露不同",
+      "source_ids": [
+        "S17"
+      ],
+      "verification": "既有归档；待重核原始产品资料"
+    },
+    {
+      "category": "laminate",
+      "name": "德福科技",
+      "entity_key": "德福科技",
+      "product": "电子电路铜箔",
+      "boundary": "与锂电铜箔业务分开",
+      "source_ids": [
+        "S17"
+      ],
+      "verification": "既有归档；待重核原始产品资料"
+    },
+    {
+      "category": "laminate",
+      "name": "联瑞新材",
+      "entity_key": "联瑞新材",
+      "product": "球形硅微粉等电子级填料",
+      "boundary": "材料间接支撑；不等于已进入某HBM封装",
+      "source_ids": [
+        "S17"
+      ],
+      "verification": "既有归档；待重核原始产品资料"
+    },
+    {
+      "category": "pcb-tools",
+      "name": "大族激光相关PCB设备业务",
+      "entity_key": "大族激光",
+      "product": "钻孔、加工与检测设备",
+      "boundary": "集团与相关业务/子公司的收入边界要穿透",
+      "source_ids": [
+        "S17"
+      ],
+      "verification": "既有归档；待重核原始产品资料"
+    },
+    {
+      "category": "connector",
+      "name": "立讯精密",
+      "entity_key": "立讯精密",
+      "product": "高速连接器/线缆及电源、热管理方案",
+      "boundary": "与消费电子业务拆分；支持光/铜多路线",
+      "source_ids": [
+        "S127"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "connector",
+      "name": "中航光电",
+      "entity_key": "中航光电",
+      "product": "电、光、液互连及线缆组件",
+      "boundary": "防务/汽车等不是AI收入，按产品和客户拆",
+      "source_ids": [
+        "S128"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "connector",
+      "name": "沃尔核材／乐庭智联",
+      "entity_key": "沃尔核材／乐庭智联",
+      "product": "高速通信线缆",
+      "boundary": "集团还含其他材料业务；母子主体按一条计",
+      "source_ids": [
+        "S129"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "connector",
+      "name": "鼎通科技",
+      "entity_key": "鼎通科技",
+      "product": "高速通讯连接器组件、结构件及散热",
+      "boundary": "不是完整服务器或交换芯片",
+      "source_ids": [
+        "S130"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "power",
+      "name": "华为数字能源",
+      "entity_key": "华为",
+      "product": "供配电、机房管理和温控",
+      "boundary": "设备部署功率不等于实际付费算力",
+      "source_ids": [
+        "S60"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "power",
+      "name": "科华数据",
+      "entity_key": "科华数据",
+      "product": "UPS、供电系统、微模块等",
+      "boundary": "与IDC运营等分部拆开",
+      "source_ids": [
+        "S109"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "power",
+      "name": "科士达",
+      "entity_key": "科士达",
+      "product": "UPS、温控及模块化机房",
+      "boundary": "与新能源业务拆开",
+      "source_ids": [
+        "S110"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "power",
+      "name": "中恒电气",
+      "entity_key": "中恒电气",
+      "product": "HVDC与机房供配电",
+      "boundary": "机房电源层，不等于服务器板上供电",
+      "source_ids": [
+        "S111"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "power",
+      "name": "欧陆通",
+      "entity_key": "欧陆通",
+      "product": "服务器PSU、CRPS与集中供电",
+      "boundary": "服务器电源与机房UPS层次不同",
+      "source_ids": [
+        "S112"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "cooling",
+      "name": "英维克",
+      "entity_key": "英维克",
+      "product": "冷板液冷链、CDU与温控",
+      "boundary": "按冷板/CDU/冷源拆产品，非所有方案同口径",
+      "source_ids": [
+        "S58"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "cooling",
+      "name": "申菱环境",
+      "entity_key": "申菱环境",
+      "product": "数据中心环境系统与CDU",
+      "boundary": "与其他工业温控业务分开",
+      "source_ids": [
+        "S113"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "cooling",
+      "name": "曙光数创",
+      "entity_key": "曙光数创",
+      "product": "冷板/浸没式液冷基础设施",
+      "boundary": "与中科曙光按各自产品和合并边界研究",
+      "source_ids": [
+        "S114"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "cooling",
+      "name": "高澜股份",
+      "entity_key": "高澜股份",
+      "product": "数据中心热管理及相关配套",
+      "boundary": "电力/储能等液冷业务不全部算作AI",
+      "source_ids": [
+        "S140"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "cooling",
+      "name": "同飞股份",
+      "entity_key": "同飞股份",
+      "product": "空冷、液冷、纯水冷却及换热器",
+      "boundary": "数据中心只是多个应用领域之一",
+      "source_ids": [
+        "S141"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "cooling",
+      "name": "中航光电（液冷连接）",
+      "entity_key": "中航光电",
+      "product": "液体连接及液冷配套",
+      "boundary": "与冷源/CDU整机厂职责不同",
+      "source_ids": [
+        "S128"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "idc",
+      "name": "润泽科技",
+      "entity_key": "润泽科技",
+      "product": "大规模数据中心园区与基础设施运营",
+      "boundary": "规划MW、建成、上架与付费使用不同",
+      "source_ids": [
+        "S115"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "idc",
+      "name": "数据港",
+      "entity_key": "数据港",
+      "product": "数据中心建设运营与托管服务",
+      "boundary": "客户设备不一定是运营商自有",
+      "source_ids": [
+        "S116"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "idc",
+      "name": "奥飞数据",
+      "entity_key": "奥飞数据",
+      "product": "IDC、网络及基础服务",
+      "boundary": "自持算力、托管和网络收入分开",
+      "source_ids": [
+        "S117"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "idc",
+      "name": "光环新网",
+      "entity_key": "光环新网",
+      "product": "IDC、云及算力服务",
+      "boundary": "不同模式计费与毛利不同，不能全部称卖GPU",
+      "source_ids": [
+        "S118"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "idc",
+      "name": "宝信软件／宝之云",
+      "entity_key": "宝信软件",
+      "product": "IDC与云基础设施，另有工业软件",
+      "boundary": "云品牌合并计数；工业软件不是IDC租赁收入",
+      "source_ids": [
+        "S119"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "idc",
+      "name": "万国数据",
+      "entity_key": "万国数据",
+      "product": "数据中心托管、电力与制冷等服务",
+      "boundary": "不等于替客户设计和训练模型",
+      "source_ids": [
+        "S120"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "idc",
+      "name": "世纪互联",
+      "entity_key": "世纪互联",
+      "product": "IDC托管及云/网络等服务",
+      "boundary": "基础设施与终端模型收入分开",
+      "source_ids": [
+        "S137"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "idc",
+      "name": "科华数据（IDC）",
+      "entity_key": "科华数据",
+      "product": "数据中心服务与运营",
+      "boundary": "与其设备业务区分，集团内不重复合计",
+      "source_ids": [
+        "S109"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "cloud",
+      "name": "华为云",
+      "entity_key": "华为",
+      "product": "ModelArts等开发训练与部署服务",
+      "boundary": "资源平台与模型、芯片业务分别计量",
+      "source_ids": [
+        "S61"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "cloud",
+      "name": "阿里云",
+      "entity_key": "阿里云",
+      "product": "PAI建模、训练和在线部署",
+      "boundary": "与阿里其他模型/芯片业务属于不同职责",
+      "source_ids": [
+        "S121"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "cloud",
+      "name": "腾讯云",
+      "entity_key": "腾讯云",
+      "product": "HAI及异构算力/推理服务",
+      "boundary": "具体套餐硬件来源和SLA另核",
+      "source_ids": [
+        "S122"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "cloud",
+      "name": "百度智能云",
+      "entity_key": "百度智能云",
+      "product": "百舸AI计算平台和相关云服务",
+      "boundary": "平台服务不等于昆仑芯芯片销售",
+      "source_ids": [
+        "S123"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "cloud",
+      "name": "火山引擎",
+      "entity_key": "火山引擎",
+      "product": "机器学习开发、训练与部署平台",
+      "boundary": "云服务主体与应用业务分别研究",
+      "source_ids": [
+        "S124"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "cloud",
+      "name": "中国移动／移动云",
+      "entity_key": "中国移动",
+      "product": "算力网络及云/算力服务",
+      "boundary": "是采购与服务方，不能按AI芯片公司口径衡量",
+      "source_ids": [
+        "S14"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "cloud",
+      "name": "中国电信／天翼云",
+      "entity_key": "中国电信／天翼云",
+      "product": "训推服务、智算资源及算网服务",
+      "boundary": "交付规模与付费资源使用分别核验",
+      "source_ids": [
+        "S125"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "cloud",
+      "name": "中国联通／联通云",
+      "entity_key": "中国联通／联通云",
+      "product": "资源池、训推、容器和模型服务",
+      "boundary": "云品牌不单独加总一家",
+      "source_ids": [
+        "S126"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "cloud",
+      "name": "金山云",
+      "entity_key": "金山云",
+      "product": "GPU云与裸金属等资源服务",
+      "boundary": "国内服务商不意味着底层芯片全国产",
+      "source_ids": [
+        "S139"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "cloud",
+      "name": "优刻得",
+      "entity_key": "优刻得",
+      "product": "优云智算GPU资源及模型API",
+      "boundary": "套餐资源与平台调用分别计量",
+      "source_ids": [
+        "S135"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "cloud",
+      "name": "青云科技",
+      "entity_key": "青云科技",
+      "product": "企业云与AI基础设施平台",
+      "boundary": "平台软件收入和自持算力服务应拆分",
+      "source_ids": [
+        "S136"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "software",
+      "name": "麒麟软件",
+      "entity_key": "麒麟软件",
+      "product": "服务器操作系统、集群基础环境",
+      "boundary": "上市映射需另核；不能把OS等同CUDA替代",
+      "source_ids": [
+        "S131"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "software",
+      "name": "统信软件",
+      "entity_key": "统信软件",
+      "product": "服务器操作系统与架构适配",
+      "boundary": "操作系统和AI算子/编译执行层不同",
+      "source_ids": [
+        "S132"
+      ],
+      "verification": "本轮官方资料/披露摘录"
+    },
+    {
+      "category": "software",
+      "name": "DeepSeek",
+      "entity_key": "DeepSeek",
+      "product": "模型、计算/通信库及推理框架",
+      "boundary": "既是算力使用方也开发系统软件；不是芯片制造商",
+      "source_ids": [
+        "S37",
+        "S38",
+        "S54"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "software",
+      "name": "华为计算软件",
+      "entity_key": "华为",
+      "product": "CANN、TorchNPU、MindSpeed等生态能力",
+      "boundary": "公司产品、社区项目及各自许可边界不同",
+      "source_ids": [
+        "S51",
+        "S52",
+        "S53"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "software",
+      "name": "海光软件",
+      "entity_key": "海光信息",
+      "product": "DCU工具链和AI相关软件",
+      "boundary": "软件价值可能体现在硬件成交和留存",
+      "source_ids": [
+        "S7"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "software",
+      "name": "寒武纪软件",
+      "entity_key": "寒武纪",
+      "product": "BANG、CNNL、CNCL等",
+      "boundary": "开发工具、计算库和通信库不是同一层",
+      "source_ids": [
+        "S26"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "software",
+      "name": "摩尔线程MUSA",
+      "entity_key": "摩尔线程",
+      "product": "编译、运行时、加速库及开发工具",
+      "boundary": "按支持矩阵核版本组合",
+      "source_ids": [
+        "S62"
+      ],
+      "verification": "既有证据复用"
+    },
+    {
+      "category": "software",
+      "name": "沐曦MXMACA",
+      "entity_key": "沐曦股份",
+      "product": "框架、计算/通信库和开发工具",
+      "boundary": "兼容声明需在目标工作负载验证",
+      "source_ids": [
+        "S63"
+      ],
+      "verification": "既有证据复用"
+    }
+  ]
+}
