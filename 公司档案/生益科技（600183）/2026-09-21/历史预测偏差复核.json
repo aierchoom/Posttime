@@ -1,0 +1,153 @@
+{
+  "units": "除EMC为新台币亿元，其余人民币亿元；比例小数；股本亿股",
+  "asof": "2026-10-29晚",
+  "period_limits": "2026FY/2027FY尚未结束；9M超过旧FY预测是路径失效信号，不是同期间全年预测误差",
+  "old_base_half_h2_diagnostic": {
+    "revenue": 114.86740999999998,
+    "gross": 34.63990452499999,
+    "pretax": 22.57342870499999,
+    "tax": 2.9345457316499988,
+    "minority": 3.317329914019999,
+    "parent": 16.321553059329993,
+    "opex": 11.716475819999998
+  },
+  "old_base_implied_gpm": 0.3015642515575131,
+  "q3_vs_old_half_h2_bridge": {
+    "revenue_effect": 8.12770373825614,
+    "margin_effect": 16.26631174584387,
+    "net_expenses_and_other": -4.260121388599991,
+    "tax_effect": -2.2318316610500024,
+    "minority_effect": 0.18050391471999916
+  },
+  "bridge_gap": 18.08256634917001,
+  "q3_profit_vs_proxy": 1.1078949584906908,
+  "bridge_margin_share_of_gross_gap": 0.6668156686399676,
+  "q3_vs_h1_quarter_average_gross_bridge": {
+    "revenue_effect": 14.33058095191888,
+    "margin_effect": 15.506373610081107
+  },
+  "old_cases_remaining_q4": {
+    "Bear": -11.92266457246,
+    "Base": -1.7610132898400082,
+    "Bull": 7.703250911680016
+  },
+  "old_base_h2_average_vs_q2_adjusted": -0.10560982784119122,
+  "historical_forecasts": {
+    "july_2026_consensus": 56.31,
+    "august_2026_base": [
+      64,
+      69
+    ],
+    "august_2026_bull": [
+      73,
+      80
+    ]
+  },
+  "july_m9_exceeds_old_fy": 0.1947059526158763,
+  "august_implied_q4": {
+    "base": [
+      -3.2738921918000017,
+      1.7261078081999983
+    ],
+    "bull": [
+      5.726107808199998,
+      12.726107808199998
+    ]
+  },
+  "electronic": {
+    "h1": {
+      "revenue": 57.8353910799,
+      "cost": 37.992741532,
+      "parent": 11.1070760386,
+      "cfo": 9.1744411104,
+      "gross": 19.842649547900002,
+      "gpm": 0.343088361250765,
+      "parent_margin": 0.19204635485658766
+    },
+    "m9": {
+      "revenue": 95.475860715,
+      "cost": 61.8391274228,
+      "parent": 19.1159751048,
+      "adjusted": 19.0784013672,
+      "cfo": 13.6191388609,
+      "capex": 20.5160474408,
+      "gross": 33.6367332922,
+      "gpm": 0.35230615404041504,
+      "parent_margin": 0.20021788713549385,
+      "fcf": -6.896908579900002,
+      "cfo_parent": 0.7124480329271955
+    },
+    "q3": {
+      "revenue": 37.6404696351,
+      "cost": 23.8463858908,
+      "parent": 8.0088990662,
+      "cfo": 4.4446977505,
+      "gross": 13.794083744299996,
+      "gpm": 0.36646949089702424,
+      "parent_margin": 0.21277362221675486
+    },
+    "ownership_at_sept_end": 0.5976582885390535,
+    "capex_share": 0.6848573048771183,
+    "cfo_share": 0.2245277929609291,
+    "q3_parent_contribution_static": 4.786584908987115,
+    "group_less_static_contribution": 29.617534499512885,
+    "residual_caveat": "期末持股静态敏感性，非真实加权利润归属；差额包含其他业务、投资、抵销，不能当CCL利润"
+  },
+  "emc": {
+    "currency": "NTD亿元",
+    "h1": {
+      "revenue": 803.42455,
+      "gross": 257.32144,
+      "parent": 152.13191,
+      "gpm": 0.3202807780767964
+    },
+    "m9": {
+      "revenue": 1412.26994,
+      "gross": 486.82931,
+      "parent": 297.13011,
+      "gpm": 0.3447140636583967
+    },
+    "q3": {
+      "revenue": 608.84539,
+      "gross": 229.50787000000003,
+      "parent": 144.9982,
+      "gpm": 0.3769559132245381
+    },
+    "expansion_budget_ntd": 986
+  },
+  "q1_margin_correction": {
+    "parent": 0.1422521152611756,
+    "old_1636_is": "合并净利润率，非归母净利率"
+  },
+  "cash_correction": {
+    "h1_old_proxy": -3.3922815528000037,
+    "h1_correct_fcf": 10.985630084799997,
+    "proxy_difference": 14.3779116376,
+    "e9_negative_fcf": -6.896908579900002
+  },
+  "scenario_stress": {
+    "q4_revenue_factor": 0.8,
+    "q4_gpm": 0.28,
+    "q4_opex": 0.115,
+    "q4_finance": 1,
+    "q4_other_income": 0.2,
+    "q4_impair": 3,
+    "q4_tax": 0.15,
+    "q4_minority": 3.2,
+    "revenue": 113.45537952160001,
+    "parent": 9.482116977904404,
+    "fy26_parent": 76.75600916970441,
+    "fy26_pe": 29.785006788841162
+  },
+  "price_only_returns": {
+    "july03_16078": -0.4146038064435875,
+    "aug20_12628": -0.2546721571111815,
+    "sept18_14393": -0.3460710067393872
+  },
+  "fixed_2027_profit_pe": {
+    "profit": 92.94239175282695,
+    "old_pe": 37.61718675195012,
+    "new_pe": 24.597798820197283,
+    "caveat": "固定9月模型盈利条件，并非实际市场2027PE或已实现收益；价格表现不验证2027盈利"
+  }
+}
