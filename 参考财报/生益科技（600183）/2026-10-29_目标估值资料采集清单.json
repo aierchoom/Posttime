@@ -1,0 +1,28 @@
+{
+  "url": "https://www.twse.com.tw/exchangeReport/BWIBBU_d?response=json&date=20261029&selectType=ALL",
+  "access_date": "2026-10-29",
+  "sha256": "126066ace9b91137c65a509ef114a4a91e5436164c9c8695afb48bf1df412ee4",
+  "bytes": 66671,
+  "fields": [
+    "證券代號",
+    "證券名稱",
+    "收盤價",
+    "殖利率(%)",
+    "股利年度",
+    "本益比",
+    "股價淨值比",
+    "財報年/季"
+  ],
+  "rows": [
+    [
+      "2383",
+      "台光電",
+      "5,010.00",
+      "0.50",
+      114,
+      "53.67",
+      "24.44",
+      "115/3"
+    ]
+  ]
+}
