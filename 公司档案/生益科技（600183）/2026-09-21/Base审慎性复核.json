@@ -1,0 +1,75 @@
+{
+  "units": "CNY亿元/亿股/元每股；PE倍",
+  "date": "2026-09-21",
+  "price_date": "2026-09-18",
+  "unchanged_original_models": true,
+  "sources": {
+    "Q1": "S25第1页",
+    "H1": "S1第5页",
+    "model": "S23"
+  },
+  "run_rate": {
+    "Q1_parent": 11.5813932456,
+    "Q1_adjusted": 10.8282171586,
+    "H1_parent": 32.8697727833,
+    "H1_adjusted": 29.0770235156,
+    "Q2_parent": 21.288379537700003,
+    "Q2_adjusted": 18.248806357,
+    "Q2_nonrecurring": 3.0395731807000033,
+    "Q2_adjusted_qoq": 0.6853011063327643,
+    "Base_H2_parent": 32.643106118659986,
+    "Base_H2_vs_H1": -0.006895899954476592,
+    "Base_H2_quarter_average": 16.321553059329993,
+    "Base_H2_quarter_vs_Q2_reported": -0.2333116275747602,
+    "Base_H2_quarter_vs_Q2_adjusted": -0.10560982784119122,
+    "FY26_Q2_adjusted_flat_H2": 69.3673854973,
+    "FY26_Q2_reported_flat_H2": 75.44653185870001,
+    "caveat": "两种平推仅为运行速度校验，不是预测；Q2归母含非经常性。扣非平推假设H2两个季度各等于Q2扣非且无新非经常性，未调整少数权益变化、季节性与爬坡成本。原Base H2仍含其他收益/投资收益，非严格扣非口径。"
+  },
+  "matrix": [
+    {
+      "earnings_case": "Base",
+      "parent": 92.94239175282695,
+      "eps": 3.8261766077586463,
+      "valuation_by_pe": {
+        "30": {
+          "price": 114.78529823275939,
+          "versus_reference_price": -0.2024921959788829
+        },
+        "35": {
+          "price": 133.91618127155263,
+          "versus_reference_price": -0.06957422864203
+        },
+        "40": {
+          "price": 153.04706431034586,
+          "versus_reference_price": 0.0633437386948228
+        }
+      }
+    },
+    {
+      "earnings_case": "Bull",
+      "parent": 120.82765147791764,
+      "eps": 4.974134245272006,
+      "valuation_by_pe": {
+        "30": {
+          "price": 149.22402735816016,
+          "versus_reference_price": 0.0367819589950682
+        },
+        "35": {
+          "price": 174.0946985845202,
+          "versus_reference_price": 0.20957895216091282
+        },
+        "40": {
+          "price": 198.96536981088022,
+          "versus_reference_price": 0.38237594532675745
+        }
+      }
+    }
+  ],
+  "required_parent_at_reference_price": {
+    "30": 116.5410435913,
+    "35": 99.89232307825714,
+    "40": 87.405782693475
+  },
+  "notes": "矩阵固定中央EPS，不加原EPS半宽。PE是条件假设，不是市场保证；不赋主观概率。"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "file": "2026-08-26_生益科技_业绩说明会.pdf",
+    "url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESH_STOCK/2026/2026-8/2026-08-26/12548066.PDF",
+    "access_date": "2026-09-21",
+    "status": "ok",
+    "bytes": 184626,
+    "sha256": "327d3d912b10d26a5b973f0e554b1397a005c219a5fc6221cabdb70bedd9f71e"
+  },
+  {
+    "file": "2026-09-21_台光电_季报索引.html",
+    "url": "https://www.emctw.com/en-global/quarterly_results/index",
+    "status": "error",
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+  },
+  {
+    "file": "2026-09-21_建滔_估值快照.html",
+    "url": "https://www.lixinger.com/equity/company/detail/hk/01888/1888/fundamental/valuation/pe-ttm",
+    "status": "error",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

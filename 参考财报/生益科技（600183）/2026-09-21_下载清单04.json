@@ -1,0 +1,18 @@
+[
+  {
+    "file": "2026-04-29_生益科技_一季报.pdf",
+    "url": "https://file.finance.sina.com.cn/211.154.219.97:9494/DIS/CNSESH_STOCK/2026/2026-4/2026-04-29/12245151.PDF",
+    "access_date": "2026-09-21",
+    "status": "ok",
+    "bytes": 182362,
+    "sha256": "201cc8bba65fe5d79614cc74b675c6510cef953db6cef92c803fd3ac60def877"
+  },
+  {
+    "file": "2026-08-24_华泰证券_研报摘录.html",
+    "url": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/840895528819/index.phtml",
+    "access_date": "2026-09-21",
+    "status": "ok",
+    "bytes": 28757,
+    "sha256": "72ed487f6a69d8c92261c4814c848cc9c5226580acc77a2b6799c443c9fd8d06"
+  }
+]

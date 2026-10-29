@@ -1,0 +1,72 @@
+[
+  {
+    "file": "2026-08-24_建滔_中期业绩.pdf",
+    "url": "https://www.kblaminates.com/en/upload/portal/20260824/202608241223596609.pdf",
+    "access_date": "2026-09-21",
+    "status": "ok",
+    "bytes": 90756,
+    "sha256": "885ad5f83bf72683415f6c32fb4a561adc50121e836a529334819cb0ecb8889c"
+  },
+  {
+    "file": "2026-09-07_台光电_1至8月收入.pdf",
+    "url": "https://www.emctw.com/upload/media/New_Investors/Financial_Information/Monthly_Revenue/EN/2026_Monthly_revenue_EN8.pdf",
+    "access_date": "2026-09-21",
+    "status": "ok",
+    "bytes": 760488,
+    "sha256": "0b8818dced8ecc7674fa69600691f84edeaccec108eab4a698df1e7524a4d91f"
+  },
+  {
+    "file": "2026-09-21_台光电_2026Q2财报.pdf",
+    "url": "https://www.emctw.com/upload/media/New_Investors/Financial_Information/Quarterly_Results/Consolidated/EN/2026/2026Q2.pdf",
+    "status": "error",
+    "error": "Stream has ended unexpectedly"
+  },
+  {
+    "file": "2026-09-21_台光电_官网行情.html",
+    "url": "https://www.emctw.com/en-global/investors_news/index/4",
+    "access_date": "2026-09-21",
+    "status": "ok",
+    "bytes": 110249,
+    "sha256": "b6c84625f19dbdba14dda6fbe5fef5c1f5b2fb18499cf43da92ed20414526b30"
+  },
+  {
+    "file": "2026-09-21_建滔_行情.html",
+    "url": "https://www.etnet.com.hk/www/tc/stocks/realtime/quote.php?code=1888",
+    "access_date": "2026-09-21",
+    "status": "ok",
+    "bytes": 284267,
+    "sha256": "58441a88341913c94375e1220907a012a9abbc375c98cbcc7ffaf7d90d1a2758"
+  },
+  {
+    "file": "2026-08-17_招银国际_研报摘录.html",
+    "url": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/840300373485/index.phtml",
+    "access_date": "2026-09-21",
+    "status": "ok",
+    "bytes": 29169,
+    "sha256": "88f5cb0f4f76fe345ea36b6c489a22e5f05f274331a075ffe128b798d0c0e623"
+  },
+  {
+    "file": "2026-09-21_沪电_盈利预测.html",
+    "url": "https://basic.10jqka.com.cn/002463/worth.html",
+    "access_date": "2026-09-21",
+    "status": "ok",
+    "bytes": 228058,
+    "sha256": "2cfb1ea914d0febd7adb48b852beaee1efdcad619c62020afca3bcab045ccc0b"
+  },
+  {
+    "file": "2026-09-21_南亚_盈利预测.html",
+    "url": "https://basic.10jqka.com.cn/688519/worth.html",
+    "access_date": "2026-09-21",
+    "status": "ok",
+    "bytes": 100379,
+    "sha256": "c3f4b689759cee756f57f6b3e5be0a0f932effd79512ae031339f73ec71134be"
+  },
+  {
+    "file": "2026-09-21_华正_盈利预测.html",
+    "url": "https://basic.10jqka.com.cn/603186/worth.html",
+    "access_date": "2026-09-21",
+    "status": "ok",
+    "bytes": 80976,
+    "sha256": "92b611d16e86e5bd3515336390c834f5a81eef17785d901fd3018817c54a5839"
+  }
+]

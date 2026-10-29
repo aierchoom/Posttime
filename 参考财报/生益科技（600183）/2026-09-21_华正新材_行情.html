@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<!-- 爱股圈股票参数 -->
+	<script src="https://cdn1.aigupiao.com/sr/pc/js/stock/agq_stock_header.js?v=20260920145637122"></script>
+	
+	    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit" />
+    <meta name="force-rendering" content="webkit" />
+    <title>华正新材 sh603186 的股票股价,行情,直播,新闻,财报,数据 - 爱股票</title>
+            <meta name="keywords" content="华正新材 sh603186,股票股价,股价行情,财报报告,数据报告,爱股票" /> 
+    <meta name="description" content="爱股票提供华正新材 sh603186,股票的行情走势、五档盘口、逐笔交易等实时行情数据，及华正新材 sh603186的用户讨论、新闻资讯、行业研报、公司公告、F10资料等与华正新材 sh603186有关的信息和服务。" />
+    <meta name="author" content="爱股票" />
+    <meta name="from" content="爱股票" />
+    <meta name="copyright" content="爱股票网版权所有" />
+    
+	<!-- Core CSS file -->
+	<!-- <link rel="stylesheet" href="/Public/static/api/js/pswp/photoswipe.css?v=20260920145637122" /> -->
+
+	<!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+         In the folder of skin CSS file there are also:
+         - .png and .svg icons scripte,
+         - preloader.gif (for browsers that do not support CSS animations)
+     -->
+	<!-- <link rel="stylesheet" href="/Public/static/api/js/pswp/default-skin/default-skin.css?v=20260920145637122" /> -->
+	<link rel="stylesheet" href="https://cdn1.aigupiao.com/pc/css/stock_market/stock_market.css?v=20260920145637122">
+	<link rel="stylesheet" href="https://cdn1.aigupiao.com/sr/sass/pc/stocktalk/stocktalk.css?v=20260920145637122">
+	<link rel="stylesheet" href="https://cdn1.aigupiao.com/sr/sass/pc/stock_market/stock_market.css?v=20260920145637122">
+
+<!-- {/-- html_footer.html --/} -->
+<script src="https://www.aigupiao.com/common/js?v=20260920145637122"></script>
+
+<script>
+  var page_tougu_data_list = [], has_page_tougu_data_list = false;
+  function initTouGuDataFn(type) {
+    try {
+      let tougu_data_list = typeof JF_TOUGU_DATA != "undefined"? JF_TOUGU_DATA: [];
+      for(let i=0,ilen=tougu_data_list.length;i<ilen;i++) {
+        page_tougu_data_list.push(tougu_data_list[i].id);
+      }
+    } catch(e) {
+
+    }
+
+    if(page_tougu_data_list && page_tougu_data_list.length > 0) {
+      has_page_tougu_data_list = true;
+    } else if(type != 'init') {
+      has_page_tougu_data_list = false;
+    }
+  }
+
+  initTouGuDataFn('init');
+
+  function initMedalH(arr=[]) {
+    let if_value = JSON.parse(JSON.stringify(arr));
+    try {
+        let page_medal_info = JSON.parse(MEDAL);
+        let page_medal_tougu_info = JSON.parse(MEDAL_TOUGU);
+        if(page_medal_info && page_medal_info.is_hide_serve_vip && page_medal_info.is_hide_serve_vip == "yes") {
+          if(!has_page_tougu_data_list) {
+            initTouGuDataFn('getData')
+          }
+          if (typeof if_value === "object" && if_value !== null) {
+              if (Array.isArray(if_value)) { // 数组
+                  for(let i_hpb=0,i_hpb_len=if_value.length;i_hpb<i_hpb_len;i_hpb++) {
+                    let has_include_user = page_tougu_data_list.indexOf(if_value[i_hpb].user_id + '') > -1;
+                      if(if_value[i_hpb].kind == 'serve_vip') {
+                        if(has_include_user) {
+                          if_value[i_hpb].title = ''; 
+                          // page_medal_tougu_info
+                        } else {
+                          if_value[i_hpb].title = page_medal_info.title;
+                          if_value[i_hpb].image = page_medal_info.image;
+                          if_value[i_hpb].remarks = page_medal_info.remarks;
+                        }
+                      } else if(has_include_user) {
+                        if_value[i_hpb].title = ''; 
+                        if_value[i_hpb].image = page_medal_tougu_info.image;
+                        if_value[i_hpb].remarks = page_medal_tougu_info.remarks;
+                      }
+                  }
+              } else {    // 对象
+                let has_include_user = page_tougu_data_list.indexOf(if_value.user_id + '') > -1;
+                  if(if_value && if_value.kind == 'serve_vip') {
+                    if(has_include_user) {
+                      if_value.title = ''; 
+                    } else {
+                      if_value.title = page_medal_info.title;
+                      if_value.image = page_medal_info.image;
+                      if_value.remarks = page_medal_info.remarks;
+                    }
+                  } else if(has_include_user) {
+                    if_value.title = ''; 
+                    if_value.image = page_medal_tougu_info.image;
+                    if_value.remarks = page_medal_tougu_info.remarks;
+                  }
+              }
+          } else {
+              
+          }
+        }
+    } catch(e) {
+
+    }
+
+    return if_value
+  }
+</script>
+<!-- script src="https://cdn1.aigupiao.com/sr/lib/sentry/index.js?v=20260920145637122"></script -->
+<script src="https://cdn1.aigupiao.com/sr/??lib/jquery/jquery.1.11.1.min.js,lib/vue/2.6.14/vue.js"></script>
+<script src="https://cdn1.aigupiao.com/sr/lib/layer/3.5.1/layer.js?v=20260920145637122"></script>  
+<script src="https://cdn1.aigupiao.com/sr/??common/js/polyfill/polyfill.js,common/js/common/agpcommon.js,components/pc/pcVueCom/agpComponents.js,components/pc/pcVueCom/vuebuild_agp_ai.js?v=20260920145637122"></script>
+<link rel="stylesheet" href="https://cdn1.aigupiao.com/sr/common/css/reset/1.0.css?v=20260920145637122" />    
+
+<script src="https://cdn.aigupiao.com/static/util/qrcode.min.js?v=20260920145637122" type="text/javascript"></script>
+
+<link rel="stylesheet" href="https://cdn1.aigupiao.com/sr/??sass/pc/components/header/comHeader.css,sass/pc/plug/face.css,sass/pc/plug/writepost.css,pc/css/draft/save_drafts_manually.css,sass/pc/letter/letter.css,sass/pc/message/liverMsg.css?v=20260920145637122" />    
+<script src="https://cdn1.aigupiao.com/sr/??pc/js/loginPop/loginDialog.js,common/js/face/face21.js,common/js/cos_js_sdk/cos-js-sdk-v5.js,common/js/upimg/agpUpImg.js,lib/jquery.plug/caret/jquery.caret.js,common/js/topic/quickinput.js,common/js/components/upfilepop/upfilepop.js,common/js/components/writepost/writepost.js,pc/js/writeinfo/writeinfo.js,pc/js/draft/save_draft_manually.js?v=20260920145637122"></script>
+
+<link rel="stylesheet" href="https://cdn1.aigupiao.com/sr/lib/photoswipe/photoswipe.css?v=20260920145637122" />    
+<link rel="stylesheet" href="https://cdn1.aigupiao.com/sr/lib/photoswipe/default-skin/default-skin.css?v=20260920145637122" />    
+<script src="https://cdn1.aigupiao.com/sr/??lib/photoswipe/photoswipe.js,lib/photoswipe/photoswipe-ui-default.js,common/js/imgView/initPhotoSwipe_all.js?v=20260920145637122"></script>
+<script src="https://cdn1.aigupiao.com/sr/??/pc/js/tips/user_tips.js?v=20260920145637122"></script>
+<script>
+  /*let _h_host = location.hostname;
+  let _h_cur = 'production';
+  if(_h_host.indexOf('dev') > -1) {
+    _h_cur = 'dev'
+  } else if(_h_host.indexOf('beta') > -1) {
+    _h_cur = 'beta'
+  }
+  Sentry.init({
+      dsn: "https://60d7f560cc6e45e9ac21a3d54bf85ec9@sentry.aigupiao.com/28",
+      release: '1.0.0', // 代码版本,通过版本号可以知道产生的bug是由哪个版本发布产生的
+      environment: _h_cur,
+  }); */
+
+  
+  // Sentry.captureException('error test 2023年6月13日13:51:35')
+</script>
+<script type="text/javascript">  
+
+
+	var _Libs={"md":"7956ab3c3f75f5dfc6002b8e516e5094"}, userInfo= {"followed_num":0,"follow_num":0},  _Url ={"www":"www.aigupiao.com","apis":"apis.aigupiao.com","app":"app.aigupiao.com","mobile":"mobile.aigupiao.com","quote":"quote.aigupiao.com","lgstatus":"https:\/\/www.aigupiao.com\/Home\/Login\/status?is_new_template=1"};
+	// console.log(userInfo,"userInfo header")
+	
+	var  stock_data= {"quote":{"code":"sh603186","symbol":"603186","exchange":"SH","name":"\u534e\u6b63\u65b0\u6750","last":"226.78","hst_close":"230","chg":"-3.220","chg_pct":"-1.40","open":"237.94","high":"242.8","low":"220.100","buy":"226.76","sell":"226.78","volume":229093,"amount":525123.7376,"bidprice1":"226.760","bidprice2":"226.750","bidprice3":"226.700","bidprice4":"226.680","bidprice5":"226.660","bidvolume1":1,"bidvolume2":19,"bidvolume3":1,"bidvolume4":1,"bidvolume5":1,"askprice1":"226.780","askprice2":"226.790","askprice3":"226.800","askprice4":"226.850","askprice5":"226.870","askvolume1":93,"askvolume2":7,"askvolume3":128,"askvolume4":2,"askvolume5":2,"askvolume":"9300","bidvolume":"100","currentvolume":"9300","mkt_time":"2026-09-18 15:00:03","rec_time":"2026-09-18 15:10:02","code_upper":"SH603186","hsl":14.611407098409,"jtsyl":116.29743589744,"dtsyl":99.464912280702,"sjl":14.434013302358,"zf":9.8695652173913,"zwbl":23,"zwsl":232,"wx":-209,"wb":-81.960784313725,"ztj":"253.00","dtj":"207.00","zsz":3555695.231136,"ltsz":3555695.231136,"zsz_f":355.5695231136,"ltsz_f":355.5695231136,"state":"down","volume_f":22.9093,"zt_num":"--","dt_num":"--","pp_num":"--","sz_num":"--","xd_num":"--","amplitude":"9.87","s2nFund":"--","volume_ratio":"--","ttmsyl":82.44},"exchange":"SH","name":"\u534e\u6b63\u65b0\u6750","code":"sh603186","finance":{"code":"sh603186","symbol":"603186","bgq":"","jlr":"0.0000","mgsy":"1.9500","dtmgsy":"2.2800","ttmmgsy":"2.7508","mgjzc":"15.7115","jzcsyl":"0.0000","ltg":15679.0512,"zgb":15679.0512,"rzrq":"","rec_time":"2026-09-14 06:44:31","unitnav":"0.000000","growrate":"0.0000","create_date":"","iopv":"0.0000","jjcnfe":"0.00","jjgm":"0.00","ltg_f":1.56790512,"zgb_f":1.56790512},"introduce":"\u6d59\u6c5f\u534e\u6b63\u65b0\u6750\u6599\u80a1\u4efd\u6709\u9650\u516c\u53f8(\u4ee5\u4e0b\u7b80\u79f0\u201c\u534e\u6b63\u65b0\u6750\u201d)\u6210\u7acb\u4e8e2003\u5e74,\u662f\u534e\u7acb\u96c6\u56e2\u7684\u63a7\u80a1\u6210\u5458\u4f01\u4e1a,\u662f\u56fd\u5185\u6700\u65e9\u4ece\u4e8b\u7814\u53d1\u751f\u4ea7\u73af\u6c27\u6811\u8102\u8986\u94dc\u677f\u7684\u4f01\u4e1a\u4e4b\u4e00,\u8fde\u7eed\u83b7\u5f97\u4e94\u5c4a\u201c\u4e2d\u56fd\u5370\u5236\u7535\u8def\u884c\u4e1a\u4f18\u79c0\u6c11\u65cf\u54c1\u724c\u4f01\u4e1a\u201d\u79f0\u53f7\u30022017\u5e741\u67083\u65e5,\u534e\u6b63\u65b0\u6750(\u80a1\u7968\u4ee3\u7801:603186)\u6b63\u5f0f\u5728\u4e0a\u6d77\u8bc1\u5238\u4ea4\u6613\u6240A\u80a1\u4e0a\u5e02\u3002\u516c\u53f8\u5df2\u901a\u8fc7ISO9001\u8d28\u91cf\u7ba1\u7406\u4f53\u7cfb\u3001IATF16949\u6c7d\u8f66\u677f\u8d28\u91cf\u7ba1\u7406\u4f53\u7cfb\u548cISO14001\u73af\u5883\u7ba1\u7406\u4f53\u7cfb\u8ba4\u8bc1,\u4e3b\u8425\u8986\u94dc\u677f(\u5305\u62ec\u7c98\u7ed3\u7247)\u3001\u590d\u5408\u6750\u6599(\u5305\u62ec\u529f\u80fd\u6027\u590d\u5408\u6750\u6599\u548c\u4ea4\u901a\u7269\u6d41\u7528\u590d\u5408\u6750\u6599)\u548c\u819c\u6750\u6599\u7b49\u4ea7\u54c1\u7684\u8bbe\u8ba1\u3001\u7814\u53d1\u3001\u751f\u4ea7\u53ca\u9500\u552e,\u4ea7\u54c1\u5747\u5df2\u901a\u8fc7\u4e2d\u56fdCQC\u3001\u7f8e\u56fdUL\u8ba4\u8bc1\u4e14\u7b26\u5408\u6b27\u76dfREACH\u3001ROHS\u6807\u51c6,\u5e76\u5e7f\u6cdb\u5e94\u7528\u4e8e5G\u901a\u8baf\u3001\u670d\u52a1\u5668\u3001\u6570\u636e\u4e2d\u5fc3\u3001\u534a\u5bfc\u4f53\u5c01\u88c5\u3001\u65b0\u80fd\u6e90\u6c7d\u8f66\u3001\u667a\u6167\u5bb6\u7535\u3001\u533b\u7597\u8bbe\u5907\u3001\u8f68\u9053\u4ea4\u901a\u3001\u7eff\u8272\u7269\u6d41\u7b49\u9886\u57df\u3002\u5148\u540e\u8363\u83b7\u4e2d\u56fd\u9a70\u540d\u5546\u6807\u3001\u56fd\u5bb6\u9ad8\u65b0\u6280\u672f\u4f01\u4e1a\u3001\u4e2d\u56fd\u5370\u5236\u7535\u8def\u884c\u4e1a\u4f18\u79c0\u6c11\u65cf\u54c1\u724c\u3001\u6d59\u6c5f\u7701\u4f01\u4e1a\u6280\u672f\u4e2d\u5fc3\u3001\u56fd\u5bb6\u4f01\u4e1a\u6280\u672f\u4e2d\u5fc3\u3001\u6d59\u6c5f\u7701\u91cd\u70b9\u4f01\u4e1a\u7814\u7a76\u9662\u7b49\u79f0\u53f7\u3002\u8fc4\u4eca,\u534e\u6b63\u65b0\u6750\u62e5\u6709\u4e09\u5927\u4e3b\u8981\u751f\u4ea7\u57fa\u5730,\u4e1a\u52a1\u8986\u76d6100\u591a\u4e2a\u56fd\u5bb6\u548c\u5730\u533a\u3002\u5c55\u671b\u672a\u6765,\u534e\u6b63\u5c06\u7ee7\u7eed\u79c9\u6301\u521b\u65b0\u4e0e\u4e13\u4e1a\u7cbe\u795e\u53cc\u8f6e\u9a71\u52a8,\u59cb\u7ec8\u4e0e\u65f6\u4ee3\u5171\u547c\u5438,\u7a81\u7834\u5173\u952e\u6838\u5fc3\u6280\u672f,\u6253\u7834\u6280\u672f\u5784\u65ad,\u81f4\u529b\u4e8e\u6210\u4e3a\u9ad8\u7aef\u7535\u5b50\u57fa\u7840\u6750\u6599\u548c\u7279\u79cd\u590d\u5408\u6750\u6599\u7b49\u65b0\u6750\u6599\u5e94\u7528\u9886\u57df\u603b\u4f53\u89e3\u51b3\u65b9\u6848\u7684\u63d0\u4f9b\u5546\u3002","bidprice1":"226.76","bidprice2":"226.75","bidprice3":"226.7","bidprice4":"226.68","bidprice5":"226.66","bidvolume1":1,"bidvolume2":19,"bidvolume3":1,"bidvolume4":1,"bidvolume5":1,"askprice1":"226.78","askprice2":"226.79","askprice3":"226.8","askprice4":"226.85","askprice5":"226.87","askvolume1":93,"askvolume2":7,"askvolume3":128,"askvolume4":2,"askvolume5":2,"askvolume":"9300","bidvolume":"100","currentvolume":"9300","mkt_time":"2026-09-18 15:00:03","rec_time":"2026-09-18 15:09:58","code_upper":"SH603186","tradding_time":"no","workday_nine_half":false,"stock_type":"","hot_stock_ranking":"","self_stock_user_num":"20296"};
+	console.log('stock_data',stock_data,stock_data.introduce)
+
+	var news_before=''; //新闻before值
+	var stockName='华正新材';
+	var stock_code='sh603186';//股票代码带sh,sz
+	var o_symbol = '603186';//股票代码不带sh,sz
+	var o_act = 'stock';
+	var l_id = userInfo.l_id;
+	var USER_AVATAR = userInfo.avatar;
+	var yestoday_close = Number(230); //昨日收盘;
+
+
+	
+
+</script>
+</head>
+
+<body>
+
+<div id="comHeader" style="min-height: 80px;"></div>
+<script>
+  (function(){
+    if(window.AGQCONFIG){
+      $('#comHeader').remove();
+    }
+    else{
+      var agpComHeadNavVCfn = Vue.extend(AGPVC["agp-header-nav"]);
+      window.agpComHeadNavVCDomHpb = new agpComHeadNavVCfn({
+        el: "#comHeader",
+      });
+    }
+
+  })()
+  </script>
+<section class="main_wrap">
+	<p class="logo_img"><img alt="官网logo" class="logo" title="官网logo" src="https://cdn.aigupiao.com/logo121x75.jpg" style="width:1px;height:1px;visibility:hidden;"></p>
+	<div class="main_box clearfix">
+		<nav class="breadcrumbs">
+			<a href="https://www.aigupiao.com" target="_blank">首页</a>
+			<span></span>
+			<a href="https://stock.aigupiao.com/stock_rank?type=up&page=1" target="_blank">行情中心</a>
+			<span></span>
+			<a href="javascript:;" class="current_nav">华正新材</a>
+		</nav>
+		<div class="main_left">
+			<div class="my_hot_box">
+				<div class="my_hot_trigger">
+					<p class="my_optional active">我的自选</p>
+					<p class="hot_stock">热门股票</p>
+				</div>
+				<ul class="my_hot_content my_stock1">
+					<div id="my_stock1">
+						<div class="no_checked_box">
+							<div class="no_checked_img"></div>
+															<!-- 未登录 -->
+								<p class="no_checked_text agq_none">登录查看自选股</p>
+								<a href="javascript:;" class="js-loginBtn go_add_stock agq_none">去登录</a>						</div>
+					</div>
+
+				</ul>
+				<ul class="my_hot_content my_stock2" style="display: none">
+					<div id="my_stock2"></div>
+				</ul>
+			</div>
+
+						<!--如果是个股页面 6-->
+
+				<div class="related_notion_box">
+					<div class="left_common_title related_notion">所属板块</div>
+					<ul class="related_notion_content">
+					</ul>
+				</div>
+				<div class="industry_contrast_box">
+					<div class="left_common_title industry_contrast"><span>行业对比：</span><span id="industry_contrast_name">--</span></div>
+					<ul class="my_hot_content industry_contrast_content">
+
+					</ul>
+				</div>
+				<div class="discussion_user_box">
+					<div class="left_common_title discussion_user">讨论过该股的用户</div>
+					<ul class="discussion_user_content clearfix">
+					</ul>
+					<p class="transform" id="transform">换一换</p>
+				</div>
+
+		</div>
+		<div class="main_M">
+			<div class="stock_header_wrap stock_market_only">  
+				<div class="stock_data_public clearfix">
+					<h1>华正新材</h1>
+											<span>SH603186</span>
+					<a class="hot_rank" href="/pcv/quote/list/type/hot" target="_blank" style="display: none;" ></a>
+
+					
+					<a href="javascript:add_stock();" class="add_stock"><i></i><em>自选</em></a>
+			        
+					<a href="" class="refrsh_icon">
+						刷新
+					</a>
+
+					<div class="simu">
+						<p><i></i><i></i></p>
+						<h3>模拟</h3>
+					</div> 
+
+				</div>
+				<div class="stock_concise_data clearfix">
+					<div class="concise_data_left clearfix">
+						<div class="concise_data_synopsis" style="color:#0AC890;"  >
+							<h4  >226.78</h4>
+														<i class="depreciate"></i>
+							<span  >-3.22</span>
+
+							<span style="margin-right:0;">-1.40%</span>
+						</div>
+
+
+						  
+
+
+						<b>
+							<p id="self_num" style="text-align: right;margin-bottom:7px;">
+								<i id="self_stock_user_num">--</i>人已自选
+							</p>
+							<p>
+								<i id="is_trading"></i>
+								<em id="mkt_time">
+									2026-09-18 15:00:03								</em>
+							</p>
+              <script>
+                window.page_self_stock_user_num = `20296` || 0;
+              </script>
+
+						</b>
+					</div>
+
+				</div>
+
+									<ul class="stock_detailed_data clearfix">
+						<li><span>今&nbsp;&nbsp;&nbsp;开：</span><b style="color:#FE484A;">237.94</b></li>
+						<li><span>最&nbsp;&nbsp;&nbsp;高：</span><b style="color:#FE484A">242.80</b></li>
+						<li><span>换手率：</span><b>14.61%</b></li>
+						<li><span>市净率：</span><b>14.43</b></li>
+
+						<li><span>昨&nbsp;&nbsp;&nbsp;收：</span><b>230.00</b></li>
+						<li><span>最&nbsp;&nbsp;&nbsp;低：</span><b style="color:#0AC890">220.10</b></li>
+						<li><span>振&nbsp;&nbsp;&nbsp;幅：</span><b>9.87%</b></li>
+						<li><span>市盈率(TTM)：</span><b>82.44</b></li>
+
+						<li><span>涨&nbsp;&nbsp;&nbsp;停：</span><b style="color:#FE484A;">253.00</b></li>
+						<li class="cheng_jiao_e"><span>成交额：</span><b>52.51亿</b></li>						<li><span>总市值：</span><b>355.57亿</b></li>
+						<li><span>市盈率(动)：</span><b>99.46</b></li>
+
+
+						<li><span>跌&nbsp;&nbsp;&nbsp;停：</span><b style="color:#0AC890;">207.00</b></li>
+						<li class="cheng_jiao_liang"><span>成交量：</span><b id="chart_volumn">22.91万手</b></li>
+
+						<li><span>流通值：</span><b>355.57亿</b></li>
+						<li><span>市盈率(静)：</span><b>116.30</b></li>
+
+					</ul>
+          <script>
+            let else_volume = "229093"
+            let else_amount = "525123.7376"
+            if(else_volume * 1 > 0) {
+              $(".cheng_jiao_liang b").html(unitConversionFn(else_volume)+'手')
+            }
+            if(else_amount * 1 > 0) {
+              $(".cheng_jiao_e b").html(unitConversionFn(else_amount * 10000))
+            }
+            // 单位转换
+            function unitConversionFn(value) {
+                let _str = '', _value = value * 1;
+
+                if (_value>99999999) {
+                    _str =  (_value/100000000).toFixed(2) + '亿'
+                }else if(_value>9999){
+                    _str = (_value/10000).toFixed(2) + '万';
+                } else {
+                    _str = _value;
+                }
+
+                return _str;
+            }
+          </script>
+			</div>
+			<div id="VueClassRollModDown"></div>
+			<div class="market_map_wrap" >
+				<span id="chartCode" type="text" style="display:none;">sh603186</span><span id="chartNumber" style="display:none;">603186</span>
+	      <span id="chartName" style="display:none;">华正新材</span>
+				<div class="qs_header stock_map_nav qs_header_more"> 
+					<a href="javascript:;" class="active chartTab chartTab_time"><b>分时</b></a>
+					<!-- <a href="javascript:;" class="chartTab" style="display:none;"><b>五日</b></a> -->
+					<a href="javascript:;" class="chartTab chartTab_day" data-type="daily"><b>日k</b></a>
+					<a href="javascript:;" class="chartTab chartTab_week" data-type="weekly"><b>周k</b></a>
+					<a href="javascript:;" class="chartTab chartTab_month" data-type="monthly"><b>月k</b></a>  
+					<!-- 新增k -->
+					<a href="javascript:;" class="chartTab chartTab_none" data-type="yearly"><b>年K</b></a>
+					<a href="javascript:;" class="chartTab chartTab_none" data-type="5"><b>5分</b></a>
+					<a href="javascript:;" class="chartTab chartTab_none" data-type="15"><b>15分</b></a>     
+					<a href="javascript:;" class="chartTab chartTab_none" data-type="30"><b>30分</b></a>  
+					<a href="javascript:;" class="chartTab chartTab_none" data-type="60"><b>60分</b></a>    
+				</div> 
+				<div class="market_map_box clearfix" >
+					<div class="map_detail" style="background-color: #fff;position: relative;">
+						 <div id="chartBox" style="padding-top:10px;">
+	                       	<div class="chartLoading" style="display:none;width:100%;height:100%;position: absolute;top: 0;left: 0;"><img style="display:block;position:relative;width:30px;height:30px;top:50%;left:50%;margin:-15px 0 0 -15px;" src="https://cdn.aigupiao.com/static/pc/img/loading.gif" alt=""></div>
+	                        <div id="chart1" style="width:640px;height: 271px;"></div>
+	                        <div id="chart2" style="width:640px;height: 160px;"></div>
+	                        <div id="chart3" style="width:640px;height: 271px;display:none;"></div>
+	                        <div id="chart4" style="width:640px;height: 120px;display:none;"></div> 
+	                       </div>
+					</div>
+				</div>
+			</div>
+			<!-- 发布评论input start -->
+
+			<div class="fabu_discuss_wrap">
+					<div class="info_fabu v2_right_login">
+						<a href="javascript:;" class="info_fabuBg" id="login_btn" style="display:none;"></a>
+						<div class="yh_srText faceOut _home_quote_stock_market_1">
+                                                            <div class="avatar_box">
+                                    <img src="https://cdn.aigupiao.com/static/pc/img/no_login.png" alt="">
+                                </div>							<textarea name="textarea" class="faceOut_ipt yh_srTextArea emotion js-agpTopicInput" id="v2_publishIpt" data-placeholder="在这里发表对华正新材(603186.SH)的评论" placeholder="在这里发表对华正新材(603186.SH)的评论" cols="58" rows="1" ></textarea>
+						</div>
+
+						<div id="fabuBtn" class="fabu_bottom clearfix">
+							<div class="expression faceWarp pub_downAble" id="face">
+								<div class="agpWriteToolsWarp" style="min-width: 222px; padding: 0; margin: -5px 0 0 -5px;">
+									<div>
+										<span data-tarid="v2_publishIpt" class="spanBtn js-faceBtnV2 openFacePopBtn">表情</span>
+										<span class="spanBtn js-open-AgpUpFilePop-imgVideo-stock211011 open-AgpUpFilePop-btn">图片<i></i></span>
+										<span data-tarid="v2_publishIpt" class="spanBtn js-addTopicBtn openTopicPopBtn" style="display:none;">话题</span>
+										<span data-tarid="v2_publishIpt" class="open-AgpStockTalk-btn open-AgpStockTalk-btn-class">
+											个股讨论
+										</span>
+										<div id="agq_fabu" style="display:none;"></div> 
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="sync_dynamic"><span>同步到:</span>
+              <label><input type="checkbox" id="sync_dynamic"><span>我的主页</span></label>
+            </div>
+						<div class="sync_live"><span>同步到:</span>
+              <label><input type="checkbox" id="sync_input"><span>我的主页</span></label>
+            </div>
+
+						   
+ 
+
+						<div class="publish_cancel_box"style="display: none;">
+							<a href="javascript:;" class="discuss_cancel">取消</a>
+							<div class="publication_able" id="pbBtn">
+								<span class="publication_text">发&nbsp;布</span>
+							</div>
+						</div>
+					</div>
+			</div>
+
+			<div class="stock_info_list">
+				<div class="stock_info_nav ">
+					<a href="javascript:;" class="discuss_tab active" id="stock_disLi"><b>讨论</b></a>
+					<a href="javascript:is_stock('news');" id="stock_disLi2"><b>新闻</b></a>
+										<a href="javascript:is_stock('report');"><b>研报</b></a>
+					<a href="javascript:is_stock('notice');"><b>公告</b></a>
+					<a href="javascript:is_stock('investInteraction');"><b>互动</b></a>
+					<a id="ziliao" href="javascript:is_stock('comment');"><b>资料</b></a>				</div>
+
+				<div class="column_sel">
+					<span class="" data-kind="hot_content">热帖</span>
+					<span class="column_sel_active" data-kind="">最新</span>               
+				</div>
+
+				<!--新闻、公告、研报、f10 456-->
+				<ul class="company_info_detail" style="display: none">
+	   			</ul>
+	
+	   			<div class="load_more_wrap" style="display: none">
+	   				
+	   			</div>
+			</div>
+			<div class="stock_discuss_list">
+			<!--讨论-->
+				<input type="hidden" id="lastMsgRecTime" value="0">
+	   			<ul class="live_detail_list init-photo-gallery" style="display:block;"></ul>
+				<div class="discuss_loading" style="display:none;height: 500px;padding-top: 100px;">
+					<img src="https://cdn.aigupiao.com/static/pc/img/loading.gif" alt="">
+				</div>
+				<div class="load_more_discuss" >
+					<a href="javascript:;" class="load_more_stock stockDis_loadmore">加载更多</a>
+				</div>
+				<div class="no_more_info" style="display: none">暂无更多内容</div> 
+
+			</div>
+		</div>
+		<div id="com_loading" style="display:none;">
+			<img src="https://cdn.aigupiao.com/static/pc/img/loading.gif" alt="">
+		</div>
+		<div class="main_right">
+			<!-- 广告位221221 -->
+			<div id="banner2212"></div>
+			<script>
+				//广告位
+				//agpComStr.banner();
+			</script>
+			
+
+
+				<div class="stock_deal" style="display:block;">
+					<div class="stock_market_trade">
+						<div class="trade_nav stock_deal_trigger clearfix">
+							<a href="javascript:;" class="concise_btn deal active">买卖五档</a>
+							<a href="javascript:;" class="particulars">成交明细</a>
+						</div>
+						<div class="trade_wrap">
+							<ul class="trade_five">
+								<li>
+								<span>卖5</span>
+								<b style="color:#0AC890;">
+									--</b>
+								<em>--</em>
+								</li>
+								<li>
+									<span>卖4</span>
+									<b style="color:#0AC890;">
+										--
+									</b>
+									<em>--</em>
+								</li>
+								<li>
+									<span>卖3</span>
+									<b style="color:#0AC890;">
+										--
+									</b>
+									<em>--</em>
+								</li>
+								<li>
+									<span>卖2</span>
+									<b style="color:#0AC890;">
+										--
+									</b>
+									<em>--</em>
+								</li>
+								<li style="margin-bottom:10px;">
+									<span>卖1</span>
+									<b style="color:#0AC890;">
+										--
+									</b>
+									<em>--</em>
+								</li>
+								<li>
+									<span>买1</span>
+									<b style="color:#0AC890;">
+										--
+									</b>
+									<em>--</em>
+								</li>
+								<li>
+									<span>买2</span>
+									<b style="color:#0AC890;">
+										--
+									</b>
+									<em>--</em>
+								</li>
+								<li>
+									<span>买3</span>
+									<b style="color:#0AC890;">
+										--
+									</b>
+									<em>--</em>
+								</li>
+								<li>
+									<span>买4</span>
+									<b style="color:#0AC890;">
+										--
+									</b>
+									<em>--</em>
+								</li>
+								<li>
+									<span>买5</span>
+									<b style="color:#0AC890;">
+										--
+									</b>
+									<em>--</em>
+								</li>
+								</ul>
+								<ul class="trade_detail">
+									<li><span>时间</span><b>成交价</b><em>成交量</em></li>
+
+									<li>
+											<span>14:57</span>
+											<b style="color:#0AC890;">226.01</b>
+											<em style="color:#0AC890;">115<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:56</span>
+											<b style="color:#0AC890;">227.15</b>
+											<em style="color:#FE484A;">179<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:56</span>
+											<b style="color:#0AC890;">227.00</b>
+											<em style="color:#FE484A;">199<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:56</span>
+											<b style="color:#0AC890;">226.95</b>
+											<em style="color:#0AC890;">158<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:56</span>
+											<b style="color:#0AC890;">227.00</b>
+											<em style="color:#0AC890;">382<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:56</span>
+											<b style="color:#0AC890;">227.10</b>
+											<em style="color:#0AC890;">868<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:55</span>
+											<b style="color:#0AC890;">227.33</b>
+											<em style="color:#0AC890;">133<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:55</span>
+											<b style="color:#0AC890;">227.33</b>
+											<em style="color:#0AC890;">141<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:55</span>
+											<b style="color:#0AC890;">227.39</b>
+											<em style="color:#98989;">101<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:55</span>
+											<b style="color:#0AC890;">227.39</b>
+											<em style="color:#FE484A;">205<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:55</span>
+											<b style="color:#0AC890;">227.31</b>
+											<em style="color:#0AC890;">471<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:55</span>
+											<b style="color:#0AC890;">227.67</b>
+											<em style="color:#FE484A;">90<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:54</span>
+											<b style="color:#0AC890;">227.60</b>
+											<em style="color:#FE484A;">169<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:54</span>
+											<b style="color:#0AC890;">227.51</b>
+											<em style="color:#98989;">177<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:54</span>
+											<b style="color:#0AC890;">227.50</b>
+											<em style="color:#FE484A;">91<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:54</span>
+											<b style="color:#0AC890;">227.48</b>
+											<em style="color:#FE484A;">355<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:54</span>
+											<b style="color:#0AC890;">227.44</b>
+											<em style="color:#FE484A;">91<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:53</span>
+											<b style="color:#0AC890;">227.35</b>
+											<em style="color:#FE484A;">70<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:53</span>
+											<b style="color:#0AC890;">227.18</b>
+											<em style="color:#0AC890;">290<i style="color:red;display:none;">S</i></em>
+										</li><li>
+											<span>14:53</span>
+											<b style="color:#0AC890;">227.26</b>
+											<em style="color:#0AC890;">721<i style="color:red;display:none;">S</i></em>
+										</li>								</ul>
+						</div>
+							</div>
+							</div>
+
+
+				<div id="pc_index_left_adv_image2">
+
+				</div>
+
+				<script>
+					agpComStr.bannerF();
+				</script>
+
+
+				<div class="attention_stock_box">
+					<div class="left_common_title">
+						<span id="attention_num">--</span><span>人关注了该股票</span>
+					</div>
+					<ul class="attention_stock_content clearfix">
+
+					</ul>
+				</div>
+
+				<div class="other_stock_box">
+					<div class="left_common_title">	关注该股票的人还关注了</div>
+					<ul class="my_hot_content other_stock_content">
+					</ul>
+				</div>
+
+				<!-- 2021-10-20 PCQ-283 隐藏大数据诊股 -->
+				<!--<div class="diagnose_stock_box" >
+						<div class="left_common_title">	大数据诊股</div>
+						<div class="diagnose_stock_content">
+							<span class="diagnose_info">诊断</span> ：<span id="diagnose_info_msg"></span>
+						</div>
+					</div>-->
+		</div>
+	</div>
+</section>
+
+<script type="text/javascript">
+	if(window.AGQCONFIG){
+    $('.main_wrap').addClass('main_wrap_agq');
+	  $('.refrsh_icon').css('right','80px')
+  }
+	else{
+		if (stock_code === 'sh000001' || stock_code === 'sz399001' || stock_code === 'sz399006'
+			|| stock_code === 'USI:COMP' || stock_code === 'USI:DJI' || stock_code === 'USI:SP500' || stock_code === 'HKHSI'
+			|| stock_code === 'USI:TSLA'
+			|| stock_code === 'sh000016' || stock_code === 'sh000688' || stock_code === 'sh000300' || stock_code === 'bj899050'
+			|| stock_code.substr(0, 4) === 'sh11' || stock_code.substr(0, 4) === 'sz12'
+      || stock_code === 'sh000852' || stock_code === 'sh000905' || stock_code === 'sh000888'
+    )  {
+      //不能模拟炒股的
+      $('.refrsh_icon').css('right','80px')
+      $('.stock_data_public .simu').css('display','none');
+    } else {
+      //可以模拟炒股的
+      $('.stock_data_public .simu').css('display','flex');
+      $('.refrsh_icon').css('right','161px')
+    }
+	}
+
+
+	function introduce_fn(introduce){
+    
+		let _html = `
+		
+		<div class="stock-widget">
+			<div class="widget-header">
+				<div class="title">简介</div>
+				<a href="javascript:;" class="more" id="widget-more">更多
+					<svg xmlns="http://www.w3.org/2000/svg" width="6" height="11" viewBox="0 0 6 11" fill="none">
+						<path d="M0.913971 10.0022C0.736448 9.83272 0.710956 9.56381 0.841424 9.36588L0.897667 9.29532L4.79825 5.21018L0.907435 1.35525C0.733033 1.18253 0.712448 0.913198 0.846503 0.717681L0.904023 0.648155C1.07675 0.473754 1.34608 0.453169 1.5416 0.587223L1.61112 0.644744L5.85169 4.84459C6.02115 5.01243 6.04566 5.27198 5.92303 5.46631L5.86145 5.54515L1.62089 9.98593C1.43018 10.1856 1.11368 10.1929 0.913971 10.0022Z" fill="#979797"/>
+					</svg>
+				</a>
+			</div>
+			<div class="widget-content stock-profile">
+				${introduce.length >= 85  ? 
+					
+					`
+						<div class="profile-detail hide" style="display: none;">
+							${introduce}
+							<a href="#" class="fold">收起
+								<svg xmlns="http://www.w3.org/2000/svg" width="11" height="7" viewBox="0 0 11 7" fill="none">
+									<path d="M1 6.3358L5.67161 1.66419L10.3432 6.3358" stroke="#1B8EE2" stroke-width="1.5"/>
+								</svg>
+							</a>
+						</div>
+						<div class="profile-summary" style="">
+							${introduce.substr(0,60)}...
+							<a href="#" class="unfold">展开
+								<svg xmlns="http://www.w3.org/2000/svg" width="11" height="7" viewBox="0 0 11 7" fill="none">
+									<path d="M1 0.664187L5.67161 5.3358L10.3432 0.664187" stroke="#1B8EE2" stroke-width="1.5"/>
+								</svg>
+							</a>    
+						</div>
+					` : 
+					
+					`
+						<div class="profile-summary" style="">
+							${introduce}  
+						</div>
+					
+					`
+				}
+
+			</div>
+		</div>
+		
+		`
+		
+		$('.main_right').prepend(_html);
+		$('.banner2212,#banner2212').hide();
+	}
+	if(stock_data.introduce){
+		introduce_fn(stock_data.introduce)
+	}
+	
+
+
+
+
+</script>
+
+
+<!-- 尾部代码start -->
+
+<div id="agpCommonFooter"></div>
+<script>
+    if(window.AGQCONFIG){
+      $('#agpCommonFooter').remove();
+    }
+</script>
+<!-- 尾部代码end -->
+
+<!-- 右侧小秘书start -->
+<style>
+  .v2_sideBar.home_bind_go_top {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .v2_sideBar li.agp_go_top {
+    display: none; 
+    position: absolute; 
+    bottom: -63px;
+    width: 100%; 
+    height: 63px;
+    background-color: #fff;
+    border-left: 1px solid #eaeaea; 
+    border-right: 1px solid #eaeaea;
+    margin-left: -1px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+  .v2_sideBar li.agp_go_top a {
+    cursor: pointer;
+  }
+</style>
+<!-- 去掉 $is_zxzq_domain 显示4个 其他显示2个的规则  -->
+<!-- 详情见right_column_old.html -->
+
+<ul class="v2_sideBar">
+    <li class="sideBar_xms" style="display:block;">
+        <a href="javascript:;" class="service_xms" id="xms_online">
+            <div class="v2_sideBar_li">
+                <img src="https://cdn.aigupiao.com/static/pc/img/secretary.png" alt="secretary">
+                <p>爱股票<br />小秘书</p>
+            </div>
+        </a>
+        <!-- <div class="service_xms_layer">
+            <a href="javascript:;"  class="v2_right_login">
+                <div class="xms_layer_wrap">
+                    <i></i>
+                    <img src="https://cdn.aigupiao.com/static/pc/img/secretary.png" alt="secretary" />
+                    <div class="wxkf_intro">
+                        <h5>爱股票小秘书<em>在线</em></h5>
+                        <p>点击与爱股票小秘书在线交谈</p>
+                    </div>
+                </div>
+            </a>
+        </div> -->
+    </li>
+    <!-- 无企微了 -->
+    <!-- <li class="sideBar_wx">
+        <a href="javascript:;" class="service_wx">
+            <div class="v2_sideBar_li">
+                <span></span>
+                <p>微信客服</p>
+            </div>
+        </a>
+        <div class="service_wx_layer">
+            <div class="xms_layer_wrap clearfix">
+                <i></i>
+                <img src="https://cdncos.aigupiao.com/assets/pc/img/wx_blue_qr_code.png" alt="微信客服"/>
+                <div class="wxkf_intro">
+                  <h5>微信客服</h5>
+                  <p>扫描左侧二维码，添加爱股票企业微信客服</p>
+                </div>
+            </div>
+        </div>
+    </li> -->
+    <!-- <li class="sideBar_qq">
+        <a href="javascript:;" class="service_qq">
+            <div class="v2_sideBar_li">
+                <span></span>
+                <p>QQ客服</p>
+            </div>
+        </a>
+        <div class="service_xms_layer" style="width: 290px;height: 118px;top: -25px;">
+
+            <div class="xms_layer_wrap clearfix">
+                <i style="top: 50px;"></i>
+                <img style="border-radius: 0;width:90px;height:90px;margin:14px 10px 0 14px;float: left" src="https://cdncos.aigupiao.com/static/pc/img/qq3096252373.png" alt="爱股票QQ客服">
+                <div class="wxkf_intro" style="width: 155px;">
+                    <h5 style="font:14px/25px '微软雅黑';font-weight: bold;">QQ客服</h5>
+                    <p style="font:12px/19px '微软雅黑';">扫描左侧二维码，或手动添加QQ号<span style="color:#ed4040;">3096252373</span>，添加爱股票QQ客服</p>
+                </div>
+            </div>
+
+        </div>
+    </li> -->
+    <!-- <li class="sideBar_tel">
+        <a href="javascript:;" class="service_tel">
+            <div class="v2_sideBar_li">
+                <span></span>
+                <p>服务热线</p>
+            </div>
+        </a>
+        <div class="service_xms_layer" style="height:90px;">
+            <div class="xms_layer_wrap clearfix">
+                <i></i>
+                <div class="wxkf_intro">
+                    <h5>服务热线</h5>
+                    <p>15396010715</p>
+                    <span>服务时间：工作日9点-18点</span>
+                </div>
+            </div>
+        </div>
+    </li> -->
+    <!-- <li class="sideBar_tel sideBar_apply">
+        <a href="/pcv/collaborator" class="service_tel service_apply" target="_blank">
+            <div class="v2_sideBar_li">
+                <span></span>
+                <p>申请入驻</p>
+            </div>
+        </a>
+    </li> -->
+    <!--APP下载-->
+    <li class="sideBar_app" style="display: block">
+        <a href="javascript:;" class="service_app">
+            <div class="v2_sideBar_li">
+                <span></span>
+                <p>APP下载</p>
+            </div>
+        </a>
+        <div class="service_xms_layer">
+            <div class="xms_layer_wrap clearfix">
+                <i></i>
+                <img src="https://cdncos.aigupiao.com/assets/pc/img/qrcode.png" alt="下载爱股票APP" />
+                <div class="wxkf_intro">
+                    <p>扫描二维码</p>
+                    <p>下载爱股票APP</p>
+                </div>
+            </div>
+        </div>
+    </li>
+    <!-- <li class="sideBar_apply" style="display: none">
+        <a href="/pcv/contact" target="_blank" class="service_apply">
+            <div class="v2_sideBar_li">
+                <span style="width: 18px;height: 18px;background-image: none;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                        <path d="M17.4826 7.16577C17.6331 7.07538 17.7252 6.91269 17.7252 6.73713V5.61516C17.7252 5.4593 17.5548 5.36333 17.4215 5.44413L11.0186 9.32559C10.7 9.51874 10.3004 9.51874 9.98183 9.32559L3.57894 5.44413C3.44565 5.36333 3.27526 5.4593 3.27526 5.61516V6.73713C3.27526 6.91269 3.36733 7.07538 3.51783 7.16577L9.98536 11.0501C10.3022 11.2404 10.6982 11.2404 11.0151 11.0501L17.4826 7.16577ZM17.7252 3C18.2041 3 18.6197 3.17742 18.9718 3.53225C19.3239 3.88708 19.5 4.29649 19.5 4.76048V15.2395C19.5 15.7035 19.3239 16.1129 18.9718 16.4678C18.6197 16.8226 18.2041 17 17.7252 17H3.27481C2.79588 17 2.38034 16.8226 2.02821 16.4678C1.67607 16.1129 1.5 15.7035 1.5 15.2395V4.76048C1.5 4.29649 1.67607 3.88708 2.02821 3.53225C2.38034 3.17742 2.79588 3 3.27481 3H17.7252Z" fill="#F97070"/>
+                    </svg>
+                </span>
+                <p>联系我们</p>
+            </div>
+        </a>
+    </li> -->
+</ul>
+
+<script>
+
+if(window.AGQCONFIG){
+    $('.v2_sideBar').remove();
+}
+
+
+  $('.v2_sideBar').append(`
+    <li class="agp_go_top">
+      <a href="javascript:;" class="agp_top">
+        <div class="v2_sideBar_li" style="border-bottom: none">
+          <img src="https://cdncos.aigupiao.com/assets/pc/svg/go_top.svg" alt="">
+          <p>回到顶部</p>
+        </div>
+      </a>
+    </li>  
+  `)
+  agpComStr.setRightClose();
+  goTopFn();
+  function goTopFn() {
+      if ($(window).scrollTop() > 1000) {
+        $(".agp_go_top").fadeIn(400);
+        $(".v2_sideBar").addClass("home_bind_go_top");
+      } else { 
+        $(".agp_go_top").fadeOut(400); 
+        $(".v2_sideBar").removeClass("home_bind_go_top");
+      }
+  }
+  $(window).scroll(goTopFn);
+  $(".agp_go_top").click(function() {
+      $('body,html').animate({scrollTop: 0},200); 
+      return false;
+  });
+  
+</script>
+<!-- 右侧小秘书end -->
+
+<!--登录相关的html-->
+<!-- pc/js/loginPop/loginDialog.js -->
+<!--登录相关的html-->
+
+<!-- 管理弹窗start -->
+<div class="managePopup" style="display:none;">
+	<div class="mP_head"><h5>提示</h5></div>
+	<div class="mP_psg">
+		<p class="mP_nor">确认屏蔽此人发布的所有直播？</p>
+		<p class="mP_weak">下载APP可在：账号安全与隐私中解除对该老师的屏蔽</p>
+		<textarea id="mP_input" type="text" placeholder="输入编辑内容" rows="2"></textarea>
+	</div>
+	<div class="mP_btn">
+		<div class="mP_btnBox clearfix">
+			<a href="javascript:void(0)" class="mP_confirm">确认</a>
+			<div class="mP_cancle">取消</div>
+		</div>
+	</div>
+</div>
+<div class="manageBg" style="display:none;"></div>
+<!-- 管理弹窗end --> 
+
+<!--视频播放弹窗-->
+<script src="https://cdn1.aigupiao.com/pc/js/lib/echarts/echarts.min.js?v=20260920145637122"></script>
+<!-- <script src="https://cdn1.aigupiao.com/pc/js/stock_market/common.js?v=20260920145637122"></script> -->
+<script src="https://cdn1.aigupiao.com/sr/pc/js/stock/discuss_both.js?v=20260920145637122"></script>
+<script src="https://cdn1.aigupiao.com/sr/pc/js/stock/stock_discuss.js?v=20260920145637122"></script>
+<script src="https://cdn1.aigupiao.com/sr/pc/js/stock/investInteraction.js?v=20260920145637122"></script>
+
+<!-- 图表 -->         
+<script src="https://cdn1.aigupiao.com/sr/pc/js/stock/echarts/drawchart.js?v=20260920145637122"></script>
+<script src="https://cdn1.aigupiao.com/sr/pc/js/stock/echarts/drawchart_us.js?v=20260920145637122"></script>
+<script src="https://cdn1.aigupiao.com/sr/pc/js/stock/echarts/drawchart_hsi.js?v=20260920145637122"></script>
+
+<!-- 股票数据 -->  
+<script src="https://cdn1.aigupiao.com/sr/pc/js/stock/stock_market.js?v=20260920145637122"></script>
+<!-- 爱股圈股票 -->
+<script src="https://cdn1.aigupiao.com/sr/pc/js/stock/agq_stock.js?v=20260920145637122"></script>
+
+<script src="https://cdn1.aigupiao.com/pc/js/stock_market/vendor-1.js?v=20260920145637122"></script>
+<script src="https://cdn1.aigupiao.com/pc/js/stock_market/vendor-2.js?v=20260920145637122"></script>
+<script src="https://cdn1.aigupiao.com/pc/js/stock_market/vendor-3.js?v=20260920145637122"></script>
+<script src="https://cdn1.aigupiao.com/sr/pc/js/stock/stockComon.js?v=20260920145637122"></script>
+<!-- js部分end -->
+</body>
+</html>
